@@ -1,756 +1,87 @@
 {
   "date": "20241201",
-  "scraped_at": "2025-07-11T21:00:21.792156",
+  "scraped_at": "2025-07-15T20:22:32.181439",
   "companies": [
     {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_[id*='showcal']",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_.showlist",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "TRX",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "AM",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "ET",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
-    },
-    {
-      "symbol": "UNTY",
-      "source": "ew_pattern_#showcal",
-      "raw_html": "<div class=\"row calhdr d-none d-xl-flex w-100  ewbg-gold h6\" id=\"cal-dhdr\"><div class=\"col-2 text-center smcalhdr sortbtn\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentC"
+      "symbol": "JPM",
+      "source": "*[class*='eps']",
+      "raw_text": "JPM\nJPMorgan Chase & Co.\n6:55 AM ET\nEarnings:\nRevenue:\n$4.51\n$43.81 Bil\n$4.96\n$69.94 Bil\n-7.9%\n10.0%\n-",
+      "revenue_millions": 43810.0,
+      "revenue_raw": "$43.81 Bil",
+      "growth_rate": -7.9,
+      "growth_raw": "-7.9%"
+    },
+    {
+      "symbol": "C",
+      "source": "*[class*='eps']",
+      "raw_text": "C\nCitigroup, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.61\n$20.95 Bil\n$1.96\n$42.35 Bil\n-0.7%\n21.7%",
+      "revenue_millions": 20950.0,
+      "revenue_raw": "$20.95 Bil",
+      "growth_rate": -0.7,
+      "growth_raw": "-0.7%"
+    },
+    {
+      "symbol": "BLK",
+      "source": "*[class*='eps']",
+      "raw_text": "BLK\nBlackRock, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$10.79\n$5.38 Bil\n$12.05\n$5.42 Bil\n12.9%\n11.7%\n-",
+      "revenue_millions": 5380.0,
+      "revenue_raw": "$5.38 Bil",
+      "growth_rate": 12.9,
+      "growth_raw": "12.9%"
+    },
+    {
+      "symbol": "WFC",
+      "source": "*[class*='eps']",
+      "raw_text": "WFC\nWells Fargo & Co.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.41\n$20.70 Bil\n$1.54\n$30.43 Bil\n-3.8%\n9.2%\n-",
+      "revenue_millions": 20700.0,
+      "revenue_raw": "$20.70 Bil",
+      "growth_rate": -3.8,
+      "growth_raw": "-3.8%"
+    },
+    {
+      "symbol": "STT",
+      "source": "*[class*='eps']",
+      "raw_text": "STT\nState Street Corp.\n7:40 AM ET\nEarnings:\nRevenue:\n$2.36\n$3.37 Bil\n$2.53\n$5.77 Bil\n5.9%\n7.2%\n-",
+      "revenue_millions": 3370.0,
+      "revenue_raw": "$3.37 Bil",
+      "growth_rate": 5.9,
+      "growth_raw": "5.9%"
+    },
+    {
+      "symbol": "BK",
+      "source": "*[class*='eps']",
+      "raw_text": "BK\nBank of New York Mellon Corporation\n6:35 AM ET\nEarnings:\nRevenue:\n$1.74\n$4.86 Bil\n$1.94\n$10.43 Bil\n4.7%\n11.5%\n-",
+      "revenue_millions": 4860.0,
+      "revenue_raw": "$4.86 Bil",
+      "growth_rate": 4.7,
+      "growth_raw": "4.7%"
+    },
+    {
+      "symbol": "ANGO",
+      "source": "*[class*='eps']",
+      "raw_text": "ANGO\nAngioDynamics\n6:30 AM ET\nEarnings:\nRevenue:\n$-0.13\n$74.55 Mil\n$-0.03\n$80.16 Mil\n12.9%\n76.9%",
+      "revenue_millions": 74.55,
+      "revenue_raw": "$74.55 Mil",
+      "growth_rate": 12.9,
+      "growth_raw": "12.9%"
+    },
+    {
+      "symbol": "ERIC",
+      "source": "*[class*='eps']",
+      "raw_text": "ERIC\nEricsson\n5:00 AM ET\nEarnings:\nRevenue:\n$0.12\n$6.05 Bil\n$0.14\n$5.81 Bil\n3.8%\n16.7%\n-",
+      "revenue_millions": 6050.0,
+      "revenue_raw": "$6.05 Bil",
+      "growth_rate": 3.8,
+      "growth_raw": "3.8%"
+    },
+    {
+      "symbol": "ACI",
+      "source": "*[class*='eps']",
+      "raw_text": "ACI\nAlbertsons Companies, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.49\n$24.72 Bil\n$0.51\n$24.88 Bil\n2.5%\n4.1%",
+      "revenue_millions": 24720.0,
+      "revenue_raw": "$24.72 Bil",
+      "growth_rate": 2.5,
+      "growth_raw": "2.5%"
     }
   ],
   "status": "success"

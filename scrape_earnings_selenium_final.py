@@ -315,6 +315,9 @@ class EarningsSeleniumScraper:
             # Strategy 6: Look for specific EarningsWhispers content patterns
             companies.extend(self.extract_from_ew_patterns())
             
+            # Remove duplicates and clean data
+            companies = self.deduplicate_companies(companies)
+            
             earnings_data['companies'] = companies
             
             if len(companies) == 0:
@@ -322,6 +325,36 @@ class EarningsSeleniumScraper:
                 earnings_data['message'] = f'No earnings data found for {date_str}. This might be a future date with no scheduled earnings.'
             
             self.debug_print(f"Total companies found: {len(companies)}")
+            
+            # Apply filtering criteria and save filtered results
+            if companies:
+                # Load tracking list
+                tracking_list = self.load_tracking_list()
+                filtered_companies = self.filter_companies_by_criteria(companies, tracking_list)
+                if filtered_companies:
+                    filtered_data = {
+                        'date': date_str,
+                        'scraped_at': datetime.now().isoformat(),
+                        'filter_criteria': {
+                            'revenue_growth_rules': [
+                                '>10M revenue and >50% growth',
+                                '>100M revenue and >30% growth',
+                                '>500M revenue and >25% growth', 
+                                '>1000M revenue and >20% growth',
+                                '>5000M revenue and >15% growth'
+                            ],
+                            'tracking_list': sorted(list(tracking_list)) if tracking_list else [],
+                            'tracking_list_count': len(tracking_list) if tracking_list else 0
+                        },
+                        'companies': filtered_companies,
+                        'total_filtered': len(filtered_companies),
+                        'total_original': len(companies)
+                    }
+                    
+                    # Save filtered results
+                    filtered_filename = f"earnings_filtered_{date_str}.json"
+                    self.save_to_file(filtered_data, filtered_filename)
+                    self.debug_print(f"Saved {len(filtered_companies)} filtered companies to {filtered_filename}")
             
             # Save page source for debugging
             if self.debug:
@@ -350,6 +383,22 @@ class EarningsSeleniumScraper:
                     rows = table.find_elements(By.TAG_NAME, "tr")
                     self.debug_print(f"Table {i+1} has {len(rows)} rows")
                     
+                    # Find header row to identify "Reported Revenue" column
+                    header_row = None
+                    reported_revenue_col = -1
+                    
+                    if len(rows) > 0:
+                        header_cells = rows[0].find_elements(By.TAG_NAME, "th")
+                        if not header_cells:  # Try td if no th elements
+                            header_cells = rows[0].find_elements(By.TAG_NAME, "td")
+                        
+                        for col_idx, header_cell in enumerate(header_cells):
+                            header_text = header_cell.text.strip().lower()
+                            if 'reported revenue' in header_text and 'estimate' not in header_text:
+                                reported_revenue_col = col_idx
+                                self.debug_print(f"Found 'Reported Revenue' column at index {col_idx}")
+                                break
+                    
                     for j, row in enumerate(rows[1:]):  # Skip header
                         cells = row.find_elements(By.TAG_NAME, "td")
                         if len(cells) >= 2:
@@ -362,6 +411,9 @@ class EarningsSeleniumScraper:
                                     company_data['symbol'] = text
                                 elif k == 1 and text:
                                     company_data['company_name'] = text
+                                elif k == reported_revenue_col and text and reported_revenue_col > -1:
+                                    # This is the reported revenue column
+                                    company_data['reported_revenue'] = text
                                 elif k > 1 and text:
                                     company_data[f'cell_{k}'] = text
                             
@@ -494,7 +546,7 @@ class EarningsSeleniumScraper:
                         'USE', 'MAN', 'NEW', 'NOW', 'WAY', 'MAY', 'SAY', 'SUN', 'MON', 'TUE',
                         'WED', 'THU', 'FRI', 'SAT', 'JAN', 'FEB', 'MAR', 'APR', 'JUN', 'JUL',
                         'AUG', 'SEP', 'OCT', 'NOV', 'DEC', 'TOP', 'END', 'KEY', 'OPEN', 'BMO',
-                        'AMC', 'TBD', 'NONE', 'VIEW', 'LIST', 'ONLY'
+                        'AMC', 'TBD', 'NONE', 'VIEW', 'LIST', 'ONLY', 'ET', 'PT', 'CT', 'MT'
                     }
                     
                     valid_tickers = [t for t in ticker_matches if t not in false_positives]
@@ -584,7 +636,8 @@ class EarningsSeleniumScraper:
                             false_positives = {
                                 'HTML', 'DIV', 'SPAN', 'CLASS', 'STYLE', 'HREF', 'SRC', 'ALT',
                                 'TEXT', 'FONT', 'SIZE', 'COLOR', 'BOLD', 'LINK', 'BUTTON',
-                                'FORM', 'INPUT', 'TABLE', 'TBODY', 'THEAD', 'CELL', 'ROW'
+                                'FORM', 'INPUT', 'TABLE', 'TBODY', 'THEAD', 'CELL', 'ROW',
+                                'AM', 'PM', 'ET', 'PT', 'CT', 'MT', 'EST', 'PST', 'GMT', 'UTC'
                             }
                             
                             valid_symbols = [s for s in symbol_matches if s not in false_positives]
@@ -608,6 +661,261 @@ class EarningsSeleniumScraper:
             self.debug_print(f"Error extracting from EW patterns: {e}")
         
         return companies
+    
+    def deduplicate_companies(self, companies):
+        """Remove duplicate companies and clean the data"""
+        symbol_to_best_company = {}
+        
+        for company in companies:
+            symbol = company.get('symbol', '').upper().strip()
+            
+            # Skip if symbol is invalid
+            if not symbol or len(symbol) > 5:
+                continue
+                
+            # Additional validation - must be valid stock symbol format
+            if not re.match(r'^[A-Z]{1,5}$', symbol):
+                continue
+                
+            # Skip common false positives that might have slipped through
+            false_positives = {
+                'AM', 'PM', 'ET', 'PT', 'CT', 'MT', 'EST', 'PST', 'GMT', 'UTC',
+                'HTML', 'DIV', 'SPAN', 'CLASS', 'STYLE', 'HREF', 'SRC', 'ALT',
+                'TEXT', 'FONT', 'SIZE', 'COLOR', 'BOLD', 'LINK', 'BUTTON',
+                'FORM', 'INPUT', 'TABLE', 'TBODY', 'THEAD', 'CELL', 'ROW',
+                'CEO', 'CFO', 'EPS', 'Q1', 'Q2', 'Q3', 'Q4', 'THE', 'AND',
+                'FOR', 'BUT', 'NOT', 'YOU', 'ALL', 'CAN', 'HAD', 'HER', 'WAS',
+                'ONE', 'OUR', 'OUT', 'DAY', 'GET', 'USE', 'MAN', 'NEW', 'NOW',
+                'WAY', 'MAY', 'SAY', 'TOP', 'END', 'KEY', 'OPEN', 'BMO', 'AMC',
+                'TBD', 'NONE', 'VIEW', 'LIST', 'ONLY'
+            }
+            
+            if symbol in false_positives:
+                continue
+            
+            # Calculate data richness score for this company
+            data_score = self.calculate_data_richness(company)
+            
+            # Keep the best version (highest data score) for each symbol
+            if symbol not in symbol_to_best_company or data_score > symbol_to_best_company[symbol]['score']:
+                symbol_to_best_company[symbol] = {
+                    'company': company,
+                    'score': data_score
+                }
+        
+        # Process the best companies
+        unique_companies = []
+        for symbol, best_data in symbol_to_best_company.items():
+            company = best_data['company']
+            
+            # Clean up the company data
+            cleaned_company = {
+                'symbol': symbol,
+                'source': company.get('source', 'unknown')
+            }
+            
+            # Add other fields if they exist and are meaningful
+            if 'company_name' in company and company['company_name']:
+                cleaned_company['company_name'] = company['company_name'].strip()
+            if 'raw_text' in company and company['raw_text'] and len(company['raw_text']) < 500:
+                cleaned_company['raw_text'] = company['raw_text'].strip()
+            if 'context_line' in company and company['context_line']:
+                cleaned_company['context_line'] = company['context_line'].strip()
+                
+            # Extract financial data from raw text
+            financial_data = self.extract_financial_data(company)
+            if financial_data:
+                cleaned_company.update(financial_data)
+                
+            unique_companies.append(cleaned_company)
+            
+        self.debug_print(f"Deduplicated from {len(companies)} to {len(unique_companies)} companies")
+        return unique_companies
+    
+    def calculate_data_richness(self, company):
+        """Calculate how much useful data a company entry contains"""
+        score = 0
+        
+        # Score based on presence of fields
+        if 'company_name' in company and company['company_name']:
+            score += 10
+        if 'reported_revenue' in company and company['reported_revenue']:
+            score += 100  # High priority for reported revenue
+        if 'raw_text' in company and company['raw_text']:
+            score += len(company['raw_text'])  # Longer text = more data
+        if 'context_line' in company and company['context_line']:
+            score += len(company['context_line'])
+        
+        # Bonus for financial indicators
+        text_content = ' '.join([
+            company.get('raw_text', ''),
+            company.get('context_line', ''),
+            company.get('company_name', ''),
+            company.get('reported_revenue', '')
+        ]).lower()
+        
+        if 'reported revenue' in text_content:
+            score += 80  # Higher priority for reported revenue
+        elif 'revenue' in text_content and 'estimate' not in text_content:
+            score += 50  # Regular revenue but not estimate
+        elif 'revenue' in text_content:
+            score += 20  # Revenue estimate (lower priority)
+            
+        if 'bil' in text_content or 'million' in text_content:
+            score += 30
+        if '%' in text_content:
+            score += 20
+        if 'earnings' in text_content:
+            score += 20
+        
+        return score
+    
+    def load_tracking_list(self):
+        """Load the tracking list from tracking_list.txt"""
+        tracking_list = set()
+        tracking_file = "tracking_list.txt"
+        
+        try:
+            if os.path.exists(tracking_file):
+                with open(tracking_file, 'r', encoding='utf-8') as f:
+                    for line in f:
+                        line = line.strip().upper()
+                        # Skip empty lines and comments
+                        if line and not line.startswith('#'):
+                            tracking_list.add(line)
+                            
+                self.debug_print(f"Loaded {len(tracking_list)} symbols from tracking list: {sorted(tracking_list)}")
+            else:
+                self.debug_print("No tracking_list.txt file found - using empty tracking list")
+                
+        except Exception as e:
+            self.debug_print(f"Error loading tracking list: {e}")
+            
+        return tracking_list
+    
+    def extract_financial_data(self, company):
+        """Extract revenue and growth data from company text"""
+        financial_data = {}
+        
+        # Get all text sources
+        text_sources = []
+        if 'raw_text' in company:
+            text_sources.append(company['raw_text'])
+        if 'context_line' in company:
+            text_sources.append(company['context_line'])
+        if 'company_name' in company:
+            text_sources.append(company['company_name'])
+        if 'reported_revenue' in company:
+            text_sources.append(f"Reported Revenue: {company['reported_revenue']}")
+        
+        combined_text = ' '.join(text_sources)
+        
+        # Extract revenue (prioritize "Reported Revenue" over "Revenue Estimate")
+        revenue_patterns = [
+            # First try to find "Reported Revenue" specifically
+            r'Reported Revenue:\s*\$?([0-9,]+(?:\.[0-9]+)?)\s*(Bil|Billion|B)',
+            r'Reported Revenue:\s*\$?([0-9,]+(?:\.[0-9]+)?)\s*(Mil|Million|M)',
+            r'Reported\s+Revenue[:\s]*\$?([0-9,]+(?:\.[0-9]+)?)\s*(Bil|Billion|B)',
+            r'Reported\s+Revenue[:\s]*\$?([0-9,]+(?:\.[0-9]+)?)\s*(Mil|Million|M)',
+            # Fallback to general revenue patterns (avoiding "Estimate")
+            r'Revenue:\s*\$?([0-9,]+(?:\.[0-9]+)?)\s*(Bil|Billion|B)(?!\s*Estimate)',
+            r'Revenue:\s*\$?([0-9,]+(?:\.[0-9]+)?)\s*(Mil|Million|M)(?!\s*Estimate)',
+            r'\$([0-9,]+(?:\.[0-9]+)?)\s*(Bil|Billion|B)(?!\s*Estimate)',
+            r'\$([0-9,]+(?:\.[0-9]+)?)\s*(Mil|Million|M)(?!\s*Estimate)',
+            r'([0-9,]+(?:\.[0-9]+)?)\s*(Bil|Billion|B)\s*Revenue(?!\s*Estimate)',
+            r'([0-9,]+(?:\.[0-9]+)?)\s*(Mil|Million|M)\s*Revenue(?!\s*Estimate)'
+        ]
+        
+        for pattern in revenue_patterns:
+            match = re.search(pattern, combined_text, re.IGNORECASE)
+            if match:
+                amount = float(match.group(1).replace(',', ''))
+                unit = match.group(2).lower()
+                
+                # Convert to millions
+                if unit.startswith('bil') or unit == 'b':
+                    revenue_millions = amount * 1000
+                else:  # mil, million, m
+                    revenue_millions = amount
+                    
+                financial_data['revenue_millions'] = revenue_millions
+                financial_data['revenue_raw'] = match.group(0)
+                break
+        
+        # Extract growth rate
+        growth_patterns = [
+            r'([+-]?[0-9]+(?:\.[0-9]+)?)\s*%',
+            r'([+-]?[0-9]+(?:\.[0-9]+)?)\s*percent',
+            r'growth:\s*([+-]?[0-9]+(?:\.[0-9]+)?)\s*%'
+        ]
+        
+        for pattern in growth_patterns:
+            match = re.search(pattern, combined_text, re.IGNORECASE)
+            if match:
+                growth_rate = float(match.group(1))
+                financial_data['growth_rate'] = growth_rate
+                financial_data['growth_raw'] = match.group(0)
+                break
+        
+        return financial_data if financial_data else None
+    
+    def filter_companies_by_criteria(self, companies, tracking_list=None):
+        """Filter companies based on revenue and growth criteria"""
+        filtered_companies = []
+        
+        if tracking_list is None:
+            tracking_list = set()
+        else:
+            tracking_list = set(symbol.upper().strip() for symbol in tracking_list)
+        
+        for company in companies:
+            symbol = company.get('symbol', '')
+            revenue = company.get('revenue_millions', 0)
+            growth = company.get('growth_rate', 0)
+            
+            # Check if company is in tracking list
+            if symbol in tracking_list:
+                self.debug_print(f"{symbol}: In tracking list")
+                filtered_companies.append(self.format_filtered_company(company, reason="tracking_list"))
+                continue
+            
+            # Apply revenue and growth criteria
+            if self.meets_criteria(revenue, growth):
+                self.debug_print(f"{symbol}: Meets criteria - Revenue: ${revenue}M, Growth: {growth}%")
+                filtered_companies.append(self.format_filtered_company(company, reason="revenue_growth_criteria"))
+            else:
+                self.debug_print(f"{symbol}: Does not meet criteria - Revenue: ${revenue}M, Growth: {growth}%")
+        
+        return filtered_companies
+    
+    def meets_criteria(self, revenue, growth):
+        """Check if company meets any of the filtering criteria"""
+        criteria = [
+            (10, 50),      # >10M revenue and >50% growth
+            (100, 30),     # >100M revenue and >30% growth  
+            (500, 25),     # >500M revenue and >25% growth
+            (1000, 20),    # >1000M revenue and >20% growth
+            (5000, 15),    # >5000M revenue and >15% growth
+        ]
+        
+        for min_revenue, min_growth in criteria:
+            if revenue > min_revenue and growth > min_growth:
+                return True
+        
+        return False
+    
+    def format_filtered_company(self, company, reason="unknown"):
+        """Format company data for filtered output"""
+        return {
+            'ticker': company.get('symbol', ''),
+            'name': company.get('company_name', ''),
+            'revenue_millions': company.get('revenue_millions', 0),
+            'revenue_raw': company.get('revenue_raw', ''),
+            'growth_rate': company.get('growth_rate', 0),
+            'growth_raw': company.get('growth_raw', ''),
+            'source': company.get('source', ''),
+            'filter_reason': reason
+        }
     
     def save_to_file(self, data, filename):
         """Save scraped data to a JSON file"""

@@ -1,0 +1,72 @@
+{
+  "date": "20250714",
+  "scraped_at": "2025-07-15T20:22:07.003426",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 12
+  },
+  "companies": [
+    {
+      "ticker": "JPM",
+      "name": "",
+      "revenue_millions": 43810.0,
+      "revenue_raw": "$43.81 Bil",
+      "growth_rate": -7.9,
+      "growth_raw": "-7.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "C",
+      "name": "",
+      "revenue_millions": 20950.0,
+      "revenue_raw": "$20.95 Bil",
+      "growth_rate": -0.7,
+      "growth_raw": "-0.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "BLK",
+      "name": "",
+      "revenue_millions": 5380.0,
+      "revenue_raw": "$5.38 Bil",
+      "growth_rate": 12.9,
+      "growth_raw": "12.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "WFC",
+      "name": "",
+      "revenue_millions": 20700.0,
+      "revenue_raw": "$20.70 Bil",
+      "growth_rate": -3.8,
+      "growth_raw": "-3.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 9
+}

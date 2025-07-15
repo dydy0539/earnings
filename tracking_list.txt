@@ -1,0 +1,18 @@
+# Company Tracking List
+# Add one stock symbol per line
+# Lines starting with # are comments and will be ignored
+# 
+# Example symbols (you can replace these with your actual tracking list):
+AAPL
+TSLA
+NVDA
+GOOGL
+MSFT
+AMZN
+META
+NFLX
+JPM
+C
+# Add more symbols below as needed
+WFC
+BLK
