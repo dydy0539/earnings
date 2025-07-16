@@ -351,8 +351,9 @@ class EarningsSeleniumScraper:
                         'total_original': len(companies)
                     }
                     
-                    # Save filtered results
-                    filtered_filename = f"earnings_filtered_{date_str}.json"
+                    # Save filtered results with timestamp
+                    timestamp = datetime.now().strftime("%H%M")
+                    filtered_filename = f"earnings_filtered_{date_str}_{timestamp}.json"
                     self.save_to_file(filtered_data, filtered_filename)
                     self.debug_print(f"Saved {len(filtered_companies)} filtered companies to {filtered_filename}")
             
@@ -938,8 +939,9 @@ def main():
     try:
         scraper = EarningsSeleniumScraper(headless=False, debug=True)  # Set headless=False to see browser
         
-        # Try both the original date and a more recent date for comparison
-        test_dates = ["20250714", "20241201"]  # Future date and recent past date
+        # Use today's date
+        today = datetime.now().strftime("%Y%m%d")
+        test_dates = [today]  # Use today's date
         
         for date_str in test_dates:
             print(f"\n{'='*50}")
@@ -956,8 +958,9 @@ def main():
                 companies = data.get('companies', [])
                 print(f"Total companies found: {len(companies)}")
                 
-                # Save to file
-                filename = f"earnings_calendar_final_{date_str}.json"
+                # Save to file with timestamp
+                timestamp = datetime.now().strftime("%H%M")
+                filename = f"earnings_calendar_final_{date_str}_{timestamp}.json"
                 scraper.save_to_file(data, filename)
                 
                 # Print summary
