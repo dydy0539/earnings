@@ -369,8 +369,8 @@ class EarningsSeleniumScraper:
                     self.save_to_file(filtered_data, filtered_filename)
                     self.debug_print(f"Saved {len(filtered_companies)} filtered companies to {filtered_filename}")
                     
-                    # Open SeekingAlpha tabs for filtered companies
-                    self.open_seeking_alpha_tabs(filtered_companies)
+                    # Print SeekingAlpha URLs for filtered companies
+                    self.print_seeking_alpha_urls(filtered_companies)
             
             # Save page source for debugging
             if self.debug:
@@ -933,41 +933,42 @@ class EarningsSeleniumScraper:
             'filter_reason': reason
         }
     
-    def open_seeking_alpha_tabs(self, filtered_companies):
-        """Open SeekingAlpha income statement tabs for filtered companies"""
+    def print_seeking_alpha_urls(self, filtered_companies):
+        """Print company summary and SeekingAlpha income statement URLs for filtered companies"""
         if not filtered_companies:
-            self.debug_print("No filtered companies to open tabs for")
+            self.debug_print("No filtered companies to print URLs for")
             return
             
-        self.debug_print(f"Opening SeekingAlpha tabs for {len(filtered_companies)} companies")
+        print(f"\nFiltered Companies Summary ({len(filtered_companies)} companies):")
+        print("=" * 80)
         
         for i, company in enumerate(filtered_companies):
             ticker = company.get('ticker', '').upper()
+            name = company.get('name', '')
+            revenue = company.get('revenue_raw', 'N/A')
+            growth = company.get('growth_raw', 'N/A')
+            
             if not ticker:
                 self.debug_print(f"Skipping company with no ticker: {company}")
                 continue
                 
-            url = f"https://seekingalpha.com/symbol/{ticker}/income-statement"
-            self.debug_print(f"Opening tab {i+1}/{len(filtered_companies)}: {ticker} - {url}")
-            
-            try:
-                # Open new tab
-                self.driver.execute_script("window.open('');")
-                # Switch to the new tab
-                self.driver.switch_to.window(self.driver.window_handles[-1])
-                # Navigate to the URL
-                self.driver.get(url)
+            print(f"{i+1}. {ticker} - {name}")
+            print(f"   Revenue: {revenue} | Growth: {growth}")
                 
-                # Brief pause between tabs to avoid overwhelming the browser
-                time.sleep(1)
-                
-            except Exception as e:
-                self.debug_print(f"Error opening tab for {ticker}: {e}")
+        print("=" * 80)
+        
+        print(f"\nSeekingAlpha URLs for {len(filtered_companies)} filtered companies:")
+        print("=" * 60)
+        
+        for i, company in enumerate(filtered_companies):
+            ticker = company.get('ticker', '').upper()
+            if not ticker:
                 continue
                 
-        self.debug_print(f"Opened {len(filtered_companies)} SeekingAlpha tabs")
-        self.debug_print("Browser window will remain open with all tabs for your review")
-        self.tabs_opened = True
+            url = f"https://seekingalpha.com/symbol/{ticker}/income-statement"
+            print(f"{i+1}. {ticker}: {url}")
+                
+        print("=" * 60)
     
     def save_to_file(self, data, filename):
         """Save scraped data to a JSON file"""
@@ -983,10 +984,6 @@ class EarningsSeleniumScraper:
         if hasattr(self, 'driver'):
             if force:
                 self.driver.quit()
-            elif self.tabs_opened:
-                self.debug_print("Browser left open for tab review - SeekingAlpha tabs are open")
-                # Don't close the browser when tabs are opened
-                return
             else:
                 self.driver.quit()
 
@@ -1057,35 +1054,7 @@ def main():
         
     finally:
         if scraper:
-            if scraper.tabs_opened:
-                print("\n" + "="*50)
-                print("BROWSER TABS OPENED FOR REVIEW")
-                print("="*50)
-                print("SeekingAlpha income statement tabs have been opened for filtered companies.")
-                print("The browser window will remain open for your review.")
-                print("Close the browser manually when you're finished reviewing the tabs.")
-                print("="*50)
-                # Don't close browser if tabs were opened - let it stay open indefinitely
-                print("Browser will remain open indefinitely for tab review.")
-                print("Press Ctrl+C to terminate this script and close the browser.")
-                try:
-                    # Keep the script running so the browser stays open
-                    import signal
-                    def signal_handler(sig, frame):
-                        print("\nScript interrupted. Closing browser...")
-                        scraper.close(force=True)
-                        import sys
-                        sys.exit(0)
-                    signal.signal(signal.SIGINT, signal_handler)
-                    # Wait indefinitely until user interrupts
-                    while True:
-                        import time
-                        time.sleep(1)
-                except KeyboardInterrupt:
-                    print("\nScript interrupted. Closing browser...")
-                    scraper.close(force=True)
-            else:
-                scraper.close(force=True)  # Close browser if no tabs were opened
+            scraper.close()
 
 
 if __name__ == "__main__":
