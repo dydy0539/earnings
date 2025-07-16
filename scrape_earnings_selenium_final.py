@@ -21,6 +21,7 @@ import re
 class EarningsSeleniumScraper:
     def __init__(self, headless=True, debug=False):
         self.debug = debug
+        self.tabs_opened = False
         self.setup_driver(headless)
         
     def find_chromedriver_path(self):
@@ -85,8 +86,19 @@ class EarningsSeleniumScraper:
         Scrape earnings calendar for a specific date
         date_str format: YYYYMMDD (e.g., '20250714')
         """
-        url = f"https://www.earningswhispers.com/calendar/{date_str}"
-        print(f"Scraping earnings calendar for {date_str}")
+        # Determine the time suffix based on Eastern Time
+        from datetime import datetime
+        import pytz
+        
+        # Get current time in Eastern Time
+        eastern = pytz.timezone('US/Eastern')
+        now_eastern = datetime.now(eastern)
+        
+        # If before 4 PM ET, use suffix 1; if after 4 PM ET, use suffix 2
+        time_suffix = "1" if now_eastern.hour < 16 else "2"
+        
+        url = f"https://www.earningswhispers.com/calendar/{date_str}/{time_suffix}"
+        print(f"Scraping earnings calendar for {date_str} (Eastern Time: {now_eastern.strftime('%H:%M %Z')}, suffix: {time_suffix})")
         
         try:
             # Navigate to the page
@@ -356,6 +368,9 @@ class EarningsSeleniumScraper:
                     filtered_filename = f"earnings_filtered_{date_str}_{timestamp}.json"
                     self.save_to_file(filtered_data, filtered_filename)
                     self.debug_print(f"Saved {len(filtered_companies)} filtered companies to {filtered_filename}")
+                    
+                    # Open SeekingAlpha tabs for filtered companies
+                    self.open_seeking_alpha_tabs(filtered_companies)
             
             # Save page source for debugging
             if self.debug:
@@ -918,6 +933,42 @@ class EarningsSeleniumScraper:
             'filter_reason': reason
         }
     
+    def open_seeking_alpha_tabs(self, filtered_companies):
+        """Open SeekingAlpha income statement tabs for filtered companies"""
+        if not filtered_companies:
+            self.debug_print("No filtered companies to open tabs for")
+            return
+            
+        self.debug_print(f"Opening SeekingAlpha tabs for {len(filtered_companies)} companies")
+        
+        for i, company in enumerate(filtered_companies):
+            ticker = company.get('ticker', '').upper()
+            if not ticker:
+                self.debug_print(f"Skipping company with no ticker: {company}")
+                continue
+                
+            url = f"https://seekingalpha.com/symbol/{ticker}/income-statement"
+            self.debug_print(f"Opening tab {i+1}/{len(filtered_companies)}: {ticker} - {url}")
+            
+            try:
+                # Open new tab
+                self.driver.execute_script("window.open('');")
+                # Switch to the new tab
+                self.driver.switch_to.window(self.driver.window_handles[-1])
+                # Navigate to the URL
+                self.driver.get(url)
+                
+                # Brief pause between tabs to avoid overwhelming the browser
+                time.sleep(1)
+                
+            except Exception as e:
+                self.debug_print(f"Error opening tab for {ticker}: {e}")
+                continue
+                
+        self.debug_print(f"Opened {len(filtered_companies)} SeekingAlpha tabs")
+        self.debug_print("Browser window will remain open with all tabs for your review")
+        self.tabs_opened = True
+    
     def save_to_file(self, data, filename):
         """Save scraped data to a JSON file"""
         try:
@@ -927,10 +978,17 @@ class EarningsSeleniumScraper:
         except Exception as e:
             print(f"Error saving to file: {e}")
     
-    def close(self):
+    def close(self, force=False):
         """Close the WebDriver"""
         if hasattr(self, 'driver'):
-            self.driver.quit()
+            if force:
+                self.driver.quit()
+            elif self.tabs_opened:
+                self.debug_print("Browser left open for tab review - SeekingAlpha tabs are open")
+                # Don't close the browser when tabs are opened
+                return
+            else:
+                self.driver.quit()
 
 
 def main():
@@ -939,9 +997,14 @@ def main():
     try:
         scraper = EarningsSeleniumScraper(headless=False, debug=True)  # Set headless=False to see browser
         
-        # Use today's date
-        today = datetime.now().strftime("%Y%m%d")
-        test_dates = [today]  # Use today's date
+        # Use today's date in Eastern Time
+        from datetime import datetime
+        import pytz
+        
+        eastern = pytz.timezone('US/Eastern')
+        today_eastern = datetime.now(eastern)
+        today = today_eastern.strftime("%Y%m%d")
+        test_dates = [today]  # Use today's date in Eastern Time
         
         for date_str in test_dates:
             print(f"\n{'='*50}")
@@ -994,7 +1057,35 @@ def main():
         
     finally:
         if scraper:
-            scraper.close()
+            if scraper.tabs_opened:
+                print("\n" + "="*50)
+                print("BROWSER TABS OPENED FOR REVIEW")
+                print("="*50)
+                print("SeekingAlpha income statement tabs have been opened for filtered companies.")
+                print("The browser window will remain open for your review.")
+                print("Close the browser manually when you're finished reviewing the tabs.")
+                print("="*50)
+                # Don't close browser if tabs were opened - let it stay open indefinitely
+                print("Browser will remain open indefinitely for tab review.")
+                print("Press Ctrl+C to terminate this script and close the browser.")
+                try:
+                    # Keep the script running so the browser stays open
+                    import signal
+                    def signal_handler(sig, frame):
+                        print("\nScript interrupted. Closing browser...")
+                        scraper.close(force=True)
+                        import sys
+                        sys.exit(0)
+                    signal.signal(signal.SIGINT, signal_handler)
+                    # Wait indefinitely until user interrupts
+                    while True:
+                        import time
+                        time.sleep(1)
+                except KeyboardInterrupt:
+                    print("\nScript interrupted. Closing browser...")
+                    scraper.close(force=True)
+            else:
+                scraper.close(force=True)  # Close browser if no tabs were opened
 
 
 if __name__ == "__main__":

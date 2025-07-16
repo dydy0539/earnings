@@ -25,8 +25,11 @@ def run_earnings_scraper():
     try:
         logging.info("Starting scheduled earnings scraper...")
         
-        # Get today's date in YYYYMMDD format
-        today = datetime.now().strftime("%Y%m%d")
+        # Get today's date in YYYYMMDD format using Eastern Time
+        import pytz
+        eastern = pytz.timezone('US/Eastern')
+        today_eastern = datetime.now(eastern)
+        today = today_eastern.strftime("%Y%m%d")
         
         scraper = EarningsSeleniumScraper(headless=True, debug=False)
         data = scraper.scrape_calendar(today)

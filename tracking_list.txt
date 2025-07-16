@@ -16,3 +16,6 @@ C
 # Add more symbols below as needed
 WFC
 BLK
+ASML
+BAC
+MS
