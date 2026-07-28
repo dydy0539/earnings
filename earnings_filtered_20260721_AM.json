@@ -1,0 +1,75 @@
+{
+  "date": "20260721",
+  "scraped_at": "2026-07-22T09:00:49.360898",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "COF",
+      "name": "Capital One Financial Corp.",
+      "revenue_millions": 15700.0,
+      "revenue_raw": "$15.70 Bil",
+      "growth_rate": 21.7,
+      "growth_raw": "21.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NLY",
+      "name": "Annaly Capital Management, Inc.",
+      "revenue_millions": 1810.0,
+      "revenue_raw": "$1.81 Bil",
+      "growth_rate": 27.7,
+      "growth_raw": "27.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IBKR",
+      "name": "Interactive Brokers Group Inc",
+      "revenue_millions": 1790.0,
+      "revenue_raw": "$1.79 Bil",
+      "growth_rate": 22.5,
+      "growth_raw": "22.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NIC",
+      "name": "Nicolet Bankshares, Inc.",
+      "revenue_millions": 172.3,
+      "revenue_raw": "$172.30 Mil",
+      "growth_rate": 71.5,
+      "growth_raw": "71.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 32
+}

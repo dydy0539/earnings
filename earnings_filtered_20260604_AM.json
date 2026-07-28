@@ -1,0 +1,65 @@
+{
+  "date": "20260604",
+  "scraped_at": "2026-06-05T09:00:34.950668",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "RBRK",
+      "name": "Rubrik, Inc.",
+      "revenue_millions": 366.15,
+      "revenue_raw": "$366.15 Mil",
+      "growth_rate": 39.0,
+      "growth_raw": "39.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IOT",
+      "name": "Samsara Inc.",
+      "revenue_millions": 455.46,
+      "revenue_raw": "$455.46 Mil",
+      "growth_rate": 30.5,
+      "growth_raw": "30.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AGX",
+      "name": "Argan Inc.",
+      "revenue_millions": 252.51,
+      "revenue_raw": "$252.51 Mil",
+      "growth_rate": 50.2,
+      "growth_raw": "50.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 16
+}

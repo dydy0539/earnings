@@ -1,0 +1,116 @@
+{
+  "date": "20251014",
+  "scraped_at": "2025-10-14T21:00:36.837799",
+  "companies": [
+    {
+      "symbol": "BCE",
+      "source": "*[class*='eps']",
+      "raw_text": "BCE\nBCE, Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.52\n$4.39 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 4390.0,
+      "revenue_raw": "$4.39 Bil"
+    },
+    {
+      "symbol": "FB",
+      "source": "*[class*='company']",
+      "raw_text": "FB Financial Corporation"
+    },
+    {
+      "symbol": "BLK",
+      "source": "*[class*='eps']",
+      "raw_text": "BLK\nBlackRock, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$11.19\n$6.26 Bil\n$11.55\n$6.51 Bil\n25.2%\n3.2%\n-",
+      "revenue_millions": 6260.0,
+      "revenue_raw": "$6.26 Bil",
+      "growth_rate": 25.2,
+      "growth_raw": "25.2%"
+    },
+    {
+      "symbol": "JPM",
+      "source": "*[class*='eps']",
+      "raw_text": "JPM\nJPMorgan Chase & Co.\n6:35 AM ET\nEarnings:\nRevenue:\n$4.83\n$44.66 Bil\n$5.07\n$71.90 Bil\n3.2%\n5.0%\n-",
+      "revenue_millions": 44660.0,
+      "revenue_raw": "$44.66 Bil",
+      "growth_rate": 3.2,
+      "growth_raw": "3.2%"
+    },
+    {
+      "symbol": "GS",
+      "source": "*[class*='eps']",
+      "raw_text": "GS\nGoldman Sachs Group, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$11.11\n$13.86 Bil\n$12.25\n$32.15 Bil\n2.0%\n10.3%\n-",
+      "revenue_millions": 13860.0,
+      "revenue_raw": "$13.86 Bil",
+      "growth_rate": 2.0,
+      "growth_raw": "2.0%"
+    },
+    {
+      "symbol": "C",
+      "source": "*[class*='eps']",
+      "raw_text": "C\nCitigroup, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.91\n$21.01 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 21010.0,
+      "revenue_raw": "$21.01 Bil"
+    },
+    {
+      "symbol": "DPZ",
+      "source": "*[class*='eps']",
+      "raw_text": "DPZ\nDomino's Pizza, Inc.\n6:05 AM ET\nEarnings:\nRevenue:\n$3.99\n$1.14 Bil\n$4.08\n$1.15 Bil\n6.2%\n2.3%\n-",
+      "revenue_millions": 1140.0,
+      "revenue_raw": "$1.14 Bil",
+      "growth_rate": 6.2,
+      "growth_raw": "6.2%"
+    },
+    {
+      "symbol": "WFC",
+      "source": "*[class*='eps']",
+      "raw_text": "WFC\nWells Fargo & Co.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.55\n$21.16 Bil\n$1.73\n$31.91 Bil\n0.7%\n11.6%\n-",
+      "revenue_millions": 21160.0,
+      "revenue_raw": "$21.16 Bil",
+      "growth_rate": 0.7,
+      "growth_raw": "0.7%"
+    },
+    {
+      "symbol": "JNJ",
+      "source": "*[class*='eps']",
+      "raw_text": "JNJ\nJohnson & Johnson\n6:20 AM ET\nEarnings:\nRevenue:\n$2.77\n$23.74 Bil\n$2.80\n$23.99 Bil\n6.8%\n1.1%",
+      "revenue_millions": 23740.0,
+      "revenue_raw": "$23.74 Bil",
+      "growth_rate": 6.8,
+      "growth_raw": "6.8%"
+    },
+    {
+      "symbol": "ERIC",
+      "source": "*[class*='eps']",
+      "raw_text": "ERIC\nEricsson\n5:00 AM ET\nEarnings:\nRevenue:\n$0.14\n$5.90 Bil\n$0.16\n$5.82 Bil\n-1.9%\n14.3%\n-",
+      "revenue_millions": 5900.0,
+      "revenue_raw": "$5.90 Bil",
+      "growth_rate": -1.9,
+      "growth_raw": "-1.9%"
+    },
+    {
+      "symbol": "ACI",
+      "source": "*[class*='eps']",
+      "raw_text": "ACI\nAlbertsons Companies, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.36\n$18.90 Bil\n$0.42\n$18.92 Bil\n2.0%\n16.7%",
+      "revenue_millions": 18900.0,
+      "revenue_raw": "$18.90 Bil",
+      "growth_rate": 2.0,
+      "growth_raw": "2.0%"
+    },
+    {
+      "symbol": "FBK",
+      "source": "*[class*='eps']",
+      "raw_text": "FBK\nFB Financial Corporation\nBefore Open\nEarnings:\nRevenue:\n$1.03\n$168.86 Mil\n$1.07\n$263.53 Mil\n55.8%\n3.9%\n-",
+      "revenue_millions": 168.86,
+      "revenue_raw": "$168.86 Mil",
+      "growth_rate": 55.8,
+      "growth_raw": "55.8%"
+    },
+    {
+      "symbol": "SOTK",
+      "source": "*[class*='eps']",
+      "raw_text": "SOTK\nSono-Tek Corp\n7:00 AM ET\nEarnings:\nRevenue:\n$0.02\n$5.20 Mil\n$0.03\n$5.16 Mil\n0.0%\n50.0%",
+      "revenue_millions": 5.2,
+      "revenue_raw": "$5.20 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

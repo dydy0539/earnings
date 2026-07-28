@@ -1,0 +1,95 @@
+{
+  "date": "20260330",
+  "scraped_at": "2026-03-30T22:09:08.526897",
+  "companies": [
+    {
+      "symbol": "CBAK",
+      "source": "*[class*='company']",
+      "raw_text": "CBAK Energy Technology, Inc."
+    },
+    {
+      "symbol": "PDS",
+      "source": "*[class*='company']",
+      "raw_text": "PDS Biotechnology Corporation"
+    },
+    {
+      "symbol": "LTD",
+      "source": "*[class*='company']",
+      "raw_text": "PULSENMORE LTD"
+    },
+    {
+      "symbol": "RZLV",
+      "source": "*[class*='eps']",
+      "raw_text": "RZLV\nRezolve Ai\n8:00 AM ETEarnings Screener Tool\nEarnings:\nRevenue:\n$-0.04\n$20.00 Mil\n$-0.38\n-\n0.0%\n-850.0%",
+      "revenue_millions": 20.0,
+      "revenue_raw": "$20.00 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "PAVM",
+      "source": "*[class*='eps']",
+      "raw_text": "PAVM\nPAVmed Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-4.80\n$100.00 Thou\n$-1.31\n$52.00 Thou\n420.0%\n72.7%\n-",
+      "growth_rate": 420.0,
+      "growth_raw": "420.0%"
+    },
+    {
+      "symbol": "FRMI",
+      "source": "*[class*='eps']",
+      "raw_text": "FRMI\nFermi, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n$28.27 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 28.27,
+      "revenue_raw": "$28.27 Mil"
+    },
+    {
+      "symbol": "BCAX",
+      "source": "*[class*='eps']",
+      "raw_text": "BCAX\nBicara Therapeutics Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.72\n-\n$-0.68\n-\n0.0%\n5.6%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CBAT",
+      "source": "*[class*='eps']",
+      "raw_text": "CBAT\nCBAK Energy Technology, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.03\n$64.57 Mil\n$-0.08\n$58.80 Mil\n131.8%\n-166.7%\n-",
+      "revenue_millions": 64.57,
+      "revenue_raw": "$64.57 Mil",
+      "growth_rate": 131.8,
+      "growth_raw": "131.8%"
+    },
+    {
+      "symbol": "IMSR",
+      "source": "*[class*='eps']",
+      "raw_text": "IMSR\nTerrestrial Energy Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "NMRA",
+      "source": "*[class*='eps']",
+      "raw_text": "NMRA\nNeumora Therapeutics, Inc.\n7:00 AM ETCustom Calendar Integration\nEarnings:\nRevenue:\n$-0.34\n-\n$-0.35\n-\n0.0%\n-2.9%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "PDSB",
+      "source": "*[class*='eps']",
+      "raw_text": "PDSB\nPDS Biotechnology Corporation\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.20\n-\n$-0.14\n-\n0.0%\n30.0%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KEN",
+      "source": "*[class*='eps']",
+      "raw_text": "KEN\nKenon Holdings Ltd.\n6:55 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "NA",
+      "source": "*[class*='eps']",
+      "raw_text": "NA\nNano Labs Ltd\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "PLSM",
+      "source": "*[class*='eps']",
+      "raw_text": "PLSM\nPULSENMORE LTD\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,64 @@
+{
+  "source_file": "earnings_filtered_20260204_BM.json",
+  "analyzed_at": "2026-02-04T22:03:47.201657",
+  "total_companies": 7,
+  "successful_analyses": 0,
+  "companies": [
+    {
+      "company_name": "UBS AG",
+      "ticker": "UBS",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    },
+    {
+      "company_name": "Uber Technologies, Inc.",
+      "ticker": "UBER",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    },
+    {
+      "company_name": "Eli Lilly & Co.",
+      "ticker": "LLY",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    },
+    {
+      "company_name": "Boston Scientific Corporation",
+      "ticker": "BSX",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    },
+    {
+      "company_name": "Bunge Ltd.",
+      "ticker": "BG",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    },
+    {
+      "company_name": "Brookfield Asset Management",
+      "ticker": "BAM",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    },
+    {
+      "company_name": "Evercore",
+      "ticker": "EVR",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    }
+  ]
+}

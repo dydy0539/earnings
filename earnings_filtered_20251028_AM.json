@@ -1,0 +1,135 @@
+{
+  "date": "20251028",
+  "scraped_at": "2025-10-29T09:01:35.019437",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology plc",
+      "revenue_millions": 2530.0,
+      "revenue_raw": "$2.53 Bil",
+      "growth_rate": 21.3,
+      "growth_raw": "21.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy Corporation",
+      "revenue_millions": 412.37,
+      "revenue_raw": "$412.37 Mil",
+      "growth_rate": 57.1,
+      "growth_raw": "57.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OKE",
+      "name": "ONEOK Inc.",
+      "revenue_millions": 9420.0,
+      "revenue_raw": "$9.42 Bil",
+      "growth_rate": 71.9,
+      "growth_raw": "71.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NGD",
+      "name": "New Gold Inc",
+      "revenue_millions": 1410.0,
+      "revenue_raw": "$1.41 Bil",
+      "growth_rate": 83.5,
+      "growth_raw": "83.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy Corporation",
+      "revenue_millions": 2020.0,
+      "revenue_raw": "$2.02 Bil",
+      "growth_rate": 357.7,
+      "growth_raw": "357.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CGAU",
+      "name": "Centerra Gold Inc.",
+      "revenue_millions": 1230.0,
+      "revenue_raw": "$1.23 Bil",
+      "growth_rate": 22.0,
+      "growth_raw": "22.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences, Inc.",
+      "revenue_millions": 741.55,
+      "revenue_raw": "$741.55 Mil",
+      "growth_rate": 27.8,
+      "growth_raw": "27.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TYGO",
+      "name": "Tigo Energy, Inc.",
+      "revenue_millions": 29.77,
+      "revenue_raw": "$29.77 Mil",
+      "growth_rate": 115.0,
+      "growth_raw": "115.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UMBF",
+      "name": "UMB Financial Corporation",
+      "revenue_millions": 1080.0,
+      "revenue_raw": "$1.08 Bil",
+      "growth_rate": 51.1,
+      "growth_raw": "51.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BUSE",
+      "name": "First Busey Corp.",
+      "revenue_millions": 194.9,
+      "revenue_raw": "$194.90 Mil",
+      "growth_rate": 67.6,
+      "growth_raw": "67.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 10,
+  "total_original": 105
+}

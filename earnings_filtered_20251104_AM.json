@@ -1,0 +1,285 @@
+{
+  "date": "20251104",
+  "scraped_at": "2025-11-05T09:02:37.980334",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "revenue_millions": 8720.0,
+      "revenue_raw": "$8.72 Bil",
+      "growth_rate": 35.6,
+      "growth_raw": "35.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
+      "revenue_millions": 2260.0,
+      "revenue_raw": "$2.26 Bil",
+      "growth_rate": 27.5,
+      "growth_raw": "27.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALAB",
+      "name": "Astera Labs",
+      "revenue_millions": 206.73,
+      "revenue_raw": "$206.73 Mil",
+      "growth_rate": 103.9,
+      "growth_raw": "103.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise, Inc.",
+      "revenue_millions": 699.57,
+      "revenue_raw": "$699.57 Mil",
+      "growth_rate": 30.6,
+      "growth_raw": "30.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart Holdings, Inc.",
+      "revenue_millions": 281.02,
+      "revenue_raw": "$281.02 Mil",
+      "growth_rate": 70.9,
+      "growth_raw": "70.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MARA",
+      "name": "Marathon Digital Holdings, Inc.",
+      "revenue_millions": 245.03,
+      "revenue_raw": "$245.03 Mil",
+      "growth_rate": 91.7,
+      "growth_raw": "91.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RIVN",
+      "name": "Rivian Automotive, Inc.",
+      "revenue_millions": 1460.0,
+      "revenue_raw": "$1.46 Bil",
+      "growth_rate": 78.3,
+      "growth_raw": "78.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KGC",
+      "name": "Kinross Gold Corp.",
+      "revenue_millions": 1530.0,
+      "revenue_raw": "$1.53 Bil",
+      "growth_rate": 25.8,
+      "growth_raw": "25.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TEM",
+      "name": "Tempus AI, Inc.",
+      "revenue_millions": 326.88,
+      "revenue_raw": "$326.88 Mil",
+      "growth_rate": 84.7,
+      "growth_raw": "84.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CLOV",
+      "name": "Clover Health",
+      "revenue_millions": 475.4,
+      "revenue_raw": "$475.40 Mil",
+      "growth_rate": 50.1,
+      "growth_raw": "50.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TOST",
+      "name": "Toast",
+      "revenue_millions": 1590.0,
+      "revenue_raw": "$1.59 Bil",
+      "growth_rate": 25.1,
+      "growth_raw": "25.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CPNG",
+      "name": "Coupang, Inc.",
+      "revenue_millions": 9060.0,
+      "revenue_raw": "$9.06 Bil",
+      "growth_rate": 17.8,
+      "growth_raw": "17.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AFL",
+      "name": "AFLAC, Inc.",
+      "revenue_millions": 4490.0,
+      "revenue_raw": "$4.49 Bil",
+      "growth_rate": 60.7,
+      "growth_raw": "60.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IAG",
+      "name": "IAMGOLD Corp.",
+      "revenue_millions": 2600.0,
+      "revenue_raw": "$2.60 Bil",
+      "growth_rate": 61.0,
+      "growth_raw": "61.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SSRM",
+      "name": "SSR Mining Inc.",
+      "revenue_millions": 1520.0,
+      "revenue_raw": "$1.52 Bil",
+      "growth_rate": 49.9,
+      "growth_raw": "49.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "revenue_millions": 526.26,
+      "revenue_raw": "$526.26 Mil",
+      "growth_rate": 58.4,
+      "growth_raw": "58.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ERO",
+      "name": "Ero Copper Corp.",
+      "revenue_millions": 215.45,
+      "revenue_raw": "$215.45 Mil",
+      "growth_rate": 41.9,
+      "growth_raw": "41.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GPOR",
+      "name": "Gulfport Energy Corp.",
+      "revenue_millions": 352.85,
+      "revenue_raw": "$352.85 Mil",
+      "growth_rate": 49.6,
+      "growth_raw": "49.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LMB",
+      "name": "Limbach Holdings, Inc.",
+      "revenue_millions": 184.46,
+      "revenue_raw": "$184.46 Mil",
+      "growth_rate": 37.8,
+      "growth_raw": "37.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "revenue_millions": 131.89,
+      "revenue_raw": "$131.89 Mil",
+      "growth_rate": 47.2,
+      "growth_raw": "47.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Co.",
+      "revenue_millions": 3440.0,
+      "revenue_raw": "$3.44 Bil",
+      "growth_rate": 22.8,
+      "growth_raw": "22.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDRE",
+      "name": "Cadre Holdings, Inc.",
+      "revenue_millions": 159.64,
+      "revenue_raw": "$159.64 Mil",
+      "growth_rate": 42.5,
+      "growth_raw": "42.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ECG",
+      "name": "Everus Construction Group",
+      "revenue_millions": 820.65,
+      "revenue_raw": "$820.65 Mil",
+      "growth_rate": 29.7,
+      "growth_raw": "29.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HG",
+      "name": "Hamilton Insurance Group, Ltd.",
+      "revenue_millions": 612.29,
+      "revenue_raw": "$612.29 Mil",
+      "growth_rate": 30.2,
+      "growth_raw": "30.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc.",
+      "revenue_millions": 115.47,
+      "revenue_raw": "$115.47 Mil",
+      "growth_rate": 146.7,
+      "growth_raw": "146.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 25,
+  "total_original": 211
+}

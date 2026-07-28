@@ -1,0 +1,85 @@
+{
+  "date": "20260514",
+  "scraped_at": "2026-05-14T22:06:04.394445",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines, Inc.",
+      "revenue_millions": 201.9,
+      "revenue_raw": "$201.90 Mil",
+      "growth_rate": 198.7,
+      "growth_raw": "198.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRMD",
+      "name": "CorMedix, Inc.",
+      "revenue_millions": 109.85,
+      "revenue_raw": "$109.85 Mil",
+      "growth_rate": 226.1,
+      "growth_raw": "226.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AUTL",
+      "name": "Autolus Therapeutics plc",
+      "revenue_millions": 26.27,
+      "revenue_raw": "$26.27 Mil",
+      "growth_rate": 191.9,
+      "growth_raw": "191.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BTDR",
+      "name": "Bitdeer Technologies Group",
+      "revenue_millions": 194.15,
+      "revenue_raw": "$194.15 Mil",
+      "growth_rate": 169.4,
+      "growth_raw": "169.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FENC",
+      "name": "Fennec Pharmaceuticals Inc.",
+      "revenue_millions": 13.94,
+      "revenue_raw": "$13.94 Mil",
+      "growth_rate": 72.6,
+      "growth_raw": "72.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 108
+}

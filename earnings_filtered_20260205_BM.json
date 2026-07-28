@@ -1,0 +1,75 @@
+{
+  "date": "20260205",
+  "scraped_at": "2026-02-05T22:01:03.567606",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "KKR",
+      "name": "KKR & Co. L.P.",
+      "revenue_millions": 1440.0,
+      "revenue_raw": "$1.44 Bil",
+      "growth_rate": 76.1,
+      "growth_raw": "76.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CAH",
+      "name": "Cardinal Health, Inc.",
+      "revenue_millions": 64180.00000000001,
+      "revenue_raw": "$64.18 Bil",
+      "growth_rate": 18.8,
+      "growth_raw": "18.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ROAD",
+      "name": "Construction Partners, Inc.",
+      "revenue_millions": 756.5,
+      "revenue_raw": "$756.50 Mil",
+      "growth_rate": 44.1,
+      "growth_raw": "44.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LQDT",
+      "name": "Liquidity Services Inc.",
+      "revenue_millions": 121.22,
+      "revenue_raw": "$121.22 Mil",
+      "growth_rate": 46.4,
+      "growth_raw": "46.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 102
+}

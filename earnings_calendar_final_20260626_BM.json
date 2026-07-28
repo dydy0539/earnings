@@ -1,0 +1,42 @@
+{
+  "date": "20260626",
+  "scraped_at": "2026-06-26T22:00:34.980866",
+  "companies": [
+    {
+      "symbol": "APOG",
+      "source": "*[class*='eps']",
+      "raw_text": "APOG\nApogee Enterprises, Inc.\n6:30 AM ETEarnings Screener tool\nEarnings:\nRevenue:\n$0.43\n$333.87 Mil\n$0.57\n$342.68 Mil\n-1.1%\n32.6%",
+      "revenue_millions": 333.87,
+      "revenue_raw": "$333.87 Mil",
+      "growth_rate": -1.1,
+      "growth_raw": "-1.1%"
+    },
+    {
+      "symbol": "CNVS",
+      "source": "*[class*='eps']",
+      "raw_text": "CNVS\nCineverse Corp.\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.24\n$25.97 Mil\n0.0%\n-\n-",
+      "revenue_millions": 25.97,
+      "revenue_raw": "$25.97 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "XAIR",
+      "source": "*[class*='eps']",
+      "raw_text": "XAIR\nBeyond Air, Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.77\n$1.91 Mil\n0.0%\n-\n-",
+      "revenue_millions": 1.91,
+      "revenue_raw": "$1.91 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "AFB",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AIRT",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

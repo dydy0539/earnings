@@ -1,0 +1,85 @@
+{
+  "date": "20260714",
+  "scraped_at": "2026-07-14T22:01:36.463222",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "C",
+      "name": "Citigroup, Inc.",
+      "revenue_millions": 23680.0,
+      "revenue_raw": "$23.68 Bil",
+      "growth_rate": 7.0,
+      "growth_raw": "7.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "GS",
+      "name": "Goldman Sachs Group, Inc.",
+      "revenue_millions": 16490.0,
+      "revenue_raw": "$16.49 Bil",
+      "growth_rate": 22.9,
+      "growth_raw": "22.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "revenue_millions": 48710.0,
+      "revenue_raw": "$48.71 Bil",
+      "growth_rate": 17.9,
+      "growth_raw": "17.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America Corp.",
+      "revenue_millions": 30620.0,
+      "revenue_raw": "$30.62 Bil",
+      "growth_rate": 5.8,
+      "growth_raw": "5.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo & Co.",
+      "revenue_millions": 21800.0,
+      "revenue_raw": "$21.80 Bil",
+      "growth_rate": 10.4,
+      "growth_raw": "10.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 15
+}

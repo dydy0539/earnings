@@ -1,0 +1,45 @@
+{
+  "date": "20250716",
+  "scraped_at": "2025-07-17T10:56:05.652879",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "SNV",
+      "name": "Synovus Financial Corp.",
+      "revenue_millions": 583.84,
+      "revenue_raw": "$583.84 Mil",
+      "growth_rate": 34.2,
+      "growth_raw": "34.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 1,
+  "total_original": 21
+}

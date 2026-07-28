@@ -1,0 +1,155 @@
+{
+  "date": "20260211",
+  "scraped_at": "2026-02-12T10:36:10.667375",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "APP",
+      "name": "AppLovin Corporation",
+      "revenue_millions": 1600.0,
+      "revenue_raw": "$1.60 Bil",
+      "growth_rate": 20.8,
+      "growth_raw": "20.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AR",
+      "name": "Antero Resources Corp",
+      "revenue_millions": 1310.0,
+      "revenue_raw": "$1.31 Bil",
+      "growth_rate": 20.8,
+      "growth_raw": "20.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRK",
+      "name": "Comstock Resources Inc.",
+      "revenue_millions": 467.93,
+      "revenue_raw": "$467.93 Mil",
+      "growth_rate": 115.5,
+      "growth_raw": "115.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LPTH",
+      "name": "LightPath Technologies Inc.",
+      "revenue_millions": 13.27,
+      "revenue_raw": "$13.27 Mil",
+      "growth_rate": 120.2,
+      "growth_raw": "120.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MFC",
+      "name": "Manulife Financial Corp.",
+      "revenue_millions": 29060.0,
+      "revenue_raw": "$29.06 Bil",
+      "growth_rate": 19.9,
+      "growth_raw": "19.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PLMR",
+      "name": "Palomar Holdings, Inc.",
+      "revenue_millions": 221.99,
+      "revenue_raw": "$221.99 Mil",
+      "growth_rate": 62.7,
+      "growth_raw": "62.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ASND",
+      "name": "Ascendis Pharma A/S",
+      "revenue_millions": 289.72,
+      "revenue_raw": "$289.72 Mil",
+      "growth_rate": 55.3,
+      "growth_raw": "55.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SLF",
+      "name": "Sun Life Financial Inc.",
+      "revenue_millions": 6410.0,
+      "revenue_raw": "$6.41 Bil",
+      "growth_rate": 19.3,
+      "growth_raw": "19.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DAR",
+      "name": "Darling Ingredients Inc.",
+      "revenue_millions": 1530.0,
+      "revenue_raw": "$1.53 Bil",
+      "growth_rate": 20.6,
+      "growth_raw": "20.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FAF",
+      "name": "First American Corp",
+      "revenue_millions": 1860.0,
+      "revenue_raw": "$1.86 Bil",
+      "growth_rate": 21.6,
+      "growth_raw": "21.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NBIX",
+      "name": "Neurocrine Biosciences, Inc.",
+      "revenue_millions": 782.91,
+      "revenue_raw": "$782.91 Mil",
+      "growth_rate": 28.3,
+      "growth_raw": "28.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CXW",
+      "name": "CoreCivic, Inc.",
+      "revenue_millions": 587.25,
+      "revenue_raw": "$587.25 Mil",
+      "growth_rate": 26.0,
+      "growth_raw": "26.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 12,
+  "total_original": 84
+}

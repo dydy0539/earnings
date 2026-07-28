@@ -1,0 +1,65 @@
+{
+  "date": "20251125",
+  "scraped_at": "2025-11-25T22:00:31.548697",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "ADI",
+      "name": "Analog Devices, Inc.",
+      "revenue_millions": 3010.0,
+      "revenue_raw": "$3.01 Bil",
+      "growth_rate": 25.9,
+      "growth_raw": "25.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DKS",
+      "name": "DICK'S Sporting Goods, Inc.",
+      "revenue_millions": 3190.0,
+      "revenue_raw": "$3.19 Bil",
+      "growth_rate": 36.3,
+      "growth_raw": "36.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ATAT",
+      "name": "Atour Lifestyle Holdings Limited",
+      "revenue_millions": 350.04,
+      "revenue_raw": "$350.04 Mil",
+      "growth_rate": 36.4,
+      "growth_raw": "36.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 30
+}

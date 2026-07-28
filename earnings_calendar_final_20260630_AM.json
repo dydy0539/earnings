@@ -1,0 +1,34 @@
+{
+  "date": "20260630",
+  "scraped_at": "2026-07-01T09:00:28.743151",
+  "companies": [
+    {
+      "symbol": "NKE",
+      "source": "*[class*='eps']",
+      "raw_text": "NKE\nNike Inc\n4:15 PM ET\nEarnings:\nRevenue:\n$0.11\n$10.88 Bil\n$0.72\n$10.97 Bil\n-1.1%\n554.5%",
+      "revenue_millions": 10880.0,
+      "revenue_raw": "$10.88 Bil",
+      "growth_rate": -1.1,
+      "growth_raw": "-1.1%"
+    },
+    {
+      "symbol": "STZ",
+      "source": "*[class*='eps']",
+      "raw_text": "STZ\nConstellation Brands, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$3.22\n$2.42 Bil\n$3.43\n$2.59 Bil\n-3.3%\n6.5%",
+      "revenue_millions": 2420.0,
+      "revenue_raw": "$2.42 Bil",
+      "growth_rate": -3.3,
+      "growth_raw": "-3.3%"
+    },
+    {
+      "symbol": "PRGS",
+      "source": "*[class*='eps']",
+      "raw_text": "PRGS\nProgress Software Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.49\n$241.70 Mil\n$1.62\n$253.47 Mil\n6.8%\n8.7%",
+      "revenue_millions": 241.7,
+      "revenue_raw": "$241.70 Mil",
+      "growth_rate": 6.8,
+      "growth_raw": "6.8%"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,116 @@
+{
+  "date": "20251026",
+  "scraped_at": "2025-10-27T09:00:35.141070",
+  "companies": [
+    {
+      "symbol": "BCB",
+      "source": "*[class*='company']",
+      "raw_text": "BCB Bancorp Inc."
+    },
+    {
+      "symbol": "L",
+      "source": "*[class*='company']",
+      "raw_text": "Alliance Resource Partners, L.P."
+    },
+    {
+      "symbol": "KDP",
+      "source": "*[class*='eps']",
+      "raw_text": "KDP\nKeurig Dr Pepper\n7:00 AM ET\nEarnings:\n$0.54\nRevenue:\n$4.14 Bil\n6.4%",
+      "revenue_millions": 4140.0,
+      "revenue_raw": "Revenue:\n$4.14 Bil",
+      "growth_rate": 6.4,
+      "growth_raw": "6.4%"
+    },
+    {
+      "symbol": "CRI",
+      "source": "*[class*='eps']",
+      "raw_text": "CRI\nCarter's, Inc.\n6:00 AM ET\nEarnings:\n$0.78\nRevenue:\n$751.04 Mil\n-1.0%",
+      "revenue_millions": 751.04,
+      "revenue_raw": "Revenue:\n$751.04 Mil",
+      "growth_rate": -1.0,
+      "growth_raw": "-1.0%"
+    },
+    {
+      "symbol": "DEA",
+      "source": "*[class*='eps']",
+      "raw_text": "DEA\nEasterly Government Properties, Inc.\n6:30 AM ET\nEarnings:\n$0.76\nRevenue:\n$85.40 Mil\n14.2%",
+      "revenue_millions": 85.4,
+      "revenue_raw": "Revenue:\n$85.40 Mil",
+      "growth_rate": 14.2,
+      "growth_raw": "14.2%"
+    },
+    {
+      "symbol": "SIFY",
+      "source": "*[class*='eps']",
+      "raw_text": "SIFY\nSify Technologies Limited\n8:10 AM ET\nEarnings:\n$-0.01\nRevenue:\n$172.90 Mil\n40.9%",
+      "revenue_millions": 172.9,
+      "revenue_raw": "Revenue:\n$172.90 Mil",
+      "growth_rate": 40.9,
+      "growth_raw": "40.9%"
+    },
+    {
+      "symbol": "BMRC",
+      "source": "*[class*='eps']",
+      "raw_text": "BMRC\nBank of Marin Bancorp\n8:30 AM ET\nEarnings:\n$0.42\nRevenue:\n$31.10 Mil\n-20.7%",
+      "revenue_millions": 31.1,
+      "revenue_raw": "Revenue:\n$31.10 Mil",
+      "growth_rate": -20.7,
+      "growth_raw": "-20.7%"
+    },
+    {
+      "symbol": "RVTY",
+      "source": "*[class*='eps']",
+      "raw_text": "RVTY\nRevvity, Inc.\n6:00 AM ET\nEarnings:\n$1.14\nRevenue:\n$700.08 Mil\n2.3%",
+      "revenue_millions": 700.08,
+      "revenue_raw": "Revenue:\n$700.08 Mil",
+      "growth_rate": 2.3,
+      "growth_raw": "2.3%"
+    },
+    {
+      "symbol": "BOH",
+      "source": "*[class*='eps']",
+      "raw_text": "BOH\nBank of Hawaii Corp.\n6:45 AM ET\nEarnings:\n$1.13\nRevenue:\n$176.35 Mil\n-33.6%",
+      "revenue_millions": 176.35,
+      "revenue_raw": "Revenue:\n$176.35 Mil",
+      "growth_rate": -33.6,
+      "growth_raw": "-33.6%"
+    },
+    {
+      "symbol": "DQ",
+      "source": "*[class*='eps']",
+      "raw_text": "DQ\nDaqo New Energy Corp.\n7:00 AM ET\nEarnings:\n$-0.61\nRevenue:\n$162.30 Mil\n-18.2%",
+      "revenue_millions": 162.3,
+      "revenue_raw": "Revenue:\n$162.30 Mil",
+      "growth_rate": -18.2,
+      "growth_raw": "-18.2%"
+    },
+    {
+      "symbol": "BCBP",
+      "source": "*[class*='eps']",
+      "raw_text": "BCBP\nBCB Bancorp Inc.\n8:00 AM ET\nEarnings:\n$0.21\nRevenue:\n$25.68 Mil\n-50.4%",
+      "revenue_millions": 25.68,
+      "revenue_raw": "Revenue:\n$25.68 Mil",
+      "growth_rate": -50.4,
+      "growth_raw": "-50.4%"
+    },
+    {
+      "symbol": "LKFN",
+      "source": "*[class*='eps']",
+      "raw_text": "LKFN\nLakeland Financial Corp.\n7:00 AM ET\nEarnings:\n$1.02\nRevenue:\n$68.30 Mil\n-36.1%",
+      "revenue_millions": 68.3,
+      "revenue_raw": "Revenue:\n$68.30 Mil",
+      "growth_rate": -36.1,
+      "growth_raw": "-36.1%"
+    },
+    {
+      "symbol": "ARLP",
+      "source": "*[class*='eps']",
+      "raw_text": "ARLP\nAlliance Resource Partners, L.P.\n7:00 AM ET\nEarnings:\n$0.67\nRevenue:\n$563.74 Mil\n-8.1%",
+      "revenue_millions": 563.74,
+      "revenue_raw": "Revenue:\n$563.74 Mil",
+      "growth_rate": -8.1,
+      "growth_raw": "-8.1%"
+    }
+  ],
+  "status": "success"
+}

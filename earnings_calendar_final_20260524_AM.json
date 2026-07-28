@@ -1,0 +1,12 @@
+{
+  "date": "20260524",
+  "scraped_at": "2026-05-25T09:00:33.844925",
+  "companies": [
+    {
+      "symbol": "LX",
+      "source": "*[class*='eps']",
+      "raw_text": "LX\nLexinFintech Holdings Ltd.\n12:30 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    }
+  ],
+  "status": "success"
+}

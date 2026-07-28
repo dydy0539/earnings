@@ -1,0 +1,85 @@
+{
+  "date": "20260527",
+  "scraped_at": "2026-05-28T09:00:38.122894",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "revenue_millions": 2400.0,
+      "revenue_raw": "$2.40 Bil",
+      "growth_rate": 27.6,
+      "growth_raw": "27.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "revenue_millions": 1320.0,
+      "revenue_raw": "$1.32 Bil",
+      "growth_rate": 33.5,
+      "growth_raw": "33.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys, Inc.",
+      "revenue_millions": 2250.0,
+      "revenue_raw": "$2.25 Bil",
+      "growth_rate": 41.9,
+      "growth_raw": "41.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BRZE",
+      "name": "Braze",
+      "revenue_millions": 205.18,
+      "revenue_raw": "$205.18 Mil",
+      "growth_rate": 30.2,
+      "growth_raw": "30.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HEI",
+      "name": "HEICO Corporation",
+      "revenue_millions": 1240.0,
+      "revenue_raw": "$1.24 Bil",
+      "growth_rate": 25.3,
+      "growth_raw": "25.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 25
+}

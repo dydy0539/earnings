@@ -1,0 +1,65 @@
+{
+  "date": "20251016",
+  "scraped_at": "2025-10-16T21:00:52.332954",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "revenue_millions": 31650.0,
+      "revenue_raw": "$31.65 Bil",
+      "growth_rate": 40.8,
+      "growth_raw": "40.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab Corp.",
+      "revenue_millions": 5920.0,
+      "revenue_raw": "$5.92 Bil",
+      "growth_rate": 26.6,
+      "growth_raw": "26.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IIIN",
+      "name": "Insteel Industries Inc.",
+      "revenue_millions": 179.4,
+      "revenue_raw": "$179.40 Mil",
+      "growth_rate": 32.1,
+      "growth_raw": "32.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 22
+}

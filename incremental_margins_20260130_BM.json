@@ -1,0 +1,64 @@
+{
+  "source_file": "earnings_filtered_20260130_BM.json",
+  "analyzed_at": "2026-01-30T22:00:55.046205",
+  "total_companies": 3,
+  "successful_analyses": 2,
+  "companies": [
+    {
+      "company_name": "SoFi",
+      "ticker": "SOFI",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 38.6,
+      "operating_income_growth_pct": 38.6,
+      "details": {
+        "latest_quarter": {
+          "revenue": 961600000.0,
+          "operating_income": 961600000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 693798000.0,
+          "operating_income": 693798000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "WisdomTree, Inc.",
+      "ticker": "WT",
+      "status": "success",
+      "incremental_operating_margin": 58.41,
+      "latest_operating_margin": 38.26,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 11.0,
+      "operating_income_growth_pct": 17.82,
+      "details": {
+        "latest_quarter": {
+          "revenue": 125616000.0,
+          "operating_income": 48063000.0,
+          "operating_margin_pct": 38.26
+        },
+        "prior_year_quarter": {
+          "revenue": 113168000.0,
+          "operating_income": 40792000.0,
+          "operating_margin_pct": 36.05
+        }
+      }
+    },
+    {
+      "company_name": "Moog Inc.",
+      "ticker": "MOG",
+      "status": "data_unavailable",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": null,
+      "error": "Could not fetch financial data"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "date": "20251127",
+  "scraped_at": "2025-11-28T09:00:29.705516",
+  "companies": [
+    {
+      "symbol": "FRSX",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AU",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ADR",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,185 @@
+{
+  "date": "20260504",
+  "scraped_at": "2026-05-05T08:17:47.108378",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "revenue_millions": 1540.0,
+      "revenue_raw": "$1.54 Bil",
+      "growth_rate": 84.7,
+      "growth_raw": "84.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies, Inc.",
+      "revenue_millions": 818.58,
+      "revenue_raw": "$818.58 Mil",
+      "growth_rate": 26.1,
+      "growth_raw": "26.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "revenue_millions": 1200.0,
+      "revenue_raw": "$1.20 Bil",
+      "growth_rate": 39.3,
+      "growth_raw": "39.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STRL",
+      "name": "Sterling Construction Company, Inc.",
+      "revenue_millions": 582.51,
+      "revenue_raw": "$582.51 Mil",
+      "growth_rate": 91.6,
+      "growth_raw": "91.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALSN",
+      "name": "Allison Transmission Holdings, Inc.",
+      "revenue_millions": 1380.0,
+      "revenue_raw": "$1.38 Bil",
+      "growth_rate": 83.6,
+      "growth_raw": "83.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LSCC",
+      "name": "Lattice Semiconductor Corp.",
+      "revenue_millions": 163.31,
+      "revenue_raw": "$163.31 Mil",
+      "growth_rate": 42.2,
+      "growth_raw": "42.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ERO",
+      "name": "Ero Copper Corp.",
+      "revenue_millions": 1130.0,
+      "revenue_raw": "$1.13 Bil",
+      "growth_rate": 110.4,
+      "growth_raw": "110.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AEIS",
+      "name": "Advanced Energy Industries, Inc.",
+      "revenue_millions": 508.2,
+      "revenue_raw": "$508.20 Mil",
+      "growth_rate": 26.3,
+      "growth_raw": "26.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PAY",
+      "name": "Paymentus Holdings, Inc.",
+      "revenue_millions": 335.38,
+      "revenue_raw": "$335.38 Mil",
+      "growth_rate": 30.2,
+      "growth_raw": "30.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VNOM",
+      "name": "Viper Energy Partners LP",
+      "revenue_millions": 499.5,
+      "revenue_raw": "$499.50 Mil",
+      "growth_rate": 108.6,
+      "growth_raw": "108.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BWIN",
+      "name": "Baldwin Group",
+      "revenue_millions": 524.95,
+      "revenue_raw": "$524.95 Mil",
+      "growth_rate": 28.7,
+      "growth_raw": "28.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRGY",
+      "name": "Crescent Energy",
+      "revenue_millions": 1200.0,
+      "revenue_raw": "$1.20 Bil",
+      "growth_rate": 24.5,
+      "growth_raw": "24.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NUVB",
+      "name": "Nuvation Bio Inc.",
+      "revenue_millions": 82.93,
+      "revenue_raw": "$82.93 Mil",
+      "growth_rate": 598.7,
+      "growth_raw": "598.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VVX",
+      "name": "V2X, Inc.",
+      "revenue_millions": 1120.0,
+      "revenue_raw": "$1.12 Bil",
+      "growth_rate": 23.4,
+      "growth_raw": "23.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TVTX",
+      "name": "Travere Therapeutics, Inc.",
+      "revenue_millions": 129.58,
+      "revenue_raw": "$129.58 Mil",
+      "growth_rate": 55.6,
+      "growth_raw": "55.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 15,
+  "total_original": 100
+}

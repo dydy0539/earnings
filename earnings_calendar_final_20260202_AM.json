@@ -1,0 +1,188 @@
+{
+  "date": "20260202",
+  "scraped_at": "2026-02-03T09:00:39.235344",
+  "companies": [
+    {
+      "symbol": "NXP",
+      "source": "*[class*='company']",
+      "raw_text": "NXP Semiconductors N.V."
+    },
+    {
+      "symbol": "MGIC",
+      "source": "*[class*='company']",
+      "raw_text": "MGIC Investment Corp."
+    },
+    {
+      "symbol": "PLTR",
+      "source": "*[class*='eps']",
+      "raw_text": "PLTR\nPalantir Technologies Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.23\n$1.35 Bil\n$0.25\n$1.41 Bil\n70.0%\n8.7%",
+      "revenue_millions": 1350.0,
+      "revenue_raw": "$1.35 Bil",
+      "growth_rate": 70.0,
+      "growth_raw": "70.0%"
+    },
+    {
+      "symbol": "TER",
+      "source": "*[class*='eps']",
+      "raw_text": "TER\nTeradyne, Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$1.36\n$968.83 Mil\n$1.80\n$1.08 Bil\n43.9%\n32.4%",
+      "revenue_millions": 1080.0,
+      "revenue_raw": "$1.08 Bil",
+      "growth_rate": 43.9,
+      "growth_raw": "43.9%"
+    },
+    {
+      "symbol": "NXPI",
+      "source": "*[class*='eps']",
+      "raw_text": "NXPI\nNXP Semiconductors N.V.\n4:10 PM ET\nEarnings:\nRevenue:\n$3.30\n$3.30 Bil\n$3.35\n$3.33 Bil\n7.2%\n1.5%",
+      "revenue_millions": 3300.0,
+      "revenue_raw": "$3.30 Bil",
+      "growth_rate": 7.2,
+      "growth_raw": "7.2%"
+    },
+    {
+      "symbol": "FN",
+      "source": "*[class*='eps']",
+      "raw_text": "FN\nFabrinet\n4:15 PM ET\nEarnings:\nRevenue:\n$3.25\n$1.08 Bil\n$3.36\n$1.13 Bil\n35.9%\n3.4%",
+      "revenue_millions": 1080.0,
+      "revenue_raw": "$1.08 Bil",
+      "growth_rate": 35.9,
+      "growth_raw": "35.9%"
+    },
+    {
+      "symbol": "WWD",
+      "source": "*[class*='eps']",
+      "raw_text": "WWD\nWoodward, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$1.65\n$891.31 Mil\n$2.17\n$996.45 Mil\n29.0%\n31.5%",
+      "revenue_millions": 891.31,
+      "revenue_raw": "$891.31 Mil",
+      "growth_rate": 29.0,
+      "growth_raw": "29.0%"
+    },
+    {
+      "symbol": "RMBS",
+      "source": "*[class*='eps']",
+      "raw_text": "RMBS\nRambus, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.54\n$187.00 Mil\n$0.59\n$190.24 Mil\n18.1%\n9.3%",
+      "revenue_millions": 187.0,
+      "revenue_raw": "$187.00 Mil",
+      "growth_rate": 18.1,
+      "growth_raw": "18.1%"
+    },
+    {
+      "symbol": "SPG",
+      "source": "*[class*='eps']",
+      "raw_text": "SPG\nSimon Property Group, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$3.47\n$1.63 Bil\n$3.49\n$1.79 Bil\n13.2%\n0.6%",
+      "revenue_millions": 1630.0,
+      "revenue_raw": "$1.63 Bil",
+      "growth_rate": 13.2,
+      "growth_raw": "13.2%"
+    },
+    {
+      "symbol": "DVA",
+      "source": "*[class*='eps']",
+      "raw_text": "DVA\nDaVita Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$3.24\n$3.53 Bil\n$3.40\n$3.62 Bil\n9.9%\n4.9%",
+      "revenue_millions": 3530.0,
+      "revenue_raw": "$3.53 Bil",
+      "growth_rate": 9.9,
+      "growth_raw": "9.9%"
+    },
+    {
+      "symbol": "TWO",
+      "source": "*[class*='eps']",
+      "raw_text": "TWO\nTwo Harbors Investment Corp\n4:15 PM ET\nEarnings:\nRevenue:\n$0.27\n-\n$0.21\n$89.92 Mil\n-13.4%\n-22.2%\n-",
+      "revenue_millions": 89.92,
+      "revenue_raw": "$89.92 Mil",
+      "growth_rate": -13.4,
+      "growth_raw": "-13.4%"
+    },
+    {
+      "symbol": "DOC",
+      "source": "*[class*='eps']",
+      "raw_text": "DOC\nHealthpeak Properties, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.45\n$699.52 Mil\n$0.47\n$719.40 Mil\n3.1%\n4.4%",
+      "revenue_millions": 699.52,
+      "revenue_raw": "$699.52 Mil",
+      "growth_rate": 3.1,
+      "growth_raw": "3.1%"
+    },
+    {
+      "symbol": "CSWC",
+      "source": "*[class*='eps']",
+      "raw_text": "CSWC\nCapital Southwest Corp.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.63\n$57.52 Mil\n$0.64\n$61.45 Mil\n18.2%\n1.6%\n-",
+      "revenue_millions": 57.52,
+      "revenue_raw": "$57.52 Mil",
+      "growth_rate": 18.2,
+      "growth_raw": "18.2%"
+    },
+    {
+      "symbol": "KFRC",
+      "source": "*[class*='eps']",
+      "raw_text": "KFRC\nKforce Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.47\n$329.89 Mil\n$0.43\n$332.02 Mil\n-3.4%\n-8.5%",
+      "revenue_millions": 329.89,
+      "revenue_raw": "$329.89 Mil",
+      "growth_rate": -3.4,
+      "growth_raw": "-3.4%"
+    },
+    {
+      "symbol": "ASH",
+      "source": "*[class*='eps']",
+      "raw_text": "ASH\nAshland, Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$0.23\n$408.33 Mil\n$0.26\n$386.00 Mil\n-4.7%\n13.0%",
+      "revenue_millions": 408.33,
+      "revenue_raw": "$408.33 Mil",
+      "growth_rate": -4.7,
+      "growth_raw": "-4.7%"
+    },
+    {
+      "symbol": "FLXS",
+      "source": "*[class*='eps']",
+      "raw_text": "FLXS\nFlexsteel Industries Inc.\n7:00 PM ET\nEarnings:\nRevenue:\n$0.79\n$107.51 Mil\n$1.18\n$118.25 Mil\n9.0%\n49.4%\n-",
+      "revenue_millions": 107.51,
+      "revenue_raw": "$107.51 Mil",
+      "growth_rate": 9.0,
+      "growth_raw": "9.0%"
+    },
+    {
+      "symbol": "MTG",
+      "source": "*[class*='eps']",
+      "raw_text": "MTG\nMGIC Investment Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.73\n$306.65 Mil\n$0.75\n$298.65 Mil\n-0.9%\n2.7%\n-",
+      "revenue_millions": 306.65,
+      "revenue_raw": "$306.65 Mil",
+      "growth_rate": -0.9,
+      "growth_raw": "-0.9%"
+    },
+    {
+      "symbol": "NJR",
+      "source": "*[class*='eps']",
+      "raw_text": "NJR\nNew Jersey Resources Corp.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.99\n$516.03 Mil\n$1.17\n$604.85 Mil\n23.9%\n18.2%",
+      "revenue_millions": 516.03,
+      "revenue_raw": "$516.03 Mil",
+      "growth_rate": 23.9,
+      "growth_raw": "23.9%"
+    },
+    {
+      "symbol": "FATN",
+      "source": "*[class*='eps']",
+      "raw_text": "FATN\nFATPIPE\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.02\n$4.09 Mil\n0.0%\n-\n-",
+      "revenue_millions": 4.09,
+      "revenue_raw": "$4.09 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "QNTO",
+      "source": "*[class*='eps']",
+      "raw_text": "QNTO\nQuaint Oak Bancorp Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.07\n$12.04 Mil\n0.0%\n-\n-",
+      "revenue_millions": 12.04,
+      "revenue_raw": "$12.04 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "USLM",
+      "source": "*[class*='eps']",
+      "raw_text": "USLM\nUnited States Lime & Minerals\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$1.06\n$87.94 Mil\n0.0%\n-\n-",
+      "revenue_millions": 87.94,
+      "revenue_raw": "$87.94 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,235 @@
+{
+  "date": "20250805",
+  "scraped_at": "2025-08-06T10:02:24.671490",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "SIGA",
+      "name": "SIGA Technologies, Inc.",
+      "revenue_millions": 81.12,
+      "revenue_raw": "$81.12 Mil",
+      "growth_rate": 271.9,
+      "growth_raw": "271.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "revenue_millions": 7410.0,
+      "revenue_raw": "$7.41 Bil",
+      "growth_rate": 31.7,
+      "growth_raw": "31.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ANET",
+      "name": "Arista Networks, Inc.",
+      "revenue_millions": 2110.0,
+      "revenue_raw": "$2.11 Bil",
+      "growth_rate": 30.4,
+      "growth_raw": "30.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALAB",
+      "name": "Astera Labs",
+      "revenue_millions": 172.71,
+      "revenue_raw": "$172.71 Mil",
+      "growth_rate": 149.7,
+      "growth_raw": "149.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UPST",
+      "name": "Upstart Holdings, Inc.",
+      "revenue_millions": 225.3,
+      "revenue_raw": "$225.30 Mil",
+      "growth_rate": 101.6,
+      "growth_raw": "101.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TOST",
+      "name": "Toast",
+      "revenue_millions": 1530.0,
+      "revenue_raw": "$1.53 Bil",
+      "growth_rate": 24.8,
+      "growth_raw": "24.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CLOV",
+      "name": "Clover Health",
+      "revenue_millions": 482.5,
+      "revenue_raw": "$482.50 Mil",
+      "growth_rate": 34.1,
+      "growth_raw": "34.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ZETA",
+      "name": "Zeta Global",
+      "revenue_millions": 296.38,
+      "revenue_raw": "$296.38 Mil",
+      "growth_rate": 35.4,
+      "growth_raw": "35.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CPNG",
+      "name": "Coupang, Inc.",
+      "revenue_millions": 8410.0,
+      "revenue_raw": "$8.41 Bil",
+      "growth_rate": 16.4,
+      "growth_raw": "16.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HALO",
+      "name": "Halozyme Therapeutics Inc",
+      "revenue_millions": 286.12,
+      "revenue_raw": "$286.12 Mil",
+      "growth_rate": 40.8,
+      "growth_raw": "40.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNEX",
+      "name": "StoneX Group Inc.",
+      "revenue_millions": 34830.0,
+      "revenue_raw": "$34.83 Bil",
+      "growth_rate": 28.7,
+      "growth_raw": "28.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BBIO",
+      "name": "BridgeBio Pharma, Inc.",
+      "revenue_millions": 161.61,
+      "revenue_raw": "$161.61 Mil",
+      "growth_rate": 999.9,
+      "growth_raw": "999.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RIGL",
+      "name": "Rigel Pharmaceuticals Inc.",
+      "revenue_millions": 68.84,
+      "revenue_raw": "$68.84 Mil",
+      "growth_rate": 176.0,
+      "growth_raw": "176.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DAWN",
+      "name": "Day One Biopharmaceuticals",
+      "revenue_millions": 34.7,
+      "revenue_raw": "$34.70 Mil",
+      "growth_rate": 313.9,
+      "growth_raw": "313.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SSRM",
+      "name": "SSR Mining Inc.",
+      "revenue_millions": 1420.0,
+      "revenue_raw": "$1.42 Bil",
+      "growth_rate": 119.4,
+      "growth_raw": "119.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CURI",
+      "name": "CuriosityStream Inc.",
+      "revenue_millions": 16.9,
+      "revenue_raw": "$16.90 Mil",
+      "growth_rate": 53.4,
+      "growth_raw": "53.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRC",
+      "name": "California Resources Corporation",
+      "revenue_millions": 802.69,
+      "revenue_raw": "$802.69 Mil",
+      "growth_rate": 90.3,
+      "growth_raw": "90.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GPOR",
+      "name": "Gulfport Energy Corp.",
+      "revenue_millions": 334.57,
+      "revenue_raw": "$334.57 Mil",
+      "growth_rate": 147.1,
+      "growth_raw": "147.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "REZI",
+      "name": "Resideo Technologies, Inc.",
+      "revenue_millions": 1820.0,
+      "revenue_raw": "$1.82 Bil",
+      "growth_rate": 22.3,
+      "growth_raw": "22.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KVYO",
+      "name": "Klaviyo",
+      "revenue_millions": 277.97,
+      "revenue_raw": "$277.97 Mil",
+      "growth_rate": 31.9,
+      "growth_raw": "31.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 20,
+  "total_original": 181
+}

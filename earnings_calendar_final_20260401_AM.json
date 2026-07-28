@@ -1,0 +1,34 @@
+{
+  "date": "20260401",
+  "scraped_at": "2026-04-02T09:00:42.335207",
+  "companies": [
+    {
+      "symbol": "PENG",
+      "source": "*[class*='eps']",
+      "raw_text": "PENG\nPenguin Solutions, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.42\n$332.34 Mil\n$0.52\n$343.00 Mil\n-6.2%\n23.8%",
+      "revenue_millions": 332.34,
+      "revenue_raw": "$332.34 Mil",
+      "growth_rate": -6.2,
+      "growth_raw": "-6.2%"
+    },
+    {
+      "symbol": "FC",
+      "source": "*[class*='eps']",
+      "raw_text": "FC\nFranklin Covey Co.\n4:10 PM ET\nEarnings:\nRevenue:\n$0.00\n$58.48 Mil\n$-0.03\n$59.65 Mil\n0.1%\n-",
+      "revenue_millions": 58.48,
+      "revenue_raw": "$58.48 Mil",
+      "growth_rate": 0.1,
+      "growth_raw": "0.1%"
+    },
+    {
+      "symbol": "BSET",
+      "source": "*[class*='eps']",
+      "raw_text": "BSET\nBassett Furniture Industries, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.17\n$84.37 Mil\n$0.13\n$80.34 Mil\n-2.2%\n-23.5%\n-",
+      "revenue_millions": 84.37,
+      "revenue_raw": "$84.37 Mil",
+      "growth_rate": -2.2,
+      "growth_raw": "-2.2%"
+    }
+  ],
+  "status": "success"
+}

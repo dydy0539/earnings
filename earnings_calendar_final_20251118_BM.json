@@ -1,0 +1,228 @@
+{
+  "date": "20251118",
+  "scraped_at": "2025-11-18T22:00:44.694894",
+  "companies": [
+    {
+      "symbol": "AECOM",
+      "source": "*[class*='company']",
+      "raw_text": "AECOM"
+    },
+    {
+      "symbol": "LP",
+      "source": "*[class*='company']",
+      "raw_text": "Navios Maritime Partners LP"
+    },
+    {
+      "symbol": "PEARL",
+      "source": "*[class*='company']",
+      "raw_text": "PEARL DIVER CREDIT"
+    },
+    {
+      "symbol": "HD",
+      "source": "*[class*='eps']",
+      "raw_text": "HD\nHome Depot, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$3.81\n$41.04 Bil\n$3.74\n$41.35 Bil\n2.8%\n-1.8%",
+      "revenue_millions": 41040.0,
+      "revenue_raw": "$41.04 Bil",
+      "growth_rate": 2.8,
+      "growth_raw": "2.8%"
+    },
+    {
+      "symbol": "BIDU",
+      "source": "*[class*='eps']",
+      "raw_text": "BIDU\nBaidu, Inc.\n5:00 AM ET\nEarnings:\nRevenue:\n$1.20\n$4.31 Bil\n$1.57\n$4.38 Bil\n-8.4%\n30.8%\n-",
+      "revenue_millions": 4310.0,
+      "revenue_raw": "$4.31 Bil",
+      "growth_rate": -8.4,
+      "growth_raw": "-8.4%"
+    },
+    {
+      "symbol": "FUTU",
+      "source": "*[class*='eps']",
+      "raw_text": "FUTU\nFutu Holdings Ltd\n4:00 AM ET\nEarnings:\nRevenue:\n-\n$752.52 Mil\n$2.93\n$822.90 Mil\n86.1%\n-\n-",
+      "revenue_millions": 752.52,
+      "revenue_raw": "$752.52 Mil",
+      "growth_rate": 86.1,
+      "growth_raw": "86.1%"
+    },
+    {
+      "symbol": "KLAR",
+      "source": "*[class*='eps']",
+      "raw_text": "KLAR\nKlarna\n9:00 AM ET\nEarnings:\nRevenue:\n$-0.33\n$887.94 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 887.94,
+      "revenue_raw": "$887.94 Mil"
+    },
+    {
+      "symbol": "PDD",
+      "source": "*[class*='eps']",
+      "raw_text": "PDD\nPinduoduo Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$2.21\n$15.21 Bil\n$2.97\n$15.21 Bil\n7.4%\n34.4%\n-",
+      "revenue_millions": 15210.0,
+      "revenue_raw": "$15.21 Bil",
+      "growth_rate": 7.4,
+      "growth_raw": "7.4%"
+    },
+    {
+      "symbol": "BRBR",
+      "source": "*[class*='eps']",
+      "raw_text": "BRBR\nBellRing Brands, Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.54\n$631.69 Mil\n$0.51\n$648.20 Mil\n16.6%\n-5.6%",
+      "revenue_millions": 631.69,
+      "revenue_raw": "$631.69 Mil",
+      "growth_rate": 16.6,
+      "growth_raw": "16.6%"
+    },
+    {
+      "symbol": "AS",
+      "source": "*[class*='eps']",
+      "raw_text": "AS\nAmer Sports, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.25\n$1.73 Bil\n$0.33\n$1.76 Bil\n29.7%\n32.0%",
+      "revenue_millions": 1730.0,
+      "revenue_raw": "$1.73 Bil",
+      "growth_rate": 29.7,
+      "growth_raw": "29.7%"
+    },
+    {
+      "symbol": "MDT",
+      "source": "*[class*='eps']",
+      "raw_text": "MDT\nMedtronic, Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$1.31\n$8.86 Bil\n$1.36\n$8.96 Bil\n6.6%\n3.8%",
+      "revenue_millions": 8860.0,
+      "revenue_raw": "$8.86 Bil",
+      "growth_rate": 6.6,
+      "growth_raw": "6.6%"
+    },
+    {
+      "symbol": "ESLT",
+      "source": "*[class*='eps']",
+      "raw_text": "ESLT\nElbit Systems Ltd.\n2:40 AM ET\nEarnings:\nRevenue:\n$2.75\n$1.99 Bil\n$3.35\n$1.92 Bil\n11.9%\n21.8%\n-",
+      "revenue_millions": 1990.0,
+      "revenue_raw": "$1.99 Bil",
+      "growth_rate": 11.9,
+      "growth_raw": "11.9%"
+    },
+    {
+      "symbol": "ACM",
+      "source": "*[class*='eps']",
+      "raw_text": "ACM\nAECOM\n6:55 AM ET\nEarnings:\nRevenue:\n$1.34\n$1.95 Bil\n$1.36\n$4.18 Bil\n1.6%\n1.5%",
+      "revenue_millions": 1950.0,
+      "revenue_raw": "$1.95 Bil",
+      "growth_rate": 1.6,
+      "growth_raw": "1.6%"
+    },
+    {
+      "symbol": "ESEA",
+      "source": "*[class*='eps']",
+      "raw_text": "ESEA\nEuroseas Ltd.\n8:15 AM ET\nEarnings:\nRevenue:\n$4.40\n$61.00 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 61.0,
+      "revenue_raw": "$61.00 Mil"
+    },
+    {
+      "symbol": "WB",
+      "source": "*[class*='eps']",
+      "raw_text": "WB\nWeibo Corporation\n5:00 AM ET\nEarnings:\nRevenue:\n$0.41\n$445.86 Mil\n$0.38\n$442.31 Mil\n-4.8%\n-7.3%\n-",
+      "revenue_millions": 445.86,
+      "revenue_raw": "$445.86 Mil",
+      "growth_rate": -4.8,
+      "growth_raw": "-4.8%"
+    },
+    {
+      "symbol": "NTIC",
+      "source": "*[class*='eps']",
+      "raw_text": "NTIC\nNorthern Technologies International Corporation\n8:00 AM ET\nEarnings:\nRevenue:\n$0.08\n$22.40 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 22.4,
+      "revenue_raw": "$22.40 Mil"
+    },
+    {
+      "symbol": "BZ",
+      "source": "*[class*='eps']",
+      "raw_text": "BZ\nKanzhun Limited\n7:00 AM ET\nEarnings:\nRevenue:\n$0.30\n$301.01 Mil\n$0.24\n$303.87 Mil\n11.6%\n-20.0%",
+      "revenue_millions": 301.01,
+      "revenue_raw": "$301.01 Mil",
+      "growth_rate": 11.6,
+      "growth_raw": "11.6%"
+    },
+    {
+      "symbol": "ENR",
+      "source": "*[class*='eps']",
+      "raw_text": "ENR\nEnergizer Holdings, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$1.12\n$831.03 Mil\n$1.05\n$832.80 Mil\n3.4%\n-6.3%",
+      "revenue_millions": 831.03,
+      "revenue_raw": "$831.03 Mil",
+      "growth_rate": 3.4,
+      "growth_raw": "3.4%"
+    },
+    {
+      "symbol": "IQ",
+      "source": "*[class*='eps']",
+      "raw_text": "IQ\niQIYI, Inc.\n5:00 AM ET\nEarnings:\nRevenue:\n$-0.03\n$932.66 Mil\n$-0.04\n$933.67 Mil\n-7.7%\n-33.3%\n-",
+      "revenue_millions": 932.66,
+      "revenue_raw": "$932.66 Mil",
+      "growth_rate": -7.7,
+      "growth_raw": "-7.7%"
+    },
+    {
+      "symbol": "NMM",
+      "source": "*[class*='eps']",
+      "raw_text": "NMM\nNavios Maritime Partners LP\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$2.83\n$346.92 Mil\n1.8%\n-\n-",
+      "revenue_millions": 346.92,
+      "revenue_raw": "$346.92 Mil",
+      "growth_rate": 1.8,
+      "growth_raw": "1.8%"
+    },
+    {
+      "symbol": "OCSL",
+      "source": "*[class*='eps']",
+      "raw_text": "OCSL\nOaktree Specialty Lending Corporation\n6:00 AM ET\nEarnings:\nRevenue:\n$0.38\n$77.15 Mil\n$0.40\n$77.31 Mil\n-18.3%\n5.3%\n-",
+      "revenue_millions": 77.15,
+      "revenue_raw": "$77.15 Mil",
+      "growth_rate": -18.3,
+      "growth_raw": "-18.3%"
+    },
+    {
+      "symbol": "ZYXI",
+      "source": "*[class*='eps']",
+      "raw_text": "ZYXI\nZynex, Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.41\n$13.36 Mil\n-70.9%\n-\n-",
+      "revenue_millions": 13.36,
+      "revenue_raw": "$13.36 Mil",
+      "growth_rate": -70.9,
+      "growth_raw": "-70.9%"
+    },
+    {
+      "symbol": "CISS",
+      "source": "*[class*='eps']",
+      "raw_text": "CISS\nC3is Inc\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ELTK",
+      "source": "*[class*='eps']",
+      "raw_text": "ELTK\nEltek Ltd.\n8:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.03\n$13.27 Mil\n0.0%\n-\n-",
+      "revenue_millions": 13.27,
+      "revenue_raw": "$13.27 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ITRN",
+      "source": "*[class*='eps']",
+      "raw_text": "ITRN\nIturan Location and Control Ltd\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.74\n$92.28 Mil\n0.0%\n-\n-",
+      "revenue_millions": 92.28,
+      "revenue_raw": "$92.28 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "PDCC",
+      "source": "*[class*='eps']",
+      "raw_text": "PDCC\nPEARL DIVER CREDIT\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ULBI",
+      "source": "*[class*='eps']",
+      "raw_text": "ULBI\nUltralife Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.07\n$43.37 Mil\n0.0%\n-\n-",
+      "revenue_millions": 43.37,
+      "revenue_raw": "$43.37 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DIVER",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

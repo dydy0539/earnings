@@ -1,0 +1,229 @@
+{
+  "date": "20260721",
+  "scraped_at": "2026-07-21T22:01:11.054669",
+  "companies": [
+    {
+      "symbol": "D",
+      "source": "*[class*='company']",
+      "raw_text": "D.R. Horton, Inc."
+    },
+    {
+      "symbol": "MSCI",
+      "source": "*[class*='eps']",
+      "raw_text": "MSCI\nMSCI Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$4.89\n$858.34 Mil\n$4.94\n$867.00 Mil\n12.2%\n1.0%\n-",
+      "revenue_millions": 858.34,
+      "revenue_raw": "$858.34 Mil",
+      "growth_rate": 12.2,
+      "growth_raw": "12.2%"
+    },
+    {
+      "symbol": "MARSH",
+      "source": "*[class*='company']",
+      "raw_text": "MARSH"
+    },
+    {
+      "symbol": "AG",
+      "source": "*[class*='company']",
+      "raw_text": "Novartis International AG"
+    },
+    {
+      "symbol": "OFG",
+      "source": "*[class*='eps']",
+      "raw_text": "OFG\nOFG Bancorp\n7:30 AM ET\nEarnings:\nRevenue:\n$1.18\n$183.49 Mil\n$1.39\n$230.13 Mil\n2.4%\n17.8%\n-",
+      "revenue_millions": 183.49,
+      "revenue_raw": "$183.49 Mil",
+      "growth_rate": 2.4,
+      "growth_raw": "2.4%"
+    },
+    {
+      "symbol": "HAL",
+      "source": "*[class*='eps']",
+      "raw_text": "HAL\nHalliburton Company\n6:45 AM ET\nEarnings:\nRevenue:\n$0.54\n$5.48 Bil\n$0.55\n$5.71 Bil\n3.7%\n1.9%\n-",
+      "revenue_millions": 5480.0,
+      "revenue_raw": "$5.48 Bil",
+      "growth_rate": 3.7,
+      "growth_raw": "3.7%"
+    },
+    {
+      "symbol": "GM",
+      "source": "*[class*='eps']",
+      "raw_text": "GM\nGeneral Motors Corp.\n6:30 AM ET\nEarnings:\nRevenue:\n$3.13\n$46.65 Bil\n$3.57\n$48.03 Bil\n1.9%\n14.1%",
+      "revenue_millions": 46650.0,
+      "revenue_raw": "$46.65 Bil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "MMM",
+      "source": "*[class*='eps']",
+      "raw_text": "MMM\n3M Company\n6:30 AM ET\nEarnings:\nRevenue:\n$2.27\n$6.40 Bil\n$2.40\n$6.50 Bil\n2.5%\n5.7%",
+      "revenue_millions": 6400.0,
+      "revenue_raw": "$6.40 Bil",
+      "growth_rate": 2.5,
+      "growth_raw": "2.5%"
+    },
+    {
+      "symbol": "VICR",
+      "source": "*[class*='eps']",
+      "raw_text": "VICR\nVicor Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$0.62\n$138.70 Mil\n$1.04\n$143.35 Mil\n1.6%\n67.7%\n-",
+      "revenue_millions": 138.7,
+      "revenue_raw": "$138.70 Mil",
+      "growth_rate": 1.6,
+      "growth_raw": "1.6%"
+    },
+    {
+      "symbol": "SCHW",
+      "source": "*[class*='eps']",
+      "raw_text": "SCHW\nCharles Schwab Corp.\n7:30 AM ET\nEarnings:\nRevenue:\n$1.53\n$6.84 Bil\n$1.62\n$7.07 Bil\n20.9%\n5.9%\n-",
+      "revenue_millions": 6840.0,
+      "revenue_raw": "$6.84 Bil",
+      "growth_rate": 20.9,
+      "growth_raw": "20.9%"
+    },
+    {
+      "symbol": "DHI",
+      "source": "*[class*='eps']",
+      "raw_text": "DHI\nD.R. Horton, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$2.99\n$9.18 Bil\n$3.20\n$9.23 Bil\n0.0%\n7.0%",
+      "revenue_millions": 9180.0,
+      "revenue_raw": "$9.18 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ALLY",
+      "source": "*[class*='eps']",
+      "raw_text": "ALLY\nAlly Financial\n7:15 AM ET\nEarnings:\nRevenue:\n$1.25\n$2.21 Bil\n$1.21\n$2.29 Bil\n9.8%\n-3.2%\n-",
+      "revenue_millions": 2210.0,
+      "revenue_raw": "$2.21 Bil",
+      "growth_rate": 9.8,
+      "growth_raw": "9.8%"
+    },
+    {
+      "symbol": "DHR",
+      "source": "*[class*='eps']",
+      "raw_text": "DHR\nDanaher Corp.\n6:00 AM ET\nEarnings:\nRevenue:\n$1.84\n$6.09 Bil\n$1.94\n$6.26 Bil\n5.5%\n5.4%",
+      "revenue_millions": 6090.0,
+      "revenue_raw": "$6.09 Bil",
+      "growth_rate": 5.5,
+      "growth_raw": "5.5%"
+    },
+    {
+      "symbol": "GPC",
+      "source": "*[class*='eps']",
+      "raw_text": "GPC\nGenuine Parts Company\n6:55 AM ET\nEarnings:\nRevenue:\n$2.10\n$6.39 Bil\n$2.15\n$6.54 Bil\n6.0%\n2.4%",
+      "revenue_millions": 6390.0,
+      "revenue_raw": "$6.39 Bil",
+      "growth_rate": 6.0,
+      "growth_raw": "6.0%"
+    },
+    {
+      "symbol": "VMI",
+      "source": "*[class*='eps']",
+      "raw_text": "VMI\nValmont Industries Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$5.76\n$1.09 Bil\n$6.14\n$1.12 Bil\n6.5%\n6.6%",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 6.5,
+      "growth_raw": "6.5%"
+    },
+    {
+      "symbol": "NOC",
+      "source": "*[class*='eps']",
+      "raw_text": "NOC\nNorthrop Grumman Corp.\n7:20 AM ET\nEarnings:\nRevenue:\n$6.84\n$10.78 Bil\n$7.68\n$10.88 Bil\n5.1%\n12.3%",
+      "revenue_millions": 10780.0,
+      "revenue_raw": "$10.78 Bil",
+      "growth_rate": 5.1,
+      "growth_raw": "5.1%"
+    },
+    {
+      "symbol": "MRSH",
+      "source": "*[class*='eps']",
+      "raw_text": "MRSH\nMARSH\n7:00 AM ET\nEarnings:\nRevenue:\n$2.88\n$7.26 Bil\n$2.96\n$7.40 Bil\n0.0%\n2.8%\n-",
+      "revenue_millions": 7260.0,
+      "revenue_raw": "$7.26 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NVS",
+      "source": "*[class*='eps']",
+      "raw_text": "NVS\nNovartis International AG\nBefore Open\nEarnings:\nRevenue:\n$2.20\n$13.96 Bil\n$2.41\n$14.41 Bil\n2.5%\n9.5%\n-",
+      "revenue_millions": 13960.0,
+      "revenue_raw": "$13.96 Bil",
+      "growth_rate": 2.5,
+      "growth_raw": "2.5%"
+    },
+    {
+      "symbol": "EFX",
+      "source": "*[class*='eps']",
+      "raw_text": "EFX\nEquifax Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$2.21\n$1.69 Bil\n$2.25\n$1.70 Bil\n10.6%\n1.8%",
+      "revenue_millions": 1690.0,
+      "revenue_raw": "$1.69 Bil",
+      "growth_rate": 10.6,
+      "growth_raw": "10.6%"
+    },
+    {
+      "symbol": "HAS",
+      "source": "*[class*='eps']",
+      "raw_text": "HAS\nHasbro, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$1.16\n$1.04 Bil\n$1.28\n$1.14 Bil\n16.2%\n10.3%",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil",
+      "growth_rate": 16.2,
+      "growth_raw": "16.2%"
+    },
+    {
+      "symbol": "SYF",
+      "source": "*[class*='eps']",
+      "raw_text": "SYF\nSynchrony Financial\n6:00 AM ET\nEarnings:\nRevenue:\n$2.08\n$4.67 Bil\n$2.59\n$5.58 Bil\n-0.1%\n24.5%",
+      "revenue_millions": 4670.0,
+      "revenue_raw": "$4.67 Bil",
+      "growth_rate": -0.1,
+      "growth_raw": "-0.1%"
+    },
+    {
+      "symbol": "AUB",
+      "source": "*[class*='eps']",
+      "raw_text": "AUB\nAtlantic Union Bankshares Corporation\n6:45 AM ET\nEarnings:\nRevenue:\n$0.92\n$394.98 Mil\n$0.94\n$577.08 Mil\n-2.5%\n2.2%\n-",
+      "revenue_millions": 394.98,
+      "revenue_raw": "$394.98 Mil",
+      "growth_rate": -2.5,
+      "growth_raw": "-2.5%"
+    },
+    {
+      "symbol": "CCBG",
+      "source": "*[class*='eps']",
+      "raw_text": "CCBG\nCapital City Bank Group\n7:00 AM ET\nEarnings:\nRevenue:\n$0.91\n$64.00 Mil\n$0.95\n$72.44 Mil\n1.3%\n4.4%\n-",
+      "revenue_millions": 64.0,
+      "revenue_raw": "$64.00 Mil",
+      "growth_rate": 1.3,
+      "growth_raw": "1.3%"
+    },
+    {
+      "symbol": "MBWM",
+      "source": "*[class*='eps']",
+      "raw_text": "MBWM\nMercantile Bank Corporation\n5:05 AM ET\nEarnings:\nRevenue:\n$1.34\n$69.27 Mil\n$1.53\n$98.19 Mil\n5.1%\n14.2%\n-",
+      "revenue_millions": 69.27,
+      "revenue_raw": "$69.27 Mil",
+      "growth_rate": 5.1,
+      "growth_raw": "5.1%"
+    },
+    {
+      "symbol": "PEBO",
+      "source": "*[class*='eps']",
+      "raw_text": "PEBO\nPeoples Bancorp Inc\n6:00 AM ET\nEarnings:\nRevenue:\n$0.84\n$119.65 Mil\n$0.96\n$147.96 Mil\n-3.5%\n14.3%\n-",
+      "revenue_millions": 119.65,
+      "revenue_raw": "$119.65 Mil",
+      "growth_rate": -3.5,
+      "growth_raw": "-3.5%"
+    },
+    {
+      "symbol": "UCB",
+      "source": "*[class*='eps']",
+      "raw_text": "UCB\nUnited Community Banks, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.80\n$281.63 Mil\n$0.71\n$382.75 Mil\n0.2%\n-11.3%\n-",
+      "revenue_millions": 281.63,
+      "revenue_raw": "$281.63 Mil",
+      "growth_rate": 0.2,
+      "growth_raw": "0.2%"
+    }
+  ],
+  "status": "success"
+}

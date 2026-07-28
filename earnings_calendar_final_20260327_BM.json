@@ -1,0 +1,194 @@
+{
+  "date": "20260327",
+  "scraped_at": "2026-03-27T22:01:11.240028",
+  "companies": [
+    {
+      "symbol": "TMC",
+      "source": "*[class*='eps']",
+      "raw_text": "TMC\nTMC the metals company Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.06\n-\n$-0.08\n-\n0.0%\n-33.3%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SBC",
+      "source": "*[class*='eps']",
+      "raw_text": "SBC\nSBC Medical Group Holdings Incorporated\n7:00 AM ET\nEarnings:\nRevenue:\n$0.13\n$47.00 Mil\n$0.14\n$39.57 Mil\n-10.9%\n7.7%\n-",
+      "revenue_millions": 47.0,
+      "revenue_raw": "$47.00 Mil",
+      "growth_rate": -10.9,
+      "growth_raw": "-10.9%"
+    },
+    {
+      "symbol": "LM",
+      "source": "*[class*='company']",
+      "raw_text": "LM Funding America Inc"
+    },
+    {
+      "symbol": "CCL",
+      "source": "*[class*='eps']",
+      "raw_text": "CCL\nCarnival Corp.\n9:15 AM ET\nEarnings:\nRevenue:\n$0.18\n$6.11 Bil\n$0.20\n$6.17 Bil\n6.1%\n11.1%\n-",
+      "revenue_millions": 6110.0,
+      "revenue_raw": "$6.11 Bil",
+      "growth_rate": 6.1,
+      "growth_raw": "6.1%"
+    },
+    {
+      "symbol": "KOPN",
+      "source": "*[class*='eps']",
+      "raw_text": "KOPN\nKopin Corp.\n8:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n$-0.01\n$12.70 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 12.7,
+      "revenue_raw": "$12.70 Mil"
+    },
+    {
+      "symbol": "AUTL",
+      "source": "*[class*='eps']",
+      "raw_text": "AUTL\nAutolus Therapeutics plc\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.31\n$22.23 Mil\n$-0.34\n$24.29 Mil\n83,655.2%\n-9.7%\n-",
+      "revenue_millions": 22.23,
+      "revenue_raw": "$22.23 Mil",
+      "growth_rate": 655.2,
+      "growth_raw": "655.2%"
+    },
+    {
+      "symbol": "LGN",
+      "source": "*[class*='eps']",
+      "raw_text": "LGN\nLegence Corp.\n8:35 AM ET\nEarnings:\nRevenue:\n$-0.03\n$616.06 Mil\n$-0.01\n$737.64 Mil\n0.0%\n66.7%",
+      "revenue_millions": 616.06,
+      "revenue_raw": "$616.06 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SLE",
+      "source": "*[class*='eps']",
+      "raw_text": "SLE\nSuper League\nBefore Open\nEarnings:\nRevenue:\n$-3.12\n$3.40 Mil\n$-9.44\n$3.20 Mil\n-6.6%\n-202.6%\n-",
+      "revenue_millions": 3.4,
+      "revenue_raw": "$3.40 Mil",
+      "growth_rate": -6.6,
+      "growth_raw": "-6.6%"
+    },
+    {
+      "symbol": "HUMA",
+      "source": "*[class*='eps']",
+      "raw_text": "HUMA\nHumacyte, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.13\n$1.58 Mil\n$-0.13\n$467.00 Thou\n0.0%\n0.0%\n-",
+      "revenue_millions": 1.58,
+      "revenue_raw": "$1.58 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "HYFM",
+      "source": "*[class*='eps']",
+      "raw_text": "HYFM\nHydrofarm Holdings Group, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$-51.89\n$25.12 Mil\n-32.7%\n-\n-",
+      "revenue_millions": 25.12,
+      "revenue_raw": "$25.12 Mil",
+      "growth_rate": -32.7,
+      "growth_raw": "-32.7%"
+    },
+    {
+      "symbol": "COE",
+      "source": "*[class*='eps']",
+      "raw_text": "COE\nChina Online Education Group\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-1.08\n$30.62 Mil\n0.0%\n-\n-",
+      "revenue_millions": 30.62,
+      "revenue_raw": "$30.62 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "HUIZ",
+      "source": "*[class*='eps']",
+      "raw_text": "HUIZ\nHuize Holding Limited\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "LMFA",
+      "source": "*[class*='eps']",
+      "raw_text": "LMFA\nLM Funding America Inc\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$-1.33\n$2.37 Mil\n0.0%\n-\n-",
+      "revenue_millions": 2.37,
+      "revenue_raw": "$2.37 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NSYS",
+      "source": "*[class*='eps']",
+      "raw_text": "NSYS\nNortech Systems Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.31\n$30.31 Mil\n0.0%\n-\n-",
+      "revenue_millions": 30.31,
+      "revenue_raw": "$30.31 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "YJ",
+      "source": "*[class*='eps']",
+      "raw_text": "YJ\nYunji Inc.\n5:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "AERG",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AFB",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AMBO",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "CAAS",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "CHKR",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "CREG",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "GIPR",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "HCWB",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "HCW",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "HOTH",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "MIGI",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "MIRA",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "PKTX",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "SNSE",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "TAYD",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "USAQ",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "USA",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,152 @@
+{
+  "source_file": "earnings_filtered_20260127_AM.json",
+  "analyzed_at": "2026-01-28T09:50:55.219630",
+  "total_companies": 6,
+  "successful_analyses": 6,
+  "companies": [
+    {
+      "company_name": "Seagate Technology plc",
+      "ticker": "STX",
+      "status": "success",
+      "incremental_operating_margin": 65.73,
+      "latest_operating_margin": 26.89,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 21.26,
+      "operating_income_growth_pct": 75.0,
+      "details": {
+        "latest_quarter": {
+          "revenue": 2629000000.0,
+          "operating_income": 707000000.0,
+          "operating_margin_pct": 26.89
+        },
+        "prior_year_quarter": {
+          "revenue": 2168000000.0,
+          "operating_income": 404000000.0,
+          "operating_margin_pct": 18.63
+        }
+      }
+    },
+    {
+      "company_name": "Nextpower",
+      "ticker": "NXT",
+      "status": "success",
+      "incremental_operating_margin": 17.75,
+      "latest_operating_margin": 20.03,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 42.43,
+      "operating_income_growth_pct": 35.86,
+      "details": {
+        "latest_quarter": {
+          "revenue": 905268000.0,
+          "operating_income": 181345000.0,
+          "operating_margin_pct": 20.03
+        },
+        "prior_year_quarter": {
+          "revenue": 635571000.0,
+          "operating_income": 133475000.0,
+          "operating_margin_pct": 21.0
+        }
+      }
+    },
+    {
+      "company_name": "Renasant Corporation",
+      "ticker": "RNST",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 61.46,
+      "operating_income_growth_pct": 61.46,
+      "details": {
+        "latest_quarter": {
+          "revenue": 269546000.0,
+          "operating_income": 269546000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 166948000.0,
+          "operating_income": 166948000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "WesBanco Inc.",
+      "ticker": "WSBC",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 74.27,
+      "operating_income_growth_pct": 74.27,
+      "details": {
+        "latest_quarter": {
+          "revenue": 260056000.0,
+          "operating_income": 260056000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 149223000.0,
+          "operating_income": 149223000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "UMB Financial Corporation",
+      "ticker": "UMBF",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 70.79,
+      "operating_income_growth_pct": 70.79,
+      "details": {
+        "latest_quarter": {
+          "revenue": 621557000.0,
+          "operating_income": 621557000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 363940000.0,
+          "operating_income": 363940000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "First Busey Corp.",
+      "ticker": "BUSE",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 65.69,
+      "operating_income_growth_pct": 65.69,
+      "details": {
+        "latest_quarter": {
+          "revenue": 196335000.0,
+          "operating_income": 196335000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 118492000.0,
+          "operating_income": 118492000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "date": "20250813",
+  "scraped_at": "2025-08-14T08:21:38.828948",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "DLO",
+      "name": "DLocal Limited",
+      "revenue_millions": 231.04,
+      "revenue_raw": "$231.04 Mil",
+      "growth_rate": 49.7,
+      "growth_raw": "49.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ELVA",
+      "name": "Electrovaya Inc",
+      "revenue_millions": 17.13,
+      "revenue_raw": "$17.13 Mil",
+      "growth_rate": 66.8,
+      "growth_raw": "66.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDXS",
+      "name": "Codexis Inc",
+      "revenue_millions": 14.96,
+      "revenue_raw": "$14.96 Mil",
+      "growth_rate": 92.1,
+      "growth_raw": "92.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RNW",
+      "name": "ReNew Power Private Limited",
+      "revenue_millions": 410.61,
+      "revenue_raw": "$410.61 Mil",
+      "growth_rate": 60.5,
+      "growth_raw": "60.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EPSN",
+      "name": "Epsilon Energy Ltd",
+      "revenue_millions": 11.85,
+      "revenue_raw": "$11.85 Mil",
+      "growth_rate": 59.1,
+      "growth_raw": "59.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GAU",
+      "name": "Galiano Gold Inc.",
+      "revenue_millions": 97.3,
+      "revenue_raw": "$97.30 Mil",
+      "growth_rate": 54.5,
+      "growth_raw": "54.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 131
+}

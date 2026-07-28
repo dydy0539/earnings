@@ -1,0 +1,52 @@
+{
+  "date": "20251205",
+  "scraped_at": "2025-12-05T22:02:10.483573",
+  "companies": [
+    {
+      "symbol": "KNOT",
+      "source": "*[class*='company']",
+      "raw_text": "KNOT Offshore Partners LP"
+    },
+    {
+      "symbol": "VSCO",
+      "source": "*[class*='eps']",
+      "raw_text": "VSCO\nVictoria's Secret & Co.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.60\n$1.41 Bil\n$-0.27\n$1.47 Bil\n9.2%\n55.0%",
+      "revenue_millions": 1410.0,
+      "revenue_raw": "$1.41 Bil",
+      "growth_rate": 9.2,
+      "growth_raw": "9.2%"
+    },
+    {
+      "symbol": "MNY",
+      "source": "*[class*='eps']",
+      "raw_text": "MNY\nMoneyHero Limited\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.02\n$23.33 Mil\n$-0.10\n$21.12 Mil\n0.9%\n-400.0%\n-",
+      "revenue_millions": 23.33,
+      "revenue_raw": "$23.33 Mil",
+      "growth_rate": 0.9,
+      "growth_raw": "0.9%"
+    },
+    {
+      "symbol": "KNOP",
+      "source": "*[class*='eps']",
+      "raw_text": "KNOP\nKNOT Offshore Partners LP\nBefore Open\nEarnings:\nRevenue:\n$0.19\n-\n$0.45\n$96.87 Mil\n6.1%\n136.8%\n-",
+      "revenue_millions": 96.87,
+      "revenue_raw": "$96.87 Mil",
+      "growth_rate": 6.1,
+      "growth_raw": "6.1%"
+    },
+    {
+      "symbol": "TOUR",
+      "source": "*[class*='eps']",
+      "raw_text": "TOUR\nTuniu Corporation\n6:15 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.03\n$28.38 Mil\n0.0%\n-\n-",
+      "revenue_millions": 28.38,
+      "revenue_raw": "$28.38 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LP",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,535 @@
+{
+  "date": "20260506",
+  "scraped_at": "2026-05-07T09:52:59.990511",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TKO",
+      "name": "TKO Group Holdings, Inc.",
+      "revenue_millions": 1590.0,
+      "revenue_raw": "$1.59 Bil",
+      "growth_rate": 25.9,
+      "growth_raw": "25.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OR",
+      "name": "OR Royalties Inc.",
+      "revenue_millions": 356.0,
+      "revenue_raw": "$356.00 Mil",
+      "growth_rate": 87.3,
+      "growth_raw": "87.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LTC",
+      "name": "LTC Properties, Inc.",
+      "revenue_millions": 32.68,
+      "revenue_raw": "$32.68 Mil",
+      "growth_rate": 94.6,
+      "growth_raw": "94.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc Time & Calendars",
+      "revenue_millions": 1470.0,
+      "revenue_raw": "$1.47 Bil",
+      "growth_rate": 20.1,
+      "growth_raw": "20.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin Corporation",
+      "revenue_millions": 1770.0,
+      "revenue_raw": "$1.77 Bil",
+      "growth_rate": 24.2,
+      "growth_raw": "24.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ Inc",
+      "revenue_millions": 49.66,
+      "revenue_raw": "$49.66 Mil",
+      "growth_rate": 754.7,
+      "growth_raw": "754.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Inc.",
+      "revenue_millions": 1780.0,
+      "revenue_raw": "$1.78 Bil",
+      "growth_rate": 20.5,
+      "growth_raw": "20.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise, Inc.",
+      "revenue_millions": 780.58,
+      "revenue_raw": "$780.58 Mil",
+      "growth_rate": 33.7,
+      "growth_raw": "33.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BROS",
+      "name": "Dutch Bros Inc.",
+      "revenue_millions": 446.9,
+      "revenue_raw": "$446.90 Mil",
+      "growth_rate": 30.8,
+      "growth_raw": "30.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALB",
+      "name": "Albemarle Corp.",
+      "revenue_millions": 1330.0,
+      "revenue_raw": "$1.33 Bil",
+      "growth_rate": 32.7,
+      "growth_raw": "32.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDE",
+      "name": "Coeur D’Alene Mines Corp.",
+      "revenue_millions": 794.1,
+      "revenue_raw": "$794.10 Mil",
+      "growth_rate": 137.8,
+      "growth_raw": "137.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet",
+      "revenue_millions": 1730.0,
+      "revenue_raw": "$1.73 Bil",
+      "growth_rate": 20.1,
+      "growth_raw": "20.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RDW",
+      "name": "Redwire Corporation",
+      "revenue_millions": 103.48,
+      "revenue_raw": "$103.48 Mil",
+      "growth_rate": 57.9,
+      "growth_raw": "57.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RUN",
+      "name": "Sunrun",
+      "revenue_millions": 675.26,
+      "revenue_raw": "$675.26 Mil",
+      "growth_rate": 43.2,
+      "growth_raw": "43.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NTR",
+      "name": "Nutrien Ltd.",
+      "revenue_millions": 5360.0,
+      "revenue_raw": "$5.36 Bil",
+      "growth_rate": 18.5,
+      "growth_raw": "18.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EQX",
+      "name": "Equinox Gold Corp.",
+      "revenue_millions": 875.0,
+      "revenue_raw": "$875.00 Mil",
+      "growth_rate": 103.3,
+      "growth_raw": "103.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ORA",
+      "name": "Ormat Technologies Inc",
+      "revenue_millions": 349.29,
+      "revenue_raw": "$349.29 Mil",
+      "growth_rate": 75.8,
+      "growth_raw": "75.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ZVRA",
+      "name": "Zevra Therapeutics, Inc.",
+      "revenue_millions": 31.36,
+      "revenue_raw": "$31.36 Mil",
+      "growth_rate": 77.5,
+      "growth_raw": "77.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DASH",
+      "name": "DoorDash, Inc.",
+      "revenue_millions": 4120.0,
+      "revenue_raw": "$4.12 Bil",
+      "growth_rate": 33.1,
+      "growth_raw": "33.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BTG",
+      "name": "B2Gold Corp.",
+      "revenue_millions": 3770.0,
+      "revenue_raw": "$3.77 Bil",
+      "growth_rate": 117.7,
+      "growth_raw": "117.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CLOV",
+      "name": "Clover Health",
+      "revenue_millions": 707.8,
+      "revenue_raw": "$707.80 Mil",
+      "growth_rate": 62.0,
+      "growth_raw": "62.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RGLD",
+      "name": "Royal Gold, Inc.",
+      "revenue_millions": 469.13,
+      "revenue_raw": "$469.13 Mil",
+      "growth_rate": 142.5,
+      "growth_raw": "142.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "revenue_millions": 5500.0,
+      "revenue_raw": "$5.50 Bil",
+      "growth_rate": 244.0,
+      "growth_raw": "244.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CORZ",
+      "name": "Core Scientific, Inc.",
+      "revenue_millions": 120.2,
+      "revenue_raw": "$120.20 Mil",
+      "growth_rate": 44.9,
+      "growth_raw": "44.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NEXA",
+      "name": "Nexa Resources S.A.",
+      "revenue_millions": 957.97,
+      "revenue_raw": "$957.97 Mil",
+      "growth_rate": 41.6,
+      "growth_raw": "41.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KLIC",
+      "name": "Kulicke & Soffa Industries Inc.",
+      "revenue_millions": 230.0,
+      "revenue_raw": "$230.00 Mil",
+      "growth_rate": 49.8,
+      "growth_raw": "49.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CTRI",
+      "name": "Centuri Holdings, Inc.",
+      "revenue_millions": 606.75,
+      "revenue_raw": "$606.75 Mil",
+      "growth_rate": 31.5,
+      "growth_raw": "31.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SM",
+      "name": "Sm Energy Company",
+      "revenue_millions": 1390.0,
+      "revenue_raw": "$1.39 Bil",
+      "growth_rate": 75.1,
+      "growth_raw": "75.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ELA",
+      "name": "Envela Corporation",
+      "revenue_millions": 60.21,
+      "revenue_raw": "$60.21 Mil",
+      "growth_rate": 103.9,
+      "growth_raw": "103.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PLMR",
+      "name": "Palomar Holdings, Inc.",
+      "revenue_millions": 260.52,
+      "revenue_raw": "$260.52 Mil",
+      "growth_rate": 59.7,
+      "growth_raw": "59.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc.",
+      "revenue_millions": 149.52,
+      "revenue_raw": "$149.52 Mil",
+      "growth_rate": 106.9,
+      "growth_raw": "106.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RYN",
+      "name": "Rayonier Inc.",
+      "revenue_millions": 282.95,
+      "revenue_raw": "$282.95 Mil",
+      "growth_rate": 233.9,
+      "growth_raw": "233.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TGB",
+      "name": "Taseko Mines Ltd.",
+      "revenue_millions": 696.51,
+      "revenue_raw": "$696.51 Mil",
+      "growth_rate": 78.3,
+      "growth_raw": "78.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SITM",
+      "name": "SiTime Corporation",
+      "revenue_millions": 102.53,
+      "revenue_raw": "$102.53 Mil",
+      "growth_rate": 88.3,
+      "growth_raw": "88.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VCTR",
+      "name": "Victory Capital Holdings, Inc.",
+      "revenue_millions": 365.16,
+      "revenue_raw": "$365.16 Mil",
+      "growth_rate": 76.7,
+      "growth_raw": "76.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARQT",
+      "name": "Arcutis Biotherapeutics, Inc.",
+      "revenue_millions": 99.15,
+      "revenue_raw": "$99.15 Mil",
+      "growth_rate": 60.1,
+      "growth_raw": "60.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARIS",
+      "name": "Aris Water Solutions, Inc.",
+      "revenue_millions": 372.48,
+      "revenue_raw": "$372.48 Mil",
+      "growth_rate": 209.1,
+      "growth_raw": "209.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CXW",
+      "name": "CoreCivic, Inc.",
+      "revenue_millions": 608.53,
+      "revenue_raw": "$608.53 Mil",
+      "growth_rate": 25.8,
+      "growth_raw": "25.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EE",
+      "name": "Excelerate Energy, Inc.",
+      "revenue_millions": 343.18,
+      "revenue_raw": "$343.18 Mil",
+      "growth_rate": 37.6,
+      "growth_raw": "37.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EZPW",
+      "name": "EZCORP, Inc.",
+      "revenue_millions": 389.0,
+      "revenue_raw": "$389.00 Mil",
+      "growth_rate": 45.9,
+      "growth_raw": "45.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "revenue_millions": 149.1,
+      "revenue_raw": "$149.10 Mil",
+      "growth_rate": 43.3,
+      "growth_raw": "43.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GNK",
+      "name": "Genco Shipping & Trading Ltd",
+      "revenue_millions": 62.18,
+      "revenue_raw": "$62.18 Mil",
+      "growth_rate": 60.6,
+      "growth_raw": "60.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FG",
+      "name": "FGL Holdings",
+      "revenue_millions": 1190.0,
+      "revenue_raw": "$1.19 Bil",
+      "growth_rate": 30.7,
+      "growth_raw": "30.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PNTG",
+      "name": "Pennant Group, Inc.",
+      "revenue_millions": 278.63,
+      "revenue_raw": "$278.63 Mil",
+      "growth_rate": 36.0,
+      "growth_raw": "36.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EXK",
+      "name": "Endeavour Silver Corp",
+      "revenue_millions": 155.77,
+      "revenue_raw": "$155.77 Mil",
+      "growth_rate": 230.2,
+      "growth_raw": "230.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SKWD",
+      "name": "Skyward Specialty Insurance Group",
+      "revenue_millions": 398.43,
+      "revenue_raw": "$398.43 Mil",
+      "growth_rate": 44.8,
+      "growth_raw": "44.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNEX",
+      "name": "StoneX Group Inc.",
+      "revenue_millions": 1360.0,
+      "revenue_raw": "$1.36 Bil",
+      "growth_rate": 24.0,
+      "growth_raw": "24.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RDN",
+      "name": "Radian Group, Inc.",
+      "revenue_millions": 302.3,
+      "revenue_raw": "$302.30 Mil",
+      "growth_rate": 46.6,
+      "growth_raw": "46.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TBBB",
+      "name": "Tiendas 3B",
+      "revenue_millions": 1280.0,
+      "revenue_raw": "$1.28 Bil",
+      "growth_rate": 55.2,
+      "growth_raw": "55.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WES",
+      "name": "Western Midstream Partners, LP",
+      "revenue_millions": 1120.0,
+      "revenue_raw": "$1.12 Bil",
+      "growth_rate": 22.5,
+      "growth_raw": "22.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 50,
+  "total_original": 318
+}

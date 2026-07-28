@@ -1,0 +1,85 @@
+{
+  "date": "20251027",
+  "scraped_at": "2025-10-28T09:01:05.795717",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "FTAI",
+      "name": "FTAI Aviation Ltd.",
+      "revenue_millions": 662.51,
+      "revenue_raw": "$662.51 Mil",
+      "growth_rate": 43.2,
+      "growth_raw": "43.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CLS",
+      "name": "Celestica, Inc.",
+      "revenue_millions": 3000.0,
+      "revenue_raw": "$3.00 Bil",
+      "growth_rate": 27.8,
+      "growth_raw": "27.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower Inc.",
+      "revenue_millions": 2650.0,
+      "revenue_raw": "$2.65 Bil",
+      "growth_rate": 30.6,
+      "growth_raw": "30.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BRO",
+      "name": "Brown & Brown Inc.",
+      "revenue_millions": 1500.0,
+      "revenue_raw": "$1.50 Bil",
+      "growth_rate": 35.4,
+      "growth_raw": "35.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PFG",
+      "name": "Principal Financial Group, Inc.",
+      "revenue_millions": 4070.0000000000005,
+      "revenue_raw": "$4.07 Bil",
+      "growth_rate": 22.2,
+      "growth_raw": "22.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 57
+}

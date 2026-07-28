@@ -1,0 +1,105 @@
+{
+  "date": "20260204",
+  "scraped_at": "2026-02-04T22:03:36.507405",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "UBS",
+      "name": "UBS AG",
+      "revenue_millions": 11620.0,
+      "revenue_raw": "$11.62 Bil",
+      "growth_rate": 35.6,
+      "growth_raw": "35.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "revenue_millions": 14290.0,
+      "revenue_raw": "$14.29 Bil",
+      "growth_rate": 20.1,
+      "growth_raw": "20.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly & Co.",
+      "revenue_millions": 17870.0,
+      "revenue_raw": "$17.87 Bil",
+      "growth_rate": 42.6,
+      "growth_raw": "42.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BSX",
+      "name": "Boston Scientific Corporation",
+      "revenue_millions": 5270.0,
+      "revenue_raw": "$5.27 Bil",
+      "growth_rate": 15.9,
+      "growth_raw": "15.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Ltd.",
+      "revenue_millions": 22000.0,
+      "revenue_raw": "$22.00 Bil",
+      "growth_rate": 75.5,
+      "growth_raw": "75.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BAM",
+      "name": "Brookfield Asset Management",
+      "revenue_millions": 1420.0,
+      "revenue_raw": "$1.42 Bil",
+      "growth_rate": 31.1,
+      "growth_raw": "31.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EVR",
+      "name": "Evercore",
+      "revenue_millions": 1060.0,
+      "revenue_raw": "$1.06 Bil",
+      "growth_rate": 32.1,
+      "growth_raw": "32.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 7,
+  "total_original": 72
+}

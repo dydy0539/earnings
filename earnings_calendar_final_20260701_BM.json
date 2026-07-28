@@ -1,0 +1,62 @@
+{
+  "date": "20260701",
+  "scraped_at": "2026-07-01T22:01:00.874634",
+  "companies": [
+    {
+      "symbol": "MSC",
+      "source": "*[class*='company']",
+      "raw_text": "MSC Industrial Direct Co. Inc."
+    },
+    {
+      "symbol": "GIS",
+      "source": "*[class*='eps']",
+      "raw_text": "GIS\nGeneral Mills, Inc.\n7:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n$0.82\n$4.60 Bil\n$0.95\n$4.61 Bil\n1.2%\n15.9%",
+      "revenue_millions": 4600.0,
+      "revenue_raw": "$4.60 Bil",
+      "growth_rate": 1.2,
+      "growth_raw": "1.2%"
+    },
+    {
+      "symbol": "FDS",
+      "source": "*[class*='eps']",
+      "raw_text": "FDS\nFactSet Research Systems, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$4.44\n$617.19 Mil\n$4.53\n$622.92 Mil\n6.4%\n2.0%",
+      "revenue_millions": 617.19,
+      "revenue_raw": "$617.19 Mil",
+      "growth_rate": 6.4,
+      "growth_raw": "6.4%"
+    },
+    {
+      "symbol": "MSM",
+      "source": "*[class*='eps']",
+      "raw_text": "MSM\nMSC Industrial Direct Co. Inc.\nBefore Open\nEarnings:\nRevenue:\n$1.28\n$1.03 Bil\n$1.43\n$1.05 Bil\n7.8%\n11.7%\n-",
+      "revenue_millions": 1030.0,
+      "revenue_raw": "$1.03 Bil",
+      "growth_rate": 7.8,
+      "growth_raw": "7.8%"
+    },
+    {
+      "symbol": "UNF",
+      "source": "*[class*='eps']",
+      "raw_text": "UNF\nUniFirst Corporation\n8:00 AM ET\nEarnings:\nRevenue:\n$1.93\n$626.39 Mil\n$2.17\n$634.40 Mil\n3.9%\n12.4%\n-",
+      "revenue_millions": 626.39,
+      "revenue_raw": "$626.39 Mil",
+      "growth_rate": 3.9,
+      "growth_raw": "3.9%"
+    },
+    {
+      "symbol": "GNS",
+      "source": "*[class*='eps']",
+      "raw_text": "GNS\nGenius Group Limited\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "MWC",
+      "source": "*[class*='eps']",
+      "raw_text": "MWC\nMicware Co., Ltd.\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "BMNR",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

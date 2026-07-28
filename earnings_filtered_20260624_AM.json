@@ -1,0 +1,65 @@
+{
+  "date": "20260624",
+  "scraped_at": "2026-06-25T09:00:37.152595",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "revenue_millions": 34980.0,
+      "revenue_raw": "$34.98 Bil",
+      "growth_rate": 345.7,
+      "growth_raw": "345.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TCOM",
+      "name": "Trip.com Group Limited",
+      "revenue_millions": 2330.0,
+      "revenue_raw": "$2.33 Bil",
+      "growth_rate": 23.0,
+      "growth_raw": "23.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "JEF",
+      "name": "Jefferies Financial Group Inc.",
+      "revenue_millions": 2220.0,
+      "revenue_raw": "$2.22 Bil",
+      "growth_rate": 25.0,
+      "growth_raw": "25.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 10
+}

@@ -1,0 +1,37 @@
+{
+  "date": "20251107",
+  "scraped_at": "2025-11-08T10:31:40.952714",
+  "companies": [
+    {
+      "symbol": "GEN",
+      "source": "*[class*='company']",
+      "raw_text": "GEN Restaurant Group, Inc."
+    },
+    {
+      "symbol": "VSAT",
+      "source": "*[class*='eps']",
+      "raw_text": "VSAT\nViaSat, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.11\n$1.15 Bil\n$-0.02\n$1.14 Bil\n1.7%\n81.8%",
+      "revenue_millions": 1150.0,
+      "revenue_raw": "$1.15 Bil",
+      "growth_rate": 1.7,
+      "growth_raw": "1.7%"
+    },
+    {
+      "symbol": "GENK",
+      "source": "*[class*='eps']",
+      "raw_text": "GENK\nGEN Restaurant Group, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.03\n$55.60 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 55.6,
+      "revenue_raw": "$55.60 Mil"
+    },
+    {
+      "symbol": "HE",
+      "source": "*[class*='eps']",
+      "raw_text": "HE\nHawaiian Electric Industries, Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.19\n$790.61 Mil\n0.0%\n-\n-",
+      "revenue_millions": 790.61,
+      "revenue_raw": "$790.61 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

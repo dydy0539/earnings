@@ -1,0 +1,68 @@
+{
+  "date": "20260624",
+  "scraped_at": "2026-06-24T22:00:36.100700",
+  "companies": [
+    {
+      "symbol": "PAYX",
+      "source": "*[class*='eps']",
+      "raw_text": "PAYX\nPaychex, Inc.\n8:30 AM ET\nEarnings:\nRevenue:\n$1.31\n$1.60 Bil\n$1.32\n$1.61 Bil\n12.5%\n0.8%",
+      "revenue_millions": 1600.0,
+      "revenue_raw": "$1.60 Bil",
+      "growth_rate": 12.5,
+      "growth_raw": "12.5%"
+    },
+    {
+      "symbol": "DAKT",
+      "source": "*[class*='eps']",
+      "raw_text": "DAKT\nDaktronics Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.22\n$205.27 Mil\n$0.27\n$208.61 Mil\n20.9%\n22.7%\n-",
+      "revenue_millions": 205.27,
+      "revenue_raw": "$205.27 Mil",
+      "growth_rate": 20.9,
+      "growth_raw": "20.9%"
+    },
+    {
+      "symbol": "NG",
+      "source": "*[class*='eps']",
+      "raw_text": "NG\nNovaGold Resources Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.06\n-\n$-0.06\n-\n0.0%\n0.0%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LVO",
+      "source": "*[class*='eps']",
+      "raw_text": "LVO\nLiveOne, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.31\n$20.28 Mil\n$-0.65\n$18.92 Mil\n-1.9%\n-109.7%",
+      "revenue_millions": 20.28,
+      "revenue_raw": "$20.28 Mil",
+      "growth_rate": -1.9,
+      "growth_raw": "-1.9%"
+    },
+    {
+      "symbol": "MNY",
+      "source": "*[class*='eps']",
+      "raw_text": "MNY\nMoneyHero Limited\n7:50 AM ETTime & Calendars\nEarnings:\nRevenue:\n$-0.06\n$16.18 Mil\n$-0.11\n$16.52 Mil\n-95.5%\n-83.3%\n-",
+      "revenue_millions": 16.18,
+      "revenue_raw": "$16.18 Mil",
+      "growth_rate": -95.5,
+      "growth_raw": "-95.5%"
+    },
+    {
+      "symbol": "PODC",
+      "source": "*[class*='eps']",
+      "raw_text": "PODC\nPodcastOne\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.03\n$15.50 Mil\n$-0.02\n$15.66 Mil\n11.1%\n33.3%",
+      "revenue_millions": 15.5,
+      "revenue_raw": "$15.50 Mil",
+      "growth_rate": 11.1,
+      "growth_raw": "11.1%"
+    },
+    {
+      "symbol": "CRWS",
+      "source": "*[class*='eps']",
+      "raw_text": "CRWS\nCrown Crafts, Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.03\n$22.38 Mil\n0.0%\n-\n-",
+      "revenue_millions": 22.38,
+      "revenue_raw": "$22.38 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,127 @@
+{
+  "date": "20260201",
+  "scraped_at": "2026-02-02T09:48:03.268963",
+  "companies": [
+    {
+      "symbol": "PLC",
+      "source": "*[class*='company']",
+      "raw_text": "Aptiv PLC"
+    },
+    {
+      "symbol": "IDEXX",
+      "source": "*[class*='company']",
+      "raw_text": "IDEXX Laboratories, Inc."
+    },
+    {
+      "symbol": "NAPCO",
+      "source": "*[class*='company']",
+      "raw_text": "NAPCO Security Technologies, Inc."
+    },
+    {
+      "symbol": "LP",
+      "source": "*[class*='company']",
+      "raw_text": "Hess Midstream LP"
+    },
+    {
+      "symbol": "L",
+      "source": "*[class*='company']",
+      "raw_text": "Alliance Resource Partners, L.P."
+    },
+    {
+      "symbol": "DIS",
+      "source": "*[class*='eps']",
+      "raw_text": "DIS\nWalt Disney Co\n6:40 AM ET\nEarnings:\n$1.57\nRevenue:\n$26.00 Bil\n5.3%",
+      "revenue_millions": 26000.0,
+      "revenue_raw": "Revenue:\n$26.00 Bil",
+      "growth_rate": 5.3,
+      "growth_raw": "5.3%"
+    },
+    {
+      "symbol": "APTV",
+      "source": "*[class*='eps']",
+      "raw_text": "APTV\nAptiv PLC\n6:45 AM ET\nEarnings:\n$1.82\nRevenue:\n$5.08 Bil\n3.5%",
+      "revenue_millions": 5080.0,
+      "revenue_raw": "Revenue:\n$5.08 Bil",
+      "growth_rate": 3.5,
+      "growth_raw": "3.5%"
+    },
+    {
+      "symbol": "IDXX",
+      "source": "*[class*='eps']",
+      "raw_text": "IDXX\nIDEXX Laboratories, Inc.\n6:30 AM ET\nEarnings:\n$2.93\nRevenue:\n$1.07 Bil\n12.1%",
+      "revenue_millions": 1070.0,
+      "revenue_raw": "Revenue:\n$1.07 Bil",
+      "growth_rate": 12.1,
+      "growth_raw": "12.1%"
+    },
+    {
+      "symbol": "RVTY",
+      "source": "*[class*='eps']",
+      "raw_text": "RVTY\nRevvity, Inc.\n6:00 AM ET\nEarnings:\n$1.59\nRevenue:\n$767.20 Mil\n5.2%",
+      "revenue_millions": 767.2,
+      "revenue_raw": "Revenue:\n$767.20 Mil",
+      "growth_rate": 5.2,
+      "growth_raw": "5.2%"
+    },
+    {
+      "symbol": "TSN",
+      "source": "*[class*='eps']",
+      "raw_text": "TSN\nTyson Foods Inc.\n7:30 AM ET\nEarnings:\n$1.01\nRevenue:\n$14.12 Bil\n3.6%",
+      "revenue_millions": 14120.0,
+      "revenue_raw": "Revenue:\n$14.12 Bil",
+      "growth_rate": 3.6,
+      "growth_raw": "3.6%"
+    },
+    {
+      "symbol": "TWST",
+      "source": "*[class*='eps']",
+      "raw_text": "TWST\nTwist Bioscience Corporation\n7:15 AM ET\nEarnings:\n$-0.47\nRevenue:\n$103.75 Mil\n17.0%",
+      "revenue_millions": 103.75,
+      "revenue_raw": "Revenue:\n$103.75 Mil",
+      "growth_rate": 17.0,
+      "growth_raw": "17.0%"
+    },
+    {
+      "symbol": "NSSC",
+      "source": "*[class*='eps']",
+      "raw_text": "NSSC\nNAPCO Security Technologies, Inc.\n7:00 AM ET\nEarnings:\n$0.33\nRevenue:\n$47.70 Mil\n11.1%",
+      "revenue_millions": 47.7,
+      "revenue_raw": "Revenue:\n$47.70 Mil",
+      "growth_rate": 11.1,
+      "growth_raw": "11.1%"
+    },
+    {
+      "symbol": "HESM",
+      "source": "*[class*='eps']",
+      "raw_text": "HESM\nHess Midstream LP\n8:00 AM ET\nEarnings:\n$0.73\nRevenue:\n$418.30 Mil\n5.7%",
+      "revenue_millions": 418.3,
+      "revenue_raw": "Revenue:\n$418.30 Mil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    },
+    {
+      "symbol": "ARLP",
+      "source": "*[class*='eps']",
+      "raw_text": "ARLP\nAlliance Resource Partners, L.P.\n7:00 AM ET\nEarnings:\n$0.61\nRevenue:\n$560.31 Mil\n-5.0%",
+      "revenue_millions": 560.31,
+      "revenue_raw": "Revenue:\n$560.31 Mil",
+      "growth_rate": -5.0,
+      "growth_raw": "-5.0%"
+    },
+    {
+      "symbol": "BSRR",
+      "source": "*[class*='eps']",
+      "raw_text": "BSRR\nSierra Bancorp\n8:00 AM ET\nEarnings:\n$0.85\nRevenue:\n$39.97 Mil\n-21.0%",
+      "revenue_millions": 39.97,
+      "revenue_raw": "Revenue:\n$39.97 Mil",
+      "growth_rate": -21.0,
+      "growth_raw": "-21.0%"
+    },
+    {
+      "symbol": "SEED",
+      "source": "*[class*='eps']",
+      "raw_text": "SEED\nOrigin Agritech Ltd.\nBefore Open\nEarnings:\n-\nRevenue:\n-\n-"
+    }
+  ],
+  "status": "success"
+}

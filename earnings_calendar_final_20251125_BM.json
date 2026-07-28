@@ -1,0 +1,251 @@
+{
+  "date": "20251125",
+  "scraped_at": "2025-11-25T22:00:27.905115",
+  "companies": [
+    {
+      "symbol": "NIO",
+      "source": "*[class*='eps']",
+      "raw_text": "NIO\nNIO Inc.\n5:30 AM ET\nEarnings:\nRevenue:\n$-0.24\n$3.26 Bil\n$-0.21\n$3.06 Bil\n15.0%\n12.5%",
+      "revenue_millions": 3260.0,
+      "revenue_raw": "$3.26 Bil",
+      "growth_rate": 15.0,
+      "growth_raw": "15.0%"
+    },
+    {
+      "symbol": "AI",
+      "source": "*[class*='company']",
+      "raw_text": "Pony AI Inc."
+    },
+    {
+      "symbol": "DICK",
+      "source": "*[class*='company']",
+      "raw_text": "DICK'S Sporting Goods, Inc."
+    },
+    {
+      "symbol": "J",
+      "source": "*[class*='company']",
+      "raw_text": "J.M. Smucker Co."
+    },
+    {
+      "symbol": "B",
+      "source": "*[class*='company']",
+      "raw_text": "B.O.S. Better Online Solutions"
+    },
+    {
+      "symbol": "BABA",
+      "source": "*[class*='eps']",
+      "raw_text": "BABA\nAlibaba Group Holding Ltd.\n5:35 AM ET\nEarnings:\nRevenue:\n$0.66\n$34.43 Bil\n$0.61\n$34.81 Bil\n3.3%\n-7.6%\n-",
+      "revenue_millions": 34430.0,
+      "revenue_raw": "$34.43 Bil",
+      "growth_rate": 3.3,
+      "growth_raw": "3.3%"
+    },
+    {
+      "symbol": "ANF",
+      "source": "*[class*='eps']",
+      "raw_text": "ANF\nAbercrombie & Fitch Co.\n7:30 AM ET\nEarnings:\nRevenue:\n$2.14\n$1.28 Bil\n$2.36\n$1.29 Bil\n6.8%\n10.3%",
+      "revenue_millions": 1280.0,
+      "revenue_raw": "$1.28 Bil",
+      "growth_rate": 6.8,
+      "growth_raw": "6.8%"
+    },
+    {
+      "symbol": "BBY",
+      "source": "*[class*='eps']",
+      "raw_text": "BBY\nBest Buy Co., Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.31\n$9.56 Bil\n$1.40\n$9.67 Bil\n2.4%\n6.9%",
+      "revenue_millions": 9560.0,
+      "revenue_raw": "$9.56 Bil",
+      "growth_rate": 2.4,
+      "growth_raw": "2.4%"
+    },
+    {
+      "symbol": "KSS",
+      "source": "*[class*='eps']",
+      "raw_text": "KSS\nKohl's Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.19\n$3.49 Bil\n$0.10\n$3.58 Bil\n-3.6%\n152.6%",
+      "revenue_millions": 3490.0,
+      "revenue_raw": "$3.49 Bil",
+      "growth_rate": -3.6,
+      "growth_raw": "-3.6%"
+    },
+    {
+      "symbol": "ADI",
+      "source": "*[class*='eps']",
+      "raw_text": "ADI\nAnalog Devices, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$2.22\n$3.01 Bil\n$2.26\n$3.08 Bil\n25.9%\n1.8%",
+      "revenue_millions": 3010.0,
+      "revenue_raw": "$3.01 Bil",
+      "growth_rate": 25.9,
+      "growth_raw": "25.9%"
+    },
+    {
+      "symbol": "BURL",
+      "source": "*[class*='eps']",
+      "raw_text": "BURL\nBurlington Stores Inc\n6:45 AM ET\nEarnings:\nRevenue:\n$1.59\n$2.72 Bil\n$1.80\n$2.71 Bil\n7.1%\n13.2%",
+      "revenue_millions": 2720.0,
+      "revenue_raw": "$2.72 Bil",
+      "growth_rate": 7.1,
+      "growth_raw": "7.1%"
+    },
+    {
+      "symbol": "PONY",
+      "source": "*[class*='eps']",
+      "raw_text": "PONY\nPony AI Inc.\n5:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.16\n$25.44 Mil\n0.0%\n-\n-",
+      "revenue_millions": 25.44,
+      "revenue_raw": "$25.44 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DKS",
+      "source": "*[class*='eps']",
+      "raw_text": "DKS\nDICK'S Sporting Goods, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$2.68\n$3.19 Bil\n$2.78\n$4.17 Bil\n36.3%\n3.7%",
+      "revenue_millions": 3190.0,
+      "revenue_raw": "$3.19 Bil",
+      "growth_rate": 36.3,
+      "growth_raw": "36.3%"
+    },
+    {
+      "symbol": "ATAT",
+      "source": "*[class*='eps']",
+      "raw_text": "ATAT\nAtour Lifestyle Holdings Limited\n6:00 AM ET\nEarnings:\nRevenue:\n$0.45\n$350.04 Mil\n$0.48\n$369.15 Mil\n36.4%\n6.7%\n-",
+      "revenue_millions": 350.04,
+      "revenue_raw": "$350.04 Mil",
+      "growth_rate": 36.4,
+      "growth_raw": "36.4%"
+    },
+    {
+      "symbol": "BZUN",
+      "source": "*[class*='eps']",
+      "raw_text": "BZUN\nBaozun Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n-\n$1.37 Bil\n$-0.11\n$302.88 Mil\n3.3%\n-\n-",
+      "revenue_millions": 1370.0,
+      "revenue_raw": "$1.37 Bil",
+      "growth_rate": 3.3,
+      "growth_raw": "3.3%"
+    },
+    {
+      "symbol": "EMBC",
+      "source": "*[class*='eps']",
+      "raw_text": "EMBC\nEmbecta Corp.\n6:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.50\n$264.00 Mil\n-7.7%\n-",
+      "revenue_millions": 264.0,
+      "revenue_raw": "$264.00 Mil",
+      "growth_rate": -7.7,
+      "growth_raw": "-7.7%"
+    },
+    {
+      "symbol": "AVXL",
+      "source": "*[class*='eps']",
+      "raw_text": "AVXL\nAnavex Life Sciences\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.13\n-\n$-0.11\n-\n0.0%\n15.4%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CLFD",
+      "source": "*[class*='eps']",
+      "raw_text": "CLFD\nClearfield, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$0.09\n$49.45 Mil\n$0.13\n$41.10 Mil\n-12.1%\n44.4%",
+      "revenue_millions": 49.45,
+      "revenue_raw": "$49.45 Mil",
+      "growth_rate": -12.1,
+      "growth_raw": "-12.1%"
+    },
+    {
+      "symbol": "MOV",
+      "source": "*[class*='eps']",
+      "raw_text": "MOV\nMovado Group, Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.57\n$185.89 Mil\n$0.45\n$186.13 Mil\n1.9%\n-21.1%\n-",
+      "revenue_millions": 185.89,
+      "revenue_raw": "$185.89 Mil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "AMTM",
+      "source": "*[class*='eps']",
+      "raw_text": "AMTM\nAmentum\n9:00 AM ET\nEarnings:\nRevenue:\n$0.54\n-\n$0.60\n$3.92 Bil\n14.9%\n11.1%\n-",
+      "revenue_millions": 3920.0,
+      "revenue_raw": "$3.92 Bil",
+      "growth_rate": 14.9,
+      "growth_raw": "14.9%"
+    },
+    {
+      "symbol": "SJM",
+      "source": "*[class*='eps']",
+      "raw_text": "SJM\nJ.M. Smucker Co.\n7:00 AM ET\nEarnings:\nRevenue:\n$2.12\n$2.32 Bil\n$2.10\n$2.33 Bil\n2.6%\n-0.9%",
+      "revenue_millions": 2320.0,
+      "revenue_raw": "$2.32 Bil",
+      "growth_rate": 2.6,
+      "growth_raw": "2.6%"
+    },
+    {
+      "symbol": "TITN",
+      "source": "*[class*='eps']",
+      "raw_text": "TITN\nTitan Machinery Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$-0.36\n$581.87 Mil\n$0.05\n$644.51 Mil\n-5.2%\n113.9%",
+      "revenue_millions": 581.87,
+      "revenue_raw": "$581.87 Mil",
+      "growth_rate": -5.2,
+      "growth_raw": "-5.2%"
+    },
+    {
+      "symbol": "AMWD",
+      "source": "*[class*='eps']",
+      "raw_text": "AMWD\nAmerican Woodmark Corporation\n6:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.76\n$394.64 Mil\n0.0%\n-\n-",
+      "revenue_millions": 394.64,
+      "revenue_raw": "$394.64 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BOSC",
+      "source": "*[class*='eps']",
+      "raw_text": "BOSC\nB.O.S. Better Online Solutions\n9:05 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.10\n$11.39 Mil\n0.0%\n-\n-",
+      "revenue_millions": 11.39,
+      "revenue_raw": "$11.39 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "GASS",
+      "source": "*[class*='eps']",
+      "raw_text": "GASS\nStealthGas Inc\n9:10 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "GMHS",
+      "source": "*[class*='eps']",
+      "raw_text": "GMHS\nGamehaus Holdings Inc.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.04\n$27.73 Mil\n0.0%\n-\n-",
+      "revenue_millions": 27.73,
+      "revenue_raw": "$27.73 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "JFIN",
+      "source": "*[class*='eps']",
+      "raw_text": "JFIN\nJiayin Group Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$1.04\n$206.52 Mil\n0.0%\n-\n-",
+      "revenue_millions": 206.52,
+      "revenue_raw": "$206.52 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ROOOF",
+      "source": "*[class*='eps']",
+      "raw_text": "ROOOF\nNorthstar Clean Technologies Inc\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "YRD",
+      "source": "*[class*='eps']",
+      "raw_text": "YRD\nYirendai Ltd.\n6:25 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.51\n$218.42 Mil\n0.0%\n-\n-",
+      "revenue_millions": 218.42,
+      "revenue_raw": "$218.42 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ZH",
+      "source": "*[class*='eps']",
+      "raw_text": "ZH\nZhihu Inc.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.08\n$92.56 Mil\n0.0%\n-\n-",
+      "revenue_millions": 92.56,
+      "revenue_raw": "$92.56 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

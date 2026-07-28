@@ -1,0 +1,65 @@
+{
+  "date": "20260130",
+  "scraped_at": "2026-01-30T22:00:51.621287",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "revenue_millions": 1030.0,
+      "revenue_raw": "$1.03 Bil",
+      "growth_rate": 39.6,
+      "growth_raw": "39.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WT",
+      "name": "WisdomTree, Inc.",
+      "revenue_millions": 143.33,
+      "revenue_raw": "$143.33 Mil",
+      "growth_rate": 33.2,
+      "growth_raw": "33.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MOG",
+      "name": "Moog Inc.",
+      "revenue_millions": 1100.0,
+      "revenue_raw": "$1.10 Bil",
+      "growth_rate": 20.9,
+      "growth_raw": "20.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 53
+}

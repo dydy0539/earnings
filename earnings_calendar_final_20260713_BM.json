@@ -1,0 +1,12 @@
+{
+  "date": "20260713",
+  "scraped_at": "2026-07-13T22:01:02.274490",
+  "companies": [
+    {
+      "symbol": "LGPS",
+      "source": "*[class*='eps']",
+      "raw_text": "LGPS\nLogProstyle Inc.\n8:00 AM ETStock market analysis\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

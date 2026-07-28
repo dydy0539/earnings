@@ -1,0 +1,137 @@
+{
+  "date": "20251015",
+  "scraped_at": "2025-10-15T21:00:34.771383",
+  "companies": [
+    {
+      "symbol": "ASML",
+      "source": "*[class*='eps']",
+      "raw_text": "ASML\nASML Holding\n1:00 AM ET\nEarnings:\nRevenue:\n$6.27\n$8.81 Bil\n$6.41\n$8.78 Bil\n7.0%\n2.2%",
+      "revenue_millions": 8810.0,
+      "revenue_raw": "$8.81 Bil",
+      "growth_rate": 7.0,
+      "growth_raw": "7.0%"
+    },
+    {
+      "symbol": "PNC",
+      "source": "*[class*='eps']",
+      "raw_text": "PNC\nPNC Financial Services Group, Inc.\n6:35 AM ET\nEarnings:\nRevenue:\n$4.05\n$5.83 Bil\n$4.35\n$8.79 Bil\n-0.6%\n7.4%",
+      "revenue_millions": 5830.0,
+      "revenue_raw": "$5.83 Bil",
+      "growth_rate": -0.6,
+      "growth_raw": "-0.6%"
+    },
+    {
+      "symbol": "LP",
+      "source": "*[class*='company']",
+      "raw_text": "FERRELLGAS -LP"
+    },
+    {
+      "symbol": "JBDI",
+      "source": "*[class*='eps']",
+      "raw_text": "JBDI\nJBDI HLDGS LTD\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "BAC",
+      "source": "*[class*='eps']",
+      "raw_text": "BAC\nBank of America Corp.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.94\n$27.07 Bil\n$1.06\n$48.22 Bil\n-1.3%\n12.8%\n-",
+      "revenue_millions": 27070.0,
+      "revenue_raw": "$27.07 Bil",
+      "growth_rate": -1.3,
+      "growth_raw": "-1.3%"
+    },
+    {
+      "symbol": "DLTR",
+      "source": "*[class*='eps']",
+      "raw_text": "DLTR\nDollar Tree, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$1.08\n$4.73 Bil\n-\n-\n-\n-",
+      "revenue_millions": 4730.0,
+      "revenue_raw": "$4.73 Bil"
+    },
+    {
+      "symbol": "MS",
+      "source": "*[class*='eps']",
+      "raw_text": "MS\nMorgan Stanley\n7:25 AM ET\nEarnings:\nRevenue:\n$2.08\n$16.25 Bil\n$2.80\n$31.19 Bil\n13.9%\n34.6%\n-",
+      "revenue_millions": 16250.0,
+      "revenue_raw": "$16.25 Bil",
+      "growth_rate": 13.9,
+      "growth_raw": "13.9%"
+    },
+    {
+      "symbol": "PGR",
+      "source": "*[class*='eps']",
+      "raw_text": "PGR\nProgressive Corp.\n8:20 AM ET\nEarnings:\nRevenue:\n$5.08\n$22.42 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 22420.0,
+      "revenue_raw": "$22.42 Bil"
+    },
+    {
+      "symbol": "ABT",
+      "source": "*[class*='eps']",
+      "raw_text": "ABT\nAbbott\n7:30 AM ET\nEarnings:\nRevenue:\n$1.30\n$11.42 Bil\n$1.30\n$11.37 Bil\n6.9%\n0.0%",
+      "revenue_millions": 11420.0,
+      "revenue_raw": "$11.42 Bil",
+      "growth_rate": 6.9,
+      "growth_raw": "6.9%"
+    },
+    {
+      "symbol": "SYF",
+      "source": "*[class*='eps']",
+      "raw_text": "SYF\nSynchrony Financial\n6:00 AM ET\nEarnings:\nRevenue:\n$2.22\n$4.71 Bil\n$2.86\n$5.73 Bil\n-0.9%\n28.8%",
+      "revenue_millions": 4710.0,
+      "revenue_raw": "$4.71 Bil",
+      "growth_rate": -0.9,
+      "growth_raw": "-0.9%"
+    },
+    {
+      "symbol": "PLD",
+      "source": "*[class*='eps']",
+      "raw_text": "PLD\nPrologis, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.44\n$2.09 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 2090.0,
+      "revenue_raw": "$2.09 Bil"
+    },
+    {
+      "symbol": "CFG",
+      "source": "*[class*='eps']",
+      "raw_text": "CFG\nCitizens Financial Group Inc\n6:20 AM ET\nEarnings:\nRevenue:\n$1.02\n$2.09 Bil\n$1.05\n$3.09 Bil\n0.6%\n2.9%",
+      "revenue_millions": 2090.0,
+      "revenue_raw": "$2.09 Bil",
+      "growth_rate": 0.6,
+      "growth_raw": "0.6%"
+    },
+    {
+      "symbol": "FHN",
+      "source": "*[class*='eps']",
+      "raw_text": "FHN\nFirst Horizon National Corp\n6:30 AM ET\nEarnings:\nRevenue:\n$0.45\n$848.62 Mil\n$0.51\n$1.30 Bil\n-1.7%\n13.3%\n-",
+      "revenue_millions": 1300.0,
+      "revenue_raw": "$1.30 Bil",
+      "growth_rate": -1.7,
+      "growth_raw": "-1.7%"
+    },
+    {
+      "symbol": "BSVN",
+      "source": "*[class*='eps']",
+      "raw_text": "BSVN\nBank7 Corp.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.03\n$24.00 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 24.0,
+      "revenue_raw": "$24.00 Mil"
+    },
+    {
+      "symbol": "CTBI",
+      "source": "*[class*='eps']",
+      "raw_text": "CTBI\nCommunity Trust Bancorp Inc.\n8:15 AM ET\nEarnings:\nRevenue:\n$1.38\n$71.40 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 71.4,
+      "revenue_raw": "$71.40 Mil"
+    },
+    {
+      "symbol": "FGPR",
+      "source": "*[class*='eps']",
+      "raw_text": "FGPR\nFERRELLGAS -LP\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "HLDGS",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LTD",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

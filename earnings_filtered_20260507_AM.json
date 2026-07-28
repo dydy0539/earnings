@@ -1,0 +1,425 @@
+{
+  "date": "20260507",
+  "scraped_at": "2026-05-08T08:46:29.281711",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AMN",
+      "name": "AMN Healthcare Services, Inc.",
+      "revenue_millions": 1230.0,
+      "revenue_raw": "$1.23 Bil",
+      "growth_rate": 99.9,
+      "growth_raw": "99.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRWV",
+      "name": "CoreWeave, Inc.",
+      "revenue_millions": 1960.0,
+      "revenue_raw": "$1.96 Bil",
+      "growth_rate": 111.7,
+      "growth_raw": "111.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SOUN",
+      "name": "SoundHound AI, Inc.",
+      "revenue_millions": 42.71,
+      "revenue_raw": "$42.71 Mil",
+      "growth_rate": 51.7,
+      "growth_raw": "51.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab USA, Inc.",
+      "revenue_millions": 191.41,
+      "revenue_raw": "$191.41 Mil",
+      "growth_rate": 63.5,
+      "growth_raw": "63.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MELI",
+      "name": "MercadoLibre Inc",
+      "revenue_millions": 8410.0,
+      "revenue_raw": "$8.41 Bil",
+      "growth_rate": 49.0,
+      "growth_raw": "49.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare, Inc.",
+      "revenue_millions": 621.91,
+      "revenue_raw": "$621.91 Mil",
+      "growth_rate": 33.5,
+      "growth_raw": "33.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AAOI",
+      "name": "Applied Optoelectronics, Inc.",
+      "revenue_millions": 156.46,
+      "revenue_raw": "$156.46 Mil",
+      "growth_rate": 51.4,
+      "growth_raw": "51.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AFRM",
+      "name": "Affirm Holdings, Inc.",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil",
+      "growth_rate": 32.6,
+      "growth_raw": "32.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage Corporation",
+      "revenue_millions": 2160.0,
+      "revenue_raw": "$2.16 Bil",
+      "growth_rate": 26.9,
+      "growth_raw": "26.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RCAT",
+      "name": "Red Cat Holdings Inc",
+      "revenue_millions": 19.03,
+      "revenue_raw": "$19.03 Mil",
+      "growth_rate": 849.1,
+      "growth_raw": "849.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TOST",
+      "name": "Toast",
+      "revenue_millions": 1630.0,
+      "revenue_raw": "$1.63 Bil",
+      "growth_rate": 21.9,
+      "growth_raw": "21.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INOD",
+      "name": "Innodata Inc.",
+      "revenue_millions": 74.5,
+      "revenue_raw": "$74.50 Mil",
+      "growth_rate": 54.4,
+      "growth_raw": "54.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MCHP",
+      "name": "Microchip Technology Inc.",
+      "revenue_millions": 1270.0,
+      "revenue_raw": "$1.27 Bil",
+      "growth_rate": 35.1,
+      "growth_raw": "35.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RKT",
+      "name": "Rocket Companies, Inc.",
+      "revenue_millions": 2720.0,
+      "revenue_raw": "$2.72 Bil",
+      "growth_rate": 183.5,
+      "growth_raw": "183.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GRND",
+      "name": "Grindr Inc",
+      "revenue_millions": 118.34,
+      "revenue_raw": "$118.34 Mil",
+      "growth_rate": 38.3,
+      "growth_raw": "38.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LASR",
+      "name": "nLIGHT, Inc.",
+      "revenue_millions": 71.2,
+      "revenue_raw": "$71.20 Mil",
+      "growth_rate": 55.2,
+      "growth_raw": "55.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital Inc.",
+      "revenue_millions": 1240.0,
+      "revenue_raw": "$1.24 Bil",
+      "growth_rate": 27.0,
+      "growth_raw": "27.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GH",
+      "name": "Guardant Health, Inc.",
+      "revenue_millions": 278.52,
+      "revenue_raw": "$278.52 Mil",
+      "growth_rate": 48.3,
+      "growth_raw": "48.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BBIO",
+      "name": "BridgeBio Pharma, Inc.",
+      "revenue_millions": 179.79,
+      "revenue_raw": "$179.79 Mil",
+      "growth_rate": 66.8,
+      "growth_raw": "66.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WEST",
+      "name": "Westrock Coffee Company",
+      "revenue_millions": 292.9,
+      "revenue_raw": "$292.90 Mil",
+      "growth_rate": 44.4,
+      "growth_raw": "44.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WPM",
+      "name": "Wheaton Precious Metals Corp.",
+      "revenue_millions": 767.02,
+      "revenue_raw": "$767.02 Mil",
+      "growth_rate": 91.6,
+      "growth_raw": "91.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NTRA",
+      "name": "Natera, Inc.",
+      "revenue_millions": 615.11,
+      "revenue_raw": "$615.11 Mil",
+      "growth_rate": 38.8,
+      "growth_raw": "38.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDXS",
+      "name": "Codexis Inc",
+      "revenue_millions": 14.98,
+      "revenue_raw": "$14.98 Mil",
+      "growth_rate": 102.1,
+      "growth_raw": "102.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CPAY",
+      "name": "Corpay, Inc.",
+      "revenue_millions": 1210.0,
+      "revenue_raw": "$1.21 Bil",
+      "growth_rate": 25.4,
+      "growth_raw": "25.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GMED",
+      "name": "Globus Medical, Inc",
+      "revenue_millions": 728.94,
+      "revenue_raw": "$728.94 Mil",
+      "growth_rate": 27.0,
+      "growth_raw": "27.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AHR",
+      "name": "American Healthcare REIT, Inc.",
+      "revenue_millions": 2630.0,
+      "revenue_raw": "$2.63 Bil",
+      "growth_rate": 20.4,
+      "growth_raw": "20.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALGS",
+      "name": "Aligos Therapeutics, Inc.",
+      "revenue_millions": 25.0,
+      "revenue_raw": "$25.00 Mil",
+      "growth_rate": 810.0,
+      "growth_raw": "810.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CTRE",
+      "name": "CareTrust REIT, Inc",
+      "revenue_millions": 140.94,
+      "revenue_raw": "$140.94 Mil",
+      "growth_rate": 47.8,
+      "growth_raw": "47.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ATLC",
+      "name": "Atlanticus Holdings Corporation",
+      "revenue_millions": 816.9,
+      "revenue_raw": "$816.90 Mil",
+      "growth_rate": 96.9,
+      "growth_raw": "96.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CWAN",
+      "name": "Clearwater Analytics Holdings Inc",
+      "revenue_millions": 222.31,
+      "revenue_raw": "$222.31 Mil",
+      "growth_rate": 74.4,
+      "growth_raw": "74.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ASTH",
+      "name": "Astrana Health, Inc.",
+      "revenue_millions": 937.7,
+      "revenue_raw": "$937.70 Mil",
+      "growth_rate": 55.6,
+      "growth_raw": "55.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HEPS",
+      "name": "Hepsiburada",
+      "revenue_millions": 2610.0,
+      "revenue_raw": "$2.61 Bil",
+      "growth_rate": 238.3,
+      "growth_raw": "238.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LPTH",
+      "name": "LightPath Technologies Inc.",
+      "revenue_millions": 17.39,
+      "revenue_raw": "$17.39 Mil",
+      "growth_rate": 108.9,
+      "growth_raw": "108.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RGA",
+      "name": "Reinsurance Group of America, Incorporated",
+      "revenue_millions": 6420.0,
+      "revenue_raw": "$6.42 Bil",
+      "growth_rate": 23.5,
+      "growth_raw": "23.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MBI",
+      "name": "MBIA Inc.",
+      "revenue_millions": 20.0,
+      "revenue_raw": "$20.00 Mil",
+      "growth_rate": 71.4,
+      "growth_raw": "71.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PRTA",
+      "name": "Prothena Corporation plc",
+      "revenue_millions": 87.52,
+      "revenue_raw": "$87.52 Mil",
+      "growth_rate": 706.4,
+      "growth_raw": "706.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SENS",
+      "name": "Senseonics Holdings, Inc.",
+      "revenue_millions": 10.03,
+      "revenue_raw": "$10.03 Mil",
+      "growth_rate": 87.2,
+      "growth_raw": "87.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TOI",
+      "name": "Oncology Institute, Inc.",
+      "revenue_millions": 145.2,
+      "revenue_raw": "$145.20 Mil",
+      "growth_rate": 41.2,
+      "growth_raw": "41.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VXRT",
+      "name": "Vaxart, Inc.",
+      "revenue_millions": 39.23,
+      "revenue_raw": "$39.23 Mil",
+      "growth_rate": 87.9,
+      "growth_raw": "87.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 39,
+  "total_original": 323
+}

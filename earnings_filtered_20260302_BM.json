@@ -1,0 +1,95 @@
+{
+  "date": "20260302",
+  "scraped_at": "2026-03-02T22:01:34.040734",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AAON",
+      "name": "AAON Inc.",
+      "revenue_millions": 370.8,
+      "revenue_raw": "$370.80 Mil",
+      "growth_rate": 42.5,
+      "growth_raw": "42.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CGEN",
+      "name": "Compugen Ltd.",
+      "revenue_millions": 17.87,
+      "revenue_raw": "$17.87 Mil",
+      "growth_rate": 477.3,
+      "growth_raw": "477.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ASTH",
+      "name": "Astrana Health, Inc.",
+      "revenue_millions": 923.83,
+      "revenue_raw": "$923.83 Mil",
+      "growth_rate": 42.9,
+      "growth_raw": "42.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VG",
+      "name": "Venture Global, Inc.",
+      "revenue_millions": 4780.0,
+      "revenue_raw": "$4.78 Bil",
+      "growth_rate": 191.7,
+      "growth_raw": "191.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UNIT",
+      "name": "Uniti Group Inc",
+      "revenue_millions": 889.5,
+      "revenue_raw": "$889.50 Mil",
+      "growth_rate": 212.7,
+      "growth_raw": "212.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "URGN",
+      "name": "UroGen Pharma Ltd.",
+      "revenue_millions": 35.55,
+      "revenue_raw": "$35.55 Mil",
+      "growth_rate": 54.0,
+      "growth_raw": "54.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 29
+}

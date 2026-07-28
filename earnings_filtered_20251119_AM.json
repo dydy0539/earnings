@@ -1,0 +1,65 @@
+{
+  "date": "20251119",
+  "scraped_at": "2025-11-20T09:00:51.744524",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp.",
+      "revenue_millions": 54590.0,
+      "revenue_raw": "$54.59 Bil",
+      "growth_rate": 62.5,
+      "growth_raw": "62.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "TBBB",
+      "name": "Tiendas 3B",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 38.8,
+      "growth_raw": "38.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EARN",
+      "name": "Ellington Residential Mortgage REIT",
+      "revenue_millions": 10.62,
+      "revenue_raw": "$10.62 Mil",
+      "growth_rate": 150.0,
+      "growth_raw": "150.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 31
+}

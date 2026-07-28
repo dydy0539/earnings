@@ -1,0 +1,235 @@
+{
+  "date": "20260218",
+  "scraped_at": "2026-02-19T10:25:15.835342",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CF",
+      "name": "CF Industries Holdings, Inc.",
+      "revenue_millions": 1790.0,
+      "revenue_raw": "$1.79 Bil",
+      "growth_rate": 22.8,
+      "growth_raw": "22.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OR",
+      "name": "OR Royalties Inc.",
+      "revenue_millions": 277.0,
+      "revenue_raw": "$277.00 Mil",
+      "growth_rate": 59.4,
+      "growth_raw": "59.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana Co.",
+      "revenue_millions": 5190.0,
+      "revenue_raw": "$5.19 Bil",
+      "growth_rate": 58.0,
+      "growth_raw": "58.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KGC",
+      "name": "Kinross Gold Corp.",
+      "revenue_millions": 1870.0,
+      "revenue_raw": "$1.87 Bil",
+      "growth_rate": 42.9,
+      "growth_raw": "42.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DASH",
+      "name": "DoorDash, Inc.",
+      "revenue_millions": 3970.0,
+      "revenue_raw": "$3.97 Bil",
+      "growth_rate": 37.7,
+      "growth_raw": "37.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PAAS",
+      "name": "Pan American Silver Corp.",
+      "revenue_millions": 1110.0,
+      "revenue_raw": "$1.11 Bil",
+      "growth_rate": 44.6,
+      "growth_raw": "44.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDE",
+      "name": "Coeur D’Alene Mines Corp.",
+      "revenue_millions": 668.7,
+      "revenue_raw": "$668.70 Mil",
+      "growth_rate": 120.9,
+      "growth_raw": "120.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RGLD",
+      "name": "Royal Gold, Inc.",
+      "revenue_millions": 375.32,
+      "revenue_raw": "$375.32 Mil",
+      "growth_rate": 85.3,
+      "growth_raw": "85.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings Inc.",
+      "revenue_millions": 6110.0,
+      "revenue_raw": "$6.11 Bil",
+      "growth_rate": 16.0,
+      "growth_raw": "16.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BTG",
+      "name": "B2Gold Corp.",
+      "revenue_millions": 3120.0,
+      "revenue_raw": "$3.12 Bil",
+      "growth_rate": 110.9,
+      "growth_raw": "110.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AGI",
+      "name": "Alamos Gold Inc.",
+      "revenue_millions": 1820.0,
+      "revenue_raw": "$1.82 Bil",
+      "growth_rate": 53.1,
+      "growth_raw": "53.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KALU",
+      "name": "Kaiser Aluminum Corp.",
+      "revenue_millions": 1010.0,
+      "revenue_raw": "$1.01 Bil",
+      "growth_rate": 21.4,
+      "growth_raw": "21.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TFPM",
+      "name": "Triple Flag Precious Metals Corp.",
+      "revenue_millions": 118.92,
+      "revenue_raw": "$118.92 Mil",
+      "growth_rate": 60.2,
+      "growth_raw": "60.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARR",
+      "name": "ARMOUR Residential REIT Inc",
+      "revenue_millions": 42.6,
+      "revenue_raw": "$42.60 Mil",
+      "growth_rate": 55.1,
+      "growth_raw": "55.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CWAN",
+      "name": "Clearwater Analytics Holdings Inc",
+      "revenue_millions": 216.66,
+      "revenue_raw": "$216.66 Mil",
+      "growth_rate": 72.0,
+      "growth_raw": "72.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OMC",
+      "name": "Omnicom Group, Inc.",
+      "revenue_millions": 4500.0,
+      "revenue_raw": "$4.50 Bil",
+      "growth_rate": 27.9,
+      "growth_raw": "27.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TGB",
+      "name": "Taseko Mines Ltd.",
+      "revenue_millions": 466.47,
+      "revenue_raw": "$466.47 Mil",
+      "growth_rate": 45.8,
+      "growth_raw": "45.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EIX",
+      "name": "Edison International, Inc.",
+      "revenue_millions": 4380.0,
+      "revenue_raw": "$4.38 Bil",
+      "growth_rate": 30.8,
+      "growth_raw": "30.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SPNT",
+      "name": "SiriusPoint Ltd.",
+      "revenue_millions": 776.05,
+      "revenue_raw": "$776.05 Mil",
+      "growth_rate": 58.9,
+      "growth_raw": "58.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "JXN",
+      "name": "Jackson Financial Inc.",
+      "revenue_millions": 1990.0,
+      "revenue_raw": "$1.99 Bil",
+      "growth_rate": 783.6,
+      "growth_raw": "783.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 20,
+  "total_original": 85
+}

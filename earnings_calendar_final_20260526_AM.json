@@ -1,0 +1,149 @@
+{
+  "date": "20260526",
+  "scraped_at": "2026-05-27T09:00:31.194908",
+  "companies": [
+    {
+      "symbol": "BBVA",
+      "source": "*[class*='company']",
+      "raw_text": "Banco BBVA Argentina S.A."
+    },
+    {
+      "symbol": "SOLAI",
+      "source": "*[class*='company']",
+      "raw_text": "SOLAI Limited"
+    },
+    {
+      "symbol": "FS",
+      "source": "*[class*='company']",
+      "raw_text": "FS Credit Opportunities Corp."
+    },
+    {
+      "symbol": "ZS",
+      "source": "*[class*='eps']",
+      "raw_text": "ZS\nZscaler, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.01\n$834.76 Mil\n$1.08\n$850.48 Mil\n25.4%\n6.9%",
+      "revenue_millions": 834.76,
+      "revenue_raw": "$834.76 Mil",
+      "growth_rate": 25.4,
+      "growth_raw": "25.4%"
+    },
+    {
+      "symbol": "SQM",
+      "source": "*[class*='eps']",
+      "raw_text": "SQM\nChemical & Mining Co. of Chile Inc.\n10:55 PM ET\nEarnings:\nRevenue:\n$1.78\n$1.72 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1720.0,
+      "revenue_raw": "$1.72 Bil"
+    },
+    {
+      "symbol": "BOX",
+      "source": "*[class*='eps']",
+      "raw_text": "BOX\nBox, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.36\n$303.99 Mil\n$0.37\n$305.94 Mil\n10.7%\n2.8%",
+      "revenue_millions": 303.99,
+      "revenue_raw": "$303.99 Mil",
+      "growth_rate": 10.7,
+      "growth_raw": "10.7%"
+    },
+    {
+      "symbol": "SMTC",
+      "source": "*[class*='eps']",
+      "raw_text": "SMTC\nSemtech Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.45\n$283.27 Mil\n$0.51\n$291.00 Mil\n15.9%\n13.3%",
+      "revenue_millions": 283.27,
+      "revenue_raw": "$283.27 Mil",
+      "growth_rate": 15.9,
+      "growth_raw": "15.9%"
+    },
+    {
+      "symbol": "MOD",
+      "source": "*[class*='eps']",
+      "raw_text": "MOD\nModine Manufacturing Co.\n4:15 PM ET\nEarnings:\nRevenue:\n$1.51\n$907.34 Mil\n$1.71\n$954.40 Mil\n47.5%\n13.2%",
+      "revenue_millions": 907.34,
+      "revenue_raw": "$907.34 Mil",
+      "growth_rate": 47.5,
+      "growth_raw": "47.5%"
+    },
+    {
+      "symbol": "OOMA",
+      "source": "*[class*='eps']",
+      "raw_text": "OOMA\nOoma, Inc.\n4:15 PM ETTime & Calendars\nEarnings:\nRevenue:\n$0.32\n$79.82 Mil\n$0.35\n$81.15 Mil\n24.8%\n9.4%",
+      "revenue_millions": 79.82,
+      "revenue_raw": "$79.82 Mil",
+      "growth_rate": 24.8,
+      "growth_raw": "24.8%"
+    },
+    {
+      "symbol": "APPS",
+      "source": "*[class*='eps']",
+      "raw_text": "APPS\nDigital Turbine, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.09\n-\n$0.13\n$142.55 Mil\n19.6%\n44.4%",
+      "revenue_millions": 142.55,
+      "revenue_raw": "$142.55 Mil",
+      "growth_rate": 19.6,
+      "growth_raw": "19.6%"
+    },
+    {
+      "symbol": "API",
+      "source": "*[class*='eps']",
+      "raw_text": "API\nAgora, Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.01\n$37.74 Mil\n13.5%\n-",
+      "revenue_millions": 37.74,
+      "revenue_raw": "$37.74 Mil",
+      "growth_rate": 13.5,
+      "growth_raw": "13.5%"
+    },
+    {
+      "symbol": "QFIN",
+      "source": "*[class*='eps']",
+      "raw_text": "QFIN\nQifu Technology, Inc.\n6:00 PM ET\nEarnings:\nRevenue:\n$0.96\n$539.51 Mil\n$1.04\n$566.74 Mil\n-12.3%\n8.3%\n-",
+      "revenue_millions": 539.51,
+      "revenue_raw": "$539.51 Mil",
+      "growth_rate": -12.3,
+      "growth_raw": "-12.3%"
+    },
+    {
+      "symbol": "SVM",
+      "source": "*[class*='eps']",
+      "raw_text": "SVM\nSilvercorp Metals Inc\n7:00 PM ET\nEarnings:\nRevenue:\n$0.26\n$147.40 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 147.4,
+      "revenue_raw": "$147.40 Mil"
+    },
+    {
+      "symbol": "HMR",
+      "source": "*[class*='eps']",
+      "raw_text": "HMR\nHeidmar\nAfter Close\nEarnings:\nRevenue:\n$0.04\n$28.96 Mil\n$0.04\n$18.35 Mil\n214.4%\n0.0%\n-",
+      "revenue_millions": 28.96,
+      "revenue_raw": "$28.96 Mil",
+      "growth_rate": 214.4,
+      "growth_raw": "214.4%"
+    },
+    {
+      "symbol": "BBAR",
+      "source": "*[class*='eps']",
+      "raw_text": "BBAR\nBanco BBVA Argentina S.A.\n5:15 PM ET\nEarnings:\nRevenue:\n$0.17\n$730.26 Mil\n$0.27\n$1.29 Bil\n26.3%\n58.8%\n-",
+      "revenue_millions": 1290.0,
+      "revenue_raw": "$1.29 Bil",
+      "growth_rate": 26.3,
+      "growth_raw": "26.3%"
+    },
+    {
+      "symbol": "TRNS",
+      "source": "*[class*='eps']",
+      "raw_text": "TRNS\nTranscat Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.51\n$90.83 Mil\n$0.56\n$89.33 Mil\n15.8%\n9.8%\n-",
+      "revenue_millions": 90.83,
+      "revenue_raw": "$90.83 Mil",
+      "growth_rate": 15.8,
+      "growth_raw": "15.8%"
+    },
+    {
+      "symbol": "SLAI",
+      "source": "*[class*='eps']",
+      "raw_text": "SLAI\nSOLAI Limited\n4:30 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.36\n$7.92 Mil\n0.0%\n-\n-",
+      "revenue_millions": 7.92,
+      "revenue_raw": "$7.92 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FSCO",
+      "source": "*[class*='eps']",
+      "raw_text": "FSCO\nFS Credit Opportunities Corp.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

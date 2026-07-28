@@ -1,0 +1,307 @@
+{
+  "date": "20251103",
+  "scraped_at": "2025-11-03T21:00:38.545383",
+  "companies": [
+    {
+      "symbol": "SE",
+      "source": "*[class*='company']",
+      "raw_text": "BioNTech SE"
+    },
+    {
+      "symbol": "IDEXX",
+      "source": "*[class*='company']",
+      "raw_text": "IDEXX Laboratories, Inc."
+    },
+    {
+      "symbol": "TG",
+      "source": "*[class*='company']",
+      "raw_text": "TG Therapeutics, Inc."
+    },
+    {
+      "symbol": "CNA",
+      "source": "*[class*='eps']",
+      "raw_text": "CNA\nCNA Financial Corp.\n6:00 AM ET\nEarnings:\nRevenue:\n$1.25\n$3.43 Bil\n$1.50\n-\n0.0%\n20.0%\n-",
+      "revenue_millions": 3430.0,
+      "revenue_raw": "$3.43 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LP",
+      "source": "*[class*='company']",
+      "raw_text": "Ares Management LP"
+    },
+    {
+      "symbol": "L",
+      "source": "*[class*='eps']",
+      "raw_text": "L\nLoews Corp\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ECARX",
+      "source": "*[class*='company']",
+      "raw_text": "ECARX Holdings, Inc."
+    },
+    {
+      "symbol": "NAPCO",
+      "source": "*[class*='company']",
+      "raw_text": "NAPCO Security Technologies, Inc."
+    },
+    {
+      "symbol": "CIFR",
+      "source": "*[class*='eps']",
+      "raw_text": "CIFR\nCipher Mining Inc\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.08\n$75.48 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 75.48,
+      "revenue_raw": "$75.48 Mil"
+    },
+    {
+      "symbol": "FUBO",
+      "source": "*[class*='eps']",
+      "raw_text": "FUBO\nfuboTV Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.04\n$368.96 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 368.96,
+      "revenue_raw": "$368.96 Mil"
+    },
+    {
+      "symbol": "ON",
+      "source": "*[class*='eps']",
+      "raw_text": "ON\nonsemi\n8:00 AM ET\nEarnings:\nRevenue:\n$0.59\n$1.52 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1520.0,
+      "revenue_raw": "$1.52 Bil"
+    },
+    {
+      "symbol": "BRK",
+      "source": "*[class*='eps']",
+      "raw_text": "BRK.A\nBerkshire Hathaway, Inc. (Holding Co.)\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "BNTX",
+      "source": "*[class*='eps']",
+      "raw_text": "BNTX\nBioNTech SE\n6:45 AM ET\nEarnings:\nRevenue:\n$0.75\n$1.21 Bil\n$-0.14\n-\n0.0%\n-118.7%",
+      "revenue_millions": 1210.0,
+      "revenue_raw": "$1.21 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FRPT",
+      "source": "*[class*='eps']",
+      "raw_text": "FRPT\nFreshpet, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.43\n$284.42 Mil\n$1.86\n-\n0.0%\n332.6%",
+      "revenue_millions": 284.42,
+      "revenue_raw": "$284.42 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "AXSM",
+      "source": "*[class*='eps']",
+      "raw_text": "AXSM\nAxsome Therapeutics, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.82\n$164.05 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 164.05,
+      "revenue_raw": "$164.05 Mil"
+    },
+    {
+      "symbol": "IDXX",
+      "source": "*[class*='eps']",
+      "raw_text": "IDXX\nIDEXX Laboratories, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$3.14\n$1.07 Bil\n$3.22\n-\n0.0%\n2.5%\n-",
+      "revenue_millions": 1070.0,
+      "revenue_raw": "$1.07 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "RYAAY",
+      "source": "*[class*='eps']",
+      "raw_text": "RYAAY\nRyanair Holdings plc\nBefore Open\nEarnings:\nRevenue:\n$3.62\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "BRKR",
+      "source": "*[class*='eps']",
+      "raw_text": "BRKR\nBruker Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$0.33\n$850.30 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 850.3,
+      "revenue_raw": "$850.30 Mil"
+    },
+    {
+      "symbol": "LQDA",
+      "source": "*[class*='eps']",
+      "raw_text": "LQDA\nLiquidia Technologies, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$-0.45\n$15.60 Mil\n$-0.04\n-\n0.0%\n91.1%\n-",
+      "revenue_millions": 15.6,
+      "revenue_raw": "$15.60 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KRYS",
+      "source": "*[class*='eps']",
+      "raw_text": "KRYS\nKrystal Biotech, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.12\n$91.50 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 91.5,
+      "revenue_raw": "$91.50 Mil"
+    },
+    {
+      "symbol": "VERX",
+      "source": "*[class*='eps']",
+      "raw_text": "VERX\nVertex Inc.\n7:05 AM ET\nEarnings:\nRevenue:\n$0.17\n$191.46 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 191.46,
+      "revenue_raw": "$191.46 Mil"
+    },
+    {
+      "symbol": "KOS",
+      "source": "*[class*='eps']",
+      "raw_text": "KOS\nKosmos Energy Ltd.\n2:00 AM ET\nEarnings:\nRevenue:\n-\n$1.47 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1470.0,
+      "revenue_raw": "$1.47 Bil"
+    },
+    {
+      "symbol": "TGTX",
+      "source": "*[class*='eps']",
+      "raw_text": "TGTX\nTG Therapeutics, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.24\n$150.66 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 150.66,
+      "revenue_raw": "$150.66 Mil"
+    },
+    {
+      "symbol": "AMG",
+      "source": "*[class*='eps']",
+      "raw_text": "AMG\nAffiliated Managers Group Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n$5.83\n$521.13 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 521.13,
+      "revenue_raw": "$521.13 Mil"
+    },
+    {
+      "symbol": "HESM",
+      "source": "*[class*='eps']",
+      "raw_text": "HESM\nHess Midstream LP\n8:00 AM ET\nEarnings:\nRevenue:\n$0.73\n$421.33 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 421.33,
+      "revenue_raw": "$421.33 Mil"
+    },
+    {
+      "symbol": "III",
+      "source": "*[class*='eps']",
+      "raw_text": "III\nInformation Services Group Inc\nBefore Open\nEarnings:\nRevenue:\n$0.08\n$60.96 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 60.96,
+      "revenue_raw": "$60.96 Mil"
+    },
+    {
+      "symbol": "KTB",
+      "source": "*[class*='eps']",
+      "raw_text": "KTB\nKontoor Brands Inc\n6:50 AM ET\nEarnings:\nRevenue:\n$1.35\n$854.00 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 854.0,
+      "revenue_raw": "$854.00 Mil"
+    },
+    {
+      "symbol": "MD",
+      "source": "*[class*='eps']",
+      "raw_text": "MD\nPediatrix Medical Group, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.43\n$484.05 Mil\n$0.67\n-\n0.0%\n55.8%\n-",
+      "revenue_millions": 484.05,
+      "revenue_raw": "$484.05 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ALX",
+      "source": "*[class*='eps']",
+      "raw_text": "ALX\nAlexanders Inc.\n9:15 AM ET\nEarnings:\nRevenue:\n$2.50\n$51.60 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 51.6,
+      "revenue_raw": "$51.60 Mil"
+    },
+    {
+      "symbol": "ARES",
+      "source": "*[class*='eps']",
+      "raw_text": "ARES\nAres Management LP\n6:00 AM ET\nEarnings:\nRevenue:\n$1.14\n$1.12 Bil\n$1.15\n-\n0.0%\n0.9%\n-",
+      "revenue_millions": 1120.0,
+      "revenue_raw": "$1.12 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BCRX",
+      "source": "*[class*='eps']",
+      "raw_text": "BCRX\nBioCryst Pharmaceuticals Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.07\n$161.15 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 161.15,
+      "revenue_raw": "$161.15 Mil"
+    },
+    {
+      "symbol": "FSTR",
+      "source": "*[class*='eps']",
+      "raw_text": "FSTR\nL.B. Foster Company\n7:30 AM ET\nEarnings:\nRevenue:\n$0.61\n$153.59 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 153.59,
+      "revenue_raw": "$153.59 Mil"
+    },
+    {
+      "symbol": "IRMD",
+      "source": "*[class*='eps']",
+      "raw_text": "IRMD\niRadimed Corporation\n8:30 AM ET\nEarnings:\nRevenue:\n$0.43\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "DTIL",
+      "source": "*[class*='eps']",
+      "raw_text": "DTIL\nPrecision BioSciences, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.31\n$11.10 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 11.1,
+      "revenue_raw": "$11.10 Mil"
+    },
+    {
+      "symbol": "ECX",
+      "source": "*[class*='eps']",
+      "raw_text": "ECX\nECARX Holdings, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "KPTI",
+      "source": "*[class*='eps']",
+      "raw_text": "KPTI\nKaryopharm Therapeutics Inc\n7:30 AM ET\nEarnings:\nRevenue:\n$-3.30\n$42.30 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 42.3,
+      "revenue_raw": "$42.30 Mil"
+    },
+    {
+      "symbol": "NSSC",
+      "source": "*[class*='eps']",
+      "raw_text": "NSSC\nNAPCO Security Technologies, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n$46.30 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 46.3,
+      "revenue_raw": "$46.30 Mil"
+    },
+    {
+      "symbol": "PNW",
+      "source": "*[class*='eps']",
+      "raw_text": "PNW\nPinnacle West Capital Corp.\n8:40 AM ET\nEarnings:\nRevenue:\n$3.04\n$1.69 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1690.0,
+      "revenue_raw": "$1.69 Bil"
+    },
+    {
+      "symbol": "PEG",
+      "source": "*[class*='eps']",
+      "raw_text": "PEG\nPublic Service Enterprise Group, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$1.01\n$2.73 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 2730.0,
+      "revenue_raw": "$2.73 Bil"
+    },
+    {
+      "symbol": "GNE",
+      "source": "*[class*='eps']",
+      "raw_text": "GNE\nGenie Energy Ltd.\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "LRE",
+      "source": "*[class*='eps']",
+      "raw_text": "LRE\nLead Real Estate Co., Ltd\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "OXLC",
+      "source": "*[class*='eps']",
+      "raw_text": "OXLC\nOxford Lane Capital Corp.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "OXLCG",
+      "source": "*[class*='eps']",
+      "raw_text": "OXLCG\nOxford Lane Capital Corp.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "OXLCI",
+      "source": "*[class*='eps']",
+      "raw_text": "OXLCI\nOxford Lane Capital Corp.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "OXLCL",
+      "source": "*[class*='eps']",
+      "raw_text": "OXLCL\nOxford Lane Capital Corp\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "OXLCZ",
+      "source": "*[class*='eps']",
+      "raw_text": "OXLCZ\nOxford Lane Capital Corp\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

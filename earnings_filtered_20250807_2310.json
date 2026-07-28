@@ -1,0 +1,245 @@
+{
+  "date": "20250807",
+  "scraped_at": "2025-08-07T23:10:41.073763",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "RXO",
+      "name": "RXO, Inc.",
+      "revenue_millions": 1450.0,
+      "revenue_raw": "$1.45 Bil",
+      "growth_rate": 52.6,
+      "growth_raw": "52.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly & Co.",
+      "revenue_millions": 14660.0,
+      "revenue_raw": "$14.66 Bil",
+      "growth_rate": 37.6,
+      "growth_raw": "37.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings, Inc.",
+      "revenue_millions": 636.34,
+      "revenue_raw": "$636.34 Mil",
+      "growth_rate": 83.9,
+      "growth_raw": "83.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "revenue_millions": 790.78,
+      "revenue_raw": "$790.78 Mil",
+      "growth_rate": 28.1,
+      "growth_raw": "28.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp.",
+      "revenue_millions": 615.49,
+      "revenue_raw": "$615.49 Mil",
+      "growth_rate": 32.9,
+      "growth_raw": "32.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ROAD",
+      "name": "Construction Partners, Inc.",
+      "revenue_millions": 803.5,
+      "revenue_raw": "$803.50 Mil",
+      "growth_rate": 50.5,
+      "growth_raw": "50.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PGY",
+      "name": "Pagaya Technologies Ltd.",
+      "revenue_millions": 322.55,
+      "revenue_raw": "$322.55 Mil",
+      "growth_rate": 30.4,
+      "growth_raw": "30.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "revenue_millions": 4130.0,
+      "revenue_raw": "$4.13 Bil",
+      "growth_rate": 42.8,
+      "growth_raw": "42.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRMD",
+      "name": "CorMedix, Inc.",
+      "revenue_millions": 36.82,
+      "revenue_raw": "$36.82 Mil",
+      "growth_rate": 830.1,
+      "growth_raw": "830.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UWMC",
+      "name": "UWM Holdings Corporation",
+      "revenue_millions": 729.74,
+      "revenue_raw": "$729.74 Mil",
+      "growth_rate": 49.6,
+      "growth_raw": "49.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NTLA",
+      "name": "Intellia Therapeutics, Inc.",
+      "revenue_millions": 13.02,
+      "revenue_raw": "$13.02 Mil",
+      "growth_rate": 104.8,
+      "growth_raw": "104.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GOGO",
+      "name": "Gogo Inc.",
+      "revenue_millions": 220.0,
+      "revenue_raw": "$220.00 Mil",
+      "growth_rate": 121.5,
+      "growth_raw": "121.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CQP",
+      "name": "Cheniere Energy Partners LP",
+      "revenue_millions": 2210.0,
+      "revenue_raw": "$2.21 Bil",
+      "growth_rate": 29.6,
+      "growth_raw": "29.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MTSI",
+      "name": "MACOM Technology Solutions Holdings, Inc.",
+      "revenue_millions": 250.06,
+      "revenue_raw": "$250.06 Mil",
+      "growth_rate": 32.3,
+      "growth_raw": "32.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AVDL",
+      "name": "Avadel Pharmaceuticals plc",
+      "revenue_millions": 61.84,
+      "revenue_raw": "$61.84 Mil",
+      "growth_rate": 64.2,
+      "growth_raw": "64.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FA",
+      "name": "First Advantage Corporation",
+      "revenue_millions": 385.6,
+      "revenue_raw": "$385.60 Mil",
+      "growth_rate": 111.7,
+      "growth_raw": "111.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GLUE",
+      "name": "Monte Rosa Therapeutics, Inc.",
+      "revenue_millions": 10.64,
+      "revenue_raw": "$10.64 Mil",
+      "growth_rate": 394.0,
+      "growth_raw": "394.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HP",
+      "name": "Helmerich & Payne, Inc.",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil",
+      "growth_rate": 50.0,
+      "growth_raw": "50.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NVMI",
+      "name": "Nova Measuring Instruments Ltd",
+      "revenue_millions": 215.5,
+      "revenue_raw": "$215.50 Mil",
+      "growth_rate": 40.2,
+      "growth_raw": "40.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PHAT",
+      "name": "Phathom Pharmaceuticals, Inc.",
+      "revenue_millions": 36.26,
+      "revenue_raw": "$36.26 Mil",
+      "growth_rate": 439.4,
+      "growth_raw": "439.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "REAX",
+      "name": "Real Brokerage Inc.",
+      "revenue_millions": 486.7,
+      "revenue_raw": "$486.70 Mil",
+      "growth_rate": 58.7,
+      "growth_raw": "58.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 21,
+  "total_original": 284
+}

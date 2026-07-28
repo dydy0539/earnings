@@ -1,0 +1,249 @@
+{
+  "date": "20251021",
+  "scraped_at": "2025-10-21T21:00:37.361079",
+  "companies": [
+    {
+      "symbol": "GE",
+      "source": "*[class*='eps']",
+      "raw_text": "GE\nGE Aerospace\n6:30 AM ET\nEarnings:\nRevenue:\n$1.46\n$10.34 Bil\n$1.66\n$12.18 Bil\n23.8%\n13.7%",
+      "revenue_millions": 10340.0,
+      "revenue_raw": "$10.34 Bil",
+      "growth_rate": 23.8,
+      "growth_raw": "23.8%"
+    },
+    {
+      "symbol": "RTX",
+      "source": "*[class*='eps']",
+      "raw_text": "RTX\nRTX Corporation\n6:55 AM ET\nEarnings:\nRevenue:\n$1.42\n$21.48 Bil\n$1.70\n$22.48 Bil\n11.9%\n19.7%",
+      "revenue_millions": 21480.0,
+      "revenue_raw": "$21.48 Bil",
+      "growth_rate": 11.9,
+      "growth_raw": "11.9%"
+    },
+    {
+      "symbol": "GATX",
+      "source": "*[class*='eps']",
+      "raw_text": "GATX\nGATX Corporation\n8:30 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "KO",
+      "source": "*[class*='eps']",
+      "raw_text": "KO\nCoca-Cola Company\n6:55 AM ET\nEarnings:\nRevenue:\n$0.78\n$12.43 Bil\n$0.82\n$12.46 Bil\n5.1%\n5.1%",
+      "revenue_millions": 12430.0,
+      "revenue_raw": "$12.43 Bil",
+      "growth_rate": 5.1,
+      "growth_raw": "5.1%"
+    },
+    {
+      "symbol": "LMT",
+      "source": "*[class*='eps']",
+      "raw_text": "LMT\nLockheed Martin Corp.\n7:30 AM ET\nEarnings:\nRevenue:\n$6.33\n$18.53 Bil\n$6.95\n$18.61 Bil\n8.8%\n9.8%",
+      "revenue_millions": 18530.0,
+      "revenue_raw": "$18.53 Bil",
+      "growth_rate": 8.8,
+      "growth_raw": "8.8%"
+    },
+    {
+      "symbol": "MMM",
+      "source": "*[class*='eps']",
+      "raw_text": "MMM\n3M Company\n6:30 AM ET\nEarnings:\nRevenue:\n$2.10\n$6.25 Bil\n$2.19\n$6.52 Bil\n3.5%\n4.3%",
+      "revenue_millions": 6250.0,
+      "revenue_raw": "$6.25 Bil",
+      "growth_rate": 3.5,
+      "growth_raw": "3.5%"
+    },
+    {
+      "symbol": "ELV",
+      "source": "*[class*='eps']",
+      "raw_text": "ELV\nElevance Health\n6:00 AM ET\nEarnings:\nRevenue:\n$4.98\n$49.50 Bil\n$6.03\n$50.71 Bil\n12.4%\n21.1%",
+      "revenue_millions": 49500.0,
+      "revenue_raw": "$49.50 Bil",
+      "growth_rate": 12.4,
+      "growth_raw": "12.4%"
+    },
+    {
+      "symbol": "GM",
+      "source": "*[class*='eps']",
+      "raw_text": "GM\nGeneral Motors Corp.\n6:30 AM ET\nEarnings:\nRevenue:\n$2.25\n$44.19 Bil\n$2.80\n$48.59 Bil\n-0.3%\n24.4%",
+      "revenue_millions": 44190.0,
+      "revenue_raw": "$44.19 Bil",
+      "growth_rate": -0.3,
+      "growth_raw": "-0.3%"
+    },
+    {
+      "symbol": "NOC",
+      "source": "*[class*='eps']",
+      "raw_text": "NOC\nNorthrop Grumman Corp.\n6:50 AM ET\nEarnings:\nRevenue:\n$6.49\n$10.69 Bil\n$7.67\n$10.42 Bil\n4.3%\n18.2%",
+      "revenue_millions": 10690.0,
+      "revenue_raw": "$10.69 Bil",
+      "growth_rate": 4.3,
+      "growth_raw": "4.3%"
+    },
+    {
+      "symbol": "DHR",
+      "source": "*[class*='eps']",
+      "raw_text": "DHR\nDanaher Corp.\n6:00 AM ET\nEarnings:\nRevenue:\n$1.71\n$6.00 Bil\n$1.89\n$6.05 Bil\n4.4%\n10.5%",
+      "revenue_millions": 6000.0,
+      "revenue_raw": "$6.00 Bil",
+      "growth_rate": 4.4,
+      "growth_raw": "4.4%"
+    },
+    {
+      "symbol": "NDAQ",
+      "source": "*[class*='eps']",
+      "raw_text": "NDAQ\nNasdaq, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.84\n$1.28 Bil\n$0.88\n$1.96 Bil\n2.9%\n4.8%\n-",
+      "revenue_millions": 1280.0,
+      "revenue_raw": "$1.28 Bil",
+      "growth_rate": 2.9,
+      "growth_raw": "2.9%"
+    },
+    {
+      "symbol": "EFX",
+      "source": "*[class*='eps']",
+      "raw_text": "EFX\nEquifax Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$1.93\n$1.52 Bil\n$2.04\n$1.54 Bil\n7.2%\n5.7%",
+      "revenue_millions": 1520.0,
+      "revenue_raw": "$1.52 Bil",
+      "growth_rate": 7.2,
+      "growth_raw": "7.2%"
+    },
+    {
+      "symbol": "HAL",
+      "source": "*[class*='eps']",
+      "raw_text": "HAL\nHalliburton Company\n6:45 AM ET\nEarnings:\nRevenue:\n$0.50\n$5.39 Bil\n$0.58\n$5.60 Bil\n-1.7%\n16.0%\n-",
+      "revenue_millions": 5390.0,
+      "revenue_raw": "$5.39 Bil",
+      "growth_rate": -1.7,
+      "growth_raw": "-1.7%"
+    },
+    {
+      "symbol": "GLXY",
+      "source": "*[class*='eps']",
+      "raw_text": "GLXY\nGalaxy Digital Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.38\n$14.69 Bil\n$1.12\n$29.22 Bil\n0.0%\n194.7%\n-",
+      "revenue_millions": 14690.0,
+      "revenue_raw": "$14.69 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DGX",
+      "source": "*[class*='eps']",
+      "raw_text": "DGX\nQuest Diagnostics, Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$2.51\n$2.72 Bil\n$2.60\n$2.82 Bil\n13.2%\n3.6%",
+      "revenue_millions": 2720.0,
+      "revenue_raw": "$2.72 Bil",
+      "growth_rate": 13.2,
+      "growth_raw": "13.2%"
+    },
+    {
+      "symbol": "PHM",
+      "source": "*[class*='eps']",
+      "raw_text": "PHM\nPulteGroup, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$2.86\n$4.30 Bil\n$2.96\n$4.40 Bil\n-1.6%\n3.5%\n-",
+      "revenue_millions": 4300.0,
+      "revenue_raw": "$4.30 Bil",
+      "growth_rate": -1.6,
+      "growth_raw": "-1.6%"
+    },
+    {
+      "symbol": "BMI",
+      "source": "*[class*='eps']",
+      "raw_text": "BMI\nBadger Meter, Inc.\n8:30 AM ET\nEarnings:\nRevenue:\n$1.11\n$229.36 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 229.36,
+      "revenue_raw": "$229.36 Mil"
+    },
+    {
+      "symbol": "PCAR",
+      "source": "*[class*='eps']",
+      "raw_text": "PCAR\nPACCAR, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.11\n$6.05 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 6050.0,
+      "revenue_raw": "$6.05 Bil"
+    },
+    {
+      "symbol": "VMI",
+      "source": "*[class*='eps']",
+      "raw_text": "VMI\nValmont Industries Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$4.64\n$1.04 Bil\n$4.98\n$1.05 Bil\n2.5%\n7.3%",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil",
+      "growth_rate": 2.5,
+      "growth_raw": "2.5%"
+    },
+    {
+      "symbol": "ACU",
+      "source": "*[class*='eps']",
+      "raw_text": "ACU\nAcme United Corporation\n6:30 AM ET\nEarnings:\nRevenue:\n$0.63\n$52.60 Mil\n$0.46\n$49.06 Mil\n1.9%\n-27.0%\n-",
+      "revenue_millions": 52.6,
+      "revenue_raw": "$52.60 Mil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "CCBG",
+      "source": "*[class*='eps']",
+      "raw_text": "CCBG\nCapital City Bank Group\n7:00 AM ET\nEarnings:\nRevenue:\n$0.87\n$63.30 Mil\n$0.93\n$73.76 Mil\n7.1%\n6.9%\n-",
+      "revenue_millions": 63.3,
+      "revenue_raw": "$63.30 Mil",
+      "growth_rate": 7.1,
+      "growth_raw": "7.1%"
+    },
+    {
+      "symbol": "BCPC",
+      "source": "*[class*='eps']",
+      "raw_text": "BCPC\nBalchem Corp.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.36\n$262.53 Mil\n$1.35\n$267.56 Mil\n11.5%\n-0.7%\n-",
+      "revenue_millions": 262.53,
+      "revenue_raw": "$262.53 Mil",
+      "growth_rate": 11.5,
+      "growth_raw": "11.5%"
+    },
+    {
+      "symbol": "CBU",
+      "source": "*[class*='eps']",
+      "raw_text": "CBU\nCommunity Bank System Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$1.03\n$208.93 Mil\n$1.04\n$256.17 Mil\n6.7%\n1.0%\n-",
+      "revenue_millions": 208.93,
+      "revenue_raw": "$208.93 Mil",
+      "growth_rate": 6.7,
+      "growth_raw": "6.7%"
+    },
+    {
+      "symbol": "GPC",
+      "source": "*[class*='eps']",
+      "raw_text": "GPC\nGenuine Parts Company\n6:55 AM ET\nEarnings:\nRevenue:\n$2.02\n$6.14 Bil\n$1.98\n$6.26 Bil\n4.9%\n-2.0%",
+      "revenue_millions": 6140.0,
+      "revenue_raw": "$6.14 Bil",
+      "growth_rate": 4.9,
+      "growth_raw": "4.9%"
+    },
+    {
+      "symbol": "MBWM",
+      "source": "*[class*='eps']",
+      "raw_text": "MBWM\nMercantile Bank Corporation\n5:10 AM ET\nEarnings:\nRevenue:\n$1.38\n$61.40 Mil\n$1.46\n$96.03 Mil\n3.2%\n5.8%\n-",
+      "revenue_millions": 61.4,
+      "revenue_raw": "$61.40 Mil",
+      "growth_rate": 3.2,
+      "growth_raw": "3.2%"
+    },
+    {
+      "symbol": "PNR",
+      "source": "*[class*='eps']",
+      "raw_text": "PNR\nPentair Inc.\n6:50 AM ET\nEarnings:\nRevenue:\n$1.18\n$1.00 Bil\n$1.24\n$1.02 Bil\n2.9%\n5.1%",
+      "revenue_millions": 1000.0,
+      "revenue_raw": "$1.00 Bil",
+      "growth_rate": 2.9,
+      "growth_raw": "2.9%"
+    },
+    {
+      "symbol": "SPWR",
+      "source": "*[class*='eps']",
+      "raw_text": "SPWR\nSunPower Corp.\nBefore Open\nEarnings:\nRevenue:\n$-0.12\n$70.00 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 70.0,
+      "revenue_raw": "$70.00 Mil"
+    },
+    {
+      "symbol": "PEBO",
+      "source": "*[class*='eps']",
+      "raw_text": "PEBO\nPeoples Bancorp Inc\n6:00 AM ET\nEarnings:\nRevenue:\n$0.82\n$117.05 Mil\n$0.90\n$156.63 Mil\n-1.1%\n9.8%\n-",
+      "revenue_millions": 117.05,
+      "revenue_raw": "$117.05 Mil",
+      "growth_rate": -1.1,
+      "growth_raw": "-1.1%"
+    }
+  ],
+  "status": "success"
+}

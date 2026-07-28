@@ -1,0 +1,213 @@
+{
+  "date": "20251024",
+  "scraped_at": "2025-10-24T21:00:32.888973",
+  "companies": [
+    {
+      "symbol": "HCA",
+      "source": "*[class*='eps']",
+      "raw_text": "HCA\nHCA Healthcare, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$5.65\n$18.51 Bil\n$6.96\n$19.16 Bil\n9.6%\n23.2%",
+      "revenue_millions": 18510.0,
+      "revenue_raw": "$18.51 Bil",
+      "growth_rate": 9.6,
+      "growth_raw": "9.6%"
+    },
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Coca Cola Femsa S.A.B. De C.V."
+    },
+    {
+      "symbol": "ASA",
+      "source": "*[class*='company']",
+      "raw_text": "Norsk Hydro ASA"
+    },
+    {
+      "symbol": "PHARM",
+      "source": "*[class*='company']",
+      "raw_text": "CHUGAI PHARM"
+    },
+    {
+      "symbol": "PG",
+      "source": "*[class*='eps']",
+      "raw_text": "PG\nProcter & Gamble Co.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.90\n$22.20 Bil\n$1.99\n$22.39 Bil\n3.0%\n4.7%",
+      "revenue_millions": 22200.0,
+      "revenue_raw": "$22.20 Bil",
+      "growth_rate": 3.0,
+      "growth_raw": "3.0%"
+    },
+    {
+      "symbol": "GD",
+      "source": "*[class*='eps']",
+      "raw_text": "GD\nGeneral Dynamics Corp.\n7:00 AM ET\nEarnings:\nRevenue:\n$3.73\n$12.45 Bil\n$3.88\n$12.91 Bil\n10.6%\n4.0%\n-",
+      "revenue_millions": 12450.0,
+      "revenue_raw": "$12.45 Bil",
+      "growth_rate": 10.6,
+      "growth_raw": "10.6%"
+    },
+    {
+      "symbol": "BAH",
+      "source": "*[class*='eps']",
+      "raw_text": "BAH\nBooz Allen Hamilton Holding Corporation\n6:45 AM ET\nEarnings:\nRevenue:\n$1.49\n$2.99 Bil\n$1.49\n$2.89 Bil\n-8.1%\n0.0%\n-",
+      "revenue_millions": 2990.0,
+      "revenue_raw": "$2.99 Bil",
+      "growth_rate": -8.1,
+      "growth_raw": "-8.1%"
+    },
+    {
+      "symbol": "GNTX",
+      "source": "*[class*='eps']",
+      "raw_text": "GNTX\nGentex Corp.\n8:00 AM ET\nEarnings:\nRevenue:\n$0.47\n$667.88 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 667.88,
+      "revenue_raw": "$667.88 Mil"
+    },
+    {
+      "symbol": "FLG",
+      "source": "*[class*='eps']",
+      "raw_text": "FLG\nFlagstar Financial, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.06\n$514.32 Mil\n$-0.07\n$1.20 Bil\n0.0%\n-16.7%\n-",
+      "revenue_millions": 1200.0,
+      "revenue_raw": "$1.20 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ITW",
+      "source": "*[class*='eps']",
+      "raw_text": "ITW\nIllinois Tool Works, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$2.69\n$4.09 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 4090.0,
+      "revenue_raw": "$4.09 Bil"
+    },
+    {
+      "symbol": "SNY",
+      "source": "*[class*='eps']",
+      "raw_text": "SNY\nSanofi\nBefore Open\nEarnings:\nRevenue:\n$1.60\n$14.69 Bil\n$1.70\n$14.53 Bil\n-1.6%\n6.2%\n-",
+      "revenue_millions": 14690.0,
+      "revenue_raw": "$14.69 Bil",
+      "growth_rate": -1.6,
+      "growth_raw": "-1.6%"
+    },
+    {
+      "symbol": "COFS",
+      "source": "*[class*='eps']",
+      "raw_text": "COFS\nChoiceOne Financial\n7:15 AM ET\nEarnings:\nRevenue:\n$0.86\n$42.00 Mil\n$0.97\n$61.84 Mil\n69.2%\n12.8%\n-",
+      "revenue_millions": 42.0,
+      "revenue_raw": "$42.00 Mil",
+      "growth_rate": 69.2,
+      "growth_raw": "69.2%"
+    },
+    {
+      "symbol": "EAF",
+      "source": "*[class*='eps']",
+      "raw_text": "EAF\nGrafTech International Ltd.\n6:40 AM ET\nEarnings:\nRevenue:\n$-1.22\n$141.75 Mil\n$-1.03\n$144.00 Mil\n10.2%\n15.6%\n-",
+      "revenue_millions": 141.75,
+      "revenue_raw": "$141.75 Mil",
+      "growth_rate": 10.2,
+      "growth_raw": "10.2%"
+    },
+    {
+      "symbol": "FHB",
+      "source": "*[class*='eps']",
+      "raw_text": "FHB\nFirst Hawaiian, Inc\n8:00 AM ET\nEarnings:\nRevenue:\n$0.52\n$218.28 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 218.28,
+      "revenue_raw": "$218.28 Mil"
+    },
+    {
+      "symbol": "KOF",
+      "source": "*[class*='eps']",
+      "raw_text": "KOF\nCoca Cola Femsa S.A.B. De C.V.\nBefore Open\nEarnings:\nRevenue:\n$1.48\n$3.93 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 3930.0,
+      "revenue_raw": "$3.93 Bil"
+    },
+    {
+      "symbol": "VRTS",
+      "source": "*[class*='eps']",
+      "raw_text": "VRTS\nVirtus Investment Partners\n7:00 AM ET\nEarnings:\nRevenue:\n$6.71\n$198.52 Mil\n$6.69\n$216.38 Mil\n-4.7%\n-0.3%\n-",
+      "revenue_millions": 198.52,
+      "revenue_raw": "$198.52 Mil",
+      "growth_rate": -4.7,
+      "growth_raw": "-4.7%"
+    },
+    {
+      "symbol": "SBSI",
+      "source": "*[class*='eps']",
+      "raw_text": "SBSI\nSouthside Bancshares Inc.\n5:45 AM ET\nEarnings:\nRevenue:\n$0.72\n$69.80 Mil\n$0.80\n$114.30 Mil\n0.4%\n11.1%\n-",
+      "revenue_millions": 69.8,
+      "revenue_raw": "$69.80 Mil",
+      "growth_rate": 0.4,
+      "growth_raw": "0.4%"
+    },
+    {
+      "symbol": "STEL",
+      "source": "*[class*='eps']",
+      "raw_text": "STEL\nStellar Bancorp, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.50\n$105.97 Mil\n$0.50\n$150.40 Mil\n-4.9%\n0.0%\n-",
+      "revenue_millions": 105.97,
+      "revenue_raw": "$105.97 Mil",
+      "growth_rate": -4.9,
+      "growth_raw": "-4.9%"
+    },
+    {
+      "symbol": "GRC",
+      "source": "*[class*='eps']",
+      "raw_text": "GRC\nGormanRupp Company\n6:45 AM ET\nEarnings:\nRevenue:\nInvestment analysis tools\n$0.55\n$173.23 Mil\n$0.52\n$172.82 Mil\n2.8%\n-5.5%\n-",
+      "revenue_millions": 173.23,
+      "revenue_raw": "$173.23 Mil",
+      "growth_rate": 2.8,
+      "growth_raw": "2.8%"
+    },
+    {
+      "symbol": "NHYDY",
+      "source": "*[class*='eps']",
+      "raw_text": "NHYDY\nNorsk Hydro ASA\n1:00 AM ET\nEarnings:\nRevenue:\n$0.08\n-\n$0.10\n$5.15 Bil\n10.0%\n25.0%\n-",
+      "revenue_millions": 5150.0,
+      "revenue_raw": "$5.15 Bil",
+      "growth_rate": 10.0,
+      "growth_raw": "10.0%"
+    },
+    {
+      "symbol": "NWG",
+      "source": "*[class*='eps']",
+      "raw_text": "NWG\nNatWest Group plc\n5:00 AM ET\nEarnings:\nRevenue:\n-\n$21.45 Bil\n$0.53\n$10.18 Bil\n7.3%\n-\n-",
+      "revenue_millions": 21450.0,
+      "revenue_raw": "$21.45 Bil",
+      "growth_rate": 7.3,
+      "growth_raw": "7.3%"
+    },
+    {
+      "symbol": "CHGCY",
+      "source": "*[class*='eps']",
+      "raw_text": "CHGCY\nCHUGAI PHARM\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.23\n$2.26 Bil\n0.0%\n-\n-",
+      "revenue_millions": 2260.0,
+      "revenue_raw": "$2.26 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CJREF",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ELUXY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AB",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "OPY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "PMHG",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "SHG",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "TMP",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

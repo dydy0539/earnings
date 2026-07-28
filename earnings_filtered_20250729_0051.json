@@ -1,0 +1,85 @@
+{
+  "date": "20250729",
+  "scraped_at": "2025-07-30T00:51:12.768671",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CBRE",
+      "name": "CBRE Group, Inc.",
+      "revenue_millions": 9360.0,
+      "revenue_raw": "$9.36 Bil",
+      "growth_rate": 16.2,
+      "growth_raw": "16.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CECO",
+      "name": "CECO Environmental Corp.",
+      "revenue_millions": 179.28,
+      "revenue_raw": "$179.28 Mil",
+      "growth_rate": 34.8,
+      "growth_raw": "34.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "revenue_millions": 805.44,
+      "revenue_raw": "$805.44 Mil",
+      "growth_rate": 42.8,
+      "growth_raw": "42.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BA",
+      "name": "Boeing Co.",
+      "revenue_millions": 21170.0,
+      "revenue_raw": "$21.17 Bil",
+      "growth_rate": 34.9,
+      "growth_raw": "34.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals, Ltd.",
+      "revenue_millions": 145.29,
+      "revenue_raw": "$145.29 Mil",
+      "growth_rate": 44.3,
+      "growth_raw": "44.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 68
+}

@@ -1,0 +1,55 @@
+{
+  "date": "20251019",
+  "scraped_at": "2025-10-20T09:00:41.460334",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "STRR",
+      "name": "Star Equity Holdings, Inc.",
+      "revenue_millions": 45.68,
+      "revenue_raw": "Revenue:\n$45.68 Mil",
+      "growth_rate": 234.3,
+      "growth_raw": "234.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DCTH",
+      "name": "Delcath Systems, Inc.",
+      "revenue_millions": 23.2,
+      "revenue_raw": "Revenue:\n$23.20 Mil",
+      "growth_rate": 107.1,
+      "growth_raw": "107.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 2,
+  "total_original": 8
+}

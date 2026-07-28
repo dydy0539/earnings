@@ -1,0 +1,170 @@
+{
+  "date": "20251116",
+  "scraped_at": "2025-11-17T09:00:46.388530",
+  "companies": [
+    {
+      "symbol": "H",
+      "source": "*[class*='company']",
+      "raw_text": "H World Group Limited"
+    },
+    {
+      "symbol": "J",
+      "source": "*[class*='company']",
+      "raw_text": "J & J Snack Foods Corp."
+    },
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Codere Online Luxembourg, S.A"
+    },
+    {
+      "symbol": "N",
+      "source": "*[class*='company']",
+      "raw_text": "Terra Innovatum Global N.V."
+    },
+    {
+      "symbol": "ZEEKR",
+      "source": "*[class*='company']",
+      "raw_text": "ZEEKR Intelligent Technology Holding Limited"
+    },
+    {
+      "symbol": "AI",
+      "source": "*[class*='company']",
+      "raw_text": "Datavault AI Inc."
+    },
+    {
+      "symbol": "XPEV",
+      "source": "*[class*='eps']",
+      "raw_text": "XPEV\nXPeng Inc.\n5:00 AM ET\nEarnings:\n-\nRevenue:\n$2.87 Bil\n99.4%",
+      "revenue_millions": 2870.0,
+      "revenue_raw": "Revenue:\n$2.87 Bil",
+      "growth_rate": 99.4,
+      "growth_raw": "99.4%"
+    },
+    {
+      "symbol": "ARBE",
+      "source": "*[class*='eps']",
+      "raw_text": "ARBE\nArbe Robotics Ltd.\n7:00 AM ET\nEarnings:\n$-0.07\nRevenue:\n$700.00 Thou\n469.1%",
+      "growth_rate": 469.1,
+      "growth_raw": "469.1%"
+    },
+    {
+      "symbol": "JKS",
+      "source": "*[class*='eps']",
+      "raw_text": "JKS\nJinkoSolar Holding Co., Ltd.\n7:50 AM ET\nEarnings:\n$-2.56\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "YMM",
+      "source": "*[class*='eps']",
+      "raw_text": "YMM\nFull Truck Alliance Co. Ltd.\n6:30 AM ET\nEarnings:\n$0.13\nRevenue:\n$438.41 Mil\n1.5%",
+      "revenue_millions": 438.41,
+      "revenue_raw": "Revenue:\n$438.41 Mil",
+      "growth_rate": 1.5,
+      "growth_raw": "1.5%"
+    },
+    {
+      "symbol": "ARMK",
+      "source": "*[class*='eps']",
+      "raw_text": "ARMK\nAramark Holdings Corp.\n6:35 AM ET\nEarnings:\n$0.65\nRevenue:\n$5.16 Bil\n16.8%",
+      "revenue_millions": 5160.0,
+      "revenue_raw": "Revenue:\n$5.16 Bil",
+      "growth_rate": 16.8,
+      "growth_raw": "16.8%"
+    },
+    {
+      "symbol": "BRC",
+      "source": "*[class*='eps']",
+      "raw_text": "BRC\nBrady Corporation\n7:00 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "CRGO",
+      "source": "*[class*='eps']",
+      "raw_text": "CRGO\nFreightos\n7:00 AM ET\nEarnings:\n$-0.08\nRevenue:\n$7.70 Mil\n24.5%",
+      "revenue_millions": 7.7,
+      "revenue_raw": "Revenue:\n$7.70 Mil",
+      "growth_rate": 24.5,
+      "growth_raw": "24.5%"
+    },
+    {
+      "symbol": "HTHT",
+      "source": "*[class*='eps']",
+      "raw_text": "HTHT\nH World Group Limited\n6:15 AM ET\nEarnings:\n$0.60\nRevenue:\n$944.94 Mil\n2.9%",
+      "revenue_millions": 944.94,
+      "revenue_raw": "Revenue:\n$944.94 Mil",
+      "growth_rate": 2.9,
+      "growth_raw": "2.9%"
+    },
+    {
+      "symbol": "JJSF",
+      "source": "*[class*='eps']",
+      "raw_text": "JJSF\nJ & J Snack Foods Corp.\n7:00 AM ET\nEarnings:\n$1.06\nRevenue:\n$407.00 Mil\n-4.6%",
+      "revenue_millions": 407.0,
+      "revenue_raw": "Revenue:\n$407.00 Mil",
+      "growth_rate": -4.6,
+      "growth_raw": "-4.6%"
+    },
+    {
+      "symbol": "CDRO",
+      "source": "*[class*='eps']",
+      "raw_text": "CDRO\nCodere Online Luxembourg, S.A\n9:00 AM ET\nEarnings:\n$0.06\nRevenue:\n$62.50 Mil\n-",
+      "revenue_millions": 62.5,
+      "revenue_raw": "Revenue:\n$62.50 Mil"
+    },
+    {
+      "symbol": "NKLR",
+      "source": "*[class*='eps']",
+      "raw_text": "NKLR\nTerra Innovatum Global N.V.\n9:00 AM ET\nEarnings:\n$-0.02\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "ZK",
+      "source": "*[class*='eps']",
+      "raw_text": "ZK\nZEEKR Intelligent Technology Holding Limited\n12:30 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "NRXP",
+      "source": "*[class*='eps']",
+      "raw_text": "NRXP\nNRx Pharmaceuticals\n8:10 AM ET\nEarnings:\n$-0.01\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "VRME",
+      "source": "*[class*='eps']",
+      "raw_text": "VRME\nVerifyMe, Inc.\n8:00 AM ET\nEarnings:\n$-0.02\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "DVLT",
+      "source": "*[class*='eps']",
+      "raw_text": "DVLT\nDatavault AI Inc.\n9:00 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "JSDA",
+      "source": "*[class*='eps']",
+      "raw_text": "JSDA\nJones Soda Co.\n7:30 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "LKNCY",
+      "source": "*[class*='eps']",
+      "raw_text": "LKNCY\nLuckin Coffee Inc.\n9:00 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "NIU",
+      "source": "*[class*='eps']",
+      "raw_text": "NIU\nNiu Technologies\n3:00 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "SOHU",
+      "source": "*[class*='eps']",
+      "raw_text": "SOHU\nSohu.com Inc.\n1:00 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "SY",
+      "source": "*[class*='eps']",
+      "raw_text": "SY\nSo-Young International Inc.\n6:05 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "YSG",
+      "source": "*[class*='eps']",
+      "raw_text": "YSG\nYatsen Holding Limited\n5:00 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    }
+  ],
+  "status": "success"
+}

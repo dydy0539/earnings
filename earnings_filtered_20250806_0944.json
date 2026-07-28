@@ -1,0 +1,305 @@
+{
+  "date": "20250806",
+  "scraped_at": "2025-08-07T09:44:55.190213",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TKO",
+      "name": "TKO Group Holdings, Inc.",
+      "revenue_millions": 1200.0,
+      "revenue_raw": "$1.20 Bil",
+      "growth_rate": 53.7,
+      "growth_raw": "53.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries Holdings, Inc.",
+      "revenue_millions": 1730.0,
+      "revenue_raw": "$1.73 Bil",
+      "growth_rate": 20.2,
+      "growth_raw": "20.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ Inc",
+      "revenue_millions": 17.02,
+      "revenue_raw": "$17.02 Mil",
+      "growth_rate": 81.8,
+      "growth_raw": "81.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DKNG",
+      "name": "DraftKings Inc.",
+      "revenue_millions": 1420.0,
+      "revenue_raw": "$1.42 Bil",
+      "growth_rate": 36.9,
+      "growth_raw": "36.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DASH",
+      "name": "DoorDash, Inc.",
+      "revenue_millions": 3160.0,
+      "revenue_raw": "$3.16 Bil",
+      "growth_rate": 24.9,
+      "growth_raw": "24.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SRPT",
+      "name": "Sarepta Therapeutics, Inc.",
+      "revenue_millions": 529.54,
+      "revenue_raw": "$529.54 Mil",
+      "growth_rate": 68.4,
+      "growth_raw": "68.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDE",
+      "name": "Coeur D’Alene Mines Corp.",
+      "revenue_millions": 474.4,
+      "revenue_raw": "$474.40 Mil",
+      "growth_rate": 116.5,
+      "growth_raw": "116.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RELY",
+      "name": "Remitly Global, Inc.",
+      "revenue_millions": 384.54,
+      "revenue_raw": "$384.54 Mil",
+      "growth_rate": 34.4,
+      "growth_raw": "34.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MCK",
+      "name": "McKesson Corp.",
+      "revenue_millions": 96080.0,
+      "revenue_raw": "$96.08 Bil",
+      "growth_rate": 23.4,
+      "growth_raw": "23.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ROOT",
+      "name": "Root, Inc.",
+      "revenue_millions": 337.0,
+      "revenue_raw": "$337.00 Mil",
+      "growth_rate": 32.4,
+      "growth_raw": "32.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CWAN",
+      "name": "Clearwater Analytics Holdings Inc",
+      "revenue_millions": 175.41,
+      "revenue_raw": "$175.41 Mil",
+      "growth_rate": 70.4,
+      "growth_raw": "70.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MFC",
+      "name": "Manulife Financial Corp.",
+      "revenue_millions": 28520.0,
+      "revenue_raw": "$28.52 Bil",
+      "growth_rate": 20.1,
+      "growth_raw": "20.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc.",
+      "revenue_millions": 93.38,
+      "revenue_raw": "$93.38 Mil",
+      "growth_rate": 151.5,
+      "growth_raw": "151.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PNTG",
+      "name": "Pennant Group, Inc.",
+      "revenue_millions": 212.78,
+      "revenue_raw": "$212.78 Mil",
+      "growth_rate": 30.1,
+      "growth_raw": "30.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARQT",
+      "name": "Arcutis Biotherapeutics, Inc.",
+      "revenue_millions": 72.57,
+      "revenue_raw": "$72.57 Mil",
+      "growth_rate": 164.1,
+      "growth_raw": "164.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MAX",
+      "name": "MediaAlpha, Inc.",
+      "revenue_millions": 246.11,
+      "revenue_raw": "$246.11 Mil",
+      "growth_rate": 41.1,
+      "growth_raw": "41.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NNI",
+      "name": "Nelnet Inc",
+      "revenue_millions": 673.47,
+      "revenue_raw": "$673.47 Mil",
+      "growth_rate": 34.3,
+      "growth_raw": "34.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TPC",
+      "name": "Tutor Perini Corporation",
+      "revenue_millions": 1230.0,
+      "revenue_raw": "$1.23 Bil",
+      "growth_rate": 21.8,
+      "growth_raw": "21.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SITM",
+      "name": "SiTime Corporation",
+      "revenue_millions": 64.64,
+      "revenue_raw": "$64.64 Mil",
+      "growth_rate": 58.4,
+      "growth_raw": "58.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TFPM",
+      "name": "Triple Flag Precious Metals Corp.",
+      "revenue_millions": 344.1,
+      "revenue_raw": "$344.10 Mil",
+      "growth_rate": 48.0,
+      "growth_raw": "48.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GROY",
+      "name": "Gold Royalty Corp.",
+      "revenue_millions": 18.03,
+      "revenue_raw": "$18.03 Mil",
+      "growth_rate": 113.1,
+      "growth_raw": "113.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CTRE",
+      "name": "CareTrust REIT, Inc",
+      "revenue_millions": 107.52,
+      "revenue_raw": "$107.52 Mil",
+      "growth_rate": 63.3,
+      "growth_raw": "63.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MEG",
+      "name": "Montrose Environmental Group, Inc.",
+      "revenue_millions": 186.61,
+      "revenue_raw": "$186.61 Mil",
+      "growth_rate": 35.3,
+      "growth_raw": "35.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "revenue_millions": 108.4,
+      "revenue_raw": "$108.40 Mil",
+      "growth_rate": 64.1,
+      "growth_raw": "64.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HG",
+      "name": "Hamilton Insurance Group, Ltd.",
+      "revenue_millions": 591.68,
+      "revenue_raw": "$591.68 Mil",
+      "growth_rate": 26.0,
+      "growth_raw": "26.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RCUS",
+      "name": "Arcus Biosciences, Inc.",
+      "revenue_millions": 23.08,
+      "revenue_raw": "$23.08 Mil",
+      "growth_rate": 310.3,
+      "growth_raw": "310.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TVTX",
+      "name": "Travere Therapeutics, Inc.",
+      "revenue_millions": 97.45,
+      "revenue_raw": "$97.45 Mil",
+      "growth_rate": 111.5,
+      "growth_raw": "111.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 27,
+  "total_original": 327
+}

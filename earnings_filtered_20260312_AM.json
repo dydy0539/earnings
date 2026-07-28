@@ -1,0 +1,105 @@
+{
+  "date": "20260312",
+  "scraped_at": "2026-03-13T11:07:07.253265",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "RBRK",
+      "name": "Rubrik, Inc.",
+      "revenue_millions": 342.11,
+      "revenue_raw": "$342.11 Mil",
+      "growth_rate": 46.3,
+      "growth_raw": "46.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WPM",
+      "name": "Wheaton Precious Metals Corp.",
+      "revenue_millions": 648.96,
+      "revenue_raw": "$648.96 Mil",
+      "growth_rate": 127.2,
+      "growth_raw": "127.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ATLC",
+      "name": "Atlanticus Holdings Corporation",
+      "revenue_millions": 721.3,
+      "revenue_raw": "$721.30 Mil",
+      "growth_rate": 107.8,
+      "growth_raw": "107.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MNR",
+      "name": "Mach Natural Resources LP",
+      "revenue_millions": 361.93,
+      "revenue_raw": "$361.93 Mil",
+      "growth_rate": 65.0,
+      "growth_raw": "65.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VXRT",
+      "name": "Vaxart, Inc.",
+      "revenue_millions": 104.24,
+      "revenue_raw": "$104.24 Mil",
+      "growth_rate": 586.5,
+      "growth_raw": "586.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MUX",
+      "name": "McEwen Mining Inc.",
+      "revenue_millions": 68.4,
+      "revenue_raw": "$68.40 Mil",
+      "growth_rate": 92.8,
+      "growth_raw": "92.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TOI",
+      "name": "Oncology Institute, Inc.",
+      "revenue_millions": 141.0,
+      "revenue_raw": "$141.00 Mil",
+      "growth_rate": 41.6,
+      "growth_raw": "41.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 7,
+  "total_original": 90
+}

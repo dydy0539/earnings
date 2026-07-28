@@ -1,0 +1,85 @@
+{
+  "date": "20260414",
+  "scraped_at": "2026-04-14T22:00:50.736995",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.Investor services platform",
+      "revenue_millions": 48200.0,
+      "revenue_raw": "$48.20 Bil",
+      "growth_rate": 6.9,
+      "growth_raw": "6.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "BLK",
+      "name": "BlackRock, Inc.",
+      "revenue_millions": 6600.0,
+      "revenue_raw": "$6.60 Bil",
+      "growth_rate": 27.0,
+      "growth_raw": "27.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup, Inc.",
+      "revenue_millions": 23710.0,
+      "revenue_raw": "$23.71 Bil",
+      "growth_rate": 7.6,
+      "growth_raw": "7.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo & Co.",
+      "revenue_millions": 21730.0,
+      "revenue_raw": "$21.73 Bil",
+      "growth_rate": 7.3,
+      "growth_raw": "7.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "CREX",
+      "name": "Creative Realities, Inc.",
+      "revenue_millions": 19.0,
+      "revenue_raw": "$19.00 Mil",
+      "growth_rate": 145.7,
+      "growth_raw": "145.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 15
+}

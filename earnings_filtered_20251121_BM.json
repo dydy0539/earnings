@@ -1,0 +1,45 @@
+{
+  "date": "20251121",
+  "scraped_at": "2025-11-21T22:00:34.303221",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "MNSO",
+      "name": "MINISO Group Holding Limited",
+      "revenue_millions": 793.95,
+      "revenue_raw": "$793.95 Mil",
+      "growth_rate": 26.3,
+      "growth_raw": "26.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 1,
+  "total_original": 14
+}

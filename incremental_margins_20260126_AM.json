@@ -1,0 +1,56 @@
+{
+  "source_file": "earnings_filtered_20260126_AM.json",
+  "analyzed_at": "2026-01-27T10:24:19.669694",
+  "total_companies": 2,
+  "successful_analyses": 2,
+  "companies": [
+    {
+      "company_name": "Brown & Brown Inc.",
+      "ticker": "BRO",
+      "status": "success",
+      "incremental_operating_margin": 4.4,
+      "latest_operating_margin": 24.13,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 30.69,
+      "operating_income_growth_pct": 4.47,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1550000000.0,
+          "operating_income": 374000000.0,
+          "operating_margin_pct": 24.13
+        },
+        "prior_year_quarter": {
+          "revenue": 1186000000.0,
+          "operating_income": 358000000.0,
+          "operating_margin_pct": 30.19
+        }
+      }
+    },
+    {
+      "company_name": "Sanmina Corporation",
+      "ticker": "SANM",
+      "status": "success",
+      "incremental_operating_margin": 20.8,
+      "latest_operating_margin": 5.2,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 3.91,
+      "operating_income_growth_pct": 17.73,
+      "details": {
+        "latest_quarter": {
+          "revenue": 2096392000.0,
+          "operating_income": 108967000.0,
+          "operating_margin_pct": 5.2
+        },
+        "prior_year_quarter": {
+          "revenue": 2017505000.0,
+          "operating_income": 92560000.0,
+          "operating_margin_pct": 4.59
+        }
+      }
+    }
+  ]
+}

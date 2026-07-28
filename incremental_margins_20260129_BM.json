@@ -1,0 +1,248 @@
+{
+  "source_file": "earnings_filtered_20260129_BM.json",
+  "analyzed_at": "2026-01-29T22:14:17.326304",
+  "total_companies": 10,
+  "successful_analyses": 10,
+  "companies": [
+    {
+      "company_name": "TAL Education Group",
+      "ticker": "TAL",
+      "status": "success",
+      "incremental_operating_margin": 20.03,
+      "latest_operating_margin": 11.16,
+      "latest_quarter_date": "2025-08-31",
+      "prior_year_quarter_date": "2024-08-31",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 39.07,
+      "operating_income_growth_pct": 101.79,
+      "details": {
+        "latest_quarter": {
+          "revenue": 861353000.0,
+          "operating_income": 96097000.0,
+          "operating_margin_pct": 11.16
+        },
+        "prior_year_quarter": {
+          "revenue": 619361000.0,
+          "operating_income": 47622000.0,
+          "operating_margin_pct": 7.69
+        }
+      }
+    },
+    {
+      "company_name": "CNX Resources Corporation",
+      "ticker": "CNX",
+      "status": "success",
+      "incremental_operating_margin": 84.25,
+      "latest_operating_margin": 24.73,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 34.87,
+      "operating_income_growth_pct": 739.38,
+      "details": {
+        "latest_quarter": {
+          "revenue": 452145000.0,
+          "operating_income": 111806000.0,
+          "operating_margin_pct": 24.73
+        },
+        "prior_year_quarter": {
+          "revenue": 335249000.0,
+          "operating_income": 13320000.0,
+          "operating_margin_pct": 3.97
+        }
+      }
+    },
+    {
+      "company_name": "Mastercard Inc",
+      "ticker": "MA",
+      "status": "success",
+      "incremental_operating_margin": 78.99,
+      "latest_operating_margin": 60.1,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 16.73,
+      "operating_income_growth_pct": 23.21,
+      "details": {
+        "latest_quarter": {
+          "revenue": 8602000000.0,
+          "operating_income": 5170000000.0,
+          "operating_margin_pct": 60.1
+        },
+        "prior_year_quarter": {
+          "revenue": 7369000000.0,
+          "operating_income": 4196000000.0,
+          "operating_margin_pct": 56.94
+        }
+      }
+    },
+    {
+      "company_name": "Caterpillar, Inc.",
+      "ticker": "CAT",
+      "status": "success",
+      "incremental_operating_margin": -6.2,
+      "latest_operating_margin": 17.3,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 9.51,
+      "operating_income_growth_pct": -3.02,
+      "details": {
+        "latest_quarter": {
+          "revenue": 17638000000.0,
+          "operating_income": 3052000000.0,
+          "operating_margin_pct": 17.3
+        },
+        "prior_year_quarter": {
+          "revenue": 16106000000.0,
+          "operating_income": 3147000000.0,
+          "operating_margin_pct": 19.54
+        }
+      }
+    },
+    {
+      "company_name": "Blackstone",
+      "ticker": "BX",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": -6.95,
+      "operating_income_growth_pct": -6.95,
+      "details": {
+        "latest_quarter": {
+          "revenue": 2685881000.0,
+          "operating_income": 2685881000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 2886396000.0,
+          "operating_income": 2886396000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "Xerox Corp.",
+      "ticker": "XRX",
+      "status": "success",
+      "incremental_operating_margin": -47.58,
+      "latest_operating_margin": -6.94,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 28.34,
+      "operating_income_growth_pct": -294.29,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1961000000.0,
+          "operating_income": -136000000.0,
+          "operating_margin_pct": -6.94
+        },
+        "prior_year_quarter": {
+          "revenue": 1528000000.0,
+          "operating_income": 70000000.0,
+          "operating_margin_pct": 4.58
+        }
+      }
+    },
+    {
+      "company_name": "Sanofi",
+      "ticker": "SNY",
+      "status": "success",
+      "incremental_operating_margin": -52.33,
+      "latest_operating_margin": 28.74,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 1.49,
+      "operating_income_growth_pct": -2.6,
+      "details": {
+        "latest_quarter": {
+          "revenue": 13170000000.0,
+          "operating_income": 3785000000.0,
+          "operating_margin_pct": 28.74
+        },
+        "prior_year_quarter": {
+          "revenue": 12977000000.0,
+          "operating_income": 3886000000.0,
+          "operating_margin_pct": 29.95
+        }
+      }
+    },
+    {
+      "company_name": "ConnectOne Bancorp, Inc.",
+      "ticker": "CNOB",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 85.03,
+      "operating_income_growth_pct": 85.03,
+      "details": {
+        "latest_quarter": {
+          "revenue": 121426000.0,
+          "operating_income": 121426000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 65624000.0,
+          "operating_income": 65624000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "International Paper Co.",
+      "ticker": "IP",
+      "status": "success",
+      "incremental_operating_margin": -14.31,
+      "latest_operating_margin": -3.55,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 56.37,
+      "operating_income_growth_pct": -321.0,
+      "details": {
+        "latest_quarter": {
+          "revenue": 6222000000.0,
+          "operating_income": -221000000.0,
+          "operating_margin_pct": -3.55
+        },
+        "prior_year_quarter": {
+          "revenue": 3979000000.0,
+          "operating_income": 100000000.0,
+          "operating_margin_pct": 2.51
+        }
+      }
+    },
+    {
+      "company_name": "Southwest Airlines Co.",
+      "ticker": "LUV",
+      "status": "success",
+      "incremental_operating_margin": -3.8,
+      "latest_operating_margin": 0.5,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 1.15,
+      "operating_income_growth_pct": -7.89,
+      "details": {
+        "latest_quarter": {
+          "revenue": 6949000000.0,
+          "operating_income": 35000000.0,
+          "operating_margin_pct": 0.5
+        },
+        "prior_year_quarter": {
+          "revenue": 6870000000.0,
+          "operating_income": 38000000.0,
+          "operating_margin_pct": 0.55
+        }
+      }
+    }
+  ]
+}

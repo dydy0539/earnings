@@ -1,0 +1,71 @@
+{
+  "date": "20260529",
+  "scraped_at": "2026-05-29T22:00:41.376241",
+  "companies": [
+    {
+      "symbol": "KNOT",
+      "source": "*[class*='company']",
+      "raw_text": "KNOT Offshore Partners LP"
+    },
+    {
+      "symbol": "LNG",
+      "source": "*[class*='company']",
+      "raw_text": "Dynagas LNG Partners LP"
+    },
+    {
+      "symbol": "ELMT",
+      "source": "*[class*='eps']",
+      "raw_text": "ELMT\nElmet Group Co.\n9:00 AM ET\nEarnings:\nRevenue:\n$-0.18\n$52.77 Mil\n$0.23\n$56.01 Mil\n0.0%\n227.8%\n-",
+      "revenue_millions": 52.77,
+      "revenue_raw": "$52.77 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FUFU",
+      "source": "*[class*='eps']",
+      "raw_text": "FUFU\nBitFuFu Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.03\n$93.35 Mil\n$0.01\n$72.66 Mil\n-6.9%\n-66.7%\n-",
+      "revenue_millions": 93.35,
+      "revenue_raw": "$93.35 Mil",
+      "growth_rate": -6.9,
+      "growth_raw": "-6.9%"
+    },
+    {
+      "symbol": "GCO",
+      "source": "*[class*='eps']",
+      "raw_text": "GCO\nGenesco Inc.\n6:50 AM ET\nEarnings:\nRevenue:\n$-2.58\n$470.28 Mil\n$-2.18\n$487.02 Mil\n2.8%\n15.5%",
+      "revenue_millions": 470.28,
+      "revenue_raw": "$470.28 Mil",
+      "growth_rate": 2.8,
+      "growth_raw": "2.8%"
+    },
+    {
+      "symbol": "KNOP",
+      "source": "*[class*='eps']",
+      "raw_text": "KNOP\nKNOT Offshore Partners LP\n7:00 AM ET\nEarnings:\nRevenue:\n$0.20\n-\n$0.08\n$92.01 Mil\n5.7%\n-60.0%\n-",
+      "revenue_millions": 92.01,
+      "revenue_raw": "$92.01 Mil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    },
+    {
+      "symbol": "BKE",
+      "source": "*[class*='eps']",
+      "raw_text": "BKE\nBuckle Inc\n6:50 AM ETEarnings news alerts\nEarnings:\nRevenue:\n-\n-\n$0.92\n$288.74 Mil\n0.0%\n-\n-",
+      "revenue_millions": 288.74,
+      "revenue_raw": "$288.74 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DLNG",
+      "source": "*[class*='eps']",
+      "raw_text": "DLNG\nDynagas LNG Partners LP\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "LP",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

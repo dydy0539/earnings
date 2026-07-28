@@ -1,0 +1,152 @@
+{
+  "date": "20260120",
+  "scraped_at": "2026-01-21T10:00:33.701160",
+  "companies": [
+    {
+      "symbol": "F",
+      "source": "*[class*='company']",
+      "raw_text": "F.N.B. Corporation"
+    },
+    {
+      "symbol": "OZK",
+      "source": "*[class*='eps']",
+      "raw_text": "OZK\nBank OZK\n4:05 PM ET\nEarnings:\nRevenue:\n$1.56\n$432.57 Mil\n$1.53\n$704.61 Mil\n1.3%\n-1.9%\n-",
+      "revenue_millions": 432.57,
+      "revenue_raw": "$432.57 Mil",
+      "growth_rate": 1.3,
+      "growth_raw": "1.3%"
+    },
+    {
+      "symbol": "NFLX",
+      "source": "*[class*='eps']",
+      "raw_text": "NFLX\nNetflix, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.55\n$11.97 Bil\n$0.56\n$12.05 Bil\n17.6%\n1.8%",
+      "revenue_millions": 11970.0,
+      "revenue_raw": "$11.97 Bil",
+      "growth_rate": 17.6,
+      "growth_raw": "17.6%"
+    },
+    {
+      "symbol": "UAL",
+      "source": "*[class*='eps']",
+      "raw_text": "UAL\nUnited Airlines\n4:00 PM ET\nEarnings:\nRevenue:\n$2.98\n$15.44 Bil\n$3.10\n$15.40 Bil\n4.8%\n4.0%",
+      "revenue_millions": 15440.0,
+      "revenue_raw": "$15.44 Bil",
+      "growth_rate": 4.8,
+      "growth_raw": "4.8%"
+    },
+    {
+      "symbol": "IBKR",
+      "source": "*[class*='eps']",
+      "raw_text": "IBKR\nInteractive Brokers Group Inc\n4:00 PM ET\nEarnings:\nRevenue:\n$0.51\n$1.43 Bil\n$0.65\n$2.75 Bil\n98.2%\n27.5%\n-",
+      "revenue_millions": 1430.0,
+      "revenue_raw": "$1.43 Bil",
+      "growth_rate": 98.2,
+      "growth_raw": "98.2%"
+    },
+    {
+      "symbol": "PRGS",
+      "source": "*[class*='eps']",
+      "raw_text": "PRGS\nProgress Software Corp.\n4:00 PM ET\nEarnings:\nRevenue:\n$1.31\n$252.68 Mil\n$1.51\n$252.67 Mil\n17.5%\n15.3%",
+      "revenue_millions": 252.68,
+      "revenue_raw": "$252.68 Mil",
+      "growth_rate": 17.5,
+      "growth_raw": "17.5%"
+    },
+    {
+      "symbol": "FNB",
+      "source": "*[class*='eps']",
+      "raw_text": "FNB\nF.N.B. Corporation\n4:30 PM ET\nEarnings:\nRevenue:\n$0.41\n$455.81 Mil\n$0.50\n$679.83 Mil\n9.7%\n22.0%\n-",
+      "revenue_millions": 455.81,
+      "revenue_raw": "$455.81 Mil",
+      "growth_rate": 9.7,
+      "growth_raw": "9.7%"
+    },
+    {
+      "symbol": "ZION",
+      "source": "*[class*='eps']",
+      "raw_text": "ZION\nZions Bancorporation\n4:10 PM ET\nEarnings:\nRevenue:\n$1.57\n$864.41 Mil\n$1.75\n$1.25 Bil\n-0.5%\n11.5%\n-",
+      "revenue_millions": 1250.0,
+      "revenue_raw": "$1.25 Bil",
+      "growth_rate": -0.5,
+      "growth_raw": "-0.5%"
+    },
+    {
+      "symbol": "KARO",
+      "source": "*[class*='eps']",
+      "raw_text": "KARO\nKarooooo Ltd.\n4:25 PM ET\nEarnings:\nRevenue:\n$0.46\n$79.18 Mil\n$0.49\n$81.39 Mil\n24.2%\n6.5%",
+      "revenue_millions": 79.18,
+      "revenue_raw": "$79.18 Mil",
+      "growth_rate": 24.2,
+      "growth_raw": "24.2%"
+    },
+    {
+      "symbol": "HWC",
+      "source": "*[class*='eps']",
+      "raw_text": "HWC\nHancock Whitney Corporation\n4:00 PM ET\nEarnings:\nRevenue:\n$1.48\n$389.33 Mil\n$1.49\n$514.83 Mil\n1.8%\n0.7%\n-",
+      "revenue_millions": 389.33,
+      "revenue_raw": "$389.33 Mil",
+      "growth_rate": 1.8,
+      "growth_raw": "1.8%"
+    },
+    {
+      "symbol": "MCB",
+      "source": "*[class*='eps']",
+      "raw_text": "MCB\nMetropolitan Bank Holding Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$2.07\n$81.60 Mil\n$2.77\n$140.55 Mil\n13.1%\n33.8%\n-",
+      "revenue_millions": 81.6,
+      "revenue_raw": "$81.60 Mil",
+      "growth_rate": 13.1,
+      "growth_raw": "13.1%"
+    },
+    {
+      "symbol": "WTFC",
+      "source": "*[class*='eps']",
+      "raw_text": "WTFC\nWintrust Financial Corp.\n4:50 PM ET\nEarnings:\nRevenue:\n$2.93\n$699.70 Mil\n$3.15\n$1.09 Bil\n5.8%\n7.5%\n-",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 5.8,
+      "growth_raw": "5.8%"
+    },
+    {
+      "symbol": "NPB",
+      "source": "*[class*='eps']",
+      "raw_text": "NPB\nNorthpointe Bancshares, Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$0.61\n$64.70 Mil\n$0.52\n$127.76 Mil\n0.0%\n-14.8%\n-",
+      "revenue_millions": 64.7,
+      "revenue_raw": "$64.70 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SFNC",
+      "source": "*[class*='eps']",
+      "raw_text": "SFNC\nSimmons First National Corp.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.49\n$238.81 Mil\n$0.54\n$359.24 Mil\n-2.8%\n10.2%\n-",
+      "revenue_millions": 238.81,
+      "revenue_raw": "$238.81 Mil",
+      "growth_rate": -2.8,
+      "growth_raw": "-2.8%"
+    },
+    {
+      "symbol": "SMBK",
+      "source": "*[class*='eps']",
+      "raw_text": "SMBK\nSmartFinancial, Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$0.80\n$51.58 Mil\n$0.81\n$83.84 Mil\n11.6%\n1.3%\n-",
+      "revenue_millions": 51.58,
+      "revenue_raw": "$51.58 Mil",
+      "growth_rate": 11.6,
+      "growth_raw": "11.6%"
+    },
+    {
+      "symbol": "RIO",
+      "source": "*[class*='eps']",
+      "raw_text": "RIO\nRio Tinto Plc\n10:40 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "SFBS",
+      "source": "*[class*='eps']",
+      "raw_text": "SFBS\nServisFirst Bancshares, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.41\n$152.63 Mil\n$1.58\n$267.08 Mil\n5.7%\n12.1%\n-",
+      "revenue_millions": 152.63,
+      "revenue_raw": "$152.63 Mil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    }
+  ],
+  "status": "success"
+}

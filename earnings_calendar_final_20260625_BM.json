@@ -1,0 +1,123 @@
+{
+  "date": "20260625",
+  "scraped_at": "2026-06-25T22:00:34.918439",
+  "companies": [
+    {
+      "symbol": "X",
+      "source": "*[class*='company']",
+      "raw_text": "Nano-X Imaging Ltd."
+    },
+    {
+      "symbol": "TD",
+      "source": "*[class*='company']",
+      "raw_text": "TD SYNNEX"
+    },
+    {
+      "symbol": "BB",
+      "source": "*[class*='eps']",
+      "raw_text": "BB\nBlackBerry Limited\n7:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n$0.03\n$600.20 Mil\n$0.04\n$152.90 Mil\n25.6%\n33.3%",
+      "revenue_millions": 600.2,
+      "revenue_raw": "$600.20 Mil",
+      "growth_rate": 25.6,
+      "growth_raw": "25.6%"
+    },
+    {
+      "symbol": "LOT",
+      "source": "*[class*='eps']",
+      "raw_text": "LOT\nLotus Technology Inc\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.18\n$112.65 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 112.65,
+      "revenue_raw": "$112.65 Mil"
+    },
+    {
+      "symbol": "CMC",
+      "source": "*[class*='eps']",
+      "raw_text": "CMC\nCommercial Metals Company\n6:45 AM ET\nEarnings:\nRevenue:\n$1.60\n$2.39 Bil\n$1.73\n$2.48 Bil\n22.9%\n8.1%\n-",
+      "revenue_millions": 2390.0,
+      "revenue_raw": "$2.39 Bil",
+      "growth_rate": 22.9,
+      "growth_raw": "22.9%"
+    },
+    {
+      "symbol": "MKC",
+      "source": "*[class*='eps']",
+      "raw_text": "MKC\nMcCormick & Company, Incorporated\n6:30 AM ET\nEarnings:\nRevenue:\n$0.69\n$1.90 Bil\n$0.80\n$1.94 Bil\n16.7%\n15.9%",
+      "revenue_millions": 1900.0,
+      "revenue_raw": "$1.90 Bil",
+      "growth_rate": 16.7,
+      "growth_raw": "16.7%"
+    },
+    {
+      "symbol": "NNOX",
+      "source": "*[class*='eps']",
+      "raw_text": "NNOX\nNano-X Imaging Ltd.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.20\n$4.31 Mil\n53.1%\n-\n-",
+      "revenue_millions": 4.31,
+      "revenue_raw": "$4.31 Mil",
+      "growth_rate": 53.1,
+      "growth_raw": "53.1%"
+    },
+    {
+      "symbol": "AYI",
+      "source": "*[class*='eps']",
+      "raw_text": "AYI\nAcuity Brands, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$5.21\n$1.18 Bil\n$5.31\n$1.20 Bil\n1.6%\n1.9%\n-",
+      "revenue_millions": 1180.0,
+      "revenue_raw": "$1.18 Bil",
+      "growth_rate": 1.6,
+      "growth_raw": "1.6%"
+    },
+    {
+      "symbol": "DRI",
+      "source": "*[class*='eps']",
+      "raw_text": "DRI\nDarden Restaurants, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$3.63\n$3.73 Bil\n$3.66\n$3.72 Bil\n13.7%\n0.8%",
+      "revenue_millions": 3730.0,
+      "revenue_raw": "$3.73 Bil",
+      "growth_rate": 13.7,
+      "growth_raw": "13.7%"
+    },
+    {
+      "symbol": "SNX",
+      "source": "*[class*='eps']",
+      "raw_text": "SNX\nTD SYNNEX\n7:00 AM ET\nEarnings:\nRevenue:\n$3.92\n$16.74 Bil\n$4.70\n$19.57 Bil\n31.0%\n19.9%",
+      "revenue_millions": 16740.0,
+      "revenue_raw": "$16.74 Bil",
+      "growth_rate": 31.0,
+      "growth_raw": "31.0%"
+    },
+    {
+      "symbol": "WGO",
+      "source": "*[class*='eps']",
+      "raw_text": "WGO\nWinnebago Industries, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.82\n$776.91 Mil\n$0.66\n$698.70 Mil\n-9.9%\n-19.5%",
+      "revenue_millions": 776.91,
+      "revenue_raw": "$776.91 Mil",
+      "growth_rate": -9.9,
+      "growth_raw": "-9.9%"
+    },
+    {
+      "symbol": "VTIX",
+      "source": "*[class*='eps']",
+      "raw_text": "VTIX\nVirtuix, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.42\n$950.00 Thou\n$-0.39\n$1.27 Mil\n0.0%\n7.1%\n-",
+      "revenue_millions": 1.27,
+      "revenue_raw": "$1.27 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ADXN",
+      "source": "*[class*='eps']",
+      "raw_text": "ADXN\nAddex Therapeutics Ltd\n1:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "YRD",
+      "source": "*[class*='eps']",
+      "raw_text": "YRD\nYirendai Ltd.\n6:25 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.82\n$132.67 Mil\n0.0%\n-\n-",
+      "revenue_millions": 132.67,
+      "revenue_raw": "$132.67 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "IH",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

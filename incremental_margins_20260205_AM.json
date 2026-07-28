@@ -1,0 +1,352 @@
+{
+  "source_file": "earnings_filtered_20260205_AM.json",
+  "analyzed_at": "2026-02-06T09:47:24.107763",
+  "total_companies": 15,
+  "successful_analyses": 14,
+  "companies": [
+    {
+      "company_name": "IREN Limited",
+      "ticker": "IREN",
+      "status": "success",
+      "incremental_operating_margin": -10.22,
+      "latest_operating_margin": -25.03,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 355.41,
+      "operating_income_growth_pct": 46.75,
+      "details": {
+        "latest_quarter": {
+          "revenue": 240295000.0,
+          "operating_income": -60135000.0,
+          "operating_margin_pct": -25.03
+        },
+        "prior_year_quarter": {
+          "revenue": 52764000.0,
+          "operating_income": -40977000.0,
+          "operating_margin_pct": -77.66
+        }
+      }
+    },
+    {
+      "company_name": "Amazon.com, Inc.",
+      "ticker": "AMZN",
+      "status": "success",
+      "incremental_operating_margin": 0.05,
+      "latest_operating_margin": 9.67,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 13.4,
+      "operating_income_growth_pct": 0.06,
+      "details": {
+        "latest_quarter": {
+          "revenue": 180169000000.0,
+          "operating_income": 17422000000.0,
+          "operating_margin_pct": 9.67
+        },
+        "prior_year_quarter": {
+          "revenue": 158877000000.0,
+          "operating_income": 17411000000.0,
+          "operating_margin_pct": 10.96
+        }
+      }
+    },
+    {
+      "company_name": "Reddit, Inc.",
+      "ticker": "RDDT",
+      "status": "success",
+      "incremental_operating_margin": 55.67,
+      "latest_operating_margin": 23.69,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 67.91,
+      "operating_income_growth_pct": 1921.33,
+      "details": {
+        "latest_quarter": {
+          "revenue": 584911000.0,
+          "operating_income": 138542000.0,
+          "operating_margin_pct": 23.69
+        },
+        "prior_year_quarter": {
+          "revenue": 348351000.0,
+          "operating_income": 6854000.0,
+          "operating_margin_pct": 1.97
+        }
+      }
+    },
+    {
+      "company_name": "Roblox Corporation",
+      "ticker": "RBLX",
+      "status": "success",
+      "incremental_operating_margin": -4.0,
+      "latest_operating_margin": -21.81,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 47.96,
+      "operating_income_growth_pct": 6.31,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1359646000.0,
+          "operating_income": -296535000.0,
+          "operating_margin_pct": -21.81
+        },
+        "prior_year_quarter": {
+          "revenue": 918953000.0,
+          "operating_income": -278928000.0,
+          "operating_margin_pct": -30.35
+        }
+      }
+    },
+    {
+      "company_name": "Bloom Energy Corporation",
+      "ticker": "BE",
+      "status": "success",
+      "incremental_operating_margin": 9.27,
+      "latest_operating_margin": 1.51,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 57.1,
+      "operating_income_growth_pct": -181.3,
+      "details": {
+        "latest_quarter": {
+          "revenue": 519048000.0,
+          "operating_income": 7846000.0,
+          "operating_margin_pct": 1.51
+        },
+        "prior_year_quarter": {
+          "revenue": 330399000.0,
+          "operating_income": -9651000.0,
+          "operating_margin_pct": -2.92
+        }
+      }
+    },
+    {
+      "company_name": "Affirm Holdings, Inc.",
+      "ticker": "AFRM",
+      "status": "success",
+      "incremental_operating_margin": 86.19,
+      "latest_operating_margin": 18.61,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 33.62,
+      "operating_income_growth_pct": -704.49,
+      "details": {
+        "latest_quarter": {
+          "revenue": 933337000.0,
+          "operating_income": 173688000.0,
+          "operating_margin_pct": 18.61
+        },
+        "prior_year_quarter": {
+          "revenue": 698479000.0,
+          "operating_income": -28733000.0,
+          "operating_margin_pct": -4.11
+        }
+      }
+    },
+    {
+      "company_name": "Atlassian Corporation Plc",
+      "ticker": "TEAM",
+      "status": "success",
+      "incremental_operating_margin": -26.29,
+      "latest_operating_margin": -6.72,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 20.61,
+      "operating_income_growth_pct": 201.26,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1432553000.0,
+          "operating_income": -96337000.0,
+          "operating_margin_pct": -6.72
+        },
+        "prior_year_quarter": {
+          "revenue": 1187781000.0,
+          "operating_income": -31978000.0,
+          "operating_margin_pct": -2.69
+        }
+      }
+    },
+    {
+      "company_name": "Gold.com, Inc.",
+      "ticker": "GOLD",
+      "status": "success",
+      "incremental_operating_margin": -0.69,
+      "latest_operating_margin": 0.15,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 35.57,
+      "operating_income_growth_pct": -54.68,
+      "details": {
+        "latest_quarter": {
+          "revenue": 3680766000.0,
+          "operating_income": 5492000.0,
+          "operating_margin_pct": 0.15
+        },
+        "prior_year_quarter": {
+          "revenue": 2715096000.0,
+          "operating_income": 12117000.0,
+          "operating_margin_pct": 0.45
+        }
+      }
+    },
+    {
+      "company_name": "Arrow Electronics, Inc.",
+      "ticker": "ARW",
+      "status": "success",
+      "incremental_operating_margin": 0.59,
+      "latest_operating_margin": 2.77,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 13.03,
+      "operating_income_growth_pct": 2.51,
+      "details": {
+        "latest_quarter": {
+          "revenue": 7712541000.0,
+          "operating_income": 213991000.0,
+          "operating_margin_pct": 2.77
+        },
+        "prior_year_quarter": {
+          "revenue": 6823319000.0,
+          "operating_income": 208749000.0,
+          "operating_margin_pct": 3.06
+        }
+      }
+    },
+    {
+      "company_name": "Arrowhead Pharmaceuticals, Inc.",
+      "ticker": "ARWR",
+      "status": "calculation_failed",
+      "incremental_operating_margin": null,
+      "latest_operating_margin": 17.19719891450139,
+      "error": "Could not calculate incremental margin"
+    },
+    {
+      "company_name": "Reinsurance Group of America, Incorporated",
+      "ticker": "RGA",
+      "status": "success",
+      "incremental_operating_margin": 20.32,
+      "latest_operating_margin": 6.71,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 11.05,
+      "operating_income_growth_pct": 43.15,
+      "details": {
+        "latest_quarter": {
+          "revenue": 6229000000.0,
+          "operating_income": 418000000.0,
+          "operating_margin_pct": 6.71
+        },
+        "prior_year_quarter": {
+          "revenue": 5609000000.0,
+          "operating_income": 292000000.0,
+          "operating_margin_pct": 5.21
+        }
+      }
+    },
+    {
+      "company_name": "Gen Digital Inc.",
+      "ticker": "GEN",
+      "status": "success",
+      "incremental_operating_margin": 15.04,
+      "latest_operating_margin": 36.23,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 25.26,
+      "operating_income_growth_pct": 9.14,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1220000000.0,
+          "operating_income": 442000000.0,
+          "operating_margin_pct": 36.23
+        },
+        "prior_year_quarter": {
+          "revenue": 974000000.0,
+          "operating_income": 405000000.0,
+          "operating_margin_pct": 41.58
+        }
+      }
+    },
+    {
+      "company_name": "Ventas, Inc.",
+      "ticker": "VTR",
+      "status": "success",
+      "incremental_operating_margin": 15.62,
+      "latest_operating_margin": 14.88,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 20.44,
+      "operating_income_growth_pct": 21.68,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1488996000.0,
+          "operating_income": 221521000.0,
+          "operating_margin_pct": 14.88
+        },
+        "prior_year_quarter": {
+          "revenue": 1236315000.0,
+          "operating_income": 182050000.0,
+          "operating_margin_pct": 14.73
+        }
+      }
+    },
+    {
+      "company_name": "StepStone Group Inc.",
+      "ticker": "STEP",
+      "status": "success",
+      "incremental_operating_margin": -423.85,
+      "latest_operating_margin": -159.12,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 67.19,
+      "operating_income_growth_pct": -1517.69,
+      "details": {
+        "latest_quarter": {
+          "revenue": 454225000.0,
+          "operating_income": -722750000.0,
+          "operating_margin_pct": -159.12
+        },
+        "prior_year_quarter": {
+          "revenue": 271677000.0,
+          "operating_income": 50981000.0,
+          "operating_margin_pct": 18.77
+        }
+      }
+    },
+    {
+      "company_name": "Adaptive Biotechnologies Corporation",
+      "ticker": "ADPT",
+      "status": "success",
+      "incremental_operating_margin": 90.29,
+      "latest_operating_margin": 10.95,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 102.38,
+      "operating_income_growth_pct": -131.53,
+      "details": {
+        "latest_quarter": {
+          "revenue": 93973000.0,
+          "operating_income": 10290000.0,
+          "operating_margin_pct": 10.95
+        },
+        "prior_year_quarter": {
+          "revenue": 46435000.0,
+          "operating_income": -32632000.0,
+          "operating_margin_pct": -70.27
+        }
+      }
+    }
+  ]
+}

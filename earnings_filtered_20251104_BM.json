@@ -1,0 +1,185 @@
+{
+  "date": "20251104",
+  "scraped_at": "2025-11-04T22:13:09.054121",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "MPLX",
+      "name": "MPLX LP",
+      "revenue_millions": 3290.0,
+      "revenue_raw": "$3.29 Bil",
+      "growth_rate": 21.8,
+      "growth_raw": "21.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PJT",
+      "name": "PJT Partners Inc.",
+      "revenue_millions": 367.0,
+      "revenue_raw": "$367.00 Mil",
+      "growth_rate": 37.0,
+      "growth_raw": "37.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "revenue_millions": 13260.0,
+      "revenue_raw": "$13.26 Bil",
+      "growth_rate": 20.4,
+      "growth_raw": "20.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc.",
+      "revenue_millions": 2750.0,
+      "revenue_raw": "$2.75 Bil",
+      "growth_rate": 31.5,
+      "growth_raw": "31.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HUT",
+      "name": "Hut 8 Mining Corp.",
+      "revenue_millions": 63.52,
+      "revenue_raw": "$63.52 Mil",
+      "growth_rate": 90.9,
+      "growth_raw": "90.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VITL",
+      "name": "Vital Farms",
+      "revenue_millions": 191.08,
+      "revenue_raw": "$191.08 Mil",
+      "growth_rate": 37.2,
+      "growth_raw": "37.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DAVE",
+      "name": "Dave, Inc.",
+      "revenue_millions": 131.17,
+      "revenue_raw": "$131.17 Mil",
+      "growth_rate": 63.0,
+      "growth_raw": "63.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COMP",
+      "name": "Compass, Inc.",
+      "revenue_millions": 1790.0,
+      "revenue_raw": "$1.79 Bil",
+      "growth_rate": 23.6,
+      "growth_raw": "23.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SHLS",
+      "name": "Shoals Technologies Group, Inc.",
+      "revenue_millions": 130.33,
+      "revenue_raw": "$130.33 Mil",
+      "growth_rate": 32.9,
+      "growth_raw": "32.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STIM",
+      "name": "Neuronetics, Inc.",
+      "revenue_millions": 38.14,
+      "revenue_raw": "$38.14 Mil",
+      "growth_rate": 101.3,
+      "growth_raw": "101.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "APO",
+      "name": "Apollo Global Management, LLC",
+      "revenue_millions": 1100.0,
+      "revenue_raw": "$1.10 Bil",
+      "growth_rate": 26.4,
+      "growth_raw": "26.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GENI",
+      "name": "Genius Sports Limited",
+      "revenue_millions": 158.46,
+      "revenue_raw": "$158.46 Mil",
+      "growth_rate": 38.3,
+      "growth_raw": "38.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CIGI",
+      "name": "Colliers International Group Inc.",
+      "revenue_millions": 1360.0,
+      "revenue_raw": "$1.36 Bil",
+      "growth_rate": 24.1,
+      "growth_raw": "24.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MDGL",
+      "name": "Madrigal Pharmaceuticals, Inc.",
+      "revenue_millions": 249.15,
+      "revenue_raw": "$249.15 Mil",
+      "growth_rate": 362.0,
+      "growth_raw": "362.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RYTM",
+      "name": "Rhythm Pharmaceuticals, Inc.",
+      "revenue_millions": 50.24,
+      "revenue_raw": "$50.24 Mil",
+      "growth_rate": 54.3,
+      "growth_raw": "54.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 15,
+  "total_original": 140
+}

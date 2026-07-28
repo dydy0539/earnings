@@ -1,0 +1,95 @@
+{
+  "date": "20260219",
+  "scraped_at": "2026-02-19T22:01:06.352005",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AG",
+      "name": "First Majestic Silver Corp.",
+      "revenue_millions": 1050.0,
+      "revenue_raw": "$1.05 Bil",
+      "growth_rate": 169.2,
+      "growth_raw": "169.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LMND",
+      "name": "Lemonade, Inc.",
+      "revenue_millions": 216.67,
+      "revenue_raw": "$216.67 Mil",
+      "growth_rate": 53.3,
+      "growth_raw": "53.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services, Inc.",
+      "revenue_millions": 7280.0,
+      "revenue_raw": "$7.28 Bil",
+      "growth_rate": 19.7,
+      "growth_raw": "19.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INSM",
+      "name": "Insmed, Inc.",
+      "revenue_millions": 263.87,
+      "revenue_raw": "$263.87 Mil",
+      "growth_rate": 152.6,
+      "growth_raw": "152.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LAUR",
+      "name": "Laureate Education, Inc.",
+      "revenue_millions": 520.75,
+      "revenue_raw": "$520.75 Mil",
+      "growth_rate": 27.9,
+      "growth_raw": "27.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MDGL",
+      "name": "Madrigal Pharmaceuticals, Inc.",
+      "revenue_millions": 310.93,
+      "revenue_raw": "$310.93 Mil",
+      "growth_rate": 210.8,
+      "growth_raw": "210.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 67
+}

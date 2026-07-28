@@ -1,0 +1,272 @@
+{
+  "source_file": "earnings_filtered_20260128_AM.json",
+  "analyzed_at": "2026-01-29T10:45:35.296951",
+  "total_companies": 11,
+  "successful_analyses": 11,
+  "companies": [
+    {
+      "company_name": "C.H. Robinson Worldwide Inc.",
+      "ticker": "C",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 9.6,
+      "operating_income_growth_pct": 9.6,
+      "details": {
+        "latest_quarter": {
+          "revenue": 22095000000.0,
+          "operating_income": 22095000000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 20159000000.0,
+          "operating_income": 20159000000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "Microsoft Corp.",
+      "ticker": "MSFT",
+      "status": "success",
+      "incremental_operating_margin": 61.29,
+      "latest_operating_margin": 48.87,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 18.43,
+      "operating_income_growth_pct": 24.25,
+      "details": {
+        "latest_quarter": {
+          "revenue": 77673000000.0,
+          "operating_income": 37961000000.0,
+          "operating_margin_pct": 48.87
+        },
+        "prior_year_quarter": {
+          "revenue": 65585000000.0,
+          "operating_income": 30552000000.0,
+          "operating_margin_pct": 46.58
+        }
+      }
+    },
+    {
+      "company_name": "Meta Platforms, Inc.",
+      "ticker": "META",
+      "status": "success",
+      "incremental_operating_margin": 29.9,
+      "latest_operating_margin": 40.07,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 26.25,
+      "operating_income_growth_pct": 18.36,
+      "details": {
+        "latest_quarter": {
+          "revenue": 51242000000.0,
+          "operating_income": 20535000000.0,
+          "operating_margin_pct": 40.07
+        },
+        "prior_year_quarter": {
+          "revenue": 40589000000.0,
+          "operating_income": 17350000000.0,
+          "operating_margin_pct": 42.75
+        }
+      }
+    },
+    {
+      "company_name": "Tesla, Inc.",
+      "ticker": "TSLA",
+      "status": "success",
+      "incremental_operating_margin": -31.24,
+      "latest_operating_margin": 6.63,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 11.57,
+      "operating_income_growth_pct": -32.83,
+      "details": {
+        "latest_quarter": {
+          "revenue": 28095000000.0,
+          "operating_income": 1862000000.0,
+          "operating_margin_pct": 6.63
+        },
+        "prior_year_quarter": {
+          "revenue": 25182000000.0,
+          "operating_income": 2772000000.0,
+          "operating_margin_pct": 11.01
+        }
+      }
+    },
+    {
+      "company_name": "ServiceNow, Inc.",
+      "ticker": "NOW",
+      "status": "success",
+      "incremental_operating_margin": 25.25,
+      "latest_operating_margin": 16.79,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 21.81,
+      "operating_income_growth_pct": 36.84,
+      "details": {
+        "latest_quarter": {
+          "revenue": 3407000000.0,
+          "operating_income": 572000000.0,
+          "operating_margin_pct": 16.79
+        },
+        "prior_year_quarter": {
+          "revenue": 2797000000.0,
+          "operating_income": 418000000.0,
+          "operating_margin_pct": 14.94
+        }
+      }
+    },
+    {
+      "company_name": "Lam Research Corp.",
+      "ticker": "LRCX",
+      "status": "success",
+      "incremental_operating_margin": 48.86,
+      "latest_operating_margin": 34.35,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 27.74,
+      "operating_income_growth_pct": 44.68,
+      "details": {
+        "latest_quarter": {
+          "revenue": 5324173000.0,
+          "operating_income": 1829088000.0,
+          "operating_margin_pct": 34.35
+        },
+        "prior_year_quarter": {
+          "revenue": 4167976000.0,
+          "operating_income": 1264197000.0,
+          "operating_margin_pct": 30.33
+        }
+      }
+    },
+    {
+      "company_name": "Celestica, Inc.",
+      "ticker": "CLS",
+      "status": "success",
+      "incremental_operating_margin": 27.49,
+      "latest_operating_margin": 10.33,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 27.79,
+      "operating_income_growth_pct": 137.34,
+      "details": {
+        "latest_quarter": {
+          "revenue": 3194000000.0,
+          "operating_income": 329900000.0,
+          "operating_margin_pct": 10.33
+        },
+        "prior_year_quarter": {
+          "revenue": 2499500000.0,
+          "operating_income": 139000000.0,
+          "operating_margin_pct": 5.56
+        }
+      }
+    },
+    {
+      "company_name": "Las Vegas Sands Corp",
+      "ticker": "LVS",
+      "status": "success",
+      "incremental_operating_margin": 42.37,
+      "latest_operating_margin": 23.84,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 24.2,
+      "operating_income_growth_pct": 52.99,
+      "details": {
+        "latest_quarter": {
+          "revenue": 3331000000.0,
+          "operating_income": 794000000.0,
+          "operating_margin_pct": 23.84
+        },
+        "prior_year_quarter": {
+          "revenue": 2682000000.0,
+          "operating_income": 519000000.0,
+          "operating_margin_pct": 19.35
+        }
+      }
+    },
+    {
+      "company_name": "Viavi Solutions, Inc.",
+      "ticker": "VIAV",
+      "status": "success",
+      "incremental_operating_margin": -6.9,
+      "latest_operating_margin": 2.44,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 25.57,
+      "operating_income_growth_pct": -36.52,
+      "details": {
+        "latest_quarter": {
+          "revenue": 299100000.0,
+          "operating_income": 7300000.0,
+          "operating_margin_pct": 2.44
+        },
+        "prior_year_quarter": {
+          "revenue": 238200000.0,
+          "operating_income": 11500000.0,
+          "operating_margin_pct": 4.83
+        }
+      }
+    },
+    {
+      "company_name": "Annaly Capital Management, Inc.",
+      "ticker": "NLY",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 637.14,
+      "operating_income_growth_pct": 637.14,
+      "details": {
+        "latest_quarter": {
+          "revenue": 885580000.0,
+          "operating_income": 885580000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 120137000.0,
+          "operating_income": 120137000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "Calix, Inc.",
+      "ticker": "CALX",
+      "status": "success",
+      "incremental_operating_margin": 43.88,
+      "latest_operating_margin": 6.56,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 32.09,
+      "operating_income_growth_pct": -259.74,
+      "details": {
+        "latest_quarter": {
+          "revenue": 265437000.0,
+          "operating_income": 17405000.0,
+          "operating_margin_pct": 6.56
+        },
+        "prior_year_quarter": {
+          "revenue": 200945000.0,
+          "operating_income": -10896000.0,
+          "operating_margin_pct": -5.42
+        }
+      }
+    }
+  ]
+}

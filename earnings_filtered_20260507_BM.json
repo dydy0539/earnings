@@ -1,0 +1,325 @@
+{
+  "date": "20260507",
+  "scraped_at": "2026-05-07T20:45:49.778517",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AAON",
+      "name": "AAON Inc.",
+      "revenue_millions": 386.4,
+      "revenue_raw": "$386.40 Mil",
+      "growth_rate": 54.3,
+      "growth_raw": "54.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BGC",
+      "name": "BGC Group, Inc.",
+      "revenue_millions": 926.2,
+      "revenue_raw": "$926.20 Mil",
+      "growth_rate": 43.8,
+      "growth_raw": "43.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BKV",
+      "name": "BKV Corporation",
+      "revenue_millions": 362.05,
+      "revenue_raw": "$362.05 Mil",
+      "growth_rate": 449.2,
+      "growth_raw": "449.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GATX",
+      "name": "GATX Corporation",
+      "revenue_millions": 583.7,
+      "revenue_raw": "$583.70 Mil",
+      "growth_rate": 38.4,
+      "growth_raw": "38.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ACMR",
+      "name": "ACM Research, Inc.",
+      "revenue_millions": 271.65,
+      "revenue_raw": "$271.65 Mil",
+      "growth_rate": 34.2,
+      "growth_raw": "34.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings, Inc.",
+      "revenue_millions": 755.22,
+      "revenue_raw": "$755.22 Mil",
+      "growth_rate": 137.7,
+      "growth_raw": "137.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "revenue_millions": 1010.0,
+      "revenue_raw": "$1.01 Bil",
+      "growth_rate": 32.2,
+      "growth_raw": "32.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GCT",
+      "name": "GigaCloud Technology Inc",
+      "revenue_millions": 344.9,
+      "revenue_raw": "$344.90 Mil",
+      "growth_rate": 32.2,
+      "growth_raw": "32.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DNOW",
+      "name": "NOW Inc.",
+      "revenue_millions": 1130.0,
+      "revenue_raw": "$1.13 Bil",
+      "growth_rate": 97.5,
+      "growth_raw": "97.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IBRX",
+      "name": "ImmunityBio, Inc.",
+      "revenue_millions": 40.1,
+      "revenue_raw": "$40.10 Mil",
+      "growth_rate": 167.6,
+      "growth_raw": "167.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARGX",
+      "name": "argenx",
+      "revenue_millions": 1300.0,
+      "revenue_raw": "$1.30 Bil",
+      "growth_rate": 62.6,
+      "growth_raw": "62.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IRWD",
+      "name": "Ironwood Pharmaceuticals, Inc.",
+      "revenue_millions": 73.83,
+      "revenue_raw": "$73.83 Mil",
+      "growth_rate": 158.9,
+      "growth_raw": "158.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARW",
+      "name": "Arrow Electronics, Inc.",
+      "revenue_millions": 8260.0,
+      "revenue_raw": "$8.26 Bil",
+      "growth_rate": 39.0,
+      "growth_raw": "39.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "revenue_millions": 1760.0,
+      "revenue_raw": "$1.76 Bil",
+      "growth_rate": 21.2,
+      "growth_raw": "21.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CQP",
+      "name": "Cheniere Energy Partners LP",
+      "revenue_millions": 2990.0,
+      "revenue_raw": "$2.99 Bil",
+      "growth_rate": 20.4,
+      "growth_raw": "20.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FOUR",
+      "name": "Shift4 Payments, Inc.",
+      "revenue_millions": 1120.0,
+      "revenue_raw": "$1.12 Bil",
+      "growth_rate": 32.1,
+      "growth_raw": "32.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BEAM",
+      "name": "Beam Inc.",
+      "revenue_millions": 20.82,
+      "revenue_raw": "$20.82 Mil",
+      "growth_rate": 324.9,
+      "growth_raw": "324.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMPX",
+      "name": "Amprius Technologies, Inc.",
+      "revenue_millions": 28.54,
+      "revenue_raw": "$28.54 Mil",
+      "growth_rate": 89.4,
+      "growth_raw": "89.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ASND",
+      "name": "Ascendis Pharma A/S",
+      "revenue_millions": 318.05,
+      "revenue_raw": "$318.05 Mil",
+      "growth_rate": 171.7,
+      "growth_raw": "171.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "REAX",
+      "name": "Real Brokerage Inc.",
+      "revenue_millions": 460.3,
+      "revenue_raw": "$460.30 Mil",
+      "growth_rate": 31.5,
+      "growth_raw": "31.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GENI",
+      "name": "Genius Sports Limited",
+      "revenue_millions": 168.03,
+      "revenue_raw": "$168.03 Mil",
+      "growth_rate": 30.5,
+      "growth_raw": "30.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INSW",
+      "name": "International Seaways, Inc.",
+      "revenue_millions": 264.04,
+      "revenue_raw": "$264.04 Mil",
+      "growth_rate": 77.5,
+      "growth_raw": "77.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PRVA",
+      "name": "Privia Health Group Inc",
+      "revenue_millions": 559.95,
+      "revenue_raw": "$559.95 Mil",
+      "growth_rate": 25.8,
+      "growth_raw": "25.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INSM",
+      "name": "Insmed, Inc.",
+      "revenue_millions": 308.1,
+      "revenue_raw": "$308.10 Mil",
+      "growth_rate": 229.6,
+      "growth_raw": "229.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WTRG",
+      "name": "Essential Utilities, Inc.",
+      "revenue_millions": 861.76,
+      "revenue_raw": "$861.76 Mil",
+      "growth_rate": 67.4,
+      "growth_raw": "67.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MUX",
+      "name": "McEwen Mining Inc.",
+      "revenue_millions": 74.05,
+      "revenue_raw": "$74.05 Mil",
+      "growth_rate": 58.6,
+      "growth_raw": "58.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RES",
+      "name": "RPC, Inc.",
+      "revenue_millions": 396.0,
+      "revenue_raw": "$396.00 Mil",
+      "growth_rate": 36.6,
+      "growth_raw": "36.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "XMTR",
+      "name": "Xometry, Inc.",
+      "revenue_millions": 188.29,
+      "revenue_raw": "$188.29 Mil",
+      "growth_rate": 35.9,
+      "growth_raw": "35.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UUUU",
+      "name": "Energy Fuels Inc.",
+      "revenue_millions": 35.84,
+      "revenue_raw": "$35.84 Mil",
+      "growth_rate": 750.9,
+      "growth_raw": "750.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 29,
+  "total_original": 272
+}

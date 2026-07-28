@@ -1,0 +1,85 @@
+{
+  "date": "20260212",
+  "scraped_at": "2026-02-12T22:01:00.205171",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "BGC",
+      "name": "BGC Group, Inc.",
+      "revenue_millions": 745.4,
+      "revenue_raw": "$745.40 Mil",
+      "growth_rate": 32.2,
+      "growth_raw": "32.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AGIO",
+      "name": "Agios Pharmaceuticals Inc",
+      "revenue_millions": 10.29,
+      "revenue_raw": "$10.29 Mil",
+      "growth_rate": 86.1,
+      "growth_raw": "86.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALNY",
+      "name": "Alnylam Pharmaceuticals Inc",
+      "revenue_millions": 1140.0,
+      "revenue_raw": "$1.14 Bil",
+      "growth_rate": 84.9,
+      "growth_raw": "84.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BTDR",
+      "name": "Bitdeer Technologies Group",
+      "revenue_millions": 209.85,
+      "revenue_raw": "$209.85 Mil",
+      "growth_rate": 225.8,
+      "growth_raw": "225.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CNR",
+      "name": "Cornerstone Building Brands, Inc.",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil",
+      "growth_rate": 75.1,
+      "growth_raw": "75.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 119
+}

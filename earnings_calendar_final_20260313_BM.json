@@ -1,0 +1,176 @@
+{
+  "date": "20260313",
+  "scraped_at": "2026-03-13T22:00:50.825642",
+  "companies": [
+    {
+      "symbol": "VEON",
+      "source": "*[class*='eps']",
+      "raw_text": "VEON\nVEON Ltd.\nBefore Open\nEarnings:\nRevenue:\n-\n$4.38 Bil\n$-0.39\n$1.17 Bil\n17.3%\n-",
+      "revenue_millions": 4380.0,
+      "revenue_raw": "$4.38 Bil",
+      "growth_rate": 17.3,
+      "growth_raw": "17.3%"
+    },
+    {
+      "symbol": "PLC",
+      "source": "*[class*='company']",
+      "raw_text": "Waldencast PLC"
+    },
+    {
+      "symbol": "MOTR",
+      "source": "*[class*='company']",
+      "raw_text": "BAYERISCHE MOTR"
+    },
+    {
+      "symbol": "LNG",
+      "source": "*[class*='company']",
+      "raw_text": "Dynagas LNG Partners LP"
+    },
+    {
+      "symbol": "RLX",
+      "source": "*[class*='eps']",
+      "raw_text": "RLX\nRLX Technology Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.03\n$163.21 Mil\n0.0%\n-\n-",
+      "revenue_millions": 163.21,
+      "revenue_raw": "$163.21 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KYIV",
+      "source": "*[class*='eps']",
+      "raw_text": "KYIV\nKyivstar Group Ltd.\nBefore Open\nEarnings:\nRevenue:\n$0.31Time & Calendars\n$302.65 Mil\n$0.37\n$321.00 Mil\n0.0%\n19.4%\n-",
+      "revenue_millions": 302.65,
+      "revenue_raw": "$302.65 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "EVEX",
+      "source": "*[class*='eps']",
+      "raw_text": "EVEX\nEve Holding Inc\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.14\n$11.23 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 11.23,
+      "revenue_raw": "$11.23 Mil"
+    },
+    {
+      "symbol": "CREX",
+      "source": "*[class*='eps']",
+      "raw_text": "CREX\nCreative Realities, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.07\n$20.00 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 20.0,
+      "revenue_raw": "$20.00 Mil"
+    },
+    {
+      "symbol": "BETR",
+      "source": "*[class*='eps']",
+      "raw_text": "BETR\nBetter Home & Finance Holding Company\n7:00 AM ET\nEarnings:\nRevenue:\n$-2.16\n$39.32 Mil\n$-2.29\n$44.31 Mil\n77.4%\n-6.0%\n-",
+      "revenue_millions": 39.32,
+      "revenue_raw": "$39.32 Mil",
+      "growth_rate": 77.4,
+      "growth_raw": "77.4%"
+    },
+    {
+      "symbol": "CNTY",
+      "source": "*[class*='eps']",
+      "raw_text": "CNTY\nCentury Casinos, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.46\n$143.40 Mil\n$-0.61\n$137.99 Mil\n0.2%\n-32.6%\n-",
+      "revenue_millions": 143.4,
+      "revenue_raw": "$143.40 Mil",
+      "growth_rate": 0.2,
+      "growth_raw": "0.2%"
+    },
+    {
+      "symbol": "ACXP",
+      "source": "*[class*='eps']",
+      "raw_text": "ACXP\nAcurx Pharmaceuticals, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.31\n-\n0.0%\n69.3%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "STKS",
+      "source": "*[class*='eps']",
+      "raw_text": "STKS\nONE Group Hospitality, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.26\n$207.01 Mil\n$-0.20\n$207.01 Mil\n-6.7%\n-176.9%",
+      "revenue_millions": 207.01,
+      "revenue_raw": "$207.01 Mil",
+      "growth_rate": -6.7,
+      "growth_raw": "-6.7%"
+    },
+    {
+      "symbol": "WALD",
+      "source": "*[class*='eps']",
+      "raw_text": "WALD\nWaldencast PLC\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.11\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "BKE",
+      "source": "*[class*='eps']",
+      "raw_text": "BKE\nBuckle Inc\n6:50 AM ET\nEarnings:\nRevenue:\n-\n-\n$1.59\n$399.14 Mil\n0.0%\n-\n-",
+      "revenue_millions": 399.14,
+      "revenue_raw": "$399.14 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BMWKY",
+      "source": "*[class*='eps']",
+      "raw_text": "BMWKY\nBAYERISCHE MOTR\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$1.14\n$38.94 Bil\n0.0%\n-\n-",
+      "revenue_millions": 38940.0,
+      "revenue_raw": "$38.94 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DLNG",
+      "source": "*[class*='eps']",
+      "raw_text": "DLNG\nDynagas LNG Partners LP\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.34\n$40.01 Mil\n0.0%\n-\n-",
+      "revenue_millions": 40.01,
+      "revenue_raw": "$40.01 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DOUG",
+      "source": "*[class*='eps']",
+      "raw_text": "DOUG\nDouglas Elliman Inc\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.17\n$245.45 Mil\n0.0%\n-\n-",
+      "revenue_millions": 245.45,
+      "revenue_raw": "$245.45 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "EEX",
+      "source": "*[class*='eps']",
+      "raw_text": "EEX\nEmerald Expositions Events, Inc.\n6:25 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.15\n$132.70 Mil\n0.0%\n-\n-",
+      "revenue_millions": 132.7,
+      "revenue_raw": "$132.70 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "RCON",
+      "source": "*[class*='eps']",
+      "raw_text": "RCON\nRecon Technology\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "BTBT",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AIRS",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "NRXP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "DOYU",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "NXL",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

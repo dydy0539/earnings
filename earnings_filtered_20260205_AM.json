@@ -1,0 +1,185 @@
+{
+  "date": "20260205",
+  "scraped_at": "2026-02-06T09:47:17.530739",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "IREN",
+      "name": "IREN Limited",
+      "revenue_millions": 230.12,
+      "revenue_raw": "$230.12 Mil",
+      "growth_rate": 54.4,
+      "growth_raw": "54.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "revenue_millions": 211450.0,
+      "revenue_raw": "$211.45 Bil",
+      "growth_rate": 13.6,
+      "growth_raw": "13.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "revenue_millions": 667.58,
+      "revenue_raw": "$667.58 Mil",
+      "growth_rate": 69.7,
+      "growth_raw": "69.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox Corporation",
+      "revenue_millions": 2070.0,
+      "revenue_raw": "$2.07 Bil",
+      "growth_rate": 43.2,
+      "growth_raw": "43.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy Corporation",
+      "revenue_millions": 649.12,
+      "revenue_raw": "$649.12 Mil",
+      "growth_rate": 35.9,
+      "growth_raw": "35.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AFRM",
+      "name": "Affirm Holdings, Inc.",
+      "revenue_millions": 1060.0,
+      "revenue_raw": "$1.06 Bil",
+      "growth_rate": 29.6,
+      "growth_raw": "29.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian Corporation Plc",
+      "revenue_millions": 1540.0,
+      "revenue_raw": "$1.54 Bil",
+      "growth_rate": 23.3,
+      "growth_raw": "23.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GOLD",
+      "name": "Gold.com, Inc.",
+      "revenue_millions": 2930.0,
+      "revenue_raw": "$2.93 Bil",
+      "growth_rate": 136.2,
+      "growth_raw": "136.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARW",
+      "name": "Arrow Electronics, Inc.",
+      "revenue_millions": 8100.0,
+      "revenue_raw": "$8.10 Bil",
+      "growth_rate": 20.1,
+      "growth_raw": "20.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARWR",
+      "name": "Arrowhead Pharmaceuticals, Inc.",
+      "revenue_millions": 336.17,
+      "revenue_raw": "$336.17 Mil",
+      "growth_rate": 461.3,
+      "growth_raw": "461.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RGA",
+      "name": "Reinsurance Group of America, Incorporated",
+      "revenue_millions": 6010.0,
+      "revenue_raw": "$6.01 Bil",
+      "growth_rate": 26.6,
+      "growth_raw": "26.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital Inc.",
+      "revenue_millions": 1230.0,
+      "revenue_raw": "$1.23 Bil",
+      "growth_rate": 25.8,
+      "growth_raw": "25.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VTR",
+      "name": "Ventas, Inc.",
+      "revenue_millions": 1490.0,
+      "revenue_raw": "$1.49 Bil",
+      "growth_rate": 21.7,
+      "growth_raw": "21.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STEP",
+      "name": "StepStone Group Inc.",
+      "revenue_millions": 407.21,
+      "revenue_raw": "$407.21 Mil",
+      "growth_rate": 73.0,
+      "growth_raw": "73.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ADPT",
+      "name": "Adaptive Biotechnologies Corporation",
+      "revenue_millions": 61.01,
+      "revenue_raw": "$61.01 Mil",
+      "growth_rate": 51.0,
+      "growth_raw": "51.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 15,
+  "total_original": 95
+}

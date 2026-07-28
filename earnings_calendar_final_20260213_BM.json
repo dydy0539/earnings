@@ -1,0 +1,279 @@
+{
+  "date": "20260213",
+  "scraped_at": "2026-02-13T22:03:16.624847",
+  "companies": [
+    {
+      "symbol": "RPT",
+      "source": "*[class*='eps']",
+      "raw_text": "RPT\nRPT Realty\n6:45 AM ET\nEarnings:\nRevenue:\n$-0.12\n$4.19 Mil\n$-0.06\n$12.54 Mil\n-2.6%\n50.0%\n-",
+      "revenue_millions": 4.19,
+      "revenue_raw": "$4.19 Mil",
+      "growth_rate": -2.6,
+      "growth_raw": "-2.6%"
+    },
+    {
+      "symbol": "TC",
+      "source": "*[class*='company']",
+      "raw_text": "TC Energy Corporation"
+    },
+    {
+      "symbol": "ASA",
+      "source": "*[class*='company']",
+      "raw_text": "Norsk Hydro ASA"
+    },
+    {
+      "symbol": "ASICS",
+      "source": "*[class*='company']",
+      "raw_text": "ASICS CORP ADR"
+    },
+    {
+      "symbol": "CBL",
+      "source": "*[class*='eps']",
+      "raw_text": "CBL\nCBL & Associates Properties, Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$2.25\n$156.42 Mil\n0.0%\n-\n-",
+      "revenue_millions": 156.42,
+      "revenue_raw": "$156.42 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "JX",
+      "source": "*[class*='company']",
+      "raw_text": "JX HOLDINGS U-A"
+    },
+    {
+      "symbol": "PCS",
+      "source": "*[class*='company']",
+      "raw_text": "PCS Edventures!.COM Inc"
+    },
+    {
+      "symbol": "SOMPO",
+      "source": "*[class*='company']",
+      "raw_text": "SOMPO JAPAN NPN"
+    },
+    {
+      "symbol": "MRNA",
+      "source": "*[class*='eps']",
+      "raw_text": "MRNA\nModerna, Inc.,\nBefore Open\nEarnings:\nRevenue:\n$-2.60\n$663.62 Mil\n$-2.11\n$678.00 Mil\n-29.8%\n18.8%",
+      "revenue_millions": 663.62,
+      "revenue_raw": "$663.62 Mil",
+      "growth_rate": -29.8,
+      "growth_raw": "-29.8%"
+    },
+    {
+      "symbol": "CCJ",
+      "source": "*[class*='eps']",
+      "raw_text": "CCJ\nCameco Corp.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.29\n$2.37 Bil\n$0.36\n$861.52 Mil\n1.9%\n24.1%\n-",
+      "revenue_millions": 2370.0,
+      "revenue_raw": "$2.37 Bil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "WEN",
+      "source": "*[class*='eps']",
+      "raw_text": "WEN\nWendy's International, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.14\n$545.25 Mil\n$0.16\n$542.97 Mil\n-5.5%\n14.3%",
+      "revenue_millions": 545.25,
+      "revenue_raw": "$545.25 Mil",
+      "growth_rate": -5.5,
+      "growth_raw": "-5.5%"
+    },
+    {
+      "symbol": "AAP",
+      "source": "*[class*='eps']",
+      "raw_text": "AAP\nAdvance Auto Parts Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.41\n$1.95 Bil\n$0.86\n$1.97 Bil\n-1.2%\n109.8%",
+      "revenue_millions": 1950.0,
+      "revenue_raw": "$1.95 Bil",
+      "growth_rate": -1.2,
+      "growth_raw": "-1.2%"
+    },
+    {
+      "symbol": "ENB",
+      "source": "*[class*='eps']",
+      "raw_text": "ENB\nEnbridge, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.60\n$11.75 Bil\n$0.63\n$12.32 Bil\n6.3%\n5.0%",
+      "revenue_millions": 11750.0,
+      "revenue_raw": "$11.75 Bil",
+      "growth_rate": 6.3,
+      "growth_raw": "6.3%"
+    },
+    {
+      "symbol": "MGA",
+      "source": "*[class*='eps']",
+      "raw_text": "MGA\nMagna International Inc.\n5:00 AM ET\nEarnings:\nRevenue:\n$1.81\n$10.48 Bil\n$2.18\n$10.85 Bil\n2.1%\n20.4%",
+      "revenue_millions": 10480.0,
+      "revenue_raw": "$10.48 Bil",
+      "growth_rate": 2.1,
+      "growth_raw": "2.1%"
+    },
+    {
+      "symbol": "SXT",
+      "source": "*[class*='eps']",
+      "raw_text": "SXT\nSensient Technologies Corporation\n6:55 AM ET\nEarnings:\nRevenue:\n$0.78\n$1.61 Bil\n$0.72\n$393.45 Mil\n4.5%\n-7.7%",
+      "revenue_millions": 1610.0,
+      "revenue_raw": "$1.61 Bil",
+      "growth_rate": 4.5,
+      "growth_raw": "4.5%"
+    },
+    {
+      "symbol": "ATMU",
+      "source": "*[class*='eps']",
+      "raw_text": "ATMU\nAtmus Filtration Technologies Inc.\n6:40 AM ET\nEarnings:\nRevenue:\n$0.57\n$422.32 Mil\n$0.66\n$446.60 Mil\n9.8%\n15.8%",
+      "revenue_millions": 422.32,
+      "revenue_raw": "$422.32 Mil",
+      "growth_rate": 9.8,
+      "growth_raw": "9.8%"
+    },
+    {
+      "symbol": "CIGI",
+      "source": "*[class*='eps']",
+      "raw_text": "CIGI\nColliers International Group Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$2.24\n$1.60 Bil\n$1.99\n$1.61 Bil\n7.0%\n-11.2%\n-",
+      "revenue_millions": 1600.0,
+      "revenue_raw": "$1.60 Bil",
+      "growth_rate": 7.0,
+      "growth_raw": "7.0%"
+    },
+    {
+      "symbol": "DCH",
+      "source": "*[class*='eps']",
+      "raw_text": "DCH\nDauch Corporation\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.07\n$1.41 Bil\n$0.07\n$1.38 Bil\n0.2%\n200.0%",
+      "revenue_millions": 1410.0,
+      "revenue_raw": "$1.41 Bil",
+      "growth_rate": 0.2,
+      "growth_raw": "0.2%"
+    },
+    {
+      "symbol": "ESNT",
+      "source": "*[class*='eps']",
+      "raw_text": "ESNT\nEssent Group Ltd\n6:30 AM ET\nEarnings:\nRevenue:\n$1.74\n$311.01 Mil\n$1.60\n$312.40 Mil\n-0.8%\n-8.0%\n-",
+      "revenue_millions": 311.01,
+      "revenue_raw": "$311.01 Mil",
+      "growth_rate": -0.8,
+      "growth_raw": "-0.8%"
+    },
+    {
+      "symbol": "TRP",
+      "source": "*[class*='eps']",
+      "raw_text": "TRP\nTC Energy Corporation\n6:30 AM ET\nEarnings:\nRevenue:\n$0.65\n$2.93 Bil\n$0.70\n$2.99 Bil\n16.9%\n7.7%\n-",
+      "revenue_millions": 2930.0,
+      "revenue_raw": "$2.93 Bil",
+      "growth_rate": 16.9,
+      "growth_raw": "16.9%"
+    },
+    {
+      "symbol": "NHYDY",
+      "source": "*[class*='eps']",
+      "raw_text": "NHYDY\nNorsk Hydro ASA\nBefore Open\nEarnings:\nRevenue:\n$0.03\n-\n$0.07\n$4.68 Bil\n-9.4%\n133.3%\n-",
+      "revenue_millions": 4680.0,
+      "revenue_raw": "$4.68 Bil",
+      "growth_rate": -9.4,
+      "growth_raw": "-9.4%"
+    },
+    {
+      "symbol": "NWG",
+      "source": "*[class*='eps']",
+      "raw_text": "NWG\nNatWest Group plc\nBefore Open\nEarnings:\nRevenue:\n$0.38\n$5.69 Bil\n$0.46\n$9.88 Bil\n5.5%\n21.1%\n-",
+      "revenue_millions": 5690.0,
+      "revenue_raw": "$5.69 Bil",
+      "growth_rate": 5.5,
+      "growth_raw": "5.5%"
+    },
+    {
+      "symbol": "ASCCY",
+      "source": "*[class*='eps']",
+      "raw_text": "ASCCY\nASICS CORP ADR\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.13\n$1.21 Bil\n0.0%\n-\n-",
+      "revenue_millions": 1210.0,
+      "revenue_raw": "$1.21 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "GP",
+      "source": "*[class*='eps']",
+      "raw_text": "GP\nGreenPower Motor Company Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$1.32\n$8.49 Mil\n0.0%\n-\n-",
+      "revenue_millions": 8.49,
+      "revenue_raw": "$8.49 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "JXHLY",
+      "source": "*[class*='eps']",
+      "raw_text": "JXHLY\nJX HOLDINGS U-A\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.31\n$19.67 Bil\n0.0%\n-\n-",
+      "revenue_millions": 19670.0,
+      "revenue_raw": "$19.67 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "MMI",
+      "source": "*[class*='eps']",
+      "raw_text": "MMI\nMarcus & Millichap\n7:35 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.34\n$243.95 Mil\n0.0%\n-\n-",
+      "revenue_millions": 243.95,
+      "revenue_raw": "$243.95 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "PCSV",
+      "source": "*[class*='eps']",
+      "raw_text": "PCSV\nPCS Edventures!.COM Inc\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.00\n$755.00 Thou\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "RKUNY",
+      "source": "*[class*='eps']",
+      "raw_text": "RKUNY\nRAKUTEN\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.08\n$4.60 Bil\n0.0%\n-\n-",
+      "revenue_millions": 4600.0,
+      "revenue_raw": "$4.60 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SMPNY",
+      "source": "*[class*='eps']",
+      "raw_text": "SMPNY\nSOMPO JAPAN NPN\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.57\n$8.71 Bil\n0.0%\n-\n-",
+      "revenue_millions": 8710.0,
+      "revenue_raw": "$8.71 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "XAIR",
+      "source": "*[class*='eps']",
+      "raw_text": "XAIR\nBeyond Air, Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.85\n$2.19 Mil\n0.0%\n-\n-",
+      "revenue_millions": 2.19,
+      "revenue_raw": "$2.19 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CORP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ADR",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "BTOC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "COM",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "JAPAN",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "NPN",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ZCAR",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

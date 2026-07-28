@@ -1,0 +1,91 @@
+{
+  "date": "20260625",
+  "scraped_at": "2026-06-26T09:00:32.735911",
+  "companies": [
+    {
+      "symbol": "GREEN",
+      "source": "*[class*='company']",
+      "raw_text": "CAPSTONE GREEN ENERG"
+    },
+    {
+      "symbol": "ELITE",
+      "source": "*[class*='company']",
+      "raw_text": "ELITE EDUC GRP"
+    },
+    {
+      "symbol": "OMS",
+      "source": "*[class*='company']",
+      "raw_text": "OMS Energy Technologies Inc."
+    },
+    {
+      "symbol": "FDXF",
+      "source": "*[class*='eps']",
+      "raw_text": "FDXF\nFedEx Freight\nAfter Close\nEarnings:\nRevenue:\n$1.48Company Earnings\n$2.30 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 2300.0,
+      "revenue_raw": "$2.30 Bil"
+    },
+    {
+      "symbol": "QMCO",
+      "source": "*[class*='eps']",
+      "raw_text": "QMCO\nQuantum Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.34\n$68.00 Mil\n$-0.23\n$77.99 Mil\n0.0%\n32.4%",
+      "revenue_millions": 68.0,
+      "revenue_raw": "$68.00 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "WSE",
+      "source": "*[class*='eps']",
+      "raw_text": "WSE\nWise Group plc\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "AOUT",
+      "source": "*[class*='eps']",
+      "raw_text": "AOUT\nAmerican Outdoor Brands, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.05\n$48.44 Mil\n$0.08\n$47.06 Mil\n-24.0%\n260.0%",
+      "revenue_millions": 48.44,
+      "revenue_raw": "$48.44 Mil",
+      "growth_rate": -24.0,
+      "growth_raw": "-24.0%"
+    },
+    {
+      "symbol": "CGEH",
+      "source": "*[class*='eps']",
+      "raw_text": "CGEH\nCAPSTONE GREEN ENERG\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.06\n$22.99 Mil\n0.0%\n-\n-",
+      "revenue_millions": 22.99,
+      "revenue_raw": "$22.99 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "EEIQ",
+      "source": "*[class*='eps']",
+      "raw_text": "EEIQ\nELITE EDUC GRP\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "OMSE",
+      "source": "*[class*='eps']",
+      "raw_text": "OMSE\nOMS Energy Technologies Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ENERG",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "EDUC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "GRP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "MSN",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "MXC",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

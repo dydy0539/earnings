@@ -1,0 +1,104 @@
+{
+  "source_file": "earnings_filtered_20260202_AM.json",
+  "analyzed_at": "2026-02-03T09:00:45.667460",
+  "total_companies": 4,
+  "successful_analyses": 4,
+  "companies": [
+    {
+      "company_name": "Palantir Technologies Inc.",
+      "ticker": "PLTR",
+      "status": "success",
+      "incremental_operating_margin": 61.49,
+      "latest_operating_margin": 33.3,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 62.79,
+      "operating_income_growth_pct": 247.58,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1181092000.0,
+          "operating_income": 393256000.0,
+          "operating_margin_pct": 33.3
+        },
+        "prior_year_quarter": {
+          "revenue": 725516000.0,
+          "operating_income": 113140000.0,
+          "operating_margin_pct": 15.59
+        }
+      }
+    },
+    {
+      "company_name": "Teradyne, Inc.",
+      "ticker": "TER",
+      "status": "success",
+      "incremental_operating_margin": -14.9,
+      "latest_operating_margin": 19.75,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 4.33,
+      "operating_income_growth_pct": -3.04,
+      "details": {
+        "latest_quarter": {
+          "revenue": 769210000.0,
+          "operating_income": 151888000.0,
+          "operating_margin_pct": 19.75
+        },
+        "prior_year_quarter": {
+          "revenue": 737298000.0,
+          "operating_income": 156643000.0,
+          "operating_margin_pct": 21.25
+        }
+      }
+    },
+    {
+      "company_name": "Fabrinet",
+      "ticker": "FN",
+      "status": "success",
+      "incremental_operating_margin": 9.89,
+      "latest_operating_margin": 9.63,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 21.62,
+      "operating_income_growth_pct": 22.34,
+      "details": {
+        "latest_quarter": {
+          "revenue": 978128000.0,
+          "operating_income": 94193000.0,
+          "operating_margin_pct": 9.63
+        },
+        "prior_year_quarter": {
+          "revenue": 804228000.0,
+          "operating_income": 76995000.0,
+          "operating_margin_pct": 9.57
+        }
+      }
+    },
+    {
+      "company_name": "Woodward, Inc.",
+      "ticker": "WWD",
+      "status": "success",
+      "incremental_operating_margin": 39.38,
+      "latest_operating_margin": 15.15,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 16.47,
+      "operating_income_growth_pct": 58.15,
+      "details": {
+        "latest_quarter": {
+          "revenue": 995264000.0,
+          "operating_income": 150775000.0,
+          "operating_margin_pct": 15.15
+        },
+        "prior_year_quarter": {
+          "revenue": 854488000.0,
+          "operating_income": 95337000.0,
+          "operating_margin_pct": 11.16
+        }
+      }
+    }
+  ]
+}

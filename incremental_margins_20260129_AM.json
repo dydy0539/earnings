@@ -1,0 +1,152 @@
+{
+  "source_file": "earnings_filtered_20260129_AM.json",
+  "analyzed_at": "2026-01-30T10:20:14.673216",
+  "total_companies": 6,
+  "successful_analyses": 6,
+  "companies": [
+    {
+      "company_name": "Apple, Inc.",
+      "ticker": "AAPL",
+      "status": "success",
+      "incremental_operating_margin": 37.63,
+      "latest_operating_margin": 31.65,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 7.94,
+      "operating_income_growth_pct": 9.58,
+      "details": {
+        "latest_quarter": {
+          "revenue": 102466000000.0,
+          "operating_income": 32427000000.0,
+          "operating_margin_pct": 31.65
+        },
+        "prior_year_quarter": {
+          "revenue": 94930000000.0,
+          "operating_income": 29591000000.0,
+          "operating_margin_pct": 31.17
+        }
+      }
+    },
+    {
+      "company_name": "LPL Financial Holdings Inc.",
+      "ticker": "LPLA",
+      "status": "success",
+      "incremental_operating_margin": -23.76,
+      "latest_operating_margin": 1.59,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 46.44,
+      "operating_income_growth_pct": -82.61,
+      "details": {
+        "latest_quarter": {
+          "revenue": 4551977000.0,
+          "operating_income": 72184000.0,
+          "operating_margin_pct": 1.59
+        },
+        "prior_year_quarter": {
+          "revenue": 3108394000.0,
+          "operating_income": 415127000.0,
+          "operating_margin_pct": 13.36
+        }
+      }
+    },
+    {
+      "company_name": "Arthur J. Gallagher & Co.",
+      "ticker": "AJG",
+      "status": "success",
+      "incremental_operating_margin": 9.97,
+      "latest_operating_margin": 15.94,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 19.91,
+      "operating_income_growth_pct": 11.58,
+      "details": {
+        "latest_quarter": {
+          "revenue": 3365600000.0,
+          "operating_income": 536600000.0,
+          "operating_margin_pct": 15.94
+        },
+        "prior_year_quarter": {
+          "revenue": 2806800000.0,
+          "operating_income": 480900000.0,
+          "operating_margin_pct": 17.13
+        }
+      }
+    },
+    {
+      "company_name": "MaxLinear, Inc.",
+      "ticker": "MXL",
+      "status": "success",
+      "incremental_operating_margin": 19.08,
+      "latest_operating_margin": -23.74,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 55.93,
+      "operating_income_growth_pct": -22.37,
+      "details": {
+        "latest_quarter": {
+          "revenue": 126459000.0,
+          "operating_income": -30025000.0,
+          "operating_margin_pct": -23.74
+        },
+        "prior_year_quarter": {
+          "revenue": 81102000.0,
+          "operating_income": -38678000.0,
+          "operating_margin_pct": -47.69
+        }
+      }
+    },
+    {
+      "company_name": "FinWise Bancorp",
+      "ticker": "FINW",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 74.91,
+      "operating_income_growth_pct": 74.91,
+      "details": {
+        "latest_quarter": {
+          "revenue": 36411000.0,
+          "operating_income": 36411000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 20817000.0,
+          "operating_income": 20817000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    },
+    {
+      "company_name": "Seacoast Banking Corporation of Florida",
+      "ticker": "SBCF",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 20.67,
+      "operating_income_growth_pct": 20.67,
+      "details": {
+        "latest_quarter": {
+          "revenue": 157286000.0,
+          "operating_income": 157286000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 130344000.0,
+          "operating_income": 130344000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "date": "20251014",
+  "scraped_at": "2025-10-14T18:35:13.463376",
+  "companies": [
+    {
+      "symbol": "BCE",
+      "source": "*[class*='eps']",
+      "raw_text": "BCE\nBCE, Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.52\n$4.39 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 4390.0,
+      "revenue_raw": "$4.39 Bil"
+    },
+    {
+      "symbol": "FB",
+      "source": "*[class*='company']",
+      "raw_text": "FB Financial Corporation"
+    },
+    {
+      "symbol": "BLK",
+      "source": "*[class*='eps']",
+      "raw_text": "BLK\nBlackRock, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$11.19\n$6.26 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 6260.0,
+      "revenue_raw": "$6.26 Bil"
+    },
+    {
+      "symbol": "JPM",
+      "source": "*[class*='eps']",
+      "raw_text": "JPM\nJPMorgan Chase & Co.\n6:35 AM ET\nEarnings:\nRevenue:\n$4.83\n$44.66 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 44660.0,
+      "revenue_raw": "$44.66 Bil"
+    },
+    {
+      "symbol": "GS",
+      "source": "*[class*='eps']",
+      "raw_text": "GS\nGoldman Sachs Group, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$11.11\n$13.86 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 13860.0,
+      "revenue_raw": "$13.86 Bil"
+    },
+    {
+      "symbol": "C",
+      "source": "*[class*='eps']",
+      "raw_text": "C\nCitigroup, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.91\n$21.01 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 21010.0,
+      "revenue_raw": "$21.01 Bil"
+    },
+    {
+      "symbol": "DPZ",
+      "source": "*[class*='eps']",
+      "raw_text": "DPZ\nDomino's Pizza, Inc.\n6:05 AM ET\nEarnings:\nRevenue:\n$3.99\n$1.14 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1140.0,
+      "revenue_raw": "$1.14 Bil"
+    },
+    {
+      "symbol": "WFC",
+      "source": "*[class*='eps']",
+      "raw_text": "WFC\nWells Fargo & Co.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.55\n$21.16 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 21160.0,
+      "revenue_raw": "$21.16 Bil"
+    },
+    {
+      "symbol": "JNJ",
+      "source": "*[class*='eps']",
+      "raw_text": "JNJ\nJohnson & Johnson\n6:20 AM ET\nEarnings:\nRevenue:\n$2.77\n$23.74 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 23740.0,
+      "revenue_raw": "$23.74 Bil"
+    },
+    {
+      "symbol": "ERIC",
+      "source": "*[class*='eps']",
+      "raw_text": "ERIC\nEricsson\n5:00 AM ET\nEarnings:\nRevenue:\n$0.14\n$5.90 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 5900.0,
+      "revenue_raw": "$5.90 Bil"
+    },
+    {
+      "symbol": "ACI",
+      "source": "*[class*='eps']",
+      "raw_text": "ACI\nAlbertsons Companies, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.36\n$18.90 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 18900.0,
+      "revenue_raw": "$18.90 Bil"
+    },
+    {
+      "symbol": "FBK",
+      "source": "*[class*='eps']",
+      "raw_text": "FBK\nFB Financial Corporation\nBefore Open\nEarnings:\nRevenue:\n$1.03\n$168.86 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 168.86,
+      "revenue_raw": "$168.86 Mil"
+    },
+    {
+      "symbol": "SOTK",
+      "source": "*[class*='eps']",
+      "raw_text": "SOTK\nSono-Tek Corp\n7:00 AM ET\nEarnings:\nRevenue:\n$0.02\n$5.20 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 5.2,
+      "revenue_raw": "$5.20 Mil"
+    }
+  ],
+  "status": "success"
+}

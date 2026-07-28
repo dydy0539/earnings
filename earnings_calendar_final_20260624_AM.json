@@ -1,0 +1,88 @@
+{
+  "date": "20260624",
+  "scraped_at": "2026-06-25T09:00:35.236165",
+  "companies": [
+    {
+      "symbol": "H",
+      "source": "*[class*='company']",
+      "raw_text": "H.B. Fuller Company"
+    },
+    {
+      "symbol": "MU",
+      "source": "*[class*='eps']",
+      "raw_text": "MU\nMicron Technology, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$20.81\n$34.98 Bil\n$24.89\n$41.46 Bil\n345.7%\n19.6%",
+      "revenue_millions": 34980.0,
+      "revenue_raw": "$34.98 Bil",
+      "growth_rate": 345.7,
+      "growth_raw": "345.7%"
+    },
+    {
+      "symbol": "TCOM",
+      "source": "*[class*='eps']",
+      "raw_text": "TCOM\nTrip.com Group Limited\n5:00 PM ET\nEarnings:\nRevenue:\n$0.85\n$2.33 Bil\n$0.68\n$2.35 Bil\n23.0%\n-20.0%\n-",
+      "revenue_millions": 2330.0,
+      "revenue_raw": "$2.33 Bil",
+      "growth_rate": 23.0,
+      "growth_raw": "23.0%"
+    },
+    {
+      "symbol": "FUL",
+      "source": "*[class*='eps']",
+      "raw_text": "FUL\nH.B. Fuller Company\n4:05 PM ET\nEarnings:\nRevenue:\n$1.37\n$925.37 Mil\n$1.41\n$950.27 Mil\n5.8%\n2.9%",
+      "revenue_millions": 925.37,
+      "revenue_raw": "$925.37 Mil",
+      "growth_rate": 5.8,
+      "growth_raw": "5.8%"
+    },
+    {
+      "symbol": "JEF",
+      "source": "*[class*='eps']",
+      "raw_text": "JEF\nJefferies Financial Group Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$1.09\n$2.22 Bil\n$1.03\n$3.12 Bil\n25.0%\n-5.5%\n-",
+      "revenue_millions": 2220.0,
+      "revenue_raw": "$2.22 Bil",
+      "growth_rate": 25.0,
+      "growth_raw": "25.0%"
+    },
+    {
+      "symbol": "WS",
+      "source": "*[class*='eps']",
+      "raw_text": "WS\nWorthington Steel, Inc.\n4:15 PM ETStock price drivers\nEarnings:\nRevenue:\n$0.73\n$992.00 Mil\n$0.74\n$929.20 Mil\n11.6%\n1.4%\n-",
+      "revenue_millions": 992.0,
+      "revenue_raw": "$992.00 Mil",
+      "growth_rate": 11.6,
+      "growth_raw": "11.6%"
+    },
+    {
+      "symbol": "MEI",
+      "source": "*[class*='eps']",
+      "raw_text": "MEI\nMethode Electronics, Inc.\n4:30 PM ET\nEarnings:\nRevenue:\n$-0.11\n$228.82 Mil\n$-0.30\n$298.10 Mil\n15.9%\n-172.7%",
+      "revenue_millions": 228.82,
+      "revenue_raw": "$228.82 Mil",
+      "growth_rate": 15.9,
+      "growth_raw": "15.9%"
+    },
+    {
+      "symbol": "MLKN",
+      "source": "*[class*='eps']",
+      "raw_text": "MLKN\nMillerKnoll, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.52\n$976.53 Mil\n$0.55\n$1.00 Bil\n4.4%\n5.8%",
+      "revenue_millions": 1000.0,
+      "revenue_raw": "$1.00 Bil",
+      "growth_rate": 4.4,
+      "growth_raw": "4.4%"
+    },
+    {
+      "symbol": "LICT",
+      "source": "*[class*='eps']",
+      "raw_text": "LICT\nLict Corporation\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$119.00\n$35.72 Mil\n0.0%\n-\n-",
+      "revenue_millions": 35.72,
+      "revenue_raw": "$35.72 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CULP",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

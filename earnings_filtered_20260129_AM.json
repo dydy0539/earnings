@@ -1,0 +1,95 @@
+{
+  "date": "20260129",
+  "scraped_at": "2026-01-30T10:20:10.467358",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple, Inc.",
+      "revenue_millions": 137400.0,
+      "revenue_raw": "$137.40 Bil",
+      "growth_rate": 15.7,
+      "growth_raw": "15.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "LPLA",
+      "name": "LPL Financial Holdings Inc.",
+      "revenue_millions": 4810.0,
+      "revenue_raw": "$4.81 Bil",
+      "growth_rate": 40.4,
+      "growth_raw": "40.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "revenue_millions": 3580.0,
+      "revenue_raw": "$3.58 Bil",
+      "growth_rate": 35.4,
+      "growth_raw": "35.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MXL",
+      "name": "MaxLinear, Inc.",
+      "revenue_millions": 134.98,
+      "revenue_raw": "$134.98 Mil",
+      "growth_rate": 48.0,
+      "growth_raw": "48.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FINW",
+      "name": "FinWise Bancorp",
+      "revenue_millions": 46.4,
+      "revenue_raw": "$46.40 Mil",
+      "growth_rate": 110.4,
+      "growth_raw": "110.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SBCF",
+      "name": "Seacoast Banking Corporation of Florida",
+      "revenue_millions": 202.6,
+      "revenue_raw": "$202.60 Mil",
+      "growth_rate": 40.2,
+      "growth_raw": "40.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 79
+}

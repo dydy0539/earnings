@@ -1,0 +1,219 @@
+{
+  "date": "20260317",
+  "scraped_at": "2026-03-17T22:01:25.459157",
+  "companies": [
+    {
+      "symbol": "HUYA",
+      "source": "*[class*='eps']",
+      "raw_text": "HUYA\nHUYA Inc.\n3:30 AM ET\nEarnings:\nRevenue:\n$0.02\n$253.09 Mil\n$-0.02\n$248.60 Mil\n21.3%\n-200.0%\n-",
+      "revenue_millions": 253.09,
+      "revenue_raw": "$253.09 Mil",
+      "growth_rate": 21.3,
+      "growth_raw": "21.3%"
+    },
+    {
+      "symbol": "GDS",
+      "source": "*[class*='eps']",
+      "raw_text": "GDS\nGDS Holdings Ltd\n6:30 AM ET\nEarnings:\nRevenue:\n$-0.04\n$417.71 Mil\n$0.56\n$417.80 Mil\n13.3%\n1,500.0%",
+      "revenue_millions": 417.71,
+      "revenue_raw": "$417.71 Mil",
+      "growth_rate": 13.3,
+      "growth_raw": "13.3%"
+    },
+    {
+      "symbol": "PSQ",
+      "source": "*[class*='company']",
+      "raw_text": "PSQ Holdings Inc"
+    },
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Corporación América Airports S.A."
+    },
+    {
+      "symbol": "LTD",
+      "source": "*[class*='company']",
+      "raw_text": "BINGEX LTD"
+    },
+    {
+      "symbol": "ASO",
+      "source": "*[class*='eps']",
+      "raw_text": "ASO\nAcademy Sports and Outdoors, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.99\n$1.76 Bil\n$1.98\n$1.72 Bil\n2.5%\n-0.5%",
+      "revenue_millions": 1760.0,
+      "revenue_raw": "$1.76 Bil",
+      "growth_rate": 2.5,
+      "growth_raw": "2.5%"
+    },
+    {
+      "symbol": "ESLT",
+      "source": "*[class*='eps']",
+      "raw_text": "ESLT\nElbit Systems Ltd.\n3:55 AM ET\nEarnings:\nRevenue:\n$3.23\n$2.12 Bil\n$3.56\n$2.15 Bil\n11.3%\n10.2%\n-",
+      "revenue_millions": 2120.0,
+      "revenue_raw": "$2.12 Bil",
+      "growth_rate": 11.3,
+      "growth_raw": "11.3%"
+    },
+    {
+      "symbol": "ATAT",
+      "source": "*[class*='eps']",
+      "raw_text": "ATAT\nAtour Lifestyle Holdings Limited\n6:00 AM ET\nEarnings:\nRevenue:\n$0.43\n$391.73 Mil\n$0.48\n$398.65 Mil\n39.6%\n11.6%",
+      "revenue_millions": 391.73,
+      "revenue_raw": "$391.73 Mil",
+      "growth_rate": 39.6,
+      "growth_raw": "39.6%"
+    },
+    {
+      "symbol": "TME",
+      "source": "*[class*='eps']",
+      "raw_text": "TME\nTencent Music Entertainment Group\n4:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n$0.21\n$1.20 Bil\n$0.22\n$1.24 Bil\n20.9%\n4.8%\n-",
+      "revenue_millions": 1200.0,
+      "revenue_raw": "$1.20 Bil",
+      "growth_rate": 20.9,
+      "growth_raw": "20.9%"
+    },
+    {
+      "symbol": "OPTT",
+      "source": "*[class*='eps']",
+      "raw_text": "OPTT\nOcean Power Technologies Inc\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.05\n$1.70 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1.7,
+      "revenue_raw": "$1.70 Mil"
+    },
+    {
+      "symbol": "PSQH",
+      "source": "*[class*='eps']",
+      "raw_text": "PSQH\nPSQ Holdings Inc\n6:55 AM ET\nEarnings:\nRevenue:\n$-0.19\n$6.08 Mil\n$-0.15\n$7.33 Mil\n1.7%\n21.1%\n-",
+      "revenue_millions": 6.08,
+      "revenue_raw": "$6.08 Mil",
+      "growth_rate": 1.7,
+      "growth_raw": "1.7%"
+    },
+    {
+      "symbol": "STIM",
+      "source": "*[class*='eps']",
+      "raw_text": "STIM\nNeuronetics, Inc.\n7:05 AM ET\nEarnings:\nRevenue:\n$-0.12\n$36.45 Mil\n$-0.10\n$41.78 Mil\n85.7%\n16.7%",
+      "revenue_millions": 36.45,
+      "revenue_raw": "$36.45 Mil",
+      "growth_rate": 85.7,
+      "growth_raw": "85.7%"
+    },
+    {
+      "symbol": "ABEO",
+      "source": "*[class*='eps']",
+      "raw_text": "ABEO\nAbeona Therapeutics Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.35\n$6.19 Mil\n$-0.34\n$5.42 Mil\n0.0%\n2.9%\n-",
+      "revenue_millions": 6.19,
+      "revenue_raw": "$6.19 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CAAP",
+      "source": "*[class*='eps']",
+      "raw_text": "CAAP\nCorporación América Airports S.A.\n8:30 AM ET\nEarnings:\nRevenue:\n$0.37\n$489.52 Mil\n$0.65\n$545.40 Mil\n18.3%\n75.7%\n-",
+      "revenue_millions": 489.52,
+      "revenue_raw": "$489.52 Mil",
+      "growth_rate": 18.3,
+      "growth_raw": "18.3%"
+    },
+    {
+      "symbol": "TSAT",
+      "source": "*[class*='eps']",
+      "raw_text": "TSAT\nTelesat Corp\n7:30 AM ET\nEarnings:\nRevenue:\n-\n$65.22 Mil\n$-0.97\n$67.46 Mil\n-26.3%\n-14.1%\n-",
+      "revenue_millions": 65.22,
+      "revenue_raw": "$65.22 Mil",
+      "growth_rate": -26.3,
+      "growth_raw": "-26.3%"
+    },
+    {
+      "symbol": "ICCM",
+      "source": "*[class*='eps']",
+      "raw_text": "ICCM\nIceCure Medical Ltd.\n8:55 AM ET\nEarnings:\nRevenue:\n$-0.04\n-\n$-0.06\n$1.28 Mil\n46.2%\n-50.0%\n-",
+      "revenue_millions": 1.28,
+      "revenue_raw": "$1.28 Mil",
+      "growth_rate": 46.2,
+      "growth_raw": "46.2%"
+    },
+    {
+      "symbol": "CWCO",
+      "source": "*[class*='eps']",
+      "raw_text": "CWCO\nConsolidated Water Co. Ltd.\n8:30 AM ET\nEarnings:\nRevenue:\n$0.41\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "SAMG",
+      "source": "*[class*='eps']",
+      "raw_text": "SAMG\nSilvercrest Asset Management Group Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.36\n-\n$0.18\n$31.96 Mil\n1.8%\n-50.0%\n-",
+      "revenue_millions": 31.96,
+      "revenue_raw": "$31.96 Mil",
+      "growth_rate": 1.8,
+      "growth_raw": "1.8%"
+    },
+    {
+      "symbol": "AP",
+      "source": "*[class*='eps']",
+      "raw_text": "AP\nAmpco-Pittsburgh Corporation\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.17\n$108.79 Mil\n0.0%\n-\n-",
+      "revenue_millions": 108.79,
+      "revenue_raw": "$108.79 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CODA",
+      "source": "*[class*='eps']",
+      "raw_text": "CODA\nCoda Octopus Group, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.08\n$6.71 Mil\n0.0%\n-\n-",
+      "revenue_millions": 6.71,
+      "revenue_raw": "$6.71 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CTRN",
+      "source": "*[class*='eps']",
+      "raw_text": "CTRN\nCiti Trends Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.85\n$230.39 Mil\n0.0%\n-\n-",
+      "revenue_millions": 230.39,
+      "revenue_raw": "$230.39 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FLX",
+      "source": "*[class*='eps']",
+      "raw_text": "FLX\nBINGEX LTD\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.08\n$143.19 Mil\n0.0%\n-\n-",
+      "revenue_millions": 143.19,
+      "revenue_raw": "$143.19 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KRKR",
+      "source": "*[class*='eps']",
+      "raw_text": "KRKR\n36Kr Holdings Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "LWAY",
+      "source": "*[class*='eps']",
+      "raw_text": "LWAY\nLifeway Foods, Inc.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.16\n$55.36 Mil\n0.0%\n-\n-",
+      "revenue_millions": 55.36,
+      "revenue_raw": "$55.36 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SNFCA",
+      "source": "*[class*='eps']",
+      "raw_text": "SNFCA\nSecurity National Financial Co\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.53\n$82.98 Mil\n0.0%\n-\n-",
+      "revenue_millions": 82.98,
+      "revenue_raw": "$82.98 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "XPON",
+      "source": "*[class*='eps']",
+      "raw_text": "XPON\nExpion360 Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.70\n$2.22 Mil\n0.0%\n-\n-",
+      "revenue_millions": 2.22,
+      "revenue_raw": "$2.22 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

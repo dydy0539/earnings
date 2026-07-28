@@ -1,0 +1,143 @@
+{
+  "date": "20251016",
+  "scraped_at": "2025-10-17T09:00:37.173279",
+  "companies": [
+    {
+      "symbol": "CSX",
+      "source": "*[class*='eps']",
+      "raw_text": "CSX\nCSX Corp.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.42\n$3.61 Bil\n$0.44\n$3.59 Bil\n-0.9%\n4.8%\n-",
+      "revenue_millions": 3610.0,
+      "revenue_raw": "$3.61 Bil",
+      "growth_rate": -0.9,
+      "growth_raw": "-0.9%"
+    },
+    {
+      "symbol": "OZK",
+      "source": "*[class*='eps']",
+      "raw_text": "OZK\nBank OZK\n4:05 PM ET\nEarnings:\nRevenue:\n$1.67\n$444.07 Mil\n$1.59\n$731.11 Mil\n2.2%\n-4.8%\n-",
+      "revenue_millions": 444.07,
+      "revenue_raw": "$444.07 Mil",
+      "growth_rate": 2.2,
+      "growth_raw": "2.2%"
+    },
+    {
+      "symbol": "F",
+      "source": "*[class*='company']",
+      "raw_text": "F.N.B. Corporation"
+    },
+    {
+      "symbol": "CA",
+      "source": "*[class*='company']",
+      "raw_text": "United Security Bancshares/Fresno CA"
+    },
+    {
+      "symbol": "IBKR",
+      "source": "*[class*='eps']",
+      "raw_text": "IBKR\nInteractive Brokers Group Inc\n4:00 PM ET\nEarnings:\nRevenue:\n$0.50\n$1.41 Bil\n$0.57\n$2.79 Bil\n13.8%\n14.0%\n-",
+      "revenue_millions": 1410.0,
+      "revenue_raw": "$1.41 Bil",
+      "growth_rate": 13.8,
+      "growth_raw": "13.8%"
+    },
+    {
+      "symbol": "SFNC",
+      "source": "*[class*='eps']",
+      "raw_text": "SFNC\nSimmons First National Corp.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.48\n$228.90 Mil\n$0.46\n$357.73 Mil\n1.8%\n-4.2%\n-",
+      "revenue_millions": 228.9,
+      "revenue_raw": "$228.90 Mil",
+      "growth_rate": 1.8,
+      "growth_raw": "1.8%"
+    },
+    {
+      "symbol": "FNB",
+      "source": "*[class*='eps']",
+      "raw_text": "FNB\nF.N.B. Corporation\n4:30 PM ET\nEarnings:\nRevenue:\n$0.37\n$443.38 Mil\n$0.41\n$694.14 Mil\n3.2%\n10.8%\n-",
+      "revenue_millions": 443.38,
+      "revenue_raw": "$443.38 Mil",
+      "growth_rate": 3.2,
+      "growth_raw": "3.2%"
+    },
+    {
+      "symbol": "GBCI",
+      "source": "*[class*='eps']",
+      "raw_text": "GBCI\nGlacier Bancorp Inc.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.61\n$257.05 Mil\n$0.62\n$360.36 Mil\n11.1%\n1.6%\n-",
+      "revenue_millions": 257.05,
+      "revenue_raw": "$257.05 Mil",
+      "growth_rate": 11.1,
+      "growth_raw": "11.1%"
+    },
+    {
+      "symbol": "LBRT",
+      "source": "*[class*='eps']",
+      "raw_text": "LBRT\nLiberty Energy Inc.\n6:05 PM ET\nEarnings:\nRevenue:\n$-0.01\n$959.14 Mil\n$-0.06\n$947.40 Mil\n-16.8%\n-500.0%\n-",
+      "revenue_millions": 959.14,
+      "revenue_raw": "$959.14 Mil",
+      "growth_rate": -16.8,
+      "growth_raw": "-16.8%"
+    },
+    {
+      "symbol": "CNS",
+      "source": "*[class*='eps']",
+      "raw_text": "CNS\nCohen & Steers Inc\n4:15 PM ET\nEarnings:\nRevenue:\n$0.78\n-\n$0.81\n$141.72 Mil\n6.4%\n3.8%\n-",
+      "revenue_millions": 141.72,
+      "revenue_raw": "$141.72 Mil",
+      "growth_rate": 6.4,
+      "growth_raw": "6.4%"
+    },
+    {
+      "symbol": "INDB",
+      "source": "*[class*='eps']",
+      "raw_text": "INDB\nIndependent Bank Corp.\n4:10 PM ET\nEarnings:\nRevenue:\n$1.54\n$242.33 Mil\n$1.55\n$335.15 Mil\n34.0%\n0.6%\n-",
+      "revenue_millions": 242.33,
+      "revenue_raw": "$242.33 Mil",
+      "growth_rate": 34.0,
+      "growth_raw": "34.0%"
+    },
+    {
+      "symbol": "BVN",
+      "source": "*[class*='eps']",
+      "raw_text": "BVN\nCompania de Minas Buenaventura\n7:30 PM ET\nEarnings:\nRevenue:\n$0.41\n$329.55 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 329.55,
+      "revenue_raw": "$329.55 Mil"
+    },
+    {
+      "symbol": "PEO",
+      "source": "*[class*='eps']",
+      "raw_text": "PEO\nPetroleum & Resources Corp.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "UBFO",
+      "source": "*[class*='eps']",
+      "raw_text": "UBFO\nUnited Security Bancshares/Fresno CA\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.23\n$17.24 Mil\n0.0%\n-\n-",
+      "revenue_millions": 17.24,
+      "revenue_raw": "$17.24 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FPH",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LLC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "KCDMY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "OVLY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "UBOH",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "VABK",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

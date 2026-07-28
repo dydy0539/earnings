@@ -1,0 +1,125 @@
+{
+  "date": "20250729",
+  "scraped_at": "2025-07-30T09:50:26.118479",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "FTAI",
+      "name": "FTAI Aviation Ltd.",
+      "revenue_millions": 511.31,
+      "revenue_raw": "$511.31 Mil",
+      "growth_rate": 52.4,
+      "growth_raw": "52.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MARA",
+      "name": "Marathon Digital Holdings, Inc.",
+      "revenue_millions": 228.88,
+      "revenue_raw": "$228.88 Mil",
+      "growth_rate": 64.3,
+      "growth_raw": "64.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings Inc.",
+      "revenue_millions": 6550.0,
+      "revenue_raw": "$6.55 Bil",
+      "growth_rate": 16.0,
+      "growth_raw": "16.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology plc",
+      "revenue_millions": 2410.0,
+      "revenue_raw": "$2.41 Bil",
+      "growth_rate": 29.5,
+      "growth_raw": "29.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LC",
+      "name": "Lending Club",
+      "revenue_millions": 226.06,
+      "revenue_raw": "$226.06 Mil",
+      "growth_rate": 32.7,
+      "growth_raw": "32.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ACGL",
+      "name": "Arch Capital Group Ltd.",
+      "revenue_millions": 4660.0,
+      "revenue_raw": "$4.66 Bil",
+      "growth_rate": 23.3,
+      "growth_raw": "23.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WSBC",
+      "name": "WesBanco Inc.",
+      "revenue_millions": 259.6,
+      "revenue_raw": "$259.60 Mil",
+      "growth_rate": 62.3,
+      "growth_raw": "62.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TYGO",
+      "name": "Tigo Energy, Inc.",
+      "revenue_millions": 21.37,
+      "revenue_raw": "$21.37 Mil",
+      "growth_rate": 89.4,
+      "growth_raw": "89.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UMBF",
+      "name": "UMB Financial Corporation",
+      "revenue_millions": 1070.0,
+      "revenue_raw": "$1.07 Bil",
+      "growth_rate": 57.0,
+      "growth_raw": "57.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 9,
+  "total_original": 111
+}

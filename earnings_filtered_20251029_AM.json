@@ -1,0 +1,275 @@
+{
+  "date": "20251029",
+  "scraped_at": "2025-10-30T09:02:05.745250",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "C",
+      "name": "C.H. Robinson Worldwide Inc.",
+      "revenue_millions": 0,
+      "revenue_raw": "",
+      "growth_rate": 0,
+      "growth_raw": "",
+      "source": "*[class*='company']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "revenue_millions": 49340.0,
+      "revenue_raw": "$49.34 Bil",
+      "growth_rate": 26.2,
+      "growth_raw": "26.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corp.",
+      "revenue_millions": 74960.0,
+      "revenue_raw": "$74.96 Bil",
+      "growth_rate": 18.4,
+      "growth_raw": "18.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "revenue_millions": 99960.0,
+      "revenue_raw": "$99.96 Bil",
+      "growth_rate": 15.9,
+      "growth_raw": "15.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Google",
+      "revenue_millions": 102350.0,
+      "revenue_raw": "$102.35 Bil",
+      "growth_rate": 15.9,
+      "growth_raw": "15.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana Co.",
+      "revenue_millions": 4940.0,
+      "revenue_raw": "$4.94 Bil",
+      "growth_rate": 54.5,
+      "growth_raw": "54.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "revenue_millions": 3350.0,
+      "revenue_raw": "$3.35 Bil",
+      "growth_rate": 21.8,
+      "growth_raw": "21.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MELI",
+      "name": "MercadoLibre Inc",
+      "revenue_millions": 7190.0,
+      "revenue_raw": "$7.19 Bil",
+      "growth_rate": 39.5,
+      "growth_raw": "39.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AEM",
+      "name": "Agnico-Eagle Mines, Ltd",
+      "revenue_millions": 2730.0,
+      "revenue_raw": "$2.73 Bil",
+      "growth_rate": 41.9,
+      "growth_raw": "41.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDE",
+      "name": "Coeur D’Alene Mines Corp.",
+      "revenue_millions": 547.0,
+      "revenue_raw": "$547.00 Mil",
+      "growth_rate": 76.9,
+      "growth_raw": "76.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TMDX",
+      "name": "TransMedics Group, Inc.",
+      "revenue_millions": 144.74,
+      "revenue_raw": "$144.74 Mil",
+      "growth_rate": 32.2,
+      "growth_raw": "32.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARMN",
+      "name": "Aris Mining Corporation",
+      "revenue_millions": 881.8,
+      "revenue_raw": "$881.80 Mil",
+      "growth_rate": 91.6,
+      "growth_raw": "91.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CALX",
+      "name": "Calix, Inc.",
+      "revenue_millions": 245.93,
+      "revenue_raw": "$245.93 Mil",
+      "growth_rate": 32.1,
+      "growth_raw": "32.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AGI",
+      "name": "Alamos Gold Inc.",
+      "revenue_millions": 1770.0,
+      "revenue_raw": "$1.77 Bil",
+      "growth_rate": 28.1,
+      "growth_raw": "28.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VTR",
+      "name": "Ventas, Inc.",
+      "revenue_millions": 1430.0,
+      "revenue_raw": "$1.43 Bil",
+      "growth_rate": 20.4,
+      "growth_raw": "20.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BBIO",
+      "name": "BridgeBio Pharma, Inc.",
+      "revenue_millions": 105.47,
+      "revenue_raw": "$105.47 Mil",
+      "growth_rate": 318.0,
+      "growth_raw": "318.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CBZ",
+      "name": "CBIZ Inc.",
+      "revenue_millions": 714.0,
+      "revenue_raw": "$714.00 Mil",
+      "growth_rate": 58.1,
+      "growth_raw": "58.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GKOS",
+      "name": "Glaukos Corporation",
+      "revenue_millions": 121.93,
+      "revenue_raw": "$121.93 Mil",
+      "growth_rate": 38.1,
+      "growth_raw": "38.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MC",
+      "name": "Moelis & Company",
+      "revenue_millions": 370.53,
+      "revenue_raw": "$370.53 Mil",
+      "growth_rate": 30.4,
+      "growth_raw": "30.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COHU",
+      "name": "Cohu Inc.",
+      "revenue_millions": 125.0,
+      "revenue_raw": "$125.00 Mil",
+      "growth_rate": 32.4,
+      "growth_raw": "32.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FINW",
+      "name": "FinWise Bancorp",
+      "revenue_millions": 30.2,
+      "revenue_raw": "$30.20 Mil",
+      "growth_rate": 68.2,
+      "growth_raw": "68.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GH",
+      "name": "Guardant Health, Inc.",
+      "revenue_millions": 234.58,
+      "revenue_raw": "$234.58 Mil",
+      "growth_rate": 38.5,
+      "growth_raw": "38.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LXU",
+      "name": "LSB Industries Inc",
+      "revenue_millions": 119.32,
+      "revenue_raw": "$119.32 Mil",
+      "growth_rate": 42.3,
+      "growth_raw": "42.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FBRT",
+      "name": "Franklin BSP Realty Trust, Inc.",
+      "revenue_millions": 49.6,
+      "revenue_raw": "$49.60 Mil",
+      "growth_rate": 80.3,
+      "growth_raw": "80.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 24,
+  "total_original": 191
+}

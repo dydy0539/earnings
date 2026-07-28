@@ -1,0 +1,173 @@
+{
+  "date": "20251016",
+  "scraped_at": "2025-10-16T21:00:42.776789",
+  "companies": [
+    {
+      "symbol": "M",
+      "source": "*[class*='company']",
+      "raw_text": "M&T Bank Corp"
+    },
+    {
+      "symbol": "U",
+      "source": "*[class*='company']",
+      "raw_text": "U.S. Bancorp"
+    },
+    {
+      "symbol": "ABB",
+      "source": "*[class*='company']",
+      "raw_text": "ABB LTD-ADR"
+    },
+    {
+      "symbol": "TSM",
+      "source": "*[class*='eps']",
+      "raw_text": "TSM\nTaiwan Semiconductor Manufacturing Company Limited\n2:00 AM ET\nEarnings:\nRevenue:\nStock price forecasts\n$2.59\n$31.65 Bil\n$2.92\n$33.10 Bil\n40.8%\n12.7%",
+      "revenue_millions": 31650.0,
+      "revenue_raw": "$31.65 Bil",
+      "growth_rate": 40.8,
+      "growth_raw": "40.8%"
+    },
+    {
+      "symbol": "SCHW",
+      "source": "*[class*='eps']",
+      "raw_text": "SCHW\nCharles Schwab Corp.\n7:30 AM ET\nEarnings:\nRevenue:\n$1.23\n$5.92 Bil\n$1.31\n$6.13 Bil\n26.6%\n6.5%\n-",
+      "revenue_millions": 5920.0,
+      "revenue_raw": "$5.92 Bil",
+      "growth_rate": 26.6,
+      "growth_raw": "26.6%"
+    },
+    {
+      "symbol": "BK",
+      "source": "*[class*='eps']",
+      "raw_text": "BK\nBank of New York Mellon Corporation\n6:35 AM ET\nEarnings:\nRevenue:\n$1.76\n$4.94 Bil\n$1.91\n$10.44 Bil\n1.8%\n8.5%\n-",
+      "revenue_millions": 4940.0,
+      "revenue_raw": "$4.94 Bil",
+      "growth_rate": 1.8,
+      "growth_raw": "1.8%"
+    },
+    {
+      "symbol": "INFY",
+      "source": "*[class*='eps']",
+      "raw_text": "Stock price forecasts\nINFY\nInfosys Technologies Ltd.\n8:05 AM ET\nEarnings:\nRevenue:\n$0.19\n$5.04 Bil\n$0.20\n$5.08 Bil\n3.7%\n5.3%\n-",
+      "revenue_millions": 5040.0,
+      "revenue_raw": "$5.04 Bil",
+      "growth_rate": 3.7,
+      "growth_raw": "3.7%"
+    },
+    {
+      "symbol": "CMC",
+      "source": "*[class*='eps']",
+      "raw_text": "CMC\nCommercial Metals Company\n6:45 AM ET\nEarnings:\nRevenue:\n$1.32\n$2.07 Bil\n$1.37\n$2.11 Bil\n5.9%\n3.8%\n-",
+      "revenue_millions": 2070.0,
+      "revenue_raw": "$2.07 Bil",
+      "growth_rate": 5.9,
+      "growth_raw": "5.9%"
+    },
+    {
+      "symbol": "TRV",
+      "source": "*[class*='eps']",
+      "raw_text": "TRV\nTravelers Companies, Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n$5.88\n$12.36 Bil\n$8.14\n$12.47 Bil\n4.8%\n38.4%\n-",
+      "revenue_millions": 12360.0,
+      "revenue_raw": "$12.36 Bil",
+      "growth_rate": 4.8,
+      "growth_raw": "4.8%"
+    },
+    {
+      "symbol": "MTB",
+      "source": "*[class*='eps']",
+      "raw_text": "MTB\nM&T Bank Corp\n5:45 AM ET\nEarnings:\nRevenue:\n$4.40\n$2.44 Bil\n$4.87\n$3.43 Bil\n1.2%\n10.7%\n-",
+      "revenue_millions": 2440.0,
+      "revenue_raw": "$2.44 Bil",
+      "growth_rate": 1.2,
+      "growth_raw": "1.2%"
+    },
+    {
+      "symbol": "MMC",
+      "source": "*[class*='eps']",
+      "raw_text": "Stock price forecasts\nMMC\nMarsh & McLennan Companies, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$1.79\n$6.34 Bil\n$1.85\n$6.35 Bil\n11.5%\n3.4%\n-",
+      "revenue_millions": 6340.0,
+      "revenue_raw": "$6.34 Bil",
+      "growth_rate": 11.5,
+      "growth_raw": "11.5%"
+    },
+    {
+      "symbol": "SNA",
+      "source": "*[class*='eps']",
+      "raw_text": "SNA\nSnap-On, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$4.59\n$1.16 Bil\n$4.71\n$1.19 Bil\n3.8%\n2.6%\n-",
+      "revenue_millions": 1160.0,
+      "revenue_raw": "$1.16 Bil",
+      "growth_rate": 3.8,
+      "growth_raw": "3.8%"
+    },
+    {
+      "symbol": "IIIN",
+      "source": "*[class*='eps']",
+      "raw_text": "IIIN\nInsteel Industries Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.75\n$179.40 Mil\n$0.74\n$177.44 Mil\n32.1%\n-1.3%\n-",
+      "revenue_millions": 179.4,
+      "revenue_raw": "$179.40 Mil",
+      "growth_rate": 32.1,
+      "growth_raw": "32.1%"
+    },
+    {
+      "symbol": "USB",
+      "source": "*[class*='eps']",
+      "raw_text": "USB\nU.S. Bancorp\n6:45 AM ET\nEarnings:\nRevenue:\n$1.11\n$7.15 Bil\n$1.22\n$11.01 Bil\n2.0%\n9.9%",
+      "revenue_millions": 7150.0,
+      "revenue_raw": "$7.15 Bil",
+      "growth_rate": 2.0,
+      "growth_raw": "2.0%"
+    },
+    {
+      "symbol": "ABBNY",
+      "source": "*[class*='eps']",
+      "raw_text": "ABBNY\nABB LTD-ADR\nBefore Open\nEarnings:\nRevenue:\n$0.63\n-\n$0.66\n$9.08 Bil\n11.4%\n4.8%\n-",
+      "revenue_millions": 9080.0,
+      "revenue_raw": "$9.08 Bil",
+      "growth_rate": 11.4,
+      "growth_raw": "11.4%"
+    },
+    {
+      "symbol": "WIT",
+      "source": "*[class*='eps']",
+      "raw_text": "WIT\nWipro Limited\n9:15 AM ET\nEarnings:\nRevenue:\n$0.03\n$2.55 Bil\n$0.03\n$2.56 Bil\n-4.0%\n0.0%\n-",
+      "revenue_millions": 2550.0,
+      "revenue_raw": "$2.55 Bil",
+      "growth_rate": -4.0,
+      "growth_raw": "-4.0%"
+    },
+    {
+      "symbol": "CBSH",
+      "source": "*[class*='eps']",
+      "raw_text": "CBSH\nCommerce Bancshares Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$1.09\n$438.41 Mil\n$1.06\n$535.62 Mil\n0.9%\n-2.8%\n-",
+      "revenue_millions": 438.41,
+      "revenue_raw": "$438.41 Mil",
+      "growth_rate": 0.9,
+      "growth_raw": "0.9%"
+    },
+    {
+      "symbol": "NRDBY",
+      "source": "*[class*='eps']",
+      "raw_text": "Stock price forecasts\nNRDBY\nNordea Bank Abp\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.42\n$6.25 Bil\n-10.5%\n-\n-",
+      "revenue_millions": 6250.0,
+      "revenue_raw": "$6.25 Bil",
+      "growth_rate": -10.5,
+      "growth_raw": "-10.5%"
+    },
+    {
+      "symbol": "LTD",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ADR",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "FMBL",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "TRUX",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

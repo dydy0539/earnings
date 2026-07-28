@@ -1,0 +1,169 @@
+{
+  "date": "20260220",
+  "scraped_at": "2026-02-20T22:00:48.720347",
+  "companies": [
+    {
+      "symbol": "NOW",
+      "source": "*[class*='company']",
+      "raw_text": "NOW Inc."
+    },
+    {
+      "symbol": "PPL",
+      "source": "*[class*='eps']",
+      "raw_text": "PPL\nPPL Corporation\n7:30 AM ET\nEarnings:\nRevenue:\n$0.41\n$2.34 Bil\n$0.41\n$2.27 Bil\n2.8%\n0.0%",
+      "revenue_millions": 2340.0,
+      "revenue_raw": "$2.34 Bil",
+      "growth_rate": 2.8,
+      "growth_raw": "2.8%"
+    },
+    {
+      "symbol": "NTNL",
+      "source": "*[class*='company']",
+      "raw_text": "NTNL HEALTHCARE"
+    },
+    {
+      "symbol": "AU",
+      "source": "*[class*='eps']",
+      "raw_text": "AU\nAngloGold Ashanti Ltd.\n6:10 AM ET\nEarnings:\nRevenue:\n$1.90\n$3.03 Bil\n$1.90\n$3.07 Bil\n75.3%\n0.0%\n-",
+      "revenue_millions": 3030.0,
+      "revenue_raw": "$3.03 Bil",
+      "growth_rate": 75.3,
+      "growth_raw": "75.3%"
+    },
+    {
+      "symbol": "DNOW",
+      "source": "*[class*='eps']",
+      "raw_text": "DNOW\nNOW Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.12\n$939.00 Mil\n$0.15\n$959.00 Mil\n68.0%\n25.0%\n-",
+      "revenue_millions": 939.0,
+      "revenue_raw": "$939.00 Mil",
+      "growth_rate": 68.0,
+      "growth_raw": "68.0%"
+    },
+    {
+      "symbol": "WU",
+      "source": "*[class*='eps']",
+      "raw_text": "WU\nWestern Union Company\nBefore Open\nEarnings:\nRevenue:\n$0.43\n$1.04 Bil\n$0.45\n$1.01 Bil\n-4.7%\n4.7%",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil",
+      "growth_rate": -4.7,
+      "growth_raw": "-4.7%"
+    },
+    {
+      "symbol": "HBM",
+      "source": "*[class*='eps']",
+      "raw_text": "HBM\nHudBay Minerals Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.40\n$772.63 Mil\n$0.22\n$732.90 Mil\n25.3%\n-45.0%\n-",
+      "revenue_millions": 772.63,
+      "revenue_raw": "$772.63 Mil",
+      "growth_rate": 25.3,
+      "growth_raw": "25.3%"
+    },
+    {
+      "symbol": "LAMR",
+      "source": "*[class*='eps']",
+      "raw_text": "LAMR\nLamar Advertising Company\n6:00 AM ET\nEarnings:\nRevenue:\n$2.12\n$597.38 Mil\n$2.24\n$595.93 Mil\n2.8%\n5.7%",
+      "revenue_millions": 597.38,
+      "revenue_raw": "$597.38 Mil",
+      "growth_rate": 2.8,
+      "growth_raw": "2.8%"
+    },
+    {
+      "symbol": "AD",
+      "source": "*[class*='eps']",
+      "raw_text": "AD\nArray Digital Infrastructure, Inc\n7:30 AM ET\nEarnings:\nRevenue:\n$0.32\n$57.72 Mil\n$0.48\n$60.33 Mil\n-93.8%\n50.0%",
+      "revenue_millions": 57.72,
+      "revenue_raw": "$57.72 Mil",
+      "growth_rate": -93.8,
+      "growth_raw": "-93.8%"
+    },
+    {
+      "symbol": "BCPC",
+      "source": "*[class*='eps']",
+      "raw_text": "BCPC\nBalchem Corp.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.28\n$264.03 Mil\n$1.31\n$263.62 Mil\n9.8%\n2.3%\n-",
+      "revenue_millions": 264.03,
+      "revenue_raw": "$264.03 Mil",
+      "growth_rate": 9.8,
+      "growth_raw": "9.8%"
+    },
+    {
+      "symbol": "CCOI",
+      "source": "*[class*='eps']",
+      "raw_text": "CCOI\nCogent Communications Group Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n$-1.09\n$243.01 Mil\n$-0.64\n$240.52 Mil\n-4.7%\n41.3%\n-",
+      "revenue_millions": 243.01,
+      "revenue_raw": "$243.01 Mil",
+      "growth_rate": -4.7,
+      "growth_raw": "-4.7%"
+    },
+    {
+      "symbol": "OIS",
+      "source": "*[class*='eps']",
+      "raw_text": "OIS\nOil States International Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.11\n$179.74 Mil\n$0.13\n$178.46 Mil\n8.4%\n18.2%\n-",
+      "revenue_millions": 179.74,
+      "revenue_raw": "$179.74 Mil",
+      "growth_rate": 8.4,
+      "growth_raw": "8.4%"
+    },
+    {
+      "symbol": "TDS",
+      "source": "*[class*='eps']",
+      "raw_text": "TDS\nTelephone and Data Systems Inc\n7:30 AM ET\nEarnings:\nRevenue:\n$0.09\n$320.02 Mil\n$0.32\n$330.71 Mil\n-73.3%\n255.6%\n-",
+      "revenue_millions": 320.02,
+      "revenue_raw": "$320.02 Mil",
+      "growth_rate": -73.3,
+      "growth_raw": "-73.3%"
+    },
+    {
+      "symbol": "FET",
+      "source": "*[class*='eps']",
+      "raw_text": "FET\nForum Energy Technologies Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.32\n-\n$0.41\n$202.20 Mil\n4.6%\n28.1%\n-",
+      "revenue_millions": 202.2,
+      "revenue_raw": "$202.20 Mil",
+      "growth_rate": 4.6,
+      "growth_raw": "4.6%"
+    },
+    {
+      "symbol": "TLX",
+      "source": "*[class*='eps']",
+      "raw_text": "TLX\nTelix Pharmaceuticals Limited\nBefore Open\nEarnings:\nRevenue:\n$0.03\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ASIX",
+      "source": "*[class*='eps']",
+      "raw_text": "ASIX\nAdvanSix Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.00\n$359.95 Mil\n0.0%\n-\n-",
+      "revenue_millions": 359.95,
+      "revenue_raw": "$359.95 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CMDB",
+      "source": "*[class*='eps']",
+      "raw_text": "CMDB\nCostamare Bulkers Holdings Limited\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.07\n$218.48 Mil\n0.0%\n-\n-",
+      "revenue_millions": 218.48,
+      "revenue_raw": "$218.48 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NHPAP",
+      "source": "*[class*='eps']",
+      "raw_text": "NHPAP\nNTNL HEALTHCARE\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "EKTAY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AB",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "GASS",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "TXNM",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

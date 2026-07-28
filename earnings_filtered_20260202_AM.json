@@ -1,0 +1,75 @@
+{
+  "date": "20260202",
+  "scraped_at": "2026-02-03T09:00:42.059296",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "revenue_millions": 1350.0,
+      "revenue_raw": "$1.35 Bil",
+      "growth_rate": 70.0,
+      "growth_raw": "70.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "revenue_millions": 1080.0,
+      "revenue_raw": "$1.08 Bil",
+      "growth_rate": 43.9,
+      "growth_raw": "43.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FN",
+      "name": "Fabrinet",
+      "revenue_millions": 1080.0,
+      "revenue_raw": "$1.08 Bil",
+      "growth_rate": 35.9,
+      "growth_raw": "35.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WWD",
+      "name": "Woodward, Inc.",
+      "revenue_millions": 891.31,
+      "revenue_raw": "$891.31 Mil",
+      "growth_rate": 29.0,
+      "growth_raw": "29.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 21
+}

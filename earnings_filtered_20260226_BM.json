@@ -1,0 +1,205 @@
+{
+  "date": "20260226",
+  "scraped_at": "2026-02-26T22:01:26.322567",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings, Inc.",
+      "revenue_millions": 638.18,
+      "revenue_raw": "$638.18 Mil",
+      "growth_rate": 117.2,
+      "growth_raw": "117.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EOSE",
+      "name": "Eos Energy Enterprises, Inc.",
+      "revenue_millions": 91.23,
+      "revenue_raw": "$91.23 Mil",
+      "growth_rate": 694.5,
+      "growth_raw": "694.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TGTX",
+      "name": "TG Therapeutics, Inc.",
+      "revenue_millions": 189.4,
+      "revenue_raw": "$189.40 Mil",
+      "growth_rate": 78.0,
+      "growth_raw": "78.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARGX",
+      "name": "argenx",
+      "revenue_millions": 1310.0,
+      "revenue_raw": "$1.31 Bil",
+      "growth_rate": 73.7,
+      "growth_raw": "73.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FOUR",
+      "name": "Shift4 Payments, Inc.",
+      "revenue_millions": 1190.0,
+      "revenue_raw": "$1.19 Bil",
+      "growth_rate": 34.0,
+      "growth_raw": "34.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "revenue_millions": 5170.0,
+      "revenue_raw": "$5.17 Bil",
+      "growth_rate": 22.9,
+      "growth_raw": "22.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GIL",
+      "name": "Gildan Activewear Inc.",
+      "revenue_millions": 1080.0,
+      "revenue_raw": "$1.08 Bil",
+      "growth_rate": 31.3,
+      "growth_raw": "31.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BCRX",
+      "name": "BioCryst Pharmaceuticals Inc.",
+      "revenue_millions": 149.38,
+      "revenue_raw": "$149.38 Mil",
+      "growth_rate": 209.1,
+      "growth_raw": "209.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INSW",
+      "name": "International Seaways, Inc.",
+      "revenue_millions": 231.57,
+      "revenue_raw": "$231.57 Mil",
+      "growth_rate": 37.6,
+      "growth_raw": "37.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FA",
+      "name": "First Advantage Corporation",
+      "revenue_millions": 391.1,
+      "revenue_raw": "$391.10 Mil",
+      "growth_rate": 36.8,
+      "growth_raw": "36.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LKNCY",
+      "name": "Luckin Coffee Inc.",
+      "revenue_millions": 1820.0,
+      "revenue_raw": "$1.82 Bil",
+      "growth_rate": 38.4,
+      "growth_raw": "38.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NVAX",
+      "name": "Novavax, Inc.",
+      "revenue_millions": 78.41,
+      "revenue_raw": "$78.41 Mil",
+      "growth_rate": 66.6,
+      "growth_raw": "66.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NTLA",
+      "name": "Intellia Therapeutics, Inc.",
+      "revenue_millions": 11.85,
+      "revenue_raw": "$11.85 Mil",
+      "growth_rate": 78.8,
+      "growth_raw": "78.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ONC",
+      "name": "BeOne Medicines Ltd.",
+      "revenue_millions": 1450.0,
+      "revenue_raw": "$1.45 Bil",
+      "growth_rate": 32.8,
+      "growth_raw": "32.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PHAT",
+      "name": "Phathom Pharmaceuticals, Inc.",
+      "revenue_millions": 57.42,
+      "revenue_raw": "$57.42 Mil",
+      "growth_rate": 94.1,
+      "growth_raw": "94.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CLMB",
+      "name": "Climb Global Solutions, Inc.",
+      "revenue_millions": 193.84,
+      "revenue_raw": "$193.84 Mil",
+      "growth_rate": 40.4,
+      "growth_raw": "40.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VRDN",
+      "name": "Viridian Therapeutics, Inc.",
+      "revenue_millions": 18.47,
+      "revenue_raw": "$18.47 Mil",
+      "growth_rate": 83.3,
+      "growth_raw": "83.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 17,
+  "total_original": 195
+}

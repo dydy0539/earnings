@@ -1,0 +1,65 @@
+{
+  "date": "20260309",
+  "scraped_at": "2026-03-10T09:44:17.501015",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "HPE",
+      "name": "Hewlett Packard Enterprise",
+      "revenue_millions": 9320.0,
+      "revenue_raw": "$9.32 Bil",
+      "growth_rate": 18.4,
+      "growth_raw": "18.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ZVRA",
+      "name": "Zevra Therapeutics, Inc.",
+      "revenue_millions": 27.91,
+      "revenue_raw": "$27.91 Mil",
+      "growth_rate": 184.4,
+      "growth_raw": "184.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SEPN",
+      "name": "SEPTERNA INC",
+      "revenue_millions": 20.44,
+      "revenue_raw": "$20.44 Mil",
+      "growth_rate": 276.4,
+      "growth_raw": "276.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 28
+}

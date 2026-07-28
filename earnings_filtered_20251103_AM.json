@@ -1,0 +1,185 @@
+{
+  "date": "20251103",
+  "scraped_at": "2025-11-04T09:01:54.706775",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "PLTR",
+      "name": "Palantir Technologies Inc.",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 62.8,
+      "growth_raw": "62.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health, Inc.",
+      "revenue_millions": 583.68,
+      "revenue_raw": "$583.68 Mil",
+      "growth_rate": 49.2,
+      "growth_raw": "49.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BWXT",
+      "name": "BWX Technologies, Inc.",
+      "revenue_millions": 796.38,
+      "revenue_raw": "$796.38 Mil",
+      "growth_rate": 28.9,
+      "growth_raw": "28.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FANG",
+      "name": "Diamondback Energy, Inc.",
+      "revenue_millions": 3420.0,
+      "revenue_raw": "$3.42 Bil",
+      "growth_rate": 48.4,
+      "growth_raw": "48.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FNV",
+      "name": "Franco-Nevada Corporation",
+      "revenue_millions": 1590.0,
+      "revenue_raw": "$1.59 Bil",
+      "growth_rate": 76.9,
+      "growth_raw": "76.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CTRA",
+      "name": "Contura Energy, Inc.",
+      "revenue_millions": 1780.0,
+      "revenue_raw": "$1.78 Bil",
+      "growth_rate": 33.7,
+      "growth_raw": "33.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PRIM",
+      "name": "Primoris Services Corporation",
+      "revenue_millions": 1810.0,
+      "revenue_raw": "$1.81 Bil",
+      "growth_rate": 32.1,
+      "growth_raw": "32.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SEI",
+      "name": "Solaris Energy Infrastructure, Inc.",
+      "revenue_millions": 142.75,
+      "revenue_raw": "$142.75 Mil",
+      "growth_rate": 122.4,
+      "growth_raw": "122.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INVX",
+      "name": "Innovex International, Inc.",
+      "revenue_millions": 235.0,
+      "revenue_raw": "$235.00 Mil",
+      "growth_rate": 58.1,
+      "growth_raw": "58.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PAY",
+      "name": "Paymentus Holdings, Inc.",
+      "revenue_millions": 280.49,
+      "revenue_raw": "$280.49 Mil",
+      "growth_rate": 34.2,
+      "growth_raw": "34.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNDX",
+      "name": "Syndax Pharmaceuticals, Inc",
+      "revenue_millions": 48.69,
+      "revenue_raw": "$48.69 Mil",
+      "growth_rate": 267.0,
+      "growth_raw": "267.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VNOM",
+      "name": "Viper Energy Partners LP",
+      "revenue_millions": 400.42,
+      "revenue_raw": "$400.42 Mil",
+      "growth_rate": 99.4,
+      "growth_raw": "99.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRK",
+      "name": "Comstock Resources Inc.",
+      "revenue_millions": 401.14,
+      "revenue_raw": "$401.14 Mil",
+      "growth_rate": 47.7,
+      "growth_raw": "47.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SGHC",
+      "name": "Super Group",
+      "revenue_millions": 529.0,
+      "revenue_raw": "$529.00 Mil",
+      "growth_rate": 25.8,
+      "growth_raw": "25.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRBG",
+      "name": "Corebridge Financial, Inc.",
+      "revenue_millions": 4620.0,
+      "revenue_raw": "$4.62 Bil",
+      "growth_rate": 24.1,
+      "growth_raw": "24.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 15,
+  "total_original": 118
+}

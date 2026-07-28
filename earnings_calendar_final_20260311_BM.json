@@ -1,0 +1,179 @@
+{
+  "date": "20260311",
+  "scraped_at": "2026-03-11T22:01:02.177495",
+  "companies": [
+    {
+      "symbol": "SERV",
+      "source": "*[class*='eps']",
+      "raw_text": "SERV\nServe Robotics\nBefore Open\nEarnings:\nRevenue:\n$-0.49Time & Calendars\n$760.00 Thou\n$-0.46\n$882.00 Thou\n401.1%\n6.1%",
+      "growth_rate": 401.1,
+      "growth_raw": "401.1%"
+    },
+    {
+      "symbol": "CPB",
+      "source": "*[class*='eps']",
+      "raw_text": "CPB\nCampbell Soup Co.\n7:15 AM ET\nEarnings:\nRevenue:\n$0.57\n$2.61 Bil\n$0.51\n$2.56 Bil\n-4.5%\n-10.5%",
+      "revenue_millions": 2610.0,
+      "revenue_raw": "$2.61 Bil",
+      "growth_rate": -4.5,
+      "growth_raw": "-4.5%"
+    },
+    {
+      "symbol": "CXM",
+      "source": "*[class*='eps']",
+      "raw_text": "CXM\nSprinklr, Inc\n7:05 AM ET\nEarnings:\nRevenue:\n$0.10\n$216.95 Mil\n$0.13\n$220.59 Mil\n8.9%\n30.0%",
+      "revenue_millions": 216.95,
+      "revenue_raw": "$216.95 Mil",
+      "growth_rate": 8.9,
+      "growth_raw": "8.9%"
+    },
+    {
+      "symbol": "OPFI",
+      "source": "*[class*='eps']",
+      "raw_text": "OPFI\nOppFi Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.28\n$159.75 Mil\n$0.30\n$159.25 Mil\n17.3%\n7.1%",
+      "revenue_millions": 159.75,
+      "revenue_raw": "$159.75 Mil",
+      "growth_rate": 17.3,
+      "growth_raw": "17.3%"
+    },
+    {
+      "symbol": "KMDA",
+      "source": "*[class*='eps']",
+      "raw_text": "KMDA\nKamada Ltd.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.09\n$45.73 Mil\n$0.06\n$44.68 Mil\n14.5%\n-33.3%",
+      "revenue_millions": 45.73,
+      "revenue_raw": "$45.73 Mil",
+      "growth_rate": 14.5,
+      "growth_raw": "14.5%"
+    },
+    {
+      "symbol": "RERE",
+      "source": "*[class*='eps']",
+      "raw_text": "RERE\nATRenew Inc.\n3:00 AM ETFuture market trends\nEarnings:\nRevenue:\n$0.06\n$861.10 Mil\n$0.08\n$894.34 Mil\n34.6%\n33.3%",
+      "revenue_millions": 861.1,
+      "revenue_raw": "$861.10 Mil",
+      "growth_rate": 34.6,
+      "growth_raw": "34.6%"
+    },
+    {
+      "symbol": "BWEN",
+      "source": "*[class*='eps']",
+      "raw_text": "BWEN\nBroadwind Energy, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.05\n$36.97 Mil\n$-0.04\n$37.74 Mil\n12.4%\n20.0%",
+      "revenue_millions": 36.97,
+      "revenue_raw": "$36.97 Mil",
+      "growth_rate": 12.4,
+      "growth_raw": "12.4%"
+    },
+    {
+      "symbol": "VRCA",
+      "source": "*[class*='eps']",
+      "raw_text": "VRCA\nVerrica Pharmaceuticals Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.44\n$4.20 Mil\n$-0.56\n$5.09 Mil\n1,380.2%\n-27.3%\n-",
+      "revenue_millions": 4.2,
+      "revenue_raw": "$4.20 Mil",
+      "growth_rate": 380.2,
+      "growth_raw": "380.2%"
+    },
+    {
+      "symbol": "BWAY",
+      "source": "*[class*='eps']",
+      "raw_text": "BWAY\nBrainsway Ltd.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.05\n$14.00 Mil\n$0.14\n$14.54 Mil\n27.4%\n180.0%",
+      "revenue_millions": 14.0,
+      "revenue_raw": "$14.00 Mil",
+      "growth_rate": 27.4,
+      "growth_raw": "27.4%"
+    },
+    {
+      "symbol": "SNDA",
+      "source": "*[class*='eps']",
+      "raw_text": "SNDA\nSonida Senior Living\n8:15 AM ET\nEarnings:\nRevenue:\n$-1.17\n$88.89 Mil\n$-1.29\n$97.66 Mil\n6.2%\n-10.3%\n-",
+      "revenue_millions": 88.89,
+      "revenue_raw": "$88.89 Mil",
+      "growth_rate": 6.2,
+      "growth_raw": "6.2%"
+    },
+    {
+      "symbol": "SDHC",
+      "source": "*[class*='eps']",
+      "raw_text": "SDHC\nSmith Douglas Homes Corp.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.12\n$251.04 Mil\n$-0.08\n$260.43 Mil\n-9.4%\n-166.7%\n-",
+      "revenue_millions": 251.04,
+      "revenue_raw": "$251.04 Mil",
+      "growth_rate": -9.4,
+      "growth_raw": "-9.4%"
+    },
+    {
+      "symbol": "TH",
+      "source": "*[class*='eps']",
+      "raw_text": "TH\nTarget Hospitality Corp.\n6:45 AM ET\nEarnings:\nRevenue:\n$-0.10\n$85.20 Mil\n$-0.15\n$89.78 Mil\n7.3%\n-50.0%",
+      "revenue_millions": 85.2,
+      "revenue_raw": "$85.20 Mil",
+      "growth_rate": 7.3,
+      "growth_raw": "7.3%"
+    },
+    {
+      "symbol": "CVGI",
+      "source": "*[class*='eps']",
+      "raw_text": "CVGI\nCommercial Vehicle Group Inc\nBefore Open\nEarnings:\nRevenue:\n$-0.15\n-\n$-0.18\n$154.76 Mil\n-8.9%\n-20.0%\n-",
+      "revenue_millions": 154.76,
+      "revenue_raw": "$154.76 Mil",
+      "growth_rate": -8.9,
+      "growth_raw": "-8.9%"
+    },
+    {
+      "symbol": "NERV",
+      "source": "*[class*='eps']",
+      "raw_text": "NERV\nMinerva Neurosciences, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.11\n-\n$-0.64\n-\n0.0%\n-481.8%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ACTG",
+      "source": "*[class*='eps']",
+      "raw_text": "ACTG\nAcacia Research Corporation\n8:15 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.01\n$50.13 Mil\n0.0%\n-\n-",
+      "revenue_millions": 50.13,
+      "revenue_raw": "$50.13 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BCTX",
+      "source": "*[class*='eps']",
+      "raw_text": "BCTX\nBRIACELL THERAP\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-2.58\n-\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KPLT",
+      "source": "*[class*='eps']",
+      "raw_text": "KPLT\nKatapult Holdings, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$3.65\n$73.89 Mil\n0.0%\n-\n-",
+      "revenue_millions": 73.89,
+      "revenue_raw": "$73.89 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TG",
+      "source": "*[class*='eps']",
+      "raw_text": "TG\nTredegar Corp.\n8:15 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.32\n$184.07 Mil\n0.0%\n-\n-",
+      "revenue_millions": 184.07,
+      "revenue_raw": "$184.07 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "APT",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LOAN",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "SMSEY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "UHG",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

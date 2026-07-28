@@ -1,0 +1,237 @@
+{
+  "date": "20260325",
+  "scraped_at": "2026-03-25T22:00:41.710531",
+  "companies": [
+    {
+      "symbol": "EDAP",
+      "source": "*[class*='eps']",
+      "raw_text": "EDAP\nEDAP TMS S.A.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.16\n$21.32 Mil\n$-0.25\n$21.88 Mil\n1.7%\n-56.3%\n-",
+      "revenue_millions": 21.32,
+      "revenue_raw": "$21.32 Mil",
+      "growth_rate": 1.7,
+      "growth_raw": "1.7%"
+    },
+    {
+      "symbol": "KNOT",
+      "source": "*[class*='company']",
+      "raw_text": "KNOT Offshore Partners LP"
+    },
+    {
+      "symbol": "MAZE",
+      "source": "*[class*='eps']",
+      "raw_text": "MAZE\nMAZE THERAPEUTS\nBefore Open\nEarnings:\nRevenue:\n$-0.73\n$3.00 Mil\n$-0.65\n-\n0.0%\n11.0%\n-",
+      "revenue_millions": 3.0,
+      "revenue_raw": "$3.00 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NY",
+      "source": "*[class*='company']",
+      "raw_text": "PUTNAM NY INVEST GRADE MUNICIP"
+    },
+    {
+      "symbol": "CHWY",
+      "source": "*[class*='eps']",
+      "raw_text": "CHWY\nChewy, Inc.\n7:05 AM ET\nEarnings:\nRevenue:\n$0.28\n$3.26 Bil\n$0.27\n$3.26 Bil\n0.5%\n-3.6%",
+      "revenue_millions": 3260.0,
+      "revenue_raw": "$3.26 Bil",
+      "growth_rate": 0.5,
+      "growth_raw": "0.5%"
+    },
+    {
+      "symbol": "PDD",
+      "source": "*[class*='eps']",
+      "raw_text": "PDD\nPinduoduo Inc.\n5:30 AM ET\nEarnings:\nRevenue:\n$3.41\n$17.93 Bil\n$2.57\n$17.72 Bil\n16.9%\n-24.6%\n-",
+      "revenue_millions": 17930.0,
+      "revenue_raw": "$17.93 Bil",
+      "growth_rate": 16.9,
+      "growth_raw": "16.9%"
+    },
+    {
+      "symbol": "PAYX",
+      "source": "*[class*='eps']",
+      "raw_text": "PAYX\nPaychex, Inc.\n8:30 AM ET\nEarnings:\nRevenue:\n$1.68\n$1.78 Bil\n$1.71\n$1.81 Bil\n19.9%\n1.8%",
+      "revenue_millions": 1780.0,
+      "revenue_raw": "$1.78 Bil",
+      "growth_rate": 19.9,
+      "growth_raw": "19.9%"
+    },
+    {
+      "symbol": "CTAS",
+      "source": "*[class*='eps']",
+      "raw_text": "CTAS\nCintas Corporation\n8:30 AM ET\nEarnings:\nRevenue:\n$1.23\n$2.81 Bil\n$1.24\n$2.84 Bil\n8.9%\n0.8%",
+      "revenue_millions": 2810.0,
+      "revenue_raw": "$2.81 Bil",
+      "growth_rate": 8.9,
+      "growth_raw": "8.9%"
+    },
+    {
+      "symbol": "KALV",
+      "source": "*[class*='eps']",
+      "raw_text": "KALV\nKalVista Pharmaceuticals, Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.54\n$28.73 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 28.73,
+      "revenue_raw": "$28.73 Mil"
+    },
+    {
+      "symbol": "BZUN",
+      "source": "*[class*='eps']",
+      "raw_text": "BZUN\nBaozun Inc.\n5:00 AM ETCompany pages access\nEarnings:\nRevenue:\n-\n$1.40 Bil\n$0.40\n$453.62 Mil\n10.6%\n-\n-",
+      "revenue_millions": 1400.0,
+      "revenue_raw": "$1.40 Bil",
+      "growth_rate": 10.6,
+      "growth_raw": "10.6%"
+    },
+    {
+      "symbol": "KC",
+      "source": "*[class*='eps']",
+      "raw_text": "KC\nKingsoft Cloud Holdings Limited\n6:55 AM ET\nEarnings:\nRevenue:\n$-0.05\n-\n$-0.01\n$394.87 Mil\n29.1%\n80.0%\n-",
+      "revenue_millions": 394.87,
+      "revenue_raw": "$394.87 Mil",
+      "growth_rate": 29.1,
+      "growth_raw": "29.1%"
+    },
+    {
+      "symbol": "WGO",
+      "source": "*[class*='eps']",
+      "raw_text": "WGO\nWinnebago Industries, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.25\n$625.03 Mil\n$0.27\n$657.40 Mil\n6.0%\n8.0%",
+      "revenue_millions": 625.03,
+      "revenue_raw": "$625.03 Mil",
+      "growth_rate": 6.0,
+      "growth_raw": "6.0%"
+    },
+    {
+      "symbol": "CGNT",
+      "source": "*[class*='eps']",
+      "raw_text": "CGNT\nCognyte\n7:00 AM ET\nEarnings:\nRevenue:\n$0.01\n$106.20 Mil\n$0.10\n$106.24 Mil\n12.4%\n900.0%",
+      "revenue_millions": 106.2,
+      "revenue_raw": "$106.20 Mil",
+      "growth_rate": 12.4,
+      "growth_raw": "12.4%"
+    },
+    {
+      "symbol": "VIOT",
+      "source": "*[class*='eps']",
+      "raw_text": "VIOT\nViomi Technology Co., Ltd\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "PRPL",
+      "source": "*[class*='eps']",
+      "raw_text": "PRPL\nPurple Innovation, Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.04\n$139.15 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 139.15,
+      "revenue_raw": "$139.15 Mil"
+    },
+    {
+      "symbol": "KNOP",
+      "source": "*[class*='eps']",
+      "raw_text": "KNOP\nKNOT Offshore Partners LP\nBefore Open\nEarnings:\nRevenue:\n$0.21\n$91.85 Mil\n$0.28\n$96.49 Mil\n5.7%\n33.3%\n-",
+      "revenue_millions": 91.85,
+      "revenue_raw": "$91.85 Mil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    },
+    {
+      "symbol": "PMN",
+      "source": "*[class*='eps']",
+      "raw_text": "PMN\nPUTNAM NY INVEST GRADE MUNICIP\n7:00 AM ET\nEarnings:\nRevenue:\n$-4.22\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "BYSI",
+      "source": "*[class*='eps']",
+      "raw_text": "BYSI\nBeyondSpring Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "DOYU",
+      "source": "*[class*='eps']",
+      "raw_text": "DOYU\nDouYu International Holdings Ltd\n4:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.06\n$131.38 Mil\n0.0%\n-\n-",
+      "revenue_millions": 131.38,
+      "revenue_raw": "$131.38 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LOCL",
+      "source": "*[class*='eps']",
+      "raw_text": "LOCL\nLocal Bounti Corporation\n7:15 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.38\n$12.46 Mil\n0.0%\n-\n-",
+      "revenue_millions": 12.46,
+      "revenue_raw": "$12.46 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "REED",
+      "source": "*[class*='eps']",
+      "raw_text": "REED\nReed's Inc\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.44\n$7.48 Mil\n0.0%\n-\n-",
+      "revenue_millions": 7.48,
+      "revenue_raw": "$7.48 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "STRS",
+      "source": "*[class*='eps']",
+      "raw_text": "STRS\nStratus Properties, Inc.\n8:30 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "SY",
+      "source": "*[class*='eps']",
+      "raw_text": "SY\nSo-Young International Inc.\n6:05 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.13\n$65.88 Mil\n0.0%\n-\n-",
+      "revenue_millions": 65.88,
+      "revenue_raw": "$65.88 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "WATT",
+      "source": "*[class*='eps']",
+      "raw_text": "WATT\nEnergous Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "WDH",
+      "source": "*[class*='eps']",
+      "raw_text": "WDH\nWaterdrop Inc.\n6:20 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.06\n$201.81 Mil\n0.0%\n-\n-",
+      "revenue_millions": 201.81,
+      "revenue_raw": "$201.81 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ZH",
+      "source": "*[class*='eps']",
+      "raw_text": "ZH\nZhihu Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.38\n$92.02 Mil\n0.0%\n-\n-",
+      "revenue_millions": 92.02,
+      "revenue_raw": "$92.02 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TMS",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ALUR",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "GRADE",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "MAMO",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "INC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "UTGN",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

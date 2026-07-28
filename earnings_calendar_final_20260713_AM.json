@@ -1,0 +1,39 @@
+{
+  "date": "20260713",
+  "scraped_at": "2026-07-14T09:00:53.928628",
+  "companies": [
+    {
+      "symbol": "FB",
+      "source": "*[class*='company']",
+      "raw_text": "FB Financial Corporation"
+    },
+    {
+      "symbol": "AERO",
+      "source": "*[class*='eps']",
+      "raw_text": "AERO\nAeroGrow International Inc.\n6:00 PM ETCompany Earnings\nEarnings:\nRevenue:\n$-0.37\n$1.49 Bil\n$-0.40\n$1.48 Bil\n0.0%\n-8.1%\n-",
+      "revenue_millions": 1490.0,
+      "revenue_raw": "$1.49 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FBK",
+      "source": "*[class*='eps']",
+      "raw_text": "FBK\nFB Financial Corporation\n4:15 PM ET\nEarnings:\nRevenue:\n$1.14\n$173.93 Mil\n$1.14\n$255.22 Mil\n22.7%\n0.0%\n-",
+      "revenue_millions": 173.93,
+      "revenue_raw": "$173.93 Mil",
+      "growth_rate": 22.7,
+      "growth_raw": "22.7%"
+    },
+    {
+      "symbol": "VMAR",
+      "source": "*[class*='eps']",
+      "raw_text": "VMAR\nVision Marine Technologies Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$-29.10\n$18.37 Mil\n0.0%\n-\n-",
+      "revenue_millions": 18.37,
+      "revenue_raw": "$18.37 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

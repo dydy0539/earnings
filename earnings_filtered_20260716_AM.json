@@ -1,0 +1,65 @@
+{
+  "date": "20260716",
+  "scraped_at": "2026-07-17T09:00:50.192285",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "revenue_millions": 12570.0,
+      "revenue_raw": "$12.57 Bil",
+      "growth_rate": 13.4,
+      "growth_raw": "13.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "AA",
+      "name": "Alcoa, Inc.",
+      "revenue_millions": 3930.0,
+      "revenue_raw": "$3.93 Bil",
+      "growth_rate": 31.4,
+      "growth_raw": "31.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INDB",
+      "name": "Independent Bank Corp.",
+      "revenue_millions": 257.73,
+      "revenue_raw": "$257.73 Mil",
+      "growth_rate": 31.4,
+      "growth_raw": "31.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 18
+}

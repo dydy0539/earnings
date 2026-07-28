@@ -1,0 +1,75 @@
+{
+  "date": "20260121",
+  "scraped_at": "2026-01-21T23:00:31.104848",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "SCHW",
+      "name": "Charles Schwab Corp.",
+      "revenue_millions": 6330.0,
+      "revenue_raw": "$6.33 Bil",
+      "growth_rate": 18.9,
+      "growth_raw": "18.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TEL",
+      "name": "TE Connectivity Ltd.",
+      "revenue_millions": 4510.0,
+      "revenue_raw": "$4.51 Bil",
+      "growth_rate": 21.7,
+      "growth_raw": "21.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ONB",
+      "name": "Old National Bancorp",
+      "revenue_millions": 1010.0,
+      "revenue_raw": "$1.01 Bil",
+      "growth_rate": 32.9,
+      "growth_raw": "32.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DCOM",
+      "name": "Dime Community Bancshares",
+      "revenue_millions": 117.42,
+      "revenue_raw": "$117.42 Mil",
+      "growth_rate": 45.9,
+      "growth_raw": "45.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 17
+}

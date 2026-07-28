@@ -1,0 +1,8 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+CFO/Chief Financial Officer : 5
+CEO/Chief Executive Officer: 4
+Chairman, Executive Chairman, other c-suite roles such as Chief Operating Office/COO, Chief Revenue officer/CRO
+Director 2

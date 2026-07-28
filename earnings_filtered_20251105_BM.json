@@ -1,0 +1,95 @@
+{
+  "date": "20251105",
+  "scraped_at": "2025-11-05T22:00:55.980185",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AG",
+      "name": "First Majestic Silver Corp.",
+      "revenue_millions": 1060.0,
+      "revenue_raw": "$1.06 Bil",
+      "growth_rate": 95.1,
+      "growth_raw": "95.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LMND",
+      "name": "Lemonade, Inc.",
+      "revenue_millions": 188.99,
+      "revenue_raw": "$188.99 Mil",
+      "growth_rate": 42.4,
+      "growth_raw": "42.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SEDG",
+      "name": "SolarEdge Technologies, Inc.",
+      "revenue_millions": 333.46,
+      "revenue_raw": "$333.46 Mil",
+      "growth_rate": 30.4,
+      "growth_raw": "30.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GERN",
+      "name": "Geron Corp.",
+      "revenue_millions": 52.49,
+      "revenue_raw": "$52.49 Mil",
+      "growth_rate": 67.1,
+      "growth_raw": "67.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ACMR",
+      "name": "ACM Research, Inc.",
+      "revenue_millions": 276.3,
+      "revenue_raw": "$276.30 Mil",
+      "growth_rate": 32.0,
+      "growth_raw": "32.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BG",
+      "name": "Bunge Ltd.",
+      "revenue_millions": 26550.0,
+      "revenue_raw": "$26.55 Bil",
+      "growth_rate": 71.6,
+      "growth_raw": "71.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 202
+}

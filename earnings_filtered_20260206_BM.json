@@ -1,0 +1,75 @@
+{
+  "date": "20260206",
+  "scraped_at": "2026-02-06T22:01:38.900925",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CNC",
+      "name": "Centene Corporation",
+      "revenue_millions": 48240.0,
+      "revenue_raw": "$48.24 Bil",
+      "growth_rate": 21.9,
+      "growth_raw": "21.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NVT",
+      "name": "nVent Electric plc",
+      "revenue_millions": 1000.0,
+      "revenue_raw": "$1.00 Bil",
+      "growth_rate": 41.8,
+      "growth_raw": "41.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "JOUT",
+      "name": "Johnson Outdoors Inc.",
+      "revenue_millions": 123.95,
+      "revenue_raw": "$123.95 Mil",
+      "growth_rate": 30.9,
+      "growth_raw": "30.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PIPR",
+      "name": "Piper Sandler Companies",
+      "revenue_millions": 515.4,
+      "revenue_raw": "$515.40 Mil",
+      "growth_rate": 37.8,
+      "growth_raw": "37.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 60
+}

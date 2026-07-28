@@ -1,0 +1,105 @@
+{
+  "date": "20260303",
+  "scraped_at": "2026-03-03T22:01:40.527026",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "SE",
+      "name": "Sea Limited",
+      "revenue_millions": 6780.0,
+      "revenue_raw": "$6.78 Bil",
+      "growth_rate": 38.4,
+      "growth_raw": "38.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ONON",
+      "name": "On Holding AG",
+      "revenue_millions": 896.42,
+      "revenue_raw": "$896.42 Mil",
+      "growth_rate": 34.7,
+      "growth_raw": "34.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VIK",
+      "name": "Viking Holdings Ltd",
+      "revenue_millions": 1630.0,
+      "revenue_raw": "$1.63 Bil",
+      "growth_rate": 27.8,
+      "growth_raw": "27.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KTB",
+      "name": "Kontoor Brands Inc",
+      "revenue_millions": 1020.0,
+      "revenue_raw": "$1.02 Bil",
+      "growth_rate": 45.6,
+      "growth_raw": "45.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SRAD",
+      "name": "Sportradar Group AG",
+      "revenue_millions": 434.95,
+      "revenue_raw": "$434.95 Mil",
+      "growth_rate": 31.1,
+      "growth_raw": "31.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MRX",
+      "name": "Marex Group Plc",
+      "revenue_millions": 526.0,
+      "revenue_raw": "$526.00 Mil",
+      "growth_rate": 37.7,
+      "growth_raw": "37.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EVGO",
+      "name": "EVgo Inc.",
+      "revenue_millions": 95.67,
+      "revenue_raw": "$95.67 Mil",
+      "growth_rate": 75.5,
+      "growth_raw": "75.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 7,
+  "total_original": 33
+}

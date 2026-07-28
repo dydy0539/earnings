@@ -1,0 +1,56 @@
+{
+  "source_file": "earnings_filtered_20260120_AM.json",
+  "analyzed_at": "2026-01-25T15:54:55.781988",
+  "total_companies": 2,
+  "successful_analyses": 2,
+  "companies": [
+    {
+      "company_name": "Netflix, Inc.",
+      "ticker": "NFLX",
+      "status": "success",
+      "incremental_operating_margin": 20.1,
+      "latest_operating_margin": 28.22,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 17.16,
+      "operating_income_growth_pct": 11.64,
+      "details": {
+        "latest_quarter": {
+          "revenue": 11510307000.0,
+          "operating_income": 3248247000.0,
+          "operating_margin_pct": 28.22
+        },
+        "prior_year_quarter": {
+          "revenue": 9824703000.0,
+          "operating_income": 2909477000.0,
+          "operating_margin_pct": 29.61
+        }
+      }
+    },
+    {
+      "company_name": "Interactive Brokers Group Inc",
+      "ticker": "IBKR",
+      "status": "success",
+      "incremental_operating_margin": 133.66,
+      "latest_operating_margin": 87.24,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 12.9,
+      "operating_income_growth_pct": 21.22,
+      "details": {
+        "latest_quarter": {
+          "revenue": 2704000000.0,
+          "operating_income": 2359000000.0,
+          "operating_margin_pct": 87.24
+        },
+        "prior_year_quarter": {
+          "revenue": 2395000000.0,
+          "operating_income": 1946000000.0,
+          "operating_margin_pct": 81.25
+        }
+      }
+    }
+  ]
+}

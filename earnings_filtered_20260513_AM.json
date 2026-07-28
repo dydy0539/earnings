@@ -1,0 +1,105 @@
+{
+  "date": "20260513",
+  "scraped_at": "2026-05-14T08:12:09.549338",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AQST",
+      "name": "Aquestive Therapeutics, Inc.",
+      "revenue_millions": 10.84,
+      "revenue_raw": "$10.84 Mil",
+      "growth_rate": 65.7,
+      "growth_raw": "65.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ASM",
+      "name": "Avino Silver & Gold Mines Ltd.",
+      "revenue_millions": 35.1,
+      "revenue_raw": "$35.10 Mil",
+      "growth_rate": 109.3,
+      "growth_raw": "109.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MGNX",
+      "name": "MacroGenics, Inc.",
+      "revenue_millions": 18.41,
+      "revenue_raw": "$18.41 Mil",
+      "growth_rate": 57.5,
+      "growth_raw": "57.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STAA",
+      "name": "STAAR Surgical Company",
+      "revenue_millions": 91.8,
+      "revenue_raw": "$91.80 Mil",
+      "growth_rate": 119.6,
+      "growth_raw": "119.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ECO",
+      "name": "Okeanis Eco Tankers Corp.",
+      "revenue_millions": 104.38,
+      "revenue_raw": "$104.38 Mil",
+      "growth_rate": 112.3,
+      "growth_raw": "112.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GAU",
+      "name": "Galiano Gold Inc.",
+      "revenue_millions": 616.2,
+      "revenue_raw": "$616.20 Mil",
+      "growth_rate": 117.4,
+      "growth_raw": "117.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PGEN",
+      "name": "Precigen, Inc.",
+      "revenue_millions": 21.14,
+      "revenue_raw": "$21.14 Mil",
+      "growth_rate": 633.9,
+      "growth_raw": "633.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 7,
+  "total_original": 124
+}

@@ -1,0 +1,193 @@
+{
+  "date": "20251125",
+  "scraped_at": "2025-11-26T09:00:31.355473",
+  "companies": [
+    {
+      "symbol": "HP",
+      "source": "*[class*='company']",
+      "raw_text": "HP Inc."
+    },
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Grupo Supervielle S.A."
+    },
+    {
+      "symbol": "BBVA",
+      "source": "*[class*='company']",
+      "raw_text": "Banco BBVA Argentina S.A."
+    },
+    {
+      "symbol": "DELL",
+      "source": "*[class*='eps']",
+      "raw_text": "DELL\nDell Technologies\n4:05 PM ET\nEarnings:\nRevenue:\n$2.48\n$27.15 Bil\n$2.59\n$27.00 Bil\n10.8%\n4.4%",
+      "revenue_millions": 27150.0,
+      "revenue_raw": "$27.15 Bil",
+      "growth_rate": 10.8,
+      "growth_raw": "10.8%"
+    },
+    {
+      "symbol": "CLSK",
+      "source": "*[class*='eps']",
+      "raw_text": "CLSK\nCleanSpark, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.05\n$238.76 Mil\n$-0.01\n$223.65 Mil\n150.5%\n-120.0%\n-",
+      "revenue_millions": 238.76,
+      "revenue_raw": "$238.76 Mil",
+      "growth_rate": 150.5,
+      "growth_raw": "150.5%"
+    },
+    {
+      "symbol": "WDAY",
+      "source": "*[class*='eps']",
+      "raw_text": "WDAY\nWorkday, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$2.17\n$2.41 Bil\n$2.32\n$2.43 Bil\n12.6%\n6.9%",
+      "revenue_millions": 2410.0,
+      "revenue_raw": "$2.41 Bil",
+      "growth_rate": 12.6,
+      "growth_raw": "12.6%"
+    },
+    {
+      "symbol": "NTNX",
+      "source": "*[class*='eps']",
+      "raw_text": "NTNX\nNutanix, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.41\n$677.02 Mil\n$0.41\n$670.58 Mil\n13.5%\n0.0%",
+      "revenue_millions": 677.02,
+      "revenue_raw": "$677.02 Mil",
+      "growth_rate": 13.5,
+      "growth_raw": "13.5%"
+    },
+    {
+      "symbol": "ZS",
+      "source": "*[class*='eps']",
+      "raw_text": "ZS\nZscaler, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.86\n$773.35 Mil\n$0.96\n$788.11 Mil\n25.5%\n11.6%",
+      "revenue_millions": 773.35,
+      "revenue_raw": "$773.35 Mil",
+      "growth_rate": 25.5,
+      "growth_raw": "25.5%"
+    },
+    {
+      "symbol": "URBN",
+      "source": "*[class*='eps']",
+      "raw_text": "URBN\nUrban Outfitters, Inc\n4:05 PM ET\nEarnings:\nRevenue:\n$1.19\n$1.49 Bil\n$1.28\n$1.53 Bil\n12.3%\n7.6%\n-",
+      "revenue_millions": 1490.0,
+      "revenue_raw": "$1.49 Bil",
+      "growth_rate": 12.3,
+      "growth_raw": "12.3%"
+    },
+    {
+      "symbol": "ADSK",
+      "source": "*[class*='eps']",
+      "raw_text": "ADSK\nAutodesk, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$2.50\n$1.80 Bil\n$2.67\n$1.85 Bil\n18.0%\n6.8%",
+      "revenue_millions": 1800.0,
+      "revenue_raw": "$1.80 Bil",
+      "growth_rate": 18.0,
+      "growth_raw": "18.0%"
+    },
+    {
+      "symbol": "AMBA",
+      "source": "*[class*='eps']",
+      "raw_text": "AMBA\nAmbarella, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.21\n$104.11 Mil\n$0.27\n$108.45 Mil\n31.2%\n28.6%",
+      "revenue_millions": 104.11,
+      "revenue_raw": "$104.11 Mil",
+      "growth_rate": 31.2,
+      "growth_raw": "31.2%"
+    },
+    {
+      "symbol": "HPQ",
+      "source": "*[class*='eps']",
+      "raw_text": "HPQ\nHP Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.91\n$15.02 Bil\n$0.93\n$14.64 Bil\n4.2%\n2.2%",
+      "revenue_millions": 15020.0,
+      "revenue_raw": "$15.02 Bil",
+      "growth_rate": 4.2,
+      "growth_raw": "4.2%"
+    },
+    {
+      "symbol": "NTAP",
+      "source": "*[class*='eps']",
+      "raw_text": "NTAP\nNetApp\n4:00 PM ET\nEarnings:\nRevenue:\n$1.89\n$1.69 Bil\n$2.05\n$1.71 Bil\n2.8%\n8.5%",
+      "revenue_millions": 1690.0,
+      "revenue_raw": "$1.69 Bil",
+      "growth_rate": 2.8,
+      "growth_raw": "2.8%"
+    },
+    {
+      "symbol": "PD",
+      "source": "*[class*='eps']",
+      "raw_text": "PD\nPagerDuty, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.25\n$124.94 Mil\n$0.33\n$124.55 Mil\n4.7%\n32.0%",
+      "revenue_millions": 124.94,
+      "revenue_raw": "$124.94 Mil",
+      "growth_rate": 4.7,
+      "growth_raw": "4.7%"
+    },
+    {
+      "symbol": "GES",
+      "source": "*[class*='eps']",
+      "raw_text": "GES\nGuess?, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.22\n$774.00 Mil\n$0.35\n$791.43 Mil\n7.2%\n59.1%\n-",
+      "revenue_millions": 774.0,
+      "revenue_raw": "$774.00 Mil",
+      "growth_rate": 7.2,
+      "growth_raw": "7.2%"
+    },
+    {
+      "symbol": "WOOF",
+      "source": "*[class*='eps']",
+      "raw_text": "WOOF\nPetco Health and Wellness Company, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.02\n$1.47 Bil\n$0.03\n$1.46 Bil\n-3.1%\n250.0%",
+      "revenue_millions": 1470.0,
+      "revenue_raw": "$1.47 Bil",
+      "growth_rate": -3.1,
+      "growth_raw": "-3.1%"
+    },
+    {
+      "symbol": "ARWR",
+      "source": "*[class*='eps']",
+      "raw_text": "ARWR\nArrowhead Pharmaceuticals, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.12\n$160.66 Mil\n$-0.18\n$256.47 Mil\n0.0%\n-250.0%\n-",
+      "revenue_millions": 160.66,
+      "revenue_raw": "$160.66 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SB",
+      "source": "*[class*='eps']",
+      "raw_text": "SB\nSafe Bulkers, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.12\n$73.08 Mil\n-3.7%\n-\n-",
+      "revenue_millions": 73.08,
+      "revenue_raw": "$73.08 Mil",
+      "growth_rate": -3.7,
+      "growth_raw": "-3.7%"
+    },
+    {
+      "symbol": "SUPV",
+      "source": "*[class*='eps']",
+      "raw_text": "SUPV\nGrupo Supervielle S.A.\n5:45 PM ET\nEarnings:\nRevenue:\n$0.03\n$923.46 Mil\n$-0.43\n$364.58 Mil\n2.2%\n-1,533.3%\n-",
+      "revenue_millions": 923.46,
+      "revenue_raw": "$923.46 Mil",
+      "growth_rate": 2.2,
+      "growth_raw": "2.2%"
+    },
+    {
+      "symbol": "BBAR",
+      "source": "*[class*='eps']",
+      "raw_text": "BBAR\nBanco BBVA Argentina S.A.\n4:50 PM ET\nEarnings:\nRevenue:\n$0.20\n$609.88 Mil\n$0.13\n$1.21 Bil\n24.8%\n-35.0%\n-",
+      "revenue_millions": 1210.0,
+      "revenue_raw": "$1.21 Bil",
+      "growth_rate": 24.8,
+      "growth_raw": "24.8%"
+    },
+    {
+      "symbol": "NOAH",
+      "source": "*[class*='eps']",
+      "raw_text": "NOAH\nNoah Holdings\n4:45 PM ET\nEarnings:\nRevenue:\n-\n$92.22 Mil\n$0.46\n$88.90 Mil\n-8.7%\n-\n-",
+      "revenue_millions": 92.22,
+      "revenue_raw": "$92.22 Mil",
+      "growth_rate": -8.7,
+      "growth_raw": "-8.7%"
+    },
+    {
+      "symbol": "SNT",
+      "source": "*[class*='eps']",
+      "raw_text": "SNT\nSenesco Technologies Inc\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.04\n$9.50 Mil\n0.0%\n-\n-",
+      "revenue_millions": 9.5,
+      "revenue_raw": "$9.50 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

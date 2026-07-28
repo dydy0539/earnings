@@ -1,0 +1,170 @@
+{
+  "date": "20250716",
+  "scraped_at": "2025-07-17T01:38:33.226222",
+  "companies": [
+    {
+      "symbol": "ASML",
+      "source": "*[class*='eps']",
+      "raw_text": "ASML\nASML Holding\n1:00 AM ET\nEarnings:\nRevenue:\n$5.95\n$8.55 Bil\n$6.88\n$8.73 Bil\n29.9%\n15.6%",
+      "revenue_millions": 8550.0,
+      "revenue_raw": "$8.55 Bil",
+      "growth_rate": 29.9,
+      "growth_raw": "29.9%"
+    },
+    {
+      "symbol": "PNC",
+      "source": "*[class*='eps']",
+      "raw_text": "PNC\nPNC Financial Services Group, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$3.56\n$5.62 Bil\n$3.85\n$8.38 Bil\n-3.5%\n8.1%",
+      "revenue_millions": 5620.0,
+      "revenue_raw": "$5.62 Bil",
+      "growth_rate": -3.5,
+      "growth_raw": "-3.5%"
+    },
+    {
+      "symbol": "M",
+      "source": "*[class*='company']",
+      "raw_text": "M&T Bank Corp"
+    },
+    {
+      "symbol": "AB",
+      "source": "*[class*='company']",
+      "raw_text": "Svenska Handelsbanken AB"
+    },
+    {
+      "symbol": "BAC",
+      "source": "*[class*='eps']",
+      "raw_text": "BAC\nBank of America Corp.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.86\n$26.61 Bil\n$0.89\n$46.67 Bil\n-3.8%\n3.5%\n-",
+      "revenue_millions": 26610.0,
+      "revenue_raw": "$26.61 Bil",
+      "growth_rate": -3.8,
+      "growth_raw": "-3.8%"
+    },
+    {
+      "symbol": "GS",
+      "source": "*[class*='eps']",
+      "raw_text": "GS\nGoldman Sachs Group, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$9.43\n$13.50 Bil\n$10.91\n$31.27 Bil\n1.1%\n15.7%\n-",
+      "revenue_millions": 13500.0,
+      "revenue_raw": "$13.50 Bil",
+      "growth_rate": 1.1,
+      "growth_raw": "1.1%"
+    },
+    {
+      "symbol": "JNJ",
+      "source": "*[class*='eps']",
+      "raw_text": "JNJ\nJohnson & Johnson\n6:20 AM ET\nEarnings:\nRevenue:\n$2.66\n$22.79 Bil\n$2.77\n$23.74 Bil\n5.8%\n4.1%",
+      "revenue_millions": 22790.0,
+      "revenue_raw": "$22.79 Bil",
+      "growth_rate": 5.8,
+      "growth_raw": "5.8%"
+    },
+    {
+      "symbol": "MS",
+      "source": "*[class*='eps']",
+      "raw_text": "MS\nMorgan Stanley\n7:35 AM ET\nEarnings:\nRevenue:\n$1.93\n$15.92 Bil\n$2.13\n$29.35 Bil\n10.8%\n10.4%\n-",
+      "revenue_millions": 15920.0,
+      "revenue_raw": "$15.92 Bil",
+      "growth_rate": 10.8,
+      "growth_raw": "10.8%"
+    },
+    {
+      "symbol": "PGR",
+      "source": "*[class*='eps']",
+      "raw_text": "PGR\nProgressive Corp.\n8:20 AM ET\nEarnings:\nRevenue:\n$4.43\n$21.52 Bil\n$4.88\n$22.00 Bil\n21.3%\n10.2%\n-",
+      "revenue_millions": 21520.0,
+      "revenue_raw": "$21.52 Bil",
+      "growth_rate": 21.3,
+      "growth_raw": "21.3%"
+    },
+    {
+      "symbol": "PLD",
+      "source": "*[class*='eps']",
+      "raw_text": "PLD\nPrologis, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.41\n$2.00 Bil\n$1.46\n$2.18 Bil\n8.8%\n3.5%",
+      "revenue_millions": 2000.0,
+      "revenue_raw": "$2.00 Bil",
+      "growth_rate": 8.8,
+      "growth_raw": "8.8%"
+    },
+    {
+      "symbol": "MRTN",
+      "source": "*[class*='eps']",
+      "raw_text": "MRTN\nMarten Transport Ltd.\nBefore Open\nEarnings:\nRevenue:\n$0.09\n$229.00 Mil\n$0.09\n$229.92 Mil\n-6.6%\n0.0%\n-",
+      "revenue_millions": 229.0,
+      "revenue_raw": "$229.00 Mil",
+      "growth_rate": -6.6,
+      "growth_raw": "-6.6%"
+    },
+    {
+      "symbol": "CBSH",
+      "source": "*[class*='eps']",
+      "raw_text": "CBSH\nCommerce Bancshares Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$1.02\n$430.36 Mil\n$1.14\n$537.25 Mil\n3.0%\n11.8%\n-",
+      "revenue_millions": 430.36,
+      "revenue_raw": "$430.36 Mil",
+      "growth_rate": 3.0,
+      "growth_raw": "3.0%"
+    },
+    {
+      "symbol": "FHN",
+      "source": "*[class*='eps']",
+      "raw_text": "FHN\nFirst Horizon National Corp\n6:30 AM ET\nEarnings:\nRevenue:\n$0.41\n$826.62 Mil\n$0.45\n$1.24 Bil\n-3.4%\n9.8%\n-",
+      "revenue_millions": 1240.0,
+      "revenue_raw": "$1.24 Bil",
+      "growth_rate": -3.4,
+      "growth_raw": "-3.4%"
+    },
+    {
+      "symbol": "MTB",
+      "source": "*[class*='eps']",
+      "raw_text": "MTB\nM&T Bank Corp\n6:00 AM ET\nEarnings:\nRevenue:\n$4.04\n$2.39 Bil\n$4.28\n$3.29 Bil\n-2.4%\n5.9%\n-",
+      "revenue_millions": 2390.0,
+      "revenue_raw": "$2.39 Bil",
+      "growth_rate": -2.4,
+      "growth_raw": "-2.4%"
+    },
+    {
+      "symbol": "SDVKY",
+      "source": "*[class*='eps']",
+      "raw_text": "SDVKY\nSandvik AB\n5:45 AM ET\nEarnings:\nRevenue:\n$0.31\n-\n$0.31\n$3.07 Bil\n4.6%\n0.0%\n-",
+      "revenue_millions": 3070.0,
+      "revenue_raw": "$3.07 Bil",
+      "growth_rate": 4.6,
+      "growth_raw": "4.6%"
+    },
+    {
+      "symbol": "PLBC",
+      "source": "*[class*='eps']",
+      "raw_text": "PLBC\nPlumas Bancorp\n9:00 AM ET\nEarnings:\nRevenue:\n$1.20\n$20.95 Mil\n$1.05\n$22.99 Mil\n-1.6%\n-12.5%\n-",
+      "revenue_millions": 20.95,
+      "revenue_raw": "$20.95 Mil",
+      "growth_rate": -1.6,
+      "growth_raw": "-1.6%"
+    },
+    {
+      "symbol": "CTBI",
+      "source": "*[class*='eps']",
+      "raw_text": "CTBI\nCommunity Trust Bancorp Inc.\n8:15 AM ET\nEarnings:\nRevenue:\n$1.26\n$67.85 Mil\n$1.38\n$101.74 Mil\n10.2%\n9.5%\n-",
+      "revenue_millions": 67.85,
+      "revenue_raw": "$67.85 Mil",
+      "growth_rate": 10.2,
+      "growth_raw": "10.2%"
+    },
+    {
+      "symbol": "RMCF",
+      "source": "*[class*='eps']",
+      "raw_text": "RMCF\nRocky Mountain Chocolate Factory, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.04\n$6.37 Mil\n0.0%\n-\n-",
+      "revenue_millions": 6.37,
+      "revenue_raw": "$6.37 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SVNLY",
+      "source": "*[class*='eps']",
+      "raw_text": "SVNLY\nSvenska Handelsbanken AB\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.14\n$3.71 Bil\n0.0%\n-\n-",
+      "revenue_millions": 3710.0,
+      "revenue_raw": "$3.71 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

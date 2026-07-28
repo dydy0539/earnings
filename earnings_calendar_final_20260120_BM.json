@@ -1,0 +1,108 @@
+{
+  "date": "20260120",
+  "scraped_at": "2026-01-20T23:00:32.763785",
+  "companies": [
+    {
+      "symbol": "D",
+      "source": "*[class*='company']",
+      "raw_text": "D.R. Horton, Inc."
+    },
+    {
+      "symbol": "U",
+      "source": "*[class*='company']",
+      "raw_text": "U.S. Bancorp"
+    },
+    {
+      "symbol": "BK",
+      "source": "*[class*='company']",
+      "raw_text": "MECHANICS BK RICHMOND CA"
+    },
+    {
+      "symbol": "MMM",
+      "source": "*[class*='eps']",
+      "raw_text": "MMM\n3M CompanyTrader services\n6:30 AM ET\nEarnings:\nRevenue:\n$1.82\n$6.08 Bil\n$1.83\n$6.13 Bil\n2.0%\n0.5%",
+      "revenue_millions": 6080.0,
+      "revenue_raw": "$6.08 Bil",
+      "growth_rate": 2.0,
+      "growth_raw": "2.0%"
+    },
+    {
+      "symbol": "FITB",
+      "source": "*[class*='eps']",
+      "raw_text": "FITB\nFifth Third Bancorp\n6:30 AM ET\nEarnings:\nRevenue:\n$1.01\n$2.33 Bil\n$1.08\n$3.28 Bil\n0.6%\n6.9%\n-",
+      "revenue_millions": 2330.0,
+      "revenue_raw": "$2.33 Bil",
+      "growth_rate": 0.6,
+      "growth_raw": "0.6%"
+    },
+    {
+      "symbol": "DHI",
+      "source": "*[class*='eps']",
+      "raw_text": "DHI\nD.R. Horton, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$1.96\n$6.71 Bil\n$2.03\n$6.89 Bil\n-9.5%\n3.6%",
+      "revenue_millions": 6710.0,
+      "revenue_raw": "$6.71 Bil",
+      "growth_rate": -9.5,
+      "growth_raw": "-9.5%"
+    },
+    {
+      "symbol": "FAST",
+      "source": "*[class*='eps']",
+      "raw_text": "FAST\nFastenal Co.\n6:50 AM ET\nEarnings:\nRevenue:\n$0.26\n$2.05 Bil\n$0.26\n$2.03 Bil\n11.1%\n0.0%\n-",
+      "revenue_millions": 2050.0,
+      "revenue_raw": "$2.05 Bil",
+      "growth_rate": 11.1,
+      "growth_raw": "11.1%"
+    },
+    {
+      "symbol": "USB",
+      "source": "*[class*='eps']",
+      "raw_text": "USB\nU.S. Bancorp\n6:45 AM ET\nEarnings:\nRevenue:\n$1.19\n$7.33 Bil\n$1.26\n$10.98 Bil\n2.9%\n5.9%",
+      "revenue_millions": 7330.0,
+      "revenue_raw": "$7.33 Bil",
+      "growth_rate": 2.9,
+      "growth_raw": "2.9%"
+    },
+    {
+      "symbol": "PEBO",
+      "source": "*[class*='eps']",
+      "raw_text": "PEBO\nPeoples Bancorp Inc\n6:00 AM ET\nEarnings:\nRevenue:\n$0.88\n$118.15 Mil\n$0.93\n$156.82 Mil\n1.9%\n5.7%\n-",
+      "revenue_millions": 118.15,
+      "revenue_raw": "$118.15 Mil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "MBWM",
+      "source": "*[class*='eps']",
+      "raw_text": "MBWM\nMercantile Bank Corporation\n5:05 AM ET\nEarnings:\nRevenue:\n$1.37\n$61.80 Mil\n$1.40\n$93.31 Mil\n0.7%\n2.2%\n-",
+      "revenue_millions": 61.8,
+      "revenue_raw": "$61.80 Mil",
+      "growth_rate": 0.7,
+      "growth_raw": "0.7%"
+    },
+    {
+      "symbol": "SPWR",
+      "source": "*[class*='eps']",
+      "raw_text": "SPWR\nSunPower Corp.\nBefore Open\nEarnings:\nRevenue:\n$-0.17\n$83.30 Mil\n-\n$999.00 Mil\n-\n-\n-",
+      "revenue_millions": 83.3,
+      "revenue_raw": "$83.30 Mil"
+    },
+    {
+      "symbol": "BNED",
+      "source": "*[class*='eps']",
+      "raw_text": "BNED\nBarnes & Noble Education, Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n$999.00 Mil\n-\n-\n-",
+      "revenue_millions": 999.0,
+      "revenue_raw": "$999.00 Mil"
+    },
+    {
+      "symbol": "MCHB",
+      "source": "*[class*='eps']",
+      "raw_text": "MCHB\nMECHANICS BK RICHMOND CA\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "CA",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

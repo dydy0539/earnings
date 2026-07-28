@@ -1,0 +1,95 @@
+{
+  "date": "20251028",
+  "scraped_at": "2025-10-28T21:00:44.714565",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CECO",
+      "name": "CECO Environmental Corp.",
+      "revenue_millions": 189.52,
+      "revenue_raw": "$189.52 Mil",
+      "growth_rate": 45.8,
+      "growth_raw": "45.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SOFI",
+      "name": "SoFi",
+      "revenue_millions": 886.23,
+      "revenue_raw": "$886.23 Mil",
+      "growth_rate": 37.9,
+      "growth_raw": "37.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GLW",
+      "name": "Corning Inc.",
+      "revenue_millions": 4210.0,
+      "revenue_raw": "$4.21 Bil",
+      "growth_rate": 20.9,
+      "growth_raw": "20.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WGS",
+      "name": "GeneDx",
+      "revenue_millions": 103.8,
+      "revenue_raw": "$103.80 Mil",
+      "growth_rate": 51.9,
+      "growth_raw": "51.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HRI",
+      "name": "Herc Holdings Inc.",
+      "revenue_millions": 1290.0,
+      "revenue_raw": "$1.29 Bil",
+      "growth_rate": 35.1,
+      "growth_raw": "35.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals, Ltd.",
+      "revenue_millions": 166.06,
+      "revenue_raw": "$166.06 Mil",
+      "growth_rate": 61.2,
+      "growth_raw": "61.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 78
+}

@@ -1,0 +1,75 @@
+{
+  "date": "20260311",
+  "scraped_at": "2026-03-12T09:00:56.926312",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TBBB",
+      "name": "Tiendas 3B",
+      "revenue_millions": 1260.0,
+      "revenue_raw": "$1.26 Bil",
+      "growth_rate": 47.4,
+      "growth_raw": "47.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARIS",
+      "name": "Aris Water Solutions, Inc.",
+      "revenue_millions": 308.56,
+      "revenue_raw": "$308.56 Mil",
+      "growth_rate": 160.2,
+      "growth_raw": "160.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MNTK",
+      "name": "Montauk Renewables, Inc.",
+      "revenue_millions": 44.76,
+      "revenue_raw": "$44.76 Mil",
+      "growth_rate": 56.7,
+      "growth_raw": "56.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDXS",
+      "name": "Codexis Inc",
+      "revenue_millions": 38.3,
+      "revenue_raw": "$38.30 Mil",
+      "growth_rate": 81.3,
+      "growth_raw": "81.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 45
+}

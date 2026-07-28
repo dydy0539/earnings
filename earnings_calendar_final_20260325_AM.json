@@ -1,0 +1,113 @@
+{
+  "date": "20260325",
+  "scraped_at": "2026-03-26T11:32:26.298797",
+  "companies": [
+    {
+      "symbol": "PMI",
+      "source": "*[class*='eps']",
+      "raw_text": "PMI\nPMI Group, Inc.\n6:00 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "INC",
+      "source": "*[class*='company']",
+      "raw_text": "EXICURE INC"
+    },
+    {
+      "symbol": "AAPG",
+      "source": "*[class*='eps']",
+      "raw_text": "AAPG\nAscentage Pharma Group Internat\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ARMP",
+      "source": "*[class*='eps']",
+      "raw_text": "ARMP\nARMATA PHARMACT\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.51\n$1.08 Mil\n0.0%\n-Infinity%\n-",
+      "revenue_millions": 1.08,
+      "revenue_raw": "$1.08 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CYN",
+      "source": "*[class*='eps']",
+      "raw_text": "CYN\nCyngn, Inc.\n5:40 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.78\n$68.00 Thou\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DERM",
+      "source": "*[class*='eps']",
+      "raw_text": "DERM\nDermira, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.04\n$16.08 Mil\n0.0%\n-Infinity%\n-",
+      "revenue_millions": 16.08,
+      "revenue_raw": "$16.08 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DYAI",
+      "source": "*[class*='eps']",
+      "raw_text": "DYAI\nDyadic International\n4:05 PM ETTime & Calendars\nEarnings:\nRevenue:\n-\n-\n$-0.06\n$566.00 Thou\n0.0%\n-Infinity%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "HIT",
+      "source": "*[class*='eps']",
+      "raw_text": "HIT\nHealth In Tech\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.01\n$7.51 Mil\n0.0%\n-Infinity%\n-",
+      "revenue_millions": 7.51,
+      "revenue_raw": "$7.51 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ICU",
+      "source": "*[class*='eps']",
+      "raw_text": "ICU\nSeaStar Medical Holding Corporation\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.80\n$420.00 Thou\n0.0%\n-Infinity%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "IVFH",
+      "source": "*[class*='eps']",
+      "raw_text": "IVFH\nInnovative Food Hldg\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "JBS",
+      "source": "*[class*='eps']",
+      "raw_text": "JBS\nSelect Asset Inc. on Behalf of\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.39\n$23.06 Bil\n0.0%\nInfinity%\n-",
+      "revenue_millions": 23060.0,
+      "revenue_raw": "$23.06 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "MRAI",
+      "source": "*[class*='eps']",
+      "raw_text": "MRAI\nMarpai, Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$-0.26\n$3.99 Mil\n0.0%\n-\n-",
+      "revenue_millions": 3.99,
+      "revenue_raw": "$3.99 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NDLS",
+      "source": "*[class*='eps']",
+      "raw_text": "NDLS\nNoodles & Company\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.43\n$122.78 Mil\n0.0%\n-\n-",
+      "revenue_millions": 122.78,
+      "revenue_raw": "$122.78 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "XCUR",
+      "source": "*[class*='eps']",
+      "raw_text": "XCUR\nEXICURE INC\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.46\n-\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "WEDXF",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

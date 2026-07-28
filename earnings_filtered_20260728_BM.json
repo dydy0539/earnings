@@ -1,0 +1,105 @@
+{
+  "date": "20260728",
+  "scraped_at": "2026-07-28T07:56:51.376096-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "DINO",
+      "name": "HF Sinclair Corporation",
+      "revenue_millions": 10390.0,
+      "revenue_raw": "$10,390.00 Mil (reported)",
+      "growth_rate": 53.2,
+      "growth_raw": "53.2%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INCY",
+      "name": "Incyte Corp.",
+      "revenue_millions": 1674.04,
+      "revenue_raw": "$1,674.04 Mil (reported)",
+      "growth_rate": 37.7,
+      "growth_raw": "37.7%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IVZ",
+      "name": "Invesco PLC",
+      "revenue_millions": 1825.6,
+      "revenue_raw": "$1,825.60 Mil (reported)",
+      "growth_rate": 20.5,
+      "growth_raw": "20.5%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FMX",
+      "name": "Fomento Economico Mexicano S.A",
+      "revenue_millions": 12940.0,
+      "revenue_raw": "$12,940.00 Mil (est)",
+      "growth_rate": 19.3,
+      "growth_raw": "19.3%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HRI",
+      "name": "Herc Holdings Inc.",
+      "revenue_millions": 1204.0,
+      "revenue_raw": "$1,204.00 Mil (reported)",
+      "growth_rate": 20.2,
+      "growth_raw": "20.2%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals, Ltd.",
+      "revenue_millions": 243.6,
+      "revenue_raw": "$243.60 Mil (reported)",
+      "growth_rate": 55.4,
+      "growth_raw": "55.4%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CURB",
+      "name": "Curbline Properties Corp.",
+      "revenue_millions": 63.3,
+      "revenue_raw": "$63.30 Mil (reported)",
+      "growth_rate": 52.9,
+      "growth_raw": "52.9%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 7,
+  "total_original": 60
+}

@@ -1,0 +1,88 @@
+{
+  "date": "20251202",
+  "scraped_at": "2025-12-03T09:00:33.014729",
+  "companies": [
+    {
+      "symbol": "MRVL",
+      "source": "*[class*='eps']",
+      "raw_text": "MRVL\nMarvell Technology, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.74\n$2.06 Bil\n$0.76\n$2.07 Bil\n36.8%\n2.7%",
+      "revenue_millions": 2060.0,
+      "revenue_raw": "$2.06 Bil",
+      "growth_rate": 36.8,
+      "growth_raw": "36.8%"
+    },
+    {
+      "symbol": "CRWD",
+      "source": "*[class*='eps']",
+      "raw_text": "CRWD\nCrowdStrike, Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$0.94\n$1.21 Bil\n$0.96\n$1.23 Bil\n22.2%\n2.1%",
+      "revenue_millions": 1210.0,
+      "revenue_raw": "$1.21 Bil",
+      "growth_rate": 22.2,
+      "growth_raw": "22.2%"
+    },
+    {
+      "symbol": "GTLB",
+      "source": "*[class*='eps']",
+      "raw_text": "GTLB\nGitLab Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.20\n$238.61 Mil\n$0.25\n$244.35 Mil\n24.6%\n25.0%",
+      "revenue_millions": 238.61,
+      "revenue_raw": "$238.61 Mil",
+      "growth_rate": 24.6,
+      "growth_raw": "24.6%"
+    },
+    {
+      "symbol": "OKTA",
+      "source": "*[class*='eps']",
+      "raw_text": "OKTA\nOkta, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.76\n$730.00 Mil\n$0.82\n$742.00 Mil\n11.6%\n7.9%",
+      "revenue_millions": 730.0,
+      "revenue_raw": "$730.00 Mil",
+      "growth_rate": 11.6,
+      "growth_raw": "11.6%"
+    },
+    {
+      "symbol": "PSTG",
+      "source": "*[class*='eps']",
+      "raw_text": "PSTG\nPure Storage, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.58\n$958.14 Mil\n$0.58\n$964.45 Mil\n16.0%\n0.0%",
+      "revenue_millions": 958.14,
+      "revenue_raw": "$958.14 Mil",
+      "growth_rate": 16.0,
+      "growth_raw": "16.0%"
+    },
+    {
+      "symbol": "AEO",
+      "source": "*[class*='eps']",
+      "raw_text": "AEO\nAmerican Eagle Outfitters, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.43\n$1.32 Bil\n$0.53\n$1.36 Bil\n5.7%\n23.3%",
+      "revenue_millions": 1320.0,
+      "revenue_raw": "$1.32 Bil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    },
+    {
+      "symbol": "ASAN",
+      "source": "*[class*='eps']",
+      "raw_text": "ASAN\nAsana, Inc\n4:05 PM ET\nEarnings:\nRevenue:\n$0.06\n$198.34 Mil\n$0.07\n$201.03 Mil\n9.3%\n16.7%",
+      "revenue_millions": 198.34,
+      "revenue_raw": "$198.34 Mil",
+      "growth_rate": 9.3,
+      "growth_raw": "9.3%"
+    },
+    {
+      "symbol": "BOX",
+      "source": "*[class*='eps']",
+      "raw_text": "BOX\nBox, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.32\n$298.45 Mil\n$0.31\n$301.11 Mil\n9.1%\n-3.1%",
+      "revenue_millions": 298.45,
+      "revenue_raw": "$298.45 Mil",
+      "growth_rate": 9.1,
+      "growth_raw": "9.1%"
+    },
+    {
+      "symbol": "LESL",
+      "source": "*[class*='eps']",
+      "raw_text": "LESL\nLeslie's, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$1.09\n$368.43 Mil\n$0.01\n$389.21 Mil\n-2.2%\n-99.1%",
+      "revenue_millions": 368.43,
+      "revenue_raw": "$368.43 Mil",
+      "growth_rate": -2.2,
+      "growth_raw": "-2.2%"
+    }
+  ],
+  "status": "success"
+}

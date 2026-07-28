@@ -1,0 +1,16 @@
+{
+  "date": "20260406",
+  "scraped_at": "2026-04-07T09:30:13.837099",
+  "companies": [
+    {
+      "symbol": "IQST",
+      "source": "*[class*='eps']",
+      "raw_text": "IQST\niQSTEL, Inc.\nAfter Close\nEarnings:\nRevenue:\n$-0.16\n$105.05 Mil\n$-0.39\n$84.22 Mil\n0.0%\n-143.8%\n-",
+      "revenue_millions": 105.05,
+      "revenue_raw": "$105.05 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,43 @@
+{
+  "date": "20260623",
+  "scraped_at": "2026-06-23T23:05:52.504219",
+  "companies": [
+    {
+      "symbol": "CCL",
+      "source": "*[class*='eps']",
+      "raw_text": "CCL\nCarnival Corp.\n9:15 AM ET\nEarnings:\nRevenue:\n$0.34\n$6.64 Bil\n$0.41\n$6.66 Bil\n5.3%\n20.6%",
+      "revenue_millions": 6640.0,
+      "revenue_raw": "$6.64 Bil",
+      "growth_rate": 5.3,
+      "growth_raw": "5.3%"
+    },
+    {
+      "symbol": "KFY",
+      "source": "*[class*='eps']",
+      "raw_text": "KFY\nKorn/Ferry International\n6:45 AM ETCompany Earnings\nEarnings:\nRevenue:\n$1.37\n$739.50 Mil\n$1.40\n$768.26 Mil\n6.7%\n2.2%",
+      "revenue_millions": 739.5,
+      "revenue_raw": "$739.50 Mil",
+      "growth_rate": 6.7,
+      "growth_raw": "6.7%"
+    },
+    {
+      "symbol": "SUNB",
+      "source": "*[class*='eps']",
+      "raw_text": "SUNB\nSunbelt Rentals Holdings, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.73\n$2.70 Bil\n$0.74\n$2.75 Bil\n0.0%\n1.4%",
+      "revenue_millions": 2700.0,
+      "revenue_raw": "$2.70 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "JFIN",
+      "source": "*[class*='eps']",
+      "raw_text": "JFIN\nJiayin Group Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.16\n$109.70 Mil\n0.0%\n-\n-",
+      "revenue_millions": 109.7,
+      "revenue_raw": "$109.70 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

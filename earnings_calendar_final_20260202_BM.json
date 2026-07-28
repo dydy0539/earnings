@@ -1,0 +1,137 @@
+{
+  "date": "20260202",
+  "scraped_at": "2026-02-02T22:23:00.506987",
+  "companies": [
+    {
+      "symbol": "PLC",
+      "source": "*[class*='company']",
+      "raw_text": "Aptiv PLC"
+    },
+    {
+      "symbol": "IDEXX",
+      "source": "*[class*='company']",
+      "raw_text": "IDEXX Laboratories, Inc."
+    },
+    {
+      "symbol": "NAPCO",
+      "source": "*[class*='company']",
+      "raw_text": "NAPCO Security Technologies, Inc."
+    },
+    {
+      "symbol": "L",
+      "source": "*[class*='company']",
+      "raw_text": "Alliance Resource Partners, L.P."
+    },
+    {
+      "symbol": "LP",
+      "source": "*[class*='company']",
+      "raw_text": "Hess Midstream LP"
+    },
+    {
+      "symbol": "DIS",
+      "source": "*[class*='eps']",
+      "raw_text": "DIS\nWalt Disney Co\n6:40 AM ET\nEarnings:\nRevenue:\n$1.57\n$26.00 Bil\n$1.63\n$25.98 Bil\n5.2%\n3.8%",
+      "revenue_millions": 26000.0,
+      "revenue_raw": "$26.00 Bil",
+      "growth_rate": 5.2,
+      "growth_raw": "5.2%"
+    },
+    {
+      "symbol": "APTV",
+      "source": "*[class*='eps']",
+      "raw_text": "APTV\nAptiv PLC\n6:45 AM ET\nEarnings:\nRevenue:\n$1.82\n$5.08 Bil\n$1.86\n$5.15 Bil\n5.0%\n2.2%",
+      "revenue_millions": 5080.0,
+      "revenue_raw": "$5.08 Bil",
+      "growth_rate": 5.0,
+      "growth_raw": "5.0%"
+    },
+    {
+      "symbol": "IDXX",
+      "source": "*[class*='eps']",
+      "raw_text": "IDXX\nIDEXX Laboratories, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$2.93\n$1.07 Bil\n$3.08\n$1.09 Bil\n14.3%\n5.1%",
+      "revenue_millions": 1070.0,
+      "revenue_raw": "$1.07 Bil",
+      "growth_rate": 14.3,
+      "growth_raw": "14.3%"
+    },
+    {
+      "symbol": "RVTY",
+      "source": "*[class*='eps']",
+      "raw_text": "RVTY\nRevvity, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$1.59\n$767.20 Mil\n$1.70\n$772.06 Mil\n5.9%\n6.9%",
+      "revenue_millions": 767.2,
+      "revenue_raw": "$767.20 Mil",
+      "growth_rate": 5.9,
+      "growth_raw": "5.9%"
+    },
+    {
+      "symbol": "TWST",
+      "source": "*[class*='eps']",
+      "raw_text": "TWST\nTwist Bioscience Corporation\n7:15 AM ET\nEarnings:\nRevenue:\n$-0.47\n$103.75 Mil\n$-0.50\n$103.70 Mil\n16.9%\n-6.4%",
+      "revenue_millions": 103.75,
+      "revenue_raw": "$103.75 Mil",
+      "growth_rate": 16.9,
+      "growth_raw": "16.9%"
+    },
+    {
+      "symbol": "TSN",
+      "source": "*[class*='eps']",
+      "raw_text": "TSN\nTyson Foods Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$1.01\n$14.12 Bil\n$0.97\n$14.31 Bil\n5.1%\n-4.0%",
+      "revenue_millions": 14120.0,
+      "revenue_raw": "$14.12 Bil",
+      "growth_rate": 5.1,
+      "growth_raw": "5.1%"
+    },
+    {
+      "symbol": "NSSC",
+      "source": "*[class*='eps']",
+      "raw_text": "NSSC\nNAPCO Security Technologies, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.33\n$47.70 Mil\n$0.38\n$48.17 Mil\n12.2%\n15.2%\n-",
+      "revenue_millions": 47.7,
+      "revenue_raw": "$47.70 Mil",
+      "growth_rate": 12.2,
+      "growth_raw": "12.2%"
+    },
+    {
+      "symbol": "ARLP",
+      "source": "*[class*='eps']",
+      "raw_text": "ARLP\nAlliance Resource Partners, L.P.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.61\n$560.31 Mil\n$0.75\n$535.51 Mil\n-9.2%\n23.0%\n-",
+      "revenue_millions": 560.31,
+      "revenue_raw": "$560.31 Mil",
+      "growth_rate": -9.2,
+      "growth_raw": "-9.2%"
+    },
+    {
+      "symbol": "HESM",
+      "source": "*[class*='eps']",
+      "raw_text": "HESM\nHess Midstream LP\n8:00 AM ET\nEarnings:\nRevenue:\n$0.73\n$418.30 Mil\n$0.72\n$404.20 Mil\n2.1%\n-1.4%\n-",
+      "revenue_millions": 418.3,
+      "revenue_raw": "$418.30 Mil",
+      "growth_rate": 2.1,
+      "growth_raw": "2.1%"
+    },
+    {
+      "symbol": "BSRR",
+      "source": "*[class*='eps']",
+      "raw_text": "BSRR\nSierra Bancorp\n8:00 AM ET\nEarnings:\nRevenue:\n$0.85\n$39.97 Mil\n$0.97\n$50.62 Mil\n0.0%\n14.1%\n-",
+      "revenue_millions": 39.97,
+      "revenue_raw": "$39.97 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "OPHC",
+      "source": "*[class*='eps']",
+      "raw_text": "OPHC\nOptimumbank Holdings\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "SEED",
+      "source": "*[class*='eps']",
+      "raw_text": "SEED\nOrigin Agritech Ltd.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "SLBK",
+      "source": "*[class*='eps']",
+      "raw_text": "SLBK\nSkyline Bankshares Inc\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,19 @@
+{
+  "date": "20260525",
+  "scraped_at": "2026-05-26T09:00:30.353798",
+  "companies": [
+    {
+      "symbol": "JOYY",
+      "source": "*[class*='eps']",
+      "raw_text": "JOYY\nJOYY Inc.\n7:00 PM ET\nEarnings:\nRevenue:\n$1.01\n$541.31 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 541.31,
+      "revenue_raw": "$541.31 Mil"
+    },
+    {
+      "symbol": "FINV",
+      "source": "*[class*='eps']",
+      "raw_text": "FINV\nFinVolution Group\n6:30 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

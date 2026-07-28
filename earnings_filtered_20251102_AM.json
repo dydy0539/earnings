@@ -1,0 +1,115 @@
+{
+  "date": "20251102",
+  "scraped_at": "2025-11-03T09:01:05.096013",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CIFR",
+      "name": "Cipher Mining Inc",
+      "revenue_millions": 75.48,
+      "revenue_raw": "Revenue:\n$75.48 Mil",
+      "growth_rate": 213.2,
+      "growth_raw": "213.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AXSM",
+      "name": "Axsome Therapeutics, Inc.",
+      "revenue_millions": 164.05,
+      "revenue_raw": "Revenue:\n$164.05 Mil",
+      "growth_rate": 56.6,
+      "growth_raw": "56.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LQDA",
+      "name": "Liquidia Technologies, Inc.",
+      "revenue_millions": 15.6,
+      "revenue_raw": "Revenue:\n$15.60 Mil",
+      "growth_rate": 250.7,
+      "growth_raw": "250.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KOS",
+      "name": "Kosmos Energy Ltd.",
+      "revenue_millions": 1470.0,
+      "revenue_raw": "Revenue:\n$1.47 Bil",
+      "growth_rate": 260.4,
+      "growth_raw": "260.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TGTX",
+      "name": "TG Therapeutics, Inc.",
+      "revenue_millions": 150.66,
+      "revenue_raw": "Revenue:\n$150.66 Mil",
+      "growth_rate": 79.6,
+      "growth_raw": "79.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BCRX",
+      "name": "BioCryst Pharmaceuticals Inc.",
+      "revenue_millions": 161.15,
+      "revenue_raw": "Revenue:\n$161.15 Mil",
+      "growth_rate": 37.6,
+      "growth_raw": "37.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KTB",
+      "name": "Kontoor Brands Inc",
+      "revenue_millions": 854.0,
+      "revenue_raw": "Revenue:\n$854.00 Mil",
+      "growth_rate": 27.4,
+      "growth_raw": "27.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DTIL",
+      "name": "Precision BioSciences, Inc.",
+      "revenue_millions": 11.1,
+      "revenue_raw": "Revenue:\n$11.10 Mil",
+      "growth_rate": 827.1,
+      "growth_raw": "827.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 8,
+  "total_original": 46
+}

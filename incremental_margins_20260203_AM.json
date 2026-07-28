@@ -1,0 +1,200 @@
+{
+  "source_file": "earnings_filtered_20260203_AM.json",
+  "analyzed_at": "2026-02-04T09:01:03.545154",
+  "total_companies": 8,
+  "successful_analyses": 8,
+  "companies": [
+    {
+      "company_name": "Advanced Micro Devices, Inc.",
+      "ticker": "AMD",
+      "status": "success",
+      "incremental_operating_margin": 22.5,
+      "latest_operating_margin": 13.74,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 35.59,
+      "operating_income_growth_pct": 75.41,
+      "details": {
+        "latest_quarter": {
+          "revenue": 9246000000.0,
+          "operating_income": 1270000000.0,
+          "operating_margin_pct": 13.74
+        },
+        "prior_year_quarter": {
+          "revenue": 6819000000.0,
+          "operating_income": 724000000.0,
+          "operating_margin_pct": 10.62
+        }
+      }
+    },
+    {
+      "company_name": "Supermicro",
+      "ticker": "SMCI",
+      "status": "success",
+      "incremental_operating_margin": 35.56,
+      "latest_operating_margin": 3.63,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": -15.49,
+      "operating_income_growth_pct": -64.21,
+      "details": {
+        "latest_quarter": {
+          "revenue": 5017790000.0,
+          "operating_income": 182256000.0,
+          "operating_margin_pct": 3.63
+        },
+        "prior_year_quarter": {
+          "revenue": 5937256000.0,
+          "operating_income": 509199000.0,
+          "operating_margin_pct": 8.58
+        }
+      }
+    },
+    {
+      "company_name": "Lumentum Holdings Inc.",
+      "ticker": "LITE",
+      "status": "success",
+      "incremental_operating_margin": 44.54,
+      "latest_operating_margin": 2.81,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 58.44,
+      "operating_income_growth_pct": -120.63,
+      "details": {
+        "latest_quarter": {
+          "revenue": 533800000.0,
+          "operating_income": 15000000.0,
+          "operating_margin_pct": 2.81
+        },
+        "prior_year_quarter": {
+          "revenue": 336900000.0,
+          "operating_income": -72700000.0,
+          "operating_margin_pct": -21.58
+        }
+      }
+    },
+    {
+      "company_name": "Take-Two Interactive Software, Inc.",
+      "ticker": "TTWO",
+      "status": "success",
+      "incremental_operating_margin": 43.38,
+      "latest_operating_margin": -5.52,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 31.09,
+      "operating_income_growth_pct": -65.09,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1773800000.0,
+          "operating_income": -97900000.0,
+          "operating_margin_pct": -5.52
+        },
+        "prior_year_quarter": {
+          "revenue": 1353100000.0,
+          "operating_income": -280400000.0,
+          "operating_margin_pct": -20.72
+        }
+      }
+    },
+    {
+      "company_name": "Amcor plc",
+      "ticker": "AMCR",
+      "status": "success",
+      "incremental_operating_margin": 9.11,
+      "latest_operating_margin": 9.33,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 71.34,
+      "operating_income_growth_pct": 68.55,
+      "details": {
+        "latest_quarter": {
+          "revenue": 5745000000.0,
+          "operating_income": 536000000.0,
+          "operating_margin_pct": 9.33
+        },
+        "prior_year_quarter": {
+          "revenue": 3353000000.0,
+          "operating_income": 318000000.0,
+          "operating_margin_pct": 9.48
+        }
+      }
+    },
+    {
+      "company_name": "Silicon Motion Technology Corporation",
+      "ticker": "SIMO",
+      "status": "success",
+      "incremental_operating_margin": 16.13,
+      "latest_operating_margin": 12.08,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 13.93,
+      "operating_income_growth_pct": 19.51,
+      "details": {
+        "latest_quarter": {
+          "revenue": 241999000.0,
+          "operating_income": 29232000.0,
+          "operating_margin_pct": 12.08
+        },
+        "prior_year_quarter": {
+          "revenue": 212412000.0,
+          "operating_income": 24460000.0,
+          "operating_margin_pct": 11.52
+        }
+      }
+    },
+    {
+      "company_name": "trivago N.V.",
+      "ticker": "TRVG",
+      "status": "success",
+      "incremental_operating_margin": 9.12,
+      "latest_operating_margin": 7.35,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 13.34,
+      "operating_income_growth_pct": 17.11,
+      "details": {
+        "latest_quarter": {
+          "revenue": 165576000.0,
+          "operating_income": 12164000.0,
+          "operating_margin_pct": 7.35
+        },
+        "prior_year_quarter": {
+          "revenue": 146087000.0,
+          "operating_income": 10387000.0,
+          "operating_margin_pct": 7.11
+        }
+      }
+    },
+    {
+      "company_name": "RenaissanceRe Holdings, Ltd.",
+      "ticker": "RNR",
+      "status": "success",
+      "incremental_operating_margin": 31.61,
+      "latest_operating_margin": 47.44,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": -19.72,
+      "operating_income_growth_pct": -14.07,
+      "details": {
+        "latest_quarter": {
+          "revenue": 3185631000.0,
+          "operating_income": 1511152000.0,
+          "operating_margin_pct": 47.44
+        },
+        "prior_year_quarter": {
+          "revenue": 3968057000.0,
+          "operating_income": 1758484000.0,
+          "operating_margin_pct": 44.32
+        }
+      }
+    }
+  ]
+}

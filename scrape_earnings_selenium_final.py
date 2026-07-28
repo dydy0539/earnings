@@ -4,82 +4,22 @@ Final Selenium-based scraper for EarningsWhispers.com
 Properly handles the website's specific cookie acceptance mechanism.
 """
 
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
-from selenium.webdriver.chrome.service import Service
+from selenium.common.exceptions import TimeoutException
+from scraping_core import SeleniumScraperBase
 import json
 import time
 import os
-import glob
+import subprocess
+import shutil
 from datetime import datetime
 import re
 
-class EarningsSeleniumScraper:
+class EarningsSeleniumScraper(SeleniumScraperBase):
     def __init__(self, headless=True, debug=False):
-        self.debug = debug
         self.tabs_opened = False
-        self.setup_driver(headless)
-        
-    def find_chromedriver_path(self):
-        """Find the ChromeDriver executable in webdriver-manager cache"""
-        wdm_path = os.path.expanduser("~/.wdm/drivers/chromedriver/mac64/*/chromedriver-mac-arm64/chromedriver")
-        chromedriver_paths = glob.glob(wdm_path)
-        
-        if chromedriver_paths:
-            # Sort by version and get the latest
-            latest_path = sorted(chromedriver_paths)[-1]
-            self.debug_print(f"Found ChromeDriver at: {latest_path}")
-            return latest_path
-        
-        # Fallback paths
-        fallback_paths = [
-            "/usr/local/bin/chromedriver",
-            "/opt/homebrew/bin/chromedriver",
-            "chromedriver"  # If in PATH
-        ]
-        
-        for path in fallback_paths:
-            if os.path.exists(path) or path == "chromedriver":
-                self.debug_print(f"Using fallback ChromeDriver: {path}")
-                return path
-                
-        raise Exception("ChromeDriver not found. Please check installation.")
-        
-    def setup_driver(self, headless):
-        """Setup Chrome WebDriver with appropriate options"""
-        chrome_options = Options()
-        if headless:
-            chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-dev-shm-usage')
-        chrome_options.add_argument('--disable-gpu')
-        chrome_options.add_argument('--window-size=1920,1080')
-        chrome_options.add_argument('--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
-        
-        try:
-            # Find ChromeDriver path manually
-            chromedriver_path = self.find_chromedriver_path()
-            
-            # Create service with explicit path
-            service = Service(chromedriver_path)
-            self.driver = webdriver.Chrome(service=service, options=chrome_options)
-            self.wait = WebDriverWait(self.driver, 30)
-            
-            self.debug_print(f"Successfully initialized ChromeDriver from: {chromedriver_path}")
-            
-        except Exception as e:
-            print(f"Error setting up Chrome driver: {e}")
-            print("Please make sure Chrome browser is installed")
-            raise
-    
-    def debug_print(self, message):
-        """Print debug messages if debug mode is enabled"""
-        if self.debug:
-            print(f"[DEBUG] {message}")
+        super().__init__(headless=headless, debug=debug)
     
     def scrape_calendar(self, date_str):
         """
@@ -102,8 +42,7 @@ class EarningsSeleniumScraper:
         
         try:
             # Navigate to the page
-            self.debug_print(f"Navigating to {url}")
-            self.driver.get(url)
+            self.open_page(url)
             
             # Handle cookie acceptance
             self.handle_cookie_wall()
@@ -343,40 +282,45 @@ class EarningsSeleniumScraper:
                 # Load tracking list
                 tracking_list = self.load_tracking_list()
                 filtered_companies = self.filter_companies_by_criteria(companies, tracking_list)
+                
+                # Always create filtered file, even if empty
+                filtered_data = {
+                    'date': date_str,
+                    'scraped_at': datetime.now().isoformat(),
+                    'filter_criteria': {
+                        'revenue_growth_rules': [
+                            '>10M revenue and >50% growth',
+                            '>100M revenue and >30% growth',
+                            '>500M revenue and >25% growth', 
+                            '>1000M revenue and >20% growth',
+                            '>5000M revenue and >15% growth'
+                        ],
+                        'tracking_list': sorted(list(tracking_list)) if tracking_list else [],
+                        'tracking_list_count': len(tracking_list) if tracking_list else 0
+                    },
+                    'companies': filtered_companies,
+                    'total_filtered': len(filtered_companies),
+                    'total_original': len(companies)
+                }
+                
+                # Save filtered results with AM/BM suffix
+                # AM = After Market (9am JST run), BM = Before Market (9pm JST run)
+                current_hour = datetime.now().hour
+                suffix = "BM" if 20 <= current_hour <= 23 else "AM"
+                filtered_filename = f"earnings_filtered_{date_str}_{suffix}.json"
+                self.save_to_file(filtered_data, filtered_filename)
+                self.debug_print(f"Saved {len(filtered_companies)} filtered companies to {filtered_filename}")
+                
+                # Print SeekingAlpha URLs for filtered companies (only if there are any)
                 if filtered_companies:
-                    filtered_data = {
-                        'date': date_str,
-                        'scraped_at': datetime.now().isoformat(),
-                        'filter_criteria': {
-                            'revenue_growth_rules': [
-                                '>10M revenue and >50% growth',
-                                '>100M revenue and >30% growth',
-                                '>500M revenue and >25% growth', 
-                                '>1000M revenue and >20% growth',
-                                '>5000M revenue and >15% growth'
-                            ],
-                            'tracking_list': sorted(list(tracking_list)) if tracking_list else [],
-                            'tracking_list_count': len(tracking_list) if tracking_list else 0
-                        },
-                        'companies': filtered_companies,
-                        'total_filtered': len(filtered_companies),
-                        'total_original': len(companies)
-                    }
-                    
-                    # Save filtered results with timestamp
-                    timestamp = datetime.now().strftime("%H%M")
-                    filtered_filename = f"earnings_filtered_{date_str}_{timestamp}.json"
-                    self.save_to_file(filtered_data, filtered_filename)
-                    self.debug_print(f"Saved {len(filtered_companies)} filtered companies to {filtered_filename}")
-                    
-                    # Print SeekingAlpha URLs for filtered companies
                     self.print_seeking_alpha_urls(filtered_companies)
+
+                    # Create Google Calendar event
+                    self.create_calendar_event(filtered_companies, date_str, suffix)
             
             # Save page source for debugging
             if self.debug:
-                with open('debug_selenium_final_page.html', 'w', encoding='utf-8') as f:
-                    f.write(self.driver.page_source)
-                self.debug_print("Saved page source to debug_selenium_final_page.html")
+                self.save_page_source('debug_selenium_final_page.html')
             
             return earnings_data
             
@@ -559,7 +503,7 @@ class EarningsSeleniumScraper:
                         'AM', 'PM', 'EST', 'PST', 'GMT', 'UTC', 'USD', 'CEO', 'CFO', 'EPS', 
                         'Q1', 'Q2', 'Q3', 'Q4', 'THE', 'AND', 'FOR', 'BUT', 'NOT', 'YOU',
                         'ALL', 'CAN', 'HAD', 'HER', 'WAS', 'ONE', 'OUR', 'OUT', 'DAY', 'GET',
-                        'USE', 'MAN', 'NEW', 'NOW', 'WAY', 'MAY', 'SAY', 'SUN', 'MON', 'TUE',
+                        'USE', 'MAN', 'NEW', 'WAY', 'MAY', 'SAY', 'SUN', 'MON', 'TUE',
                         'WED', 'THU', 'FRI', 'SAT', 'JAN', 'FEB', 'MAR', 'APR', 'JUN', 'JUL',
                         'AUG', 'SEP', 'OCT', 'NOV', 'DEC', 'TOP', 'END', 'KEY', 'OPEN', 'BMO',
                         'AMC', 'TBD', 'NONE', 'VIEW', 'LIST', 'ONLY', 'ET', 'PT', 'CT', 'MT'
@@ -701,7 +645,7 @@ class EarningsSeleniumScraper:
                 'FORM', 'INPUT', 'TABLE', 'TBODY', 'THEAD', 'CELL', 'ROW',
                 'CEO', 'CFO', 'EPS', 'Q1', 'Q2', 'Q3', 'Q4', 'THE', 'AND',
                 'FOR', 'BUT', 'NOT', 'YOU', 'ALL', 'CAN', 'HAD', 'HER', 'WAS',
-                'ONE', 'OUR', 'OUT', 'DAY', 'GET', 'USE', 'MAN', 'NEW', 'NOW',
+                'ONE', 'OUR', 'OUT', 'DAY', 'GET', 'USE', 'MAN', 'NEW',
                 'WAY', 'MAY', 'SAY', 'TOP', 'END', 'KEY', 'OPEN', 'BMO', 'AMC',
                 'TBD', 'NONE', 'VIEW', 'LIST', 'ONLY'
             }
@@ -920,11 +864,33 @@ class EarningsSeleniumScraper:
         
         return False
     
+    def extract_company_name(self, raw_text):
+        """Extract company name from raw_text field"""
+        if not raw_text:
+            return ""
+        
+        lines = raw_text.strip().split('\n')
+        if len(lines) >= 2:
+            # Second line usually contains the full company name
+            company_name = lines[1].strip()
+            # Remove any time info (like "6:00 AM ET")
+            if " ET" in company_name or " AM" in company_name or " PM" in company_name:
+                company_name = company_name.split(' AM')[0].split(' PM')[0].split(' ET')[0].strip()
+            return company_name
+        elif len(lines) == 1:
+            # If only one line, it might be just the company name
+            return lines[0].strip()
+        
+        return ""
+    
     def format_filtered_company(self, company, reason="unknown"):
         """Format company data for filtered output"""
+        # Extract company name from raw_text
+        company_name = self.extract_company_name(company.get('raw_text', ''))
+        
         return {
             'ticker': company.get('symbol', ''),
-            'name': company.get('company_name', ''),
+            'name': company_name,
             'revenue_millions': company.get('revenue_millions', 0),
             'revenue_raw': company.get('revenue_raw', ''),
             'growth_rate': company.get('growth_rate', 0),
@@ -933,6 +899,92 @@ class EarningsSeleniumScraper:
             'filter_reason': reason
         }
     
+    def create_calendar_event(self, filtered_companies, date_str, suffix):
+        """Create a Google Calendar event with filtered company tickers using gcalcli"""
+        if not filtered_companies:
+            self.debug_print("No filtered companies - skipping calendar event")
+            return False
+
+        # Check if gcalcli is available
+        if not shutil.which('gcalcli'):
+            print("Warning: gcalcli not installed. Skipping calendar event creation.")
+            print("Install with: pip install gcalcli")
+            return False
+
+        try:
+            # Format date for gcalcli (YYYY-MM-DD)
+            event_date = f"{date_str[:4]}-{date_str[4:6]}-{date_str[6:8]}"
+
+            # Create event title with ticker summary
+            tickers = [c.get('ticker', '') for c in filtered_companies if c.get('ticker')]
+            ticker_summary = ', '.join(tickers[:5])
+            if len(tickers) > 5:
+                ticker_summary += f" +{len(tickers) - 5} more"
+
+            # Determine time based on AM/BM suffix
+            # AM = After Market (previous day close) - set reminder for 4:00 PM
+            # BM = Before Market (pre-market) - set reminder for 8:00 AM
+            if suffix == "BM":
+                event_time = "08:00"
+                event_title = f"Earnings BMO: {ticker_summary}"
+            else:
+                event_time = "16:00"
+                event_title = f"Earnings AMC: {ticker_summary}"
+
+            # Build description with all ticker details
+            description_lines = [
+                f"Earnings Report - {suffix}",
+                f"Date: {event_date}",
+                "",
+                "Companies:",
+                "-" * 40
+            ]
+
+            for company in filtered_companies:
+                ticker = company.get('ticker', 'N/A')
+                name = company.get('name', '')
+                revenue = company.get('revenue_raw', 'N/A')
+                growth = company.get('growth_raw', 'N/A')
+                reason = company.get('filter_reason', '')
+
+                description_lines.append(f"{ticker}: {name}")
+                description_lines.append(f"  Revenue: {revenue} | Growth: {growth}")
+                if reason == "tracking_list":
+                    description_lines.append(f"  (Tracking List)")
+                description_lines.append("")
+
+            description_lines.append("-" * 40)
+            description_lines.append(f"Total: {len(filtered_companies)} companies")
+
+            description = '\n'.join(description_lines)
+
+            # Build gcalcli command
+            cmd = [
+                'gcalcli', 'add',
+                '--title', event_title,
+                '--when', f"{event_date} {event_time}",
+                '--duration', '30',
+                '--description', description,
+                '--noprompt'
+            ]
+
+            self.debug_print(f"Creating calendar event: {event_title}")
+            result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+
+            if result.returncode == 0:
+                print(f"Calendar event created: {event_title}")
+                return True
+            else:
+                print(f"Warning: Failed to create calendar event: {result.stderr}")
+                return False
+
+        except subprocess.TimeoutExpired:
+            print("Warning: gcalcli timed out")
+            return False
+        except Exception as e:
+            print(f"Warning: Error creating calendar event: {e}")
+            return False
+
     def print_seeking_alpha_urls(self, filtered_companies):
         """Print company summary and SeekingAlpha income statement URLs for filtered companies"""
         if not filtered_companies:
@@ -979,15 +1031,6 @@ class EarningsSeleniumScraper:
         except Exception as e:
             print(f"Error saving to file: {e}")
     
-    def close(self, force=False):
-        """Close the WebDriver"""
-        if hasattr(self, 'driver'):
-            if force:
-                self.driver.quit()
-            else:
-                self.driver.quit()
-
-
 def main():
     """Main function to run the scraper"""
     scraper = None
@@ -1018,9 +1061,11 @@ def main():
                 companies = data.get('companies', [])
                 print(f"Total companies found: {len(companies)}")
                 
-                # Save to file with timestamp
-                timestamp = datetime.now().strftime("%H%M")
-                filename = f"earnings_calendar_final_{date_str}_{timestamp}.json"
+                # Save to file with AM/BM suffix
+                # AM = After Market (9am JST run), BM = Before Market (9pm JST run)
+                current_hour = datetime.now().hour
+                suffix = "BM" if 20 <= current_hour <= 23 else "AM"
+                filename = f"earnings_calendar_final_{date_str}_{suffix}.json"
                 scraper.save_to_file(data, filename)
                 
                 # Print summary
@@ -1035,7 +1080,8 @@ def main():
                             unique_companies[symbol] = company
                     
                     for i, (symbol, company) in enumerate(list(unique_companies.items())[:10]):
-                        print(f"  - {symbol}: {company.get('company_name', company.get('context_line', 'N/A'))}")
+                        company_name = company.get('company_name', company.get('context_line', 'N/A'))
+                        print(f"  - {symbol} ({company_name})")
                     
                     if len(unique_companies) > 10:
                         print(f"  ... and {len(unique_companies) - 10} more unique companies")

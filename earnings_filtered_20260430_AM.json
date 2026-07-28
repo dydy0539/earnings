@@ -1,0 +1,225 @@
+{
+  "date": "20260430",
+  "scraped_at": "2026-05-01T09:06:20.175412",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple, Inc.",
+      "revenue_millions": 109010.0,
+      "revenue_raw": "$109.01 Bil",
+      "growth_rate": 16.6,
+      "growth_raw": "16.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "SanDisk Corp.",
+      "revenue_millions": 4550.0,
+      "revenue_raw": "$4.55 Bil",
+      "growth_rate": 251.0,
+      "growth_raw": "251.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "revenue_millions": 614.09,
+      "revenue_raw": "$614.09 Mil",
+      "growth_rate": 69.1,
+      "growth_raw": "69.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WDC",
+      "name": "Western Digital Corp.",
+      "revenue_millions": 3240.0,
+      "revenue_raw": "$3.24 Bil",
+      "growth_rate": 45.5,
+      "growth_raw": "45.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RBLX",
+      "name": "Roblox Corporation",
+      "revenue_millions": 1730.0,
+      "revenue_raw": "$1.73 Bil",
+      "growth_rate": 39.3,
+      "growth_raw": "39.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ROKU",
+      "name": "Roku Inc",
+      "revenue_millions": 1200.0,
+      "revenue_raw": "$1.20 Bil",
+      "growth_rate": 22.4,
+      "growth_raw": "22.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian Corporation Plc",
+      "revenue_millions": 1690.0,
+      "revenue_raw": "$1.69 Bil",
+      "growth_rate": 31.7,
+      "growth_raw": "31.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar Inc",
+      "revenue_millions": 1050.0,
+      "revenue_raw": "$1.05 Bil",
+      "growth_rate": 23.6,
+      "growth_raw": "23.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MTZ",
+      "name": "MasTec Inc.",
+      "revenue_millions": 3470.0,
+      "revenue_raw": "$3.47 Bil",
+      "growth_rate": 34.5,
+      "growth_raw": "34.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems Inc",
+      "revenue_millions": 781.1,
+      "revenue_raw": "$781.10 Mil",
+      "growth_rate": 26.1,
+      "growth_raw": "26.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TREE",
+      "name": "LendingTree, Inc.",
+      "revenue_millions": 321.09,
+      "revenue_raw": "$321.09 Mil",
+      "growth_rate": 36.5,
+      "growth_raw": "36.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AEM",
+      "name": "Agnico-Eagle Mines, Ltd",
+      "revenue_millions": 4010.0,
+      "revenue_raw": "$4.01 Bil",
+      "growth_rate": 66.1,
+      "growth_raw": "66.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FINW",
+      "name": "FinWise Bancorp",
+      "revenue_millions": 52.84,
+      "revenue_raw": "$52.84 Mil",
+      "growth_rate": 82.8,
+      "growth_raw": "82.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "revenue_millions": 4650.0,
+      "revenue_raw": "$4.65 Bil",
+      "growth_rate": 43.5,
+      "growth_raw": "43.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EGO",
+      "name": "Eldorado Gold Corp",
+      "revenue_millions": 532.43,
+      "revenue_raw": "$532.43 Mil",
+      "growth_rate": 49.9,
+      "growth_raw": "49.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LPLA",
+      "name": "LPL Financial Holdings Inc.",
+      "revenue_millions": 4980.0,
+      "revenue_raw": "$4.98 Bil",
+      "growth_rate": 34.6,
+      "growth_raw": "34.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALHC",
+      "name": "Alignment Healthcare, Inc.",
+      "revenue_millions": 1220.0,
+      "revenue_raw": "$1.22 Bil",
+      "growth_rate": 33.3,
+      "growth_raw": "33.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HCC",
+      "name": "Warrior Met Coal, LLC",
+      "revenue_millions": 449.72,
+      "revenue_raw": "$449.72 Mil",
+      "growth_rate": 52.9,
+      "growth_raw": "52.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNDX",
+      "name": "Syndax Pharmaceuticals, Inc",
+      "revenue_millions": 70.01,
+      "revenue_raw": "$70.01 Mil",
+      "growth_rate": 223.6,
+      "growth_raw": "223.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 19,
+  "total_original": 141
+}

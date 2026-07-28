@@ -1,0 +1,85 @@
+{
+  "date": "20251014",
+  "scraped_at": "2025-10-14T21:00:40.141142",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "BLK",
+      "name": "BlackRock, Inc.",
+      "revenue_millions": 6260.0,
+      "revenue_raw": "$6.26 Bil",
+      "growth_rate": 25.2,
+      "growth_raw": "25.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "JPM",
+      "name": "JPMorgan Chase & Co.",
+      "revenue_millions": 44660.0,
+      "revenue_raw": "$44.66 Bil",
+      "growth_rate": 3.2,
+      "growth_raw": "3.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "C",
+      "name": "Citigroup, Inc.",
+      "revenue_millions": 21010.0,
+      "revenue_raw": "$21.01 Bil",
+      "growth_rate": 0,
+      "growth_raw": "",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "WFC",
+      "name": "Wells Fargo & Co.",
+      "revenue_millions": 21160.0,
+      "revenue_raw": "$21.16 Bil",
+      "growth_rate": 0.7,
+      "growth_raw": "0.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "FBK",
+      "name": "FB Financial Corporation",
+      "revenue_millions": 168.86,
+      "revenue_raw": "$168.86 Mil",
+      "growth_rate": 55.8,
+      "growth_raw": "55.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 13
+}

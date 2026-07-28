@@ -1,0 +1,199 @@
+{
+  "date": "20260527",
+  "scraped_at": "2026-05-28T09:00:35.370061",
+  "companies": [
+    {
+      "symbol": "HP",
+      "source": "*[class*='company']",
+      "raw_text": "HP Inc."
+    },
+    {
+      "symbol": "AMSC",
+      "source": "*[class*='eps']",
+      "raw_text": "AMSC\nAMSC\n4:05 PM ET\nEarnings:\nRevenue:\n$0.19\n$81.55 Mil\n$0.30\n$86.41 Mil\n29.6%\n57.9%",
+      "revenue_millions": 81.55,
+      "revenue_raw": "$81.55 Mil",
+      "growth_rate": 29.6,
+      "growth_raw": "29.6%"
+    },
+    {
+      "symbol": "HEICO",
+      "source": "*[class*='company']",
+      "raw_text": "HEICO Corporation"
+    },
+    {
+      "symbol": "ARXIS",
+      "source": "*[class*='company']",
+      "raw_text": "ARXIS INC"
+    },
+    {
+      "symbol": "U",
+      "source": "*[class*='company']",
+      "raw_text": "U-Haul Holding Company"
+    },
+    {
+      "symbol": "ICON",
+      "source": "*[class*='company']",
+      "raw_text": "ICON plc"
+    },
+    {
+      "symbol": "MRVL",
+      "source": "*[class*='eps']",
+      "raw_text": "MRVL\nMarvell Technology, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.80\n$2.40 Bil\n$0.80\n$2.42 Bil\n27.6%\n0.0%",
+      "revenue_millions": 2400.0,
+      "revenue_raw": "$2.40 Bil",
+      "growth_rate": 27.6,
+      "growth_raw": "27.6%"
+    },
+    {
+      "symbol": "CRM",
+      "source": "*[class*='eps']",
+      "raw_text": "CRM\nSalesforce\n4:00 PM ET\nEarnings:\nRevenue:\n$3.12\n$11.06 Bil\n$3.88\n$11.13 Bil\n13.3%\n24.4%",
+      "revenue_millions": 11060.0,
+      "revenue_raw": "$11.06 Bil",
+      "growth_rate": 13.3,
+      "growth_raw": "13.3%"
+    },
+    {
+      "symbol": "SNOW",
+      "source": "*[class*='eps']",
+      "raw_text": "SNOW\nSnowflake\n4:05 PM ET\nEarnings:\nRevenue:\n$0.32\n$1.32 Bil\n$0.39\n$1.39 Bil\n33.5%\n21.9%",
+      "revenue_millions": 1320.0,
+      "revenue_raw": "$1.32 Bil",
+      "growth_rate": 33.5,
+      "growth_raw": "33.5%"
+    },
+    {
+      "symbol": "SNPS",
+      "source": "*[class*='eps']",
+      "raw_text": "SNPS\nSynopsys, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$3.15\n$2.25 Bil\n$3.35\n$2.28 Bil\n41.9%\n6.3%",
+      "revenue_millions": 2250.0,
+      "revenue_raw": "$2.25 Bil",
+      "growth_rate": 41.9,
+      "growth_raw": "41.9%"
+    },
+    {
+      "symbol": "HPQ",
+      "source": "*[class*='eps']",
+      "raw_text": "HPQ\nHP Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.72\n$14.05 Bil\n$0.86\n$14.41 Bil\n9.0%\n19.4%",
+      "revenue_millions": 14050.0,
+      "revenue_raw": "$14.05 Bil",
+      "growth_rate": 9.0,
+      "growth_raw": "9.0%"
+    },
+    {
+      "symbol": "P",
+      "source": "*[class*='eps']",
+      "raw_text": "P\nEverpure\n4:00 PM ETTime & Calendars\nEarnings:\nRevenue:\n$0.01\n$1.01 Bil\n$0.09\n$1.05 Bil\n0.0%\n800.0%",
+      "revenue_millions": 1010.0,
+      "revenue_raw": "$1.01 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BRZE",
+      "source": "*[class*='eps']",
+      "raw_text": "BRZE\nBraze\n4:05 PM ET\nEarnings:\nRevenue:\n$0.10\n$205.18 Mil\n$0.10\n$211.00 Mil\n30.2%\n0.0%",
+      "revenue_millions": 205.18,
+      "revenue_raw": "$205.18 Mil",
+      "growth_rate": 30.2,
+      "growth_raw": "30.2%"
+    },
+    {
+      "symbol": "NCNO",
+      "source": "*[class*='eps']",
+      "raw_text": "NCNO\nnCino, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.26\n$155.85 Mil\n$0.12\n$159.41 Mil\n10.6%\n-53.8%",
+      "revenue_millions": 155.85,
+      "revenue_raw": "$155.85 Mil",
+      "growth_rate": 10.6,
+      "growth_raw": "10.6%"
+    },
+    {
+      "symbol": "NTNX",
+      "source": "*[class*='eps']",
+      "raw_text": "NTNX\nNutanix, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.35\n$686.00 Mil\n$0.47\n$703.07 Mil\n10.0%\n34.3%",
+      "revenue_millions": 686.0,
+      "revenue_raw": "$686.00 Mil",
+      "growth_rate": 10.0,
+      "growth_raw": "10.0%"
+    },
+    {
+      "symbol": "A",
+      "source": "*[class*='eps']",
+      "raw_text": "A\nAgilent Technologies, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.40\n$1.80 Bil\n$1.49\n$1.83 Bil\n10.0%\n6.4%",
+      "revenue_millions": 1800.0,
+      "revenue_raw": "$1.80 Bil",
+      "growth_rate": 10.0,
+      "growth_raw": "10.0%"
+    },
+    {
+      "symbol": "HEI",
+      "source": "*[class*='eps']",
+      "raw_text": "HEI\nHEICO Corporation\nAfter Close\nEarnings:\nRevenue:\n$1.33\n$1.24 Bil\n$1.66\n$1.38 Bil\n25.3%\n24.8%\n-",
+      "revenue_millions": 1240.0,
+      "revenue_raw": "$1.24 Bil",
+      "growth_rate": 25.3,
+      "growth_raw": "25.3%"
+    },
+    {
+      "symbol": "PHR",
+      "source": "*[class*='eps']",
+      "raw_text": "PHR\nPhreesia, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.02\n$130.27 Mil\n$0.05\n$130.94 Mil\n12.9%\n150.0%",
+      "revenue_millions": 130.27,
+      "revenue_raw": "$130.27 Mil",
+      "growth_rate": 12.9,
+      "growth_raw": "12.9%"
+    },
+    {
+      "symbol": "ARXS",
+      "source": "*[class*='eps']",
+      "raw_text": "ARXS\nARXIS INC\nAfter Close\nEarnings:\nRevenue:\n$0.12\n$422.40 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 422.4,
+      "revenue_raw": "$422.40 Mil"
+    },
+    {
+      "symbol": "UHAL",
+      "source": "*[class*='eps']",
+      "raw_text": "UHAL\nU-Haul Holding Company\n4:40 PM ET\nEarnings:\nRevenue:\n$-0.72\n$1.24 Bil\n$-0.70\n$1.27 Bil\n3.1%\n2.8%\n-",
+      "revenue_millions": 1240.0,
+      "revenue_raw": "$1.24 Bil",
+      "growth_rate": 3.1,
+      "growth_raw": "3.1%"
+    },
+    {
+      "symbol": "GRRR",
+      "source": "*[class*='eps']",
+      "raw_text": "GRRR\nGorilla Technology Group Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.11\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ICLR",
+      "source": "*[class*='eps']",
+      "raw_text": "ICLR\nICON plc\n4:25 PM ET\nEarnings:\nRevenue:\n$2.80\n$1.94 Bil\n$2.21\n$2.11 Bil\n5.6%\n-21.1%",
+      "revenue_millions": 1940.0,
+      "revenue_raw": "$1.94 Bil",
+      "growth_rate": 5.6,
+      "growth_raw": "5.6%"
+    },
+    {
+      "symbol": "MOB",
+      "source": "*[class*='eps']",
+      "raw_text": "MOB\nMobilicom Limited\nAfter Close\nEarnings:\nRevenue:\n-\n$10.00 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 10.0,
+      "revenue_raw": "$10.00 Mil"
+    },
+    {
+      "symbol": "NOAH",
+      "source": "*[class*='eps']",
+      "raw_text": "NOAH\nNoah Holdings\n4:45 PM ET\nEarnings:\nRevenue:\n-\n$385.22 Mil\n$0.28\n$90.72 Mil\n7.1%\n-\n-",
+      "revenue_millions": 385.22,
+      "revenue_raw": "$385.22 Mil",
+      "growth_rate": 7.1,
+      "growth_raw": "7.1%"
+    },
+    {
+      "symbol": "INC",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

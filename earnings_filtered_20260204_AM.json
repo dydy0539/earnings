@@ -1,0 +1,175 @@
+{
+  "date": "20260204",
+  "scraped_at": "2026-02-05T09:01:30.754742",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "revenue_millions": 113830.0,
+      "revenue_raw": "$113.83 Bil",
+      "growth_rate": 18.0,
+      "growth_raw": "18.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Google",
+      "revenue_millions": 94690.0,
+      "revenue_raw": "$94.69 Bil",
+      "growth_rate": 18.0,
+      "growth_raw": "18.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings plc",
+      "revenue_millions": 1240.0,
+      "revenue_raw": "$1.24 Bil",
+      "growth_rate": 26.3,
+      "growth_raw": "26.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ELF",
+      "name": "e.l.f. Beauty, Inc.",
+      "revenue_millions": 459.86,
+      "revenue_raw": "$459.86 Mil",
+      "growth_rate": 37.8,
+      "growth_raw": "37.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SYM",
+      "name": "Symbotic Inc.",
+      "revenue_millions": 622.31,
+      "revenue_raw": "$622.31 Mil",
+      "growth_rate": 29.4,
+      "growth_raw": "29.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FLNC",
+      "name": "Fluence Energy, Inc.",
+      "revenue_millions": 508.31,
+      "revenue_raw": "$508.31 Mil",
+      "growth_rate": 154.4,
+      "growth_raw": "154.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MOD",
+      "name": "Modine Manufacturing Co.",
+      "revenue_millions": 763.38,
+      "revenue_raw": "$763.38 Mil",
+      "growth_rate": 30.5,
+      "growth_raw": "30.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MET",
+      "name": "Metlife Inc.",
+      "revenue_millions": 25570.0,
+      "revenue_raw": "$25.57 Bil",
+      "growth_rate": 27.6,
+      "growth_raw": "27.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CPAY",
+      "name": "Corpay, Inc.",
+      "revenue_millions": 1240.0,
+      "revenue_raw": "$1.24 Bil",
+      "growth_rate": 20.7,
+      "growth_raw": "20.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CRNC",
+      "name": "Cerence Inc.",
+      "revenue_millions": 113.88,
+      "revenue_raw": "$113.88 Mil",
+      "growth_rate": 126.1,
+      "growth_raw": "126.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SITM",
+      "name": "SiTime Corporation",
+      "revenue_millions": 101.5,
+      "revenue_raw": "$101.50 Mil",
+      "growth_rate": 66.3,
+      "growth_raw": "66.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VCTR",
+      "name": "Victory Capital Holdings, Inc.",
+      "revenue_millions": 371.52,
+      "revenue_raw": "$371.52 Mil",
+      "growth_rate": 61.0,
+      "growth_raw": "61.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ENSG",
+      "name": "Ensign Group, Inc.",
+      "revenue_millions": 1370.0,
+      "revenue_raw": "$1.37 Bil",
+      "growth_rate": 20.2,
+      "growth_raw": "20.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNEX",
+      "name": "StoneX Group Inc.",
+      "revenue_millions": 4780.0,
+      "revenue_raw": "$4.78 Bil",
+      "growth_rate": 39.7,
+      "growth_raw": "39.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 14,
+  "total_original": 118
+}

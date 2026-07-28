@@ -1,0 +1,16 @@
+{
+  "date": "20251128",
+  "scraped_at": "2025-11-28T22:01:46.785983",
+  "companies": [
+    {
+      "symbol": "CHA",
+      "source": "*[class*='eps']",
+      "raw_text": "CHA\nChagee Holdings Limited\n7:00 AM ET\nEarnings:\nRevenue:\n$0.36\n$458.31 Mil\n$0.29\n$450.67 Mil\n-97.5%\n-19.4%\n-",
+      "revenue_millions": 458.31,
+      "revenue_raw": "$458.31 Mil",
+      "growth_rate": -97.5,
+      "growth_raw": "-97.5%"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,284 @@
+{
+  "date": "20260310",
+  "scraped_at": "2026-03-11T09:00:52.571332",
+  "companies": [
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Auna S.A."
+    },
+    {
+      "symbol": "JOYY",
+      "source": "*[class*='eps']",
+      "raw_text": "JOYY\nJOYY Inc.\n7:00 PM ET\nEarnings:\nRevenue:\n$1.33\n$567.44 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 567.44,
+      "revenue_raw": "$567.44 Mil"
+    },
+    {
+      "symbol": "AI",
+      "source": "*[class*='company']",
+      "raw_text": "Kodiak AI, Inc."
+    },
+    {
+      "symbol": "IDT",
+      "source": "*[class*='eps']",
+      "raw_text": "IDT\nIDT Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.87\n$320.52 Mil\n0.0%\n-\n-",
+      "revenue_millions": 320.52,
+      "revenue_raw": "$320.52 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SIGA",
+      "source": "*[class*='eps']",
+      "raw_text": "SIGA\nSIGA Technologies, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.08\n$3.79 Mil\n0.0%\n-\n-",
+      "revenue_millions": 3.79,
+      "revenue_raw": "$3.79 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ORCL",
+      "source": "*[class*='eps']",
+      "raw_text": "ORCL\nOracle Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.70\n$16.89 Bil\n$1.79\n$17.19 Bil\n21.7%\n5.3%",
+      "revenue_millions": 16890.0,
+      "revenue_raw": "$16.89 Bil",
+      "growth_rate": 21.7,
+      "growth_raw": "21.7%"
+    },
+    {
+      "symbol": "AVAV",
+      "source": "*[class*='eps']",
+      "raw_text": "AVAV\nAeroVironment, Inc\n4:10 PM ET\nEarnings:\nRevenue:\n$0.68\n$472.98 Mil\n$0.64\n$408.05 Mil\n143.4%\n-5.9%",
+      "revenue_millions": 472.98,
+      "revenue_raw": "$472.98 Mil",
+      "growth_rate": 143.4,
+      "growth_raw": "143.4%"
+    },
+    {
+      "symbol": "ASM",
+      "source": "*[class*='eps']",
+      "raw_text": "ASM\nAvino Silver & Gold Mines Ltd.\nAfter Close\nEarnings:\nRevenue:\n$0.06\n$29.10 Mil\n$0.10\n$30.54 Mil\n25.3%\n66.7%\n-",
+      "revenue_millions": 29.1,
+      "revenue_raw": "$29.10 Mil",
+      "growth_rate": 25.3,
+      "growth_raw": "25.3%"
+    },
+    {
+      "symbol": "FNV",
+      "source": "*[class*='eps']",
+      "raw_text": "FNV\nFranco-Nevada Corporation\n5:30 PM ET\nEarnings:\nRevenue:\n$1.68\n$1.67 Bil\n$1.85\n$597.30 Mil\n86.1%\n10.1%\n-",
+      "revenue_millions": 1670.0,
+      "revenue_raw": "$1.67 Bil",
+      "growth_rate": 86.1,
+      "growth_raw": "86.1%"
+    },
+    {
+      "symbol": "AUNA",
+      "source": "*[class*='eps']",
+      "raw_text": "AUNA\nAuna S.A.\n4:45 PM ETTime & Calendars\nEarnings:\nRevenue:\n$0.13\n$330.66 Mil\n$0.53\n$337.00 Mil\n19.5%\n307.7%\n-",
+      "revenue_millions": 330.66,
+      "revenue_raw": "$330.66 Mil",
+      "growth_rate": 19.5,
+      "growth_raw": "19.5%"
+    },
+    {
+      "symbol": "LDI",
+      "source": "*[class*='eps']",
+      "raw_text": "LDI\nloanDepot, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.06\n$316.90 Mil\n$-0.11\n$310.26 Mil\n20.5%\n-83.3%\n-",
+      "revenue_millions": 316.9,
+      "revenue_raw": "$316.90 Mil",
+      "growth_rate": 20.5,
+      "growth_raw": "20.5%"
+    },
+    {
+      "symbol": "INR",
+      "source": "*[class*='eps']",
+      "raw_text": "INR\nInfinity Natural Resources, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.65\n$110.11 Mil\n$1.32\n$117.06 Mil\n0.0%\n103.1%\n-",
+      "revenue_millions": 110.11,
+      "revenue_raw": "$110.11 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BLND",
+      "source": "*[class*='eps']",
+      "raw_text": "BLND\nBlend Labs, Inc\n4:00 PM ET\nEarnings:\nRevenue:\n-\n$31.80 Mil\n$-0.03\n$32.37 Mil\n-21.8%\n-",
+      "revenue_millions": 31.8,
+      "revenue_raw": "$31.80 Mil",
+      "growth_rate": -21.8,
+      "growth_raw": "-21.8%"
+    },
+    {
+      "symbol": "BODI",
+      "source": "*[class*='eps']",
+      "raw_text": "BODI\nBeachbody Company, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.01\n$53.60 Mil\n$0.98\n$55.54 Mil\n-35.7%\n9,700.0%",
+      "revenue_millions": 53.6,
+      "revenue_raw": "$53.60 Mil",
+      "growth_rate": -35.7,
+      "growth_raw": "-35.7%"
+    },
+    {
+      "symbol": "CDRE",
+      "source": "*[class*='eps']",
+      "raw_text": "CDRE\nCadre Holdings, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.41\n$182.55 Mil\n$0.27\n$167.22 Mil\n-5.0%\n-34.1%",
+      "revenue_millions": 182.55,
+      "revenue_raw": "$182.55 Mil",
+      "growth_rate": -5.0,
+      "growth_raw": "-5.0%"
+    },
+    {
+      "symbol": "EVLV",
+      "source": "*[class*='eps']",
+      "raw_text": "EVLV\nEvolv Technology\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.08\n$36.66 Mil\n$0.06\n$38.50 Mil\n32.3%\n175.0%",
+      "revenue_millions": 36.66,
+      "revenue_raw": "$36.66 Mil",
+      "growth_rate": 32.3,
+      "growth_raw": "32.3%"
+    },
+    {
+      "symbol": "KDK",
+      "source": "*[class*='eps']",
+      "raw_text": "KDK\nKodiak AI, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.16\n$520.00 Thou\n$-0.22\n$1.05 Mil\n0.0%\n-37.5%\n-",
+      "revenue_millions": 1.05,
+      "revenue_raw": "$1.05 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "PANL",
+      "source": "*[class*='eps']",
+      "raw_text": "PANL\nPangaea Logistics Solutions Ltd.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.18\n$165.62 Mil\n$0.16\n$183.88 Mil\n24.9%\n-11.1%\n-",
+      "revenue_millions": 165.62,
+      "revenue_raw": "$165.62 Mil",
+      "growth_rate": 24.9,
+      "growth_raw": "24.9%"
+    },
+    {
+      "symbol": "SKYE",
+      "source": "*[class*='eps']",
+      "raw_text": "SKYE\nSkye Bioscience, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$-0.29\n-\n$-0.36\n-\n0.0%\n-24.1%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BBCP",
+      "source": "*[class*='eps']",
+      "raw_text": "BBCP\nConcrete Pumping Holdings, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.09\n$82.60 Mil\n$-0.06\n$90.56 Mil\n4.8%\n33.3%",
+      "revenue_millions": 82.6,
+      "revenue_raw": "$82.60 Mil",
+      "growth_rate": 4.8,
+      "growth_raw": "4.8%"
+    },
+    {
+      "symbol": "DOMO",
+      "source": "*[class*='eps']",
+      "raw_text": "DOMO\nDomo, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.03\n-\n$-0.33\n$79.63 Mil\n1.1%\n-1,000.0%\n-",
+      "revenue_millions": 79.63,
+      "revenue_raw": "$79.63 Mil",
+      "growth_rate": 1.1,
+      "growth_raw": "1.1%"
+    },
+    {
+      "symbol": "GRPN",
+      "source": "*[class*='eps']",
+      "raw_text": "GRPN\nGroupon, Inc.\n6:50 PM ET\nEarnings:\nRevenue:\n$0.17\n$137.17 Mil\n$0.17\n$132.71 Mil\n1.8%\n0.0%",
+      "revenue_millions": 137.17,
+      "revenue_raw": "$137.17 Mil",
+      "growth_rate": 1.8,
+      "growth_raw": "1.8%"
+    },
+    {
+      "symbol": "SI",
+      "source": "*[class*='eps']",
+      "raw_text": "SI\nShoulder Innovations, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.42\n$12.69 Mil\n$-0.38\n$14.42 Mil\n0.0%\n9.5%",
+      "revenue_millions": 12.69,
+      "revenue_raw": "$12.69 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "WEST",
+      "source": "*[class*='eps']",
+      "raw_text": "WEST\nWestrock Coffee Company\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.10\n$318.60 Mil\n$-0.21\n$339.47 Mil\n48.3%\n-110.0%\n-",
+      "revenue_millions": 318.6,
+      "revenue_raw": "$318.60 Mil",
+      "growth_rate": 48.3,
+      "growth_raw": "48.3%"
+    },
+    {
+      "symbol": "TACT",
+      "source": "*[class*='eps']",
+      "raw_text": "TACT\nTransAct Technologies Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n$11.35 Mil\n$-0.11\n$11.45 Mil\n11.9%\n-",
+      "revenue_millions": 11.35,
+      "revenue_raw": "$11.35 Mil",
+      "growth_rate": 11.9,
+      "growth_raw": "11.9%"
+    },
+    {
+      "symbol": "ARTV",
+      "source": "*[class*='eps']",
+      "raw_text": "ARTV\nARTIVA BIOTHERP\nAfter Close\nEarnings:\nRevenue:\n$-0.87\n-\n$-0.84\n-\n0.0%\n3.4%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "VTVT",
+      "source": "*[class*='eps']",
+      "raw_text": "VTVT\nvTv Therapeutics\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.98\n$20.00 Mil\n$-0.58\n-\n0.0%\n40.8%\n-",
+      "revenue_millions": 20.0,
+      "revenue_raw": "$20.00 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FOA",
+      "source": "*[class*='eps']",
+      "raw_text": "FOA\nFinance of America Companies Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.69\n$73.51 Mil\n0.0%\n-\n-",
+      "revenue_millions": 73.51,
+      "revenue_raw": "$73.51 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "MSGM",
+      "source": "*[class*='eps']",
+      "raw_text": "MSGM\nMotorsport Games, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.15\n$3.85 Mil\n0.0%\n-\n-",
+      "revenue_millions": 3.85,
+      "revenue_raw": "$3.85 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NATR",
+      "source": "*[class*='eps']",
+      "raw_text": "NATR\nNatures Sunshine Products Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.30\n$123.81 Mil\n0.0%\n-\n-",
+      "revenue_millions": 123.81,
+      "revenue_raw": "$123.81 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ROLR",
+      "source": "*[class*='eps']",
+      "raw_text": "ROLR\nHigh Roller Technolo\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "SSSS",
+      "source": "*[class*='eps']",
+      "raw_text": "SSSS\nSutter Rock Capital Corp.\n4:30 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.23\n$561.00 Thou\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "VHI",
+      "source": "*[class*='eps']",
+      "raw_text": "VHI\nValhi Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n-\n-\n$-1.86\n$494.50 Mil\n0.0%\n-\n-",
+      "revenue_millions": 494.5,
+      "revenue_raw": "$494.50 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

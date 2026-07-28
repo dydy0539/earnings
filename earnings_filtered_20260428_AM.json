@@ -1,0 +1,195 @@
+{
+  "date": "20260428",
+  "scraped_at": "2026-04-29T10:09:24.798023",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "FICO",
+      "name": "FICO",
+      "revenue_millions": 625.17,
+      "revenue_raw": "$625.17 Mil",
+      "growth_rate": 38.7,
+      "growth_raw": "38.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BE",
+      "name": "Bloom Energy Corporation",
+      "revenue_millions": 498.11,
+      "revenue_raw": "$498.11 Mil",
+      "growth_rate": 130.4,
+      "growth_raw": "130.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology plc",
+      "revenue_millions": 2940.0,
+      "revenue_raw": "$2.94 Bil",
+      "growth_rate": 44.1,
+      "growth_raw": "44.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc",
+      "revenue_millions": 10700.0,
+      "revenue_raw": "$10.70 Bil",
+      "growth_rate": 17.1,
+      "growth_raw": "17.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "revenue_millions": 1200.0,
+      "revenue_raw": "$1.20 Bil",
+      "growth_rate": 87.0,
+      "growth_raw": "87.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BKNG",
+      "name": "Booking Holdings Inc.",
+      "revenue_millions": 5500.0,
+      "revenue_raw": "$5.50 Bil",
+      "growth_rate": 16.2,
+      "growth_raw": "16.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SIMO",
+      "name": "Silicon Motion Technology Corporation",
+      "revenue_millions": 299.49,
+      "revenue_raw": "$299.49 Mil",
+      "growth_rate": 105.5,
+      "growth_raw": "105.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OKE",
+      "name": "ONEOK Inc.",
+      "revenue_millions": 9520.0,
+      "revenue_raw": "$9.52 Bil",
+      "growth_rate": 19.6,
+      "growth_raw": "19.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDNA",
+      "name": "CareDx, Inc.",
+      "revenue_millions": 109.69,
+      "revenue_raw": "$109.69 Mil",
+      "growth_rate": 39.0,
+      "growth_raw": "39.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RNST",
+      "name": "Renasant Corporation",
+      "revenue_millions": 272.65,
+      "revenue_raw": "$272.65 Mil",
+      "growth_rate": 51.3,
+      "growth_raw": "51.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RSI",
+      "name": "Rush Street Interactive, Inc.",
+      "revenue_millions": 331.71,
+      "revenue_raw": "$331.71 Mil",
+      "growth_rate": 41.1,
+      "growth_raw": "41.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ESI",
+      "name": "Element Solutions Inc",
+      "revenue_millions": 744.35,
+      "revenue_raw": "$744.35 Mil",
+      "growth_rate": 41.5,
+      "growth_raw": "41.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EXE",
+      "name": "Expand Energy Corporation",
+      "revenue_millions": 2920.0,
+      "revenue_raw": "$2.92 Bil",
+      "growth_rate": 100.2,
+      "growth_raw": "100.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OMC",
+      "name": "Omnicom Group, Inc.",
+      "revenue_millions": 6090.0,
+      "revenue_raw": "$6.09 Bil",
+      "growth_rate": 69.2,
+      "growth_raw": "69.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SBCF",
+      "name": "Seacoast Banking Corporation of Florida",
+      "revenue_millions": 206.72,
+      "revenue_raw": "$206.72 Mil",
+      "growth_rate": 34.5,
+      "growth_raw": "34.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower Inc.",
+      "revenue_millions": 3220.0,
+      "revenue_raw": "$3.22 Bil",
+      "growth_rate": 38.3,
+      "growth_raw": "38.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 16,
+  "total_original": 118
+}

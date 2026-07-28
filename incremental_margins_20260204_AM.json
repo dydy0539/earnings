@@ -1,0 +1,344 @@
+{
+  "source_file": "earnings_filtered_20260204_AM.json",
+  "analyzed_at": "2026-02-05T09:01:41.313465",
+  "total_companies": 14,
+  "successful_analyses": 14,
+  "companies": [
+    {
+      "company_name": "Alphabet Inc.",
+      "ticker": "GOOGL",
+      "status": "success",
+      "incremental_operating_margin": 19.23,
+      "latest_operating_margin": 30.51,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 15.95,
+      "operating_income_growth_pct": 9.49,
+      "details": {
+        "latest_quarter": {
+          "revenue": 102346000000.0,
+          "operating_income": 31228000000.0,
+          "operating_margin_pct": 30.51
+        },
+        "prior_year_quarter": {
+          "revenue": 88268000000.0,
+          "operating_income": 28521000000.0,
+          "operating_margin_pct": 32.31
+        }
+      }
+    },
+    {
+      "company_name": "Google",
+      "ticker": "GOOG",
+      "status": "success",
+      "incremental_operating_margin": 19.23,
+      "latest_operating_margin": 30.51,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 15.95,
+      "operating_income_growth_pct": 9.49,
+      "details": {
+        "latest_quarter": {
+          "revenue": 102346000000.0,
+          "operating_income": 31228000000.0,
+          "operating_margin_pct": 30.51
+        },
+        "prior_year_quarter": {
+          "revenue": 88268000000.0,
+          "operating_income": 28521000000.0,
+          "operating_margin_pct": 32.31
+        }
+      }
+    },
+    {
+      "company_name": "Arm Holdings plc",
+      "ticker": "ARM",
+      "status": "success",
+      "incremental_operating_margin": 34.02,
+      "latest_operating_margin": 14.36,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 34.48,
+      "operating_income_growth_pct": 154.69,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1135000000.0,
+          "operating_income": 163000000.0,
+          "operating_margin_pct": 14.36
+        },
+        "prior_year_quarter": {
+          "revenue": 844000000.0,
+          "operating_income": 64000000.0,
+          "operating_margin_pct": 7.58
+        }
+      }
+    },
+    {
+      "company_name": "e.l.f. Beauty, Inc.",
+      "ticker": "ELF",
+      "status": "success",
+      "incremental_operating_margin": -47.13,
+      "latest_operating_margin": 2.24,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 14.24,
+      "operating_income_growth_pct": -72.36,
+      "details": {
+        "latest_quarter": {
+          "revenue": 343936000.0,
+          "operating_income": 7716000.0,
+          "operating_margin_pct": 2.24
+        },
+        "prior_year_quarter": {
+          "revenue": 301075000.0,
+          "operating_income": 27918000.0,
+          "operating_margin_pct": 9.27
+        }
+      }
+    },
+    {
+      "company_name": "Symbotic Inc.",
+      "ticker": "SYM",
+      "status": "success",
+      "incremental_operating_margin": 5.47,
+      "latest_operating_margin": -2.47,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 22.82,
+      "operating_income_growth_pct": -29.19,
+      "details": {
+        "latest_quarter": {
+          "revenue": 618457000.0,
+          "operating_income": -15251000.0,
+          "operating_margin_pct": -2.47
+        },
+        "prior_year_quarter": {
+          "revenue": 503566000.0,
+          "operating_income": -21537000.0,
+          "operating_margin_pct": -4.28
+        }
+      }
+    },
+    {
+      "company_name": "Fluence Energy, Inc.",
+      "ticker": "FLNC",
+      "status": "success",
+      "incremental_operating_margin": 10.3,
+      "latest_operating_margin": 4.65,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": -15.17,
+      "operating_income_growth_pct": -28.38,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1041891000.0,
+          "operating_income": 48427000.0,
+          "operating_margin_pct": 4.65
+        },
+        "prior_year_quarter": {
+          "revenue": 1228148000.0,
+          "operating_income": 67614000.0,
+          "operating_margin_pct": 5.51
+        }
+      }
+    },
+    {
+      "company_name": "Modine Manufacturing Co.",
+      "ticker": "MOD",
+      "status": "success",
+      "incremental_operating_margin": 1.11,
+      "latest_operating_margin": 10.92,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 12.29,
+      "operating_income_growth_pct": 1.13,
+      "details": {
+        "latest_quarter": {
+          "revenue": 738900000.0,
+          "operating_income": 80700000.0,
+          "operating_margin_pct": 10.92
+        },
+        "prior_year_quarter": {
+          "revenue": 658000000.0,
+          "operating_income": 79800000.0,
+          "operating_margin_pct": 12.13
+        }
+      }
+    },
+    {
+      "company_name": "Metlife Inc.",
+      "ticker": "MET",
+      "status": "success",
+      "incremental_operating_margin": 54.34,
+      "latest_operating_margin": 8.77,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": -7.74,
+      "operating_income_growth_pct": -34.21,
+      "details": {
+        "latest_quarter": {
+          "revenue": 16881000000.0,
+          "operating_income": 1481000000.0,
+          "operating_margin_pct": 8.77
+        },
+        "prior_year_quarter": {
+          "revenue": 18298000000.0,
+          "operating_income": 2251000000.0,
+          "operating_margin_pct": 12.3
+        }
+      }
+    },
+    {
+      "company_name": "Corpay, Inc.",
+      "ticker": "CPAY",
+      "status": "success",
+      "incremental_operating_margin": 38.38,
+      "latest_operating_margin": 44.62,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 13.92,
+      "operating_income_growth_pct": 11.75,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1172480000.0,
+          "operating_income": 523120000.0,
+          "operating_margin_pct": 44.62
+        },
+        "prior_year_quarter": {
+          "revenue": 1029197000.0,
+          "operating_income": 468132000.0,
+          "operating_margin_pct": 45.49
+        }
+      }
+    },
+    {
+      "company_name": "Cerence Inc.",
+      "ticker": "CRNC",
+      "status": "success",
+      "incremental_operating_margin": 133.85,
+      "latest_operating_margin": -1.79,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 10.65,
+      "operating_income_growth_pct": -87.77,
+      "details": {
+        "latest_quarter": {
+          "revenue": 60639000.0,
+          "operating_income": -1088000.0,
+          "operating_margin_pct": -1.79
+        },
+        "prior_year_quarter": {
+          "revenue": 54805000.0,
+          "operating_income": -8897000.0,
+          "operating_margin_pct": -16.23
+        }
+      }
+    },
+    {
+      "company_name": "SiTime Corporation",
+      "ticker": "SITM",
+      "status": "success",
+      "incremental_operating_margin": 25.07,
+      "latest_operating_margin": -19.02,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 44.84,
+      "operating_income_growth_pct": -28.98,
+      "details": {
+        "latest_quarter": {
+          "revenue": 83567000.0,
+          "operating_income": -15895000.0,
+          "operating_margin_pct": -19.02
+        },
+        "prior_year_quarter": {
+          "revenue": 57698000.0,
+          "operating_income": -22381000.0,
+          "operating_margin_pct": -38.79
+        }
+      }
+    },
+    {
+      "company_name": "Victory Capital Holdings, Inc.",
+      "ticker": "VCTR",
+      "status": "success",
+      "incremental_operating_margin": 21.05,
+      "latest_operating_margin": 42.24,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 60.08,
+      "operating_income_growth_pct": 23.01,
+      "details": {
+        "latest_quarter": {
+          "revenue": 361195000.0,
+          "operating_income": 152557000.0,
+          "operating_margin_pct": 42.24
+        },
+        "prior_year_quarter": {
+          "revenue": 225628000.0,
+          "operating_income": 124018000.0,
+          "operating_margin_pct": 54.97
+        }
+      }
+    },
+    {
+      "company_name": "Ensign Group, Inc.",
+      "ticker": "ENSG",
+      "status": "success",
+      "incremental_operating_margin": 3.21,
+      "latest_operating_margin": 7.42,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 19.84,
+      "operating_income_growth_pct": 7.7,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1296405000.0,
+          "operating_income": 96218000.0,
+          "operating_margin_pct": 7.42
+        },
+        "prior_year_quarter": {
+          "revenue": 1081776000.0,
+          "operating_income": 89338000.0,
+          "operating_margin_pct": 8.26
+        }
+      }
+    },
+    {
+      "company_name": "StoneX Group Inc.",
+      "ticker": "SNEX",
+      "status": "success",
+      "incremental_operating_margin": 7.41,
+      "latest_operating_margin": 1.67,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 5.09,
+      "operating_income_growth_pct": 27.3,
+      "details": {
+        "latest_quarter": {
+          "revenue": 32723400000.0,
+          "operating_income": 547500000.0,
+          "operating_margin_pct": 1.67
+        },
+        "prior_year_quarter": {
+          "revenue": 31139000000.0,
+          "operating_income": 430100000.0,
+          "operating_margin_pct": 1.38
+        }
+      }
+    }
+  ]
+}

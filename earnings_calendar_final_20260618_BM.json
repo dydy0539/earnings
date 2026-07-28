@@ -1,0 +1,25 @@
+{
+  "date": "20260618",
+  "scraped_at": "2026-06-18T22:00:36.015078",
+  "companies": [
+    {
+      "symbol": "ACN",
+      "source": "*[class*='eps']",
+      "raw_text": "ACN\nAccenture Ltd.\n6:40 AM ETEarnings news alerts\nEarnings:\nRevenue:\n$3.70\n$18.82 Bil\n$3.80\n$18.72 Bil\n5.6%\n2.7%",
+      "revenue_millions": 18820.0,
+      "revenue_raw": "$18.82 Bil",
+      "growth_rate": 5.6,
+      "growth_raw": "5.6%"
+    },
+    {
+      "symbol": "KR",
+      "source": "*[class*='eps']",
+      "raw_text": "KR\nKroger Co.\n6:45 AM ET\nEarnings:\nRevenue:\n$1.59\n$45.40 Bil\n$1.58\n$46.12 Bil\n2.2%\n-0.6%",
+      "revenue_millions": 45400.0,
+      "revenue_raw": "$45.40 Bil",
+      "growth_rate": 2.2,
+      "growth_raw": "2.2%"
+    }
+  ],
+  "status": "success"
+}

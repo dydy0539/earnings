@@ -1,0 +1,95 @@
+{
+  "date": "20260127",
+  "scraped_at": "2026-01-28T09:50:50.258504",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "STX",
+      "name": "Seagate Technology plc",
+      "revenue_millions": 2710.0,
+      "revenue_raw": "$2.71 Bil",
+      "growth_rate": 21.5,
+      "growth_raw": "21.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NXT",
+      "name": "Nextpower",
+      "revenue_millions": 814.64,
+      "revenue_raw": "$814.64 Mil",
+      "growth_rate": 33.9,
+      "growth_raw": "33.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RNST",
+      "name": "Renasant Corporation",
+      "revenue_millions": 269.0,
+      "revenue_raw": "$269.00 Mil",
+      "growth_rate": 53.4,
+      "growth_raw": "53.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WSBC",
+      "name": "WesBanco Inc.",
+      "revenue_millions": 265.71,
+      "revenue_raw": "$265.71 Mil",
+      "growth_rate": 53.1,
+      "growth_raw": "53.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UMBF",
+      "name": "UMB Financial Corporation",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 50.7,
+      "growth_raw": "50.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BUSE",
+      "name": "First Busey Corp.",
+      "revenue_millions": 196.05,
+      "revenue_raw": "$196.05 Mil",
+      "growth_rate": 66.8,
+      "growth_raw": "66.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 45
+}

@@ -1,0 +1,19 @@
+{
+  "date": "20260703",
+  "scraped_at": "2026-07-03T22:17:48.783579",
+  "companies": [
+    {
+      "symbol": "YASKY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ELE",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ADR",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

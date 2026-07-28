@@ -1,0 +1,30 @@
+{
+  "date": "20260708",
+  "scraped_at": "2026-07-08T22:01:28.515592",
+  "companies": [
+    {
+      "symbol": "HELE",
+      "source": "*[class*='eps']",
+      "raw_text": "HELE\nHelen of Troy Ltd.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.01\n$375.11 Mil\n$0.17\n$402.12 Mil\n8.2%\n1,600.0%",
+      "revenue_millions": 375.11,
+      "revenue_raw": "$375.11 Mil",
+      "growth_rate": 8.2,
+      "growth_raw": "8.2%"
+    },
+    {
+      "symbol": "SOTK",
+      "source": "*[class*='eps']",
+      "raw_text": "SOTK\nSono-Tek Corp\n7:00 AM ET\nEarnings:\nRevenue:\n$0.05\n$5.70 Mil\n$0.05\n$5.66 Mil\n10.3%\n0.0%",
+      "revenue_millions": 5.7,
+      "revenue_raw": "$5.70 Mil",
+      "growth_rate": 10.3,
+      "growth_raw": "10.3%"
+    },
+    {
+      "symbol": "EMO",
+      "source": "*[class*='eps']",
+      "raw_text": "EMO\nClearBridge Energy Midstream Opportunity Fund Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,242 @@
+{
+  "date": "20251119",
+  "scraped_at": "2025-11-20T09:00:38.404550",
+  "companies": [
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Copa Holdings S.A."
+    },
+    {
+      "symbol": "ZTO",
+      "source": "*[class*='eps']",
+      "raw_text": "ZTO\nZTO Express Inc.\n6:00 PM ET\nEarnings:\nRevenue:\n-\n$6.76 Bil\n$0.43\n$1.67 Bil\n9.6%\n-\n-",
+      "revenue_millions": 6760.0,
+      "revenue_raw": "$6.76 Bil",
+      "growth_rate": 9.6,
+      "growth_raw": "9.6%"
+    },
+    {
+      "symbol": "JOYY",
+      "source": "*[class*='eps']",
+      "raw_text": "JOYY\nJOYY Inc.\n7:00 PM ET\nEarnings:\nRevenue:\n$1.40\n$537.46 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 537.46,
+      "revenue_raw": "$537.46 Mil"
+    },
+    {
+      "symbol": "REIT",
+      "source": "*[class*='company']",
+      "raw_text": "Ellington Residential Mortgage REIT"
+    },
+    {
+      "symbol": "MD",
+      "source": "*[class*='company']",
+      "raw_text": "KINDLY MD INC"
+    },
+    {
+      "symbol": "INTL",
+      "source": "*[class*='company']",
+      "raw_text": "INTL LAND ALLNC"
+    },
+    {
+      "symbol": "NVDA",
+      "source": "*[class*='eps']",
+      "raw_text": "NVDA\nNVIDIA Corp.\n4:20 PM ET\nEarnings:\nRevenue:\n$1.18\n$54.59 Bil\n$1.30\n$57.01 Bil\n62.5%\n10.2%",
+      "revenue_millions": 54590.0,
+      "revenue_raw": "$54.59 Bil",
+      "growth_rate": 62.5,
+      "growth_raw": "62.5%"
+    },
+    {
+      "symbol": "PANW",
+      "source": "*[class*='eps']",
+      "raw_text": "PANW\nPalo Alto Networks, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.89\n$2.46 Bil\n$0.93\n$2.47 Bil\n15.7%\n4.5%",
+      "revenue_millions": 2460.0,
+      "revenue_raw": "$2.46 Bil",
+      "growth_rate": 15.7,
+      "growth_raw": "15.7%"
+    },
+    {
+      "symbol": "CPA",
+      "source": "*[class*='eps']",
+      "raw_text": "CPA\nCopa Holdings S.A.\n5:30 PM ET\nEarnings:\nRevenue:\n$4.03\n$914.95 Mil\n$4.20\n$913.15 Mil\n6.8%\n4.2%\n-",
+      "revenue_millions": 914.95,
+      "revenue_raw": "$914.95 Mil",
+      "growth_rate": 6.8,
+      "growth_raw": "6.8%"
+    },
+    {
+      "symbol": "JACK",
+      "source": "*[class*='eps']",
+      "raw_text": "JACK\nJack in the Box, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.46\n$321.46 Mil\n$0.30\n$326.19 Mil\n-6.6%\n-34.8%\n-",
+      "revenue_millions": 321.46,
+      "revenue_raw": "$321.46 Mil",
+      "growth_rate": -6.6,
+      "growth_raw": "-6.6%"
+    },
+    {
+      "symbol": "BV",
+      "source": "*[class*='eps']",
+      "raw_text": "BV\nBrightView Holdings, Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$0.29\n$721.69 Mil\n$0.24\n$702.80 Mil\n-3.6%\n-17.2%",
+      "revenue_millions": 721.69,
+      "revenue_raw": "$721.69 Mil",
+      "growth_rate": -3.6,
+      "growth_raw": "-3.6%"
+    },
+    {
+      "symbol": "TBBB",
+      "source": "*[class*='eps']",
+      "raw_text": "TBBB\nTiendas 3B\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.43\n$1.09 Bil\n$-0.66\n$1.09 Bil\n38.8%\n-53.5%\n-",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 38.8,
+      "growth_raw": "38.8%"
+    },
+    {
+      "symbol": "CRNC",
+      "source": "*[class*='eps']",
+      "raw_text": "CRNC\nCerence Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.66\n$55.12 Mil\n$-0.31\n$60.64 Mil\n10.6%\n53.0%",
+      "revenue_millions": 55.12,
+      "revenue_raw": "$55.12 Mil",
+      "growth_rate": 10.6,
+      "growth_raw": "10.6%"
+    },
+    {
+      "symbol": "HI",
+      "source": "*[class*='eps']",
+      "raw_text": "HI\nHillenbrand, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.62\n-\n$0.83\n$652.10 Mil\n-22.1%\n33.9%\n-",
+      "revenue_millions": 652.1,
+      "revenue_raw": "$652.10 Mil",
+      "growth_rate": -22.1,
+      "growth_raw": "-22.1%"
+    },
+    {
+      "symbol": "NJR",
+      "source": "*[class*='eps']",
+      "raw_text": "NJR\nNew Jersey Resources Corp.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.15\n$303.14 Mil\n$0.16\n$336.08 Mil\n-15.1%\n6.7%",
+      "revenue_millions": 303.14,
+      "revenue_raw": "$303.14 Mil",
+      "growth_rate": -15.1,
+      "growth_raw": "-15.1%"
+    },
+    {
+      "symbol": "ODD",
+      "source": "*[class*='eps']",
+      "raw_text": "ODD\nODDITY Tech Ltd.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.35\n$146.05 Mil\n$0.40\n$147.90 Mil\n24.3%\n14.3%",
+      "revenue_millions": 146.05,
+      "revenue_raw": "$146.05 Mil",
+      "growth_rate": 24.3,
+      "growth_raw": "24.3%"
+    },
+    {
+      "symbol": "UTI",
+      "source": "*[class*='eps']",
+      "raw_text": "UTI\nUniversal Technical Institute Inc\n4:05 PM ET\nEarnings:\nRevenue:\n$0.26\n$219.63 Mil\n$0.34\n$222.44 Mil\n13.3%\n30.8%",
+      "revenue_millions": 219.63,
+      "revenue_raw": "$219.63 Mil",
+      "growth_rate": 13.3,
+      "growth_raw": "13.3%"
+    },
+    {
+      "symbol": "API",
+      "source": "*[class*='eps']",
+      "raw_text": "API\nAgora, Inc.\n6:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.03\n$35.37 Mil\n12.0%\n-",
+      "revenue_millions": 35.37,
+      "revenue_raw": "$35.37 Mil",
+      "growth_rate": 12.0,
+      "growth_raw": "12.0%"
+    },
+    {
+      "symbol": "EARN",
+      "source": "*[class*='eps']",
+      "raw_text": "EARN\nEllington Residential Mortgage REIT\n4:55 PM ET\nEarnings:\nRevenue:\n$0.20\n$10.62 Mil\n$0.23\n$11.88 Mil\n150.0%\n15.0%\n-",
+      "revenue_millions": 10.62,
+      "revenue_raw": "$10.62 Mil",
+      "growth_rate": 150.0,
+      "growth_raw": "150.0%"
+    },
+    {
+      "symbol": "KLIC",
+      "source": "*[class*='eps']",
+      "raw_text": "KLIC\nKulicke & Soffa Industries Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.22\n$170.00 Mil\n$0.28\n$177.56 Mil\n-2.1%\n27.3%",
+      "revenue_millions": 170.0,
+      "revenue_raw": "$170.00 Mil",
+      "growth_rate": -2.1,
+      "growth_raw": "-2.1%"
+    },
+    {
+      "symbol": "NAKA",
+      "source": "*[class*='eps']",
+      "raw_text": "NAKA\nKINDLY MD INC\nAfter Close\nEarnings:\nRevenue:\n$-0.01\n-\n$-0.06\n$388.00 Thou\n0.0%\n-500.0%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "VVOS",
+      "source": "*[class*='eps']",
+      "raw_text": "VVOS\nVivos Therapeutics, Inc.\nAfter Close\nEarnings:\nRevenue:\n$-0.53\n$4.40 Mil\n$-0.49\n$6.78 Mil\n75.7%\n7.5%\n-",
+      "revenue_millions": 4.4,
+      "revenue_raw": "$4.40 Mil",
+      "growth_rate": 75.7,
+      "growth_raw": "75.7%"
+    },
+    {
+      "symbol": "FINV",
+      "source": "*[class*='eps']",
+      "raw_text": "FINV\nFinVolution Group\n6:30 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.34\n$489.76 Mil\n0.0%\n-\n-",
+      "revenue_millions": 489.76,
+      "revenue_raw": "$489.76 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ILAL",
+      "source": "*[class*='eps']",
+      "raw_text": "ILAL\nINTL LAND ALLNC\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$-0.02\n$555.00 Thou\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NNDM",
+      "source": "*[class*='eps']",
+      "raw_text": "NNDM\nNano Dimension Ltd.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.09\n$26.88 Mil\n0.0%\n-\n-",
+      "revenue_millions": 26.88,
+      "revenue_raw": "$26.88 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NYC",
+      "source": "*[class*='eps']",
+      "raw_text": "NYC\nAmerican Strategic Investment Co.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$-3.23\n$12.27 Mil\n0.0%\n-\n-",
+      "revenue_millions": 12.27,
+      "revenue_raw": "$12.27 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "UUU",
+      "source": "*[class*='eps']",
+      "raw_text": "UUU\nUniversal Security Instruments, Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$-0.43\n$760.00 Thou\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "INC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LAND",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ALLNC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "JCTC",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

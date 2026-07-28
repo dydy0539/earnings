@@ -1,0 +1,69 @@
+{
+  "date": "20251020",
+  "scraped_at": "2025-10-20T21:00:36.250015",
+  "companies": [
+    {
+      "symbol": "AB",
+      "source": "*[class*='company']",
+      "raw_text": "Sandvik AB"
+    },
+    {
+      "symbol": "HBT",
+      "source": "*[class*='eps']",
+      "raw_text": "Options trading platform\nHBT\nHBT Financial, Inc.\n7:05 AM ET\nEarnings:\nRevenue:\n$0.62\n$59.80 Mil\n$0.65\n$74.19 Mil\n1.9%\n4.8%\n-",
+      "revenue_millions": 59.8,
+      "revenue_raw": "$59.80 Mil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "CLF",
+      "source": "*[class*='eps']",
+      "raw_text": "CLF\nCleveland-Cliffs Inc\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.48\n$4.91 Bil\n$-0.45\n$4.73 Bil\n3.6%\n6.2%\n-",
+      "revenue_millions": 4910.0,
+      "revenue_raw": "$4.91 Bil",
+      "growth_rate": 3.6,
+      "growth_raw": "3.6%"
+    },
+    {
+      "symbol": "DX",
+      "source": "*[class*='eps']",
+      "raw_text": "DX\nDynex Capital, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$0.44\n$29.26 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 29.26,
+      "revenue_raw": "$29.26 Mil"
+    },
+    {
+      "symbol": "STRR",
+      "source": "*[class*='eps']",
+      "raw_text": "STRR\nStar Equity Holdings, Inc.\n8:30 AM ET\nEarnings:\nRevenue:\n$0.32\n$45.68 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 45.68,
+      "revenue_raw": "$45.68 Mil"
+    },
+    {
+      "symbol": "SDVKY",
+      "source": "*[class*='eps']",
+      "raw_text": "SDVKY\nSandvik AB\n6:05 AM ET\nEarnings:\nRevenue:\n$0.32\n-\n$0.30\n$3.07 Bil\n5.6%\n-6.3%\n-",
+      "revenue_millions": 3070.0,
+      "revenue_raw": "$3.07 Bil",
+      "growth_rate": 5.6,
+      "growth_raw": "5.6%"
+    },
+    {
+      "symbol": "SMMT",
+      "source": "*[class*='eps']",
+      "raw_text": "SMMT\nSummit Therapeutics Plc\n6:05 AM ET\nEarnings:\nRevenue:\n$-0.14\n$27.76 Mil\n$-0.31\n-\n0.0%\n-121.4%\n-",
+      "revenue_millions": 27.76,
+      "revenue_raw": "$27.76 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DCTH",
+      "source": "*[class*='eps']",
+      "raw_text": "DCTH\nDelcath Systems, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.08\n$23.20 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 23.2,
+      "revenue_raw": "$23.20 Mil"
+    }
+  ],
+  "status": "success"
+}

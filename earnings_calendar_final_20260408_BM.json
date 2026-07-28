@@ -1,0 +1,77 @@
+{
+  "date": "20260408",
+  "scraped_at": "2026-04-08T22:00:39.230206",
+  "companies": [
+    {
+      "symbol": "RPM",
+      "source": "*[class*='eps']",
+      "raw_text": "RPM\nRPM International Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.37\n$1.55 Bil\n$0.57\n$1.61 Bil\n8.9%\n54.1%",
+      "revenue_millions": 1550.0,
+      "revenue_raw": "$1.55 Bil",
+      "growth_rate": 8.9,
+      "growth_raw": "8.9%"
+    },
+    {
+      "symbol": "SE",
+      "source": "*[class*='company']",
+      "raw_text": "Evotec SE"
+    },
+    {
+      "symbol": "AXIL",
+      "source": "*[class*='eps']",
+      "raw_text": "AXIL\nAXIL BRANDS INC\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.02\n$7.29 Mil\n0.0%\n-\n-",
+      "revenue_millions": 7.29,
+      "revenue_raw": "$7.29 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CORP",
+      "source": "*[class*='company']",
+      "raw_text": "GLOBALTECH CORP"
+    },
+    {
+      "symbol": "DAL",
+      "source": "*[class*='eps']",
+      "raw_text": "DAL\nDelta Air Lines, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.60\n$14.82 Bil\n$0.64\n$15.85 Bil\n12.9%\n6.7%",
+      "revenue_millions": 14820.0,
+      "revenue_raw": "$14.82 Bil",
+      "growth_rate": 12.9,
+      "growth_raw": "12.9%"
+    },
+    {
+      "symbol": "EVO",
+      "source": "*[class*='eps']",
+      "raw_text": "EVO\nEvotec SE\n8:00 AM ET\nEarnings:\nRevenue:\n$0.02\n$253.35 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 253.35,
+      "revenue_raw": "$253.35 Mil"
+    },
+    {
+      "symbol": "BBGI",
+      "source": "*[class*='eps']",
+      "raw_text": "BBGI\nBeasley Broadcast Group, Inc\n7:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n-\n-\n$-6.95\n$53.05 Mil\n0.0%\n-\n-",
+      "revenue_millions": 53.05,
+      "revenue_raw": "$53.05 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "GLTK",
+      "source": "*[class*='eps']",
+      "raw_text": "GLTK\nGLOBALTECH CORP\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "AMBK",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "INC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "SVNDY",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,225 @@
+{
+  "date": "20260506",
+  "scraped_at": "2026-05-06T22:13:22.442855",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "ITT",
+      "name": "ITT Industries, Inc.",
+      "revenue_millions": 1120.0,
+      "revenue_raw": "$1.12 Bil",
+      "growth_rate": 32.7,
+      "growth_raw": "32.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HNI",
+      "name": "HNI Corporation",
+      "revenue_millions": 1410.0,
+      "revenue_raw": "$1.41 Bil",
+      "growth_rate": 124.7,
+      "growth_raw": "124.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EOG",
+      "name": "EOG Resources, Inc.",
+      "revenue_millions": 6920.0,
+      "revenue_raw": "$6.92 Bil",
+      "growth_rate": 26.3,
+      "growth_raw": "26.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy, Inc.",
+      "revenue_millions": 10360.0,
+      "revenue_raw": "$10.36 Bil",
+      "growth_rate": 19.5,
+      "growth_raw": "19.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NVO",
+      "name": "Novo Nordisk A\\/S",
+      "revenue_millions": 11130.0,
+      "revenue_raw": "$11.13 Bil",
+      "growth_rate": 37.7,
+      "growth_raw": "37.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HUT",
+      "name": "Hut 8 Mining Corp.",
+      "revenue_millions": 77.66,
+      "revenue_raw": "$77.66 Mil",
+      "growth_rate": 225.5,
+      "growth_raw": "225.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FUBO",
+      "name": "fuboTV Inc.",
+      "revenue_millions": 1600.0,
+      "revenue_raw": "$1.60 Bil",
+      "growth_rate": 278.1,
+      "growth_raw": "278.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMCR",
+      "name": "Amcor plc",
+      "revenue_millions": 5700.0,
+      "revenue_raw": "$5.70 Bil",
+      "growth_rate": 77.4,
+      "growth_raw": "77.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OSCR",
+      "name": "Oscar Health, Inc.",
+      "revenue_millions": 4890.0,
+      "revenue_raw": "$4.89 Bil",
+      "growth_rate": 52.6,
+      "growth_raw": "52.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SEDG",
+      "name": "SolarEdge Technologies, Inc.",
+      "revenue_millions": 303.42,
+      "revenue_raw": "$303.42 Mil",
+      "growth_rate": 41.5,
+      "growth_raw": "41.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GPN",
+      "name": "Global Payments, Inc.",
+      "revenue_millions": 2830.0,
+      "revenue_raw": "$2.83 Bil",
+      "growth_rate": 23.1,
+      "growth_raw": "23.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UWMC",
+      "name": "UWM Holdings Corporation",
+      "revenue_millions": 859.51,
+      "revenue_raw": "$859.51 Mil",
+      "growth_rate": 47.0,
+      "growth_raw": "47.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MRX",
+      "name": "Marex Group Plc",
+      "revenue_millions": 687.0,
+      "revenue_raw": "$687.00 Mil",
+      "growth_rate": 48.1,
+      "growth_raw": "48.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp.",
+      "revenue_millions": 728.19,
+      "revenue_raw": "$728.19 Mil",
+      "growth_rate": 33.9,
+      "growth_raw": "33.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PRM",
+      "name": "Perimeter Solutions",
+      "revenue_millions": 109.61,
+      "revenue_raw": "$109.61 Mil",
+      "growth_rate": 73.6,
+      "growth_raw": "73.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TGTX",
+      "name": "TG Therapeutics, Inc.",
+      "revenue_millions": 199.32,
+      "revenue_raw": "$199.32 Mil",
+      "growth_rate": 69.6,
+      "growth_raw": "69.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ONC",
+      "name": "BeOne Medicines Ltd.",
+      "revenue_millions": 1450.0,
+      "revenue_raw": "$1.45 Bil",
+      "growth_rate": 35.5,
+      "growth_raw": "35.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "URGN",
+      "name": "UroGen Pharma Ltd.",
+      "revenue_millions": 43.57,
+      "revenue_raw": "$43.57 Mil",
+      "growth_rate": 151.6,
+      "growth_raw": "151.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MDGL",
+      "name": "Madrigal Pharmaceuticals, Inc.",
+      "revenue_millions": 301.88,
+      "revenue_raw": "$301.88 Mil",
+      "growth_rate": 126.8,
+      "growth_raw": "126.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 19,
+  "total_original": 164
+}

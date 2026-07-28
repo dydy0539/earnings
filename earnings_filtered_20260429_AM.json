@@ -1,0 +1,215 @@
+{
+  "date": "20260429",
+  "scraped_at": "2026-04-30T08:29:57.760663",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "FTAI",
+      "name": "FTAI Aviation Ltd.",
+      "revenue_millions": 808.42,
+      "revenue_raw": "$808.42 Mil",
+      "growth_rate": 65.5,
+      "growth_raw": "65.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "C",
+      "name": "C.H. Robinson Worldwide Inc.",
+      "revenue_millions": 0,
+      "revenue_raw": "",
+      "growth_rate": 0,
+      "growth_raw": "",
+      "source": "*[class*='company']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corp.",
+      "revenue_millions": 81400.0,
+      "revenue_raw": "$81.40 Bil",
+      "growth_rate": 18.3,
+      "growth_raw": "18.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "revenue_millions": 177840.0,
+      "revenue_raw": "$177.84 Bil",
+      "growth_rate": 16.6,
+      "growth_raw": "16.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "revenue_millions": 55490.0,
+      "revenue_raw": "$55.49 Bil",
+      "growth_rate": 33.1,
+      "growth_raw": "33.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "revenue_millions": 109900.0,
+      "revenue_raw": "$109.90 Bil",
+      "growth_rate": 21.8,
+      "growth_raw": "21.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Google",
+      "revenue_millions": 92220.0,
+      "revenue_raw": "$92.22 Bil",
+      "growth_rate": 21.8,
+      "growth_raw": "21.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana Co.",
+      "revenue_millions": 6120.0,
+      "revenue_raw": "$6.12 Bil",
+      "growth_rate": 52.0,
+      "growth_raw": "52.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KGC",
+      "name": "Kinross Gold Corp.",
+      "revenue_millions": 2170.0,
+      "revenue_raw": "$2.17 Bil",
+      "growth_rate": 60.8,
+      "growth_raw": "60.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TTMI",
+      "name": "TTM Technologies Inc.",
+      "revenue_millions": 782.92,
+      "revenue_raw": "$782.92 Mil",
+      "growth_rate": 30.4,
+      "growth_raw": "30.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VIAV",
+      "name": "Viavi Solutions, Inc.",
+      "revenue_millions": 393.48,
+      "revenue_raw": "$393.48 Mil",
+      "growth_rate": 42.8,
+      "growth_raw": "42.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AFL",
+      "name": "AFLAC, Inc.",
+      "revenue_millions": 4290.0,
+      "revenue_raw": "$4.29 Bil",
+      "growth_rate": 27.9,
+      "growth_raw": "27.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AGI",
+      "name": "Alamos Gold Inc.",
+      "revenue_millions": 2560.0,
+      "revenue_raw": "$2.56 Bil",
+      "growth_rate": 79.2,
+      "growth_raw": "79.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AR",
+      "name": "Antero Resources Corp",
+      "revenue_millions": 1650.0,
+      "revenue_raw": "$1.65 Bil",
+      "growth_rate": 43.8,
+      "growth_raw": "43.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GKOS",
+      "name": "Glaukos Corporation",
+      "revenue_millions": 136.09,
+      "revenue_raw": "$136.09 Mil",
+      "growth_rate": 41.2,
+      "growth_raw": "41.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WWD",
+      "name": "Woodward, Inc.",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 23.4,
+      "growth_raw": "23.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CVI",
+      "name": "CVR Energy, Inc.",
+      "revenue_millions": 1680.0,
+      "revenue_raw": "$1.68 Bil",
+      "growth_rate": 20.3,
+      "growth_raw": "20.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CGAU",
+      "name": "Centerra Gold Inc.",
+      "revenue_millions": 484.69,
+      "revenue_raw": "$484.69 Mil",
+      "growth_rate": 61.8,
+      "growth_raw": "61.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 18,
+  "total_original": 168
+}

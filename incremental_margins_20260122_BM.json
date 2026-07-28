@@ -1,0 +1,93 @@
+{
+  "source_file": "earnings_filtered_20260122_BM.json",
+  "analyzed_at": "2026-01-26T00:00:00.000000",
+  "fiscal_quarter": "Q4 2024",
+  "data_source": "Official company earnings reports",
+  "total_companies": 3,
+  "successful_analyses": 3,
+  "companies": [
+    {
+      "company_name": "GE Aerospace",
+      "ticker": "GE",
+      "status": "success",
+      "incremental_operating_margin": 48.18,
+      "latest_operating_margin": 20.1,
+      "latest_quarter_date": "2024-12-31",
+      "prior_year_quarter_date": "2023-12-31",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 16.06,
+      "operating_income_growth_pct": 49.25,
+      "data_source": "https://www.geaerospace.com/news/press-releases/ge-aerospace-announces-fourth-quarter-2024-results",
+      "notes": "Calculated from adjusted operating income and adjusted revenue",
+      "details": {
+        "latest_quarter": {
+          "revenue": 9900000000.0,
+          "operating_income": 2000000000.0,
+          "operating_margin_pct": 20.1
+        },
+        "prior_year_quarter": {
+          "revenue": 8530000000.0,
+          "operating_income": 1340000000.0,
+          "operating_margin_pct": 15.71
+        }
+      }
+    },
+    {
+      "company_name": "Norwood Financial Corp",
+      "ticker": "NWFL",
+      "status": "success",
+      "incremental_operating_margin": 207.51,
+      "latest_operating_margin": 18.76,
+      "latest_quarter_date": "2024-12-31",
+      "prior_year_quarter_date": "2023-12-31",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 8.71,
+      "operating_income_growth_pct": 778.59,
+      "data_source": "https://www.globenewswire.com/news-release/2025/01/27/3015989/20770/en/Norwood-Financial-Corp-announces-Fourth-Quarter-and-Full-Year-2024-Results.html",
+      "notes": "Calculated from adjusted net income (excluding $20M one-time securities loss) and net interest income. Extremely high incremental margin due to strong earnings recovery from very low Q4 2023 base.",
+      "details": {
+        "latest_quarter": {
+          "revenue": 16625000.0,
+          "operating_income": 3119000.0,
+          "operating_margin_pct": 18.76
+        },
+        "prior_year_quarter": {
+          "revenue": 15293000.0,
+          "operating_income": 355000.0,
+          "operating_margin_pct": 2.32
+        }
+      }
+    },
+    {
+      "company_name": "Atlantic Union Bankshares Corporation",
+      "ticker": "AUB",
+      "status": "success",
+      "incremental_operating_margin": 8.42,
+      "latest_operating_margin": 32.83,
+      "latest_quarter_date": "2024-12-31",
+      "prior_year_quarter_date": "2023-12-31",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 18.89,
+      "operating_income_growth_pct": 4.25,
+      "data_source": "https://investors.atlanticunionbank.com/news-events/press-releases/detail/191/atlantic-union-bankshares-reports-fourth-quarter-and-full",
+      "notes": "Calculated from adjusted operating earnings and net interest income (FTE). Lower incremental margin suggests higher incremental costs relative to revenue growth.",
+      "details": {
+        "latest_quarter": {
+          "revenue": 187039000.0,
+          "operating_income": 61397000.0,
+          "operating_margin_pct": 32.83
+        },
+        "prior_year_quarter": {
+          "revenue": 157256000.0,
+          "operating_income": 58853000.0,
+          "operating_margin_pct": 37.43
+        }
+      }
+    }
+  ],
+  "summary": {
+    "companies_with_expanding_incremental_margins": 2,
+    "companies_with_contracting_incremental_margins": 1,
+    "methodology": "Incremental operating margin = (Operating Income Q4 2024 - Operating Income Q4 2023) / (Revenue Q4 2024 - Revenue Q4 2023). For banks, net interest income was used as revenue and adjusted operating earnings or net income as profit. Data sourced from official company earnings press releases."
+  }
+}

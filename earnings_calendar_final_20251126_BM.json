@@ -1,0 +1,128 @@
+{
+  "date": "20251126",
+  "scraped_at": "2025-11-26T22:00:30.200529",
+  "companies": [
+    {
+      "symbol": "SA",
+      "source": "*[class*='company']",
+      "raw_text": "EURONAV SA"
+    },
+    {
+      "symbol": "GSX",
+      "source": "*[class*='company']",
+      "raw_text": "GSX Techedu Inc."
+    },
+    {
+      "symbol": "DE",
+      "source": "*[class*='eps']",
+      "raw_text": "DE\nDeere & Company\n6:25 AM ET\nEarnings:\nRevenue:\n$3.96\n$9.99 Bil\n$3.93\n$12.39 Bil\n11.2%\n-0.8%",
+      "revenue_millions": 9990.0,
+      "revenue_raw": "$9.99 Bil",
+      "growth_rate": 11.2,
+      "growth_raw": "11.2%"
+    },
+    {
+      "symbol": "LI",
+      "source": "*[class*='eps']",
+      "raw_text": "LI\nLi Auto Inc.\n4:30 AM ET\nEarnings:\nRevenue:\n$0.04\n$3.76 Bil\n$-0.09\n$3.84 Bil\n-37.1%\n-325.0%",
+      "revenue_millions": 3760.0,
+      "revenue_raw": "$3.76 Bil",
+      "growth_rate": -37.1,
+      "growth_raw": "-37.1%"
+    },
+    {
+      "symbol": "CLGN",
+      "source": "*[class*='eps']",
+      "raw_text": "CLGN\nCollPlant Biotechnologies\n7:00 AM ET\nEarnings:\nRevenue:\n$0.38\n$9.53 Mil\n$-0.27\n$77.00 Thou\n1,825.0%\n-171.1%\n-",
+      "revenue_millions": 9.53,
+      "revenue_raw": "$9.53 Mil",
+      "growth_rate": 825.0,
+      "growth_raw": "825.0%"
+    },
+    {
+      "symbol": "EH",
+      "source": "*[class*='eps']",
+      "raw_text": "EH\nEHang Holdings Limited\n3:35 AM ET\nEarnings:\nRevenue:\n-\n$21.14 Mil\n$-0.16\n$12.99 Mil\n-28.9%\n-",
+      "revenue_millions": 21.14,
+      "revenue_raw": "$21.14 Mil",
+      "growth_rate": -28.9,
+      "growth_raw": "-28.9%"
+    },
+    {
+      "symbol": "HDL",
+      "source": "*[class*='eps']",
+      "raw_text": "HDL\nSuper Hi\n6:00 AM ET\nEarnings:\nRevenue:\n$0.20\n-\n$0.10\n$214.05 Mil\n7.8%\n-50.0%\n-",
+      "revenue_millions": 214.05,
+      "revenue_raw": "$214.05 Mil",
+      "growth_rate": 7.8,
+      "growth_raw": "7.8%"
+    },
+    {
+      "symbol": "ALAR",
+      "source": "*[class*='eps']",
+      "raw_text": "ALAR\nAlarum Technologies Ltd.\n7:10 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "AMBR",
+      "source": "*[class*='eps']",
+      "raw_text": "AMBR\nAmber Road Inc.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.03\n$16.30 Mil\n0.0%\n-\n-",
+      "revenue_millions": 16.3,
+      "revenue_raw": "$16.30 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CMBT",
+      "source": "*[class*='eps']",
+      "raw_text": "CMBT\nEURONAV SA\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.07\n$454.25 Mil\n0.0%\n-\n-",
+      "revenue_millions": 454.25,
+      "revenue_raw": "$454.25 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CMCM",
+      "source": "*[class*='eps']",
+      "raw_text": "CMCM\nCheetah Mobile Inc.\n3:10 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.02\n$40.37 Mil\n0.0%\n-\n-",
+      "revenue_millions": 40.37,
+      "revenue_raw": "$40.37 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "GOTU",
+      "source": "*[class*='eps']",
+      "raw_text": "GOTU\nGSX Techedu Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.09\n$221.80 Mil\n0.0%\n-\n-",
+      "revenue_millions": 221.8,
+      "revenue_raw": "$221.80 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LEE",
+      "source": "*[class*='eps']",
+      "raw_text": "LEE\nLee Enterprises, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-1.06\n$139.10 Mil\n0.0%\n-\n-",
+      "revenue_millions": 139.1,
+      "revenue_raw": "$139.10 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "HAFN",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "EKTAY",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AB",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LEDS",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

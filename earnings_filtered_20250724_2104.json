@@ -1,0 +1,75 @@
+{
+  "date": "20250724",
+  "scraped_at": "2025-07-24T21:04:44.348737",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CNX",
+      "name": "CNX",
+      "revenue_millions": 453.03,
+      "revenue_raw": "$453.03 Mil",
+      "growth_rate": 199.4,
+      "growth_raw": "199.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BX",
+      "name": "Blackstone",
+      "revenue_millions": 2770.0,
+      "revenue_raw": "$2.77 Bil",
+      "growth_rate": 32.7,
+      "growth_raw": "32.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GPI",
+      "name": "Group 1 Automotive Inc.",
+      "revenue_millions": 5510.0,
+      "revenue_raw": "$5.51 Bil",
+      "growth_rate": 21.4,
+      "growth_raw": "21.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AUB",
+      "name": "Atlantic Union Bankshares Corporation",
+      "revenue_millions": 370.96,
+      "revenue_raw": "$370.96 Mil",
+      "growth_rate": 71.7,
+      "growth_raw": "71.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 120
+}

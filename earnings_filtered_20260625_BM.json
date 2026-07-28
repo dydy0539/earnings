@@ -1,0 +1,65 @@
+{
+  "date": "20260625",
+  "scraped_at": "2026-06-25T22:00:36.934018",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "BB",
+      "name": "BlackBerry Limited",
+      "revenue_millions": 600.2,
+      "revenue_raw": "$600.20 Mil",
+      "growth_rate": 25.6,
+      "growth_raw": "25.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CMC",
+      "name": "Commercial Metals Company",
+      "revenue_millions": 2390.0,
+      "revenue_raw": "$2.39 Bil",
+      "growth_rate": 22.9,
+      "growth_raw": "22.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNX",
+      "name": "TD SYNNEX",
+      "revenue_millions": 16740.0,
+      "revenue_raw": "$16.74 Bil",
+      "growth_rate": 31.0,
+      "growth_raw": "31.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 15
+}

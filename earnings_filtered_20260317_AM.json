@@ -1,0 +1,55 @@
+{
+  "date": "20260317",
+  "scraped_at": "2026-03-18T09:00:46.312225",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "NRGV",
+      "name": "Energy Vault Holdings Inc",
+      "revenue_millions": 152.9,
+      "revenue_raw": "$152.90 Mil",
+      "growth_rate": 358.0,
+      "growth_raw": "358.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STRR",
+      "name": "Star Equity Holdings, Inc.",
+      "revenue_millions": 58.72,
+      "revenue_raw": "$58.72 Mil",
+      "growth_rate": 232.2,
+      "growth_raw": "232.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 2,
+  "total_original": 23
+}

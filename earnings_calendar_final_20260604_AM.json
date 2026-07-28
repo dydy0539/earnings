@@ -1,0 +1,142 @@
+{
+  "date": "20260604",
+  "scraped_at": "2026-06-05T09:00:32.669878",
+  "companies": [
+    {
+      "symbol": "PBC",
+      "source": "*[class*='company']",
+      "raw_text": "Planet Labs PBC"
+    },
+    {
+      "symbol": "LULU",
+      "source": "*[class*='eps']",
+      "raw_text": "LULU\nlululemon athletica inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.67\n$2.43 Bil\n$1.69\n$2.47 Bil\n4.3%\n1.2%",
+      "revenue_millions": 2430.0,
+      "revenue_raw": "$2.43 Bil",
+      "growth_rate": 4.3,
+      "growth_raw": "4.3%"
+    },
+    {
+      "symbol": "RBRK",
+      "source": "*[class*='eps']",
+      "raw_text": "RBRK\nRubrik, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.03\n$366.15 Mil\n$0.16\n$387.07 Mil\n39.0%\n633.3%",
+      "revenue_millions": 366.15,
+      "revenue_raw": "$366.15 Mil",
+      "growth_rate": 39.0,
+      "growth_raw": "39.0%"
+    },
+    {
+      "symbol": "PL",
+      "source": "*[class*='eps']",
+      "raw_text": "PL\nPlanet Labs PBC\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.04\n$89.76 Mil\n$-0.03\n$94.15 Mil\n42.1%\n25.0%",
+      "revenue_millions": 89.76,
+      "revenue_raw": "$89.76 Mil",
+      "growth_rate": 42.1,
+      "growth_raw": "42.1%"
+    },
+    {
+      "symbol": "DOCU",
+      "source": "*[class*='eps']",
+      "raw_text": "DOCU\nDocusign\n4:05 PM ET\nEarnings:\nRevenue:\n$0.99\n$824.75 Mil\n$1.09\n$830.24 Mil\n8.7%\n10.1%",
+      "revenue_millions": 824.75,
+      "revenue_raw": "$824.75 Mil",
+      "growth_rate": 8.7,
+      "growth_raw": "8.7%"
+    },
+    {
+      "symbol": "IOT",
+      "source": "*[class*='eps']",
+      "raw_text": "IOT\nSamsara Inc.\n4:10 PM ETTime & Calendars\nEarnings:\nRevenue:\n$0.13\n$455.46 Mil\n$0.17\n$478.84 Mil\n30.5%\n30.8%",
+      "revenue_millions": 455.46,
+      "revenue_raw": "$455.46 Mil",
+      "growth_rate": 30.5,
+      "growth_raw": "30.5%"
+    },
+    {
+      "symbol": "GWRE",
+      "source": "*[class*='eps']",
+      "raw_text": "GWRE\nGuidewire Software, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.74\n$356.01 Mil\n$0.82\n$372.54 Mil\n26.9%\n10.8%",
+      "revenue_millions": 356.01,
+      "revenue_raw": "$356.01 Mil",
+      "growth_rate": 26.9,
+      "growth_raw": "26.9%"
+    },
+    {
+      "symbol": "AGX",
+      "source": "*[class*='eps']",
+      "raw_text": "AGX\nArgan Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$2.27\n$252.51 Mil\n$3.24\n$290.95 Mil\n50.2%\n42.7%\n-",
+      "revenue_millions": 252.51,
+      "revenue_raw": "$252.51 Mil",
+      "growth_rate": 50.2,
+      "growth_raw": "50.2%"
+    },
+    {
+      "symbol": "COO",
+      "source": "*[class*='eps']",
+      "raw_text": "COO\nCooperCompanies, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$1.10\n$1.05 Bil\n$1.21\n$1.08 Bil\n7.9%\n10.0%",
+      "revenue_millions": 1050.0,
+      "revenue_raw": "$1.05 Bil",
+      "growth_rate": 7.9,
+      "growth_raw": "7.9%"
+    },
+    {
+      "symbol": "TTAN",
+      "source": "*[class*='eps']",
+      "raw_text": "TTAN\nServiceTitan, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.28\n$256.30 Mil\n$0.37\n$268.82 Mil\n24.6%\n32.1%",
+      "revenue_millions": 256.3,
+      "revenue_raw": "$256.30 Mil",
+      "growth_rate": 24.6,
+      "growth_raw": "24.6%"
+    },
+    {
+      "symbol": "BBCP",
+      "source": "*[class*='eps']",
+      "raw_text": "BBCP\nConcrete Pumping Holdings, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.00\n$96.90 Mil\n$0.04\n$106.80 Mil\n13.7%\n-",
+      "revenue_millions": 96.9,
+      "revenue_raw": "$96.90 Mil",
+      "growth_rate": 13.7,
+      "growth_raw": "13.7%"
+    },
+    {
+      "symbol": "NX",
+      "source": "*[class*='eps']",
+      "raw_text": "NX\nQuanex Building Products Corporation\n4:15 PM ET\nEarnings:\nRevenue:\n$0.22\n$458.40 Mil\n$0.25\n$462.37 Mil\n2.2%\n13.6%\n-",
+      "revenue_millions": 458.4,
+      "revenue_raw": "$458.40 Mil",
+      "growth_rate": 2.2,
+      "growth_raw": "2.2%"
+    },
+    {
+      "symbol": "CURV",
+      "source": "*[class*='eps']",
+      "raw_text": "CURV\nTorrid Holdings Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.02\n$240.35 Mil\n$0.00\n$245.80 Mil\n-7.6%\n-",
+      "revenue_millions": 240.35,
+      "revenue_raw": "$240.35 Mil",
+      "growth_rate": -7.6,
+      "growth_raw": "-7.6%"
+    },
+    {
+      "symbol": "WLTH",
+      "source": "*[class*='eps']",
+      "raw_text": "WLTH\nWealthfront Corporation\n4:10 PM ET\nEarnings:\nRevenue:\n$0.09\n$93.14 Mil\n$0.07\n$90.48 Mil\n0.0%\n-22.2%\n-",
+      "revenue_millions": 93.14,
+      "revenue_raw": "$93.14 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ZUMZ",
+      "source": "*[class*='eps']",
+      "raw_text": "ZUMZ\nZumiez Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.81\n$191.03 Mil\n$-0.82\n$193.35 Mil\n4.9%\n-1.2%",
+      "revenue_millions": 191.03,
+      "revenue_raw": "$191.03 Mil",
+      "growth_rate": 4.9,
+      "growth_raw": "4.9%"
+    },
+    {
+      "symbol": "MFON",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

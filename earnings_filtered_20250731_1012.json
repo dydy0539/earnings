@@ -1,0 +1,155 @@
+{
+  "date": "20250731",
+  "scraped_at": "2025-08-01T10:12:25.402480",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple, Inc.",
+      "revenue_millions": 88530.0,
+      "revenue_raw": "$88.53 Bil",
+      "growth_rate": 9.6,
+      "growth_raw": "9.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "revenue_millions": 162170.0,
+      "revenue_raw": "$162.17 Bil",
+      "growth_rate": 13.3,
+      "growth_raw": "13.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "revenue_millions": 426.39,
+      "revenue_raw": "$426.39 Mil",
+      "growth_rate": 77.7,
+      "growth_raw": "77.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare, Inc.",
+      "revenue_millions": 500.72,
+      "revenue_raw": "$500.72 Mil",
+      "growth_rate": 27.8,
+      "growth_raw": "27.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms, Inc.",
+      "revenue_millions": 149.8,
+      "revenue_raw": "$149.80 Mil",
+      "growth_rate": 118.5,
+      "growth_raw": "118.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INOD",
+      "name": "Innodata Inc.",
+      "revenue_millions": 56.36,
+      "revenue_raw": "$56.36 Mil",
+      "growth_rate": 79.4,
+      "growth_raw": "79.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "revenue_millions": 3080.0,
+      "revenue_raw": "$3.08 Bil",
+      "growth_rate": 23.6,
+      "growth_raw": "23.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MPWR",
+      "name": "Monolithic Power Systems Inc",
+      "revenue_millions": 650.01,
+      "revenue_raw": "$650.01 Mil",
+      "growth_rate": 31.0,
+      "growth_raw": "31.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EGO",
+      "name": "Eldorado Gold Corp",
+      "revenue_millions": 1580.0,
+      "revenue_raw": "$1.58 Bil",
+      "growth_rate": 52.0,
+      "growth_raw": "52.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LPLA",
+      "name": "LPL Financial Holdings Inc.",
+      "revenue_millions": 3770.0,
+      "revenue_raw": "$3.77 Bil",
+      "growth_rate": 30.8,
+      "growth_raw": "30.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ERO",
+      "name": "Ero Copper Corp.",
+      "revenue_millions": 182.9,
+      "revenue_raw": "$182.90 Mil",
+      "growth_rate": 39.6,
+      "growth_raw": "39.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NOG",
+      "name": "Northern Oil and Gas, Inc.",
+      "revenue_millions": 517.37,
+      "revenue_raw": "$517.37 Mil",
+      "growth_rate": 26.0,
+      "growth_raw": "26.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 12,
+  "total_original": 151
+}

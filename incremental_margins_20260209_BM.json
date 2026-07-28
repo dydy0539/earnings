@@ -1,0 +1,56 @@
+{
+  "source_file": "earnings_filtered_20260209_BM.json",
+  "analyzed_at": "2026-02-12T10:28:48.300271",
+  "total_companies": 2,
+  "successful_analyses": 2,
+  "companies": [
+    {
+      "company_name": "Apollo Global Management, LLC",
+      "ticker": "APO",
+      "status": "success",
+      "incremental_operating_margin": 44.68,
+      "latest_operating_margin": 32.29,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 26.37,
+      "operating_income_growth_pct": 40.6,
+      "details": {
+        "latest_quarter": {
+          "revenue": 9823000000.0,
+          "operating_income": 3172000000.0,
+          "operating_margin_pct": 32.29
+        },
+        "prior_year_quarter": {
+          "revenue": 7773000000.0,
+          "operating_income": 2256000000.0,
+          "operating_margin_pct": 29.02
+        }
+      }
+    },
+    {
+      "company_name": "BCURBLINE PPTYS",
+      "ticker": "CURB",
+      "status": "success",
+      "incremental_operating_margin": 32.09,
+      "latest_operating_margin": 18.47,
+      "latest_quarter_date": "2025-12-31",
+      "prior_year_quarter_date": "2024-12-31",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 55.05,
+      "operating_income_growth_pct": 161.01,
+      "details": {
+        "latest_quarter": {
+          "revenue": 54149000.0,
+          "operating_income": 10002000.0,
+          "operating_margin_pct": 18.47
+        },
+        "prior_year_quarter": {
+          "revenue": 34923000.0,
+          "operating_income": 3832000.0,
+          "operating_margin_pct": 10.97
+        }
+      }
+    }
+  ]
+}

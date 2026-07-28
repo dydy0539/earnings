@@ -1,0 +1,50 @@
+{
+  "date": "20260714",
+  "scraped_at": "2026-07-15T09:00:49.254924",
+  "companies": [
+    {
+      "symbol": "AEHR",
+      "source": "*[class*='eps']",
+      "raw_text": "AEHR\nAehr Test Systems\n4:05 PM ETEarnings news alerts\nEarnings:\nRevenue:\n$-0.01\n$18.70 Mil\n$0.11\n$18.84 Mil\n33.7%\n1,200.0%",
+      "revenue_millions": 18.7,
+      "revenue_raw": "$18.70 Mil",
+      "growth_rate": 33.7,
+      "growth_raw": "33.7%"
+    },
+    {
+      "symbol": "EQBK",
+      "source": "*[class*='eps']",
+      "raw_text": "EQBK\nEquity Bancshares\n4:30 PM ET\nEarnings:\nRevenue:\n$1.24\n$84.05 Mil\n$1.41\n$115.88 Mil\n40.0%\n13.7%\n-",
+      "revenue_millions": 84.05,
+      "revenue_raw": "$84.05 Mil",
+      "growth_rate": 40.0,
+      "growth_raw": "40.0%"
+    },
+    {
+      "symbol": "PXED",
+      "source": "*[class*='eps']",
+      "raw_text": "PXED\nPhoenix Education Partners, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.28\n$270.37 Mil\n$1.43\n$271.80 Mil\n0.0%\n11.7%",
+      "revenue_millions": 270.37,
+      "revenue_raw": "$270.37 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LOOP",
+      "source": "*[class*='eps']",
+      "raw_text": "LOOP\nLoop Industries, Inc.\n4:50 PM ET\nEarnings:\nRevenue:\n$-0.05\n$900.00 Thou\n$-0.07\n$179.00 Thou\n-29.0%\n-40.0%\n-",
+      "growth_rate": -29.0,
+      "growth_raw": "-29.0%"
+    },
+    {
+      "symbol": "KMTS",
+      "source": "*[class*='eps']",
+      "raw_text": "KMTS\nKestra Medical Technologies, Ltd.\n4:00 PM ET\nEarnings:\nRevenue:\n$-0.59\n$26.51 Mil\n$-0.67\n$28.64 Mil\n66.2%\n-13.6%",
+      "revenue_millions": 26.51,
+      "revenue_raw": "$26.51 Mil",
+      "growth_rate": 66.2,
+      "growth_raw": "66.2%"
+    }
+  ],
+  "status": "success"
+}

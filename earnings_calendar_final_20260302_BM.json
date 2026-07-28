@@ -1,0 +1,240 @@
+{
+  "date": "20260302",
+  "scraped_at": "2026-03-02T22:01:30.143023",
+  "companies": [
+    {
+      "symbol": "AAON",
+      "source": "*[class*='eps']",
+      "raw_text": "AAON\nAAON Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.45\n$370.80 Mil\n$0.39\n$424.22 Mil\n42.5%\n-13.3%",
+      "revenue_millions": 370.8,
+      "revenue_raw": "$370.80 Mil",
+      "growth_rate": 42.5,
+      "growth_raw": "42.5%"
+    },
+    {
+      "symbol": "ADT",
+      "source": "*[class*='eps']",
+      "raw_text": "ADT\nADT Corporation\n6:55 AM ET\nEarnings:\nRevenue:\n$0.19\n$1.28 Bil\n$0.21\n$1.28 Bil\n1.3%\n10.5%",
+      "revenue_millions": 1280.0,
+      "revenue_raw": "$1.28 Bil",
+      "growth_rate": 1.3,
+      "growth_raw": "1.3%"
+    },
+    {
+      "symbol": "N",
+      "source": "*[class*='company']",
+      "raw_text": "uniQure N.V."
+    },
+    {
+      "symbol": "PLC",
+      "source": "*[class*='company']",
+      "raw_text": "Smith & Nephew PLC"
+    },
+    {
+      "symbol": "GT",
+      "source": "*[class*='company']",
+      "raw_text": "GT Biopharma, Inc."
+    },
+    {
+      "symbol": "NCLH",
+      "source": "*[class*='eps']",
+      "raw_text": "NCLH\nNorwegian Cruise Line Holdings Ltd.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.27\n$2.35 Bil\n$0.28\n$2.24 Bil\n6.4%\n3.7%",
+      "revenue_millions": 2350.0,
+      "revenue_raw": "$2.35 Bil",
+      "growth_rate": 6.4,
+      "growth_raw": "6.4%"
+    },
+    {
+      "symbol": "BRK",
+      "source": "*[class*='eps']",
+      "raw_text": "BRK.B\nBerkshire Hathaway, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$5.19\n-\n$4.73\n$94.23 Bil\n-0.7%\n-8.9%\n-",
+      "revenue_millions": 94230.0,
+      "revenue_raw": "$94.23 Bil",
+      "growth_rate": -0.7,
+      "growth_raw": "-0.7%"
+    },
+    {
+      "symbol": "XERS",
+      "source": "*[class*='eps']",
+      "raw_text": "XERS\nXeris Biopharma Holdings, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.03\n$81.43 Mil\n$0.06\n$85.81 Mil\n42.8%\n100.0%",
+      "revenue_millions": 81.43,
+      "revenue_raw": "$81.43 Mil",
+      "growth_rate": 42.8,
+      "growth_raw": "42.8%"
+    },
+    {
+      "symbol": "CRC",
+      "source": "*[class*='eps']",
+      "raw_text": "CRC\nCalifornia Resources Corporation\nBefore Open\nEarnings:\nRevenue:\n$0.49\n$786.68 Mil\n$0.47\n$924.00 Mil\n5.4%Time & Calendars\n-4.1%\n-",
+      "revenue_millions": 786.68,
+      "revenue_raw": "$786.68 Mil",
+      "growth_rate": 5.4,
+      "growth_raw": "5.4%"
+    },
+    {
+      "symbol": "CGEN",
+      "source": "*[class*='eps']",
+      "raw_text": "CGEN\nCompugen Ltd.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.05\n$17.87 Mil\n$0.60\n$67.33 Mil\n4,477.3%\n1,100.0%\n-",
+      "revenue_millions": 17.87,
+      "revenue_raw": "$17.87 Mil",
+      "growth_rate": 477.3,
+      "growth_raw": "477.3%"
+    },
+    {
+      "symbol": "QURE",
+      "source": "*[class*='eps']",
+      "raw_text": "QURE\nuniQure N.V.\n7:05 AM ET\nEarnings:\nRevenue:\n$-0.93\n$7.07 Mil\n$-0.56\n$5.57 Mil\n6.6%\n39.8%\n-",
+      "revenue_millions": 7.07,
+      "revenue_raw": "$7.07 Mil",
+      "growth_rate": 6.6,
+      "growth_raw": "6.6%"
+    },
+    {
+      "symbol": "TPB",
+      "source": "*[class*='eps']",
+      "raw_text": "TPB\nTurning Point Brands, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.84\n$119.85 Mil\n$0.42\n$121.01 Mil\n29.2%\n-50.0%\n-",
+      "revenue_millions": 119.85,
+      "revenue_raw": "$119.85 Mil",
+      "growth_rate": 29.2,
+      "growth_raw": "29.2%"
+    },
+    {
+      "symbol": "ZYME",
+      "source": "*[class*='eps']",
+      "raw_text": "ZYME\nZymeworks Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.35\n$21.37 Mil\n$-0.55\n$2.52 Mil\n-91.9%\n-57.1%\n-",
+      "revenue_millions": 21.37,
+      "revenue_raw": "$21.37 Mil",
+      "growth_rate": -91.9,
+      "growth_raw": "-91.9%"
+    },
+    {
+      "symbol": "ASTH",
+      "source": "*[class*='eps']",
+      "raw_text": "ASTH\nAstrana Health, Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.15\n$923.83 Mil\n$0.54\n$950.53 Mil\n42.9%\n260.0%",
+      "revenue_millions": 923.83,
+      "revenue_raw": "$923.83 Mil",
+      "growth_rate": 42.9,
+      "growth_raw": "42.9%"
+    },
+    {
+      "symbol": "KOS",
+      "source": "*[class*='eps']",
+      "raw_text": "KOS\nKosmos Energy Ltd.\n2:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.16\n$296.47 Mil\n-25.4%\n-\n-",
+      "revenue_millions": 296.47,
+      "revenue_raw": "$296.47 Mil",
+      "growth_rate": -25.4,
+      "growth_raw": "-25.4%"
+    },
+    {
+      "symbol": "KSPI",
+      "source": "*[class*='eps']",
+      "raw_text": "KSPI\nKaspi.kz\n7:00 AM ET\nEarnings:\nRevenue:\n$3.10\n$2.40 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 2400.0,
+      "revenue_raw": "$2.40 Bil"
+    },
+    {
+      "symbol": "SEE",
+      "source": "*[class*='eps']",
+      "raw_text": "SEE\nSealed Air Corporation\n6:45 AM ET\nEarnings:\nRevenue:\n$0.72\n$1.34 Bil\n$0.77\n$1.40 Bil\n2.1%\n6.9%\n-",
+      "revenue_millions": 1340.0,
+      "revenue_raw": "$1.34 Bil",
+      "growth_rate": 2.1,
+      "growth_raw": "2.1%"
+    },
+    {
+      "symbol": "SATS",
+      "source": "*[class*='eps']",
+      "raw_text": "SATS\nEchoStar Holding Corp\n6:30 AM ET\nEarnings:\nRevenue:\n$-0.85\n$3.74 Bil\n$-1.03\n$3.80 Bil\n-4.3%\n-21.2%\n-",
+      "revenue_millions": 3740.0,
+      "revenue_raw": "$3.74 Bil",
+      "growth_rate": -4.3,
+      "growth_raw": "-4.3%"
+    },
+    {
+      "symbol": "VG",
+      "source": "*[class*='eps']",
+      "raw_text": "VG\nVenture Global, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.35\n$4.78 Bil\n$0.41\n$4.45 Bil\n191.7%\n17.1%\n-",
+      "revenue_millions": 4780.0,
+      "revenue_raw": "$4.78 Bil",
+      "growth_rate": 191.7,
+      "growth_raw": "191.7%"
+    },
+    {
+      "symbol": "NEXT",
+      "source": "*[class*='eps']",
+      "raw_text": "NEXT\nNextDecade Corporation\nBefore Open\nEarnings:\nRevenue:\n$-0.68\n$315.64 Mil\n$-0.88\n-\n0.0%\n-29.4%\n-",
+      "revenue_millions": 315.64,
+      "revenue_raw": "$315.64 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "RDNT",
+      "source": "*[class*='eps']",
+      "raw_text": "RDNT\nRadNet Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.19\n$515.37 Mil\n$0.23\n$547.71 Mil\n14.8%\n21.1%",
+      "revenue_millions": 515.37,
+      "revenue_raw": "$515.37 Mil",
+      "growth_rate": 14.8,
+      "growth_raw": "14.8%"
+    },
+    {
+      "symbol": "UNIT",
+      "source": "*[class*='eps']",
+      "raw_text": "UNIT\nUniti Group Inc\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.46\n$889.50 Mil\n$-1.19\n$917.30 Mil\n212.7%\n-158.7%",
+      "revenue_millions": 889.5,
+      "revenue_raw": "$889.50 Mil",
+      "growth_rate": 212.7,
+      "growth_raw": "212.7%"
+    },
+    {
+      "symbol": "SNN",
+      "source": "*[class*='eps']",
+      "raw_text": "SNN\nSmith & Nephew PLC\nBefore Open\nEarnings:\nRevenue:\n-\n$6.39 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 6390.0,
+      "revenue_raw": "$6.39 Bil"
+    },
+    {
+      "symbol": "URGN",
+      "source": "*[class*='eps']",
+      "raw_text": "URGN\nUroGen Pharma Ltd.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.66\n$35.55 Mil\n$-0.54\n$37.84 Mil\n54.0%\n18.2%\n-",
+      "revenue_millions": 35.55,
+      "revenue_raw": "$35.55 Mil",
+      "growth_rate": 54.0,
+      "growth_raw": "54.0%"
+    },
+    {
+      "symbol": "WHF",
+      "source": "*[class*='eps']",
+      "raw_text": "WHF\nWhiteHorse Finance, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.27\n$16.54 Mil\n$0.29\n$17.34 Mil\n-17.5%\n7.4%\n-",
+      "revenue_millions": 16.54,
+      "revenue_raw": "$16.54 Mil",
+      "growth_rate": -17.5,
+      "growth_raw": "-17.5%"
+    },
+    {
+      "symbol": "GTBP",
+      "source": "*[class*='eps']",
+      "raw_text": "GTBP\nGT Biopharma, Inc.\n9:00 AM ET\nEarnings:\nRevenue:\n$-0.22\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "GASS",
+      "source": "*[class*='eps']",
+      "raw_text": "GASS\nStealthGas Inc\n9:10 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "GEODF",
+      "source": "*[class*='eps']",
+      "raw_text": "GEODF\nGEODRILL LIMITED\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "YSG",
+      "source": "*[class*='eps']",
+      "raw_text": "YSG\nYatsen Holding Limited\n5:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.01\n$197.26 Mil\n0.0%\n-\n-",
+      "revenue_millions": 197.26,
+      "revenue_raw": "$197.26 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

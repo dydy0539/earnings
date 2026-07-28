@@ -1,0 +1,70 @@
+{
+  "date": "20260605",
+  "scraped_at": "2026-06-05T22:07:21.223426",
+  "companies": [
+    {
+      "symbol": "ABM",
+      "source": "*[class*='eps']",
+      "raw_text": "ABM\nABM Industries, Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n$0.92\n$2.22 Bil\n$0.90\n$2.29 Bil\n8.4%\n-2.2%",
+      "revenue_millions": 2220.0,
+      "revenue_raw": "$2.22 Bil",
+      "growth_rate": 8.4,
+      "growth_raw": "8.4%"
+    },
+    {
+      "symbol": "G",
+      "source": "*[class*='company']",
+      "raw_text": "G-III Apparel Group, Ltd."
+    },
+    {
+      "symbol": "GIII",
+      "source": "*[class*='eps']",
+      "raw_text": "GIII\nG-III Apparel Group, Ltd.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.30\n$530.00 Mil\n$-0.21\n$535.96 Mil\n-8.2%\n30.0%",
+      "revenue_millions": 530.0,
+      "revenue_raw": "$530.00 Mil",
+      "growth_rate": -8.2,
+      "growth_raw": "-8.2%"
+    },
+    {
+      "symbol": "GASS",
+      "source": "*[class*='eps']",
+      "raw_text": "GASS\nStealthGas Inc\n9:10 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "HERE",
+      "source": "*[class*='eps']",
+      "raw_text": "HERE\nHere Group Limited\n5:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.09\n$23.88 Mil\n0.0%\n-\n-",
+      "revenue_millions": 23.88,
+      "revenue_raw": "$23.88 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "HURC",
+      "source": "*[class*='eps']",
+      "raw_text": "HURC\nHurco Companies Inc.\n8:00 AM ETEarnings news alerts\nEarnings:\nRevenue:\n-\n-\n$-0.37\n$47.62 Mil\n0.0%\n-\n-",
+      "revenue_millions": 47.62,
+      "revenue_raw": "$47.62 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TOUR",
+      "source": "*[class*='eps']",
+      "raw_text": "TOUR\nTuniu Corporation\n6:15 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.04\n$19.22 Mil\n0.0%\n-\n-",
+      "revenue_millions": 19.22,
+      "revenue_raw": "$19.22 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "III",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "BNR",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

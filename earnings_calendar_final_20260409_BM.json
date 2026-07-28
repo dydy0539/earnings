@@ -1,0 +1,74 @@
+{
+  "date": "20260409",
+  "scraped_at": "2026-04-09T22:00:34.272260",
+  "companies": [
+    {
+      "symbol": "BB",
+      "source": "*[class*='eps']",
+      "raw_text": "BB\nBlackBerry Limited\nBefore Open\nEarnings:\nRevenue:\n$0.05\n$537.52 Mil\n$0.06\n$156.00 Mil\n10.1%\n20.0%\n-",
+      "revenue_millions": 537.52,
+      "revenue_raw": "$537.52 Mil",
+      "growth_rate": 10.1,
+      "growth_raw": "10.1%"
+    },
+    {
+      "symbol": "SMPL",
+      "source": "*[class*='eps']",
+      "raw_text": "SMPL\nSimply Good Foods Company\n7:00 AM ET\nEarnings:\nRevenue:\n$0.39\n$344.84 Mil\n$0.45\n$326.01 Mil\n-9.4%\n15.4%",
+      "revenue_millions": 344.84,
+      "revenue_raw": "$344.84 Mil",
+      "growth_rate": -9.4,
+      "growth_raw": "-9.4%"
+    },
+    {
+      "symbol": "NEOG",
+      "source": "*[class*='eps']",
+      "raw_text": "NEOG\nNeogen Corp.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.02\n$204.46 Mil\n$0.08\n$211.20 Mil\n-4.4%\n300.0%",
+      "revenue_millions": 204.46,
+      "revenue_raw": "$204.46 Mil",
+      "growth_rate": -4.4,
+      "growth_raw": "-4.4%"
+    },
+    {
+      "symbol": "BYRN",
+      "source": "*[class*='eps']",
+      "raw_text": "BYRN\nByrna Technologies Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$0.05\n$29.00 Mil\n$0.03\n$29.05 Mil\n10.9%\n-40.0%\n-",
+      "revenue_millions": 29.0,
+      "revenue_raw": "$29.00 Mil",
+      "growth_rate": 10.9,
+      "growth_raw": "10.9%"
+    },
+    {
+      "symbol": "NTIC",
+      "source": "*[class*='eps']",
+      "raw_text": "NTIC\nNorthern Technologies International Corporation\n8:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n$0.02\n$21.10 Mil\n$0.01\n$22.00 Mil\n15.3%\n-50.0%\n-",
+      "revenue_millions": 21.1,
+      "revenue_raw": "$21.10 Mil",
+      "growth_rate": 15.3,
+      "growth_raw": "15.3%"
+    },
+    {
+      "symbol": "FRCOY",
+      "source": "*[class*='eps']",
+      "raw_text": "FRCOY\nFast Retailing Co., Ltd.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.28\n$6.59 Bil\n13.4%\n-\n-",
+      "revenue_millions": 6590.0,
+      "revenue_raw": "$6.59 Bil",
+      "growth_rate": 13.4,
+      "growth_raw": "13.4%"
+    },
+    {
+      "symbol": "YI",
+      "source": "*[class*='eps']",
+      "raw_text": "YI\n111, Inc.\n6:10 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.20\n$403.28 Mil\n0.0%\n-\n-",
+      "revenue_millions": 403.28,
+      "revenue_raw": "$403.28 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LEDS",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,85 @@
+{
+  "date": "20251021",
+  "scraped_at": "2025-10-22T09:00:50.175264",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "EQT",
+      "name": "EQT Corporation",
+      "revenue_millions": 1930.0,
+      "revenue_raw": "$1.93 Bil",
+      "growth_rate": 52.6,
+      "growth_raw": "52.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "revenue_millions": 11520.0,
+      "revenue_raw": "$11.52 Bil",
+      "growth_rate": 17.2,
+      "growth_raw": "17.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical, Inc.",
+      "revenue_millions": 2410.0,
+      "revenue_raw": "$2.41 Bil",
+      "growth_rate": 22.9,
+      "growth_raw": "22.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One Financial Corp.",
+      "revenue_millions": 14850.0,
+      "revenue_raw": "$14.85 Bil",
+      "growth_rate": 42.9,
+      "growth_raw": "42.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PFSI",
+      "name": "PennyMac Financial Services, Inc.",
+      "revenue_millions": 550.54,
+      "revenue_raw": "$550.54 Mil",
+      "growth_rate": 53.7,
+      "growth_raw": "53.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 35
+}

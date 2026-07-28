@@ -1,0 +1,104 @@
+{
+  "source_file": "earnings_filtered_20260206_BM.json",
+  "analyzed_at": "2026-02-06T22:01:44.236528",
+  "total_companies": 4,
+  "successful_analyses": 4,
+  "companies": [
+    {
+      "company_name": "Centene Corporation",
+      "ticker": "CNC",
+      "status": "success",
+      "incremental_operating_margin": -11.43,
+      "latest_operating_margin": -0.42,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 18.24,
+      "operating_income_growth_pct": -131.73,
+      "details": {
+        "latest_quarter": {
+          "revenue": 49690000000.0,
+          "operating_income": -211000000.0,
+          "operating_margin_pct": -0.42
+        },
+        "prior_year_quarter": {
+          "revenue": 42023000000.0,
+          "operating_income": 665000000.0,
+          "operating_margin_pct": 1.58
+        }
+      }
+    },
+    {
+      "company_name": "nVent Electric plc",
+      "ticker": "NVT",
+      "status": "success",
+      "incremental_operating_margin": 12.17,
+      "latest_operating_margin": 15.78,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 34.78,
+      "operating_income_growth_pct": 24.85,
+      "details": {
+        "latest_quarter": {
+          "revenue": 1054000000.0,
+          "operating_income": 166300000.0,
+          "operating_margin_pct": 15.78
+        },
+        "prior_year_quarter": {
+          "revenue": 782000000.0,
+          "operating_income": 133200000.0,
+          "operating_margin_pct": 17.03
+        }
+      }
+    },
+    {
+      "company_name": "Johnson Outdoors Inc.",
+      "ticker": "JOUT",
+      "status": "success",
+      "incremental_operating_margin": 78.47,
+      "latest_operating_margin": -6.03,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 28.23,
+      "operating_income_growth_pct": -74.13,
+      "details": {
+        "latest_quarter": {
+          "revenue": 135762000.0,
+          "operating_income": -8183000.0,
+          "operating_margin_pct": -6.03
+        },
+        "prior_year_quarter": {
+          "revenue": 105874000.0,
+          "operating_income": -31636000.0,
+          "operating_margin_pct": -29.88
+        }
+      }
+    },
+    {
+      "company_name": "Piper Sandler Companies",
+      "ticker": "PIPR",
+      "status": "success",
+      "incremental_operating_margin": 100.0,
+      "latest_operating_margin": 100.0,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 32.49,
+      "operating_income_growth_pct": 32.49,
+      "details": {
+        "latest_quarter": {
+          "revenue": 461553000.0,
+          "operating_income": 461553000.0,
+          "operating_margin_pct": 100.0
+        },
+        "prior_year_quarter": {
+          "revenue": 348369000.0,
+          "operating_income": 348369000.0,
+          "operating_margin_pct": 100.0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "date": "20260225",
+  "scraped_at": "2026-02-26T09:01:02.216993",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "FTAI",
+      "name": "FTAI Aviation Ltd.",
+      "revenue_millions": 710.37,
+      "revenue_raw": "$710.37 Mil",
+      "growth_rate": 32.7,
+      "growth_raw": "32.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HCI",
+      "name": "HCI Group, Inc.",
+      "revenue_millions": 232.36,
+      "revenue_raw": "$232.36 Mil",
+      "growth_rate": 52.1,
+      "growth_raw": "52.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TKO",
+      "name": "TKO Group Holdings, Inc.",
+      "revenue_millions": 1020.0,
+      "revenue_raw": "$1.02 Bil",
+      "growth_rate": 61.6,
+      "growth_raw": "61.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corp.",
+      "revenue_millions": 65560.0,
+      "revenue_raw": "$65.56 Bil",
+      "growth_rate": 73.2,
+      "growth_raw": "73.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "SNOW",
+      "name": "Snowflake",
+      "revenue_millions": 1250.0,
+      "revenue_raw": "$1.25 Bil",
+      "growth_rate": 30.1,
+      "growth_raw": "30.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ Inc",
+      "revenue_millions": 40.31,
+      "revenue_raw": "$40.31 Mil",
+      "growth_rate": 428.5,
+      "growth_raw": "428.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNPS",
+      "name": "Synopsys, Inc.",
+      "revenue_millions": 2390.0,
+      "revenue_raw": "$2.39 Bil",
+      "growth_rate": 65.5,
+      "growth_raw": "65.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PSTG",
+      "name": "Pure Storage, Inc.",
+      "revenue_millions": 1030.0,
+      "revenue_raw": "$1.03 Bil",
+      "growth_rate": 20.4,
+      "growth_raw": "20.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NU",
+      "name": "Nu Holdings Ltd.",
+      "revenue_millions": 4550.0,
+      "revenue_raw": "$4.55 Bil",
+      "growth_rate": 56.8,
+      "growth_raw": "56.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RDW",
+      "name": "Redwire Corporation",
+      "revenue_millions": 100.51,
+      "revenue_raw": "$100.51 Mil",
+      "growth_rate": 56.4,
+      "growth_raw": "56.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STRL",
+      "name": "Sterling Construction Company, Inc.",
+      "revenue_millions": 648.6,
+      "revenue_raw": "$648.60 Mil",
+      "growth_rate": 51.5,
+      "growth_raw": "51.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SEZL",
+      "name": "Sezzle Inc.",
+      "revenue_millions": 128.91,
+      "revenue_raw": "$128.91 Mil",
+      "growth_rate": 32.2,
+      "growth_raw": "32.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARQT",
+      "name": "Arcutis Biotherapeutics, Inc.",
+      "revenue_millions": 115.71,
+      "revenue_raw": "$115.71 Mil",
+      "growth_rate": 81.5,
+      "growth_raw": "81.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SKYT",
+      "name": "SkyWater Technology",
+      "revenue_millions": 160.0,
+      "revenue_raw": "$160.00 Mil",
+      "growth_rate": 126.6,
+      "growth_raw": "126.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALKT",
+      "name": "Alkami Technology Inc",
+      "revenue_millions": 119.89,
+      "revenue_raw": "$119.89 Mil",
+      "growth_rate": 34.7,
+      "growth_raw": "34.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "revenue_millions": 141.27,
+      "revenue_raw": "$141.27 Mil",
+      "growth_rate": 49.8,
+      "growth_raw": "49.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TCOM",
+      "name": "Trip.com Group Limited",
+      "revenue_millions": 2100.0,
+      "revenue_raw": "$2.10 Bil",
+      "growth_rate": 26.4,
+      "growth_raw": "26.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ECPG",
+      "name": "Encore Capital Group, Inc.",
+      "revenue_millions": 424.48,
+      "revenue_raw": "$424.48 Mil",
+      "growth_rate": 78.3,
+      "growth_raw": "78.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PNTG",
+      "name": "Pennant Group, Inc.",
+      "revenue_millions": 273.04,
+      "revenue_raw": "$273.04 Mil",
+      "growth_rate": 53.2,
+      "growth_raw": "53.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 19,
+  "total_original": 187
+}

@@ -1,0 +1,115 @@
+{
+  "date": "20260203",
+  "scraped_at": "2026-02-04T09:00:53.967301",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "revenue_millions": 9650.0,
+      "revenue_raw": "$9.65 Bil",
+      "growth_rate": 34.1,
+      "growth_raw": "34.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SMCI",
+      "name": "Supermicro",
+      "revenue_millions": 10430.0,
+      "revenue_raw": "$10.43 Bil",
+      "growth_rate": 113.6,
+      "growth_raw": "113.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LITE",
+      "name": "Lumentum Holdings Inc.",
+      "revenue_millions": 652.39,
+      "revenue_raw": "$652.39 Mil",
+      "growth_rate": 65.5,
+      "growth_raw": "65.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive Software, Inc.",
+      "revenue_millions": 1590.0,
+      "revenue_raw": "$1.59 Bil",
+      "growth_rate": 24.9,
+      "growth_raw": "24.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMCR",
+      "name": "Amcor plc",
+      "revenue_millions": 5550.0,
+      "revenue_raw": "$5.55 Bil",
+      "growth_rate": 68.1,
+      "growth_raw": "68.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SIMO",
+      "name": "Silicon Motion Technology Corporation",
+      "revenue_millions": 261.2,
+      "revenue_raw": "$261.20 Mil",
+      "growth_rate": 45.7,
+      "growth_raw": "45.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TRVG",
+      "name": "trivago N.V.",
+      "revenue_millions": 129.14,
+      "revenue_raw": "$129.14 Mil",
+      "growth_rate": 38.1,
+      "growth_raw": "38.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RNR",
+      "name": "RenaissanceRe Holdings, Ltd.",
+      "revenue_millions": 2950.0,
+      "revenue_raw": "$2.95 Bil",
+      "growth_rate": 29.6,
+      "growth_raw": "29.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 8,
+  "total_original": 65
+}

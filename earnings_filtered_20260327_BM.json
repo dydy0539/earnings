@@ -1,0 +1,45 @@
+{
+  "date": "20260327",
+  "scraped_at": "2026-03-27T22:01:15.914571",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AUTL",
+      "name": "Autolus Therapeutics plc",
+      "revenue_millions": 22.23,
+      "revenue_raw": "$22.23 Mil",
+      "growth_rate": 655.2,
+      "growth_raw": "655.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 1,
+  "total_original": 32
+}

@@ -1,0 +1,114 @@
+{
+  "date": "20251121",
+  "scraped_at": "2025-11-21T22:00:28.255288",
+  "companies": [
+    {
+      "symbol": "BJ",
+      "source": "*[class*='eps']",
+      "raw_text": "BJ\nBJ's Wholesale Club, Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$1.10\n$5.36 Bil\n$1.16\n$5.35 Bil\n4.9%\n5.5%",
+      "revenue_millions": 5360.0,
+      "revenue_raw": "$5.36 Bil",
+      "growth_rate": 4.9,
+      "growth_raw": "4.9%"
+    },
+    {
+      "symbol": "OMS",
+      "source": "*[class*='company']",
+      "raw_text": "OMS Energy Technologies Inc."
+    },
+    {
+      "symbol": "X",
+      "source": "*[class*='company']",
+      "raw_text": "X Financial"
+    },
+    {
+      "symbol": "BMNR",
+      "source": "*[class*='eps']",
+      "raw_text": "BMNR\nBitmine Immersion Technologies, Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.10\n$2.10 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 2.1,
+      "revenue_raw": "$2.10 Mil"
+    },
+    {
+      "symbol": "MNSO",
+      "source": "*[class*='eps']",
+      "raw_text": "MNSO\nMINISO Group Holding Limited\n4:35 AM ET\nEarnings:\nRevenue:\n-\n$793.95 Mil\n$0.20\n$814.25 Mil\n26.3%\n-\n-",
+      "revenue_millions": 793.95,
+      "revenue_raw": "$793.95 Mil",
+      "growth_rate": 26.3,
+      "growth_raw": "26.3%"
+    },
+    {
+      "symbol": "FRO",
+      "source": "*[class*='eps']",
+      "raw_text": "FRO\nFrontline Ltd.\n5:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.19\n$432.65 Mil\n-11.8%\n-\n-",
+      "revenue_millions": 432.65,
+      "revenue_raw": "$432.65 Mil",
+      "growth_rate": -11.8,
+      "growth_raw": "-11.8%"
+    },
+    {
+      "symbol": "VFS",
+      "source": "*[class*='eps']",
+      "raw_text": "VFS\nVinFast Auto Ltd.\nBefore Open\nEarnings:\nRevenue:\n$-0.25\n$822.83 Mil\n$-0.41\n-\n0.0%\n-64.0%\n-",
+      "revenue_millions": 822.83,
+      "revenue_raw": "$822.83 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "AZTA",
+      "source": "*[class*='eps']",
+      "raw_text": "AZTA\nAzenta, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.21\n$156.77 Mil\n$0.21\n$159.19 Mil\n-6.4%\n0.0%\n-",
+      "revenue_millions": 156.77,
+      "revenue_raw": "$156.77 Mil",
+      "growth_rate": -6.4,
+      "growth_raw": "-6.4%"
+    },
+    {
+      "symbol": "MOG",
+      "source": "*[class*='eps']",
+      "raw_text": "MOG.A\nMoog Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$2.24\n-\n$2.56\n-\n0.0%\n14.3%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "OMSE",
+      "source": "*[class*='eps']",
+      "raw_text": "OMSE\nOMS Energy Technologies Inc.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n$68.50 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 68.5,
+      "revenue_raw": "$68.50 Mil"
+    },
+    {
+      "symbol": "BKE",
+      "source": "*[class*='eps']",
+      "raw_text": "BKE\nBuckle Inc\n6:50 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.96\n$320.84 Mil\n0.0%\n-\n-",
+      "revenue_millions": 320.84,
+      "revenue_raw": "$320.84 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "IESC",
+      "source": "*[class*='eps']",
+      "raw_text": "IESC\nIntegrated Electrical Services\n8:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$3.77\n$897.80 Mil\n0.0%\n-\n-",
+      "revenue_millions": 897.8,
+      "revenue_raw": "$897.80 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "XYF",
+      "source": "*[class*='eps']",
+      "raw_text": "XYF\nX Financial\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$1.43\n$275.45 Mil\n0.0%\n-\n-",
+      "revenue_millions": 275.45,
+      "revenue_raw": "$275.45 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "QD",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

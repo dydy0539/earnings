@@ -1,0 +1,52 @@
+{
+  "date": "20260701",
+  "scraped_at": "2026-07-02T09:00:30.810988",
+  "companies": [
+    {
+      "symbol": "BSET",
+      "source": "*[class*='eps']",
+      "raw_text": "BSET\nBassett Furniture Industries, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.20\n$83.43 Mil\n$0.24\n$83.75 Mil\n-0.7%\n20.0%\n-",
+      "revenue_millions": 83.43,
+      "revenue_raw": "$83.43 Mil",
+      "growth_rate": -0.7,
+      "growth_raw": "-0.7%"
+    },
+    {
+      "symbol": "FC",
+      "source": "*[class*='eps']",
+      "raw_text": "FC\nFranklin Covey Co.\n4:10 PM ET\nEarnings:\nRevenue:\n$0.24\n$68.08 Mil\n$0.34\n$67.81 Mil\n1.0%\n41.7%",
+      "revenue_millions": 68.08,
+      "revenue_raw": "$68.08 Mil",
+      "growth_rate": 1.0,
+      "growth_raw": "1.0%"
+    },
+    {
+      "symbol": "GBX",
+      "source": "*[class*='eps']",
+      "raw_text": "GBX\nGreenbrier Companies Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.57\n-\n$0.60\n$576.50 Mil\n-31.6%\n5.3%",
+      "revenue_millions": 576.5,
+      "revenue_raw": "$576.50 Mil",
+      "growth_rate": -31.6,
+      "growth_raw": "-31.6%"
+    },
+    {
+      "symbol": "CULP",
+      "source": "*[class*='eps']",
+      "raw_text": "CULP\nCulp, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.11\n$50.13 Mil\n$-0.17\n$51.62 Mil\n5.8%\n-54.5%\n-",
+      "revenue_millions": 50.13,
+      "revenue_raw": "$50.13 Mil",
+      "growth_rate": 5.8,
+      "growth_raw": "5.8%"
+    },
+    {
+      "symbol": "FIZZ",
+      "source": "*[class*='eps']",
+      "raw_text": "FIZZ\nNational Beverage Corp.\n4:30 PM ETEarnings calendar access\nEarnings:\nRevenue:\n-\n-\n$0.43\n$297.12 Mil\n0.0%\n-\n-",
+      "revenue_millions": 297.12,
+      "revenue_raw": "$297.12 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

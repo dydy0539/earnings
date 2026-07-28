@@ -1,0 +1,154 @@
+{
+  "date": "20260527",
+  "scraped_at": "2026-05-27T22:00:31.331144",
+  "companies": [
+    {
+      "symbol": "DICK",
+      "source": "*[class*='company']",
+      "raw_text": "DICK'S Sporting Goods, Inc."
+    },
+    {
+      "symbol": "DKS",
+      "source": "*[class*='eps']",
+      "raw_text": "DKS\nDICK'S Sporting Goods, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$2.91\n$5.04 Bil\n$2.90\n$5.16 Bil\n62.7%\n-0.3%",
+      "revenue_millions": 5040.0,
+      "revenue_raw": "$5.04 Bil",
+      "growth_rate": 62.7,
+      "growth_raw": "62.7%"
+    },
+    {
+      "symbol": "PDD",
+      "source": "*[class*='eps']",
+      "raw_text": "PDD\nPinduoduo Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$2.23\n$15.94 Bil\n$1.23\n$15.40 Bil\n16.8%\n-44.8%\n-",
+      "revenue_millions": 15940.0,
+      "revenue_raw": "$15.94 Bil",
+      "growth_rate": 16.8,
+      "growth_raw": "16.8%"
+    },
+    {
+      "symbol": "ANF",
+      "source": "*[class*='eps']",
+      "raw_text": "ANF\nAbercrombie & Fitch Co.\n7:30 AM ET\nEarnings:\nRevenue:\n$1.26\n$1.12 Bil\n$1.47\n$1.11 Bil\n1.5%\n16.7%",
+      "revenue_millions": 1120.0,
+      "revenue_raw": "$1.12 Bil",
+      "growth_rate": 1.5,
+      "growth_raw": "1.5%"
+    },
+    {
+      "symbol": "BNS",
+      "source": "*[class*='eps']",
+      "raw_text": "BNS\nBank of Nova Scotia\nBefore Open\nEarnings:\nRevenue:\n$1.46\n$28.84 Bil\n$1.47\n$12.69 Bil\n0.7%\n0.7%\n-",
+      "revenue_millions": 28840.0,
+      "revenue_raw": "$28.84 Bil",
+      "growth_rate": 0.7,
+      "growth_raw": "0.7%"
+    },
+    {
+      "symbol": "DY",
+      "source": "*[class*='eps']",
+      "raw_text": "DY\nDycom Industries Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$2.73\n$1.66 Bil\n$4.42\n$1.96 Bil\n56.1%\n61.9%",
+      "revenue_millions": 1660.0,
+      "revenue_raw": "$1.66 Bil",
+      "growth_rate": 56.1,
+      "growth_raw": "56.1%"
+    },
+    {
+      "symbol": "BBWI",
+      "source": "*[class*='eps']",
+      "raw_text": "BBWI\nBath & Body Works, Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n$0.29\n$1.36 Bil\n$0.32\n$1.38 Bil\n-3.2%\n10.3%",
+      "revenue_millions": 1360.0,
+      "revenue_raw": "$1.36 Bil",
+      "growth_rate": -3.2,
+      "growth_raw": "-3.2%"
+    },
+    {
+      "symbol": "CPRI",
+      "source": "*[class*='eps']",
+      "raw_text": "CPRI\nCapri Holdings Limited\n6:45 AM ET\nEarnings:\nRevenue:\n$0.11\n$803.66 Mil\n$0.22\n$796.00 Mil\n-23.1%\n100.0%",
+      "revenue_millions": 803.66,
+      "revenue_raw": "$803.66 Mil",
+      "growth_rate": -23.1,
+      "growth_raw": "-23.1%"
+    },
+    {
+      "symbol": "KC",
+      "source": "*[class*='eps']",
+      "raw_text": "KC\nKingsoft Cloud Holdings Limited\n7:55 AM ET\nEarnings:\nRevenue:\n$-0.09\n-\n$-0.01\n$391.96 Mil\n44.4%\n88.9%\n-",
+      "revenue_millions": 391.96,
+      "revenue_raw": "$391.96 Mil",
+      "growth_rate": 44.4,
+      "growth_raw": "44.4%"
+    },
+    {
+      "symbol": "MDWD",
+      "source": "*[class*='eps']",
+      "raw_text": "MDWD\nMediWound Ltd.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.65\n$3.36 Mil\n$-0.23\n$1.48 Mil\n-62.7%\n64.6%",
+      "revenue_millions": 3.36,
+      "revenue_raw": "$3.36 Mil",
+      "growth_rate": -62.7,
+      "growth_raw": "-62.7%"
+    },
+    {
+      "symbol": "MLAB",
+      "source": "*[class*='eps']",
+      "raw_text": "MLAB\nMesa Laboratories Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.78\n-\n$1.53\n$63.72 Mil\n2.6%\n-14.0%\n-",
+      "revenue_millions": 63.72,
+      "revenue_raw": "$63.72 Mil",
+      "growth_rate": 2.6,
+      "growth_raw": "2.6%"
+    },
+    {
+      "symbol": "MNRO",
+      "source": "*[class*='eps']",
+      "raw_text": "MNRO\nMonro, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.04\n$280.54 Mil\n$-0.16\n$273.84 Mil\n-7.2%\n-300.0%\n-",
+      "revenue_millions": 280.54,
+      "revenue_raw": "$280.54 Mil",
+      "growth_rate": -7.2,
+      "growth_raw": "-7.2%"
+    },
+    {
+      "symbol": "MOV",
+      "source": "*[class*='eps']",
+      "raw_text": "MOV\nMovado Group, Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n$0.05\n$135.13 Mil\n$0.32\n$142.40 Mil\n8.1%\n540.0%\n-",
+      "revenue_millions": 135.13,
+      "revenue_raw": "$135.13 Mil",
+      "growth_rate": 8.1,
+      "growth_raw": "8.1%"
+    },
+    {
+      "symbol": "SPMC",
+      "source": "*[class*='eps']",
+      "raw_text": "SPMC\nSound Point Meridian Capital, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.41\n$17.20 Mil\n$0.34\n$15.12 Mil\n-33.3%\n-17.1%\n-",
+      "revenue_millions": 17.2,
+      "revenue_raw": "$17.20 Mil",
+      "growth_rate": -33.3,
+      "growth_raw": "-33.3%"
+    },
+    {
+      "symbol": "BLRX",
+      "source": "*[class*='eps']",
+      "raw_text": "BLRX\nBioLineRx, Ltd.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.36\n$477.00 Thou\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "HAFN",
+      "source": "*[class*='eps']",
+      "raw_text": "HAFN\nHafnia Limited\n1:45 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.36\n$282.50 Mil\n0.0%\n-\n-",
+      "revenue_millions": 282.5,
+      "revenue_raw": "$282.50 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "MANU",
+      "source": "*[class*='eps']",
+      "raw_text": "MANU\nManchester United\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.04\n$255.36 Mil\n0.0%\n-\n-",
+      "revenue_millions": 255.36,
+      "revenue_raw": "$255.36 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,155 @@
+{
+  "date": "20251203",
+  "scraped_at": "2025-12-04T09:01:49.869813",
+  "companies": [
+    {
+      "symbol": "PVH",
+      "source": "*[class*='eps']",
+      "raw_text": "PVH\nPVH Corp.\n4:15 PM ET\nEarnings:\nRevenue:\n$2.56\n$2.27 Bil\n$2.83\n$2.29 Bil\n1.7%\n10.5%",
+      "revenue_millions": 2270.0,
+      "revenue_raw": "$2.27 Bil",
+      "growth_rate": 1.7,
+      "growth_raw": "1.7%"
+    },
+    {
+      "symbol": "CRM",
+      "source": "*[class*='eps']",
+      "raw_text": "CRM\nSalesforce\n4:00 PM ET\nEarnings:\nRevenue:\n$2.85\n$10.26 Bil\n$3.25\n$10.26 Bil\n8.6%\n14.0%",
+      "revenue_millions": 10260.0,
+      "revenue_raw": "$10.26 Bil",
+      "growth_rate": 8.6,
+      "growth_raw": "8.6%"
+    },
+    {
+      "symbol": "SNOW",
+      "source": "*[class*='eps']",
+      "raw_text": "SNOW\nSnowflake\n4:05 PM ET\nEarnings:\nRevenue:\n$0.31\n$1.18 Bil\n$0.35\n$1.21 Bil\n28.7%\n12.9%",
+      "revenue_millions": 1180.0,
+      "revenue_raw": "$1.18 Bil",
+      "growth_rate": 28.7,
+      "growth_raw": "28.7%"
+    },
+    {
+      "symbol": "AI",
+      "source": "*[class*='eps']",
+      "raw_text": "AI\nC3.ai, Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$-0.33\n$75.14 Mil\n$-0.25\n$75.15 Mil\n-20.3%\n24.2%",
+      "revenue_millions": 75.14,
+      "revenue_raw": "$75.14 Mil",
+      "growth_rate": -20.3,
+      "growth_raw": "-20.3%"
+    },
+    {
+      "symbol": "PATH",
+      "source": "*[class*='eps']",
+      "raw_text": "PATH\nUiPath, Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$0.15\n$392.62 Mil\n$0.16\n$411.11 Mil\n15.9%\n6.7%",
+      "revenue_millions": 392.62,
+      "revenue_raw": "$392.62 Mil",
+      "growth_rate": 15.9,
+      "growth_raw": "15.9%"
+    },
+    {
+      "symbol": "FIVE",
+      "source": "*[class*='eps']",
+      "raw_text": "FIVE\nFive Below, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.22\n$969.89 Mil\n$0.68\n$1.04 Bil\n23.1%\n209.1%",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil",
+      "growth_rate": 23.1,
+      "growth_raw": "23.1%"
+    },
+    {
+      "symbol": "GWRE",
+      "source": "*[class*='eps']",
+      "raw_text": "GWRE\nGuidewire Software, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.61\n$317.24 Mil\n$0.66\n$332.64 Mil\n26.5%\n8.2%",
+      "revenue_millions": 317.24,
+      "revenue_raw": "$317.24 Mil",
+      "growth_rate": 26.5,
+      "growth_raw": "26.5%"
+    },
+    {
+      "symbol": "HQY",
+      "source": "*[class*='eps']",
+      "raw_text": "HQY\nHealthEquity, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.91\n$319.96 Mil\n$1.01\n$322.16 Mil\n7.2%\n11.0%",
+      "revenue_millions": 319.96,
+      "revenue_raw": "$319.96 Mil",
+      "growth_rate": 7.2,
+      "growth_raw": "7.2%"
+    },
+    {
+      "symbol": "DSGX",
+      "source": "*[class*='eps']",
+      "raw_text": "DSGX\nDescartes Systems Group, Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$0.46\n$182.56 Mil\n$0.50\n$187.68 Mil\n11.2%\n8.7%\n-",
+      "revenue_millions": 182.56,
+      "revenue_raw": "$182.56 Mil",
+      "growth_rate": 11.2,
+      "growth_raw": "11.2%"
+    },
+    {
+      "symbol": "NCNO",
+      "source": "*[class*='eps']",
+      "raw_text": "NCNO\nnCino, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.21\n$147.32 Mil\n$0.31\n$152.16 Mil\n9.6%\n47.6%",
+      "revenue_millions": 147.32,
+      "revenue_raw": "$147.32 Mil",
+      "growth_rate": 9.6,
+      "growth_raw": "9.6%"
+    },
+    {
+      "symbol": "TLYS",
+      "source": "*[class*='eps']",
+      "raw_text": "TLYS\nTilly's, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.30\n$136.90 Mil\n$-0.05\n$139.59 Mil\n-2.7%\n83.3%",
+      "revenue_millions": 136.9,
+      "revenue_raw": "$136.90 Mil",
+      "growth_rate": -2.7,
+      "growth_raw": "-2.7%"
+    },
+    {
+      "symbol": "CURV",
+      "source": "*[class*='eps']",
+      "raw_text": "CURV\nTorrid Holdings Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.01\n$240.67 Mil\n$-0.06\n$235.15 Mil\n-10.8%\n-500.0%",
+      "revenue_millions": 240.67,
+      "revenue_raw": "$240.67 Mil",
+      "growth_rate": -10.8,
+      "growth_raw": "-10.8%"
+    },
+    {
+      "symbol": "NOTV",
+      "source": "*[class*='eps']",
+      "raw_text": "NOTV\nInotiv, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.14\n$138.14 Mil\n5.9%\n-\n-",
+      "revenue_millions": 138.14,
+      "revenue_raw": "$138.14 Mil",
+      "growth_rate": 5.9,
+      "growth_raw": "5.9%"
+    },
+    {
+      "symbol": "HNNA",
+      "source": "*[class*='eps']",
+      "raw_text": "HNNA\nHennessy Advisors Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.31\n$8.50 Mil\n0.0%\n-\n-",
+      "revenue_millions": 8.5,
+      "revenue_raw": "$8.50 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "MEI",
+      "source": "*[class*='eps']",
+      "raw_text": "MEI\nMethode Electronics, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.19\n$246.90 Mil\n0.0%\n-\n-",
+      "revenue_millions": 246.9,
+      "revenue_raw": "$246.90 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "POM",
+      "source": "*[class*='eps']",
+      "raw_text": "POM\nPepco Holdings, Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "CULP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "GEF",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

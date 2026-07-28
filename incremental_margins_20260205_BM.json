@@ -1,0 +1,104 @@
+{
+  "source_file": "earnings_filtered_20260205_BM.json",
+  "analyzed_at": "2026-02-11T13:12:03.793073",
+  "total_companies": 4,
+  "successful_analyses": 4,
+  "companies": [
+    {
+      "company_name": "KKR & Co. L.P.",
+      "ticker": "KKR",
+      "status": "success",
+      "incremental_operating_margin": 61.18,
+      "latest_operating_margin": 9.38,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 15.5,
+      "operating_income_growth_pct": 700.66,
+      "details": {
+        "latest_quarter": {
+          "revenue": 5464926000.0,
+          "operating_income": 512719000.0,
+          "operating_margin_pct": 9.38
+        },
+        "prior_year_quarter": {
+          "revenue": 4731534000.0,
+          "operating_income": 64037000.0,
+          "operating_margin_pct": 1.35
+        }
+      }
+    },
+    {
+      "company_name": "Cardinal Health, Inc.",
+      "ticker": "CAH",
+      "status": "success",
+      "incremental_operating_margin": 2.25,
+      "latest_operating_margin": 1.16,
+      "latest_quarter_date": "2025-12-31",
+      "prior_year_quarter_date": "2024-12-31",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 18.75,
+      "operating_income_growth_pct": 43.96,
+      "details": {
+        "latest_quarter": {
+          "revenue": 65627000000.0,
+          "operating_income": 763000000.0,
+          "operating_margin_pct": 1.16
+        },
+        "prior_year_quarter": {
+          "revenue": 55264000000.0,
+          "operating_income": 530000000.0,
+          "operating_margin_pct": 0.96
+        }
+      }
+    },
+    {
+      "company_name": "Construction Partners, Inc.",
+      "ticker": "ROAD",
+      "status": "success",
+      "incremental_operating_margin": 11.17,
+      "latest_operating_margin": 7.41,
+      "latest_quarter_date": "2025-12-31",
+      "prior_year_quarter_date": "2024-12-31",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 44.14,
+      "operating_income_growth_pct": 85.73,
+      "details": {
+        "latest_quarter": {
+          "revenue": 809469000.0,
+          "operating_income": 59999000.0,
+          "operating_margin_pct": 7.41
+        },
+        "prior_year_quarter": {
+          "revenue": 561580000.0,
+          "operating_income": 32305000.0,
+          "operating_margin_pct": 5.75
+        }
+      }
+    },
+    {
+      "company_name": "Liquidity Services Inc.",
+      "ticker": "LQDT",
+      "status": "success",
+      "incremental_operating_margin": -205.4,
+      "latest_operating_margin": 7.73,
+      "latest_quarter_date": "2025-12-31",
+      "prior_year_quarter_date": "2024-12-31",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": -0.91,
+      "operating_income_growth_pct": 32.23,
+      "details": {
+        "latest_quarter": {
+          "revenue": 121219000.0,
+          "operating_income": 9371000.0,
+          "operating_margin_pct": 7.73
+        },
+        "prior_year_quarter": {
+          "revenue": 122331000.0,
+          "operating_income": 7087000.0,
+          "operating_margin_pct": 5.79
+        }
+      }
+    }
+  ]
+}

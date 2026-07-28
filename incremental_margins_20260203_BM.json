@@ -1,0 +1,32 @@
+{
+  "source_file": "earnings_filtered_20260203_BM.json",
+  "analyzed_at": "2026-02-03T22:01:54.236206",
+  "total_companies": 1,
+  "successful_analyses": 1,
+  "companies": [
+    {
+      "company_name": "fuboTV Inc.",
+      "ticker": "FUBO",
+      "status": "success",
+      "incremental_operating_margin": -427.01,
+      "latest_operating_margin": -5.34,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": -2.33,
+      "operating_income_growth_pct": -65.63,
+      "details": {
+        "latest_quarter": {
+          "revenue": 377195000.0,
+          "operating_income": -20150000.0,
+          "operating_margin_pct": -5.34
+        },
+        "prior_year_quarter": {
+          "revenue": 386207000.0,
+          "operating_income": -58632000.0,
+          "operating_margin_pct": -15.18
+        }
+      }
+    }
+  ]
+}

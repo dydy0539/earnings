@@ -1,0 +1,231 @@
+{
+  "date": "20260310",
+  "scraped_at": "2026-03-10T22:00:54.247311",
+  "companies": [
+    {
+      "symbol": "NIO",
+      "source": "*[class*='eps']",
+      "raw_text": "NIO\nNIO Inc.\n5:10 AM ET\nEarnings:\nRevenue:\n$-0.05\n$4.61 Bil\n$0.01\n$4.95 Bil\n83.6%\n120.0%",
+      "revenue_millions": 4610.0,
+      "revenue_raw": "$4.61 Bil",
+      "growth_rate": 83.6,
+      "growth_raw": "83.6%"
+    },
+    {
+      "symbol": "ABM",
+      "source": "*[class*='eps']",
+      "raw_text": "ABM\nABM Industries, Inc.\n6:55 AM ETInteractive earnings calendar\nEarnings:\nRevenue:\n$0.87\n$2.21 Bil\n$0.83\n$2.24 Bil\n6.1%\n-4.6%",
+      "revenue_millions": 2210.0,
+      "revenue_raw": "$2.21 Bil",
+      "growth_rate": 6.1,
+      "growth_raw": "6.1%"
+    },
+    {
+      "symbol": "ADC",
+      "source": "*[class*='company']",
+      "raw_text": "ADC Therapeutics SA"
+    },
+    {
+      "symbol": "SE",
+      "source": "*[class*='company']",
+      "raw_text": "BioNTech SE"
+    },
+    {
+      "symbol": "KVH",
+      "source": "*[class*='company']",
+      "raw_text": "KVH Industries, Inc."
+    },
+    {
+      "symbol": "KSS",
+      "source": "*[class*='eps']",
+      "raw_text": "KSS\nKohl's Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$0.85\n$5.23 Bil\n$1.07\n$5.17 Bil\n-4.2%\n25.9%",
+      "revenue_millions": 5230.0,
+      "revenue_raw": "$5.23 Bil",
+      "growth_rate": -4.2,
+      "growth_raw": "-4.2%"
+    },
+    {
+      "symbol": "UEC",
+      "source": "*[class*='eps']",
+      "raw_text": "UEC\nUranium Energy Corp\n6:15 AM ET\nEarnings:\nRevenue:\n$-0.06\n$10.00 Mil\n$-0.03\n$20.20 Mil\n-59.4%\n50.0%\n-",
+      "revenue_millions": 10.0,
+      "revenue_raw": "$10.00 Mil",
+      "growth_rate": -59.4,
+      "growth_raw": "-59.4%"
+    },
+    {
+      "symbol": "UNFI",
+      "source": "*[class*='eps']",
+      "raw_text": "UNFI\nUnited Natural Foods, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.51\n$8.15 Bil\n$0.62\n$7.95 Bil\n-2.6%\n21.6%",
+      "revenue_millions": 8150.0,
+      "revenue_raw": "$8.15 Bil",
+      "growth_rate": -2.6,
+      "growth_raw": "-2.6%"
+    },
+    {
+      "symbol": "ADCT",
+      "source": "*[class*='eps']",
+      "raw_text": "ADCT\nADC Therapeutics SA\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.32\n$19.15 Mil\n$-0.04\n$23.06 Mil\n36.4%\n87.5%\n-",
+      "revenue_millions": 19.15,
+      "revenue_raw": "$19.15 Mil",
+      "growth_rate": 36.4,
+      "growth_raw": "36.4%"
+    },
+    {
+      "symbol": "BNTX",
+      "source": "*[class*='eps']",
+      "raw_text": "BNTX\nBioNTech SE\n6:45 AM ET\nEarnings:\nRevenue:\n$-0.22\n$881.23 Mil\n$-0.38\n$1.06 Bil\n-16.8%\n-72.7%",
+      "revenue_millions": 1060.0,
+      "revenue_raw": "$1.06 Bil",
+      "growth_rate": -16.8,
+      "growth_raw": "-16.8%"
+    },
+    {
+      "symbol": "ESPR",
+      "source": "*[class*='eps']",
+      "raw_text": "ESPR\nEsperion Therapeutics, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.23\n$160.58 Mil\n$0.22\n$168.45 Mil\n143.7%\n-4.3%\n-",
+      "revenue_millions": 160.58,
+      "revenue_raw": "$160.58 Mil",
+      "growth_rate": 143.7,
+      "growth_raw": "143.7%"
+    },
+    {
+      "symbol": "PRTH",
+      "source": "*[class*='eps']",
+      "raw_text": "PRTH\nPriority Technology Holdings, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.29\n$249.77 Mil\n$0.27\n$247.13 Mil\n8.8%\n-6.9%",
+      "revenue_millions": 249.77,
+      "revenue_raw": "$249.77 Mil",
+      "growth_rate": 8.8,
+      "growth_raw": "8.8%"
+    },
+    {
+      "symbol": "APYX",
+      "source": "*[class*='eps']",
+      "raw_text": "APYX\nApyx Medical Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.06\n$19.14 Mil\n$-0.03\n$19.16 Mil\n34.7%\n50.0%",
+      "revenue_millions": 19.14,
+      "revenue_raw": "$19.14 Mil",
+      "growth_rate": 34.7,
+      "growth_raw": "34.7%"
+    },
+    {
+      "symbol": "GBLI",
+      "source": "*[class*='eps']",
+      "raw_text": "GBLI\nGlobal Indemnity plc\n8:00 AM ET\nEarnings:\nRevenue:\n$0.89\n$117.00 Mil\n$0.44\n$116.73 Mil\n7.6%\n-50.6%\n-",
+      "revenue_millions": 117.0,
+      "revenue_raw": "$117.00 Mil",
+      "growth_rate": 7.6,
+      "growth_raw": "7.6%"
+    },
+    {
+      "symbol": "CMT",
+      "source": "*[class*='eps']",
+      "raw_text": "CMT\nCore Molding Technologies Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$0.23\n$66.44 Mil\n$0.36\n$74.68 Mil\n19.5%\n56.5%\n-",
+      "revenue_millions": 66.44,
+      "revenue_raw": "$66.44 Mil",
+      "growth_rate": 19.5,
+      "growth_raw": "19.5%"
+    },
+    {
+      "symbol": "CTOS",
+      "source": "*[class*='eps']",
+      "raw_text": "CTOS\nCustom Truck One Source, Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.09\n$581.67 Mil\n$0.09\n$528.18 Mil\n1.4%\n0.0%",
+      "revenue_millions": 581.67,
+      "revenue_raw": "$581.67 Mil",
+      "growth_rate": 1.4,
+      "growth_raw": "1.4%"
+    },
+    {
+      "symbol": "INSE",
+      "source": "*[class*='eps']",
+      "raw_text": "INSE\nInspired Entertainment, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.25\n$77.77 Mil\n$-0.18\n$77.20 Mil\n-7.0%\n-172.0%\n-",
+      "revenue_millions": 77.77,
+      "revenue_raw": "$77.77 Mil",
+      "growth_rate": -7.0,
+      "growth_raw": "-7.0%"
+    },
+    {
+      "symbol": "LEGN",
+      "source": "*[class*='eps']",
+      "raw_text": "LEGN\nLegend Biotech Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.17\n$299.77 Mil\n$-0.08\n$306.30 Mil\n64.2%\n52.9%\n-",
+      "revenue_millions": 299.77,
+      "revenue_raw": "$299.77 Mil",
+      "growth_rate": 64.2,
+      "growth_raw": "64.2%"
+    },
+    {
+      "symbol": "STGW",
+      "source": "*[class*='eps']",
+      "raw_text": "STGW\nStagwell Inc.\n7:15 AM ET\nEarnings:\nRevenue:\n$0.25\n$804.64 Mil\n$0.27\n$807.44 Mil\n2.4%\n8.0%",
+      "revenue_millions": 804.64,
+      "revenue_raw": "$804.64 Mil",
+      "growth_rate": 2.4,
+      "growth_raw": "2.4%"
+    },
+    {
+      "symbol": "XGN",
+      "source": "*[class*='eps']",
+      "raw_text": "XGN\nExagen, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.20\n$16.37 Mil\n$-0.20\n$16.63 Mil\n21.8%\n0.0%",
+      "revenue_millions": 16.37,
+      "revenue_raw": "$16.37 Mil",
+      "growth_rate": 21.8,
+      "growth_raw": "21.8%"
+    },
+    {
+      "symbol": "IPWR",
+      "source": "*[class*='eps']",
+      "raw_text": "IPWR\nIdeal Power, Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.21\n-\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KVHI",
+      "source": "*[class*='eps']",
+      "raw_text": "KVHI\nKVH Industries, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.05\n$30.52 Mil\n0.0%\n-\n-",
+      "revenue_millions": 30.52,
+      "revenue_raw": "$30.52 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NUWE",
+      "source": "*[class*='eps']",
+      "raw_text": "NUWE\nNuwellis, Inc.\n8:15 AM ET\nEarnings:\nRevenue:\n-\n-\n$-1.50\n$2.42 Mil\n0.0%\n-\n-",
+      "revenue_millions": 2.42,
+      "revenue_raw": "$2.42 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "OCC",
+      "source": "*[class*='eps']",
+      "raw_text": "OCC\nOptical Cable Corp.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.05\n$16.43 Mil\n0.0%\n-\n-",
+      "revenue_millions": 16.43,
+      "revenue_raw": "$16.43 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ULBI",
+      "source": "*[class*='eps']",
+      "raw_text": "ULBI\nUltralife Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.12\n$48.48 Mil\n0.0%\n-\n-",
+      "revenue_millions": 48.48,
+      "revenue_raw": "$48.48 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "WLFC",
+      "source": "*[class*='eps']",
+      "raw_text": "WLFC\nWillis Lease Finance Corp.\n8:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$1.52\n$193.62 Mil\n0.0%\n-\n-",
+      "revenue_millions": 193.62,
+      "revenue_raw": "$193.62 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SA",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

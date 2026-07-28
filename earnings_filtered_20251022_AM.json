@@ -1,0 +1,85 @@
+{
+  "date": "20251022",
+  "scraped_at": "2025-10-23T09:01:21.568900",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "revenue_millions": 26270.0,
+      "revenue_raw": "$26.27 Bil",
+      "growth_rate": 11.6,
+      "growth_raw": "11.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corp.",
+      "revenue_millions": 5220.0,
+      "revenue_raw": "$5.22 Bil",
+      "growth_rate": 27.7,
+      "growth_raw": "27.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LC",
+      "name": "Lending Club",
+      "revenue_millions": 256.72,
+      "revenue_raw": "$256.72 Mil",
+      "growth_rate": 31.9,
+      "growth_raw": "31.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LVS",
+      "name": "Las Vegas Sands Corp",
+      "revenue_millions": 3010.0,
+      "revenue_raw": "$3.01 Bil",
+      "growth_rate": 24.2,
+      "growth_raw": "24.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VIST",
+      "name": "Vista Energy, S.A.B. de C.V.",
+      "revenue_millions": 614.51,
+      "revenue_raw": "$614.51 Mil",
+      "growth_rate": 52.7,
+      "growth_raw": "52.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 10,
+  "total_original": 98
+}

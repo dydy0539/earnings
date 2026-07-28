@@ -1,0 +1,75 @@
+{
+  "date": "20251125",
+  "scraped_at": "2025-11-26T09:00:42.344350",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CLSK",
+      "name": "CleanSpark, Inc.",
+      "revenue_millions": 238.76,
+      "revenue_raw": "$238.76 Mil",
+      "growth_rate": 150.5,
+      "growth_raw": "150.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ZS",
+      "name": "Zscaler, Inc.",
+      "revenue_millions": 773.35,
+      "revenue_raw": "$773.35 Mil",
+      "growth_rate": 25.5,
+      "growth_raw": "25.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMBA",
+      "name": "Ambarella, Inc.",
+      "revenue_millions": 104.11,
+      "revenue_raw": "$104.11 Mil",
+      "growth_rate": 31.2,
+      "growth_raw": "31.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BBAR",
+      "name": "Banco BBVA Argentina S.A.",
+      "revenue_millions": 1210.0,
+      "revenue_raw": "$1.21 Bil",
+      "growth_rate": 24.8,
+      "growth_raw": "24.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 22
+}

@@ -1,0 +1,87 @@
+{
+  "date": "20260611",
+  "scraped_at": "2026-06-11T22:10:06.788320",
+  "companies": [
+    {
+      "symbol": "J",
+      "source": "*[class*='company']",
+      "raw_text": "J. W. MAYS INC"
+    },
+    {
+      "symbol": "HOFT",
+      "source": "*[class*='eps']",
+      "raw_text": "HOFT\nHooker Furniture Corp.\n6:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n$-0.07\n$66.32 Mil\n$0.10\n$69.45 Mil\n-18.6%\n242.9%\n-",
+      "revenue_millions": 66.32,
+      "revenue_raw": "$66.32 Mil",
+      "growth_rate": -18.6,
+      "growth_raw": "-18.6%"
+    },
+    {
+      "symbol": "LOVE",
+      "source": "*[class*='eps']",
+      "raw_text": "LOVE\nLovesac Company\n7:00 AM ET\nEarnings:\nRevenue:\n$-1.03\n$137.09 Mil\n$-0.76\n$138.20 Mil\n-0.1%\n26.2%",
+      "revenue_millions": 137.09,
+      "revenue_raw": "$137.09 Mil",
+      "growth_rate": -0.1,
+      "growth_raw": "-0.1%"
+    },
+    {
+      "symbol": "MH",
+      "source": "*[class*='eps']",
+      "raw_text": "MH\nMcGraw Hill, Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.15\n$441.20 Mil\n$0.31\n$463.72 Mil\n0.0%\n106.7%",
+      "revenue_millions": 441.2,
+      "revenue_raw": "$441.20 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ACB",
+      "source": "*[class*='eps']",
+      "raw_text": "ACB\nAurora Cannabis Inc\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.07\n$55.29 Mil\n$0.07\n$65.11 Mil\n3.2%\n200.0%\n-",
+      "revenue_millions": 55.29,
+      "revenue_raw": "$55.29 Mil",
+      "growth_rate": 3.2,
+      "growth_raw": "3.2%"
+    },
+    {
+      "symbol": "DRVN",
+      "source": "*[class*='eps']",
+      "raw_text": "DRVN\nDriven Brands Holdings Inc.\n7:15 AM ET\nEarnings:\nRevenue:\n$0.22\n$482.00 Mil\n$0.27\n$484.44 Mil\n-6.1%\n22.7%",
+      "revenue_millions": 482.0,
+      "revenue_raw": "$482.00 Mil",
+      "growth_rate": -6.1,
+      "growth_raw": "-6.1%"
+    },
+    {
+      "symbol": "VRA",
+      "source": "*[class*='eps']",
+      "raw_text": "VRA\nVera Bradley, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.33\n$49.12 Mil\n$-0.09\n$55.70 Mil\n7.8%\n72.7%",
+      "revenue_millions": 49.12,
+      "revenue_raw": "$49.12 Mil",
+      "growth_rate": 7.8,
+      "growth_raw": "7.8%"
+    },
+    {
+      "symbol": "MAYS",
+      "source": "*[class*='eps']",
+      "raw_text": "MAYS\nJ. W. MAYS INC\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.11\n$5.32 Mil\n0.0%\n-\n-",
+      "revenue_millions": 5.32,
+      "revenue_raw": "$5.32 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CRMT",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "INC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "YRD",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,125 @@
+{
+  "date": "20250805",
+  "scraped_at": "2025-08-05T21:48:19.977170",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "LMND",
+      "name": "Lemonade, Inc.",
+      "revenue_millions": 162.39,
+      "revenue_raw": "$162.39 Mil",
+      "growth_rate": 34.5,
+      "growth_raw": "34.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ERJ",
+      "name": "Embraer",
+      "revenue_millions": 1670.0,
+      "revenue_raw": "$1.67 Bil",
+      "growth_rate": 21.8,
+      "growth_raw": "21.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MDGL",
+      "name": "Madrigal Pharmaceuticals, Inc.",
+      "revenue_millions": 160.13,
+      "revenue_raw": "$160.13 Mil",
+      "growth_rate": 353.8,
+      "growth_raw": "353.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SLAB",
+      "name": "Silicon Laboratories Inc.",
+      "revenue_millions": 192.5,
+      "revenue_raw": "$192.50 Mil",
+      "growth_rate": 32.7,
+      "growth_raw": "32.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AROC",
+      "name": "Archrock, Inc.",
+      "revenue_millions": 383.15,
+      "revenue_raw": "$383.15 Mil",
+      "growth_rate": 31.1,
+      "growth_raw": "31.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BOW",
+      "name": "Bowhead Specialty Holdings Inc.",
+      "revenue_millions": 130.63,
+      "revenue_raw": "$130.63 Mil",
+      "growth_rate": 34.7,
+      "growth_raw": "34.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FTCI",
+      "name": "FTC Solar, Inc",
+      "revenue_millions": 19.2,
+      "revenue_raw": "$19.20 Mil",
+      "growth_rate": 74.9,
+      "growth_raw": "74.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RYTM",
+      "name": "Rhythm Pharmaceuticals, Inc.",
+      "revenue_millions": 43.41,
+      "revenue_raw": "$43.41 Mil",
+      "growth_rate": 66.8,
+      "growth_raw": "66.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "STIM",
+      "name": "Neuronetics, Inc.",
+      "revenue_millions": 36.69,
+      "revenue_raw": "$36.69 Mil",
+      "growth_rate": 131.7,
+      "growth_raw": "131.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 9,
+  "total_original": 153
+}

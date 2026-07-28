@@ -1,0 +1,108 @@
+{
+  "date": "20260426",
+  "scraped_at": "2026-04-27T09:00:54.158277",
+  "companies": [
+    {
+      "symbol": "ACM",
+      "source": "*[class*='company']",
+      "raw_text": "ACM Research, Inc."
+    },
+    {
+      "symbol": "L",
+      "source": "*[class*='company']",
+      "raw_text": "Alliance Resource Partners, L.P."
+    },
+    {
+      "symbol": "HBT",
+      "source": "*[class*='eps']",
+      "raw_text": "HBT\nHBT Financial, Inc.\n7:05 AM ET\nEarnings:\n$0.62\nRevenue:\n$67.05 Mil\n-7.4%",
+      "revenue_millions": 67.05,
+      "revenue_raw": "Revenue:\n$67.05 Mil",
+      "growth_rate": -7.4,
+      "growth_raw": "-7.4%"
+    },
+    {
+      "symbol": "VZ",
+      "source": "*[class*='eps']",
+      "raw_text": "VZ\nVerizon Communications\n6:30 AM ET\nEarnings:\n$1.22\nRevenue:\n$35.03 Bil\n4.6%",
+      "revenue_millions": 35030.0,
+      "revenue_raw": "Revenue:\n$35.03 Bil",
+      "growth_rate": 4.6,
+      "growth_raw": "4.6%"
+    },
+    {
+      "symbol": "ACMR",
+      "source": "*[class*='eps']",
+      "raw_text": "ACMR\nACM Research, Inc.\n7:00 AM ET\nEarnings:\n$0.20\nRevenue:\n$221.88 Mil\n28.7%",
+      "revenue_millions": 221.88,
+      "revenue_raw": "Revenue:\n$221.88 Mil",
+      "growth_rate": 28.7,
+      "growth_raw": "28.7%"
+    },
+    {
+      "symbol": "DPZ",
+      "source": "*[class*='eps']",
+      "raw_text": "DPZ\nDomino's Pizza, Inc.\n6:05 AM ET\nEarnings:\n$4.29\nRevenue:\n$1.17 Bil\n5.2%",
+      "revenue_millions": 1170.0,
+      "revenue_raw": "Revenue:\n$1.17 Bil",
+      "growth_rate": 5.2,
+      "growth_raw": "5.2%"
+    },
+    {
+      "symbol": "BFST",
+      "source": "*[class*='eps']",
+      "raw_text": "BFST\nBusiness First Bancshares, Inc.\n8:20 AM ET\nEarnings:\n$0.69\nRevenue:\n$89.83 Mil\n-29.2%",
+      "revenue_millions": 89.83,
+      "revenue_raw": "Revenue:\n$89.83 Mil",
+      "growth_rate": -29.2,
+      "growth_raw": "-29.2%"
+    },
+    {
+      "symbol": "DEA",
+      "source": "*[class*='eps']",
+      "raw_text": "DEA\nEasterly Government Properties, Inc.\n6:30 AM ET\nEarnings:\n-\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "FULC",
+      "source": "*[class*='eps']",
+      "raw_text": "FULC\nFulcrum Therapeutics, Inc.\n7:00 AM ET\nEarnings:\n$-0.31\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "ARLP",
+      "source": "*[class*='eps']",
+      "raw_text": "ARLP\nAlliance Resource Partners, L.P.\n7:00 AM ET\nEarnings:\n$0.27\nRevenue:\n$497.79 Mil\n-7.9%",
+      "revenue_millions": 497.79,
+      "revenue_raw": "Revenue:\n$497.79 Mil",
+      "growth_rate": -7.9,
+      "growth_raw": "-7.9%"
+    },
+    {
+      "symbol": "BMRC",
+      "source": "*[class*='eps']",
+      "raw_text": "BMRC\nBank of Marin Bancorp\n8:30 AM ET\nEarnings:\n$0.56\nRevenue:\n$34.25 Mil\n-10.1%",
+      "revenue_millions": 34.25,
+      "revenue_raw": "Revenue:\n$34.25 Mil",
+      "growth_rate": -10.1,
+      "growth_raw": "-10.1%"
+    },
+    {
+      "symbol": "LKFN",
+      "source": "*[class*='eps']",
+      "raw_text": "LKFN\nLakeland Financial Corp.\n7:00 AM ET\nEarnings:\n$1.01\nRevenue:\n$68.40 Mil\n-32.5%",
+      "revenue_millions": 68.4,
+      "revenue_raw": "Revenue:\n$68.40 Mil",
+      "growth_rate": -32.5,
+      "growth_raw": "-32.5%"
+    },
+    {
+      "symbol": "NWFL",
+      "source": "*[class*='eps']",
+      "raw_text": "NWFL\nNorwood Financial Corp\n8:15 AM ET\nEarnings:\n$0.81\nRevenue:\n$27.00 Mil\n-16.8%",
+      "revenue_millions": 27.0,
+      "revenue_raw": "Revenue:\n$27.00 Mil",
+      "growth_rate": -16.8,
+      "growth_raw": "-16.8%"
+    }
+  ],
+  "status": "success"
+}

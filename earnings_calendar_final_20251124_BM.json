@@ -1,0 +1,53 @@
+{
+  "date": "20251124",
+  "scraped_at": "2025-11-24T22:00:33.331947",
+  "companies": [
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Corporación América Airports S.A."
+    },
+    {
+      "symbol": "CAAP",
+      "source": "*[class*='eps']",
+      "raw_text": "CAAP\nCorporación América Airports S.A.\nBefore Open\nEarnings:\nRevenue:\n$0.53\n$491.50 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 491.5,
+      "revenue_raw": "$491.50 Mil"
+    },
+    {
+      "symbol": "WRD",
+      "source": "*[class*='eps']",
+      "raw_text": "WRD\nWeRide Inc.\n4:00 AM ET\nEarnings:\nRevenue:\n-\n$92.07 Mil\n$-0.15\n$24.02 Mil\n140.7%\n-\n-",
+      "revenue_millions": 92.07,
+      "revenue_raw": "$92.07 Mil",
+      "growth_rate": 140.7,
+      "growth_raw": "140.7%"
+    },
+    {
+      "symbol": "BLRX",
+      "source": "*[class*='eps']",
+      "raw_text": "BLRX\nBioLineRx, Ltd.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.41\n$510.00 Thou\n$-0.22\n$427.00 Thou\n-91.4%\n46.3%\n-",
+      "growth_rate": -91.4,
+      "growth_raw": "-91.4%"
+    },
+    {
+      "symbol": "LOT",
+      "source": "*[class*='eps']",
+      "raw_text": "LOT\nLotus Technology Inc\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.10\n$137.43 Mil\n0.0%\n-\n-",
+      "revenue_millions": 137.43,
+      "revenue_raw": "$137.43 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LX",
+      "source": "*[class*='eps']",
+      "raw_text": "LX\nLexinFintech Holdings Ltd.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.41\n$480.05 Mil\n0.0%\n-\n-",
+      "revenue_millions": 480.05,
+      "revenue_raw": "$480.05 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

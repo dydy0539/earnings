@@ -94,6 +94,9 @@
             <integer>5</integer>
         </dict>
     </array>
+    <!-- Run once on system boot/wake to catch any missed runs -->
+    <key>RunAtLoad</key>
+    <true/>
     <key>StandardOutPath</key>
     <string>/Users/yiding/Dropbox/My Mac (Yis-MacBook-Pro.local)/Documents/earnings/earnings_log.txt</string>
     <key>StandardErrorPath</key>

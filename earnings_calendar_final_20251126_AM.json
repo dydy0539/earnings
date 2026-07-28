@@ -1,0 +1,28 @@
+{
+  "date": "20251126",
+  "scraped_at": "2025-11-27T09:00:30.809238",
+  "companies": [
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Banco Macro S.A."
+    },
+    {
+      "symbol": "BMA",
+      "source": "*[class*='eps']",
+      "raw_text": "BMA\nBanco Macro S.A.\n5:35 PM ET\nEarnings:\nRevenue:\n$0.67\n$716.25 Mil\n$-0.39\n$1.05 Bil\n-1.0%\n-158.2%\n-",
+      "revenue_millions": 1050.0,
+      "revenue_raw": "$1.05 Bil",
+      "growth_rate": -1.0,
+      "growth_raw": "-1.0%"
+    },
+    {
+      "symbol": "PLG",
+      "source": "*[class*='eps']",
+      "raw_text": "PLG\nPlatinum Group Metals Ltd.\n4:15 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.01\n-\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

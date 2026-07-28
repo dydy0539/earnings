@@ -1,0 +1,65 @@
+{
+  "date": "20251015",
+  "scraped_at": "2025-10-15T21:00:36.966265",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding",
+      "revenue_millions": 8810.0,
+      "revenue_raw": "$8.81 Bil",
+      "growth_rate": 7.0,
+      "growth_raw": "7.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America Corp.",
+      "revenue_millions": 27070.0,
+      "revenue_raw": "$27.07 Bil",
+      "growth_rate": -1.3,
+      "growth_raw": "-1.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "MS",
+      "name": "Morgan Stanley",
+      "revenue_millions": 16250.0,
+      "revenue_raw": "$16.25 Bil",
+      "growth_rate": 13.9,
+      "growth_raw": "13.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 18
+}

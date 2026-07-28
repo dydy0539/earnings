@@ -1,0 +1,136 @@
+{
+  "date": "20260414",
+  "scraped_at": "2026-04-14T22:00:48.503638",
+  "companies": [
+    {
+      "symbol": "JPM",
+      "source": "*[class*='eps']",
+      "raw_text": "JPM\nJPMorgan Chase & Co.Investor services platform\n6:50 AM ET\nEarnings:\nRevenue:\n$5.49\n$48.20 Bil\n$5.94\n$73.66 Bil\n6.9%\n8.2%\n-",
+      "revenue_millions": 48200.0,
+      "revenue_raw": "$48.20 Bil",
+      "growth_rate": 6.9,
+      "growth_raw": "6.9%"
+    },
+    {
+      "symbol": "BLK",
+      "source": "*[class*='eps']",
+      "raw_text": "BLK\nBlackRock, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$11.97\n$6.60 Bil\n$12.53\n$6.70 Bil\n27.0%\n4.7%\n-",
+      "revenue_millions": 6600.0,
+      "revenue_raw": "$6.60 Bil",
+      "growth_rate": 27.0,
+      "growth_raw": "27.0%"
+    },
+    {
+      "symbol": "C",
+      "source": "*[class*='eps']",
+      "raw_text": "C\nCitigroup, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$2.64\n$23.71 Bil\n$3.06\n$44.41 Bil\n7.6%\n15.9%\n-",
+      "revenue_millions": 23710.0,
+      "revenue_raw": "$23.71 Bil",
+      "growth_rate": 7.6,
+      "growth_raw": "7.6%"
+    },
+    {
+      "symbol": "KMX",
+      "source": "*[class*='eps']",
+      "raw_text": "KMX\nCarMax, Inc.\n6:50 AM ET\nEarnings:\nRevenue:\n$0.22\n$5.77 Bil\n$0.34\n$5.95 Bil\n-1.0%\n54.5%\n-",
+      "revenue_millions": 5770.0,
+      "revenue_raw": "$5.77 Bil",
+      "growth_rate": -1.0,
+      "growth_raw": "-1.0%"
+    },
+    {
+      "symbol": "JNJ",
+      "source": "*[class*='eps']",
+      "raw_text": "JNJ\nJohnson & Johnson\n6:20 AM ET\nEarnings:\nRevenue:\n$2.67\n$23.44 Bil\n$2.70\n$24.06 Bil\n9.9%\n1.1%",
+      "revenue_millions": 23440.0,
+      "revenue_raw": "$23.44 Bil",
+      "growth_rate": 9.9,
+      "growth_raw": "9.9%"
+    },
+    {
+      "symbol": "WFC",
+      "source": "*[class*='eps']",
+      "raw_text": "WFC\nWells Fargo & Co.\n6:45 AM ET\nEarnings:\nRevenue:\n$1.58\n$21.73 Bil\n$1.56\n$31.80 Bil\n7.3%\n-1.3%\n-",
+      "revenue_millions": 21730.0,
+      "revenue_raw": "$21.73 Bil",
+      "growth_rate": 7.3,
+      "growth_raw": "7.3%"
+    },
+    {
+      "symbol": "ACI",
+      "source": "*[class*='eps']",
+      "raw_text": "ACI\nAlbertsons Companies, Inc.\n7:30 AM ETDaily market updates\nEarnings:\nRevenue:\n$0.39\n$20.49 Bil\n$0.45\n$20.25 Bil\n7.7%\n15.4%",
+      "revenue_millions": 20490.0,
+      "revenue_raw": "$20.49 Bil",
+      "growth_rate": 7.7,
+      "growth_raw": "7.7%"
+    },
+    {
+      "symbol": "HOVR",
+      "source": "*[class*='eps']",
+      "raw_text": "HOVR\nNew Horizon Aircraft Ltd.\nBefore Open\nEarnings:\nRevenue:\n$-0.09\n-\n$-0.12\n-\n0.0%\n-33.3%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BSVN",
+      "source": "*[class*='eps']",
+      "raw_text": "BSVN\nBank7 Corp.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.01\n$23.70 Mil\n$1.25\n$35.75 Mil\n11.0%\n23.8%\n-",
+      "revenue_millions": 23.7,
+      "revenue_raw": "$23.70 Mil",
+      "growth_rate": 11.0,
+      "growth_raw": "11.0%"
+    },
+    {
+      "symbol": "CREX",
+      "source": "*[class*='eps']",
+      "raw_text": "CREX\nCreative Realities, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.23\n$19.00 Mil\n$-0.21\n$23.92 Mil\n145.7%\n8.7%\n-",
+      "revenue_millions": 19.0,
+      "revenue_raw": "$19.00 Mil",
+      "growth_rate": 145.7,
+      "growth_raw": "145.7%"
+    },
+    {
+      "symbol": "BKSC",
+      "source": "*[class*='eps']",
+      "raw_text": "BKSC\nBank of South Carolina Corp.\n9:35 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.36\n$7.28 Mil\n0.0%\n-\n-",
+      "revenue_millions": 7.28,
+      "revenue_raw": "$7.28 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DTST",
+      "source": "*[class*='eps']",
+      "raw_text": "DTST\nData Storage Corp\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "RENT",
+      "source": "*[class*='eps']",
+      "raw_text": "RENT\nRent the Runway, Inc.Historical earnings data\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.04\n$91.70 Mil\n0.0%\n-\n-",
+      "revenue_millions": 91.7,
+      "revenue_raw": "$91.70 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SPRS",
+      "source": "*[class*='eps']",
+      "raw_text": "SPRS\nSurge Components Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.01\n$8.19 Mil\n0.0%\n-\n-",
+      "revenue_millions": 8.19,
+      "revenue_raw": "$8.19 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "THCH",
+      "source": "*[class*='eps']",
+      "raw_text": "THCH\nTims China\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.34\n$44.11 Mil\n0.0%\n-\n-",
+      "revenue_millions": 44.11,
+      "revenue_raw": "$44.11 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

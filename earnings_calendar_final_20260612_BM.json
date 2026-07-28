@@ -1,0 +1,16 @@
+{
+  "date": "20260612",
+  "scraped_at": "2026-06-12T22:00:41.266398",
+  "companies": [
+    {
+      "symbol": "COE",
+      "source": "*[class*='eps']",
+      "raw_text": "COE\nChina Online Education Group\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.39\n$31.19 Mil\n0.0%\n-\n-",
+      "revenue_millions": 31.19,
+      "revenue_raw": "$31.19 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,125 @@
+{
+  "date": "20260302",
+  "scraped_at": "2026-03-03T09:25:44.710159",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CRDO",
+      "name": "Credo Technology Group Holding Ltd",
+      "revenue_millions": 389.43,
+      "revenue_raw": "$389.43 Mil",
+      "growth_rate": 201.5,
+      "growth_raw": "201.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MDB",
+      "name": "MongoDB, Inc.",
+      "revenue_millions": 668.19,
+      "revenue_raw": "$668.19 Mil",
+      "growth_rate": 26.7,
+      "growth_raw": "26.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile, Inc.",
+      "revenue_millions": 40.69,
+      "revenue_raw": "$40.69 Mil",
+      "growth_rate": 731.3,
+      "growth_raw": "731.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DAVE",
+      "name": "Dave, Inc.",
+      "revenue_millions": 164.0,
+      "revenue_raw": "$164.00 Mil",
+      "growth_rate": 62.2,
+      "growth_raw": "62.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OUST",
+      "name": "Ouster, Inc.",
+      "revenue_millions": 40.85,
+      "revenue_raw": "$40.85 Mil",
+      "growth_rate": 106.6,
+      "growth_raw": "106.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SENS",
+      "name": "Senseonics Holdings, Inc.",
+      "revenue_millions": 14.2,
+      "revenue_raw": "$14.20 Mil",
+      "growth_rate": 72.3,
+      "growth_raw": "72.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LMB",
+      "name": "Limbach Holdings, Inc.",
+      "revenue_millions": 195.84,
+      "revenue_raw": "$195.84 Mil",
+      "growth_rate": 30.1,
+      "growth_raw": "30.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "JRVR",
+      "name": "James River Group Holdings, Ltd.",
+      "revenue_millions": 176.8,
+      "revenue_raw": "$176.80 Mil",
+      "growth_rate": 32.4,
+      "growth_raw": "32.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NUVB",
+      "name": "Nuvation Bio Inc.",
+      "revenue_millions": 27.43,
+      "revenue_raw": "$27.43 Mil",
+      "growth_rate": 633.1,
+      "growth_raw": "633.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 9,
+  "total_original": 54
+}

@@ -1,0 +1,78 @@
+{
+  "date": "20260402",
+  "scraped_at": "2026-04-02T22:02:06.140675",
+  "companies": [
+    {
+      "symbol": "PLC",
+      "source": "*[class*='company']",
+      "raw_text": "Fusion Fuel Green PLC"
+    },
+    {
+      "symbol": "AYI",
+      "source": "*[class*='eps']",
+      "raw_text": "AYI\nAcuity Brands, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$3.95\n$1.09 Bil\n$4.14\n$1.06 Bil\n4.9%\n4.8%\n-",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 4.9,
+      "growth_raw": "4.9%"
+    },
+    {
+      "symbol": "LNN",
+      "source": "*[class*='eps']",
+      "raw_text": "LNN\nLindsay Manufacturing Co.\n6:45 AM ET\nEarnings:\nRevenue:\n$1.60\n$164.56 Mil\n$1.15\n$157.72 Mil\n-15.7%\n-28.1%\n-",
+      "revenue_millions": 164.56,
+      "revenue_raw": "$164.56 Mil",
+      "growth_rate": -15.7,
+      "growth_raw": "-15.7%"
+    },
+    {
+      "symbol": "ANGO",
+      "source": "*[class*='eps']",
+      "raw_text": "ANGO\nAngioDynamics\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.11\n$77.38 Mil\n$-0.07\n$78.42 Mil\n8.9%\n36.4%",
+      "revenue_millions": 77.38,
+      "revenue_raw": "$77.38 Mil",
+      "growth_rate": 8.9,
+      "growth_raw": "8.9%"
+    },
+    {
+      "symbol": "AIRS",
+      "source": "*[class*='eps']",
+      "raw_text": "AIRS\nAirSculpt Technologies, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$-0.02\n-\n$0.02\n$33.44 Mil\n-15.1%\n200.0%",
+      "revenue_millions": 33.44,
+      "revenue_raw": "$33.44 Mil",
+      "growth_rate": -15.1,
+      "growth_raw": "-15.1%"
+    },
+    {
+      "symbol": "NAMM",
+      "source": "*[class*='eps']",
+      "raw_text": "NAMM\nNamib Minerals\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "RIME",
+      "source": "*[class*='eps']",
+      "raw_text": "RIME\nAlgorhythm Holdings, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "CCG",
+      "source": "*[class*='eps']",
+      "raw_text": "CCG\nCheche Group Inc.\n5:40 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "HTOO",
+      "source": "*[class*='eps']",
+      "raw_text": "HTOO\nFusion Fuel Green PLC\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "KITT",
+      "source": "*[class*='eps']",
+      "raw_text": "KITT\nNauticus Robotics, Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "MIGI",
+      "source": "*[class*='eps']",
+      "raw_text": "MIGI\nMawson Infrastructure Group Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

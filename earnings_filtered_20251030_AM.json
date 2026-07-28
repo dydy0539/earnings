@@ -1,0 +1,235 @@
+{
+  "date": "20251030",
+  "scraped_at": "2025-10-31T09:02:05.581853",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "revenue_millions": 177960.0,
+      "revenue_raw": "$177.96 Bil",
+      "growth_rate": 13.4,
+      "growth_raw": "13.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple, Inc.",
+      "revenue_millions": 101270.0,
+      "revenue_raw": "$101.27 Bil",
+      "growth_rate": 7.9,
+      "growth_raw": "7.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase Global, Inc.",
+      "revenue_millions": 1720.0,
+      "revenue_raw": "$1.72 Bil",
+      "growth_rate": 55.1,
+      "growth_raw": "55.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "revenue_millions": 549.69,
+      "revenue_raw": "$549.69 Mil",
+      "growth_rate": 67.9,
+      "growth_raw": "67.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RKT",
+      "name": "Rocket Companies, Inc.",
+      "revenue_millions": 1750.0,
+      "revenue_raw": "$1.75 Bil",
+      "growth_rate": 148.1,
+      "growth_raw": "148.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NET",
+      "name": "Cloudflare, Inc.",
+      "revenue_millions": 544.06,
+      "revenue_raw": "$544.06 Mil",
+      "growth_rate": 30.7,
+      "growth_raw": "30.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RIOT",
+      "name": "Riot Platforms, Inc.",
+      "revenue_millions": 164.67,
+      "revenue_raw": "$164.67 Mil",
+      "growth_rate": 112.6,
+      "growth_raw": "112.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TEAM",
+      "name": "Atlassian Corporation Plc",
+      "revenue_millions": 1400.0,
+      "revenue_raw": "$1.40 Bil",
+      "growth_rate": 20.6,
+      "growth_raw": "20.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar Inc",
+      "revenue_millions": 1540.0,
+      "revenue_raw": "$1.54 Bil",
+      "growth_rate": 79.7,
+      "growth_raw": "79.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DXCM",
+      "name": "DexCom Inc",
+      "revenue_millions": 1180.0,
+      "revenue_raw": "$1.18 Bil",
+      "growth_rate": 21.6,
+      "growth_raw": "21.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EGO",
+      "name": "Eldorado Gold Corp",
+      "revenue_millions": 1670.0,
+      "revenue_raw": "$1.67 Bil",
+      "growth_rate": 31.0,
+      "growth_raw": "31.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MTZ",
+      "name": "MasTec Inc.",
+      "revenue_millions": 3900.0,
+      "revenue_raw": "$3.90 Bil",
+      "growth_rate": 22.0,
+      "growth_raw": "22.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALHC",
+      "name": "Alignment Healthcare, Inc.",
+      "revenue_millions": 980.95,
+      "revenue_raw": "$980.95 Mil",
+      "growth_rate": 43.5,
+      "growth_raw": "43.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ATEC",
+      "name": "Alphatec Holdings Inc.",
+      "revenue_millions": 182.8,
+      "revenue_raw": "$182.80 Mil",
+      "growth_rate": 30.4,
+      "growth_raw": "30.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LPLA",
+      "name": "LPL Financial Holdings Inc.",
+      "revenue_millions": 4350.0,
+      "revenue_raw": "$4.35 Bil",
+      "growth_rate": 46.4,
+      "growth_raw": "46.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SPNT",
+      "name": "SiriusPoint Ltd.",
+      "revenue_millions": 727.2,
+      "revenue_raw": "$727.20 Mil",
+      "growth_rate": 34.5,
+      "growth_raw": "34.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IRTC",
+      "name": "iRhythm Technologies, Inc.",
+      "revenue_millions": 183.75,
+      "revenue_raw": "$183.75 Mil",
+      "growth_rate": 30.7,
+      "growth_raw": "30.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TVTX",
+      "name": "Travere Therapeutics, Inc.",
+      "revenue_millions": 103.39,
+      "revenue_raw": "$103.39 Mil",
+      "growth_rate": 162.1,
+      "growth_raw": "162.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALKT",
+      "name": "Alkami Technology Inc",
+      "revenue_millions": 113.95,
+      "revenue_raw": "$113.95 Mil",
+      "growth_rate": 31.5,
+      "growth_raw": "31.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BVN",
+      "name": "Compania de Minas Buenaventura",
+      "revenue_millions": 363.23,
+      "revenue_raw": "$363.23 Mil",
+      "growth_rate": 30.2,
+      "growth_raw": "30.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 20,
+  "total_original": 176
+}

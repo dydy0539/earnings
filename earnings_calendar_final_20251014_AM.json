@@ -1,0 +1,44 @@
+{
+  "date": "20251014",
+  "scraped_at": "2025-10-15T10:19:19.762352",
+  "companies": [
+    {
+      "symbol": "KARO",
+      "source": "*[class*='eps']",
+      "raw_text": "KARO\nKarooooo Ltd.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.46\n$75.51 Mil\n$0.47\n$76.13 Mil\n25.4%\n2.2%\n-",
+      "revenue_millions": 75.51,
+      "revenue_raw": "$75.51 Mil",
+      "growth_rate": 25.4,
+      "growth_raw": "25.4%"
+    },
+    {
+      "symbol": "EQBK",
+      "source": "*[class*='eps']",
+      "raw_text": "EQBK\nEquity Bancshares\n4:45 PM ET\nEarnings:\nRevenue:\n$0.99\n$68.60 Mil\n$1.21\n$99.97 Mil\n18.6%\n22.2%\n-",
+      "revenue_millions": 68.6,
+      "revenue_raw": "$68.60 Mil",
+      "growth_rate": 18.6,
+      "growth_raw": "18.6%"
+    },
+    {
+      "symbol": "HWC",
+      "source": "*[class*='eps']",
+      "raw_text": "HWC\nHancock Whitney Corporation\n4:00 PM ET\nEarnings:\nRevenue:\n$1.41\n$387.84 Mil\n$1.49\n$515.02 Mil\n-2.0%\n5.7%\n-",
+      "revenue_millions": 387.84,
+      "revenue_raw": "$387.84 Mil",
+      "growth_rate": -2.0,
+      "growth_raw": "-2.0%"
+    },
+    {
+      "symbol": "NRUC",
+      "source": "*[class*='eps']",
+      "raw_text": "NRUC\nNational Rural Utilities Cooperative Finance Corp\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "RCON",
+      "source": "*[class*='eps']",
+      "raw_text": "RCON\nRecon Technology\n9:50 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

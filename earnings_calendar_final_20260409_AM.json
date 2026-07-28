@@ -1,0 +1,68 @@
+{
+  "date": "20260409",
+  "scraped_at": "2026-04-10T09:00:38.473356",
+  "companies": [
+    {
+      "symbol": "WD",
+      "source": "*[class*='company']",
+      "raw_text": "WD-40 Co."
+    },
+    {
+      "symbol": "FGI",
+      "source": "*[class*='eps']",
+      "raw_text": "FGI\nFGI Industries Ltd.\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.27\n-\n$-0.29\n$30.47 Mil\n-8.3%\n-7.4%",
+      "revenue_millions": 30.47,
+      "revenue_raw": "$30.47 Mil",
+      "growth_rate": -8.3,
+      "growth_raw": "-8.3%"
+    },
+    {
+      "symbol": "WDFC",
+      "source": "*[class*='eps']",
+      "raw_text": "WDFC\nWD-40 Co.\n4:05 PM ETTime & Calendars\nEarnings:\nRevenue:\n$1.38\n-\n$1.50\n$161.67 Mil\n10.7%\n8.7%",
+      "revenue_millions": 161.67,
+      "revenue_raw": "$161.67 Mil",
+      "growth_rate": 10.7,
+      "growth_raw": "10.7%"
+    },
+    {
+      "symbol": "CLIR",
+      "source": "*[class*='eps']",
+      "raw_text": "CLIR\nClearSign Technologies Corporation\nAfter Close\nEarnings:\nRevenue:\n-\n$9.73 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 9.73,
+      "revenue_raw": "$9.73 Mil"
+    },
+    {
+      "symbol": "SLP",
+      "source": "*[class*='eps']",
+      "raw_text": "SLP\nSimulations Plus, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.27\n$21.40 Mil\n$0.35\n$24.29 Mil\n8.3%\n29.6%",
+      "revenue_millions": 21.4,
+      "revenue_raw": "$21.40 Mil",
+      "growth_rate": 8.3,
+      "growth_raw": "8.3%"
+    },
+    {
+      "symbol": "BEEM",
+      "source": "*[class*='eps']",
+      "raw_text": "BEEM\nBeam Global\n4:30 PM ET\nEarnings:\nRevenue:\n$-0.21\n$7.50 Mil\n$-0.07\n$9.05 Mil\n43.1%\n66.7%\n-",
+      "revenue_millions": 7.5,
+      "revenue_raw": "$7.50 Mil",
+      "growth_rate": 43.1,
+      "growth_raw": "43.1%"
+    },
+    {
+      "symbol": "XNDU",
+      "source": "*[class*='eps']",
+      "raw_text": "XNDU\nXanadu Quantum Technologies Limited\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "HIFS",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "PLG",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

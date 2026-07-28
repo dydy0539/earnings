@@ -1,0 +1,41 @@
+{
+  "date": "20260629",
+  "scraped_at": "2026-06-30T09:09:07.697451",
+  "companies": [
+    {
+      "symbol": "AVAV",
+      "source": "*[class*='eps']",
+      "raw_text": "AVAV\nAeroVironment, Inc\n4:10 PM ETEarnings call summaries\nEarnings:\nRevenue:\n$1.53\n$563.14 Mil\n$1.84\n$641.62 Mil\n133.3%\n20.3%",
+      "revenue_millions": 563.14,
+      "revenue_raw": "$563.14 Mil",
+      "growth_rate": 133.3,
+      "growth_raw": "133.3%"
+    },
+    {
+      "symbol": "CNXC",
+      "source": "*[class*='eps']",
+      "raw_text": "CNXC\nConcentrix Corporation\nAfter Close\nEarnings:\nRevenue:\n$2.63\n$2.47 Bil\n$2.63\n$2.46 Bil\n1.9%\n0.0%",
+      "revenue_millions": 2470.0,
+      "revenue_raw": "$2.47 Bil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "ELTP",
+      "source": "*[class*='eps']",
+      "raw_text": "ELTP\nElite Pharma Inc\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.00\n$40.75 Mil\n0.0%\n-\n-",
+      "revenue_millions": 40.75,
+      "revenue_raw": "$40.75 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "PETV",
+      "source": "*[class*='eps']",
+      "raw_text": "PETV\nPetVivo Holdings Inc\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$-0.11\n$255.00 Thou\n0.0%\n-\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

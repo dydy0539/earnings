@@ -1,0 +1,69 @@
+{
+  "date": "20251019",
+  "scraped_at": "2025-10-20T09:00:36.075215",
+  "companies": [
+    {
+      "symbol": "AB",
+      "source": "*[class*='company']",
+      "raw_text": "Sandvik AB"
+    },
+    {
+      "symbol": "HBT",
+      "source": "*[class*='eps']",
+      "raw_text": "HBT\nHBT Financial, Inc.\n7:05 AM ET\nEarnings:\n$0.62\nRevenue:\n$59.80 Mil\n-17.9%",
+      "revenue_millions": 59.8,
+      "revenue_raw": "Revenue:\n$59.80 Mil",
+      "growth_rate": -17.9,
+      "growth_raw": "-17.9%"
+    },
+    {
+      "symbol": "CLF",
+      "source": "*[class*='eps']",
+      "raw_text": "CLF\nCleveland-Cliffs Inc\n6:00 AM ET\nEarnings:\n$-0.48\nRevenue:\n$4.91 Bil\n7.5%",
+      "revenue_millions": 4910.0,
+      "revenue_raw": "Revenue:\n$4.91 Bil",
+      "growth_rate": 7.5,
+      "growth_raw": "7.5%"
+    },
+    {
+      "symbol": "DX",
+      "source": "*[class*='eps']",
+      "raw_text": "DX\nDynex Capital, Inc.\n8:00 AM ET\nEarnings:\n$0.44\nRevenue:\n$29.26 Mil\n-64.9%",
+      "revenue_millions": 29.26,
+      "revenue_raw": "Revenue:\n$29.26 Mil",
+      "growth_rate": -64.9,
+      "growth_raw": "-64.9%"
+    },
+    {
+      "symbol": "STRR",
+      "source": "*[class*='eps']",
+      "raw_text": "STRR\nStar Equity Holdings, Inc.\n8:30 AM ET\nEarnings:\n$0.32\nRevenue:\n$45.68 Mil\n234.3%",
+      "revenue_millions": 45.68,
+      "revenue_raw": "Revenue:\n$45.68 Mil",
+      "growth_rate": 234.3,
+      "growth_raw": "234.3%"
+    },
+    {
+      "symbol": "SDVKY",
+      "source": "*[class*='eps']",
+      "raw_text": "SDVKY\nSandvik AB\n6:05 AM ET\nEarnings:\n$0.32\nRevenue:\n-\n-"
+    },
+    {
+      "symbol": "SMMT",
+      "source": "*[class*='eps']",
+      "raw_text": "SMMT\nSummit Therapeutics Plc\n6:05 AM ET\nEarnings:\n$-0.14\nRevenue:\n$27.76 Mil\n-",
+      "revenue_millions": 27.76,
+      "revenue_raw": "Revenue:\n$27.76 Mil"
+    },
+    {
+      "symbol": "DCTH",
+      "source": "*[class*='eps']",
+      "raw_text": "DCTH\nDelcath Systems, Inc.\n8:00 AM ET\nEarnings:\n$-0.08\nRevenue:\n$23.20 Mil\n107.1%",
+      "revenue_millions": 23.2,
+      "revenue_raw": "Revenue:\n$23.20 Mil",
+      "growth_rate": 107.1,
+      "growth_raw": "107.1%"
+    }
+  ],
+  "status": "success"
+}

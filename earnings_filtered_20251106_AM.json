@@ -1,0 +1,225 @@
+{
+  "date": "20251106",
+  "scraped_at": "2025-11-07T09:03:37.580184",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "QXO",
+      "name": "QXO INC",
+      "revenue_millions": 2730.0,
+      "revenue_raw": "$2.73 Bil",
+      "growth_rate": 639.6,
+      "growth_raw": "639.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IREN",
+      "name": "Iris Energy Limited",
+      "revenue_millions": 236.71,
+      "revenue_raw": "$236.71 Mil",
+      "growth_rate": 341.8,
+      "growth_raw": "341.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SMR",
+      "name": "NuScale Power Corporation",
+      "revenue_millions": 11.1,
+      "revenue_raw": "$11.10 Mil",
+      "growth_rate": 635.2,
+      "growth_raw": "635.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AFRM",
+      "name": "Affirm Holdings, Inc.",
+      "revenue_millions": 884.86,
+      "revenue_raw": "$884.86 Mil",
+      "growth_rate": 33.6,
+      "growth_raw": "33.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive Software, Inc.",
+      "revenue_millions": 1740.0,
+      "revenue_raw": "$1.74 Bil",
+      "growth_rate": 31.1,
+      "growth_raw": "31.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RUN",
+      "name": "Sunrun",
+      "revenue_millions": 604.92,
+      "revenue_raw": "$604.92 Mil",
+      "growth_rate": 34.9,
+      "growth_raw": "34.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMPX",
+      "name": "Amprius Technologies, Inc.",
+      "revenue_millions": 17.07,
+      "revenue_raw": "$17.07 Mil",
+      "growth_rate": 172.8,
+      "growth_raw": "172.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital Inc.",
+      "revenue_millions": 1190.0,
+      "revenue_raw": "$1.19 Bil",
+      "growth_rate": 25.3,
+      "growth_raw": "25.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ZYME",
+      "name": "Zymeworks Inc.",
+      "revenue_millions": 28.27,
+      "revenue_raw": "$28.27 Mil",
+      "growth_rate": 72.6,
+      "growth_raw": "72.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ASTH",
+      "name": "Astrana Health, Inc.",
+      "revenue_millions": 950.25,
+      "revenue_raw": "$950.25 Mil",
+      "growth_rate": 99.7,
+      "growth_raw": "99.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ETON",
+      "name": "Eton Pharmaceuticals, Inc.",
+      "revenue_millions": 20.56,
+      "revenue_raw": "$20.56 Mil",
+      "growth_rate": 117.5,
+      "growth_raw": "117.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MNTK",
+      "name": "Montauk Renewables, Inc.",
+      "revenue_millions": 45.26,
+      "revenue_raw": "$45.26 Mil",
+      "growth_rate": 63.4,
+      "growth_raw": "63.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GAU",
+      "name": "Galiano Gold Inc.",
+      "revenue_millions": 114.2,
+      "revenue_raw": "$114.20 Mil",
+      "growth_rate": 60.5,
+      "growth_raw": "60.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NTRA",
+      "name": "Natera, Inc.",
+      "revenue_millions": 511.52,
+      "revenue_raw": "$511.52 Mil",
+      "growth_rate": 34.7,
+      "growth_raw": "34.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ORGO",
+      "name": "Organogenesis Holdings Inc.",
+      "revenue_millions": 150.86,
+      "revenue_raw": "$150.86 Mil",
+      "growth_rate": 31.0,
+      "growth_raw": "31.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MTUS",
+      "name": "Metallus Inc",
+      "revenue_millions": 288.2,
+      "revenue_raw": "$288.20 Mil",
+      "growth_rate": 34.6,
+      "growth_raw": "34.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PRTA",
+      "name": "Prothena Corporation plc",
+      "revenue_millions": 24.8,
+      "revenue_raw": "$24.80 Mil",
+      "growth_rate": 149.0,
+      "growth_raw": "149.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NTLA",
+      "name": "Intellia Therapeutics, Inc.",
+      "revenue_millions": 15.72,
+      "revenue_raw": "$15.72 Mil",
+      "growth_rate": 51.3,
+      "growth_raw": "51.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VCTR",
+      "name": "Victory Capital Holdings, Inc.",
+      "revenue_millions": 361.76,
+      "revenue_raw": "$361.76 Mil",
+      "growth_rate": 60.1,
+      "growth_raw": "60.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 19,
+  "total_original": 331
+}

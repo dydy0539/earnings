@@ -1,0 +1,162 @@
+{
+  "date": "20251124",
+  "scraped_at": "2025-11-25T09:00:31.874281",
+  "companies": [
+    {
+      "symbol": "PLC",
+      "source": "*[class*='company']",
+      "raw_text": "Waldencast PLC"
+    },
+    {
+      "symbol": "FS",
+      "source": "*[class*='company']",
+      "raw_text": "FS Credit Opportunities Corp."
+    },
+    {
+      "symbol": "ZM",
+      "source": "*[class*='eps']",
+      "raw_text": "ZM\nZoom Communications, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.44\n$1.21 Bil\n$1.52\n$1.23 Bil\n4.4%\n5.6%",
+      "revenue_millions": 1210.0,
+      "revenue_raw": "$1.21 Bil",
+      "growth_rate": 4.4,
+      "growth_raw": "4.4%"
+    },
+    {
+      "symbol": "SYM",
+      "source": "*[class*='eps']",
+      "raw_text": "SYM\nSymbotic Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.07\n$600.16 Mil\n$-0.03\n$618.46 Mil\n7.2%\n-142.9%",
+      "revenue_millions": 600.16,
+      "revenue_raw": "$600.16 Mil",
+      "growth_rate": 7.2,
+      "growth_raw": "7.2%"
+    },
+    {
+      "symbol": "SMTC",
+      "source": "*[class*='eps']",
+      "raw_text": "SMTC\nSemtech Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.45\n$266.65 Mil\n$0.48\n$267.00 Mil\n12.8%\n6.7%",
+      "revenue_millions": 266.65,
+      "revenue_raw": "$266.65 Mil",
+      "growth_rate": 12.8,
+      "growth_raw": "12.8%"
+    },
+    {
+      "symbol": "FLNC",
+      "source": "*[class*='eps']",
+      "raw_text": "FLNC\nFluence Energy, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.13\n$1.39 Bil\n$0.13\n$1.04 Bil\n-15.2%\n0.0%",
+      "revenue_millions": 1390.0,
+      "revenue_raw": "$1.39 Bil",
+      "growth_rate": -15.2,
+      "growth_raw": "-15.2%"
+    },
+    {
+      "symbol": "SNEX",
+      "source": "*[class*='eps']",
+      "raw_text": "SNEX\nStoneX Group Inc.\n4:35 PM ET\nEarnings:\nRevenue:\n$1.58\n$1.03 Bil\n$1.57\n$32.72 Bil\n5.1%\n-0.6%\n-",
+      "revenue_millions": 1030.0,
+      "revenue_raw": "$1.03 Bil",
+      "growth_rate": 5.1,
+      "growth_raw": "5.1%"
+    },
+    {
+      "symbol": "A",
+      "source": "*[class*='eps']",
+      "raw_text": "A\nAgilent Technologies, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.59\n$1.83 Bil\n$1.59\n$1.86 Bil\n9.4%\n0.0%",
+      "revenue_millions": 1830.0,
+      "revenue_raw": "$1.83 Bil",
+      "growth_rate": 9.4,
+      "growth_raw": "9.4%"
+    },
+    {
+      "symbol": "BLBD",
+      "source": "*[class*='eps']",
+      "raw_text": "BLBD\nBlue Bird Corp.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.96\n$380.00 Mil\n$1.28\n$409.37 Mil\n16.9%\n33.3%",
+      "revenue_millions": 380.0,
+      "revenue_raw": "$380.00 Mil",
+      "growth_rate": 16.9,
+      "growth_raw": "16.9%"
+    },
+    {
+      "symbol": "KEYS",
+      "source": "*[class*='eps']",
+      "raw_text": "KEYS\nKeysight Technologies, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.83\n$1.39 Bil\n$1.91\n$1.42 Bil\n10.3%\n4.4%",
+      "revenue_millions": 1390.0,
+      "revenue_raw": "$1.39 Bil",
+      "growth_rate": 10.3,
+      "growth_raw": "10.3%"
+    },
+    {
+      "symbol": "PFLT",
+      "source": "*[class*='eps']",
+      "raw_text": "PFLT\nPennantPark Floating Rate Capital Ltd.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.28\n$65.91 Mil\n$0.28\n$68.98 Mil\n24.2%\n0.0%\n-",
+      "revenue_millions": 65.91,
+      "revenue_raw": "$65.91 Mil",
+      "growth_rate": 24.2,
+      "growth_raw": "24.2%"
+    },
+    {
+      "symbol": "PNNT",
+      "source": "*[class*='eps']",
+      "raw_text": "PNNT\nPennantPark Investment Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.17\n$29.04 Mil\n$0.15\n$27.95 Mil\n-23.4%\n-11.8%\n-",
+      "revenue_millions": 29.04,
+      "revenue_raw": "$29.04 Mil",
+      "growth_rate": -23.4,
+      "growth_raw": "-23.4%"
+    },
+    {
+      "symbol": "CENT",
+      "source": "*[class*='eps']",
+      "raw_text": "CENT\nCentral Garden & Pet Co.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.20\n$666.08 Mil\n$-0.09\n$678.18 Mil\n1.3%\n55.0%",
+      "revenue_millions": 666.08,
+      "revenue_raw": "$666.08 Mil",
+      "growth_rate": 1.3,
+      "growth_raw": "1.3%"
+    },
+    {
+      "symbol": "TUYA",
+      "source": "*[class*='eps']",
+      "raw_text": "TUYA\nTuya Inc.\nAfter Close\nEarnings:\nRevenue:\n$0.02\n$82.17 Mil\n$0.02\n$82.49 Mil\n1.1%\n0.0%\n-",
+      "revenue_millions": 82.17,
+      "revenue_raw": "$82.17 Mil",
+      "growth_rate": 1.1,
+      "growth_raw": "1.1%"
+    },
+    {
+      "symbol": "WALD",
+      "source": "*[class*='eps']",
+      "raw_text": "WALD\nWaldencast PLC\nAfter Close\nEarnings:\nRevenue:\n$-0.10\n$74.25 Mil\n-\n-\n-\n-",
+      "revenue_millions": 74.25,
+      "revenue_raw": "$74.25 Mil"
+    },
+    {
+      "symbol": "ALCO",
+      "source": "*[class*='eps']",
+      "raw_text": "ALCO\nAlico Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.39\n$300.00 Thou\n$-1.10\n$802.00 Thou\n-14.2%\n-182.1%\n-",
+      "growth_rate": -14.2,
+      "growth_raw": "-14.2%"
+    },
+    {
+      "symbol": "CENTA",
+      "source": "*[class*='eps']",
+      "raw_text": "CENTA\nCentral Garden & Pet Co.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.20\n-\n$-0.09\n$678.18 Mil\n1.3%\n55.0%\n-",
+      "revenue_millions": 678.18,
+      "revenue_raw": "$678.18 Mil",
+      "growth_rate": 1.3,
+      "growth_raw": "1.3%"
+    },
+    {
+      "symbol": "WWD",
+      "source": "*[class*='eps']",
+      "raw_text": "WWD\nWoodward, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$1.83\n$935.80 Mil\n$2.09\n$995.26 Mil\n16.5%\n14.2%",
+      "revenue_millions": 935.8,
+      "revenue_raw": "$935.80 Mil",
+      "growth_rate": 16.5,
+      "growth_raw": "16.5%"
+    },
+    {
+      "symbol": "FSCO",
+      "source": "*[class*='eps']",
+      "raw_text": "FSCO\nFS Credit Opportunities Corp.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

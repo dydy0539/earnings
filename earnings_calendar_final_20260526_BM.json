@@ -1,0 +1,143 @@
+{
+  "date": "20260526",
+  "scraped_at": "2026-05-26T22:00:34.769212",
+  "companies": [
+    {
+      "symbol": "AI",
+      "source": "*[class*='company']",
+      "raw_text": "Pony AI Inc."
+    },
+    {
+      "symbol": "VNET",
+      "source": "*[class*='eps']",
+      "raw_text": "VNET\nVNET Group, Inc.\n4:30 AM ET\nEarnings:\nRevenue:\n$0.00\n$389.90 Mil\n$-1.20\n$390.13 Mil\n26.0%\n-",
+      "revenue_millions": 389.9,
+      "revenue_raw": "$389.90 Mil",
+      "growth_rate": 26.0,
+      "growth_raw": "26.0%"
+    },
+    {
+      "symbol": "CSW",
+      "source": "*[class*='eps']",
+      "raw_text": "CSW\nCSW Industrials, Inc.\n6:40 AM ET\nEarnings:\nRevenue:\n$2.43\n$289.09 Mil\n$3.14\n$308.96 Mil\n0.0%\n29.2%\n-",
+      "revenue_millions": 289.09,
+      "revenue_raw": "$289.09 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "G",
+      "source": "*[class*='company']",
+      "raw_text": "G. Willi-Food International Ltd."
+    },
+    {
+      "symbol": "ESLT",
+      "source": "*[class*='eps']",
+      "raw_text": "ESLT\nElbit Systems Ltd.\n4:55 AM ET\nEarnings:\nRevenue:\n$3.44\n$2.14 Bil\n$3.73\n$2.19 Bil\n15.5%\n8.4%\n-",
+      "revenue_millions": 2140.0,
+      "revenue_raw": "$2.14 Bil",
+      "growth_rate": 15.5,
+      "growth_raw": "15.5%"
+    },
+    {
+      "symbol": "AZO",
+      "source": "*[class*='eps']",
+      "raw_text": "AZO\nAutoZone, Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n$36.09\n$4.86 Bil\n$38.07\n$4.84 Bil\n8.4%\n5.5%\n-",
+      "revenue_millions": 4860.0,
+      "revenue_raw": "$4.86 Bil",
+      "growth_rate": 8.4,
+      "growth_raw": "8.4%"
+    },
+    {
+      "symbol": "PONY",
+      "source": "*[class*='eps']",
+      "raw_text": "PONY\nPony AI Inc.\n5:10 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.11\n$34.25 Mil\n145.0%\n-\n-",
+      "revenue_millions": 34.25,
+      "revenue_raw": "$34.25 Mil",
+      "growth_rate": 145.0,
+      "growth_raw": "145.0%"
+    },
+    {
+      "symbol": "SKY",
+      "source": "*[class*='eps']",
+      "raw_text": "SKY\nChampion Homes, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.63\n$614.30 Mil\n$0.68\n$621.28 Mil\n4.6%\n7.9%\n-",
+      "revenue_millions": 614.3,
+      "revenue_raw": "$614.30 Mil",
+      "growth_rate": 4.6,
+      "growth_raw": "4.6%"
+    },
+    {
+      "symbol": "CRGO",
+      "source": "*[class*='eps']",
+      "raw_text": "CRGO\nFreightos\n7:00 AM ETInvestor services platform\nEarnings:\nRevenue:\n-\n-\n$-0.13\n$7.16 Mil\n3.0%\n-",
+      "revenue_millions": 7.16,
+      "revenue_raw": "$7.16 Mil",
+      "growth_rate": 3.0,
+      "growth_raw": "3.0%"
+    },
+    {
+      "symbol": "MNSO",
+      "source": "*[class*='eps']",
+      "raw_text": "MNSO\nMINISO Group Holding Limited\n4:35 AM ET\nEarnings:\nRevenue:\n-\n$3.55 Bil\n$0.59\n$824.64 Mil\n35.2%\n-\n-",
+      "revenue_millions": 3550.0,
+      "revenue_raw": "$3.55 Bil",
+      "growth_rate": 35.2,
+      "growth_raw": "35.2%"
+    },
+    {
+      "symbol": "SNT",
+      "source": "*[class*='eps']",
+      "raw_text": "SNT\nSenesco Technologies Inc\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.04\n$8.08 Mil\n0.0%\n-\n-",
+      "revenue_millions": 8.08,
+      "revenue_raw": "$8.08 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "STG",
+      "source": "*[class*='eps']",
+      "raw_text": "STG\nSunlands Technology Group\n5:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.83\n$63.88 Mil\n0.0%\n-\n-",
+      "revenue_millions": 63.88,
+      "revenue_raw": "$63.88 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "JG",
+      "source": "*[class*='eps']",
+      "raw_text": "JG\nAurora Mobile Limited\n3:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.03\n$13.52 Mil\n0.0%\n-\n-",
+      "revenue_millions": 13.52,
+      "revenue_raw": "$13.52 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "WILC",
+      "source": "*[class*='eps']",
+      "raw_text": "WILC\nG. Willi-Food International Ltd.\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.46\n$49.57 Mil\n0.0%\n-\n-",
+      "revenue_millions": 49.57,
+      "revenue_raw": "$49.57 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "YSG",
+      "source": "*[class*='eps']",
+      "raw_text": "YSG\nYatsen Holding Limited\n5:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n-\n-\n$-0.09\n$148.01 Mil\n0.0%\n-\n-",
+      "revenue_millions": 148.01,
+      "revenue_raw": "$148.01 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ITRN",
+      "source": "*[class*='eps']",
+      "raw_text": "ITRN\nIturan Location and Control Ltd\n7:30 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.85\n$102.67 Mil\n0.0%\n-\n-",
+      "revenue_millions": 102.67,
+      "revenue_raw": "$102.67 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

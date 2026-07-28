@@ -1,0 +1,69 @@
+{
+  "date": "20260709",
+  "scraped_at": "2026-07-09T22:00:44.775480",
+  "companies": [
+    {
+      "symbol": "PEP",
+      "source": "*[class*='eps']",
+      "raw_text": "PEP\nPepsiCo, Inc.\n6:00 AM ETCompany Earnings\nEarnings:\nRevenue:\n$2.19\n$23.85 Bil\n$2.20\n$24.18 Bil\n6.4%\n0.5%",
+      "revenue_millions": 23850.0,
+      "revenue_raw": "$23.85 Bil",
+      "growth_rate": 6.4,
+      "growth_raw": "6.4%"
+    },
+    {
+      "symbol": "BYRN",
+      "source": "*[class*='eps']",
+      "raw_text": "BYRN\nByrna Technologies Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.10\n$22.91 Mil\n$-0.44\n$16.39 Mil\n-42.5%\n-340.0%",
+      "revenue_millions": 22.91,
+      "revenue_raw": "$22.91 Mil",
+      "growth_rate": -42.5,
+      "growth_raw": "-42.5%"
+    },
+    {
+      "symbol": "SMPL",
+      "source": "*[class*='eps']",
+      "raw_text": "SMPL\nSimply Good Foods Company\n7:00 AM ET\nEarnings:\nRevenue:\n$0.32\n$331.30 Mil\n$0.36\n$356.98 Mil\n-6.3%\n12.5%",
+      "revenue_millions": 331.3,
+      "revenue_raw": "$331.30 Mil",
+      "growth_rate": -6.3,
+      "growth_raw": "-6.3%"
+    },
+    {
+      "symbol": "NTIC",
+      "source": "*[class*='eps']",
+      "raw_text": "NTIC\nNorthern Technologies International Corporation\n8:00 AM ET\nEarnings:\nRevenue:\n$0.04\n$23.40 Mil\n$-0.02\n$24.22 Mil\n12.6%\n-150.0%\n-",
+      "revenue_millions": 23.4,
+      "revenue_raw": "$23.40 Mil",
+      "growth_rate": 12.6,
+      "growth_raw": "12.6%"
+    },
+    {
+      "symbol": "FRCOY",
+      "source": "*[class*='eps']",
+      "raw_text": "FRCOY\nFast Retailing Co., Ltd.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.30\n$6.36 Bil\n0.0%\n-\n-",
+      "revenue_millions": 6360.0,
+      "revenue_raw": "$6.36 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SVNDY",
+      "source": "*[class*='eps']",
+      "raw_text": "SVNDY\nSeven & i Holdings Co., Ltd.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.21\n$14.99 Bil\n0.0%Earnings calendar service\n-\n-",
+      "revenue_millions": 14990.0,
+      "revenue_raw": "$14.99 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ARTW",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "BKSC",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

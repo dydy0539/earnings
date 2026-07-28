@@ -1,0 +1,80 @@
+{
+  "source_file": "earnings_filtered_20260128_BM.json",
+  "analyzed_at": "2026-01-28T22:00:50.357716",
+  "total_companies": 3,
+  "successful_analyses": 3,
+  "companies": [
+    {
+      "company_name": "ASML Holding",
+      "ticker": "ASML",
+      "status": "success",
+      "incremental_operating_margin": 55.85,
+      "latest_operating_margin": 32.84,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 0.65,
+      "operating_income_growth_pct": 1.11,
+      "details": {
+        "latest_quarter": {
+          "revenue": 7516000000.0,
+          "operating_income": 2468400000.0,
+          "operating_margin_pct": 32.84
+        },
+        "prior_year_quarter": {
+          "revenue": 7467300000.0,
+          "operating_income": 2441200000.0,
+          "operating_margin_pct": 32.69
+        }
+      }
+    },
+    {
+      "company_name": "Amphenol Corp.",
+      "ticker": "APH",
+      "status": "success",
+      "incremental_operating_margin": 38.85,
+      "latest_operating_margin": 27.48,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 53.37,
+      "operating_income_growth_pct": 96.82,
+      "details": {
+        "latest_quarter": {
+          "revenue": 6194400000.0,
+          "operating_income": 1702300000.0,
+          "operating_margin_pct": 27.48
+        },
+        "prior_year_quarter": {
+          "revenue": 4038800000.0,
+          "operating_income": 864900000.0,
+          "operating_margin_pct": 21.41
+        }
+      }
+    },
+    {
+      "company_name": "Corning Inc.",
+      "ticker": "GLW",
+      "status": "success",
+      "incremental_operating_margin": 40.48,
+      "latest_operating_margin": 14.37,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 20.91,
+      "operating_income_growth_pct": 95.03,
+      "details": {
+        "latest_quarter": {
+          "revenue": 4100000000.0,
+          "operating_income": 589000000.0,
+          "operating_margin_pct": 14.37
+        },
+        "prior_year_quarter": {
+          "revenue": 3391000000.0,
+          "operating_income": 302000000.0,
+          "operating_margin_pct": 8.91
+        }
+      }
+    }
+  ]
+}

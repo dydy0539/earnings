@@ -1,0 +1,57 @@
+{
+  "date": "20260608",
+  "scraped_at": "2026-06-09T09:00:33.455769",
+  "companies": [
+    {
+      "symbol": "MTN",
+      "source": "*[class*='eps']",
+      "raw_text": "MTN\nVail Resorts, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$8.97\n$1.22 Bil\n$8.81\n$1.21 Bil\n-7.0%\n-1.8%",
+      "revenue_millions": 1220.0,
+      "revenue_raw": "$1.22 Bil",
+      "growth_rate": -7.0,
+      "growth_raw": "-7.0%"
+    },
+    {
+      "symbol": "AVO",
+      "source": "*[class*='eps']",
+      "raw_text": "AVO\nMission Produce, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.05\n$269.30 Mil\n$0.00\n$290.90 Mil\n-23.5%\n-100.0%\n-",
+      "revenue_millions": 269.3,
+      "revenue_raw": "$269.30 Mil",
+      "growth_rate": -23.5,
+      "growth_raw": "-23.5%"
+    },
+    {
+      "symbol": "MAMA",
+      "source": "*[class*='eps']",
+      "raw_text": "MAMA\nMama’s Creations, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.03\n$51.80 Mil\n$0.05\n$52.77 Mil\n49.7%\n66.7%\n-",
+      "revenue_millions": 51.8,
+      "revenue_raw": "$51.80 Mil",
+      "growth_rate": 49.7,
+      "growth_raw": "49.7%"
+    },
+    {
+      "symbol": "GLOO",
+      "source": "*[class*='eps']",
+      "raw_text": "GLOO\nGloo\n4:10 PM ET\nEarnings:\nRevenue:\n$-0.16\n$35.98 Mil\n$-0.22\n$41.53 Mil\n0.0%\n-37.5%",
+      "revenue_millions": 35.98,
+      "revenue_raw": "$35.98 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ODC",
+      "source": "*[class*='eps']",
+      "raw_text": "ODC\nOil-Dri Corporation of America\n4:15 PM ET\nEarnings:\nRevenue:\n-\n-\n$1.00\n$126.33 Mil\n0.0%\n-\n-",
+      "revenue_millions": 126.33,
+      "revenue_raw": "$126.33 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ZEPP",
+      "source": "*[class*='eps']",
+      "raw_text": "ZEPP\nZepp Health Corp.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

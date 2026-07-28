@@ -1,0 +1,36 @@
+{
+  "date": "20260617",
+  "scraped_at": "2026-06-17T22:00:35.098045",
+  "companies": [
+    {
+      "symbol": "JBL",
+      "source": "*[class*='eps']",
+      "raw_text": "JBL\nJabil Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$3.12\n$8.53 Bil\n$3.16\n$8.75 Bil\n11.8%\n1.3%",
+      "revenue_millions": 8530.0,
+      "revenue_raw": "$8.53 Bil",
+      "growth_rate": 11.8,
+      "growth_raw": "11.8%"
+    },
+    {
+      "symbol": "PGR",
+      "source": "*[class*='eps']",
+      "raw_text": "PGR\nProgressive Corp.\nBefore Open\nEarnings:\nRevenue:\n$3.74\n$22.88 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 22880.0,
+      "revenue_raw": "$22.88 Bil"
+    },
+    {
+      "symbol": "KMX",
+      "source": "*[class*='eps']",
+      "raw_text": "KMX\nCarMax, Inc.\n6:50 AM ET\nEarnings:\nRevenue:\n$0.94\n$7.54 Bil\n$1.31\n$8.01 Bil\n6.2%\n39.4%\n-",
+      "revenue_millions": 7540.0,
+      "revenue_raw": "$7.54 Bil",
+      "growth_rate": 6.2,
+      "growth_raw": "6.2%"
+    },
+    {
+      "symbol": "LVO",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

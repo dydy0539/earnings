@@ -1,0 +1,75 @@
+{
+  "date": "20260227",
+  "scraped_at": "2026-02-27T22:00:50.926551",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "EXK",
+      "name": "Endeavour Silver Corp",
+      "revenue_millions": 145.63,
+      "revenue_raw": "$145.63 Mil",
+      "growth_rate": 309.0,
+      "growth_raw": "309.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GOGO",
+      "name": "Gogo Inc.",
+      "revenue_millions": 223.07,
+      "revenue_raw": "$223.07 Mil",
+      "growth_rate": 67.3,
+      "growth_raw": "67.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UUUU",
+      "name": "Energy Fuels Inc.",
+      "revenue_millions": 27.1,
+      "revenue_raw": "$27.10 Mil",
+      "growth_rate": 60.4,
+      "growth_raw": "60.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MBI",
+      "name": "MBIA Inc.",
+      "revenue_millions": 28.0,
+      "revenue_raw": "$28.00 Mil",
+      "growth_rate": 100.0,
+      "growth_raw": "100.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 43
+}

@@ -1,0 +1,145 @@
+{
+  "date": "20260223",
+  "scraped_at": "2026-02-24T09:00:56.440337",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "HIMS",
+      "name": "Hims & Hers Health, Inc.",
+      "revenue_millions": 619.19,
+      "revenue_raw": "$619.19 Mil",
+      "growth_rate": 28.4,
+      "growth_raw": "28.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies, Inc.",
+      "revenue_millions": 1540.0,
+      "revenue_raw": "$1.54 Bil",
+      "growth_rate": 23.3,
+      "growth_raw": "23.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OKE",
+      "name": "ONEOK Inc.",
+      "revenue_millions": 9490.0,
+      "revenue_raw": "$9.49 Bil",
+      "growth_rate": 29.5,
+      "growth_raw": "29.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EVER",
+      "name": "EverQuote, Inc",
+      "revenue_millions": 177.04,
+      "revenue_raw": "$177.04 Mil",
+      "growth_rate": 32.5,
+      "growth_raw": "32.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BHF",
+      "name": "Brighthouse Financial, Inc.",
+      "revenue_millions": 2230.0,
+      "revenue_raw": "$2.23 Bil",
+      "growth_rate": 40.2,
+      "growth_raw": "40.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ADEA",
+      "name": "Adeia Inc.",
+      "revenue_millions": 166.9,
+      "revenue_raw": "$166.90 Mil",
+      "growth_rate": 53.3,
+      "growth_raw": "53.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "JBTM",
+      "name": "JBT Marel Corporation",
+      "revenue_millions": 1010.0,
+      "revenue_raw": "$1.01 Bil",
+      "growth_rate": 115.6,
+      "growth_raw": "115.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VNOM",
+      "name": "Viper Energy Partners LP",
+      "revenue_millions": 426.49,
+      "revenue_raw": "$426.49 Mil",
+      "growth_rate": 90.2,
+      "growth_raw": "90.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BSM",
+      "name": "Black Stone Minerals L.P.",
+      "revenue_millions": 104.0,
+      "revenue_raw": "$104.00 Mil",
+      "growth_rate": 41.8,
+      "growth_raw": "41.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TARS",
+      "name": "Tarsus Pharmaceuticals, Inc.",
+      "revenue_millions": 144.96,
+      "revenue_raw": "$144.96 Mil",
+      "growth_rate": 128.4,
+      "growth_raw": "128.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VIR",
+      "name": "Vir Biotechnology, Inc.",
+      "revenue_millions": 18.67,
+      "revenue_raw": "$18.67 Mil",
+      "growth_rate": 417.8,
+      "growth_raw": "417.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 11,
+  "total_original": 64
+}

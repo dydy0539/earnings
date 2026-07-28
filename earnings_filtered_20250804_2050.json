@@ -1,0 +1,75 @@
+{
+  "date": "20250804",
+  "scraped_at": "2025-08-04T20:50:25.551985",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "BNTX",
+      "name": "BioNTech SE",
+      "revenue_millions": 643.87,
+      "revenue_raw": "$643.87 Mil",
+      "growth_rate": 113.6,
+      "growth_raw": "113.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TGTX",
+      "name": "TG Therapeutics, Inc.",
+      "revenue_millions": 136.04,
+      "revenue_raw": "$136.04 Mil",
+      "growth_rate": 92.1,
+      "growth_raw": "92.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AXSM",
+      "name": "Axsome Therapeutics, Inc.",
+      "revenue_millions": 140.15,
+      "revenue_raw": "$140.15 Mil",
+      "growth_rate": 72.1,
+      "growth_raw": "72.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BCRX",
+      "name": "BioCryst Pharmaceuticals Inc.",
+      "revenue_millions": 148.85,
+      "revenue_raw": "$148.85 Mil",
+      "growth_rate": 49.4,
+      "growth_raw": "49.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 34
+}

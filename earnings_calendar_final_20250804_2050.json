@@ -1,0 +1,293 @@
+{
+  "date": "20250804",
+  "scraped_at": "2025-08-04T20:50:20.853120",
+  "companies": [
+    {
+      "symbol": "SE",
+      "source": "*[class*='company']",
+      "raw_text": "BioNTech SE"
+    },
+    {
+      "symbol": "TG",
+      "source": "*[class*='company']",
+      "raw_text": "TG Therapeutics, Inc."
+    },
+    {
+      "symbol": "IDEXX",
+      "source": "*[class*='company']",
+      "raw_text": "IDEXX Laboratories, Inc."
+    },
+    {
+      "symbol": "L",
+      "source": "*[class*='eps']",
+      "raw_text": "L\nLoews Corp\n6:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$1.87\n$4.55 Bil\n0.0%\n-\n-",
+      "revenue_millions": 4550.0,
+      "revenue_raw": "$4.55 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CNA",
+      "source": "*[class*='eps']",
+      "raw_text": "CNA\nCNA Financial Corp.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.94\n$3.25 Bil\n$1.23\n$3.72 Bil\n5.6%\n30.9%\n-",
+      "revenue_millions": 3250.0,
+      "revenue_raw": "$3.25 Bil",
+      "growth_rate": 5.6,
+      "growth_raw": "5.6%"
+    },
+    {
+      "symbol": "W",
+      "source": "*[class*='eps']",
+      "raw_text": "W\nWayfair Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.34\n$3.13 Bil\n$0.87\n$3.27 Bil\n5.0%\n155.9%\n-",
+      "revenue_millions": 3130.0,
+      "revenue_raw": "$3.13 Bil",
+      "growth_rate": 5.0,
+      "growth_raw": "5.0%"
+    },
+    {
+      "symbol": "BRK",
+      "source": "*[class*='eps']",
+      "raw_text": "BRK.B\nBerkshire Hathaway, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$5.24\n-\n$5.17\n$92.52 Bil\n-1.2%\n-1.3%\n-",
+      "revenue_millions": 92520.0,
+      "revenue_raw": "$92.52 Bil",
+      "growth_rate": -1.2,
+      "growth_raw": "-1.2%"
+    },
+    {
+      "symbol": "ON",
+      "source": "*[class*='eps']",
+      "raw_text": "ON\nonsemi\n8:00 AM ET\nEarnings:\nRevenue:\n$0.54\n$1.45 Bil\n$0.53\n$1.47 Bil\n-15.4%\n-1.9%",
+      "revenue_millions": 1450.0,
+      "revenue_raw": "$1.45 Bil",
+      "growth_rate": -15.4,
+      "growth_raw": "-15.4%"
+    },
+    {
+      "symbol": "BNTX",
+      "source": "*[class*='eps']",
+      "raw_text": "BNTX\nBioNTech SE\n6:45 AM ET\nEarnings:\nRevenue:\n$-1.31\n$643.87 Mil\n$-1.82\n$295.91 Mil\n113.6%\n-38.9%",
+      "revenue_millions": 643.87,
+      "revenue_raw": "$643.87 Mil",
+      "growth_rate": 113.6,
+      "growth_raw": "113.6%"
+    },
+    {
+      "symbol": "TGTX",
+      "source": "*[class*='eps']",
+      "raw_text": "TGTX\nTG Therapeutics, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.32\n$136.04 Mil\n$0.17\n$141.15 Mil\n92.1%\n-46.9%",
+      "revenue_millions": 136.04,
+      "revenue_raw": "$136.04 Mil",
+      "growth_rate": 92.1,
+      "growth_raw": "92.1%"
+    },
+    {
+      "symbol": "TSN",
+      "source": "*[class*='eps']",
+      "raw_text": "TSN\nTyson Foods Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.72\n$13.63 Bil\n$0.91\n$13.88 Bil\n4.0%\n26.4%",
+      "revenue_millions": 13630.0,
+      "revenue_raw": "$13.63 Bil",
+      "growth_rate": 4.0,
+      "growth_raw": "4.0%"
+    },
+    {
+      "symbol": "FRPT",
+      "source": "*[class*='eps']",
+      "raw_text": "FRPT\nFreshpet, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$0.12\n$268.05 Mil\n$0.33\n$264.69 Mil\n12.5%\n175.0%",
+      "revenue_millions": 268.05,
+      "revenue_raw": "$268.05 Mil",
+      "growth_rate": 12.5,
+      "growth_raw": "12.5%"
+    },
+    {
+      "symbol": "AXSM",
+      "source": "*[class*='eps']",
+      "raw_text": "AXSM\nAxsome Therapeutics, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$-1.00\n$140.15 Mil\n$-0.92\n$150.04 Mil\n72.1%\n8.0%\n-",
+      "revenue_millions": 140.15,
+      "revenue_raw": "$140.15 Mil",
+      "growth_rate": 72.1,
+      "growth_raw": "72.1%"
+    },
+    {
+      "symbol": "IDXX",
+      "source": "*[class*='eps']",
+      "raw_text": "IDXX\nIDEXX Laboratories, Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$3.31\n$1.07 Bil\n$3.63\n$1.11 Bil\n10.6%\n9.7%",
+      "revenue_millions": 1070.0,
+      "revenue_raw": "$1.07 Bil",
+      "growth_rate": 10.6,
+      "growth_raw": "10.6%"
+    },
+    {
+      "symbol": "IEP",
+      "source": "*[class*='eps']",
+      "raw_text": "IEP\nIcahn Enterprises L.P.\n8:00 AM ET\nEarnings:\nRevenue:\n$0.14\n$2.39 Bil\n$-0.30\n$2.37 Bil\n0.3%\n-314.3%\n-",
+      "revenue_millions": 2390.0,
+      "revenue_raw": "$2.39 Bil",
+      "growth_rate": 0.3,
+      "growth_raw": "0.3%"
+    },
+    {
+      "symbol": "KOS",
+      "source": "*[class*='eps']",
+      "raw_text": "KOS\nKosmos Energy Ltd.\n2:00 AM ET\nEarnings:\nRevenue:\n$-0.06\n$432.00 Mil\n$-0.19\n$393.52 Mil\n-12.7%\n-216.7%\n-",
+      "revenue_millions": 432.0,
+      "revenue_raw": "$432.00 Mil",
+      "growth_rate": -12.7,
+      "growth_raw": "-12.7%"
+    },
+    {
+      "symbol": "BCRX",
+      "source": "*[class*='eps']",
+      "raw_text": "BCRX\nBioCryst Pharmaceuticals Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.03\n$148.85 Mil\n$0.15\n$163.35 Mil\n49.4%\n400.0%",
+      "revenue_millions": 148.85,
+      "revenue_raw": "$148.85 Mil",
+      "growth_rate": 49.4,
+      "growth_raw": "49.4%"
+    },
+    {
+      "symbol": "KRYS",
+      "source": "*[class*='eps']",
+      "raw_text": "KRYS\nKrystal Biotech, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$1.08\n$90.50 Mil\n$1.29\n$96.04 Mil\n36.6%\n19.4%\n-",
+      "revenue_millions": 90.5,
+      "revenue_raw": "$90.50 Mil",
+      "growth_rate": 36.6,
+      "growth_raw": "36.6%"
+    },
+    {
+      "symbol": "TSEM",
+      "source": "*[class*='eps']",
+      "raw_text": "TSEM\nTower Semiconductor Ltd.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.45\n$372.13 Mil\n$0.41\n$372.06 Mil\n5.9%\n-8.9%",
+      "revenue_millions": 372.13,
+      "revenue_raw": "$372.13 Mil",
+      "growth_rate": 5.9,
+      "growth_raw": "5.9%"
+    },
+    {
+      "symbol": "WAT",
+      "source": "*[class*='eps']",
+      "raw_text": "WAT\nWaters Corp.\n6:00 AM ET\nEarnings:\nRevenue:\n$2.93\n$744.33 Mil\n$2.95\n$771.33 Mil\n8.9%\n0.7%",
+      "revenue_millions": 744.33,
+      "revenue_raw": "$744.33 Mil",
+      "growth_rate": 8.9,
+      "growth_raw": "8.9%"
+    },
+    {
+      "symbol": "ALX",
+      "source": "*[class*='eps']",
+      "raw_text": "ALX\nAlexanders Inc.\n8:55 AM ET\nEarnings:\nRevenue:\n$3.08\n$51.90 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 51.9,
+      "revenue_raw": "$51.90 Mil"
+    },
+    {
+      "symbol": "HGTY",
+      "source": "*[class*='eps']",
+      "raw_text": "HGTY\nHagerty, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.11\n$354.53 Mil\n$0.13\n$368.70 Mil\n17.7%\n18.2%",
+      "revenue_millions": 354.53,
+      "revenue_raw": "$354.53 Mil",
+      "growth_rate": 17.7,
+      "growth_raw": "17.7%"
+    },
+    {
+      "symbol": "KSPI",
+      "source": "*[class*='eps']",
+      "raw_text": "KSPI\nKaspi.kz\nBefore Open\nEarnings:\nRevenue:\n$2.85\n$1.43 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1430.0,
+      "revenue_raw": "$1.43 Bil"
+    },
+    {
+      "symbol": "LIND",
+      "source": "*[class*='eps']",
+      "raw_text": "LIND\nLindblad Expeditions Holdings Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.29\n$159.54 Mil\n$-0.18\n$167.94 Mil\n23.0%\n37.9%",
+      "revenue_millions": 159.54,
+      "revenue_raw": "$159.54 Mil",
+      "growth_rate": 23.0,
+      "growth_raw": "23.0%"
+    },
+    {
+      "symbol": "PRAX",
+      "source": "*[class*='eps']",
+      "raw_text": "PRAX\nPraxis Precision Medicines, Inc.\n8:30 AM ET\nEarnings:\nRevenue:\n$-3.40\n$290.00 Thou\n$-3.31\n-\n0.0%\n2.6%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SPNT",
+      "source": "*[class*='eps']",
+      "raw_text": "SPNT\nSiriusPoint Ltd.\nBefore Open\nEarnings:\nRevenue:\n$0.56\n$720.10 Mil\n$0.66\n$748.20 Mil\n0.7%\n17.9%\n-",
+      "revenue_millions": 720.1,
+      "revenue_raw": "$720.10 Mil",
+      "growth_rate": 0.7,
+      "growth_raw": "0.7%"
+    },
+    {
+      "symbol": "TWST",
+      "source": "*[class*='eps']",
+      "raw_text": "TWST\nTwist Bioscience Corporation\n7:15 AM ET\nEarnings:\nRevenue:\n$-0.54\n$95.48 Mil\n$-0.47\n$96.06 Mil\n17.9%\n13.0%",
+      "revenue_millions": 95.48,
+      "revenue_raw": "$95.48 Mil",
+      "growth_rate": 17.9,
+      "growth_raw": "17.9%"
+    },
+    {
+      "symbol": "BRKR",
+      "source": "*[class*='eps']",
+      "raw_text": "BRKR\nBruker Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$0.33\n$888.65 Mil\n$0.32\n$797.40 Mil\n-0.4%\n-3.0%",
+      "revenue_millions": 888.65,
+      "revenue_raw": "$888.65 Mil",
+      "growth_rate": -0.4,
+      "growth_raw": "-0.4%"
+    },
+    {
+      "symbol": "CFBK",
+      "source": "*[class*='eps']",
+      "raw_text": "CFBK\nCentral Federal Corp.\nBefore Open\nEarnings:\nRevenue:\n$0.72\n$14.73 Mil\n-\n-\n-\n-\n-",
+      "revenue_millions": 14.73,
+      "revenue_raw": "$14.73 Mil"
+    },
+    {
+      "symbol": "ENR",
+      "source": "*[class*='eps']",
+      "raw_text": "ENR\nEnergizer Holdings, Inc.\n6:50 AM ET\nEarnings:\nRevenue:\n$0.61\n$701.54 Mil\n$1.13\n$725.30 Mil\n3.4%\n85.2%",
+      "revenue_millions": 701.54,
+      "revenue_raw": "$701.54 Mil",
+      "growth_rate": 3.4,
+      "growth_raw": "3.4%"
+    },
+    {
+      "symbol": "EEX",
+      "source": "*[class*='eps']",
+      "raw_text": "EEX\nEmerald Expositions Events, Inc.\n6:25 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.01\n$105.50 Mil\n0.0%\n-\n-",
+      "revenue_millions": 105.5,
+      "revenue_raw": "$105.50 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "RAND",
+      "source": "*[class*='eps']",
+      "raw_text": "RAND\nRand Capital Corp.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.33\n$1.60 Mil\n0.0%\n-\n-",
+      "revenue_millions": 1.6,
+      "revenue_raw": "$1.60 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SOHU",
+      "source": "*[class*='eps']",
+      "raw_text": "SOHU\nSohu.com Inc.\n1:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.69\n$126.27 Mil\n0.0%\n-\n-",
+      "revenue_millions": 126.27,
+      "revenue_raw": "$126.27 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ZEPP",
+      "source": "*[class*='eps']",
+      "raw_text": "ZEPP\nZepp Health Corp.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.42\n$59.41 Mil\n0.0%\n-\n-",
+      "revenue_millions": 59.41,
+      "revenue_raw": "$59.41 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

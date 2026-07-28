@@ -1,0 +1,79 @@
+{
+  "date": "20260610",
+  "scraped_at": "2026-06-11T10:17:21.725890",
+  "companies": [
+    {
+      "symbol": "MIND",
+      "source": "*[class*='eps']",
+      "raw_text": "MIND\nMIND Technology, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.05\n$9.67 Mil\n0.0%\n-\n-",
+      "revenue_millions": 9.67,
+      "revenue_raw": "$9.67 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ORCL",
+      "source": "*[class*='eps']",
+      "raw_text": "ORCL\nOracle Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.96\n$19.08 Bil\n$2.11\n$19.18 Bil\n20.6%\n7.7%",
+      "revenue_millions": 19080.0,
+      "revenue_raw": "$19.08 Bil",
+      "growth_rate": 20.6,
+      "growth_raw": "20.6%"
+    },
+    {
+      "symbol": "SFIX",
+      "source": "*[class*='eps']",
+      "raw_text": "SFIX\nStitch Fix, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.06\n$333.18 Mil\n$-0.01\n$340.28 Mil\n4.7%\n83.3%",
+      "revenue_millions": 333.18,
+      "revenue_raw": "$333.18 Mil",
+      "growth_rate": 4.7,
+      "growth_raw": "4.7%"
+    },
+    {
+      "symbol": "NAVN",
+      "source": "*[class*='eps']",
+      "raw_text": "NAVN\nNavan\n4:05 PM ET\nEarnings:\nRevenue:\n$0.01\n$204.63 Mil\n$0.08\n$220.23 Mil\n0.0%\n700.0%",
+      "revenue_millions": 204.63,
+      "revenue_raw": "$204.63 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ATEX",
+      "source": "*[class*='eps']",
+      "raw_text": "ATEX\nAnterix\n4:45 PM ET\nEarnings:\nRevenue:\n$-0.56\n$1.59 Mil\n$-0.41\n$1.96 Mil\n41.0%\n26.8%\n-",
+      "revenue_millions": 1.59,
+      "revenue_raw": "$1.59 Mil",
+      "growth_rate": 41.0,
+      "growth_raw": "41.0%"
+    },
+    {
+      "symbol": "OXM",
+      "source": "*[class*='eps']",
+      "raw_text": "OXM\nOxford Industries, Inc.\n4:05 PM ETTime & Calendars\nEarnings:\nRevenue:\n$1.27\n$390.20 Mil\n$1.39\n$391.40 Mil\n-0.4%\n9.4%",
+      "revenue_millions": 390.2,
+      "revenue_raw": "$390.20 Mil",
+      "growth_rate": -0.4,
+      "growth_raw": "-0.4%"
+    },
+    {
+      "symbol": "AEMD",
+      "source": "*[class*='eps']",
+      "raw_text": "AEMD\nAethlon Medical, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$-2.46\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "GLBS",
+      "source": "*[class*='eps']",
+      "raw_text": "GLBS\nGlobus Maritime Limited\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.05\n$12.25 Mil\n0.0%\n-\n-",
+      "revenue_millions": 12.25,
+      "revenue_raw": "$12.25 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "RFL",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

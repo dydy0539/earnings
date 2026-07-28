@@ -1,0 +1,56 @@
+{
+  "source_file": "earnings_filtered_20260127_BM.json",
+  "analyzed_at": "2026-01-27T22:00:50.293215",
+  "total_companies": 2,
+  "successful_analyses": 2,
+  "companies": [
+    {
+      "company_name": "Boeing Co.",
+      "ticker": "BA",
+      "status": "success",
+      "incremental_operating_margin": 17.53,
+      "latest_operating_margin": -20.6,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 30.44,
+      "operating_income_growth_pct": -16.57,
+      "details": {
+        "latest_quarter": {
+          "revenue": 23270000000.0,
+          "operating_income": -4794000000.0,
+          "operating_margin_pct": -20.6
+        },
+        "prior_year_quarter": {
+          "revenue": 17840000000.0,
+          "operating_income": -5746000000.0,
+          "operating_margin_pct": -32.21
+        }
+      }
+    },
+    {
+      "company_name": "NextEra Energy Inc",
+      "ticker": "NEE",
+      "status": "success",
+      "incremental_operating_margin": -60.4,
+      "latest_operating_margin": 29.93,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": false,
+      "revenue_growth_pct": 5.27,
+      "operating_income_growth_pct": -9.18,
+      "details": {
+        "latest_quarter": {
+          "revenue": 7966000000.0,
+          "operating_income": 2384000000.0,
+          "operating_margin_pct": 29.93
+        },
+        "prior_year_quarter": {
+          "revenue": 7567000000.0,
+          "operating_income": 2625000000.0,
+          "operating_margin_pct": 34.69
+        }
+      }
+    }
+  ]
+}

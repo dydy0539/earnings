@@ -1,0 +1,95 @@
+{
+  "date": "20260428",
+  "scraped_at": "2026-04-28T21:26:54.071515",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "SPOT",
+      "name": "Spotify Technology S.A.",
+      "revenue_millions": 5360.0,
+      "revenue_raw": "$5.36 Bil",
+      "growth_rate": 20.3,
+      "growth_raw": "20.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INCY",
+      "name": "Incyte Corp.",
+      "revenue_millions": 1230.0,
+      "revenue_raw": "$1.23 Bil",
+      "growth_rate": 20.9,
+      "growth_raw": "20.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KNSA",
+      "name": "Kiniksa Pharmaceuticals, Ltd.",
+      "revenue_millions": 203.6,
+      "revenue_raw": "$203.60 Mil",
+      "growth_rate": 55.5,
+      "growth_raw": "55.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RITM",
+      "name": "Rithm Capital Corp",
+      "revenue_millions": 1270.0,
+      "revenue_raw": "$1.27 Bil",
+      "growth_rate": 79.6,
+      "growth_raw": "79.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WVE",
+      "name": "Wave Life Sciences Ltd.",
+      "revenue_millions": 10.73,
+      "revenue_raw": "$10.73 Mil",
+      "growth_rate": 316.9,
+      "growth_raw": "316.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HRI",
+      "name": "Herc Holdings Inc.",
+      "revenue_millions": 1010.0,
+      "revenue_raw": "$1.01 Bil",
+      "growth_rate": 32.3,
+      "growth_raw": "32.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 84
+}

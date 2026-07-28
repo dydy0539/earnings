@@ -1,0 +1,85 @@
+{
+  "date": "20251029",
+  "scraped_at": "2025-10-29T21:01:40.929581",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "BA",
+      "name": "Boeing Co.",
+      "revenue_millions": 21380.0,
+      "revenue_raw": "$21.38 Bil",
+      "growth_rate": 30.4,
+      "growth_raw": "30.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CNC",
+      "name": "Centene Corporation",
+      "revenue_millions": 47620.0,
+      "revenue_raw": "$47.62 Bil",
+      "growth_rate": 18.2,
+      "growth_raw": "18.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COCO",
+      "name": "Vita Coco Company, Inc.",
+      "revenue_millions": 158.78,
+      "revenue_raw": "$158.78 Mil",
+      "growth_rate": 37.2,
+      "growth_raw": "37.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EVR",
+      "name": "Evercore",
+      "revenue_millions": 1050.0,
+      "revenue_raw": "$1.05 Bil",
+      "growth_rate": 41.7,
+      "growth_raw": "41.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CSTM",
+      "name": "Constellium N.V.",
+      "revenue_millions": 2110.0,
+      "revenue_raw": "$2.11 Bil",
+      "growth_rate": 20.2,
+      "growth_raw": "20.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 5,
+  "total_original": 133
+}

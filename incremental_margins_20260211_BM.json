@@ -1,0 +1,56 @@
+{
+  "source_file": "earnings_filtered_20260211_BM.json",
+  "analyzed_at": "2026-02-11T22:01:21.576850",
+  "total_companies": 2,
+  "successful_analyses": 2,
+  "companies": [
+    {
+      "company_name": "Shopify Inc.",
+      "ticker": "SHOP",
+      "status": "success",
+      "incremental_operating_margin": 21.99,
+      "latest_operating_margin": 17.26,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 31.54,
+      "operating_income_growth_pct": 43.99,
+      "details": {
+        "latest_quarter": {
+          "revenue": 2844000000.0,
+          "operating_income": 491000000.0,
+          "operating_margin_pct": 17.26
+        },
+        "prior_year_quarter": {
+          "revenue": 2162000000.0,
+          "operating_income": 341000000.0,
+          "operating_margin_pct": 15.77
+        }
+      }
+    },
+    {
+      "company_name": "Vertiv Holdings Co",
+      "ticker": "VRT",
+      "status": "success",
+      "incremental_operating_margin": 27.41,
+      "latest_operating_margin": 20.49,
+      "latest_quarter_date": "2025-09-30",
+      "prior_year_quarter_date": "2024-09-30",
+      "is_margin_expanding": true,
+      "revenue_growth_pct": 29.05,
+      "operating_income_growth_pct": 43.08,
+      "details": {
+        "latest_quarter": {
+          "revenue": 2675800000.0,
+          "operating_income": 548300000.0,
+          "operating_margin_pct": 20.49
+        },
+        "prior_year_quarter": {
+          "revenue": 2073500000.0,
+          "operating_income": 383200000.0,
+          "operating_margin_pct": 18.48
+        }
+      }
+    }
+  ]
+}

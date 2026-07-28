@@ -1,0 +1,155 @@
+{
+  "date": "20250806",
+  "scraped_at": "2025-08-06T20:52:35.261646",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "UBER",
+      "name": "Uber Technologies, Inc.",
+      "revenue_millions": 12460.0,
+      "revenue_raw": "$12.46 Bil",
+      "growth_rate": 18.2,
+      "growth_raw": "18.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SHOP",
+      "name": "Shopify Inc.",
+      "revenue_millions": 2540.0,
+      "revenue_raw": "$2.54 Bil",
+      "growth_rate": 31.1,
+      "growth_raw": "31.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NVO",
+      "name": "Novo Nordisk A\\/S",
+      "revenue_millions": 11790.0,
+      "revenue_raw": "$11.79 Bil",
+      "growth_rate": 19.0,
+      "growth_raw": "19.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OSCR",
+      "name": "Oscar Health, Inc.",
+      "revenue_millions": 2900.0,
+      "revenue_raw": "$2.90 Bil",
+      "growth_rate": 29.0,
+      "growth_raw": "29.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FUN",
+      "name": "Six Flags Entertainment Corporation",
+      "revenue_millions": 1010.0,
+      "revenue_raw": "$1.01 Bil",
+      "growth_rate": 62.8,
+      "growth_raw": "62.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DAVE",
+      "name": "Dave, Inc.",
+      "revenue_millions": 112.7,
+      "revenue_raw": "$112.70 Mil",
+      "growth_rate": 64.4,
+      "growth_raw": "64.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GERN",
+      "name": "Geron Corp.",
+      "revenue_millions": 47.91,
+      "revenue_raw": "$47.91 Mil",
+      "growth_rate": 459.6,
+      "growth_raw": "459.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ENLT",
+      "name": "Enlight Renewable Energy Ltd",
+      "revenue_millions": 123.18,
+      "revenue_raw": "$123.18 Mil",
+      "growth_rate": 59.4,
+      "growth_raw": "59.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HIPO",
+      "name": "Hippo Holdings Inc",
+      "revenue_millions": 115.47,
+      "revenue_raw": "$115.47 Mil",
+      "growth_rate": 30.9,
+      "growth_raw": "30.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CG",
+      "name": "Carlyle Group L.P.",
+      "revenue_millions": 1570.0,
+      "revenue_raw": "$1.57 Bil",
+      "growth_rate": 47.0,
+      "growth_raw": "47.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AMTM",
+      "name": "Amentum",
+      "revenue_millions": 3560.0,
+      "revenue_raw": "$3.56 Bil",
+      "growth_rate": 61.0,
+      "growth_raw": "61.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DCTH",
+      "name": "Delcath Systems, Inc.",
+      "revenue_millions": 22.1,
+      "revenue_raw": "$22.10 Mil",
+      "growth_rate": 211.0,
+      "growth_raw": "211.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 12,
+  "total_original": 174
+}

@@ -1,0 +1,205 @@
+{
+  "date": "20251030",
+  "scraped_at": "2025-10-30T21:01:02.659723",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TAL",
+      "name": "TAL Education Group",
+      "revenue_millions": 858.23,
+      "revenue_raw": "$858.23 Mil",
+      "growth_rate": 39.1,
+      "growth_raw": "39.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CNX",
+      "name": "CNX Resources Corporation",
+      "revenue_millions": 385.67,
+      "revenue_raw": "$385.67 Mil",
+      "growth_rate": 37.6,
+      "growth_raw": "37.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly & Co.",
+      "revenue_millions": 16010.000000000002,
+      "revenue_raw": "$16.01 Bil",
+      "growth_rate": 53.9,
+      "growth_raw": "53.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COMM",
+      "name": "CommScope Holding Company, Inc.",
+      "revenue_millions": 1420.0,
+      "revenue_raw": "$1.42 Bil",
+      "growth_rate": 50.6,
+      "growth_raw": "50.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services, Inc.",
+      "revenue_millions": 7440.0,
+      "revenue_raw": "$7.44 Bil",
+      "growth_rate": 17.5,
+      "growth_raw": "17.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "INSM",
+      "name": "Insmed, Inc.",
+      "revenue_millions": 114.65,
+      "revenue_raw": "$114.65 Mil",
+      "growth_rate": 52.4,
+      "growth_raw": "52.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "XRX",
+      "name": "Xerox Corp.",
+      "revenue_millions": 2050.0,
+      "revenue_raw": "$2.05 Bil",
+      "growth_rate": 28.3,
+      "growth_raw": "28.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARGX",
+      "name": "argenx",
+      "revenue_millions": 1070.0,
+      "revenue_raw": "$1.07 Bil",
+      "growth_rate": 95.5,
+      "growth_raw": "95.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CAH",
+      "name": "Cardinal Health, Inc.",
+      "revenue_millions": 59050.0,
+      "revenue_raw": "$59.05 Bil",
+      "growth_rate": 22.4,
+      "growth_raw": "22.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IP",
+      "name": "International Paper Co.",
+      "revenue_millions": 6890.0,
+      "revenue_raw": "$6.89 Bil",
+      "growth_rate": 32.8,
+      "growth_raw": "32.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "APLS",
+      "name": "Apellis Pharmaceuticals, Inc.",
+      "revenue_millions": 335.87,
+      "revenue_raw": "$335.87 Mil",
+      "growth_rate": 133.0,
+      "growth_raw": "133.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LNG",
+      "name": "Cheniere Energy, Inc.",
+      "revenue_millions": 5110.0,
+      "revenue_raw": "$5.11 Bil",
+      "growth_rate": 18.0,
+      "growth_raw": "18.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RES",
+      "name": "RPC, Inc.",
+      "revenue_millions": 400.0,
+      "revenue_raw": "$400.00 Mil",
+      "growth_rate": 32.4,
+      "growth_raw": "32.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PHAT",
+      "name": "Phathom Pharmaceuticals, Inc.",
+      "revenue_millions": 49.19,
+      "revenue_raw": "$49.19 Mil",
+      "growth_rate": 202.7,
+      "growth_raw": "202.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "REAX",
+      "name": "Real Brokerage Inc.",
+      "revenue_millions": 529.2,
+      "revenue_raw": "$529.20 Mil",
+      "growth_rate": 52.6,
+      "growth_raw": "52.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RITM",
+      "name": "Rithm Capital Corp",
+      "revenue_millions": 1000.0,
+      "revenue_raw": "$1.00 Bil",
+      "growth_rate": 78.5,
+      "growth_raw": "78.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CNOB",
+      "name": "ConnectOne Bancorp, Inc.",
+      "revenue_millions": 207.12,
+      "revenue_raw": "$207.12 Mil",
+      "growth_rate": 53.4,
+      "growth_raw": "53.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 17,
+  "total_original": 205
+}

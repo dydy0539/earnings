@@ -1,0 +1,135 @@
+{
+  "date": "20260129",
+  "scraped_at": "2026-01-29T22:14:11.840378",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TAL",
+      "name": "TAL Education Group",
+      "revenue_millions": 825.03,
+      "revenue_raw": "$825.03 Mil",
+      "growth_rate": 27.0,
+      "growth_raw": "27.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CNX",
+      "name": "CNX Resources Corporation",
+      "revenue_millions": 392.01,
+      "revenue_raw": "$392.01 Mil",
+      "growth_rate": 347.0,
+      "growth_raw": "347.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MA",
+      "name": "Mastercard Inc",
+      "revenue_millions": 8770.0,
+      "revenue_raw": "$8.77 Bil",
+      "growth_rate": 17.6,
+      "growth_raw": "17.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CAT",
+      "name": "Caterpillar, Inc.",
+      "revenue_millions": 17830.0,
+      "revenue_raw": "$17.83 Bil",
+      "growth_rate": 18.0,
+      "growth_raw": "18.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BX",
+      "name": "Blackstone",
+      "revenue_millions": 3610.0,
+      "revenue_raw": "$3.61 Bil",
+      "growth_rate": 41.4,
+      "growth_raw": "41.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "XRX",
+      "name": "Xerox Corp.",
+      "revenue_millions": 2080.0,
+      "revenue_raw": "$2.08 Bil",
+      "growth_rate": 25.7,
+      "growth_raw": "25.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SNY",
+      "name": "Sanofi",
+      "revenue_millions": 13340.0,
+      "revenue_raw": "$13.34 Bil",
+      "growth_rate": 16.8,
+      "growth_raw": "16.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CNOB",
+      "name": "ConnectOne Bancorp, Inc.",
+      "revenue_millions": 116.7,
+      "revenue_raw": "$116.70 Mil",
+      "growth_rate": 46.0,
+      "growth_raw": "46.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IP",
+      "name": "International Paper Co.",
+      "revenue_millions": 6080.0,
+      "revenue_raw": "$6.08 Bil",
+      "growth_rate": 31.1,
+      "growth_raw": "31.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LUV",
+      "name": "Southwest Airlines Co.",
+      "revenue_millions": 7440.0,
+      "revenue_raw": "$7.44 Bil",
+      "growth_rate": 15.8,
+      "growth_raw": "15.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 10,
+  "total_original": 90
+}

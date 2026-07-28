@@ -1,0 +1,376 @@
+{
+  "date": "20260127",
+  "scraped_at": "2026-01-28T09:50:44.235528",
+  "companies": [
+    {
+      "symbol": "S",
+      "source": "*[class*='company']",
+      "raw_text": "Logitech International S.A."
+    },
+    {
+      "symbol": "PPG",
+      "source": "*[class*='eps']",
+      "raw_text": "PPG\nPPG Industries, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.57\n$3.75 Bil\n$1.51\n$3.91 Bil\n5.0%\n-3.8%",
+      "revenue_millions": 3750.0,
+      "revenue_raw": "$3.75 Bil",
+      "growth_rate": 5.0,
+      "growth_raw": "5.0%"
+    },
+    {
+      "symbol": "BXP",
+      "source": "*[class*='eps']",
+      "raw_text": "BXP\nBXP, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$1.80\n$814.66 Mil\n$1.76\n$877.10 Mil\n2.2%\n-2.2%",
+      "revenue_millions": 814.66,
+      "revenue_raw": "$814.66 Mil",
+      "growth_rate": 2.2,
+      "growth_raw": "2.2%"
+    },
+    {
+      "symbol": "QCR",
+      "source": "*[class*='company']",
+      "raw_text": "QCR Holdings Inc."
+    },
+    {
+      "symbol": "UMB",
+      "source": "*[class*='company']",
+      "raw_text": "UMB Financial Corporation"
+    },
+    {
+      "symbol": "CNB",
+      "source": "*[class*='company']",
+      "raw_text": "CNB Financial Corp"
+    },
+    {
+      "symbol": "CP",
+      "source": "*[class*='company']",
+      "raw_text": "LOGANSPORT FINANCIAL CP"
+    },
+    {
+      "symbol": "STX",
+      "source": "*[class*='eps']",
+      "raw_text": "STX\nSeagate Technology plc\n4:05 PM ET\nEarnings:\nRevenue:\n$2.92\n$2.71 Bil\n$3.11\n$2.83 Bil\n21.5%\n6.5%",
+      "revenue_millions": 2710.0,
+      "revenue_raw": "$2.71 Bil",
+      "growth_rate": 21.5,
+      "growth_raw": "21.5%"
+    },
+    {
+      "symbol": "TXN",
+      "source": "*[class*='eps']",
+      "raw_text": "TXN\nTexas Instruments Incorporated\n4:00 PM ET\nEarnings:\nRevenue:\n$1.30\n$4.42 Bil\n$1.27\n$4.42 Bil\n10.4%\n-2.3%",
+      "revenue_millions": 4420.0,
+      "revenue_raw": "$4.42 Bil",
+      "growth_rate": 10.4,
+      "growth_raw": "10.4%"
+    },
+    {
+      "symbol": "FFIV",
+      "source": "*[class*='eps']",
+      "raw_text": "FFIV\nF5 Networks, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$3.66\n$759.97 Mil\n$4.45\n$822.47 Mil\n7.3%\n21.6%",
+      "revenue_millions": 759.97,
+      "revenue_raw": "$759.97 Mil",
+      "growth_rate": 7.3,
+      "growth_raw": "7.3%"
+    },
+    {
+      "symbol": "NXT",
+      "source": "*[class*='eps']",
+      "raw_text": "NXT\nNextpower\n4:05 PM ET\nEarnings:\nRevenue:\n$0.94\n$814.64 Mil\n$1.10\n$909.35 Mil\n33.9%\n17.0%",
+      "revenue_millions": 814.64,
+      "revenue_raw": "$814.64 Mil",
+      "growth_rate": 33.9,
+      "growth_raw": "33.9%"
+    },
+    {
+      "symbol": "LOGI",
+      "source": "*[class*='eps']",
+      "raw_text": "LOGI\nLogitech International S.A.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.70\n$1.40 Bil\n$1.77\n$1.42 Bil\n6.1%\n4.1%",
+      "revenue_millions": 1400.0,
+      "revenue_raw": "$1.40 Bil",
+      "growth_rate": 6.1,
+      "growth_raw": "6.1%"
+    },
+    {
+      "symbol": "LRN",
+      "source": "*[class*='eps']",
+      "raw_text": "LRN\nStride, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$2.33\n$627.36 Mil\n$2.50\n$631.26 Mil\n7.5%\n7.3%",
+      "revenue_millions": 627.36,
+      "revenue_raw": "$627.36 Mil",
+      "growth_rate": 7.5,
+      "growth_raw": "7.5%"
+    },
+    {
+      "symbol": "QRVO",
+      "source": "*[class*='eps']",
+      "raw_text": "QRVO\nQorvo, Inc.\nAfter Close\nEarnings:\nRevenue:\n$1.85\n$991.28 Mil\n$2.17\n$992.96 Mil\n8.4%\n17.3%",
+      "revenue_millions": 991.28,
+      "revenue_raw": "$991.28 Mil",
+      "growth_rate": 8.4,
+      "growth_raw": "8.4%"
+    },
+    {
+      "symbol": "ENVA",
+      "source": "*[class*='eps']",
+      "raw_text": "ENVA\nEnova International, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$3.17\n$842.61 Mil\n$3.46\n$839.39 Mil\n15.1%\n9.1%\n-",
+      "revenue_millions": 842.61,
+      "revenue_raw": "$842.61 Mil",
+      "growth_rate": 15.1,
+      "growth_raw": "15.1%"
+    },
+    {
+      "symbol": "PKG",
+      "source": "*[class*='eps']",
+      "raw_text": "PKG\nPackaging Corporation of America\n5:10 PM ET\nEarnings:\nRevenue:\n$2.41\n$2.42 Bil\n$2.32\n$2.36 Bil\n10.1%\n-3.7%",
+      "revenue_millions": 2420.0,
+      "revenue_raw": "$2.42 Bil",
+      "growth_rate": 10.1,
+      "growth_raw": "10.1%"
+    },
+    {
+      "symbol": "GEF",
+      "source": "*[class*='eps']",
+      "raw_text": "GEF\nGreif, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.69\n$908.32 Mil\n$0.48\n$994.80 Mil\n0.0%\n-30.4%\n-",
+      "revenue_millions": 908.32,
+      "revenue_raw": "$908.32 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "MANH",
+      "source": "*[class*='eps']",
+      "raw_text": "MANH\nManhattan Associates, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.13\n$264.25 Mil\n$1.21\n$270.39 Mil\n5.7%\n7.1%",
+      "revenue_millions": 264.25,
+      "revenue_raw": "$264.25 Mil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    },
+    {
+      "symbol": "RNST",
+      "source": "*[class*='eps']",
+      "raw_text": "RNST\nRenasant Corporation\n4:30 PM ET\nEarnings:\nRevenue:\n$0.80\n$269.00 Mil\n$0.91\n$398.06 Mil\n53.4%\n13.7%\n-",
+      "revenue_millions": 269.0,
+      "revenue_raw": "$269.00 Mil",
+      "growth_rate": 53.4,
+      "growth_raw": "53.4%"
+    },
+    {
+      "symbol": "HAFC",
+      "source": "*[class*='eps']",
+      "raw_text": "HAFC\nHanmi Financial Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.71\n$70.75 Mil\n$0.70\n$113.41 Mil\n5.5%\n-1.4%\n-",
+      "revenue_millions": 70.75,
+      "revenue_raw": "$70.75 Mil",
+      "growth_rate": 5.5,
+      "growth_raw": "5.5%"
+    },
+    {
+      "symbol": "WSBC",
+      "source": "*[class*='eps']",
+      "raw_text": "WSBC\nWesBanco Inc.\n4:20 PM ET\nEarnings:\nRevenue:\n$0.84\n$265.71 Mil\n$0.84\n$382.71 Mil\n53.1%\n0.0%\n-",
+      "revenue_millions": 265.71,
+      "revenue_raw": "$265.71 Mil",
+      "growth_rate": 53.1,
+      "growth_raw": "53.1%"
+    },
+    {
+      "symbol": "FFIC",
+      "source": "*[class*='eps']",
+      "raw_text": "FFIC\nFlushing Financial Corp.\nAfter Close\nEarnings:\nRevenue:\n$0.35\n$61.82 Mil\n$0.32\n$119.13 Mil\n-5.5%\n-8.6%\n-",
+      "revenue_millions": 61.82,
+      "revenue_raw": "$61.82 Mil",
+      "growth_rate": -5.5,
+      "growth_raw": "-5.5%"
+    },
+    {
+      "symbol": "NBHC",
+      "source": "*[class*='eps']",
+      "raw_text": "NBHC\nNational Bank Holdings Corporation\n4:10 PM ET\nEarnings:\nRevenue:\n$0.87\n-\n$0.60\n$140.79 Mil\n-4.4%\n-31.0%\n-",
+      "revenue_millions": 140.79,
+      "revenue_raw": "$140.79 Mil",
+      "growth_rate": -4.4,
+      "growth_raw": "-4.4%"
+    },
+    {
+      "symbol": "PFS",
+      "source": "*[class*='eps']",
+      "raw_text": "PFS\nProvident Financial Services Inc\n5:20 PM ET\nEarnings:\nRevenue:\n$0.56\n$223.85 Mil\n$0.64\n$353.15 Mil\n5.1%\n14.3%\n-",
+      "revenue_millions": 223.85,
+      "revenue_raw": "$223.85 Mil",
+      "growth_rate": 5.1,
+      "growth_raw": "5.1%"
+    },
+    {
+      "symbol": "QCRH",
+      "source": "*[class*='eps']",
+      "raw_text": "QCRH\nQCR Holdings Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.96\n$95.95 Mil\n$2.21\n$166.16 Mil\n9.1%\n12.8%\n-",
+      "revenue_millions": 95.95,
+      "revenue_raw": "$95.95 Mil",
+      "growth_rate": 9.1,
+      "growth_raw": "9.1%"
+    },
+    {
+      "symbol": "TRMK",
+      "source": "*[class*='eps']",
+      "raw_text": "TRMK\nTrustmark Corp.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.91\n$207.03 Mil\n$0.97\n$283.50 Mil\n0.1%\n6.6%\n-",
+      "revenue_millions": 207.03,
+      "revenue_raw": "$207.03 Mil",
+      "growth_rate": 0.1,
+      "growth_raw": "0.1%"
+    },
+    {
+      "symbol": "UMBF",
+      "source": "*[class*='eps']",
+      "raw_text": "UMBF\nUMB Financial Corporation\n4:05 PM ET\nEarnings:\nRevenue:\n$2.71\n$678.95 Mil\n$3.08\n$1.09 Bil\n50.7%\n13.7%\n-",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": 50.7,
+      "growth_raw": "50.7%"
+    },
+    {
+      "symbol": "BWB",
+      "source": "*[class*='eps']",
+      "raw_text": "BWB\nBridgewater Bancshares, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.41\n$38.10 Mil\n$0.44\n$76.46 Mil\n16.1%\n7.3%\n-",
+      "revenue_millions": 38.1,
+      "revenue_raw": "$38.10 Mil",
+      "growth_rate": 16.1,
+      "growth_raw": "16.1%"
+    },
+    {
+      "symbol": "FCF",
+      "source": "*[class*='eps']",
+      "raw_text": "FCF\nFirst Commonwealth Financial Corporation\n5:00 PM ET\nEarnings:\nRevenue:\n$0.41\n$135.26 Mil\n$0.43\n$188.64 Mil\n7.6%\n4.9%\n-",
+      "revenue_millions": 135.26,
+      "revenue_raw": "$135.26 Mil",
+      "growth_rate": 7.6,
+      "growth_raw": "7.6%"
+    },
+    {
+      "symbol": "ORRF",
+      "source": "*[class*='eps']",
+      "raw_text": "ORRF\nOrrstown Financial Services, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.08\n$64.55 Mil\n$1.11\n$90.65 Mil\n-0.7%\n2.8%\n-",
+      "revenue_millions": 64.55,
+      "revenue_raw": "$64.55 Mil",
+      "growth_rate": -0.7,
+      "growth_raw": "-0.7%"
+    },
+    {
+      "symbol": "MRTN",
+      "source": "*[class*='eps']",
+      "raw_text": "MRTN\nMarten Transport Ltd.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.03\n$207.00 Mil\n$0.05\n$210.11 Mil\n-8.8%\n66.7%\n-",
+      "revenue_millions": 207.0,
+      "revenue_raw": "$207.00 Mil",
+      "growth_rate": -8.8,
+      "growth_raw": "-8.8%"
+    },
+    {
+      "symbol": "VENU",
+      "source": "*[class*='eps']",
+      "raw_text": "VENU\nVenu Holding Corporation\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.24\n$6.70 Mil\n-\n-\n-\n-",
+      "revenue_millions": 6.7,
+      "revenue_raw": "$6.70 Mil"
+    },
+    {
+      "symbol": "BUSE",
+      "source": "*[class*='eps']",
+      "raw_text": "BUSE\nFirst Busey Corp.\n5:00 PM ET\nEarnings:\nRevenue:\n$0.61\n$196.05 Mil\n$0.68\n$277.79 Mil\n66.8%\n11.5%\n-",
+      "revenue_millions": 196.05,
+      "revenue_raw": "$196.05 Mil",
+      "growth_rate": 66.8,
+      "growth_raw": "66.8%"
+    },
+    {
+      "symbol": "CBFV",
+      "source": "*[class*='eps']",
+      "raw_text": "CBFV\nCb Financial Services Inc\n4:05 PM ET\nEarnings:\nRevenue:\n$0.83\n$15.20 Mil\n$0.72\n$21.72 Mil\n3.0%\n-13.3%\n-",
+      "revenue_millions": 15.2,
+      "revenue_raw": "$15.20 Mil",
+      "growth_rate": 3.0,
+      "growth_raw": "3.0%"
+    },
+    {
+      "symbol": "CCNE",
+      "source": "*[class*='eps']",
+      "raw_text": "CCNE\nCNB Financial Corp\n4:05 PM ET\nEarnings:\nRevenue:\n$0.77\n$83.30 Mil\n$0.88\n$127.63 Mil\n35.8%\n14.3%\n-",
+      "revenue_millions": 83.3,
+      "revenue_raw": "$83.30 Mil",
+      "growth_rate": 35.8,
+      "growth_raw": "35.8%"
+    },
+    {
+      "symbol": "SARO",
+      "source": "*[class*='eps']",
+      "raw_text": "SARO\nStandardAero, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.25\n$1.57 Bil\n-\n-\n-\n-",
+      "revenue_millions": 1570.0,
+      "revenue_raw": "$1.57 Bil"
+    },
+    {
+      "symbol": "WNEB",
+      "source": "*[class*='eps']",
+      "raw_text": "WNEB\nWestern New England Bancorp, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.21\n$21.80 Mil\n$0.26\n$33.71 Mil\n5.9%\n23.8%\n-",
+      "revenue_millions": 21.8,
+      "revenue_raw": "$21.80 Mil",
+      "growth_rate": 5.9,
+      "growth_raw": "5.9%"
+    },
+    {
+      "symbol": "FCBC",
+      "source": "*[class*='eps']",
+      "raw_text": "FCBC\nFirst Community Bancshares Inc\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.77\n$47.71 Mil\n0.0%\n-\n-",
+      "revenue_millions": 47.71,
+      "revenue_raw": "$47.71 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FCOB",
+      "source": "*[class*='eps']",
+      "raw_text": "FCOB\n1st Colonial Bancorp Inc.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.63\n$13.08 Mil\n0.0%\n-\n-",
+      "revenue_millions": 13.08,
+      "revenue_raw": "$13.08 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FNWD",
+      "source": "*[class*='eps']",
+      "raw_text": "FNWD\nFINWARD BANCORP\n5:30 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.46\n$24.89 Mil\n0.0%\n-\n-",
+      "revenue_millions": 24.89,
+      "revenue_raw": "$24.89 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FRAF",
+      "source": "*[class*='eps']",
+      "raw_text": "FRAF\nFranklin Financial Services Co\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$1.35\n$33.74 Mil\n0.0%\n-\n-",
+      "revenue_millions": 33.74,
+      "revenue_raw": "$33.74 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "GOVB",
+      "source": "*[class*='eps']",
+      "raw_text": "GOVB\nGouverneur Bancorp\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$0.28\n$2.58 Mil\n0.0%\n-\n-",
+      "revenue_millions": 2.58,
+      "revenue_raw": "$2.58 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LOGN",
+      "source": "*[class*='eps']",
+      "raw_text": "LOGN\nLOGANSPORT FINANCIAL CP\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ORPB",
+      "source": "*[class*='eps']",
+      "raw_text": "ORPB\nOregon Pacific Bancorp\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "PDO",
+      "source": "*[class*='eps']",
+      "raw_text": "PDO\nPyramid Oil Co.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

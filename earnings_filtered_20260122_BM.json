@@ -1,0 +1,65 @@
+{
+  "date": "20260122",
+  "scraped_at": "2026-01-22T23:00:43.449696",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "revenue_millions": 11190.0,
+      "revenue_raw": "$11.19 Bil",
+      "growth_rate": 17.6,
+      "growth_raw": "17.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NWFL",
+      "name": "Norwood Financial Corp",
+      "revenue_millions": 23.2,
+      "revenue_raw": "$23.20 Mil",
+      "growth_rate": 200.7,
+      "growth_raw": "200.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AUB",
+      "name": "Atlantic Union Bankshares Corporation",
+      "revenue_millions": 380.7,
+      "revenue_raw": "$380.70 Mil",
+      "growth_rate": 57.7,
+      "growth_raw": "57.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 3,
+  "total_original": 36
+}

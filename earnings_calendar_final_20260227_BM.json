@@ -1,0 +1,350 @@
+{
+  "date": "20260227",
+  "scraped_at": "2026-02-27T22:00:46.032898",
+  "companies": [
+    {
+      "symbol": "US",
+      "source": "*[class*='company']",
+      "raw_text": "Delek US Holdings Inc."
+    },
+    {
+      "symbol": "ANI",
+      "source": "*[class*='company']",
+      "raw_text": "ANI Pharmaceuticals Inc"
+    },
+    {
+      "symbol": "NIQ",
+      "source": "*[class*='eps']",
+      "raw_text": "NIQ\nNIQ Global Intelligence plc\n7:00 AM ET\nEarnings:\nRevenue:\n$0.28\n$1.12 Bil\n$0.18\n$1.14 Bil\n0.0%\n-35.7%",
+      "revenue_millions": 1120.0,
+      "revenue_raw": "$1.12 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LP",
+      "source": "*[class*='company']",
+      "raw_text": "Delek Logistics Partners LP"
+    },
+    {
+      "symbol": "NW",
+      "source": "*[class*='company']",
+      "raw_text": "NW Natural Holdings"
+    },
+    {
+      "symbol": "L",
+      "source": "*[class*='company']",
+      "raw_text": "Calumet Specialty Products Partners, L.P."
+    },
+    {
+      "symbol": "TCP",
+      "source": "*[class*='company']",
+      "raw_text": "BlackRock TCP Capital Corp."
+    },
+    {
+      "symbol": "ALX",
+      "source": "*[class*='company']",
+      "raw_text": "ALX Oncology Holdings Inc."
+    },
+    {
+      "symbol": "MBIA",
+      "source": "*[class*='company']",
+      "raw_text": "MBIA Inc."
+    },
+    {
+      "symbol": "SE",
+      "source": "*[class*='company']",
+      "raw_text": "Allianz SE"
+    },
+    {
+      "symbol": "ADR",
+      "source": "*[class*='company']",
+      "raw_text": "GENTING BERHAD ADR"
+    },
+    {
+      "symbol": "EXK",
+      "source": "*[class*='eps']",
+      "raw_text": "EXK\nEndeavour Silver Corp\n6:50 AM ETTime & Calendars\nEarnings:\nRevenue:\n$0.03\n$145.63 Mil\n$0.02\n$172.60 Mil\n309.0%\n-33.3%\n-",
+      "revenue_millions": 145.63,
+      "revenue_raw": "$145.63 Mil",
+      "growth_rate": 309.0,
+      "growth_raw": "309.0%"
+    },
+    {
+      "symbol": "GSAT",
+      "source": "*[class*='eps']",
+      "raw_text": "GSAT\nGlobalstar Inc\nBefore Open\nEarnings:\nRevenue:\n$0.01\n$71.80 Mil\n$-0.07\n$71.96 Mil\n17.6%\n-800.0%",
+      "revenue_millions": 71.8,
+      "revenue_raw": "$71.80 Mil",
+      "growth_rate": 17.6,
+      "growth_raw": "17.6%"
+    },
+    {
+      "symbol": "DIBS",
+      "source": "*[class*='eps']",
+      "raw_text": "DIBS\n1stdibs.com, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.04\n$23.11 Mil\n$-0.03\n$22.97 Mil\n0.9%\n25.0%",
+      "revenue_millions": 23.11,
+      "revenue_raw": "$23.11 Mil",
+      "growth_rate": 0.9,
+      "growth_raw": "0.9%"
+    },
+    {
+      "symbol": "BTSG",
+      "source": "*[class*='eps']",
+      "raw_text": "BTSG\nBrightSpring Health Services, Inc.\nBefore Open\nEarnings:\nRevenue:\n$0.34\n$3.35 Bil\n$0.33\n$3.55 Bil\n16.3%\n-2.9%",
+      "revenue_millions": 3350.0,
+      "revenue_raw": "$3.35 Bil",
+      "growth_rate": 16.3,
+      "growth_raw": "16.3%"
+    },
+    {
+      "symbol": "DK",
+      "source": "*[class*='eps']",
+      "raw_text": "DK\nDelek US Holdings Inc.\n6:30 AM ET\nEarnings:\nRevenue:\n$-0.25\n$2.28 Bil\n$0.44\n$2.43 Bil\n2.3%\n276.0%\n-",
+      "revenue_millions": 2280.0,
+      "revenue_raw": "$2.28 Bil",
+      "growth_rate": 2.3,
+      "growth_raw": "2.3%"
+    },
+    {
+      "symbol": "ABR",
+      "source": "*[class*='eps']",
+      "raw_text": "ABR\nArbor Realty Trust Inc.\n8:30 AM ET\nEarnings:\nRevenue:\n$0.20\n$221.71 Mil\n$0.18\n$236.01 Mil\n-10.2%\n-10.0%\n-",
+      "revenue_millions": 221.71,
+      "revenue_raw": "$221.71 Mil",
+      "growth_rate": -10.2,
+      "growth_raw": "-10.2%"
+    },
+    {
+      "symbol": "ANIP",
+      "source": "*[class*='eps']",
+      "raw_text": "ANIP\nANI Pharmaceuticals Inc\n6:50 AM ET\nEarnings:\nRevenue:\n$1.62\n$233.91 Mil\n$1.98\n$247.06 Mil\n29.6%\n22.2%",
+      "revenue_millions": 233.91,
+      "revenue_raw": "$233.91 Mil",
+      "growth_rate": 29.6,
+      "growth_raw": "29.6%"
+    },
+    {
+      "symbol": "VIA",
+      "source": "*[class*='eps']",
+      "raw_text": "VIA\nVia Transportation, Inc\nBefore Open\nEarnings:\nRevenue:\n$-0.07\n$114.84 Mil\n-\n-\n-\n-",
+      "revenue_millions": 114.84,
+      "revenue_raw": "$114.84 Mil"
+    },
+    {
+      "symbol": "GOGO",
+      "source": "*[class*='eps']",
+      "raw_text": "GOGO\nGogo Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.02\n$223.07 Mil\n$-0.01\n$230.56 Mil\n67.3%\n-150.0%",
+      "revenue_millions": 223.07,
+      "revenue_raw": "$223.07 Mil",
+      "growth_rate": 67.3,
+      "growth_raw": "67.3%"
+    },
+    {
+      "symbol": "CRI",
+      "source": "*[class*='eps']",
+      "raw_text": "CRI\nCarter's, Inc.\n6:15 AM ET\nEarnings:\nRevenue:\n$1.70\n$866.75 Mil\n$1.90\n$925.45 Mil\n7.6%\n11.8%\n-",
+      "revenue_millions": 866.75,
+      "revenue_raw": "$866.75 Mil",
+      "growth_rate": 7.6,
+      "growth_raw": "7.6%"
+    },
+    {
+      "symbol": "FLGT",
+      "source": "*[class*='eps']",
+      "raw_text": "FLGT\nFulgent Genetics\n7:05 AM ET\nEarnings:\nRevenue:\n$-0.27\n$85.12 Mil\n$-0.11\n$83.34 Mil\n9.3%\n59.3%",
+      "revenue_millions": 85.12,
+      "revenue_raw": "$85.12 Mil",
+      "growth_rate": 9.3,
+      "growth_raw": "9.3%"
+    },
+    {
+      "symbol": "GLP",
+      "source": "*[class*='eps']",
+      "raw_text": "GLP\nGlobal Partners LP\n8:00 AM ET\nEarnings:\nRevenue:\n$0.60\n$6.94 Bil\n$0.54\n$4.65 Bil\n11.0%\n-10.0%\n-",
+      "revenue_millions": 6940.0,
+      "revenue_raw": "$6.94 Bil",
+      "growth_rate": 11.0,
+      "growth_raw": "11.0%"
+    },
+    {
+      "symbol": "NWN",
+      "source": "*[class*='eps']",
+      "raw_text": "NWN\nNW Natural Holdings\n6:00 AM ET\nEarnings:\nRevenue:\n$1.36\n$394.99 Mil\n$1.39\n$394.16 Mil\n6.3%\n2.2%",
+      "revenue_millions": 394.99,
+      "revenue_raw": "$394.99 Mil",
+      "growth_rate": 6.3,
+      "growth_raw": "6.3%"
+    },
+    {
+      "symbol": "SHO",
+      "source": "*[class*='eps']",
+      "raw_text": "SHO\nSunstone Hotel Investors, Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$0.18\n$227.21 Mil\n$0.20\n$236.97 Mil\n10.3%\n11.1%",
+      "revenue_millions": 227.21,
+      "revenue_raw": "$227.21 Mil",
+      "growth_rate": 10.3,
+      "growth_raw": "10.3%"
+    },
+    {
+      "symbol": "CLMT",
+      "source": "*[class*='eps']",
+      "raw_text": "CLMT\nCalumet Specialty Products Partners, L.P.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.67\n$1.07 Bil\n$-0.43\n$1.04 Bil\n9.4%\n35.8%\n-",
+      "revenue_millions": 1070.0,
+      "revenue_raw": "$1.07 Bil",
+      "growth_rate": 9.4,
+      "growth_raw": "9.4%"
+    },
+    {
+      "symbol": "LIQT",
+      "source": "*[class*='eps']",
+      "raw_text": "LIQT\nLiqTech International, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.17\n$5.40 Mil\n$-0.27\n$3.13 Mil\n-8.3%\n-58.8%",
+      "revenue_millions": 5.4,
+      "revenue_raw": "$5.40 Mil",
+      "growth_rate": -8.3,
+      "growth_raw": "-8.3%"
+    },
+    {
+      "symbol": "TAC",
+      "source": "*[class*='eps']",
+      "raw_text": "TAC\nTransAlta Corporation\n7:00 AM ET\nEarnings:\nRevenue:\n$0.05\n$1.78 Bil\n$-0.04\n$429.69 Mil\n-11.3%\n-180.0%\n-",
+      "revenue_millions": 1780.0,
+      "revenue_raw": "$1.78 Bil",
+      "growth_rate": -11.3,
+      "growth_raw": "-11.3%"
+    },
+    {
+      "symbol": "TCPC",
+      "source": "*[class*='eps']",
+      "raw_text": "TCPC\nBlackRock TCP Capital Corp.\n8:05 AM ET\nEarnings:\nRevenue:\n$0.25\n$47.78 Mil\n$0.26\n$43.92 Mil\n-28.3%\n4.0%\n-",
+      "revenue_millions": 47.78,
+      "revenue_raw": "$47.78 Mil",
+      "growth_rate": -28.3,
+      "growth_raw": "-28.3%"
+    },
+    {
+      "symbol": "ALXO",
+      "source": "*[class*='eps']",
+      "raw_text": "ALXO\nALX Oncology Holdings Inc.\n8:15 AM ET\nEarnings:\nRevenue:\n$-0.38\n-\n$-0.42\n-\n0.0%\n-10.5%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "AMR",
+      "source": "*[class*='eps']",
+      "raw_text": "AMR\nAlpha Metallurgical Resources, Inc\n7:30 AM ET\nEarnings:\nRevenue:\n$-1.34\n$519.10 Mil\n$-1.34\n$520.47 Mil\n-15.7%\n0.0%\n-",
+      "revenue_millions": 519.1,
+      "revenue_raw": "$519.10 Mil",
+      "growth_rate": -15.7,
+      "growth_raw": "-15.7%"
+    },
+    {
+      "symbol": "AMRX",
+      "source": "*[class*='eps']",
+      "raw_text": "AMRX\nAmneal Pharmaceuticals, Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.17\n$815.87 Mil\n$0.19\n$814.32 Mil\n11.5%\n11.8%",
+      "revenue_millions": 815.87,
+      "revenue_raw": "$815.87 Mil",
+      "growth_rate": 11.5,
+      "growth_raw": "11.5%"
+    },
+    {
+      "symbol": "DCBO",
+      "source": "*[class*='eps']",
+      "raw_text": "DCBO\nDocebo Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.36\n$62.65 Mil\n$0.46\n$63.04 Mil\n10.5%\n27.8%",
+      "revenue_millions": 62.65,
+      "revenue_raw": "$62.65 Mil",
+      "growth_rate": 10.5,
+      "growth_raw": "10.5%"
+    },
+    {
+      "symbol": "DKL",
+      "source": "*[class*='eps']",
+      "raw_text": "DKL\nDelek Logistics Partners LP\n6:30 AM ET\nEarnings:\nRevenue:\n$1.25\n$264.35 Mil\n$0.88\n$255.77 Mil\n21.9%\n-29.6%\n-",
+      "revenue_millions": 264.35,
+      "revenue_raw": "$264.35 Mil",
+      "growth_rate": 21.9,
+      "growth_raw": "21.9%"
+    },
+    {
+      "symbol": "ESCA",
+      "source": "*[class*='eps']",
+      "raw_text": "ESCA\nEscalade Inc.\n6:05 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.27\n$62.56 Mil\n-2.2%\n-\n-",
+      "revenue_millions": 62.56,
+      "revenue_raw": "$62.56 Mil",
+      "growth_rate": -2.2,
+      "growth_raw": "-2.2%"
+    },
+    {
+      "symbol": "INTT",
+      "source": "*[class*='eps']",
+      "raw_text": "INTT\ninTEST Corporation\n6:15 AM ET\nEarnings:\nRevenue:\n$0.16\n$31.74 Mil\n$0.16\n$32.82 Mil\n-10.3%\n0.0%",
+      "revenue_millions": 31.74,
+      "revenue_raw": "$31.74 Mil",
+      "growth_rate": -10.3,
+      "growth_raw": "-10.3%"
+    },
+    {
+      "symbol": "TMCI",
+      "source": "*[class*='eps']",
+      "raw_text": "TMCI\nTreace Medical Concepts, Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.15\n$61.77 Mil\n$-0.12\n$62.52 Mil\n-9.0%\n20.0%",
+      "revenue_millions": 61.77,
+      "revenue_raw": "$61.77 Mil",
+      "growth_rate": -9.0,
+      "growth_raw": "-9.0%"
+    },
+    {
+      "symbol": "UUUU",
+      "source": "*[class*='eps']",
+      "raw_text": "UUUU\nEnergy Fuels Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.04\n-\n$-0.08\n$27.10 Mil\n60.4%\n-100.0%\n-",
+      "revenue_millions": 27.1,
+      "revenue_raw": "$27.10 Mil",
+      "growth_rate": 60.4,
+      "growth_raw": "60.4%"
+    },
+    {
+      "symbol": "MBI",
+      "source": "*[class*='eps']",
+      "raw_text": "MBI\nMBIA Inc.\nBefore Open\nEarnings:\nRevenue:\n$-0.11\n-\n$-0.24\n$28.00 Mil\n100.0%\n-118.2%\n-",
+      "revenue_millions": 28.0,
+      "revenue_raw": "$28.00 Mil",
+      "growth_rate": 100.0,
+      "growth_raw": "100.0%"
+    },
+    {
+      "symbol": "ALIZY",
+      "source": "*[class*='eps']",
+      "raw_text": "ALIZY\nAllianz SE\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$0.83\n$53.19 Bil\n0.0%\nInfinity%\n-",
+      "revenue_millions": 53190.0,
+      "revenue_raw": "$53.19 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FRO",
+      "source": "*[class*='eps']",
+      "raw_text": "FRO\nFrontline Ltd.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$1.03\n$624.51 Mil\n0.0%\n-\n-",
+      "revenue_millions": 624.51,
+      "revenue_raw": "$624.51 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "GEBHY",
+      "source": "*[class*='eps']",
+      "raw_text": "GEBHY\nGENTING BERHAD ADR\nBefore Open\nEarnings:\nRevenue:\n-\n-\n$-0.09\n$1.67 Bil\n0.0%\n-\n-",
+      "revenue_millions": 1670.0,
+      "revenue_raw": "$1.67 Bil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NRP",
+      "source": "*[class*='eps']",
+      "raw_text": "NRP\nNatural Resource Partners L.P.\n7:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$2.27\n$46.71 Mil\n0.0%\n-\n-",
+      "revenue_millions": 46.71,
+      "revenue_raw": "$46.71 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

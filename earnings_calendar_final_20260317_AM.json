@@ -1,0 +1,200 @@
+{
+  "date": "20260317",
+  "scraped_at": "2026-03-18T09:00:42.965362",
+  "companies": [
+    {
+      "symbol": "SA",
+      "source": "*[class*='company']",
+      "raw_text": "Titan America SA"
+    },
+    {
+      "symbol": "IZEA",
+      "source": "*[class*='eps']",
+      "raw_text": "IZEA\nIZEA, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.07\n$6.06 Mil\n-44.9%\n-\n-",
+      "revenue_millions": 6.06,
+      "revenue_raw": "$6.06 Mil",
+      "growth_rate": -44.9,
+      "growth_raw": "-44.9%"
+    },
+    {
+      "symbol": "ZTO",
+      "source": "*[class*='eps']",
+      "raw_text": "ZTO\nZTO Express Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n-\n$2.00 Bil\n$0.47\n$2.08 Bil\n17.2%\n-\n-",
+      "revenue_millions": 2000.0,
+      "revenue_raw": "$2.00 Bil",
+      "growth_rate": 17.2,
+      "growth_raw": "17.2%"
+    },
+    {
+      "symbol": "LULU",
+      "source": "*[class*='eps']",
+      "raw_text": "LULU\nlululemon athletica inc.Time & Calendars\n4:05 PM ET\nEarnings:\nRevenue:\n$4.77\n$3.60 Bil\n$5.01\n$3.64 Bil\n0.8%\n5.0%",
+      "revenue_millions": 3600.0,
+      "revenue_raw": "$3.60 Bil",
+      "growth_rate": 0.8,
+      "growth_raw": "0.8%"
+    },
+    {
+      "symbol": "OKLO",
+      "source": "*[class*='eps']",
+      "raw_text": "OKLO\nOklo Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$-0.18\n$1.50 Mil\n$-0.27\n-\n0.0%\n-50.0%\n-",
+      "revenue_millions": 1.5,
+      "revenue_raw": "$1.50 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "DOCU",
+      "source": "*[class*='eps']",
+      "raw_text": "DOCU\nDocusign\n4:05 PM ET\nEarnings:\nRevenue:\n$0.95\n$828.20 Mil\n$1.01\n$836.86 Mil\n7.8%\n6.3%",
+      "revenue_millions": 828.2,
+      "revenue_raw": "$828.20 Mil",
+      "growth_rate": 7.8,
+      "growth_raw": "7.8%"
+    },
+    {
+      "symbol": "HQY",
+      "source": "*[class*='eps']",
+      "raw_text": "HQY\nHealthEquity, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.90\n$332.85 Mil\n$0.95\n$334.59 Mil\n7.3%\n5.6%",
+      "revenue_millions": 332.85,
+      "revenue_raw": "$332.85 Mil",
+      "growth_rate": 7.3,
+      "growth_raw": "7.3%"
+    },
+    {
+      "symbol": "ANDG",
+      "source": "*[class*='eps']",
+      "raw_text": "ANDG\nAndersen Group Inc.\nAfter Close\nEarnings:\nRevenue:\n$-0.28\n$152.64 Mil\n$-0.13\n$170.35 Mil\n0.0%\n53.6%\n-",
+      "revenue_millions": 152.64,
+      "revenue_raw": "$152.64 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NRGV",
+      "source": "*[class*='eps']",
+      "raw_text": "NRGV\nEnergy Vault Holdings Inc\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.12\n$152.90 Mil\n$-0.13\n$153.31 Mil\n358.0%\n-8.3%",
+      "revenue_millions": 152.9,
+      "revenue_raw": "$152.90 Mil",
+      "growth_rate": 358.0,
+      "growth_raw": "358.0%"
+    },
+    {
+      "symbol": "CBUS",
+      "source": "*[class*='eps']",
+      "raw_text": "CBUS\nCibus, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.43\n$1.47 Mil\n$-0.42\n$1.06 Mil\n-12.8%\n2.3%\n-",
+      "revenue_millions": 1.47,
+      "revenue_raw": "$1.47 Mil",
+      "growth_rate": -12.8,
+      "growth_raw": "-12.8%"
+    },
+    {
+      "symbol": "BOBS",
+      "source": "*[class*='eps']",
+      "raw_text": "BOBS\nBob’s Discount Furniture, Inc.\n5:05 PM ET\nEarnings:\nRevenue:\n$0.30\n$647.50 Mil\n$0.35\n$648.83 Mil\n0.0%\n16.7%",
+      "revenue_millions": 647.5,
+      "revenue_raw": "$647.50 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "FLD",
+      "source": "*[class*='eps']",
+      "raw_text": "FLD\nFold Holdings, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.14\n$9.36 Mil\n$-0.86\n$9.13 Mil\n0.0%\n-514.3%\n-",
+      "revenue_millions": 9.36,
+      "revenue_raw": "$9.36 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TTAM",
+      "source": "*[class*='eps']",
+      "raw_text": "TTAM\nTitan America SA\n4:15 PM ET\nEarnings:\nRevenue:\n$0.25\n$413.82 Mil\n$0.24\n$405.66 Mil\n4.1%\n-4.0%",
+      "revenue_millions": 413.82,
+      "revenue_raw": "$413.82 Mil",
+      "growth_rate": 4.1,
+      "growth_raw": "4.1%"
+    },
+    {
+      "symbol": "NN",
+      "source": "*[class*='eps']",
+      "raw_text": "NN\nNextNav\n4:00 PM ET\nEarnings:\nRevenue:\n$-0.13\n$860.00 Thou\n$-0.13\n$945.00 Thou\n-50.5%\n0.0%\n-",
+      "growth_rate": -50.5,
+      "growth_raw": "-50.5%"
+    },
+    {
+      "symbol": "QFIN",
+      "source": "*[class*='eps']",
+      "raw_text": "QFIN\nQifu Technology, Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$1.13\n$628.45 Mil\n$1.12\n$585.25 Mil\n-4.7%\n-0.9%\n-",
+      "revenue_millions": 628.45,
+      "revenue_raw": "$628.45 Mil",
+      "growth_rate": -4.7,
+      "growth_raw": "-4.7%"
+    },
+    {
+      "symbol": "SDST",
+      "source": "*[class*='eps']",
+      "raw_text": "SDST\nStardust Power Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$-0.36\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "CLPT",
+      "source": "*[class*='eps']",
+      "raw_text": "CLPT\nClearPoint Neuro, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.22\n$9.70 Mil\n$-0.27\n$10.41 Mil\n34.0%\n-22.7%\n-",
+      "revenue_millions": 9.7,
+      "revenue_raw": "$9.70 Mil",
+      "growth_rate": 34.0,
+      "growth_raw": "34.0%"
+    },
+    {
+      "symbol": "KMTS",
+      "source": "*[class*='eps']",
+      "raw_text": "KMTS\nKestra Medical Technologies, Ltd.\n4:00 PM ET\nEarnings:\nRevenue:\n$-0.60\n$23.03 Mil\n$-0.61\n$24.55 Mil\n0.0%\n-1.7%",
+      "revenue_millions": 23.03,
+      "revenue_raw": "$23.03 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LGVN",
+      "source": "*[class*='eps']",
+      "raw_text": "LGVN\nLongeveron Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.41\n$100.00 Thou\n$-0.22\n$365.00 Thou\n0.0%\n46.3%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TRVI",
+      "source": "*[class*='eps']",
+      "raw_text": "TRVI\nTrevi Therapeutics, Inc\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.10\n-\n$-0.06\n-\n0.0%\n40.0%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "HITI",
+      "source": "*[class*='eps']",
+      "raw_text": "HITI\nHigh Tide Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.00\n$127.15 Mil\n$0.01\n$128.57 Mil\n28.2%\n-\n-",
+      "revenue_millions": 127.15,
+      "revenue_raw": "$127.15 Mil",
+      "growth_rate": 28.2,
+      "growth_raw": "28.2%"
+    },
+    {
+      "symbol": "STRR",
+      "source": "*[class*='eps']",
+      "raw_text": "STRR\nStar Equity Holdings, Inc.\nAfter Close\nEarnings:\nRevenue:\n$0.14\n$58.72 Mil\n$-0.10\n$56.79 Mil\n232.2%\n-171.4%\n-",
+      "revenue_millions": 58.72,
+      "revenue_raw": "$58.72 Mil",
+      "growth_rate": 232.2,
+      "growth_raw": "232.2%"
+    },
+    {
+      "symbol": "SCOR",
+      "source": "*[class*='eps']",
+      "raw_text": "SCOR\nComscore, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$6.51\n$93.47 Mil\n0.0%\n-\n-",
+      "revenue_millions": 93.47,
+      "revenue_raw": "$93.47 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

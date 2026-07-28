@@ -1,0 +1,80 @@
+{
+  "date": "20251202",
+  "scraped_at": "2025-12-02T22:13:31.165840",
+  "companies": [
+    {
+      "symbol": "BW",
+      "source": "*[class*='company']",
+      "raw_text": "BW LPG Limited"
+    },
+    {
+      "symbol": "NIP",
+      "source": "*[class*='company']",
+      "raw_text": "NIP Group Inc."
+    },
+    {
+      "symbol": "BNS",
+      "source": "*[class*='eps']",
+      "raw_text": "BNS\nBank of Nova Scotia\n6:00 AM ET\nEarnings:\nRevenue:\n$1.33\n$6.79 Bil\n$1.39\n$13.28 Bil\n-4.2%\n4.5%\n-",
+      "revenue_millions": 6790.0,
+      "revenue_raw": "$6.79 Bil",
+      "growth_rate": -4.2,
+      "growth_raw": "-4.2%"
+    },
+    {
+      "symbol": "SIG",
+      "source": "*[class*='eps']",
+      "raw_text": "SIG\nSignet Jewelers Ltd\n6:50 AM ET\nEarnings:\nRevenue:\n$0.16\n$1.37 Bil\n$0.63\n$1.39 Bil\n3.1%\n293.7%",
+      "revenue_millions": 1370.0,
+      "revenue_raw": "$1.37 Bil",
+      "growth_rate": 3.1,
+      "growth_raw": "3.1%"
+    },
+    {
+      "symbol": "UNFI",
+      "source": "*[class*='eps']",
+      "raw_text": "UNFI\nUnited Natural Foods, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.39\n$7.89 Bil\n$0.56\n$7.84 Bil\n-0.4%\n43.6%",
+      "revenue_millions": 7890.0,
+      "revenue_raw": "$7.89 Bil",
+      "growth_rate": -0.4,
+      "growth_raw": "-0.4%"
+    },
+    {
+      "symbol": "HERE",
+      "source": "*[class*='eps']",
+      "raw_text": "HERE\nHere Group Limited\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.06\n$17.86 Mil\n0.0%\n-\n-",
+      "revenue_millions": 17.86,
+      "revenue_raw": "$17.86 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BWLP",
+      "source": "*[class*='eps']",
+      "raw_text": "BWLP\nBW LPG Limited\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.38\n$943.76 Mil\n0.0%\n-\n-",
+      "revenue_millions": 943.76,
+      "revenue_raw": "$943.76 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NIPG",
+      "source": "*[class*='eps']",
+      "raw_text": "NIPG\nNIP Group Inc.\n9:00 AM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "CTRN",
+      "source": "*[class*='eps']",
+      "raw_text": "CTRN\nCiti Trends Inc.\n6:45 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.88\n$197.09 Mil\n0.0%\n-\n-",
+      "revenue_millions": 197.09,
+      "revenue_raw": "$197.09 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LPG",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

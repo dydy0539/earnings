@@ -1,0 +1,222 @@
+{
+  "date": "20260121",
+  "scraped_at": "2026-01-22T10:00:30.010510",
+  "companies": [
+    {
+      "symbol": "CACI",
+      "source": "*[class*='eps']",
+      "raw_text": "CACI\nCACI International, Inc\n4:15 PM ET\nEarnings:\nRevenue:\n$6.41\n$2.28 Bil\n$6.81\n$2.22 Bil\n5.7%\n6.2%",
+      "revenue_millions": 2280.0,
+      "revenue_raw": "$2.28 Bil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    },
+    {
+      "symbol": "RLI",
+      "source": "*[class*='eps']",
+      "raw_text": "RLI\nRLI Corp.\n4:35 PM ET\nEarnings:\nRevenue:\n$0.76\n$450.77 Mil\n$0.94\n$465.69 Mil\n6.1%\n23.7%\n-",
+      "revenue_millions": 450.77,
+      "revenue_raw": "$450.77 Mil",
+      "growth_rate": 6.1,
+      "growth_raw": "6.1%"
+    },
+    {
+      "symbol": "FB",
+      "source": "*[class*='company']",
+      "raw_text": "FB Financial Corporation"
+    },
+    {
+      "symbol": "FS",
+      "source": "*[class*='company']",
+      "raw_text": "FS Bancorp Inc"
+    },
+    {
+      "symbol": "INC",
+      "source": "*[class*='company']",
+      "raw_text": "DATASEA INC"
+    },
+    {
+      "symbol": "NVE",
+      "source": "*[class*='company']",
+      "raw_text": "NVE Corp."
+    },
+    {
+      "symbol": "NY",
+      "source": "*[class*='company']",
+      "raw_text": "TrustCo Bank Corp NY"
+    },
+    {
+      "symbol": "KMI",
+      "source": "*[class*='eps']",
+      "raw_text": "KMI\nKinder Morgan, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.37\n$4.42 Bil\n$0.39\n$4.51 Bil\n13.1%\n5.4%",
+      "revenue_millions": 4420.0,
+      "revenue_raw": "$4.42 Bil",
+      "growth_rate": 13.1,
+      "growth_raw": "13.1%"
+    },
+    {
+      "symbol": "BANC",
+      "source": "*[class*='eps']",
+      "raw_text": "BANC\nBanc of California, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.38\n$292.72 Mil\n$0.42\n$458.52 Mil\n1.1%\n10.5%\n-",
+      "revenue_millions": 292.72,
+      "revenue_raw": "$292.72 Mil",
+      "growth_rate": 1.1,
+      "growth_raw": "1.1%"
+    },
+    {
+      "symbol": "PNFP",
+      "source": "*[class*='eps']",
+      "raw_text": "PNFP\nPinnacle Financial Partners, Inc\n5:45 PM ET\nEarnings:\nRevenue:\n$2.32\n$557.02 Mil\n$2.24\n$850.32 Mil\n6.8%\n-3.4%\n-",
+      "revenue_millions": 557.02,
+      "revenue_raw": "$557.02 Mil",
+      "growth_rate": 6.8,
+      "growth_raw": "6.8%"
+    },
+    {
+      "symbol": "EGBN",
+      "source": "*[class*='eps']",
+      "raw_text": "EGBN\nEagle Bancorp Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$-0.12\n$73.38 Mil\n$0.25\n$161.72 Mil\n-6.2%\n308.3%\n-",
+      "revenue_millions": 73.38,
+      "revenue_raw": "$73.38 Mil",
+      "growth_rate": -6.2,
+      "growth_raw": "-6.2%"
+    },
+    {
+      "symbol": "BANR",
+      "source": "*[class*='eps']",
+      "raw_text": "BANR\nBanner Corporation\n4:00 PM ET\nEarnings:\nRevenue:\n$1.46\n$170.27 Mil\n$1.55\n$220.21 Mil\n1.7%\n6.2%\n-",
+      "revenue_millions": 170.27,
+      "revenue_raw": "$170.27 Mil",
+      "growth_rate": 1.7,
+      "growth_raw": "1.7%"
+    },
+    {
+      "symbol": "KNX",
+      "source": "*[class*='eps']",
+      "raw_text": "KNX\nKnight-Swift Transportation Holdings Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.36\n$1.90 Bil\n$0.31\n$1.86 Bil\n-0.4%\n-13.9%",
+      "revenue_millions": 1900.0,
+      "revenue_raw": "$1.90 Bil",
+      "growth_rate": -0.4,
+      "growth_raw": "-0.4%"
+    },
+    {
+      "symbol": "EQBK",
+      "source": "*[class*='eps']",
+      "raw_text": "EQBK\nEquity Bancshares\n4:30 PM ET\nEarnings:\nRevenue:\n$1.22\n$71.75 Mil\n$1.26\n$100.40 Mil\n19.8%\n3.3%\n-",
+      "revenue_millions": 71.75,
+      "revenue_raw": "$71.75 Mil",
+      "growth_rate": 19.8,
+      "growth_raw": "19.8%"
+    },
+    {
+      "symbol": "HBNC",
+      "source": "*[class*='eps']",
+      "raw_text": "HBNC\nHorizon Bancorp\n4:05 PM ET\nEarnings:\nRevenue:\n$0.50\n$73.40 Mil\n$0.53\n$100.75 Mil\n56.5%\n6.0%\n-",
+      "revenue_millions": 73.4,
+      "revenue_raw": "$73.40 Mil",
+      "growth_rate": 56.5,
+      "growth_raw": "56.5%"
+    },
+    {
+      "symbol": "FBK",
+      "source": "*[class*='eps']",
+      "raw_text": "FBK\nFB Financial Corporation\nAfter Close\nEarnings:\nRevenue:\n$1.14\n$174.93 Mil\n$1.16\n$264.03 Mil\n26.7%\n1.8%\n-",
+      "revenue_millions": 174.93,
+      "revenue_raw": "$174.93 Mil",
+      "growth_rate": 26.7,
+      "growth_raw": "26.7%"
+    },
+    {
+      "symbol": "FULT",
+      "source": "*[class*='eps']",
+      "raw_text": "FULT\nFulton Financial Corp.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.51\n$335.00 Mil\n$0.55\n$473.40 Mil\n-1.4%\n7.8%\n-",
+      "revenue_millions": 335.0,
+      "revenue_raw": "$335.00 Mil",
+      "growth_rate": -1.4,
+      "growth_raw": "-1.4%"
+    },
+    {
+      "symbol": "GSBC",
+      "source": "*[class*='eps']",
+      "raw_text": "GSBC\nGreat Southern Bancorp, Inc.\n6:00 PM ET\nEarnings:\nRevenue:\n$1.38\n$55.90 Mil\n$1.45\n$80.62 Mil\n-9.9%\n5.1%\n-",
+      "revenue_millions": 55.9,
+      "revenue_raw": "$55.90 Mil",
+      "growth_rate": -9.9,
+      "growth_raw": "-9.9%"
+    },
+    {
+      "symbol": "LOB",
+      "source": "*[class*='eps']",
+      "raw_text": "LOB\nLive Oak Bancshares, Inc.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.56\n$148.65 Mil\n$0.95\n$289.44 Mil\n19.0%\n69.6%\n-",
+      "revenue_millions": 148.65,
+      "revenue_raw": "$148.65 Mil",
+      "growth_rate": 19.0,
+      "growth_raw": "19.0%"
+    },
+    {
+      "symbol": "TCBX",
+      "source": "*[class*='eps']",
+      "raw_text": "TCBX\nThird Coast Bancshares, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.90\n$52.16 Mil\n$1.02\n$96.36 Mil\n9.0%\n13.3%\n-",
+      "revenue_millions": 52.16,
+      "revenue_raw": "$52.16 Mil",
+      "growth_rate": 9.0,
+      "growth_raw": "9.0%"
+    },
+    {
+      "symbol": "FSBW",
+      "source": "*[class*='eps']",
+      "raw_text": "FSBW\nFS Bancorp Inc\n4:30 PM ET\nEarnings:\nRevenue:\n$1.13\n$38.65 Mil\n$1.10\n$57.17 Mil\n10.8%\n-2.7%\n-",
+      "revenue_millions": 38.65,
+      "revenue_raw": "$38.65 Mil",
+      "growth_rate": 10.8,
+      "growth_raw": "10.8%"
+    },
+    {
+      "symbol": "DTSS",
+      "source": "*[class*='eps']",
+      "raw_text": "DTSS\nDATASEA INC\n4:30 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "LSBK",
+      "source": "*[class*='eps']",
+      "raw_text": "LSBK\nLake Shore Bancorp Inc.\n6:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.26\n$10.14 Mil\n0.0%\n-\n-",
+      "revenue_millions": 10.14,
+      "revenue_raw": "$10.14 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "MPB",
+      "source": "*[class*='eps']",
+      "raw_text": "MPB\nMid-Penn Bancorp\n5:20 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.83\n$92.42 Mil\n0.0%\n-\n-",
+      "revenue_millions": 92.42,
+      "revenue_raw": "$92.42 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "NVEC",
+      "source": "*[class*='eps']",
+      "raw_text": "NVEC\nNVE Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.70\n$6.22 Mil\n0.0%\n-\n-",
+      "revenue_millions": 6.22,
+      "revenue_raw": "$6.22 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TRST",
+      "source": "*[class*='eps']",
+      "raw_text": "TRST\nTrustCo Bank Corp NY\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.85\n$70.52 Mil\n0.0%\n-\n-",
+      "revenue_millions": 70.52,
+      "revenue_raw": "$70.52 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "UNB",
+      "source": "*[class*='eps']",
+      "raw_text": "UNB\nUnion Bankshares Inc\n5:00 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    }
+  ],
+  "status": "success"
+}

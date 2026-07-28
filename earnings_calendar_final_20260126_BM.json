@@ -1,0 +1,79 @@
+{
+  "date": "20260126",
+  "scraped_at": "2026-01-26T22:15:57.708385",
+  "companies": [
+    {
+      "symbol": "HBT",
+      "source": "*[class*='eps']",
+      "raw_text": "HBT\nHBT Financial, Inc.\n7:05 AM ET\nEarnings:\nRevenue:\n$0.64\n$60.70 Mil\n$0.64\n$74.29 Mil\n-0.2%\n0.0%\n-",
+      "revenue_millions": 60.7,
+      "revenue_raw": "$60.70 Mil",
+      "growth_rate": -0.2,
+      "growth_raw": "-0.2%"
+    },
+    {
+      "symbol": "STLD",
+      "source": "*[class*='eps']",
+      "raw_text": "STLD\nSteel Dynamics, Inc.\nBefore Open\nEarnings:\nRevenue:\n$1.72\n$4.60 Bil\n$1.82\n$4.41 Bil\n14.0%\n5.8%\n-",
+      "revenue_millions": 4600.0,
+      "revenue_raw": "$4.60 Bil",
+      "growth_rate": 14.0,
+      "growth_raw": "14.0%"
+    },
+    {
+      "symbol": "RYAAY",
+      "source": "*[class*='eps']",
+      "raw_text": "RYAAY\nRyanair Holdings plc\nBefore Open\nEarnings:\nRevenue:\n$0.18\n-\n$0.26\n$3.74 Bil\n18.5%\n44.4%\n-",
+      "revenue_millions": 3740.0,
+      "revenue_raw": "$3.74 Bil",
+      "growth_rate": 18.5,
+      "growth_raw": "18.5%"
+    },
+    {
+      "symbol": "BKR",
+      "source": "*[class*='eps']",
+      "raw_text": "BKR\nBaker Hughes\nBefore Open\nEarnings:\nRevenue:\n$0.67\n$7.06 Bil\n$0.78\n$7.39 Bil\n0.3%\n16.4%\n-",
+      "revenue_millions": 7060.0,
+      "revenue_raw": "$7.06 Bil",
+      "growth_rate": 0.3,
+      "growth_raw": "0.3%"
+    },
+    {
+      "symbol": "BOH",
+      "source": "*[class*='eps']",
+      "raw_text": "BOH\nBank of Hawaii Corp.\n6:45 AM ET\nEarnings:\nRevenue:\n$1.25\n$182.45 Mil\n$1.39\n$271.56 Mil\n3.5%\n11.2%\n-",
+      "revenue_millions": 182.45,
+      "revenue_raw": "$182.45 Mil",
+      "growth_rate": 3.5,
+      "growth_raw": "3.5%"
+    },
+    {
+      "symbol": "BMRC",
+      "source": "*[class*='eps']",
+      "raw_text": "BMRC\nBank of Marin Bancorp\n8:30 AM ET\nEarnings:\nRevenue:\n$0.51\n$33.35 Mil\n$0.59\n$44.65 Mil\n13.8%\n15.7%\n-",
+      "revenue_millions": 33.35,
+      "revenue_raw": "$33.35 Mil",
+      "growth_rate": 13.8,
+      "growth_raw": "13.8%"
+    },
+    {
+      "symbol": "LKFN",
+      "source": "*[class*='eps']",
+      "raw_text": "LKFN\nLakeland Financial Corp.\n7:00 AM ET\nEarnings:\nRevenue:\n$1.04\n$68.40 Mil\n$1.16\n$106.61 Mil\n1.3%\n11.5%\n-",
+      "revenue_millions": 68.4,
+      "revenue_raw": "$68.40 Mil",
+      "growth_rate": 1.3,
+      "growth_raw": "1.3%"
+    },
+    {
+      "symbol": "DX",
+      "source": "*[class*='eps']",
+      "raw_text": "DX\nDynex Capital, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$0.22\n$177.04 Mil\n0.0%\n-\n-",
+      "revenue_millions": 177.04,
+      "revenue_raw": "$177.04 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

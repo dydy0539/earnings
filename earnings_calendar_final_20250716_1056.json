@@ -1,0 +1,171 @@
+{
+  "date": "20250716",
+  "scraped_at": "2025-07-17T10:56:03.068480",
+  "companies": [
+    {
+      "symbol": "AAR",
+      "source": "*[class*='company']",
+      "raw_text": "AAR Corp."
+    },
+    {
+      "symbol": "SL",
+      "source": "*[class*='company']",
+      "raw_text": "SL Green Realty Corp."
+    },
+    {
+      "symbol": "LP",
+      "source": "*[class*='company']",
+      "raw_text": "Martin Midstream Partners LP"
+    },
+    {
+      "symbol": "UAL",
+      "source": "*[class*='eps']",
+      "raw_text": "UAL\nUnited Airlines\n4:00 PM ET\nEarnings:\nRevenue:\n$3.86\n$15.36 Bil\n$3.87\n$15.24 Bil\n1.7%\n0.3%",
+      "revenue_millions": 15360.0,
+      "revenue_raw": "$15.36 Bil",
+      "growth_rate": 1.7,
+      "growth_raw": "1.7%"
+    },
+    {
+      "symbol": "KMI",
+      "source": "*[class*='eps']",
+      "raw_text": "KMI\nKinder Morgan, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.28\n$3.88 Bil\n$0.28\n$4.04 Bil\n13.2%\n0.0%",
+      "revenue_millions": 3880.0,
+      "revenue_raw": "$3.88 Bil",
+      "growth_rate": 13.2,
+      "growth_raw": "13.2%"
+    },
+    {
+      "symbol": "AA",
+      "source": "*[class*='eps']",
+      "raw_text": "AA\nAlcoa, Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$0.29\n$2.91 Bil\n$0.39\n$3.02 Bil\n3.9%\n34.5%\n-",
+      "revenue_millions": 2910.0,
+      "revenue_raw": "$2.91 Bil",
+      "growth_rate": 3.9,
+      "growth_raw": "3.9%"
+    },
+    {
+      "symbol": "MCRI",
+      "source": "*[class*='eps']",
+      "raw_text": "MCRI\nMonarch Casino & Resort Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$1.22\n$130.37 Mil\n$1.44\n$136.91 Mil\n6.8%\n18.0%\n-",
+      "revenue_millions": 130.37,
+      "revenue_raw": "$130.37 Mil",
+      "growth_rate": 6.8,
+      "growth_raw": "6.8%"
+    },
+    {
+      "symbol": "AIR",
+      "source": "*[class*='eps']",
+      "raw_text": "AIR\nAAR Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.00\n$691.02 Mil\n$1.16\n$754.50 Mil\n14.9%\n16.0%\n-",
+      "revenue_millions": 691.02,
+      "revenue_raw": "$691.02 Mil",
+      "growth_rate": 14.9,
+      "growth_raw": "14.9%"
+    },
+    {
+      "symbol": "SLG",
+      "source": "*[class*='eps']",
+      "raw_text": "SLG\nSL Green Realty Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.37\n$147.61 Mil\n$1.63\n$241.92 Mil\n8.6%\n19.0%",
+      "revenue_millions": 147.61,
+      "revenue_raw": "$147.61 Mil",
+      "growth_rate": 8.6,
+      "growth_raw": "8.6%"
+    },
+    {
+      "symbol": "SNV",
+      "source": "*[class*='eps']",
+      "raw_text": "SNV\nSynovus Financial Corp.\n5:25 PM ET\nEarnings:\nRevenue:\n$1.25\n$583.84 Mil\n$1.48\n$902.50 Mil\n34.2%\n18.4%\n-",
+      "revenue_millions": 583.84,
+      "revenue_raw": "$583.84 Mil",
+      "growth_rate": 34.2,
+      "growth_raw": "34.2%"
+    },
+    {
+      "symbol": "FR",
+      "source": "*[class*='eps']",
+      "raw_text": "FR\nFirst Industrial Realty Trust, Inc.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.72\n$175.57 Mil\n$0.76\n$180.16 Mil\n9.8%\n5.6%",
+      "revenue_millions": 175.57,
+      "revenue_raw": "$175.57 Mil",
+      "growth_rate": 9.8,
+      "growth_raw": "9.8%"
+    },
+    {
+      "symbol": "HOMB",
+      "source": "*[class*='eps']",
+      "raw_text": "HOMB\nHome BancShares Inc.\n5:15 PM ET\nEarnings:\nRevenue:\n$0.58\n$260.63 Mil\n$0.58\n$370.19 Mil\n0.0%\n0.0%\n-",
+      "revenue_millions": 260.63,
+      "revenue_raw": "$260.63 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TFIN",
+      "source": "*[class*='eps']",
+      "raw_text": "TFIN\nTriumph Financial, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.04\n$103.96 Mil\n$0.15\n-\n0.0%\n275.0%\n-",
+      "revenue_millions": 103.96,
+      "revenue_raw": "$103.96 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BANR",
+      "source": "*[class*='eps']",
+      "raw_text": "BANR\nBanner Corporation\n4:00 PM ET\nEarnings:\nRevenue:\n$1.32\n$163.60 Mil\n$1.35\n$218.01 Mil\n5.7%\n2.3%\n-",
+      "revenue_millions": 163.6,
+      "revenue_raw": "$163.60 Mil",
+      "growth_rate": 5.7,
+      "growth_raw": "5.7%"
+    },
+    {
+      "symbol": "GSBC",
+      "source": "*[class*='eps']",
+      "raw_text": "GSBC\nGreat Southern Bancorp, Inc.\n6:30 PM ET\nEarnings:\nRevenue:\n$1.37\n$56.70 Mil\n$1.72\n$89.19 Mil\n-1.7%\n25.5%\n-",
+      "revenue_millions": 56.7,
+      "revenue_raw": "$56.70 Mil",
+      "growth_rate": -1.7,
+      "growth_raw": "-1.7%"
+    },
+    {
+      "symbol": "REXR",
+      "source": "*[class*='eps']",
+      "raw_text": "REXR\nRexford Industrial Realty, Inc.\n4:20 PM ET\nEarnings:\nRevenue:\n$0.58\n$244.72 Mil\n$0.59\n$249.51 Mil\n5.0%\n1.7%",
+      "revenue_millions": 244.72,
+      "revenue_raw": "$244.72 Mil",
+      "growth_rate": 5.0,
+      "growth_raw": "5.0%"
+    },
+    {
+      "symbol": "SPFI",
+      "source": "*[class*='eps']",
+      "raw_text": "SPFI\nSouth Plains Financial, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.76\n$51.70 Mil\n$0.86\n$76.30 Mil\n6.1%\n13.2%\n-",
+      "revenue_millions": 51.7,
+      "revenue_raw": "$51.70 Mil",
+      "growth_rate": 6.1,
+      "growth_raw": "6.1%"
+    },
+    {
+      "symbol": "MMLP",
+      "source": "*[class*='eps']",
+      "raw_text": "MMLP\nMartin Midstream Partners LP\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$-0.06\n$180.68 Mil\n0.0%\n-\n-",
+      "revenue_millions": 180.68,
+      "revenue_raw": "$180.68 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "TWN",
+      "source": "*[class*='eps']",
+      "raw_text": "TWN\nTaiwan Fund\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "UNB",
+      "source": "*[class*='eps']",
+      "raw_text": "UNB\nUnion Bankshares Inc\n5:00 PM ET\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "FMCB",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

@@ -1,0 +1,195 @@
+{
+  "date": "20251106",
+  "scraped_at": "2025-11-06T22:01:06.598352",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "LPG",
+      "name": "Dorian LPG Ltd",
+      "revenue_millions": 124.06,
+      "revenue_raw": "$124.06 Mil",
+      "growth_rate": 50.5,
+      "growth_raw": "50.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RXO",
+      "name": "RXO, Inc.",
+      "revenue_millions": 1450.0,
+      "revenue_raw": "$1.45 Bil",
+      "growth_rate": 36.6,
+      "growth_raw": "36.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CELH",
+      "name": "Celsius Holdings, Inc.",
+      "revenue_millions": 720.68,
+      "revenue_raw": "$720.68 Mil",
+      "growth_rate": 172.9,
+      "growth_raw": "172.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "revenue_millions": 849.77,
+      "revenue_raw": "$849.77 Mil",
+      "growth_rate": 28.4,
+      "growth_raw": "28.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OSCR",
+      "name": "Oscar Health, Inc.",
+      "revenue_millions": 3090.0,
+      "revenue_raw": "$3.09 Bil",
+      "growth_rate": 23.2,
+      "growth_raw": "23.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FOUR",
+      "name": "Shift4 Payments, Inc.",
+      "revenue_millions": 1180.0,
+      "revenue_raw": "$1.18 Bil",
+      "growth_rate": 29.4,
+      "growth_raw": "29.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ESPR",
+      "name": "Esperion Therapeutics, Inc.",
+      "revenue_millions": 123.15,
+      "revenue_raw": "$123.15 Mil",
+      "growth_rate": 69.1,
+      "growth_raw": "69.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LGND",
+      "name": "Ligand Pharmaceuticals, Inc.",
+      "revenue_millions": 59.1,
+      "revenue_raw": "$59.10 Mil",
+      "growth_rate": 122.8,
+      "growth_raw": "122.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MTSI",
+      "name": "MACOM Technology Solutions Holdings, Inc.",
+      "revenue_millions": 260.13,
+      "revenue_raw": "$260.13 Mil",
+      "growth_rate": 30.1,
+      "growth_raw": "30.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corp.",
+      "revenue_millions": 676.39,
+      "revenue_raw": "$676.39 Mil",
+      "growth_rate": 29.9,
+      "growth_raw": "29.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "GOGO",
+      "name": "Gogo Inc.",
+      "revenue_millions": 223.13,
+      "revenue_raw": "$223.13 Mil",
+      "growth_rate": 122.4,
+      "growth_raw": "122.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COLL",
+      "name": "Collegium Pharmaceutical Inc.",
+      "revenue_millions": 189.73,
+      "revenue_raw": "$189.73 Mil",
+      "growth_rate": 31.4,
+      "growth_raw": "31.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AEE",
+      "name": "Ameren Corp.",
+      "revenue_millions": 2700.0,
+      "revenue_raw": "$2.70 Bil",
+      "growth_rate": 39.1,
+      "growth_raw": "39.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "EFXT",
+      "name": "Enerflex Ltd",
+      "revenue_millions": 666.5,
+      "revenue_raw": "$666.50 Mil",
+      "growth_rate": 29.3,
+      "growth_raw": "29.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FA",
+      "name": "First Advantage Corporation",
+      "revenue_millions": 408.15,
+      "revenue_raw": "$408.15 Mil",
+      "growth_rate": 105.5,
+      "growth_raw": "105.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PRVA",
+      "name": "Privia Health Group Inc",
+      "revenue_millions": 497.62,
+      "revenue_raw": "$497.62 Mil",
+      "growth_rate": 32.5,
+      "growth_raw": "32.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 16,
+  "total_original": 275
+}

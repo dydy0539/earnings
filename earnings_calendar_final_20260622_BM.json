@@ -1,0 +1,23 @@
+{
+  "date": "20260622",
+  "scraped_at": "2026-06-22T22:00:31.292552",
+  "companies": [
+    {
+      "symbol": "FRVO",
+      "source": "*[class*='eps']",
+      "raw_text": "FRVO\nFervo Energy Company\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.09\n-\n$-3.72\n$61.00 Thou\n0.0%\n-4,033.3%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "POWW",
+      "source": "*[class*='eps']",
+      "raw_text": "POWW\nOutdoor Holding Company\n7:05 AM ET\nEarnings:\nRevenue:\n$-0.02\n$12.70 Mil\n$-0.03\n$13.89 Mil\n0.0%\n-50.0%\n-",
+      "revenue_millions": 12.7,
+      "revenue_raw": "$12.70 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

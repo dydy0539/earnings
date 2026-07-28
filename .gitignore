@@ -158,6 +158,11 @@ geckodriver
 debug_*.html
 debug_*.json
 
+# Local launchd run logs
+earnings_log.txt
+earnings_error.txt
+margin_analyzer.log
+
 # Large scraped data files (optional - uncomment if you don't want to track them)
 # *.json
 

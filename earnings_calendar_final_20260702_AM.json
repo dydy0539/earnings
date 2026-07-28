@@ -1,0 +1,11 @@
+{
+  "date": "20260702",
+  "scraped_at": "2026-07-03T09:00:36.322370",
+  "companies": [
+    {
+      "symbol": "BUKS",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

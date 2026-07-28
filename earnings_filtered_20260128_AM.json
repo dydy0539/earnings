@@ -1,0 +1,145 @@
+{
+  "date": "20260128",
+  "scraped_at": "2026-01-29T10:45:29.961665",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "C",
+      "name": "C.H. Robinson Worldwide Inc.",
+      "revenue_millions": 0,
+      "revenue_raw": "",
+      "growth_rate": 0,
+      "growth_raw": "",
+      "source": "*[class*='company']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corp.",
+      "revenue_millions": 80160.0,
+      "revenue_raw": "$80.16 Bil",
+      "growth_rate": 16.7,
+      "growth_raw": "16.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "revenue_millions": 58400.0,
+      "revenue_raw": "$58.40 Bil",
+      "growth_rate": 23.8,
+      "growth_raw": "23.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "revenue_millions": 25020.0,
+      "revenue_raw": "$25.02 Bil",
+      "growth_rate": -3.1,
+      "growth_raw": "-3.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "revenue_millions": 3520.0,
+      "revenue_raw": "$3.52 Bil",
+      "growth_rate": 20.7,
+      "growth_raw": "20.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LRCX",
+      "name": "Lam Research Corp.",
+      "revenue_millions": 5220.0,
+      "revenue_raw": "$5.22 Bil",
+      "growth_rate": 22.1,
+      "growth_raw": "22.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CLS",
+      "name": "Celestica, Inc.",
+      "revenue_millions": 3470.0,
+      "revenue_raw": "$3.47 Bil",
+      "growth_rate": 43.6,
+      "growth_raw": "43.6%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "LVS",
+      "name": "Las Vegas Sands Corp",
+      "revenue_millions": 3330.0,
+      "revenue_raw": "$3.33 Bil",
+      "growth_rate": 26.0,
+      "growth_raw": "26.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VIAV",
+      "name": "Viavi Solutions, Inc.",
+      "revenue_millions": 365.0,
+      "revenue_raw": "$365.00 Mil",
+      "growth_rate": 36.4,
+      "growth_raw": "36.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NLY",
+      "name": "Annaly Capital Management, Inc.",
+      "revenue_millions": 1690.0,
+      "revenue_raw": "$1.69 Bil",
+      "growth_rate": 26.3,
+      "growth_raw": "26.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CALX",
+      "name": "Calix, Inc.",
+      "revenue_millions": 270.03,
+      "revenue_raw": "$270.03 Mil",
+      "growth_rate": 32.2,
+      "growth_raw": "32.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 11,
+  "total_original": 67
+}

@@ -1,0 +1,81 @@
+{
+  "date": "20260623",
+  "scraped_at": "2026-06-24T09:51:36.092813",
+  "companies": [
+    {
+      "symbol": "KB",
+      "source": "*[class*='company']",
+      "raw_text": "KB Home"
+    },
+    {
+      "symbol": "ICON",
+      "source": "*[class*='company']",
+      "raw_text": "ICON plc"
+    },
+    {
+      "symbol": "CEA",
+      "source": "*[class*='company']",
+      "raw_text": "CEA INDUSTRIES"
+    },
+    {
+      "symbol": "FDX",
+      "source": "*[class*='eps']",
+      "raw_text": "FDX\nFedEx Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$5.91\n$24.18 Bil\n$6.31\n$25.01 Bil\n12.5%\n6.8%\n-",
+      "revenue_millions": 24180.0,
+      "revenue_raw": "$24.18 Bil",
+      "growth_rate": 12.5,
+      "growth_raw": "12.5%"
+    },
+    {
+      "symbol": "CBRS",
+      "source": "*[class*='eps']",
+      "raw_text": "CBRS\nCerebras Systems Inc.\nAfter Close\nEarnings:\nRevenue:\n$-0.14\n$180.70 Mil\n$-0.04\n$193.41 Mil\n0.0%\n71.4%",
+      "revenue_millions": 180.7,
+      "revenue_raw": "$180.70 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KBH",
+      "source": "*[class*='eps']",
+      "raw_text": "KBH\nKB Home\n4:10 PM ET\nEarnings:\nRevenue:\n$0.43\n$1.09 Bil\n$0.43\n$1.11 Bil\n-27.3%\n0.0%",
+      "revenue_millions": 1090.0,
+      "revenue_raw": "$1.09 Bil",
+      "growth_rate": -27.3,
+      "growth_raw": "-27.3%"
+    },
+    {
+      "symbol": "WOR",
+      "source": "*[class*='eps']",
+      "raw_text": "WOR\nWorthington Industries, Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$1.04\n$385.70 Mil\n$0.97\n$371.46 Mil\n16.9%\n-6.7%\n-",
+      "revenue_millions": 385.7,
+      "revenue_raw": "$385.70 Mil",
+      "growth_rate": 16.9,
+      "growth_raw": "16.9%"
+    },
+    {
+      "symbol": "ICLR",
+      "source": "*[class*='eps']",
+      "raw_text": "ICLR\nICON plc\n4:25 PM ET\nEarnings:\nRevenue:\n$2.18\n$2.03 Bil\n$2.22\n$2.03 Bil\n1.6%\n1.8%",
+      "revenue_millions": 2029.9999999999998,
+      "revenue_raw": "$2.03 Bil",
+      "growth_rate": 1.6,
+      "growth_raw": "1.6%"
+    },
+    {
+      "symbol": "BNC",
+      "source": "*[class*='eps']",
+      "raw_text": "BNC\nCEA INDUSTRIES\nAfter Close\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "KEQU",
+      "source": "*[class*='eps']",
+      "raw_text": "KEQU\nKewaunee Scientific Corp.\nAfter Close\nEarnings:\nRevenue:\n-\n-\n$1.14\n$71.40 Mil\n0.0%\n-\n-",
+      "revenue_millions": 71.4,
+      "revenue_raw": "$71.40 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

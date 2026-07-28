@@ -1,0 +1,95 @@
+{
+  "date": "20250723",
+  "scraped_at": "2025-07-24T10:30:30.798699",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "revenue_millions": 22610.0,
+      "revenue_raw": "$22.61 Bil",
+      "growth_rate": -11.8,
+      "growth_raw": "-11.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "revenue_millions": 96430.0,
+      "revenue_raw": "$96.43 Bil",
+      "growth_rate": 13.8,
+      "growth_raw": "13.8%",
+      "source": "*[class*='eps']",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "NOW",
+      "name": "ServiceNow, Inc.",
+      "revenue_millions": 3120.0,
+      "revenue_raw": "$3.12 Bil",
+      "growth_rate": 22.4,
+      "growth_raw": "22.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ALK",
+      "name": "Alaska Air Group, Inc.",
+      "revenue_millions": 3660.0,
+      "revenue_raw": "$3.66 Bil",
+      "growth_rate": 27.9,
+      "growth_raw": "27.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MOH",
+      "name": "Molina Healthcare Inc.",
+      "revenue_millions": 10830.0,
+      "revenue_raw": "$10.83 Bil",
+      "growth_rate": 15.7,
+      "growth_raw": "15.7%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NLY",
+      "name": "Annaly Capital Management, Inc.",
+      "revenue_millions": 1420.0,
+      "revenue_raw": "$1.42 Bil",
+      "growth_rate": 20.5,
+      "growth_raw": "20.5%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 6,
+  "total_original": 111
+}

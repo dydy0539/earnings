@@ -1,0 +1,249 @@
+{
+  "date": "20260318",
+  "scraped_at": "2026-03-18T22:01:41.693493",
+  "companies": [
+    {
+      "symbol": "H",
+      "source": "*[class*='company']",
+      "raw_text": "H World Group Limited"
+    },
+    {
+      "symbol": "XOMA",
+      "source": "*[class*='eps']",
+      "raw_text": "XOMA\nXOMA Ltd.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.13\n$10.38 Mil\n$0.12\n$13.76 Mil\n58.1%\n192.3%\n-",
+      "revenue_millions": 10.38,
+      "revenue_raw": "$10.38 Mil",
+      "growth_rate": 58.1,
+      "growth_raw": "58.1%"
+    },
+    {
+      "symbol": "SE",
+      "source": "*[class*='company']",
+      "raw_text": "Valneva SE"
+    },
+    {
+      "symbol": "INC",
+      "source": "*[class*='company']",
+      "raw_text": "YUANBAO INC F"
+    },
+    {
+      "symbol": "GIS",
+      "source": "*[class*='eps']",
+      "raw_text": "GIS\nGeneral Mills, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.74\n$4.49 Bil\n$0.64\n$4.44 Bil\n-8.4%\n-13.5%",
+      "revenue_millions": 4490.0,
+      "revenue_raw": "$4.49 Bil",
+      "growth_rate": -8.4,
+      "growth_raw": "-8.4%"
+    },
+    {
+      "symbol": "M",
+      "source": "*[class*='eps']",
+      "raw_text": "M\nMacy's, Inc.\n6:55 AM ET\nEarnings:\nRevenue:\n$1.53\n$7.52 Bil\n$1.67\n$7.92 Bil\n1.9%\n9.2%",
+      "revenue_millions": 7520.0,
+      "revenue_raw": "$7.52 Bil",
+      "growth_rate": 1.9,
+      "growth_raw": "1.9%"
+    },
+    {
+      "symbol": "JBL",
+      "source": "*[class*='eps']",
+      "raw_text": "JBL\nJabil Inc.\n7:30 AM ET\nEarnings:\nRevenue:\n$2.54\n$7.75 Bil\n$2.69\n$8.28 Bil\n23.1%\n5.9%",
+      "revenue_millions": 7750.0,
+      "revenue_raw": "$7.75 Bil",
+      "growth_rate": 23.1,
+      "growth_raw": "23.1%"
+    },
+    {
+      "symbol": "SAIL",
+      "source": "*[class*='eps']",
+      "raw_text": "SAIL\nSailPoint, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$0.08\n$292.53 Mil\n$0.08\n$294.65 Mil\n22.7%\n0.0%",
+      "revenue_millions": 292.53,
+      "revenue_raw": "$292.53 Mil",
+      "growth_rate": 22.7,
+      "growth_raw": "22.7%"
+    },
+    {
+      "symbol": "WSM",
+      "source": "*[class*='eps']",
+      "raw_text": "WSM\nWilliams-Sonoma, Inc.\n9:00 AM ETTime & Calendars\nEarnings:\nRevenue:\n$2.89\n$2.40 Bil\n$3.04\n$2.36 Bil\n-4.3%\n5.2%",
+      "revenue_millions": 2400.0,
+      "revenue_raw": "$2.40 Bil",
+      "growth_rate": -4.3,
+      "growth_raw": "-4.3%"
+    },
+    {
+      "symbol": "MOMO",
+      "source": "*[class*='eps']",
+      "raw_text": "MOMO\nHello Group Inc.\n2:00 AM ET\nEarnings:\nRevenue:\n-\n$1.43 Bil\n$0.22\n$368.33 Mil\n2.0%\n-",
+      "revenue_millions": 1430.0,
+      "revenue_raw": "$1.43 Bil",
+      "growth_rate": 2.0,
+      "growth_raw": "2.0%"
+    },
+    {
+      "symbol": "HTHT",
+      "source": "*[class*='eps']",
+      "raw_text": "HTHT\nH World Group Limited\n6:15 AM ET\nEarnings:\nRevenue:\n$0.37\n$932.68 Mil\n$0.55\n$933.00 Mil\n13.1%\n48.6%",
+      "revenue_millions": 932.68,
+      "revenue_raw": "$932.68 Mil",
+      "growth_rate": 13.1,
+      "growth_raw": "13.1%"
+    },
+    {
+      "symbol": "BGSI",
+      "source": "*[class*='eps']",
+      "raw_text": "BGSI\nBoyd Group Services Inc.\n6:00 AM ET\nEarnings:\nRevenue:\n$0.63\n$821.73 Mil\n$0.90\n$793.85 Mil\n0.0%\n42.9%\n-",
+      "revenue_millions": 821.73,
+      "revenue_raw": "$821.73 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "LFWD",
+      "source": "*[class*='eps']",
+      "raw_text": "LFWD\nLifeward\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.84\n$8.31 Mil\n$-3.60\n$5.08 Mil\n-32.7%\n-328.6%\n-",
+      "revenue_millions": 8.31,
+      "revenue_raw": "$8.31 Mil",
+      "growth_rate": -32.7,
+      "growth_raw": "-32.7%"
+    },
+    {
+      "symbol": "SPIR",
+      "source": "*[class*='eps']",
+      "raw_text": "SPIR\nSpire Corp.\n7:30 AM ET\nEarnings:\nRevenue:\n$-0.58\n$15.93 Mil\n$-0.50\n$15.82 Mil\n-26.9%\n13.8%",
+      "revenue_millions": 15.93,
+      "revenue_raw": "$15.93 Mil",
+      "growth_rate": -26.9,
+      "growth_raw": "-26.9%"
+    },
+    {
+      "symbol": "TCEHY",
+      "source": "*[class*='eps']",
+      "raw_text": "TCEHY\nTencent Holdings Limited\nBefore Open\nEarnings:\nRevenue:\n$1.02\n-\n$0.88\n$27.41 Bil\n14.3%\n-13.7%\n-",
+      "revenue_millions": 27410.0,
+      "revenue_raw": "$27.41 Bil",
+      "growth_rate": 14.3,
+      "growth_raw": "14.3%"
+    },
+    {
+      "symbol": "BZ",
+      "source": "*[class*='eps']",
+      "raw_text": "BZ\nKanzhun Limited\n5:55 AM ET\nEarnings:\nRevenue:\n$0.25\n$298.94 Mil\n$0.21\n$297.23 Mil\n19.0%\n-16.0%",
+      "revenue_millions": 298.94,
+      "revenue_raw": "$298.94 Mil",
+      "growth_rate": 19.0,
+      "growth_raw": "19.0%"
+    },
+    {
+      "symbol": "CING",
+      "source": "*[class*='eps']",
+      "raw_text": "CING\nCingulate Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$-0.56\n$4.79 Mil\n$-0.84\n-\n0.0%\n-50.0%\n-",
+      "revenue_millions": 4.79,
+      "revenue_raw": "$4.79 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "PLX",
+      "source": "*[class*='eps']",
+      "raw_text": "PLX\nProtalix BioTherapeutics Inc\n6:50 AM ET\nEarnings:\nRevenue:\n$0.00\n$14.36 Mil\n$-0.07\n$9.12 Mil\n-50.9%\n-\n-",
+      "revenue_millions": 14.36,
+      "revenue_raw": "$14.36 Mil",
+      "growth_rate": -50.9,
+      "growth_raw": "-50.9%"
+    },
+    {
+      "symbol": "UCL",
+      "source": "*[class*='eps']",
+      "raw_text": "UCL\nuCloudlink Group Inc.\n3:20 AM ET\nEarnings:\nRevenue:\n$-0.06\n$23.00 Mil\n$-0.08\n$22.17 Mil\n-14.6%\n-33.3%",
+      "revenue_millions": 23.0,
+      "revenue_raw": "$23.00 Mil",
+      "growth_rate": -14.6,
+      "growth_raw": "-14.6%"
+    },
+    {
+      "symbol": "WB",
+      "source": "*[class*='eps']",
+      "raw_text": "WB\nWeibo Corporation\n4:00 AM ET\nEarnings:\nRevenue:\n$0.29\n$443.20 Mil\n$0.23\n$473.26 Mil\n3.6%\n-20.7%\n-",
+      "revenue_millions": 443.2,
+      "revenue_raw": "$443.20 Mil",
+      "growth_rate": 3.6,
+      "growth_raw": "3.6%"
+    },
+    {
+      "symbol": "NSPR",
+      "source": "*[class*='eps']",
+      "raw_text": "NSPR\nInspireMD, Inc.\n7:00 AM ET\nEarnings:\nRevenue:\n$-0.22\n$2.74 Mil\n$-0.14\n$3.15 Mil\n61.6%\n36.4%\n-",
+      "revenue_millions": 2.74,
+      "revenue_raw": "$2.74 Mil",
+      "growth_rate": 61.6,
+      "growth_raw": "61.6%"
+    },
+    {
+      "symbol": "OSS",
+      "source": "*[class*='eps']",
+      "raw_text": "OSS\nOne Stop Systems, Inc.\n8:00 AM ET\nEarnings:\nRevenue:\n$0.01\n$18.70 Mil\n$0.08\n$11.98 Mil\n-20.8%\n700.0%",
+      "revenue_millions": 18.7,
+      "revenue_raw": "$18.70 Mil",
+      "growth_rate": -20.8,
+      "growth_raw": "-20.8%"
+    },
+    {
+      "symbol": "VALN",
+      "source": "*[class*='eps']",
+      "raw_text": "VALN\nValneva SE\nBefore Open\nEarnings:\nRevenue:\n$-0.21\n-\n$-0.68\n$55.52 Mil\n7.2%\n-223.8%\n-",
+      "revenue_millions": 55.52,
+      "revenue_raw": "$55.52 Mil",
+      "growth_rate": 7.2,
+      "growth_raw": "7.2%"
+    },
+    {
+      "symbol": "NEON",
+      "source": "*[class*='eps']",
+      "raw_text": "NEON\nNeonode Inc.\nBefore Open\nEarnings:\nRevenue:\n-\n-\n-\n-\n-\n-\n-"
+    },
+    {
+      "symbol": "ORBT",
+      "source": "*[class*='eps']",
+      "raw_text": "ORBT\nOrbit International Corp.\n8:45 AM ET\nEarnings:\nRevenue:\n-\n-\n$-0.21\n$6.73 Mil\n0.0%\n-\n-",
+      "revenue_millions": 6.73,
+      "revenue_raw": "$6.73 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "YB",
+      "source": "*[class*='eps']",
+      "raw_text": "YB\nYUANBAO INC F\n8:00 AM ET\nEarnings:\nRevenue:\n-\n-\n$1.00\n$168.06 Mil\n0.0%\n-\n-",
+      "revenue_millions": 168.06,
+      "revenue_raw": "$168.06 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "KNOP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "KNOT",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LP",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "PVL",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "RT",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "XYF",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}

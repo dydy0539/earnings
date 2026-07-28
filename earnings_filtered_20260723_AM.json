@@ -1,0 +1,125 @@
+{
+  "date": "20260723",
+  "scraped_at": "2026-07-24T09:01:51.544875",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "INTC",
+      "name": "Intel Corp.",
+      "revenue_millions": 14420.0,
+      "revenue_raw": "$14.42 Bil",
+      "growth_rate": 25.4,
+      "growth_raw": "25.4%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA, Inc.",
+      "revenue_millions": 2940.0,
+      "revenue_raw": "$2.94 Bil",
+      "growth_rate": 50.3,
+      "growth_raw": "50.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "MXL",
+      "name": "MaxLinear, Inc.",
+      "revenue_millions": 165.07,
+      "revenue_raw": "$165.07 Mil",
+      "growth_rate": 55.2,
+      "growth_raw": "55.2%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NEM",
+      "name": "Newmont Mining Corp.",
+      "revenue_millions": 6190.0,
+      "revenue_raw": "$6.19 Bil",
+      "growth_rate": 15.1,
+      "growth_raw": "15.1%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "BWMX",
+      "name": "Betterware de México, S.A.B. de C.V.",
+      "revenue_millions": 228.38,
+      "revenue_raw": "$228.38 Mil",
+      "growth_rate": 30.9,
+      "growth_raw": "30.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "DLR",
+      "name": "Digital Realty Trust Inc",
+      "revenue_millions": 1660.0,
+      "revenue_raw": "$1.66 Bil",
+      "growth_rate": 28.9,
+      "growth_raw": "28.9%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WKC",
+      "name": "World Kinect Corporation",
+      "revenue_millions": 10480.0,
+      "revenue_raw": "$10.48 Bil",
+      "growth_rate": 50.3,
+      "growth_raw": "50.3%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CCNE",
+      "name": "CNB Financial Corp",
+      "revenue_millions": 126.96,
+      "revenue_raw": "$126.96 Mil",
+      "growth_rate": 34.0,
+      "growth_raw": "34.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "OVV",
+      "name": "Ovintiv Inc.",
+      "revenue_millions": 2400.0,
+      "revenue_raw": "$2.40 Bil",
+      "growth_rate": 30.0,
+      "growth_raw": "30.0%",
+      "source": "*[class*='eps']",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 9,
+  "total_original": 96
+}

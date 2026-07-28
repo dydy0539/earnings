@@ -1,0 +1,25 @@
+{
+  "date": "20260617",
+  "scraped_at": "2026-06-18T09:00:36.413416",
+  "companies": [
+    {
+      "symbol": "SWBI",
+      "source": "*[class*='eps']",
+      "raw_text": "SWBI\nSmith & Wesson Brands, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.36\n$178.39 Mil\n26.7%\n-\n-",
+      "revenue_millions": 178.39,
+      "revenue_raw": "$178.39 Mil",
+      "growth_rate": 26.7,
+      "growth_raw": "26.7%"
+    },
+    {
+      "symbol": "SB",
+      "source": "*[class*='eps']",
+      "raw_text": "SB\nSafe Bulkers, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.18\n$74.39 Mil\n0.0%\n-\n-",
+      "revenue_millions": 74.39,
+      "revenue_raw": "$74.39 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    }
+  ],
+  "status": "success"
+}

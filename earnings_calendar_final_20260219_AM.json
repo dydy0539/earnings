@@ -1,0 +1,786 @@
+{
+  "date": "20260219",
+  "scraped_at": "2026-02-20T09:00:38.198239",
+  "companies": [
+    {
+      "symbol": "USA",
+      "source": "*[class*='company']",
+      "raw_text": "Comfort Systems USA, Inc."
+    },
+    {
+      "symbol": "AXT",
+      "source": "*[class*='company']",
+      "raw_text": "AXT Inc"
+    },
+    {
+      "symbol": "GRAIL",
+      "source": "*[class*='company']",
+      "raw_text": "GRAIL, Inc."
+    },
+    {
+      "symbol": "ICU",
+      "source": "*[class*='company']",
+      "raw_text": "ICU Medical Inc."
+    },
+    {
+      "symbol": "PTC",
+      "source": "*[class*='company']",
+      "raw_text": "PTC Therapeutics, Inc."
+    },
+    {
+      "symbol": "N",
+      "source": "*[class*='company']",
+      "raw_text": "Sensata Technologies Holding N.V"
+    },
+    {
+      "symbol": "SAB",
+      "source": "*[class*='company']",
+      "raw_text": "Vesta Real Estate Corporation SAB de CV"
+    },
+    {
+      "symbol": "BDC",
+      "source": "*[class*='company']",
+      "raw_text": "Barings BDC, Inc."
+    },
+    {
+      "symbol": "CTO",
+      "source": "*[class*='eps']",
+      "raw_text": "CTO\nCTO Realty Growth, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.46\n$38.21 Mil\n$0.51\n$38.34 Mil\n7.3%\n10.9%",
+      "revenue_millions": 38.21,
+      "revenue_raw": "$38.21 Mil",
+      "growth_rate": 7.3,
+      "growth_raw": "7.3%"
+    },
+    {
+      "symbol": "JAKKS",
+      "source": "*[class*='company']",
+      "raw_text": "JAKKS Pacific, Inc."
+    },
+    {
+      "symbol": "RE",
+      "source": "*[class*='company']",
+      "raw_text": "RE/MAX Holdings, Inc."
+    },
+    {
+      "symbol": "REIT",
+      "source": "*[class*='company']",
+      "raw_text": "Strawberry Fields REIT, Inc."
+    },
+    {
+      "symbol": "AMH",
+      "source": "*[class*='eps']",
+      "raw_text": "AMH\nAMH\n4:10 PM ET\nEarnings:\nRevenue:\n$0.47\n$462.36 Mil\n$0.47\n$454.99 Mil\n4.2%\n0.0%",
+      "revenue_millions": 462.36,
+      "revenue_raw": "$462.36 Mil",
+      "growth_rate": 4.2,
+      "growth_raw": "4.2%"
+    },
+    {
+      "symbol": "AMN",
+      "source": "*[class*='eps']",
+      "raw_text": "AMN\nAMN Healthcare Services, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.22\n$723.87 Mil\n$0.22\n$748.23 Mil\n1.8%\n0.0%",
+      "revenue_millions": 723.87,
+      "revenue_raw": "$723.87 Mil",
+      "growth_rate": 1.8,
+      "growth_raw": "1.8%"
+    },
+    {
+      "symbol": "FGL",
+      "source": "*[class*='company']",
+      "raw_text": "FGL Holdings"
+    },
+    {
+      "symbol": "FNF",
+      "source": "*[class*='eps']",
+      "raw_text": "FNF\nFNF Group\n4:15 PM ET\nEarnings:\nRevenue:\n$1.51\n$3.70 Bil\n$1.41\n$4.05 Bil\n11.9%\n-6.6%\n-",
+      "revenue_millions": 3700.0,
+      "revenue_raw": "$3.70 Bil",
+      "growth_rate": 11.9,
+      "growth_raw": "11.9%"
+    },
+    {
+      "symbol": "NEM",
+      "source": "*[class*='eps']",
+      "raw_text": "NEM\nNewmont Mining Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$2.03\n$5.76 Bil\n$2.52\n$6.82 Bil\n20.6%\n24.1%\n-",
+      "revenue_millions": 5760.0,
+      "revenue_raw": "$5.76 Bil",
+      "growth_rate": 20.6,
+      "growth_raw": "20.6%"
+    },
+    {
+      "symbol": "RIG",
+      "source": "*[class*='eps']",
+      "raw_text": "RIG\nTransocean Ltd.\n4:55 PM ET\nEarnings:\nRevenue:\n$0.09\n$1.04 Bil\n-\n-\n-\n-\n-",
+      "revenue_millions": 1040.0,
+      "revenue_raw": "$1.04 Bil"
+    },
+    {
+      "symbol": "FIX",
+      "source": "*[class*='eps']",
+      "raw_text": "FIX\nComfort Systems USA, Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$6.77\n$2.28 Bil\n$9.37\n$2.65 Bil\n41.7%\n38.4%\n-",
+      "revenue_millions": 2280.0,
+      "revenue_raw": "$2.28 Bil",
+      "growth_rate": 41.7,
+      "growth_raw": "41.7%"
+    },
+    {
+      "symbol": "AKAM",
+      "source": "*[class*='eps']",
+      "raw_text": "AKAM\nAkamai Technologies, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$1.75\n$1.08 Bil\n$1.84\n$1.09 Bil\n7.4%\n5.1%",
+      "revenue_millions": 1080.0,
+      "revenue_raw": "$1.08 Bil",
+      "growth_rate": 7.4,
+      "growth_raw": "7.4%"
+    },
+    {
+      "symbol": "SFM",
+      "source": "*[class*='eps']",
+      "raw_text": "SFM\nSprouts Farmers Market, Inc.\n4:20 PM ET\nEarnings:\nRevenue:\n$0.89\n$2.16 Bil\n$0.92\n$2.15 Bil\n7.6%\n3.4%",
+      "revenue_millions": 2160.0,
+      "revenue_raw": "$2.16 Bil",
+      "growth_rate": 7.6,
+      "growth_raw": "7.6%"
+    },
+    {
+      "symbol": "LYV",
+      "source": "*[class*='eps']",
+      "raw_text": "LYV\nLive Nation Entertainment, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-1.08\n$6.08 Bil\n$-1.06\n$6.31 Bil\n11.1%\n1.9%\n-",
+      "revenue_millions": 6080.0,
+      "revenue_raw": "$6.08 Bil",
+      "growth_rate": 11.1,
+      "growth_raw": "11.1%"
+    },
+    {
+      "symbol": "TXRH",
+      "source": "*[class*='eps']",
+      "raw_text": "TXRH\nTexas Roadhouse Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$1.53\n$1.50 Bil\n$1.28\n$1.48 Bil\n3.1%\n-16.3%\n-",
+      "revenue_millions": 1500.0,
+      "revenue_raw": "$1.50 Bil",
+      "growth_rate": 3.1,
+      "growth_raw": "3.1%"
+    },
+    {
+      "symbol": "VICR",
+      "source": "*[class*='eps']",
+      "raw_text": "VICR\nVicor Corporation\n4:05 PM ET\nEarnings:\nRevenue:\n$0.38\n$111.40 Mil\n$1.01\n$107.26 Mil\n11.5%\n165.8%\n-",
+      "revenue_millions": 111.4,
+      "revenue_raw": "$111.40 Mil",
+      "growth_rate": 11.5,
+      "growth_raw": "11.5%"
+    },
+    {
+      "symbol": "AXTI",
+      "source": "*[class*='eps']",
+      "raw_text": "AXTI\nAXT Inc\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.06\n$25.64 Mil\n$-0.08\n$23.04 Mil\n-8.2%\n-33.3%\n-",
+      "revenue_millions": 25.64,
+      "revenue_raw": "$25.64 Mil",
+      "growth_rate": -8.2,
+      "growth_raw": "-8.2%"
+    },
+    {
+      "symbol": "CGAU",
+      "source": "*[class*='eps']",
+      "raw_text": "CGAU\nCenterra Gold Inc.\n5:00 PM ET\nEarnings:\nRevenue:\n$0.34\n-\n$0.41\n$401.60 Mil\n32.8%\n20.6%\n-",
+      "revenue_millions": 401.6,
+      "revenue_raw": "$401.60 Mil",
+      "growth_rate": 32.8,
+      "growth_raw": "32.8%"
+    },
+    {
+      "symbol": "CPRT",
+      "source": "*[class*='eps']",
+      "raw_text": "CPRT\nCopart Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.40\n$1.18 Bil\n$0.36\n$1.12 Bil\n-3.6%\n-10.0%\n-",
+      "revenue_millions": 1180.0,
+      "revenue_raw": "$1.18 Bil",
+      "growth_rate": -3.6,
+      "growth_raw": "-3.6%"
+    },
+    {
+      "symbol": "CC",
+      "source": "*[class*='eps']",
+      "raw_text": "CC\nChemours Company\n4:30 PM ET\nEarnings:\nRevenue:\n$0.00\n$1.33 Bil\n$0.05\n$1.33 Bil\n-2.2%\n-",
+      "revenue_millions": 1330.0,
+      "revenue_raw": "$1.33 Bil",
+      "growth_rate": -2.2,
+      "growth_raw": "-2.2%"
+    },
+    {
+      "symbol": "ED",
+      "source": "*[class*='eps']",
+      "raw_text": "ED\nConsolidated Edison Inc.\n4:35 PM ET\nEarnings:\nRevenue:\n$0.84\n$3.70 Bil\n$0.89\n$4.00 Bil\n8.9%\n6.0%",
+      "revenue_millions": 3700.0,
+      "revenue_raw": "$3.70 Bil",
+      "growth_rate": 8.9,
+      "growth_raw": "8.9%"
+    },
+    {
+      "symbol": "EGO",
+      "source": "*[class*='eps']",
+      "raw_text": "EGO\nEldorado Gold Corp\n5:00 PM ET\nEarnings:\nRevenue:\n$0.64\n-\n$0.63\n$577.20 Mil\n32.5%\n-1.6%\n-",
+      "revenue_millions": 577.2,
+      "revenue_raw": "$577.20 Mil",
+      "growth_rate": 32.5,
+      "growth_raw": "32.5%"
+    },
+    {
+      "symbol": "TNDM",
+      "source": "*[class*='eps']",
+      "raw_text": "TNDM\nTandem Diabetes Care, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.05\n$276.00 Mil\n$-0.01\n$290.38 Mil\n2.7%\n80.0%",
+      "revenue_millions": 276.0,
+      "revenue_raw": "$276.00 Mil",
+      "growth_rate": 2.7,
+      "growth_raw": "2.7%"
+    },
+    {
+      "symbol": "EXR",
+      "source": "*[class*='eps']",
+      "raw_text": "EXR\nExtra Space Storage Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$2.03\n$864.48 Mil\n$2.08\n$857.47 Mil\n4.3%\n2.5%",
+      "revenue_millions": 864.48,
+      "revenue_raw": "$864.48 Mil",
+      "growth_rate": 4.3,
+      "growth_raw": "4.3%"
+    },
+    {
+      "symbol": "RNG",
+      "source": "*[class*='eps']",
+      "raw_text": "RNG\nRingCentral, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$1.13\n$642.29 Mil\n$1.18\n$644.03 Mil\n4.8%\n4.4%",
+      "revenue_millions": 642.29,
+      "revenue_raw": "$642.29 Mil",
+      "growth_rate": 4.8,
+      "growth_raw": "4.8%"
+    },
+    {
+      "symbol": "DBX",
+      "source": "*[class*='eps']",
+      "raw_text": "DBX\nDropbox, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.67\n$627.51 Mil\n$0.68\n$636.20 Mil\n-1.1%\n1.5%",
+      "revenue_millions": 627.51,
+      "revenue_raw": "$627.51 Mil",
+      "growth_rate": -1.1,
+      "growth_raw": "-1.1%"
+    },
+    {
+      "symbol": "FND",
+      "source": "*[class*='eps']",
+      "raw_text": "FND\nFloor & Decor Holdings, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.35\n$1.14 Bil\n$0.36\n$1.13 Bil\n2.0%\n2.9%",
+      "revenue_millions": 1140.0,
+      "revenue_raw": "$1.14 Bil",
+      "growth_rate": 2.0,
+      "growth_raw": "2.0%"
+    },
+    {
+      "symbol": "GH",
+      "source": "*[class*='eps']",
+      "raw_text": "GH\nGuardant Health, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.44\n$279.96 Mil\n$-0.50\n$281.27 Mil\n39.4%\n-13.6%",
+      "revenue_millions": 279.96,
+      "revenue_raw": "$279.96 Mil",
+      "growth_rate": 39.4,
+      "growth_raw": "39.4%"
+    },
+    {
+      "symbol": "LNT",
+      "source": "*[class*='eps']",
+      "raw_text": "LNT\nAlliant Energy, Inc.\n6:00 PM ET\nEarnings:\nRevenue:\n$0.58\n$937.84 Mil\n$0.60\n$1.06 Bil\n9.0%\n3.4%",
+      "revenue_millions": 1060.0,
+      "revenue_raw": "$1.06 Bil",
+      "growth_rate": 9.0,
+      "growth_raw": "9.0%"
+    },
+    {
+      "symbol": "MTUS",
+      "source": "*[class*='eps']",
+      "raw_text": "MTUS\nMetallus Inc\n4:10 PM ET\nEarnings:\nRevenue:\n$0.05\n$289.90 Mil\n$-0.18\n$267.30 Mil\n11.1%\n-460.0%\n-",
+      "revenue_millions": 289.9,
+      "revenue_raw": "$289.90 Mil",
+      "growth_rate": 11.1,
+      "growth_raw": "11.1%"
+    },
+    {
+      "symbol": "RYI",
+      "source": "*[class*='eps']",
+      "raw_text": "RYI\nRyerson Inc.\n4:35 PM ET\nEarnings:\nRevenue:\n$-0.25\n$4.58 Bil\n$-1.01\n$1.10 Bil\n9.7%\n-304.0%",
+      "revenue_millions": 4580.0,
+      "revenue_raw": "$4.58 Bil",
+      "growth_rate": 9.7,
+      "growth_raw": "9.7%"
+    },
+    {
+      "symbol": "TVTX",
+      "source": "*[class*='eps']",
+      "raw_text": "TVTX\nTravere Therapeutics, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.03\n$142.46 Mil\n$0.03\n$129.69 Mil\n73.4%\n0.0%\n-",
+      "revenue_millions": 142.46,
+      "revenue_raw": "$142.46 Mil",
+      "growth_rate": 73.4,
+      "growth_raw": "73.4%"
+    },
+    {
+      "symbol": "CENX",
+      "source": "*[class*='eps']",
+      "raw_text": "CENX\nCentury Aluminum Co.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.25\n$737.90 Mil\n$0.02\n$633.70 Mil\n17.5%\n-98.4%\n-",
+      "revenue_millions": 737.9,
+      "revenue_raw": "$737.90 Mil",
+      "growth_rate": 17.5,
+      "growth_raw": "17.5%"
+    },
+    {
+      "symbol": "GRAL",
+      "source": "*[class*='eps']",
+      "raw_text": "GRAL\nGRAIL, Inc.\nAfter Close\nEarnings:\nRevenue:\n$-3.33\n-\n$-2.44\n$43.60 Mil\n14.0%\n26.7%\n-",
+      "revenue_millions": 43.6,
+      "revenue_raw": "$43.60 Mil",
+      "growth_rate": 14.0,
+      "growth_raw": "14.0%"
+    },
+    {
+      "symbol": "LZ",
+      "source": "*[class*='eps']",
+      "raw_text": "LZ\nLegalZoom.com, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.18\n$184.60 Mil\n$0.17\n$190.27 Mil\n17.7%\n-5.6%",
+      "revenue_millions": 184.6,
+      "revenue_raw": "$184.60 Mil",
+      "growth_rate": 17.7,
+      "growth_raw": "17.7%"
+    },
+    {
+      "symbol": "ONTO",
+      "source": "*[class*='eps']",
+      "raw_text": "ONTO\nOnto Innovation Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.28\n$266.11 Mil\n$1.26\n$266.87 Mil\n1.1%\n-1.6%",
+      "revenue_millions": 266.11,
+      "revenue_raw": "$266.11 Mil",
+      "growth_rate": 1.1,
+      "growth_raw": "1.1%"
+    },
+    {
+      "symbol": "ARDX",
+      "source": "*[class*='eps']",
+      "raw_text": "ARDX\nArdelyx, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.02\n$117.57 Mil\n$0.00\n$125.22 Mil\n7.8%\n-100.0%\n-",
+      "revenue_millions": 117.57,
+      "revenue_raw": "$117.57 Mil",
+      "growth_rate": 7.8,
+      "growth_raw": "7.8%"
+    },
+    {
+      "symbol": "GLPI",
+      "source": "*[class*='eps']",
+      "raw_text": "GLPI\nGaming and Leisure Properties\n4:15 PM ET\nEarnings:\nRevenue:\n$0.96\n$405.11 Mil\n$0.99\n$407.03 Mil\n4.5%\n3.1%",
+      "revenue_millions": 405.11,
+      "revenue_raw": "$405.11 Mil",
+      "growth_rate": 4.5,
+      "growth_raw": "4.5%"
+    },
+    {
+      "symbol": "HG",
+      "source": "*[class*='eps']",
+      "raw_text": "HG\nHamilton Insurance Group, Ltd.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.69\n$637.31 Mil\n$1.65\n$728.33 Mil\n27.7%\n139.1%\n-",
+      "revenue_millions": 637.31,
+      "revenue_raw": "$637.31 Mil",
+      "growth_rate": 27.7,
+      "growth_raw": "27.7%"
+    },
+    {
+      "symbol": "HHH",
+      "source": "*[class*='eps']",
+      "raw_text": "HHH\nHoward Hughes Holdings Inc.\nAfter Close\nEarnings:\nRevenue:\n$0.31\n$613.03 Mil\n$0.10\n$624.45 Mil\n-36.5%\n-67.7%\n-",
+      "revenue_millions": 613.03,
+      "revenue_raw": "$613.03 Mil",
+      "growth_rate": -36.5,
+      "growth_raw": "-36.5%"
+    },
+    {
+      "symbol": "HLIT",
+      "source": "*[class*='eps']",
+      "raw_text": "HLIT\nHarmonic, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.04\n$142.10 Mil\n$0.01\n$98.23 Mil\n-55.8%\n-75.0%",
+      "revenue_millions": 142.1,
+      "revenue_raw": "$142.10 Mil",
+      "growth_rate": -55.8,
+      "growth_raw": "-55.8%"
+    },
+    {
+      "symbol": "INSG",
+      "source": "*[class*='eps']",
+      "raw_text": "INSG\nInseego Corp.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.07\n$47.20 Mil\n$0.12\n$48.40 Mil\n0.6%\n71.4%",
+      "revenue_millions": 47.2,
+      "revenue_raw": "$47.20 Mil",
+      "growth_rate": 0.6,
+      "growth_raw": "0.6%"
+    },
+    {
+      "symbol": "ACH",
+      "source": "*[class*='eps']",
+      "raw_text": "ACH\nAccendra Health, Inc.\nAfter Close\nEarnings:\nRevenue:\n$0.22\n$719.95 Mil\n$0.21\n$708.97 Mil\n0.0%\n-4.5%\n-",
+      "revenue_millions": 719.95,
+      "revenue_raw": "$719.95 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "ACIC",
+      "source": "*[class*='eps']",
+      "raw_text": "ACIC\nAmerican Coastal Insurance Corp\n4:05 PM ET\nEarnings:\nRevenue:\n$0.42\n$83.41 Mil\n$0.51\n$86.38 Mil\n9.0%\n21.4%\n-",
+      "revenue_millions": 83.41,
+      "revenue_raw": "$83.41 Mil",
+      "growth_rate": 9.0,
+      "growth_raw": "9.0%"
+    },
+    {
+      "symbol": "AGM",
+      "source": "*[class*='eps']",
+      "raw_text": "AGM\nFederal Agricultural Mortgage Corp.\nAfter Close\nEarnings:\nRevenue:\n$4.49\n$107.45 Mil\n$3.66\n$107.91 Mil\n-73.3%\n-18.5%\n-",
+      "revenue_millions": 107.45,
+      "revenue_raw": "$107.45 Mil",
+      "growth_rate": -73.3,
+      "growth_raw": "-73.3%"
+    },
+    {
+      "symbol": "ICUI",
+      "source": "*[class*='eps']",
+      "raw_text": "ICUI\nICU Medical Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$1.67\n$528.97 Mil\n$1.91\n$540.70 Mil\n-14.1%\n14.4%",
+      "revenue_millions": 528.97,
+      "revenue_raw": "$528.97 Mil",
+      "growth_rate": -14.1,
+      "growth_raw": "-14.1%"
+    },
+    {
+      "symbol": "INDI",
+      "source": "*[class*='eps']",
+      "raw_text": "INDI\nindie Semiconductor\n4:30 PM ET\nEarnings:\nRevenue:\n$-0.07\n$57.00 Mil\n$-0.16\n$58.01 Mil\n-0.0%\n-128.6%",
+      "revenue_millions": 57.0,
+      "revenue_raw": "$57.00 Mil",
+      "growth_rate": -0.0,
+      "growth_raw": "-0.0%"
+    },
+    {
+      "symbol": "IRTC",
+      "source": "*[class*='eps']",
+      "raw_text": "IRTC\niRhythm Technologies, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.02\n$200.30 Mil\n$0.29\n$208.89 Mil\n27.1%\n1,350.0%",
+      "revenue_millions": 200.3,
+      "revenue_raw": "$200.30 Mil",
+      "growth_rate": 27.1,
+      "growth_raw": "27.1%"
+    },
+    {
+      "symbol": "PTCT",
+      "source": "*[class*='eps']",
+      "raw_text": "PTCT\nPTC Therapeutics, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$-0.21\n$304.72 Mil\n$-1.67\n$164.68 Mil\n-22.7%\n-695.2%\n-",
+      "revenue_millions": 304.72,
+      "revenue_raw": "$304.72 Mil",
+      "growth_rate": -22.7,
+      "growth_raw": "-22.7%"
+    },
+    {
+      "symbol": "ST",
+      "source": "*[class*='eps']",
+      "raw_text": "ST\nSensata Technologies Holding N.V\n4:00 PM ET\nEarnings:\nRevenue:\n$0.86\n$906.83 Mil\n$0.89\n$917.90 Mil\n1.1%\n3.5%",
+      "revenue_millions": 906.83,
+      "revenue_raw": "$906.83 Mil",
+      "growth_rate": 1.1,
+      "growth_raw": "1.1%"
+    },
+    {
+      "symbol": "VTMX",
+      "source": "*[class*='eps']",
+      "raw_text": "VTMX\nVesta Real Estate Corporation SAB de CV\n5:15 PM ET\nEarnings:\nRevenue:\n$0.80\n-\n$2.01\n$76.44 Mil\n17.2%\n151.2%\n-",
+      "revenue_millions": 76.44,
+      "revenue_raw": "$76.44 Mil",
+      "growth_rate": 17.2,
+      "growth_raw": "17.2%"
+    },
+    {
+      "symbol": "WK",
+      "source": "*[class*='eps']",
+      "raw_text": "WK\nWorkiva Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.69\n$235.00 Mil\n$0.78\n$238.94 Mil\n19.5%\n13.0%",
+      "revenue_millions": 235.0,
+      "revenue_raw": "$235.00 Mil",
+      "growth_rate": 19.5,
+      "growth_raw": "19.5%"
+    },
+    {
+      "symbol": "ASIC",
+      "source": "*[class*='eps']",
+      "raw_text": "ASIC\nAtegrity Specialty Insurance Company Holdings\n4:05 PM ET\nEarnings:\nRevenue:\n$0.35\n$111.45 Mil\n$0.51\n$123.34 Mil\n0.0%\n45.7%\n-",
+      "revenue_millions": 111.45,
+      "revenue_raw": "$111.45 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "BBDC",
+      "source": "*[class*='eps']",
+      "raw_text": "BBDC\nBarings BDC, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.26\n$68.78 Mil\n$0.27\n$67.97 Mil\n-3.8%\n3.8%\n-",
+      "revenue_millions": 68.78,
+      "revenue_raw": "$68.78 Mil",
+      "growth_rate": -3.8,
+      "growth_raw": "-3.8%"
+    },
+    {
+      "symbol": "FIVN",
+      "source": "*[class*='eps']",
+      "raw_text": "FIVN\nFive9, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.78\n$297.71 Mil\n$0.80\n$300.28 Mil\n7.8%\n2.6%",
+      "revenue_millions": 297.71,
+      "revenue_raw": "$297.71 Mil",
+      "growth_rate": 7.8,
+      "growth_raw": "7.8%"
+    },
+    {
+      "symbol": "JAKK",
+      "source": "*[class*='eps']",
+      "raw_text": "JAKK\nJAKKS Pacific, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-1.24\n$132.85 Mil\n$-0.42\n$127.11 Mil\n-2.8%\n66.1%\n-",
+      "revenue_millions": 132.85,
+      "revenue_raw": "$132.85 Mil",
+      "growth_rate": -2.8,
+      "growth_raw": "-2.8%"
+    },
+    {
+      "symbol": "OLED",
+      "source": "*[class*='eps']",
+      "raw_text": "OLED\nUniversal Display Corporation\n4:05 PM ET\nEarnings:\nRevenue:\n$1.28\n$173.25 Mil\n$1.39\n$172.93 Mil\n6.6%\n8.6%",
+      "revenue_millions": 173.25,
+      "revenue_raw": "$173.25 Mil",
+      "growth_rate": 6.6,
+      "growth_raw": "6.6%"
+    },
+    {
+      "symbol": "PLSE",
+      "source": "*[class*='eps']",
+      "raw_text": "PLSE\nPulse Biosciences, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.32\n$250.00 Thou\n$-0.26\n$264.00 Thou\n0.0%\n18.8%\n-",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "RMAX",
+      "source": "*[class*='eps']",
+      "raw_text": "RMAX\nRE/MAX Holdings, Inc.\n4:30 PM ET\nEarnings:\nRevenue:\n$0.28\n$71.25 Mil\n$0.30\n$71.14 Mil\n-1.8%\n7.1%",
+      "revenue_millions": 71.25,
+      "revenue_raw": "$71.25 Mil",
+      "growth_rate": -1.8,
+      "growth_raw": "-1.8%"
+    },
+    {
+      "symbol": "SEM",
+      "source": "*[class*='eps']",
+      "raw_text": "SEM\nSelect Medical Holdings Corporation\n4:30 PM ET\nEarnings:\nRevenue:\n$0.23\n$1.36 Bil\n$0.16\n$1.40 Bil\n6.4%\n-30.4%",
+      "revenue_millions": 1360.0,
+      "revenue_raw": "$1.36 Bil",
+      "growth_rate": 6.4,
+      "growth_raw": "6.4%"
+    },
+    {
+      "symbol": "STRW",
+      "source": "*[class*='eps']",
+      "raw_text": "STRW\nStrawberry Fields REIT, Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.34\n$40.09 Mil\n31.5%\n-\n-",
+      "revenue_millions": 40.09,
+      "revenue_raw": "$40.09 Mil",
+      "growth_rate": 31.5,
+      "growth_raw": "31.5%"
+    },
+    {
+      "symbol": "WEAV",
+      "source": "*[class*='eps']",
+      "raw_text": "WEAV\nWeave Communications, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.03\n$63.08 Mil\n$0.03\n$63.40 Mil\n17.0%\n0.0%",
+      "revenue_millions": 63.08,
+      "revenue_raw": "$63.08 Mil",
+      "growth_rate": 17.0,
+      "growth_raw": "17.0%"
+    },
+    {
+      "symbol": "WKC",
+      "source": "*[class*='eps']",
+      "raw_text": "WKC\nWorld Kinect Corporation\n4:15 PM ET\nEarnings:\nRevenue:\n$0.47\n$9.22 Bil\n$0.30\n$9.03 Bil\n-7.5%\n-36.2%\n-",
+      "revenue_millions": 9220.0,
+      "revenue_raw": "$9.22 Bil",
+      "growth_rate": -7.5,
+      "growth_raw": "-7.5%"
+    },
+    {
+      "symbol": "ALRM",
+      "source": "*[class*='eps']",
+      "raw_text": "ALRM\nAlarm.com Holdings, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.64\n$250.81 Mil\n$0.72\n$261.66 Mil\n8.0%\n12.5%",
+      "revenue_millions": 250.81,
+      "revenue_raw": "$250.81 Mil",
+      "growth_rate": 8.0,
+      "growth_raw": "8.0%"
+    },
+    {
+      "symbol": "CARG",
+      "source": "*[class*='eps']",
+      "raw_text": "CARG\nCarGurus, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.63\n$238.31 Mil\n$0.63\n$241.09 Mil\n5.5%\n0.0%",
+      "revenue_millions": 238.31,
+      "revenue_raw": "$238.31 Mil",
+      "growth_rate": 5.5,
+      "growth_raw": "5.5%"
+    },
+    {
+      "symbol": "CWST",
+      "source": "*[class*='eps']",
+      "raw_text": "CWST\nCasella Waste Systems Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.22\n$468.99 Mil\n$0.30\n$469.06 Mil\n9.7%\n36.4%",
+      "revenue_millions": 468.99,
+      "revenue_raw": "$468.99 Mil",
+      "growth_rate": 9.7,
+      "growth_raw": "9.7%"
+    },
+    {
+      "symbol": "EDRY",
+      "source": "*[class*='eps']",
+      "raw_text": "EDRY\nEuroDry Ltd.\nAfter Close\nEarnings:\nRevenue:\n$0.78\n$17.37 Mil\n$0.87\n$17.39 Mil\n19.8%\n11.5%\n-",
+      "revenue_millions": 17.37,
+      "revenue_raw": "$17.37 Mil",
+      "growth_rate": 19.8,
+      "growth_raw": "19.8%"
+    },
+    {
+      "symbol": "EIG",
+      "source": "*[class*='eps']",
+      "raw_text": "EIG\nEmployers Holdings Inc.\n4:15 PM ET\nEarnings:\nRevenue:\n$0.41\n$216.49 Mil\n$0.66\n$170.50 Mil\n-21.3%\n61.0%\n-",
+      "revenue_millions": 216.49,
+      "revenue_raw": "$216.49 Mil",
+      "growth_rate": -21.3,
+      "growth_raw": "-21.3%"
+    },
+    {
+      "symbol": "FG",
+      "source": "*[class*='eps']",
+      "raw_text": "FG\nFGL Holdings\n4:15 PM ET\nEarnings:\nRevenue:\n$1.34\n$1.55 Bil\n$0.91\n$1.76 Bil\n13.2%\n-32.1%\n-",
+      "revenue_millions": 1550.0,
+      "revenue_raw": "$1.55 Bil",
+      "growth_rate": 13.2,
+      "growth_raw": "13.2%"
+    },
+    {
+      "symbol": "IAUX",
+      "source": "*[class*='eps']",
+      "raw_text": "IAUX\ni-80 Gold Corp.\n5:10 PM ET\nEarnings:\nRevenue:\n$-0.01\n$79.80 Mil\n$-0.05\n$21.29 Mil\n-8.3%\n-400.0%\n-",
+      "revenue_millions": 79.8,
+      "revenue_raw": "$79.80 Mil",
+      "growth_rate": -8.3,
+      "growth_raw": "-8.3%"
+    },
+    {
+      "symbol": "MSEX",
+      "source": "*[class*='eps']",
+      "raw_text": "MSEX\nMiddlesex Water Company\n4:50 PM ET\nEarnings:\nRevenue:\n$0.49\n$49.00 Mil\n$0.46\n$46.98 Mil\n-0.3%\n-6.1%\n-",
+      "revenue_millions": 49.0,
+      "revenue_raw": "$49.00 Mil",
+      "growth_rate": -0.3,
+      "growth_raw": "-0.3%"
+    },
+    {
+      "symbol": "PK",
+      "source": "*[class*='eps']",
+      "raw_text": "PK\nPark Hotels & Resorts Inc.\n4:10 PM ET\nEarnings:\nRevenue:\n$0.46\n$613.90 Mil\n$0.51\n$629.00 Mil\n0.6%\n10.9%",
+      "revenue_millions": 613.9,
+      "revenue_raw": "$613.90 Mil",
+      "growth_rate": 0.6,
+      "growth_raw": "0.6%"
+    },
+    {
+      "symbol": "PRDO",
+      "source": "*[class*='eps']",
+      "raw_text": "PRDO\nPerdoceo Education Corporation\n4:00 PM ET\nEarnings:\nRevenue:\n$0.54\n$209.95 Mil\n$0.59\n$211.64 Mil\n20.0%\n9.3%",
+      "revenue_millions": 209.95,
+      "revenue_raw": "$209.95 Mil",
+      "growth_rate": 20.0,
+      "growth_raw": "20.0%"
+    },
+    {
+      "symbol": "PRTA",
+      "source": "*[class*='eps']",
+      "raw_text": "PRTA\nProthena Corporation plc\n4:05 PM ET\nEarnings:\nRevenue:\n$-0.44\n$11.50 Mil\n$-0.44\n$21.00 Thou\n-99.0%\n0.0%\n-",
+      "revenue_millions": 11.5,
+      "revenue_raw": "$11.50 Mil",
+      "growth_rate": -99.0,
+      "growth_raw": "-99.0%"
+    },
+    {
+      "symbol": "RMNI",
+      "source": "*[class*='eps']",
+      "raw_text": "RMNI\nRimini Street, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n$0.05\n$105.69 Mil\n$0.04\n$109.79 Mil\n-3.9%\n-20.0%\n-",
+      "revenue_millions": 105.69,
+      "revenue_raw": "$105.69 Mil",
+      "growth_rate": -3.9,
+      "growth_raw": "-3.9%"
+    },
+    {
+      "symbol": "SVV",
+      "source": "*[class*='eps']",
+      "raw_text": "SVV\nSavers Value Village, Inc.\n4:05 PM ET\nEarnings:\nRevenue:\n$0.12\n$464.69 Mil\n$0.13\n$464.67 Mil\n15.6%\n8.3%",
+      "revenue_millions": 464.69,
+      "revenue_raw": "$464.69 Mil",
+      "growth_rate": 15.6,
+      "growth_raw": "15.6%"
+    },
+    {
+      "symbol": "WSC",
+      "source": "*[class*='eps']",
+      "raw_text": "WSC\nWillScot Holdings Corporation\n4:05 PM ET\nEarnings:\nRevenue:\n$0.33\n$544.51 Mil\n$0.29\n$565.97 Mil\n-6.1%\n-12.1%",
+      "revenue_millions": 544.51,
+      "revenue_raw": "$544.51 Mil",
+      "growth_rate": -6.1,
+      "growth_raw": "-6.1%"
+    },
+    {
+      "symbol": "PKST",
+      "source": "*[class*='eps']",
+      "raw_text": "PKST\nPeakstone Realty Trust\n4:05 PM ET\nEarnings:\nRevenue:\n-\n-\n$0.28\n$25.99 Mil\n0.0%\nInfinity%\n-",
+      "revenue_millions": 25.99,
+      "revenue_raw": "$25.99 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "SCKT",
+      "source": "*[class*='eps']",
+      "raw_text": "SCKT\nSocket Mobile, Inc.\n4:00 PM ET\nEarnings:\nRevenue:\n-\n-\n$-1.43\n$3.96 Mil\n0.0%\n-\n-",
+      "revenue_millions": 3.96,
+      "revenue_raw": "$3.96 Mil",
+      "growth_rate": 0.0,
+      "growth_raw": "0.0%"
+    },
+    {
+      "symbol": "CV",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "MAX",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ACCO",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "CIB",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "UEIC",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "VOXR",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "ENZN",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "GHI",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LICT",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "LIDR",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "PDYN",
+      "source": "ew_pattern_[id*='showcal']"
+    },
+    {
+      "symbol": "AI",
+      "source": "ew_pattern_[id*='showcal']"
+    }
+  ],
+  "status": "success"
+}
