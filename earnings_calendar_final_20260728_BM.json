@@ -1,6 +1,6 @@
 {
   "date": "20260728",
-  "scraped_at": "2026-07-28T10:10:31.924636-04:00",
+  "scraped_at": "2026-07-28T10:36:32.747421-04:00",
   "session": "bmo",
   "companies": [
     {
@@ -690,15 +690,15 @@
       "source": "api/caldata",
       "quarter": "6/2026",
       "eps_estimate": 1.13,
-      "revenue_estimate_millions": 999.0,
+      "revenue_estimate_millions": 3369.0,
       "prior_year_sales_millions": 3419.0,
       "reported_eps": 1.32,
-      "reported_revenue_millions": 999.0,
+      "reported_revenue_millions": 3369.0,
       "eps_surprise_pct": 15.79,
-      "revenue_millions": 999.0,
-      "revenue_raw": "$999.00 Mil (reported)",
-      "growth_rate": -70.8,
-      "growth_raw": "-70.8%"
+      "revenue_millions": 3369.0,
+      "revenue_raw": "$3,369.00 Mil (reported)",
+      "growth_rate": -1.5,
+      "growth_raw": "-1.5%"
     },
     {
       "symbol": "FELE",

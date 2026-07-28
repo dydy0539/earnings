@@ -7,10 +7,13 @@ no ChromeDriver, only `requests`. Fetches https://www.earningswhispers.com/api/c
 (the same endpoint the calendar page loads via getcalctrls()) and writes the
 same output files as the Selenium scraper:
 
-    earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json   raw calendar for the session
-    earnings_filtered_{YYYYMMDD}_{AM|BM}.json         tracking-list / revenue-growth filtered
-    earnings_report_{YYYYMMDD}_{AM|BM}.html           combined human-readable report
-                                                      mirroring the fields of both JSONs
+    earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json   intermediary: raw calendar for the session
+    earnings_filtered_{YYYYMMDD}_{AM|BM}.json         intermediary: tracking-list / revenue-growth filtered
+    earnings_report_{YYYYMMDD}_{AM|BM}.html           FINAL OUTPUT: combined report mirroring
+                                                      the fields of both JSONs
+
+The job may run more than once per session (DST-tolerant scheduling); later runs
+simply overwrite all three files with fresher data.
 
 Session and naming (kept compatible with the historical files):
     after-close run  (ET hour >= 16): releaseTime == 3, suffix "AM"
@@ -387,7 +390,7 @@ def main():
     report_path = os.path.join(SCRIPT_DIR, f"earnings_report_{date_str}_{suffix}.html")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write(report_html)
-    print(f"Saved earnings_report_{date_str}_{suffix}.html")
+    print(f"FINAL OUTPUT: earnings_report_{date_str}_{suffix}.html")
 
     print_summary(filtered_companies, session_label)
     return 0
