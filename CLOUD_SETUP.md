@@ -14,6 +14,8 @@ and writes the same files:
 
 - `earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json`
 - `earnings_filtered_{YYYYMMDD}_{AM|BM}.json`
+- `earnings_report_{YYYYMMDD}_{AM|BM}.html` — one combined human-readable report
+  per job, mirroring the fields of the two JSONs (filtered table + full calendar)
 
 Naming stays compatible with the historical files: `AM` = the after-market-close scrape
 (evening ET), `BM` = the before-open scrape (morning ET). The date is always the current

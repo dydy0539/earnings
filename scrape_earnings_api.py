@@ -9,6 +9,8 @@ same output files as the Selenium scraper:
 
     earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json   raw calendar for the session
     earnings_filtered_{YYYYMMDD}_{AM|BM}.json         tracking-list / revenue-growth filtered
+    earnings_report_{YYYYMMDD}_{AM|BM}.html           combined human-readable report
+                                                      mirroring the fields of both JSONs
 
 Session and naming (kept compatible with the historical files):
     after-close run  (ET hour >= 16): releaseTime == 3, suffix "AM"
@@ -22,6 +24,7 @@ Usage:
 """
 
 import argparse
+import html
 import json
 import os
 import sys
@@ -186,6 +189,137 @@ def save_to_file(data, filename):
     return path
 
 
+# Column order for the HTML tables — headers are the JSON field names so the
+# report mirrors the two JSON files exactly.
+FILTERED_FIELDS = [
+    "ticker", "name", "revenue_millions", "revenue_raw",
+    "growth_rate", "growth_raw", "source", "filter_reason",
+]
+CALENDAR_FIELDS = [
+    "symbol", "company_name", "time", "quarter", "eps_estimate",
+    "revenue_estimate_millions", "prior_year_sales_millions",
+    "reported_eps", "reported_revenue_millions", "eps_surprise_pct",
+    "revenue_millions", "revenue_raw", "growth_rate", "growth_raw", "source",
+]
+NUMERIC_FIELDS = {
+    "revenue_millions", "growth_rate", "eps_estimate",
+    "revenue_estimate_millions", "prior_year_sales_millions",
+    "reported_eps", "reported_revenue_millions", "eps_surprise_pct",
+}
+
+
+def _cell(value, field):
+    if value is None or value == "":
+        return '<td class="empty">&ndash;</td>'
+    cls = ' class="num"' if field in NUMERIC_FIELDS else ""
+    if isinstance(value, float) and field in NUMERIC_FIELDS:
+        value = f"{value:,.2f}".rstrip("0").rstrip(".")
+    return f"<td{cls}>{html.escape(str(value))}</td>"
+
+
+def _table(companies, fields, row_class=None):
+    head = "".join(f"<th>{html.escape(f)}</th>" for f in fields)
+    rows = []
+    for c in companies:
+        cls = f' class="{row_class(c)}"' if row_class and row_class(c) else ""
+        cells = "".join(_cell(c.get(f), f) for f in fields)
+        rows.append(f"<tr{cls}>{cells}</tr>")
+    body = "\n".join(rows) or f'<tr><td colspan="{len(fields)}" class="empty">no companies</td></tr>'
+    return f"<table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table>"
+
+
+def render_html(calendar_data, filtered_data, session_label):
+    """One self-contained HTML report combining both JSON outputs."""
+    date_str = calendar_data["date"]
+    fc = filtered_data["filter_criteria"]
+    filtered_tickers = {c["ticker"] for c in filtered_data["companies"]}
+
+    meta_pairs = [
+        ("date", date_str),
+        ("session", f'{calendar_data.get("session", "")} ({session_label})'),
+        ("scraped_at", calendar_data["scraped_at"]),
+        ("status", calendar_data["status"]),
+        ("total_original", filtered_data["total_original"]),
+        ("total_filtered", filtered_data["total_filtered"]),
+        ("tracking_list_count", fc["tracking_list_count"]),
+    ]
+    if calendar_data.get("message"):
+        meta_pairs.append(("message", calendar_data["message"]))
+    meta_html = "".join(
+        f'<div class="meta-item"><span class="k">{html.escape(str(k))}</span>'
+        f'<span class="v">{html.escape(str(v))}</span></div>'
+        for k, v in meta_pairs
+    )
+
+    rules_html = "".join(f"<li>{html.escape(r)}</li>" for r in fc["revenue_growth_rules"])
+    tracking_html = html.escape(", ".join(fc["tracking_list"]) or "(empty)")
+
+    sa_links = "".join(
+        f'<li><a href="https://seekingalpha.com/symbol/{html.escape(c["ticker"])}/income-statement">'
+        f'{html.escape(c["ticker"])}</a> &mdash; {html.escape(c.get("name") or "")}</li>'
+        for c in filtered_data["companies"]
+    )
+
+    filtered_table = _table(filtered_data["companies"], FILTERED_FIELDS)
+    calendar_table = _table(
+        calendar_data["companies"], CALENDAR_FIELDS,
+        row_class=lambda c: "hit" if c.get("symbol") in filtered_tickers else None,
+    )
+
+    return f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Earnings {date_str} {html.escape(session_label)}</title>
+<style>
+  body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+         margin: 1.5rem; color: #1a1a2e; background: #fafafa; }}
+  h1 {{ font-size: 1.4rem; }} h2 {{ font-size: 1.1rem; margin-top: 2rem; }}
+  .meta {{ display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; padding: .8rem 1rem;
+          background: #fff; border: 1px solid #e2e2ea; border-radius: 8px; }}
+  .meta-item .k {{ color: #6b7280; font-size: .75rem; display: block; }}
+  .meta-item .v {{ font-weight: 600; font-size: .9rem; }}
+  .criteria {{ background: #fff; border: 1px solid #e2e2ea; border-radius: 8px;
+              padding: .8rem 1rem; margin-top: 1rem; font-size: .85rem; }}
+  .criteria ul {{ margin: .3rem 0; padding-left: 1.2rem; }}
+  .tablewrap {{ overflow-x: auto; }}
+  table {{ border-collapse: collapse; width: 100%; background: #fff; font-size: .8rem;
+          border: 1px solid #e2e2ea; }}
+  th, td {{ padding: .35rem .55rem; border-bottom: 1px solid #eee; text-align: left;
+           white-space: nowrap; }}
+  th {{ background: #f3f4f6; font-family: ui-monospace, monospace; font-size: .72rem;
+       position: sticky; top: 0; }}
+  td.num {{ text-align: right; font-variant-numeric: tabular-nums; }}
+  td.empty {{ color: #b0b0b8; }}
+  tr.hit {{ background: #fff8e1; }}
+  tr:hover td {{ background: #f0f7ff; }}
+  a {{ color: #1d4ed8; }}
+  .links ul {{ columns: 2; font-size: .85rem; }}
+</style>
+</head>
+<body>
+<h1>Earnings &mdash; {date_str} &mdash; {html.escape(session_label)}</h1>
+<div class="meta">{meta_html}</div>
+
+<h2>Filtered companies ({filtered_data["total_filtered"]})</h2>
+<div class="criteria">
+  <strong>filter_criteria</strong>
+  <ul>{rules_html}</ul>
+  <div><strong>tracking_list</strong> ({fc["tracking_list_count"]}): {tracking_html}</div>
+</div>
+<div class="tablewrap">{filtered_table}</div>
+
+<div class="links"><h2>SeekingAlpha income statements</h2><ul>{sa_links or "<li>none</li>"}</ul></div>
+
+<h2>Full calendar ({len(calendar_data["companies"])} companies)</h2>
+<p style="font-size:.8rem;color:#6b7280">Rows highlighted in yellow passed the filter.</p>
+<div class="tablewrap">{calendar_table}</div>
+</body>
+</html>
+"""
+
+
 def print_summary(filtered_companies, session_label):
     if not filtered_companies:
         print("No companies passed the filter.")
@@ -248,6 +382,12 @@ def main():
         "total_original": len(companies),
     }
     save_to_file(filtered_data, f"earnings_filtered_{date_str}_{suffix}.json")
+
+    report_html = render_html(calendar_data, filtered_data, session_label)
+    report_path = os.path.join(SCRIPT_DIR, f"earnings_report_{date_str}_{suffix}.html")
+    with open(report_path, "w", encoding="utf-8") as f:
+        f.write(report_html)
+    print(f"Saved earnings_report_{date_str}_{suffix}.html")
 
     print_summary(filtered_companies, session_label)
     return 0
