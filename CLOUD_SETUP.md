@@ -1,16 +1,9 @@
-# Cloud Scraper Setup
+# Scraper Setup (API-based)
 
-The daily earnings scrape also runs in **Anthropic's cloud** via Claude Code scheduled
-cloud agents ("routines"), in parallel with the local launchd job on the Mac. The local
-setup is untouched — the cloud runs are a redundant, always-on copy whose output is
-committed to this GitHub repo (`dydy0539/earnings`).
-
-## What runs in the cloud
-
-`scrape_earnings_api.py` — a browser-free port of `scrape_earnings_selenium_final.py`.
+`scrape_earnings_api.py` is a browser-free port of `scrape_earnings_selenium_final.py`.
 It calls the site's own JSON endpoint (`https://www.earningswhispers.com/api/caldata/{YYYYMMDD}`)
-instead of driving Chrome, then applies the same tracking-list / revenue-growth filter
-and writes the same files:
+instead of driving Chrome, applies the same tracking-list / revenue-growth filter, and
+writes three files per job into the repo root:
 
 - `earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json`
 - `earnings_filtered_{YYYYMMDD}_{AM|BM}.json`
@@ -22,29 +15,36 @@ Naming stays compatible with the historical files: `AM` = the after-market-close
 US/Eastern date; the API only returns reliable rows for the current date (past dates roll
 companies forward to their next quarter).
 
-## Routines
+## Local schedule (active)
 
-Two routines, managed at <https://claude.ai/code/routines> (cron is UTC):
+`com.earnings.api.scraper.plist`, installed at `~/Library/LaunchAgents/`, runs the API
+scraper **Mon–Fri at 09:00 and 19:00 local time** (plus once at load/boot to catch missed
+runs). Logs: `earnings_api_log.txt` / `earnings_api_error.txt` (gitignored).
 
-| Routine | Cron (UTC) | Meaning |
+- 09:00 SGT ≈ 20:00–21:00 ET previous evening → after-close session, suffix `AM`
+- 19:00 SGT ≈ 06:00–07:00 ET → before-open session, suffix `BM`
+
+```bash
+# manage it
+launchctl unload ~/Library/LaunchAgents/com.earnings.api.scraper.plist
+launchctl load   ~/Library/LaunchAgents/com.earnings.api.scraper.plist
+tail -f earnings_api_log.txt
+```
+
+The older Selenium job (`com.earnings.scraper.plist`, Mon–Fri 09:00/21:00) is still
+installed and untouched.
+
+## Cloud routines (disabled)
+
+Two Claude Code cloud routines were set up to run this in Anthropic's cloud and commit
+results to GitHub, but earningswhispers.com returns **403 for datacenter IPs**, so they
+are disabled (they cannot scrape from cloud hosts). Kept for reference at
+<https://claude.ai/code/routines>:
+
+| Routine | Cron (UTC) | Status |
 | --- | --- | --- |
-| `earnings-scraper-afterclose` | `0 1 * * 2-6` | Mon–Fri ~21:00 ET, after market close |
-| `earnings-scraper-beforeopen` | `0 13 * * 1-5` | Mon–Fri ~9:00 ET, before the open |
-
-Each routine clones this repo, runs `python3 scrape_earnings_api.py`, and commits +
-pushes the two output JSONs to `main`. If the script fails because the site changed,
-the agent is instructed to diagnose and minimally fix `scrape_earnings_api.py`, then
-commit the fix alongside the data.
-
-## Local vs cloud
-
-- The Mac's launchd job (`com.earnings.scraper.plist`) keeps running the Selenium
-  scraper as before and writes into the Dropbox folder.
-- The cloud routines write the same filenames into GitHub commits. If you later
-  `git pull` in the Dropbox folder, same-named files may conflict with locally
-  produced ones; the data should be near-identical — resolve however you like.
-- `analyze_incremental_margins.py` remains a manual step and reads the newest
-  `earnings_filtered_*.json` wherever you run it.
+| `earnings-scraper-afterclose` | `0 1 * * 2-6` | disabled |
+| `earnings-scraper-beforeopen` | `0 13 * * 1-5` | disabled |
 
 ## Testing by hand
 

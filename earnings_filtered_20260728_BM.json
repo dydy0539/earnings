@@ -1,6 +1,6 @@
 {
   "date": "20260728",
-  "scraped_at": "2026-07-28T08:40:55.920027-04:00",
+  "scraped_at": "2026-07-28T10:10:31.932996-04:00",
   "filter_criteria": {
     "revenue_growth_rules": [
       ">10M revenue and >50% growth",
@@ -62,10 +62,10 @@
     {
       "ticker": "FMX",
       "name": "Fomento Economico Mexicano S.A",
-      "revenue_millions": 12940.0,
-      "revenue_raw": "$12,940.00 Mil (est)",
-      "growth_rate": 19.3,
-      "growth_raw": "19.3%",
+      "revenue_millions": 13285.62,
+      "revenue_raw": "$13,285.62 Mil (reported)",
+      "growth_rate": 22.5,
+      "growth_raw": "22.5%",
       "source": "api/caldata",
       "filter_reason": "revenue_growth_criteria"
     },
