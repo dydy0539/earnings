@@ -17,12 +17,17 @@ companies forward to their next quarter).
 
 ## Local schedule (active)
 
-`com.earnings.api.scraper.plist`, installed at `~/Library/LaunchAgents/`, runs the API
-scraper **Mon–Fri at 09:00 and 19:00 local time** (plus once at load/boot to catch missed
-runs). Logs: `earnings_api_log.txt` / `earnings_api_error.txt` (gitignored).
+`com.earnings.api.scraper.plist`, installed at `~/Library/LaunchAgents/`, targets
+**19:00 and 08:00 US/Eastern, Mon–Fri ET** (plus once at load/boot to catch missed
+runs). Because the Mac clock is SGT (no DST) while ET shifts, each target has two
+adjacent local slots and the later run overwrites with fresher data:
 
-- 09:00 SGT ≈ 20:00–21:00 ET previous evening → after-close session, suffix `AM`
-- 19:00 SGT ≈ 06:00–07:00 ET → before-open session, suffix `BM`
+- After-close (19:00 ET Mon–Fri): 07:00 + 08:00 SGT Tue–Sat → suffix `AM`
+- Before-open (08:00 ET Mon–Fri): 20:00 + 21:00 SGT Mon–Fri → suffix `BM`
+
+The `earnings_report_*.html` is the final output per session; the two JSONs are
+intermediary and freely overwritten. Logs: `earnings_api_log.txt` /
+`earnings_api_error.txt` (gitignored).
 
 ```bash
 # manage it
