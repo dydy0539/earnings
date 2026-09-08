@@ -197,6 +197,7 @@ def save_to_file(data, filename):
 FILTERED_FIELDS = [
     "ticker", "name", "revenue_millions", "revenue_raw",
     "growth_rate", "growth_raw", "source", "filter_reason",
+    "IOMA",
 ]
 CALENDAR_FIELDS = [
     "symbol", "company_name", "time", "quarter", "eps_estimate",
@@ -372,6 +373,13 @@ def main():
 
     tracking_list = load_tracking_list()
     filtered_companies = filter_companies(companies, tracking_list)
+    try:
+        from ioma import attach_ioma
+        attach_ioma(filtered_companies)
+    except Exception as exc:
+        print(f"IOMA calculation skipped: {exc}")
+        for company in filtered_companies:
+            company.setdefault("IOMA", None)
     filtered_data = {
         "date": date_str,
         "scraped_at": datetime.now(ZoneInfo("US/Eastern")).isoformat(),
