@@ -1,0 +1,46 @@
+{
+  "date": "20260908",
+  "scraped_at": "2026-09-08T20:06:16.431665-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CASY",
+      "name": "Casey's General Stores, Inc.",
+      "revenue_millions": 5678.34,
+      "revenue_raw": "$5,678.34 Mil (reported)",
+      "growth_rate": 24.3,
+      "growth_raw": "24.3%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria",
+      "IOMA": "15.08%"
+    }
+  ],
+  "total_filtered": 1,
+  "total_original": 9
+}

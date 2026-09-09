@@ -197,6 +197,7 @@ def save_to_file(data, filename):
 FILTERED_FIELDS = [
     "ticker", "name", "revenue_millions", "revenue_raw",
     "growth_rate", "growth_raw", "source", "filter_reason",
+    "IOMA",
 ]
 CALENDAR_FIELDS = [
     "symbol", "company_name", "time", "quarter", "eps_estimate",
@@ -346,7 +347,7 @@ def main():
                              "default derived from current ET time")
     args = parser.parse_args()
 
-    now_et = datetime.now(ZoneInfo("US/Eastern"))
+    now_et = datetime.now(ZoneInfo("America/New_York"))
     date_str = args.date or now_et.strftime("%Y%m%d")
     session = args.session or ("amc" if now_et.hour >= 16 else "bmo")
     release_time, suffix, session_label = SESSIONS[session]
@@ -361,7 +362,7 @@ def main():
 
     calendar_data = {
         "date": date_str,
-        "scraped_at": datetime.now(ZoneInfo("US/Eastern")).isoformat(),
+        "scraped_at": datetime.now(ZoneInfo("America/New_York")).isoformat(),
         "session": session,
         "companies": companies,
         "status": "success" if companies else "no_data_found",
@@ -372,9 +373,16 @@ def main():
 
     tracking_list = load_tracking_list()
     filtered_companies = filter_companies(companies, tracking_list)
+    try:
+        from ioma import attach_ioma
+        attach_ioma(filtered_companies)
+    except Exception as exc:
+        print(f"IOMA calculation skipped: {exc}")
+        for company in filtered_companies:
+            company.setdefault("IOMA", None)
     filtered_data = {
         "date": date_str,
-        "scraped_at": datetime.now(ZoneInfo("US/Eastern")).isoformat(),
+        "scraped_at": datetime.now(ZoneInfo("America/New_York")).isoformat(),
         "filter_criteria": {
             "revenue_growth_rules": FILTER_CRITERIA_RULES,
             "tracking_list": sorted(tracking_list),
