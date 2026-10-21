@@ -1,0 +1,55 @@
+{
+  "date": "20261020",
+  "scraped_at": "2026-10-20T21:59:09.830828-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "revenue_millions": 14118,
+      "revenue_raw": "$14,118.00 Mil (reported)",
+      "growth_rate": 15.9,
+      "growth_raw": "15.9%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VICR",
+      "name": "Vicor Corporation",
+      "revenue_millions": 197.11,
+      "revenue_raw": "$197.11 Mil (reported)",
+      "growth_rate": 78.5,
+      "growth_raw": "78.5%",
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 2,
+  "total_original": 28
+}
