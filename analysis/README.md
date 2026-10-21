@@ -1,5 +1,7 @@
 # Verified IOMA and ERQI cloud enrichment
 
+The Oct 20 reports in the repo root were regenerated after the EPS-beat screen was restored. These packets and validation files describe the earlier five-name AM and two-name BM reports, so a later analyze run needs new research for the expanded company list.
+
 Run the existing **Earnings after close** workflow manually on `cursor/save-earnings-reports-2dbe`, choosing `mode: analyze`.
 
 The GitHub-hosted runner selects the latest AM and latest BM HTML filenames independently, recomputes IOMA and same-basis margins from exact source-verified inputs, applies the 1.0 percentage-point / favorable-divergence selection rule, inserts the full prepared ERQI research, validates preservation, and commits the two reports in the repository root on the same branch. Validation JSON is saved under `analysis/`.

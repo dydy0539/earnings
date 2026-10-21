@@ -1,6 +1,6 @@
 {
   "date": "20261020",
-  "scraped_at": "2026-10-20T21:59:09.830828-04:00",
+  "scraped_at": "2026-10-20T21:59:09.830095-04:00",
   "filter_criteria": {
     "revenue_growth_rules": [
       ">10M revenue and >50% growth",
@@ -8,6 +8,13 @@
       ">500M revenue and >25% growth",
       ">1000M revenue and >20% growth",
       ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
     ],
     "tracking_list": [
       "AAPL",
@@ -36,8 +43,37 @@
       "revenue_raw": "$14,118.00 Mil (reported)",
       "growth_rate": 15.9,
       "growth_raw": "15.9%",
+      "eps_estimate": 2.02,
+      "reported_eps": 2.25,
+      "eps_surprise_pct": 11.39,
       "source": "api/caldata",
       "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "revenue_millions": 24965,
+      "revenue_raw": "$24,965.00 Mil (reported)",
+      "growth_rate": 11.1,
+      "growth_raw": "11.1%",
+      "eps_estimate": 1.78,
+      "reported_eps": 2.26,
+      "eps_surprise_pct": 26.97,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "HAS",
+      "name": "Hasbro, Inc.",
+      "revenue_millions": 1595.3,
+      "revenue_raw": "$1,595.30 Mil (reported)",
+      "growth_rate": 15.0,
+      "growth_raw": "15.0%",
+      "eps_estimate": 1.86,
+      "reported_eps": 2.9,
+      "eps_surprise_pct": 55.91,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
     },
     {
       "ticker": "VICR",
@@ -46,10 +82,26 @@
       "revenue_raw": "$197.11 Mil (reported)",
       "growth_rate": 78.5,
       "growth_raw": "78.5%",
+      "eps_estimate": 1.38,
+      "reported_eps": 1.33,
+      "eps_surprise_pct": -4.32,
       "source": "api/caldata",
       "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "IRDM",
+      "name": "Iridium Communications Inc.",
+      "revenue_millions": 245.73,
+      "revenue_raw": "$245.73 Mil (reported)",
+      "growth_rate": 8.3,
+      "growth_raw": "8.3%",
+      "eps_estimate": 0.29,
+      "reported_eps": 0.38,
+      "eps_surprise_pct": 31.03,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
     }
   ],
-  "total_filtered": 2,
+  "total_filtered": 5,
   "total_original": 28
 }
