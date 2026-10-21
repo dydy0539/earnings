@@ -8,6 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from scraping_core import SeleniumScraperBase
+from scrape_earnings_api import EPS_BEAT_RULES, FILTER_CRITERIA_RULES, eps_beat_percent, passes_tier
 import json
 import time
 import os
@@ -288,13 +289,8 @@ class EarningsSeleniumScraper(SeleniumScraperBase):
                     'date': date_str,
                     'scraped_at': datetime.now().isoformat(),
                     'filter_criteria': {
-                        'revenue_growth_rules': [
-                            '>10M revenue and >50% growth',
-                            '>100M revenue and >30% growth',
-                            '>500M revenue and >25% growth', 
-                            '>1000M revenue and >20% growth',
-                            '>5000M revenue and >15% growth'
-                        ],
+                        'revenue_growth_rules': FILTER_CRITERIA_RULES,
+                        'eps_beat_rules': EPS_BEAT_RULES,
                         'tracking_list': sorted(list(tracking_list)) if tracking_list else [],
                         'tracking_list_count': len(tracking_list) if tracking_list else 0
                     },
@@ -839,30 +835,22 @@ class EarningsSeleniumScraper(SeleniumScraperBase):
                 filtered_companies.append(self.format_filtered_company(company, reason="tracking_list"))
                 continue
             
-            # Apply revenue and growth criteria
-            if self.meets_criteria(revenue, growth):
-                self.debug_print(f"{symbol}: Meets criteria - Revenue: ${revenue}M, Growth: {growth}%")
+            # Same ladder as the API scraper: revenue growth, then EPS beat.
+            if passes_tier(revenue, growth):
+                self.debug_print(f"{symbol}: Meets revenue-growth criteria - Revenue: ${revenue}M, Growth: {growth}%")
                 filtered_companies.append(self.format_filtered_company(company, reason="revenue_growth_criteria"))
+            elif passes_tier(revenue, eps_beat_percent(company)):
+                beat = eps_beat_percent(company)
+                self.debug_print(f"{symbol}: Meets EPS-beat criteria - Revenue: ${revenue}M, EPS beat: {beat}%")
+                filtered_companies.append(self.format_filtered_company(company, reason="eps_beat_criteria"))
             else:
                 self.debug_print(f"{symbol}: Does not meet criteria - Revenue: ${revenue}M, Growth: {growth}%")
         
         return filtered_companies
     
     def meets_criteria(self, revenue, growth):
-        """Check if company meets any of the filtering criteria"""
-        criteria = [
-            (10, 50),      # >10M revenue and >50% growth
-            (100, 30),     # >100M revenue and >30% growth  
-            (500, 25),     # >500M revenue and >25% growth
-            (1000, 20),    # >1000M revenue and >20% growth
-            (5000, 15),    # >5000M revenue and >15% growth
-        ]
-        
-        for min_revenue, min_growth in criteria:
-            if revenue > min_revenue and growth > min_growth:
-                return True
-        
-        return False
+        """Revenue-growth ladder shared with scrape_earnings_api.passes_tier."""
+        return passes_tier(revenue, growth)
     
     def extract_company_name(self, raw_text):
         """Extract company name from raw_text field"""
@@ -895,6 +883,9 @@ class EarningsSeleniumScraper(SeleniumScraperBase):
             'revenue_raw': company.get('revenue_raw', ''),
             'growth_rate': company.get('growth_rate', 0),
             'growth_raw': company.get('growth_raw', ''),
+            'eps_estimate': company.get('eps_estimate'),
+            'reported_eps': company.get('reported_eps'),
+            'eps_surprise_pct': company.get('eps_surprise_pct'),
             'source': company.get('source', ''),
             'filter_reason': reason
         }

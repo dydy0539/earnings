@@ -1,0 +1,13 @@
+Expected report not found in authoritative GitHub branch.
+Repository: https://github.com/dydy0539/earnings
+Branch: cursor/save-earnings-reports-2dbe
+Expected repository-root path: /earnings_report_20261021_BM.html
+Expected URL: https://github.com/dydy0539/earnings/blob/cursor/save-earnings-reports-2dbe/earnings_report_20261021_BM.html
+Selection: fallback inferred from actual local run; heartbeat delivery is not intended-occurrence metadata. No older queued occurrence is claimed.
+Scheduled local: 2026-10-21T21:30:00+08:00
+Actual local start: 2026-10-21T23:41:49.098777+08:00
+Local IANA timezone: Asia/Shanghai
+Signed lateness: +7909.098777 seconds
+Scheduled New York report timestamp: 2026-10-21T09:30:00-04:00
+This check occurred after the scheduled occurrence. The exact BM report was absent; no prior report or local substitute was used. IOMA and ERQI were not run; company count is unknown, not zero.
+Verified branch head: a336083ad9a1453d1fcc0b7c702b1e7f602ba69b

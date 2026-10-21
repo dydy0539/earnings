@@ -1,0 +1,32 @@
+name: Earnings before open
+
+on:
+  schedule:
+    # 08:00 US/Eastern during EDT, and 07:00 then 08:00 during EST.
+    # Both slots stay before 16:00 ET, so the session is always before-open.
+    # The later run overwrites the same day's BM files.
+    - cron: "0 12 * * 1-5"
+    - cron: "0 13 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnings-report-commit
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install scraper dependencies
+        run: python3 -m pip install 'requests>=2.31.0' tzdata
+      - name: Scrape and commit the report
+        run: bash .github/scripts/commit-earnings-report.sh bmo

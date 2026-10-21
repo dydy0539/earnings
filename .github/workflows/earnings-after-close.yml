@@ -1,0 +1,63 @@
+name: Earnings after close
+
+on:
+  schedule:
+    # 19:00 US/Eastern during EDT (23:00 UTC) and during EST (00:00 UTC next day).
+    # Both slots stay at or after 16:00 ET, so the session is always after-close.
+    # The later run overwrites the same day's AM files.
+    - cron: "0 23 * * 1-5"
+    - cron: "0 0 * * 2-6"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Fetch a fresh report or enrich the latest AM and BM using verified research
+        type: choice
+        options: [scrape, analyze]
+        default: scrape
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnings-report-commit
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    if: ${{ github.event_name != 'workflow_dispatch' || inputs.mode != 'analyze' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install scraper dependencies
+        run: python3 -m pip install 'requests>=2.31.0' tzdata
+      - name: Scrape and commit the report
+        run: bash .github/scripts/commit-earnings-report.sh amc
+
+  analyze:
+    if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'analyze' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m pip install beautifulsoup4==4.14.2 tzdata
+      - name: Calculate, enrich and validate latest AM and BM
+        run: python3 analysis/enrich_reports.py
+      - name: Commit analyzed reports to this branch
+        env:
+          TARGET_BRANCH: ${{ github.ref_name }}
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add earnings_report_*.html analysis/*-validation.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Analyze latest AM and BM reports with verified IOMA and ERQI research"
+          git push origin "HEAD:$TARGET_BRANCH"

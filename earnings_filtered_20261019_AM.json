@@ -1,0 +1,94 @@
+{
+  "date": "20261019",
+  "scraped_at": "2026-10-19T20:18:23.637899-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics, Inc.",
+      "revenue_millions": 6509.42,
+      "revenue_raw": "$6,509.42 Mil (reported)",
+      "growth_rate": 34.8,
+      "growth_raw": "34.8%",
+      "eps_estimate": 5.42,
+      "reported_eps": 5.26,
+      "eps_surprise_pct": -2.95,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "revenue_millions": 1196,
+      "revenue_raw": "$1,196.00 Mil (reported)",
+      "growth_rate": 32.4,
+      "growth_raw": "32.4%",
+      "eps_estimate": 0.39,
+      "reported_eps": 0.37,
+      "eps_surprise_pct": -5.13,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "KARO",
+      "name": "Karooooo Ltd.",
+      "revenue_millions": 100.74,
+      "revenue_raw": "$100.74 Mil (reported)",
+      "growth_rate": 32.3,
+      "growth_raw": "32.3%",
+      "eps_estimate": 0.57,
+      "reported_eps": 0.57,
+      "eps_surprise_pct": 0,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "RLI",
+      "name": "RLI Corp.",
+      "revenue_millions": 476.96,
+      "revenue_raw": "$476.96 Mil (reported)",
+      "growth_rate": -6.3,
+      "growth_raw": "-6.3%",
+      "eps_estimate": 0.58,
+      "reported_eps": 0.86,
+      "eps_surprise_pct": 48.28,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    }
+  ],
+  "total_filtered": 4,
+  "total_original": 19
+}

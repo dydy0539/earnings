@@ -8,7 +8,7 @@ no ChromeDriver, only `requests`. Fetches https://www.earningswhispers.com/api/c
 same output files as the Selenium scraper:
 
     earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json   intermediary: raw calendar for the session
-    earnings_filtered_{YYYYMMDD}_{AM|BM}.json         intermediary: tracking-list / revenue-growth filtered
+    earnings_filtered_{YYYYMMDD}_{AM|BM}.json         intermediary: tracking-list / revenue-growth / EPS-beat filtered
     earnings_report_{YYYYMMDD}_{AM|BM}.html           FINAL OUTPUT: combined report mirroring
                                                       the fields of both JSONs
 
@@ -59,13 +59,24 @@ SESSIONS = {
     "bmo": (RELEASE_BEFORE_OPEN, "BM", "Before Market Open"),
 }
 
-FILTER_CRITERIA_RULES = [
-    ">10M revenue and >50% growth",
-    ">100M revenue and >30% growth",
-    ">500M revenue and >25% growth",
-    ">1000M revenue and >20% growth",
-    ">5000M revenue and >15% growth",
+# Same ladder for revenue growth and EPS beat. A company qualifies when revenue
+# is above a tier and that tier's metric (growth or EPS surprise) is above it.
+# Comparisons are strict, matching the historical selenium screen.
+SCREEN_TIERS = [
+    (10, 50),
+    (100, 30),
+    (500, 25),
+    (1000, 20),
+    (5000, 15),
 ]
+
+
+def _tier_rules(metric):
+    return [f">{revenue}M revenue and >{threshold}% {metric}" for revenue, threshold in SCREEN_TIERS]
+
+
+FILTER_CRITERIA_RULES = _tier_rules("growth")
+EPS_BEAT_RULES = _tier_rules("EPS beat")
 
 
 def fetch_calendar(date_str, retries=4, backoff=10):
@@ -152,20 +163,65 @@ def load_tracking_list():
     return tracking_list
 
 
+def _as_float(value):
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def passes_tier(revenue, metric):
+    """True when revenue and metric clear any SCREEN_TIERS pair."""
+    revenue = _as_float(revenue)
+    metric = _as_float(metric)
+    if revenue is None or metric is None:
+        return False
+    return any(revenue > rev and metric > threshold for rev, threshold in SCREEN_TIERS)
+
+
 def meets_criteria(revenue, growth):
-    """Same tiers as scrape_earnings_selenium_final.EarningsSeleniumScraper.meets_criteria."""
-    criteria = [(10, 50), (100, 30), (500, 25), (1000, 20), (5000, 15)]
-    return any(revenue > r and growth > g for r, g in criteria)
+    """Revenue-growth ladder. Kept for callers that only have those two inputs."""
+    return passes_tier(revenue, growth)
+
+
+def eps_beat_percent(company):
+    """EPS surprise percent when reported EPS beats the estimate.
+
+    EarningsWhispers uses 999 as a sentinel when the estimate is missing, so
+    that value is not treated as a beat. A beat still requires reported EPS
+    to be greater than the estimate.
+    """
+    reported = _as_float(company.get("reported_eps"))
+    if reported is None:
+        reported = _as_float(company.get("eps"))
+    estimate = _as_float(company.get("eps_estimate"))
+    if estimate is None:
+        estimate = _as_float(company.get("q1EstEPS"))
+    if reported is None or estimate is None or reported <= estimate:
+        return None
+    surprise = _as_float(company.get("eps_surprise_pct"))
+    if surprise is None:
+        surprise = _as_float(company.get("surprise"))
+    if surprise is not None and surprise < 900:
+        return surprise
+    if estimate == 0:
+        return None
+    return round((reported - estimate) / abs(estimate) * 100, 1)
 
 
 def format_filtered_company(company, reason):
     return {
         "ticker": company.get("symbol", ""),
-        "name": company.get("company_name", ""),
+        "name": company.get("company_name", "") or company.get("name", ""),
         "revenue_millions": company.get("revenue_millions", 0),
         "revenue_raw": company.get("revenue_raw", ""),
-        "growth_rate": company.get("growth_rate", 0),
-        "growth_raw": company.get("growth_raw", ""),
+        "growth_rate": company.get("growth_rate"),
+        "growth_raw": company.get("growth_raw") or "",
+        "eps_estimate": company.get("eps_estimate"),
+        "reported_eps": company.get("reported_eps"),
+        "eps_surprise_pct": company.get("eps_surprise_pct"),
         "source": company.get("source", ""),
         "filter_reason": reason,
     }
@@ -174,13 +230,15 @@ def format_filtered_company(company, reason):
 def filter_companies(companies, tracking_list):
     filtered = []
     for company in companies:
-        symbol = company.get("symbol", "")
+        symbol = (company.get("symbol") or company.get("ticker") or "").upper()
         revenue = company.get("revenue_millions", 0) or 0
         growth = company.get("growth_rate", 0) or 0
         if symbol in tracking_list:
             filtered.append(format_filtered_company(company, "tracking_list"))
-        elif meets_criteria(revenue, growth):
+        elif passes_tier(revenue, growth):
             filtered.append(format_filtered_company(company, "revenue_growth_criteria"))
+        elif passes_tier(revenue, eps_beat_percent(company)):
+            filtered.append(format_filtered_company(company, "eps_beat_criteria"))
     return filtered
 
 
@@ -196,7 +254,8 @@ def save_to_file(data, filename):
 # report mirrors the two JSON files exactly.
 FILTERED_FIELDS = [
     "ticker", "name", "revenue_millions", "revenue_raw",
-    "growth_rate", "growth_raw", "source", "filter_reason",
+    "growth_rate", "growth_raw", "eps_estimate", "reported_eps",
+    "eps_surprise_pct", "source", "filter_reason",
 ]
 CALENDAR_FIELDS = [
     "symbol", "company_name", "time", "quarter", "eps_estimate",
@@ -254,7 +313,10 @@ def render_html(calendar_data, filtered_data, session_label):
         for k, v in meta_pairs
     )
 
-    rules_html = "".join(f"<li>{html.escape(r)}</li>" for r in fc["revenue_growth_rules"])
+    rules_html = "".join(
+        f"<li>{html.escape(r)}</li>"
+        for r in list(fc.get("revenue_growth_rules") or []) + list(fc.get("eps_beat_rules") or [])
+    )
     tracking_html = html.escape(", ".join(fc["tracking_list"]) or "(empty)")
 
     sa_links = "".join(
@@ -331,7 +393,8 @@ def print_summary(filtered_companies, session_label):
     for c in filtered_companies:
         print(
             f"  {c['ticker']:<6} {c['name'][:40]:<40} "
-            f"rev ${c['revenue_millions']:,.0f}M  growth {c['growth_rate']}%  [{c['filter_reason']}]"
+            f"rev ${c['revenue_millions']:,.0f}M  growth {c['growth_rate']}%  "
+            f"EPS surprise {c.get('eps_surprise_pct')}%  [{c['filter_reason']}]"
         )
     print("\nSeekingAlpha income statement URLs:")
     for c in filtered_companies:
@@ -377,6 +440,7 @@ def main():
         "scraped_at": datetime.now(ZoneInfo("US/Eastern")).isoformat(),
         "filter_criteria": {
             "revenue_growth_rules": FILTER_CRITERIA_RULES,
+            "eps_beat_rules": EPS_BEAT_RULES,
             "tracking_list": sorted(tracking_list),
             "tracking_list_count": len(tracking_list),
         },

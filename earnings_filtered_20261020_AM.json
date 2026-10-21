@@ -1,0 +1,159 @@
+{
+  "date": "20261020",
+  "scraped_at": "2026-10-20T21:59:20.290399-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "NFLX",
+      "name": "Netflix, Inc.",
+      "revenue_millions": 12874.18,
+      "revenue_raw": "$12,874.18 Mil (reported)",
+      "growth_rate": 11.8,
+      "growth_raw": "11.8%",
+      "eps_estimate": 0.82,
+      "reported_eps": 0.87,
+      "eps_surprise_pct": 6.1,
+      "source": "api/caldata",
+      "filter_reason": "tracking_list"
+    },
+    {
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies Corp.",
+      "revenue_millions": 14575,
+      "revenue_raw": "$14,575.00 Mil (reported)",
+      "growth_rate": null,
+      "growth_raw": "",
+      "eps_estimate": 0.11,
+      "reported_eps": 0.35,
+      "eps_surprise_pct": 250,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "ISRG",
+      "name": "Intuitive Surgical, Inc.",
+      "revenue_millions": 3048.7,
+      "revenue_raw": "$3,048.70 Mil (reported)",
+      "growth_rate": 21.7,
+      "growth_raw": "21.7%",
+      "eps_estimate": 2.61,
+      "reported_eps": 3,
+      "eps_surprise_pct": 40.8451,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UAL",
+      "name": "United Airlines Holdings, Inc.",
+      "revenue_millions": 17875,
+      "revenue_raw": "$17,875.00 Mil (reported)",
+      "growth_rate": 17.4,
+      "growth_raw": "17.4%",
+      "eps_estimate": 2.6,
+      "reported_eps": 2.54,
+      "eps_surprise_pct": -2.31,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COF",
+      "name": "Capital One Financial Corporation",
+      "revenue_millions": 20357,
+      "revenue_raw": "$20,357.00 Mil (reported)",
+      "growth_rate": 3.2,
+      "growth_raw": "3.2%",
+      "eps_estimate": 5.45,
+      "reported_eps": 6.69,
+      "eps_surprise_pct": 22.75,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "NLY",
+      "name": "Annaly Capital Management, Inc.",
+      "revenue_millions": 1970.42,
+      "revenue_raw": "$1,970.42 Mil (reported)",
+      "growth_rate": 28.6,
+      "growth_raw": "28.6%",
+      "eps_estimate": 0.78,
+      "reported_eps": 0.8,
+      "eps_surprise_pct": 3.9,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CB",
+      "name": "Chubb Limited",
+      "revenue_millions": 16195,
+      "revenue_raw": "$16,195.00 Mil (reported)",
+      "growth_rate": 0.3,
+      "growth_raw": "0.3%",
+      "eps_estimate": 6.53,
+      "reported_eps": 7.66,
+      "eps_surprise_pct": 17.3,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "NIC",
+      "name": "Nicolet Bankshares, Inc.",
+      "revenue_millions": 232.55,
+      "revenue_raw": "$232.55 Mil (reported)",
+      "growth_rate": 61.5,
+      "growth_raw": "61.5%",
+      "eps_estimate": 3.06,
+      "reported_eps": 3.15,
+      "eps_surprise_pct": 2.94,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WFRD",
+      "name": "Weatherford International plc",
+      "revenue_millions": 1143,
+      "revenue_raw": "$1,143.00 Mil (reported)",
+      "growth_rate": -7.2,
+      "growth_raw": "-7.2%",
+      "eps_estimate": 1.21,
+      "reported_eps": 1.66,
+      "eps_surprise_pct": 37.19,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    }
+  ],
+  "total_filtered": 9,
+  "total_original": 27
+}

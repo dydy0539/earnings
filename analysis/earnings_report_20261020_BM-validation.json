@@ -1,0 +1,35 @@
+{
+  "report": "earnings_report_20261020_BM.html",
+  "actual_runner_start": "2026-10-21T04:02:24.856457+00:00",
+  "runner_timezone": "Etc/UTC",
+  "source_cutoff": "2026-10-21T03:56:25.567130+00:00",
+  "original_sha256": "50ff3baa683408b8c3f6dc75e50b83223f7000a31256c1a701521898f7c66de1",
+  "result_sha256": "ac74560528bc2bc9d989bf97600e173b961ebeb297c4d8a68dc6a5df3a89f372",
+  "original_content_exactly_preserved": true,
+  "filtered_rows": 2,
+  "calculated": 2,
+  "unavailable": 0,
+  "selected": [
+    "GE",
+    "VICR"
+  ],
+  "calculations": {
+    "GE": {
+      "ioma": "0.3479797979797979797979797980",
+      "margin": "0.2249153180278509597290176891",
+      "gap_pp": "12.30644799519470200689621089",
+      "selected": true,
+      "strict": "Yes",
+      "divergence": false
+    },
+    "VICR": {
+      "ioma": "0.5910763516397319214220622671",
+      "margin": "0.3660216930304290917945960206",
+      "gap_pp": "22.50546586093028296274662465",
+      "selected": true,
+      "strict": "Yes",
+      "divergence": false
+    }
+  },
+  "visual_qa": "not performed; structural validation only"
+}

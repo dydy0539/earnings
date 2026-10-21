@@ -1,0 +1,68 @@
+{
+  "date": "20261016",
+  "scraped_at": "2026-10-16T10:50:40.008637-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "TRV",
+      "name": "The Travelers Companies, Inc.",
+      "revenue_millions": 12412,
+      "revenue_raw": "$12,412.00 Mil (reported)",
+      "growth_rate": -0.5,
+      "growth_raw": "-0.5%",
+      "eps_estimate": 7.07,
+      "reported_eps": 9.18,
+      "eps_surprise_pct": 29.84,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "LADR",
+      "name": "Ladder Capital Corp",
+      "revenue_millions": 104.89,
+      "revenue_raw": "$104.89 Mil (reported)",
+      "growth_rate": 3.4,
+      "growth_raw": "3.4%",
+      "eps_estimate": 0.21,
+      "reported_eps": 0.35,
+      "eps_surprise_pct": 66.67,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    }
+  ],
+  "total_filtered": 2,
+  "total_original": 8
+}
