@@ -1,0 +1,29 @@
+{
+  "report": "earnings_report_20261020_BM.html",
+  "source_cutoff": "2026-10-21T03:56:25.567130+00:00",
+  "original_sha256": "50ff3baa683408b8c3f6dc75e50b83223f7000a31256c1a701521898f7c66de1",
+  "companies": {
+    "GE": {
+      "r": "13285",
+      "r0": "11305",
+      "p": "2988",
+      "p0": "2299",
+      "basis": "adjusted operating income",
+      "marginbasis": "adjusted operating margin",
+      "note": "GE company operating profit is a non-GAAP consolidated measure excluding run-off insurance. Matching adjusted revenue excludes insurance in BOTH periods: 14118 \u2212 833 = 13285; 12181 \u2212 875 = 11305. Screen GAAP revenue 14118 is preserved. Do not mix insurance-inclusive revenue with insurance-excluding profit.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000040545/000004054526000063/ge3q2026earningsrelease.htm",
+      "quarter": "July 1\u2013September 30, 2026 versus July 1\u2013September 30, 2025"
+    },
+    "VICR": {
+      "r": "197.114",
+      "r0": "110.423",
+      "p": "72.148",
+      "p0": "20.907",
+      "basis": "GAAP operating income",
+      "marginbasis": "GAAP operating margin",
+      "note": "Consolidated product plus royalty revenue and statutory operating income. Neither Q3 includes a patent litigation settlement; no adjusted operating income or adjusted EBITDA reconciliation is supplied. Release amounts in thousands converted to USD millions without losing precision.",
+      "source": "https://www.sec.gov/Archives/edgar/data/0000751978/000119312526425697/d153882dex991.htm",
+      "quarter": "July 1\u2013September 30, 2026 versus July 1\u2013September 30, 2025"
+    }
+  }
+}
