@@ -39,12 +39,29 @@ tail -f earnings_api_log.txt
 The older Selenium job (`com.earnings.scraper.plist`, Mon–Fri 09:00/21:00) is still
 installed and untouched.
 
+## Cloud schedule (GitHub Actions)
+
+Weekday runs happen on GitHub-hosted runners and push the HTML report back to the
+branch the workflow ran from (normally `main`). The laptop does not need to be on.
+
+| Workflow | ET target | UTC cron | Session |
+| --- | --- | --- | --- |
+| `.github/workflows/earnings-before-open.yml` | 08:00 Mon–Fri | `0 12 * * 1-5` and `0 13 * * 1-5` | `bmo` → suffix `BM` |
+| `.github/workflows/earnings-after-close.yml` | 19:00 Mon–Fri | `0 23 * * 1-5` and `0 0 * * 2-6` | `amc` → suffix `AM` |
+
+Each target has two UTC slots so the same wall-clock time still lands in the right
+session when US daylight saving time changes. The later run overwrites that session's
+files. Schedules run only after these workflow files are on `main`. Either workflow
+can also be started by hand from the Actions tab (`workflow_dispatch`).
+
+The runner commits `earnings_report_*.html` plus the calendar and filtered JSON, as
+`github-actions[bot]`.
+
 ## Cloud routines (disabled)
 
 Two Claude Code cloud routines were set up to run this in Anthropic's cloud and commit
 results to GitHub, but earningswhispers.com returns **403 for datacenter IPs**, so they
-are disabled (they cannot scrape from cloud hosts). Kept for reference at
-<https://claude.ai/code/routines>:
+are disabled. Kept for reference at <https://claude.ai/code/routines>:
 
 | Routine | Cron (UTC) | Status |
 | --- | --- | --- |

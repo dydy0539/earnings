@@ -1,0 +1,37 @@
+name: Earnings after close
+
+on:
+  schedule:
+    # 19:00 US/Eastern during EDT (23:00 UTC) and during EST (00:00 UTC next day).
+    # Both slots stay at or after 16:00 ET, so the session is always after-close.
+    # The later run overwrites the same day's AM files.
+    - cron: "0 23 * * 1-5"
+    - cron: "0 0 * * 2-6"
+  workflow_dispatch:
+  push:
+    branches: [cursor/save-earnings-reports-2dbe]
+    paths:
+      - .github/workflows/earnings-after-close.yml
+      - .github/scripts/commit-earnings-report.sh
+
+permissions:
+  contents: write
+
+concurrency:
+  group: earnings-report-commit
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install scraper dependencies
+        run: python3 -m pip install 'requests>=2.31.0' tzdata
+      - name: Scrape and commit the report
+        run: bash .github/scripts/commit-earnings-report.sh amc
