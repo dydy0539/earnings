@@ -1,0 +1,68 @@
+{
+  "date": "20261021",
+  "scraped_at": "2026-10-21T11:49:25.900308-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health, Inc.",
+      "revenue_millions": 51429,
+      "revenue_raw": "$51,429.00 Mil (reported)",
+      "growth_rate": 1.4,
+      "growth_raw": "1.4%",
+      "eps_estimate": 4.66,
+      "reported_eps": 6.99,
+      "eps_surprise_pct": 50,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "HCSG",
+      "name": "Healthcare Services Group Inc.",
+      "revenue_millions": 479.6,
+      "revenue_raw": "$479.60 Mil (reported)",
+      "growth_rate": 3.3,
+      "growth_raw": "3.3%",
+      "eps_estimate": 0.22,
+      "reported_eps": 0.36,
+      "eps_surprise_pct": 63.64,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    }
+  ],
+  "total_filtered": 2,
+  "total_original": 30
+}
