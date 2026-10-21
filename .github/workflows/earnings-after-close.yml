@@ -8,11 +8,6 @@ on:
     - cron: "0 23 * * 1-5"
     - cron: "0 0 * * 2-6"
   workflow_dispatch:
-  push:
-    branches: [cursor/save-earnings-reports-2dbe]
-    paths:
-      - .github/workflows/earnings-after-close.yml
-      - .github/scripts/commit-earnings-report.sh
 
 permissions:
   contents: write

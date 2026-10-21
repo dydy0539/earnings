@@ -8,13 +8,6 @@ on:
     - cron: "0 12 * * 1-5"
     - cron: "0 13 * * 1-5"
   workflow_dispatch:
-  push:
-    # Temporary: proves a GitHub-hosted runner can scrape and push the HTML.
-    # Removed after that check; the daily schedule runs from main.
-    branches: [cursor/save-earnings-reports-2dbe]
-    paths:
-      - .github/workflows/earnings-before-open.yml
-      - .github/scripts/commit-earnings-report.sh
 
 permissions:
   contents: write
