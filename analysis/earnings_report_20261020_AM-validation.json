@@ -1,0 +1,59 @@
+{
+  "report": "earnings_report_20261020_AM.html",
+  "actual_runner_start": "2026-10-21T04:02:24.856457+00:00",
+  "runner_timezone": "Etc/UTC",
+  "source_cutoff": "2026-10-21T02:20:40.296437+00:00",
+  "original_sha256": "f4b353a5ae755161f0008c45e0e4f500df830d72e95939888fcee0c9b97ce512",
+  "result_sha256": "13386f200bfffb780b8dacb38edb0a62eb3a782cf547741b6562bc96bd73ce01",
+  "original_content_exactly_preserved": true,
+  "filtered_rows": 5,
+  "calculated": 5,
+  "unavailable": 0,
+  "selected": [
+    "NFLX",
+    "ISRG"
+  ],
+  "calculations": {
+    "NFLX": {
+      "ioma": "0.8874408025990765975324609622",
+      "margin": "0.3463211936826092792268802291",
+      "gap_pp": "54.11196089164673183055807331",
+      "selected": true,
+      "strict": "Yes",
+      "divergence": false
+    },
+    "ISRG": {
+      "ioma": "0.5404709345106696100073583517",
+      "margin": "0.4164725948765047397251287434",
+      "gap_pp": "12.39983396341648702822296083",
+      "selected": true,
+      "strict": "Yes",
+      "divergence": false
+    },
+    "UAL": {
+      "ioma": "-0.03433962264150943396226415094",
+      "margin": "0.06886713286713286713286713287",
+      "gap_pp": "-10.32067555086423010951312838",
+      "selected": false,
+      "strict": "No",
+      "divergence": false
+    },
+    "NLY": {
+      "ioma": "0.2951581081821669315503918452",
+      "margin": "0.3294416179250669271857594174",
+      "gap_pp": "-3.428350974289999563536757220",
+      "selected": false,
+      "strict": "No",
+      "divergence": false
+    },
+    "NIC": {
+      "ioma": "0.4100381567361314939829762254",
+      "margin": "0.4654130596801009000745284641",
+      "gap_pp": "-5.537490294396940609155223870",
+      "selected": false,
+      "strict": "No",
+      "divergence": false
+    }
+  },
+  "visual_qa": "not performed; structural validation only"
+}
