@@ -1,0 +1,1183 @@
+{
+  "report": "earnings_report_20261022_BM.html",
+  "source_cutoff": "2026-10-22T23:10:03.327522+08:00",
+  "timing": "Manual run: user explicitly selected earnings_report_20261022_BM.html on GitHub main. Actual local start 2026-10-22T22:47:52.599873+08:00; local IANA timezone Asia/Shanghai. Regular BM reference occurrence 2026-10-22T21:30:00+08:00; New York reference 2026-10-22T09:30:00-04:00; signed offset from reference +4673 seconds. This is a manual exact-report selection, not an inference about an older queued run. Source retrieval cutoff 2026-10-22T23:10:03.327522+08:00 (2026-10-22T11:10:03.327522-04:00 New York).",
+  "original_sha256": "41b60813c62d92cff15d1f578b562ca5575a0a1c4ae3aa3dd0086e69fb59ce03",
+  "companies": {
+    "NOK": {
+      "r": "5154",
+      "r0": "4705",
+      "p": "605",
+      "p0": "448",
+      "basis": "company-comparable operating income",
+      "note": "Use continuing-operations comparable sales, including the issuer’s EUR 5m prior-year acquisition-accounting revenue adjustment; statutory sales are EUR 5,154m/4,700m. Screening USD 5,931.22m and 5.1% growth are preserved, but are not the calculation currency or recast growth basis. The current release recasts discontinued operations.",
+      "unit": "EUR millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.sec.gov/Archives/edgar/data/924613/000110465926117972/tm2628115d1_6k.htm",
+      "ioma": "0.3496659242761692650334075724",
+      "margin": "0.1173845556849049282110981762",
+      "prior_margin": "0.09521785334750265674814027630",
+      "dr": "449",
+      "dp": "157",
+      "gap_pp": "23.22813685912643368223093962",
+      "strict": true,
+      "eligible": true,
+      "favorable_divergence": false
+    },
+    "AAL": {
+      "r": "16335",
+      "r0": "13691",
+      "p": "132",
+      "p0": "158",
+      "basis": "adjusted operating income",
+      "note": "Company operating income excluding net special items is available for both quarters, so it takes precedence over GAAP operating income of 115/151. Revenue agrees with the screen. The profit decline is retained, not replaced with an EPS measure.",
+      "unit": "USD millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.sec.gov/Archives/edgar/data/6201/000000620126000064/a8kerexhibit991q3-26.htm",
+      "ioma": "-0.009833585476550680786686838124",
+      "margin": "0.008080808080808080808080808081",
+      "prior_margin": "0.01154042801840625228252136440",
+      "dr": "2644",
+      "dp": "-26",
+      "gap_pp": "-1.791439355735876159476764620",
+      "strict": false,
+      "eligible": false,
+      "favorable_divergence": false
+    },
+    "VLO": {
+      "r": "46098",
+      "r0": "32168",
+      "p": "9073",
+      "p0": "1509",
+      "basis": "GAAP operating income",
+      "note": "The release reports adjusted refining-segment operating income and adjusted net income, but no comparable consolidated adjusted operating income or adjusted EBITDA. Use consolidated GAAP operating income, not the refining segment. Revenue agrees with the screen. Analyst normalization of identifiable operating items is shown separately in ERQI.",
+      "unit": "USD millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.sec.gov/Archives/edgar/data/1035002/000162828026066795/a9302026exh9901earningsrel.htm",
+      "ioma": "0.5430007178750897343862167983",
+      "margin": "0.1968198186472298147425050978",
+      "prior_margin": "0.04690997264362098980353145984",
+      "dr": "13930",
+      "dp": "7564",
+      "gap_pp": "34.61808992278599196437117005",
+      "strict": true,
+      "eligible": true,
+      "favorable_divergence": false
+    },
+    "NDAQ": {
+      "r": "1481",
+      "r0": "1315",
+      "p": "843",
+      "p0": "732",
+      "basis": "adjusted operating income",
+      "note": "Use issuer net revenue after transaction-based expenses, consistently across years, matching its operating-margin denominator. Gross revenue is 2,393/1,979 in the current release; net revenue is 1,481/1,315. The original screen uses gross revenue and remains untouched. SBC and ongoing technology investment remain included in non-GAAP operating costs.",
+      "unit": "USD millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000017/earningsrelease3q26ex-991.htm",
+      "ioma": "0.6686746987951807228915662651",
+      "margin": "0.5692099932478055367994598244",
+      "prior_margin": "0.5566539923954372623574144487",
+      "dr": "166",
+      "dp": "111",
+      "gap_pp": "9.946470554737518609210644070",
+      "strict": true,
+      "eligible": true,
+      "favorable_divergence": false
+    },
+    "HBAN": {
+      "r": "2791",
+      "r0": "2134",
+      "p": "896",
+      "p0": "766",
+      "basis": "pretax income",
+      "note": "No comparable company-reported consolidated operating income, adjusted EBITDA or named core-income total was identified. Statutory pretax income includes credit provisions and acquisition costs and is the consolidated fallback; do not substitute adjusted EPS or pre-provision net revenue. Net interest income plus noninterest income is 2,791/2,134, whereas the screen uses gross interest plus fees of 4,111. Acquisition-driven scope expansion limits organic interpretation.",
+      "unit": "USD millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.sec.gov/Archives/edgar/data/49196/000004919626000084/hban20260930_8kex992.htm",
+      "ioma": "0.1978691019786910197869101979",
+      "margin": "0.3210318882121103547115729129",
+      "prior_margin": "0.3589503280224929709465791940",
+      "dr": "657",
+      "dp": "130",
+      "gap_pp": "-12.31627862334193349246627150",
+      "strict": false,
+      "eligible": false,
+      "favorable_divergence": false
+    },
+    "UNP": {
+      "r": "7197",
+      "r0": "6244",
+      "p": "2965",
+      "p0": "2590",
+      "basis": "adjusted operating income",
+      "note": "Company adjusted operating income excludes merger-related costs of 22/41; GAAP operating income is 2,943/2,549. The preferred adjusted basis is used for both IOMA and margin, so the GAAP screen cannot be substituted to change eligibility. Revenue agrees with the screen.",
+      "unit": "USD millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.sec.gov/Archives/edgar/data/100885/000010088526000319/a2026-10x228xkex991earning.htm",
+      "ioma": "0.3934942287513116474291710388",
+      "margin": "0.4119772127275253577879672086",
+      "prior_margin": "0.4147982062780269058295964126",
+      "dr": "953",
+      "dp": "375",
+      "gap_pp": "-1.848298397621371035879616980",
+      "strict": false,
+      "eligible": false,
+      "favorable_divergence": false
+    },
+    "ARGX": {
+      "r": "1751",
+      "r0": "1151",
+      "p": "486",
+      "p0": "346",
+      "basis": "IFRS operating income",
+      "note": "Total operating income in this issuer’s presentation means product sales plus other operating income, not profit: 1,721+30 versus 1,127+24. Operating profit is the separate 486/346 row. Use total operating income as the consolidated top-line denominator consistent with the screen; rounded published table totals can differ by 1m. No company-adjusted operating-profit measure was identified; do not substitute net income or EPS.",
+      "unit": "USD millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://argenx.com/news/2026/press-release-3386023.html",
+      "ioma": "0.2333333333333333333333333333",
+      "margin": "0.2775556824671616219303255283",
+      "prior_margin": "0.3006081668114682884448305821",
+      "dr": "600",
+      "dp": "140",
+      "gap_pp": "-4.422234913382828859699219500",
+      "strict": false,
+      "eligible": false,
+      "favorable_divergence": false
+    },
+    "TTMI": {
+      "r": "1203.855",
+      "r0": "752.736",
+      "p": "208.996",
+      "p0": "92.547",
+      "basis": "adjusted operating income",
+      "note": "Use the company’s non-GAAP operating-income reconciliation, which takes precedence over adjusted EBITDA. Figures converted exactly from USD thousands. Revenue agrees with screening after rounding. Exclusions include acquired-intangible amortization, SBC, unrealized commodity-hedge effects and restructuring/acquisition-related costs.",
+      "unit": "USD millions",
+      "period": "Fiscal Q3 ended September 28, 2026 versus September 29, 2025 (13-week quarters)",
+      "source": "https://www.sec.gov/Archives/edgar/data/1116942/000119312526428263/d282109dex991.htm",
+      "ioma": "0.2581336631797818314014705654",
+      "margin": "0.1736056252621785846302087876",
+      "prior_margin": "0.1229474875653615610253794159",
+      "dr": "451.119",
+      "dp": "116.449",
+      "gap_pp": "8.452803791760324677126177780",
+      "strict": true,
+      "eligible": true,
+      "favorable_divergence": false
+    },
+    "COCO": {
+      "r": "243.825",
+      "r0": "182.313",
+      "p": "53.156",
+      "p0": "32.390",
+      "basis": "adjusted EBITDA",
+      "note": "No company-adjusted operating-income total is reported; company adjusted EBITDA is available for both quarters. Figures converted exactly from USD thousands; the original 243.82 screening value is retained. This measure excludes SBC, derivative and FX effects and acquisition-related costs but retains ordinary freight, tariffs and business costs. Acquisition scope is not organic growth.",
+      "unit": "USD millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.sec.gov/Archives/edgar/data/1482981/000148298126000183/coco-20260930xexx991pressr.htm",
+      "ioma": "0.3375926648458837300039016777",
+      "margin": "0.2180088177996513893161078642",
+      "prior_margin": "0.1776614942434165418812701234",
+      "dr": "61.512",
+      "dp": "20.766",
+      "gap_pp": "11.95838470462323406877938135",
+      "strict": true,
+      "eligible": true,
+      "favorable_divergence": false
+    },
+    "SDVKY": {
+      "r": "37728",
+      "r0": "29218",
+      "p": "7997",
+      "p0": "5103",
+      "basis": "adjusted operating income",
+      "note": "Use company adjusted EBIT, not headline adjusted EBITA. Acquisition amortization remains included in adjusted EBIT. SEK figures avoid mixing the screen’s USD 3,911.19m with SEK profit. Reported SEK growth is 29.1%, distinct from screening 27.3%; the original screen is unchanged.",
+      "unit": "SEK millions",
+      "period": "July 1–September 30, 2026 versus July 1–September 30, 2025",
+      "source": "https://www.home.sandvik/siteassets/investors/reports--presentations/interim-reports/2026/interim-report-third-quarter-2026.pdf",
+      "ioma": "0.3400705052878965922444183314",
+      "margin": "0.2119645886344359626802374894",
+      "prior_margin": "0.1746526114039290848107331097",
+      "dr": "8510",
+      "dp": "2894",
+      "gap_pp": "12.81059166534606295641808420",
+      "strict": true,
+      "eligible": true,
+      "favorable_divergence": false
+    }
+  },
+  "history": {
+    "NOK": [
+      [
+        "Q1 2026",
+        4436,
+        4300,
+        301,
+        209
+      ],
+      [
+        "Q2 2026",
+        4815,
+        4448,
+        434,
+        367
+      ],
+      [
+        "Q3 2026",
+        5154,
+        4705,
+        605,
+        448
+      ]
+    ],
+    "VLO": [
+      [
+        "Q3 2025",
+        32168,
+        32876,
+        1509,
+        507
+      ],
+      [
+        "Q1 2026",
+        32381,
+        30258,
+        1731,
+        -900
+      ],
+      [
+        "Q2 2026",
+        44476,
+        29889,
+        5196,
+        997
+      ],
+      [
+        "Q3 2026",
+        46098,
+        32168,
+        9073,
+        1509
+      ]
+    ],
+    "NDAQ": [
+      [
+        "Q3 2025",
+        1315,
+        1146,
+        732,
+        637
+      ],
+      [
+        "Q1 2026",
+        1408,
+        1237,
+        799,
+        682
+      ],
+      [
+        "Q2 2026",
+        1500,
+        1306,
+        859,
+        721
+      ],
+      [
+        "Q3 2026",
+        1481,
+        1315,
+        843,
+        732
+      ]
+    ],
+    "TTMI": [
+      [
+        "Q1 2026",
+        845.976,
+        648.668,
+        108.016,
+        68.209
+      ],
+      [
+        "Q2 2026",
+        1004.054,
+        730.621,
+        138.445,
+        81.421
+      ],
+      [
+        "Q3 2026",
+        1203.855,
+        752.736,
+        208.996,
+        92.547
+      ]
+    ],
+    "COCO": [
+      [
+        "Q3 2025",
+        182.313,
+        132.906,
+        32.39,
+        22.932
+      ],
+      [
+        "Q1 2026",
+        179.765,
+        130.921,
+        38.678,
+        22.505
+      ],
+      [
+        "Q2 2026",
+        216.153,
+        168.759,
+        67.232,
+        29.242
+      ],
+      [
+        "Q3 2026",
+        243.825,
+        182.313,
+        53.156,
+        32.39
+      ]
+    ],
+    "SDVKY": [
+      [
+        "Q3 2025",
+        29218,
+        30306,
+        5103,
+        5382
+      ],
+      [
+        "Q1 2026",
+        30685,
+        29301,
+        5719,
+        5263
+      ],
+      [
+        "Q2 2026",
+        36752,
+        29700,
+        7855,
+        5194
+      ],
+      [
+        "Q3 2026",
+        37728,
+        29218,
+        7997,
+        5103
+      ]
+    ]
+  },
+  "research": {
+    "NOK": {
+      "revenue": "Reported continuing revenue rose 9.7%; comparable revenue rose 9.5%, with company constant-currency growth of 9%. Growth strengthened from Q2, but Mobile Infrastructure benefited from Q4 revenue pulled into Q3. The pull-forward amount is not disclosed, so fully timing-normalized growth is unavailable.",
+      "rbridge": [
+        [
+          "Network Infrastructure",
+          308,
+          "AI/cloud and IP/optical demand; partly durable"
+        ],
+        [
+          "Mobile Infrastructure",
+          147,
+          "Mix and licensing plus undisclosed pull-forward; mixed"
+        ],
+        [
+          "Portfolio Businesses",
+          -1,
+          "Small decline"
+        ],
+        [
+          "Eliminations and comparable-revenue reconciliation",
+          -5,
+          "Accounting reconciliation, not an operating driver"
+        ]
+      ],
+      "profit": "Comparable profit improved by EUR 157m while statutory profit fell EUR 56m. The adjusted gain is explained by gross profit and expenses; the portion attributable to pulled-forward sales cannot be isolated. This is not proof that all improvement is recurring.",
+      "pbridge": [
+        [
+          "Gross profit: 2,299 versus 2,109",
+          190,
+          "Demand/mix and timing remain combined"
+        ],
+        [
+          "R&D: 1,109 versus 1,104",
+          -5,
+          "Recurring investment"
+        ],
+        [
+          "SG&A: 579 versus 590",
+          11,
+          "Cost execution; savings duration not separately quantified"
+        ],
+        [
+          "Other operating result: -6 versus +33",
+          -39,
+          "Includes hedging and other effects; mixed"
+        ]
+      ],
+      "cash": "Cash contradicts a clean profit-conversion thesis this quarter: OCF fell EUR 502m and FCF fell EUR 528m. Working capital absorbed cash despite higher adjusted profit.",
+      "ctable": [
+        [
+          "OCF",
+          95,
+          597,
+          "-502; group cash includes discontinued operations"
+        ],
+        [
+          "Gross cash PP&E and intangibles",
+          194,
+          168,
+          "+26 / +15.5%; includes intangible investment"
+        ],
+        [
+          "FCF = OCF − gross business capex",
+          -99,
+          429,
+          "-528; no Q3 grant difference"
+        ],
+        [
+          "Interest-bearing investment purchases",
+          402,
+          25,
+          "Treasury use, not capex"
+        ],
+        [
+          "Interest-bearing investment proceeds",
+          257,
+          39,
+          "Net treasury use 145 versus release 14"
+        ]
+      ],
+      "details": [
+        [
+          "Normalization and causal test",
+          "The comparable-profit bridge is 190 − 5 + 11 − 39 = 157. Segment profit contributions are NI +73, Mobile +65, Portfolio +7 and Group Common +12; this is a second decomposition, not an additional set of contributions. Total restructuring exclusions rose from 44 to 357, while acquisition amortization fell from 115 to 46. Total adjustments rose from 196 to 409, explaining why adjusted profit improves while statutory profit declines. Hedging was -16 versus +39, a EUR 55m headwind within operating results; removing it from both comparable periods gives 621/409 and a 47.2% diagnostic IOMA. That is not a fully normalized result because timing remains unquantified. Venture-fund gains are below operating profit and do not explain IOMA."
+        ],
+        [
+          "Revenue quality and historical premise",
+          "AI & Cloud sales were 631 versus 279, while telecom-provider sales were 3,640 versus 3,608. The former provides stronger growth evidence, but order intake is not recognized revenue and does not fix delivery timing. Use the recast Q1/Q2/Q3 series below: IOMA improves from Q2 but is below Q1, so it is not a monotonic acceleration. Earlier 2025 releases used different discontinued-operation and segment presentations; an unrecast Q3 2024 comparison would be misleading. Fully normalized current and prior revenue are n/a because the pull-forward amount is not disclosed."
+        ],
+        [
+          "Cash bridge and investing reconciliation",
+          "OCF change reconciles as pre-working-capital cash +109, working capital -619, net cash interest +5 and cash tax +3 = -502. Current working-capital flow is -563 versus +56; it cannot all be removed as temporary because inventory and receivables fund growth. Excluding working capital in BOTH periods produces a diagnostic 658/541 OCF and 464/373 FCF, not normalized cash. Other financial assets used 20/64 and generated 63/8, distinct from ordinary interest-bearing treasury investments. Investing cash is -281/-189, including acquisitions -30/-4, asset-sale proceeds +42/+9, treasury -145/+14, other-financial-asset net +43/-56 and remaining hedging/other +3/+16. Q3 operating cash includes discontinued-operation use -18/-21; adding this back gives a continuing-operations OCF diagnostic 113/618, still sharply down."
+        ],
+        [
+          "Reinvestment and contrary evidence",
+          "YTD OCF is 254/1,696. Gross cash investment is 476/458, so strict YTD FCF is -222/1,238; company FCF is -205/1,238 because it nets EUR 17m grants. Do not carry that grant netting into gross capex. Q3 capex intensity is 3.8%/3.6%. Management lowered full-year FCF conversion to 35–55%, plans another EUR 400m working-capital investment and expects EUR 800–900m restructuring cash outflows. Some manufacturing payments move into 2027; deferred capex is not a permanent saving."
+        ],
+        [
+          "Forward evidence and falsification",
+          "Management expects Q4 sales 20–24% above Q3 (calculated EUR 6,184.8–6,391.0m), and full-year comparable profit above the midpoint of EUR 2.1–2.6bn. It expects combined Optical and IP growth of 25–30% in 2027, not group growth of that magnitude. Q4 pull-forward reversal, AI-order conversion, receivables/inventory and actual restructuring payments are decisive tests. No comparable quarterly operating-profit guidance supports a forward IOMA calculation."
+        ]
+      ],
+      "outlook": [
+        [
+          "Revenue",
+          "Partly durable; medium confidence. Q4 sales guidance supports demand but timing distorts Q3.",
+          "Partly durable; medium confidence. Optical/IP guidance is encouraging; group timing and mix remain uncertain."
+        ],
+        [
+          "Profit / IOMA",
+          "Partly durable; medium confidence in higher profit, lower confidence that 35.0% IOMA persists.",
+          "Partly durable; medium-low confidence. Savings can sustain levels, but integration savings annualize and investment rises."
+        ],
+        [
+          "Normalized OCF / FCF",
+          "Insufficient evidence; low confidence. Working-capital and restructuring drains may persist.",
+          "Insufficient evidence; low confidence. Deferred manufacturing cash needs move into 2027."
+        ]
+      ],
+      "gaps": "Pull-forward revenue/profit amounts, fully normalized working capital and exact future capital-payment timing are undisclosed. These gaps prevent the 85–95% confidence target."
+    },
+    "VLO": {
+      "revenue": "Revenue rose 43.3%, but refining throughput fell from 3.087m to 2.972m barrels/day. Much of revenue and profit improvement reflects commodity pricing and refining margins, not matching volume growth. Fully price-normalized revenue is unavailable.",
+      "rbridge": [
+        [
+          "Refining revenue, including intersegment",
+          13957,
+          "Commodity price/mix; cyclical"
+        ],
+        [
+          "Renewable diesel revenue, including intersegment",
+          1190,
+          "Price and volume; cyclical/policy-sensitive"
+        ],
+        [
+          "Ethanol revenue, including intersegment",
+          123,
+          "Volume and margin"
+        ],
+        [
+          "Intersegment eliminations",
+          -1340,
+          "Required consolidation reconciliation"
+        ]
+      ],
+      "profit": "The USD 7,564m profit increase is concentrated in refining. Removing the identified refining operating adjustments barely changes the result; the larger uncertainty is the durability of unusually strong margins.",
+      "pbridge": [
+        [
+          "Refining: 8,782 versus 1,610",
+          7172,
+          "Mostly cyclical margin economics"
+        ],
+        [
+          "Renewable diesel: 353 versus -28",
+          381,
+          "Margin and volume; policy-sensitive"
+        ],
+        [
+          "Ethanol: 272 versus 183",
+          89,
+          "Volume/margin improvement"
+        ],
+        [
+          "Corporate and other: -334 versus -256",
+          -78,
+          "Cost headwind"
+        ]
+      ],
+      "cash": "Cash corroborates the current-period profit surge, but a commodity-margin windfall is not a recurring cash run rate. Company capital-investment figures contain a small negative VIE component, so they are not verified gross asset-purchase cash.",
+      "ctable": [
+        [
+          "OCF",
+          6932,
+          1881,
+          "+5,051"
+        ],
+        [
+          "Company capital investments (reported net components)",
+          432,
+          409,
+          "+23 / +5.6%; not verified gross capex"
+        ],
+        [
+          "OCF less reported capital investments",
+          6500,
+          1472,
+          "+5,028; provisional FCF proxy"
+        ],
+        [
+          "Strict gross-capex FCF",
+          "n/a",
+          "n/a",
+          "Gross purchases/refunds not separately available for Q3"
+        ],
+        [
+          "Treasury securities purchases / proceeds",
+          "n/a",
+          "n/a",
+          "Q3 current full investing statement unavailable"
+        ]
+      ],
+      "details": [
+        [
+          "Accounting and normalization",
+          "GAAP consolidated operating income is the screen because adjusted refining income is only one segment. Applying only the company-identified refining operating adjustments to consolidated income creates an explicitly analyst-adjusted sensitivity: current 9,073−8=9,065; prior 1,509+50+5=1,564. IOMA is 7,501/13,930=53.8%, versus GAAP 54.3%. This removes known operating items in both years without pretending to be company consolidated adjusted operating income. The prior-year USD 1,131m impairment is a YTD item, not a Q3 expense, and is not added to Q3."
+        ],
+        [
+          "Mechanism and strongest contrary evidence",
+          "Refining margin per barrel rose from 13.14 to 39.24 despite throughput falling 3.7%. At 92 days, a diagnostic constant-volume decomposition of refining margin gives approximately +7,412.5m from margin-per-barrel and -415.2m from throughput, or +6,997.3m versus the disclosed +6,999m before costs; the 1.7m difference reflects rounded per-barrel metrics. This describes price/cost and mix, not durable pricing power. Refining operating D&A fell 148m, and operating expense fell 12m; neither is automatically a recurring productivity saving. Renewable diesel volume rose to 3.423m from 2.717m gallons/day, and ethanol to 4.799m from 4.635m. The completed St. Charles FCC optimization can improve product mix, but the release does not quantify its recurring contribution."
+        ],
+        [
+          "History and revenue normalization",
+          "GAAP IOMA rises versus Q2 2026. Q3 2025 had revenue down and profit up, producing a negative signed ratio despite favorable divergence; comparing ratio signs alone would invert the economic conclusion. Q1 2026 is distorted by the Q1 2025 impairment. No issuer constant-price revenue series is disclosed; do not label the 43.3% reported growth as normalized demand growth."
+        ],
+        [
+          "Cash normalization and investment scope",
+          "Working capital was -526 versus +325: a -851m drag on YoY OCF. Removing working-capital flows from BOTH periods gives diagnostic OCF 7,458/1,556, a +5,902m change; subtracting company investment figures gives 7,026/1,147. These are pre-working-capital diagnostics, not normalized FCF. Company adjusted OCF 7,253/1,642 also removes the other DGD owner’s share, so it is not consolidated OCF. Capital investment includes 162/232 of deferred turnarounds and catalyst payments, which must not be omitted as mere accounting amortization. Current components are 272−3+1+155+7=432; prior 171+4+2+187+45=409. The -3 DGD capex component needs the full filing to separate refunds/disposals from gross cash expenditure."
+        ],
+        [
+          "Cash trend, horizons and tests",
+          "YTD OCF is 13,902/3,769 and reported capital investments 1,230/1,476, giving a 12,672/2,293 cash-after-investment proxy. Latest available full filing is H1; Q3 treasury gross purchases, proceeds and remaining investing flows are not published in the release. No invented zero is used. A base case retains efficient operations but assumes commodity margins normalize; an adverse case combines lower spreads with outages or heavier turnaround spending. Monitor realized margin/barrel, utilization, DGD economics, deferred-turnaround cash and capex refunds. The release does not support numerical Q4 or FY2027 revenue/profit guidance or a forward IOMA."
+        ]
+      ],
+      "outlook": [
+        [
+          "Revenue",
+          "Insufficient evidence; low confidence. Revenue depends heavily on commodity prices.",
+          "Insufficient evidence; low confidence in nominal growth without a price scenario."
+        ],
+        [
+          "Profit / IOMA",
+          "Partly durable; medium confidence in strong operations, low confidence in repeating 54.3% IOMA.",
+          "Likely temporary for the extreme incremental ratio; medium confidence in that caution, not a predicted profit collapse."
+        ],
+        [
+          "Normalized OCF / FCF",
+          "Partly corroborates; medium confidence in cash generation, limited by margins and gross-capex disclosure.",
+          "Insufficient evidence; low confidence in repeating the windfall after a full reinvestment cycle."
+        ]
+      ],
+      "gaps": "Current Q3 gross business-capex/refund detail, full securities/investing cash flows and quantitative forward spread assumptions are unavailable; no 85–95% persistence claim is warranted."
+    },
+    "NDAQ": {
+      "revenue": "Net revenue rose 12.6%, versus company organic growth of 14%. Index and Financial Technology are the main drivers; market-linked index fees and portfolio changes limit a purely recurring interpretation.",
+      "rbridge": [
+        [
+          "Capital Access Platforms",
+          107,
+          "Index +80; other services +27; market and subscription mix"
+        ],
+        [
+          "Financial Technology",
+          72,
+          "Client wins/upsells; recurring demand evidence"
+        ],
+        [
+          "Market Services, net",
+          6,
+          "Volume/mix-sensitive"
+        ],
+        [
+          "Other revenue",
+          -19,
+          "Divestiture and portfolio effects"
+        ]
+      ],
+      "profit": "Adjusted operating profit rose USD 111m, explained by USD 166m more net revenue less USD 55m higher adjusted costs. The favorable legal settlement is already excluded; it is not a second normalized profit benefit.",
+      "pbridge": [
+        [
+          "Net revenue increase",
+          166,
+          "Growth in fee base; mixed recurring/market-sensitive"
+        ],
+        [
+          "Adjusted operating-expense increase",
+          -55,
+          "Compensation, technology and growth investment"
+        ]
+      ],
+      "cash": "Reported Q3 OCF rose to USD 521m from 221m, but the current release does not provide Q3 gross capex or a complete cash-flow bridge. Cash supports earnings direction; normalized FCF remains unverified.",
+      "ctable": [
+        [
+          "OCF",
+          521,
+          221,
+          "+300"
+        ],
+        [
+          "Gross PP&E / software capex",
+          "n/a",
+          69,
+          "Prior 177−108; current Q3 detail not released"
+        ],
+        [
+          "FCF after disclosed PP&E purchases",
+          "n/a",
+          152,
+          "Current-quarter denominator incomplete"
+        ],
+        [
+          "Treasury purchases",
+          "n/a",
+          34,
+          "Prior 234−200"
+        ],
+        [
+          "Treasury proceeds",
+          "n/a",
+          67,
+          "Prior 392−325; net release 33"
+        ]
+      ],
+      "details": [
+        [
+          "Operating bridge and exclusions",
+          "Company adjusted income is 843/732 versus GAAP 732/586. Current adjustments are acquired-intangible amortization +121, merger/strategic expense +6, legal/regulatory -16 and other zero; prior +122,+9,+12 restructuring,+1 legal,+2 other total 146. Therefore GAAP profit improvement 146 exceeds adjusted improvement 111 by 35. SBC is not an exclusion in this reconciliation. Investments in technology and personnel still consume margin. The legal settlement cannot be cited as proof of recurring operating leverage."
+        ],
+        [
+          "Revenue normalization and demand",
+          "Company organic revenue variance is +184 versus reported +166, with FX/divestiture/acquisition impact -18; adjusted-cost organic change is +70 versus reported +55, and organic profit change +114 versus +111. These are issuer organic bridge amounts, not a fully normalized restatement of both revenue levels. A same-baseline growth diagnostic adds 18 to current revenue to obtain 1,499 against 1,315, or 14.0%, but the exact two-period constant-perimeter levels are not disclosed. Index revenue grew 80 to 286; average ETP AUM rose to 1,108bn from 777bn, supported by flows AND market appreciation. FinTech revenue grew 72 to 529, with 54 new clients and 135 upsells. ARR of 3,365m is an annualized stock measure, not quarterly revenue."
+        ],
+        [
+          "Historical test",
+          "The four-quarter comparison below shows IOMA above Q3 2025 but below Q1/Q2 2026. Profitability remains strong without a claim of continuously accelerating conversion. Portfolio reclassifications altered gross revenue and segment presentation; consolidated net revenue and reconciled adjusted operating income are used throughout."
+        ],
+        [
+          "Cash, software and treasury limits",
+          "The Q3 2026 10-Q was not yet in the issuer’s SEC submissions retrieved for this run; latest full filing was H1. H1 OCF was 1,400/1,409 and disclosed PP&E purchases 137/108, giving 1,263/1,301 cash-after-PP&E. Adding the released Q3 OCF implies nine-month OCF about 1,921/1,630, subject to rounding; do not use H1 capex as Q3 capex. Prior Q3 purchases are 177−108=69; standalone capitalized-software completeness is not independently established from the release. Current Q3 software additions, unusual receipts, settlement cash, taxes and working-capital bridge remain n/a, so the +300 OCF change is an unresolved cash bridge rather than automatically normalized growth."
+        ],
+        [
+          "Investing and outlook",
+          "H1 treasury purchases/proceeds were 499/322 versus 200/325. Default-fund and margin-deposit investment flows were +540/-375 and are clearing-related customer/system balances, not normal business FCF or ordinary treasury cash. They must stay separate. Current Q3 securities flows and the full investing reconciliation remain unavailable. Management updated FY2026 adjusted expense guidance to 2,550–2,580: subtracting nine-month 1,887 implies Q4 expense of 663–693, a calculation rather than profit guidance. ARR supports Q4 fee growth, but a market drawdown can reverse index fees, while higher staffing and technology costs can reduce incremental conversion. Monitor retention, organic ARR, index flows versus appreciation and the forthcoming cash-flow statement."
+        ]
+      ],
+      "outlook": [
+        [
+          "Revenue",
+          "Likely durable in direction; medium confidence from recurring contracts, tempered by market-linked fees.",
+          "Partly durable; medium confidence in recurring growth, no supported FY2027 numerical forecast."
+        ],
+        [
+          "Profit / IOMA",
+          "Partly durable; medium confidence. Higher Q4 expense guidance limits extrapolation of 66.9% IOMA.",
+          "Partly durable; medium-low confidence. Investment and market sensitivity can outweigh scale benefits."
+        ],
+        [
+          "Normalized OCF / FCF",
+          "Insufficient evidence; low confidence until full capex and cash reconciliation are available.",
+          "Insufficient evidence; low confidence without software-capex and working-capital plans."
+        ]
+      ],
+      "gaps": "Current Q3 cash capex, software investment, treasury and clearing-investment flows, and OCF normalization are unverified. No 85–95% confidence claim is made."
+    },
+    "TTMI": {
+      "revenue": "Revenue grew 59.9%, accelerating from Q2’s 37.4%. Commercial demand, especially data centers/networking, drove most of the increase; acquisition timing and customer concentration limit the claim that the entire gain is organic.",
+      "rbridge": [
+        [
+          "Commercial segment",
+          378.962,
+          "AI/networking and other commercial demand; cyclicality remains"
+        ],
+        [
+          "Aerospace & Defense segment",
+          72.058,
+          "Longer-cycle programs; backlog conversion risk"
+        ],
+        [
+          "Intersegment eliminations",
+          0.099,
+          "Reconciliation"
+        ]
+      ],
+      "profit": "Adjusted operating profit improved USD 116.449m: adjusted gross profit contributed 136.982m while adjusted operating costs absorbed 20.533m. GAAP profit improved less because excluded costs increased.",
+      "pbridge": [
+        [
+          "Adjusted gross profit: 298.998 versus 162.016",
+          136.982,
+          "Scale/mix; unquantified allocation between demand and productivity"
+        ],
+        [
+          "Adjusted operating costs: 90.002 versus 69.469",
+          -20.533,
+          "Investment and recurring cost growth"
+        ]
+      ],
+      "cash": "OCF rose only 9.1% while adjusted operating profit more than doubled. Company FCF improved partly because net capex declined; gross-capex FCF and current asset-sale proceeds need the forthcoming filing.",
+      "ctable": [
+        [
+          "OCF",
+          154.711,
+          141.803,
+          "+12.908 / +9.1%"
+        ],
+        [
+          "Company net capex",
+          79.921,
+          99.233,
+          "-19.312 / -19.5%"
+        ],
+        [
+          "Company FCF (net-capex basis)",
+          74.79,
+          42.57,
+          "+32.220; not gross-capex FCF"
+        ],
+        [
+          "Purchases before separately disclosed asset-sale proceeds",
+          "n/a",
+          99.45,
+          "Current gross detail unavailable; prior YTD−H1"
+        ],
+        [
+          "Strict gross-capex FCF",
+          "n/a",
+          42.353,
+          "Prior OCF minus 99.450"
+        ]
+      ],
+      "details": [
+        [
+          "GAAP, adjusted and normalization",
+          "GAAP operating profit is 162.253/71.906, versus adjusted 208.996/92.547. GAAP IOMA is 20.0%; adjusted IOMA is 25.8%. Current operating exclusions total 46.743: intangible amortization 9.224, SBC 24.090, unrealized commodity-hedge gain -0.516, restructuring/acquisition/other 13.945. Prior exclusions total 20.641: 9.225+11.611−0.776+0.581. The 26.102 increase in exclusions explains the extra adjusted profit growth. Retaining SBC in BOTH adjusted periods gives analyst profit 184.906/80.936 and IOMA 23.0%; the screen itself remains the company basis. Adjusted EBITDA of 242.307/120.915 is a different measure and is not substituted for operating income."
+        ],
+        [
+          "Demand, acquisitions and history",
+          "Commercial segment sales rose from 408.920 to 787.882; A&D from 344.482 to 416.540, before eliminations. Management reports data-center/networking growth of 115%, medical/industrial/instrumentation 97% and A&D 21%. Book-to-bill of 2.13 and A&D backlog of 2.0bn support demand but are not guaranteed quarterly sales. Epiq closed September 30, after the September 28 fiscal-quarter end; do not attribute Q3 growth to its full future contribution. A precise acquisition-free two-period sales bridge is not disclosed, so normalized organic growth is n/a. The same-basis Q1–Q3 2026 YoY series shows higher IOMA in Q3. The older Q3 2025 release lacked the same adjusted-operating-income reconciliation, so its EBITDA is not spliced into that series."
+        ],
+        [
+          "Cash conversion and investing",
+          "OCF/adjusted operating profit fell from 153.2% to 74.0%; OCF/revenue fell from 18.8% to 12.9%. This is a material divergence even though cash grew. Company FCF increase reconciles exactly as OCF +12.908 plus reduced net capex +19.312 = +32.220. YTD OCF is 272.883/228.952 and company net capex 237.138/222.687, producing company FCF 35.745/6.265. The H1 filing shows purchases 169.205/123.726 and asset-sale proceeds 11.988/0.272, which demonstrates why net capex cannot be described as gross investment. Prior Q3 purchases are 223.176−123.726=99.450, and proceeds 0.489−0.272=0.217. Current-quarter disposal proceeds, separately capitalized software, securities investing and acquisition cash classification are unavailable in the release. Do not use the USD 650m announced Ophir purchase price as cash already spent."
+        ],
+        [
+          "Capital burden and cash normalization",
+          "Net-capex/revenue is 6.6%/13.2%; lower net spending is not evidence that required maintenance investment permanently fell. H1 unpaid PP&E in payables was 140.132m, a noncash addition that can become later cash demand. The current quarter’s inventory, receivables, customer deposits, cash tax and capex-payable bridge is not available, so normalized OCF/FCF is n/a for both periods rather than assuming all working capital reverses. Announced acquisitions and facility ramps create additional integration and funding demands."
+        ],
+        [
+          "Forward scenarios and falsification",
+          "Management guides Q4 sales to 1,420–1,440m, FY2026 to 4,470–4,490m and preliminary FY2027 to 6,500–6,750m. The latter implies roughly 45–51% growth across range endpoints, but includes closed STG/Epiq and is not organic guidance. Proposed Ophir, Merlin and ILFA transactions are excluded as stated in the release. EPS guidance cannot be converted to operating income without an unsupported bridge. Base case retains strong AI/A&D shipments with cost investment; adverse case combines customer acceptance delays, acquisition integration and collection/capex catch-up. Watch realized backlog conversion, margins retaining SBC, cash collections and gross capex."
+        ]
+      ],
+      "outlook": [
+        [
+          "Revenue",
+          "Likely durable in direction; medium confidence from orders and Q4 guidance; acquisition and shipment timing remain.",
+          "Partly durable; medium confidence in management’s direction, lower confidence in organic growth or range realization."
+        ],
+        [
+          "Profit / IOMA",
+          "Partly durable; medium confidence in scale economics, lower confidence in retaining 25.8% incremental conversion.",
+          "Partly durable; medium-low confidence because integration, capacity and SBC can absorb gains."
+        ],
+        [
+          "Normalized OCF / FCF",
+          "Insufficient evidence; low confidence until the full cash/capex bridge is available.",
+          "Insufficient evidence; low confidence given acquisitions and deferred facility payments."
+        ]
+      ],
+      "gaps": "Current-quarter gross capex/disposals, software, treasury flows and working-capital detail are missing. Normalized organic growth is unquantified. These gaps prevent 85–95% confidence.",
+      "fy": "FY2027, the fiscal year following FY2026; under the Monday-nearest-December-31 convention, December 29, 2026–January 3, 2028 (calendar mapping, not guidance for a calendar year)"
+    },
+    "COCO": {
+      "revenue": "Reported growth of 33.7% includes Copra. Company organic growth of 17.8% is materially slower than the first-half pace, so faster reported sales should not be mistaken for accelerating underlying growth.",
+      "rbridge": [
+        [
+          "Americas Vita Coco Coconut Water",
+          10.838,
+          "Branded demand"
+        ],
+        [
+          "Americas private label",
+          32.135,
+          "Copra plus underlying shipments; mixed"
+        ],
+        [
+          "Americas other",
+          3.86,
+          "Includes Copra branded/commodity sales"
+        ],
+        [
+          "International Vita Coco Coconut Water",
+          12.424,
+          "Geographic expansion and demand"
+        ],
+        [
+          "International private label",
+          2.16,
+          "Shipment growth"
+        ],
+        [
+          "International other",
+          0.095,
+          "Small residual category"
+        ]
+      ],
+      "profit": "Adjusted EBITDA rose USD 20.766m. Gross-profit growth did most of the work; acquisitions, lower tariff costs and freight/people costs affect quality. The company adjustment does not remove ordinary tariff economics.",
+      "pbridge": [
+        [
+          "Gross profit increase",
+          24.009,
+          "Demand, acquired sales and lower tariffs; mixed"
+        ],
+        [
+          "SG&A increase",
+          -6.481,
+          "Acquisition, headcount, selling and amortization costs"
+        ],
+        [
+          "D&A and SBC add-back increases",
+          1.412,
+          "1.265 D&A + 0.147 SBC; accounting bridge"
+        ],
+        [
+          "Acquisition-cost exclusion increase",
+          3.174,
+          "Company exclusion; not recurring improvement"
+        ],
+        [
+          "Prior other-adjustment exclusion disappears",
+          -1.264,
+          "Prior costs already excluded in company basis"
+        ],
+        [
+          "Other expense retained in EBITDA",
+          -0.084,
+          "Residual nonoperating cost"
+        ]
+      ],
+      "cash": "Cash partly corroborates profit: Q3 OCF rose 41.9% and cash-after-business-capex rose 54.9%. Working-capital movements helped, while the Copra acquisition consumed cash outside FCF.",
+      "ctable": [
+        [
+          "OCF (nine months minus H1)",
+          55.413,
+          39.059,
+          "+16.354 / +41.9%"
+        ],
+        [
+          "Cash PP&E purchases",
+          0.191,
+          3.413,
+          "-3.222 / -94.4%"
+        ],
+        [
+          "FCF = OCF − cash PP&E",
+          55.222,
+          35.646,
+          "+19.576 / +54.9%"
+        ],
+        [
+          "Copra acquisition, net cash use",
+          139.253,
+          0,
+          "Acquisition investment, not ordinary capex"
+        ],
+        [
+          "Separately reported treasury-security flows",
+          0,
+          0,
+          "No separate securities purchases/proceeds in released cash statements"
+        ]
+      ],
+      "details": [
+        [
+          "Profit accounting and normalization limits",
+          "GAAP operating profit is 45.451/27.923, yielding GAAP IOMA 28.5%; the selected adjusted-EBITDA result is 33.8%. The bridge above reconciles 24.009−6.481+1.412+3.174−1.264−0.084=20.766. Current EBITDA adjustments exclude SBC 3.122, derivative loss 2.083, FX loss 0.887 and acquisition costs 3.174; prior excludes SBC 2.975, derivative gain -2.391, FX loss 1.411 and other 1.264. Lower tariffs and ordinary transport costs remain in adjusted EBITDA. YTD tariff refunds contributed 240bps to gross margin; that YTD disclosure is NOT assigned to Q3. Without quarter-specific tariff/refund and acquired-profit data, fully normalized EBITDA is n/a."
+        ],
+        [
+          "Revenue normalization and demand",
+          "Reported revenue is 243.825/182.313. Copra contributed 16.0 percentage points of growth in the company’s rounded reconciliation, implying approximately 29.17m acquired sales and approximately 214.65m ex-Copra current sales against 182.313m prior sales. This is a rounded diagnostic, not a newly disclosed exact dollar amount. Company organic growth is 17.8%, versus roughly 32.1% H1 reported growth before the July acquisition. Branded coconut-water case-equivalent volume grew 16%, while branded revenue grew about 15%; private-label volumes grew 77% but revenue grew 152%, illustrating acquisition/mix effects. Price-volume interactions are not double-counted as additive growth drivers."
+        ],
+        [
+          "Cash bridge and normalization",
+          "Quarter cash is derived consistently: OCF 151.942−96.529=55.413 versus 51.069−12.010=39.059; capex 0.803−0.612=0.191 versus 4.921−1.508=3.413. The +16.354 OCF bridge comprises net income +11.014, receivables +9.737, inventory +5.379, prepaids/advances -1.860, payables/accruals -13.943 and noncash/other +6.027. These sum to +16.354; the +3.222 reduction in capex then yields +19.576 FCF. Receivable collections and inventory release are helpful, but cannot automatically be removed as temporary or counted as indefinitely recurring. Keeping all disclosed working-capital flows is the primary result; normalized OCF/FCF remains n/a because cash timing of refunds and acquisition effects is not isolated."
+        ],
+        [
+          "Investment burden and history",
+          "Capex intensity is only 0.08%/1.87% of sales, consistent with an asset-light model but not evidence of zero future supply-chain investment. No separate software/development capitalization line is reported in the released statements. YTD FCF is 151.139/46.148. Q3 investing use is -139.444, exactly capex -0.191 plus acquisition -139.253; no securities flows are separately reported. OCF after ALL investing is -84.031, which must not be confused with the positive operating FCF. IOMA improves versus Q3 2025 but falls sharply from Q2 2026, when tariff economics aided the comparison. TTM normalization is incomplete without Q4 data on a consistent acquisition perimeter."
+        ],
+        [
+          "Guidance and adverse case",
+          "FY2026 sales guidance is 810–820m and EBITDA 170–175m. Subtracting published YTD results implies Q4 revenue 170.256–180.256m and EBITDA 10.934–15.934m; these are full-year residual calculations, not independently paired scenarios. Management expects Q4 gross margin near 33%, below Q3’s 38%, with higher costs and no price offsets until early 2027. This directly argues against extrapolating Q3 conversion. The next-year base case assumes category growth continues but must fund freight/input inflation; the adverse case adds private-label dilution and price elasticity. Watch ex-Copra growth, gross margin, tariffs, receivable days and realized 2027 price increases."
+        ]
+      ],
+      "outlook": [
+        [
+          "Revenue",
+          "Partly durable; medium confidence in growth, with organic growth slowing and Q4 residual guidance lower sequentially.",
+          "Partly durable; medium-low confidence. Healthy category demand must absorb price increases and acquired-mix effects."
+        ],
+        [
+          "Profit / IOMA",
+          "Likely temporary for Q3’s incremental ratio; medium-high confidence in margin pressure given explicit Q4 cost guidance.",
+          "Insufficient evidence; medium-low confidence until pricing offsets and Copra profitability are demonstrated."
+        ],
+        [
+          "Normalized OCF / FCF",
+          "Partly corroborates; medium confidence in cash generation, lower confidence in working-capital repeatability.",
+          "Partly durable; low-medium confidence because investment and acquired working capital remain uncertain."
+        ]
+      ],
+      "gaps": "Copra’s exact quarterly revenue/profit, quarter-specific tariff/refund effects and normalized cash timing are undisclosed. The Q4 caution is well supported, but the 85–95% target is not earned for all dimensions."
+    },
+    "SDVKY": {
+      "revenue": "Revenue rose 29.1%; company organic growth was 25% and fixed-currency growth 26%. Demand improved, but tungsten-price effects and possible pre-buying mean that organic is not equivalent to fully normalized end demand.",
+      "rbridge": [
+        [
+          "Mining",
+          4285,
+          "Aftermarket/equipment demand, price and FX"
+        ],
+        [
+          "Rock Processing",
+          191,
+          "Low growth and acquisition support"
+        ],
+        [
+          "Machining",
+          3899,
+          "Cutting tools and tungsten powder; partly cyclical"
+        ],
+        [
+          "Intelligent Manufacturing",
+          178,
+          "Organic and acquired growth"
+        ],
+        [
+          "Eliminations / rounding",
+          -43,
+          "Consolidation reconciliation"
+        ]
+      ],
+      "profit": "Adjusted EBIT rose SEK 2,894m. Higher gross profit dominates, but the company explicitly retains a SEK 104m temporary tungsten-price timing benefit in adjusted earnings; it must not be called wholly structural.",
+      "pbridge": [
+        [
+          "Adjusted gross profit increase",
+          3466,
+          "Volume, price, mix and temporary timing combined"
+        ],
+        [
+          "Adjusted sales/administration cost increase",
+          -647,
+          "Recurring cost growth and reinvestment"
+        ],
+        [
+          "Other operating / reconciliation movement",
+          119,
+          "Residual from EBITA bridge; mixed"
+        ],
+        [
+          "Increase in acquisition amortization (EBITA to EBIT)",
+          -44,
+          "Retained in selected EBIT basis"
+        ]
+      ],
+      "cash": "Cash partly corroborates improvement: OCF grew 21.0%, slower than adjusted EBIT’s 56.7%, because working capital absorbed cash. Company free operating cash flow is not the same as after-tax OCF less gross capex.",
+      "ctable": [
+        [
+          "Reported OCF",
+          7181,
+          5934,
+          "+1,247; already includes rental investment/disposals"
+        ],
+        [
+          "Investing PP&E + intangible purchases",
+          998,
+          817,
+          "+181 / +22.2%; includes capitalized intangibles"
+        ],
+        [
+          "OCF − investing business-capex purchases",
+          6183,
+          5117,
+          "+1,066 / +20.8%; rental flows already in OCF"
+        ],
+        [
+          "Company free operating cash flow",
+          7167,
+          5603,
+          "Different pre-interest/tax and adjusted definition"
+        ],
+        [
+          "Financial-asset purchase/proceeds cash",
+          "0 / -4",
+          "1 / 3",
+          "Not assumed to be ordinary treasury movements"
+        ]
+      ],
+      "details": [
+        [
+          "Temporary effects and normalized views",
+          "Adjusted EBIT is 7,997/5,103; reported EBIT is 7,927/5,166. Company IAC removes a current 70m cost and prior 63m gain, giving GAAP IOMA 32.4% versus adjusted 34.0%. Company adjusted EBITA is 8,477/5,539 and excludes acquisition amortization; it is not the screening measure. Adjusted gross profit 15,393/11,927 and SG&A 6,930/6,283 leave an EBITA residual movement +119; subtracting the +44 increase in acquisition-amortization amounts reconciles the selected EBIT change to 2,894. Rounded totals can differ by 1m."
+        ],
+        [
+          "Tungsten, savings and underlying demand",
+          "Machining disclosed SEK 104m temporary tungsten-price timing benefit and SEK 82m savings. Group FX contributed +158m to EBITA. These are overlapping with the gross-profit/segment bridges and must not be added again. The 104m is 3.6% of the total adjusted-EBIT improvement, but the comparable prior-year tungsten effect is not separately quantified here. Removing only current 104 gives a sensitivity, not symmetrical normalization: profit 7,893 and IOMA 32.8%. If the prior effect is T0, a two-period sensitivity is (7,997−104−(5,103−T0))/8,510. The unquantified price-driven powder gain and pre-buying could be more material than the disclosed timing item. A precise durable share of the remaining profit is therefore n/a."
+        ],
+        [
+          "Revenue bridge and history",
+          "Mining revenue increased 4,285m and Machining 3,899m. Management reports strong mining aftermarket activity, cutting-tool demand and more than doubling of powder sales driven by tungsten pricing. Company organic revenue growth excludes FX/acquisitions but retains price and timing; approximate 25% organic, 1pp structural and 3pp FX contributions are rounded, not exact currency allocations. Working-day impact was zero in Machining, but pre-buying around price changes makes early-October daily orders less reliable. Current IOMA exceeds the Q3 2025 decremental ratio but is below Q2 2026. Profit and revenue now both grow; the older positive ratio reflected both shrinking, not superior economics."
+        ],
+        [
+          "Cash normalization, rental and investing",
+          "OCF change +1,247 reconciles as pre-working-capital +2,475, working capital -1,303 and rental investment/disposal cash improvement +75. Current inventories used 2,716 versus 802, receivables generated 422/310 and operating liabilities 1,091/591. Removing working capital in BOTH periods yields a diagnostic OCF 8,384/5,834, not normalized cash. Rental cash investment 274/297 and disposals 80/28 are already included in OCF: counting rental purchases again in the capex subtraction would double-count them. For an all-gross-investment presentation, pre-rental OCF is 7,375/6,203, total gross business investment is 1,272/1,114, and FCF before rental disposals is 6,103/5,089; add disposals 80/28 to recover 6,183/5,117."
+        ],
+        [
+          "Investing reconciliation and durability",
+          "Q3 investing cash -6,398 comprises acquisitions -4,809, disposal-of-company/share cash -80, PP&E -819, PP&E proceeds +50, intangibles -179, financial-asset proceeds -4 and other investing -556. Prior total -1,441 comprises -916+256−614+16−203−1+3+18. The unusual negative proceeds lines are retained as published, not recast as gains. Their nature and the other-investment composition need fuller notes. YTD OCF 14,499/11,784 less PP&E/intangibles 2,750/2,783 gives 11,749/9,001; company free operating cash flow is instead 14,371/14,502. Do not compare these different definitions as if they were the same FCF. Q4 guidance calls for limited YoY tungsten timing effect, a roughly +600m EBITA FX impact and a -400m tariff-refund revenue effect with no absolute EBITA impact. These effects can mechanically alter IOMA. There is no company group revenue/profit forecast for FY2027; robust orders must be weighed against commodity-cycle and customer pre-buy reversal risk."
+        ]
+      ],
+      "outlook": [
+        [
+          "Revenue",
+          "Partly durable; medium confidence in underlying demand, tempered by pre-buying and the Q4 tariff-revenue effect.",
+          "Partly durable; medium-low confidence; no numerical company forecast and commodity pricing can reverse."
+        ],
+        [
+          "Profit / IOMA",
+          "Partly durable; medium confidence in improved margins, lower confidence in a stable 34.0% incremental ratio.",
+          "Partly durable; medium-low confidence as savings annualize and tungsten/mix conditions change."
+        ],
+        [
+          "Normalized OCF / FCF",
+          "Partly corroborates; medium confidence, but working-capital needs dilute conversion.",
+          "Insufficient evidence; low-medium confidence without a sustainable inventory and acquisition-investment plan."
+        ]
+      ],
+      "gaps": "Exact prior tungsten timing benefit, price-normalized revenue, pre-buying amounts and certain financial-asset/other-investing classifications are unresolved; the 85–95% confidence target is not met."
+    }
+  },
+  "historical_sources": {
+    "NOK": [
+      [
+        "Q2 2026 and recast H1 comparison",
+        "https://www.nokia.com/newsroom/nokia-corporation-report-for-q2-and-half-year-2026/"
+      ]
+    ],
+    "VLO": [
+      [
+        "Q3 2025 release",
+        "https://www.sec.gov/Archives/edgar/data/1035002/000162828025045978/a9302025exh9901earningsrel.htm"
+      ],
+      [
+        "Q2 2026 release",
+        "https://www.sec.gov/Archives/edgar/data/1035002/000162828026050822/a6302026exh9901earningsrel.htm"
+      ],
+      [
+        "H1 2026 filing",
+        "https://www.sec.gov/Archives/edgar/data/1035002/000162828026050937/vlo-20260630.htm"
+      ]
+    ],
+    "NDAQ": [
+      [
+        "Q3 2025 release",
+        "https://www.sec.gov/Archives/edgar/data/1120193/000119312525244271/d46597dex991.htm"
+      ],
+      [
+        "Q2 2026 release",
+        "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000011/earningsrelease2q26ex-991.htm"
+      ],
+      [
+        "H1 2026 filing",
+        "https://www.sec.gov/Archives/edgar/data/1120193/000112019326000013/ndaq-20260630.htm"
+      ],
+      [
+        "Q3 2025 filing",
+        "https://www.sec.gov/Archives/edgar/data/1120193/000162828025046006/ndaq-20250930.htm"
+      ]
+    ],
+    "TTMI": [
+      [
+        "Q3 2025 release",
+        "https://www.sec.gov/Archives/edgar/data/1116942/000119312525256425/d89774dex991.htm"
+      ],
+      [
+        "Q2 2026 release",
+        "https://www.sec.gov/Archives/edgar/data/1116942/000119312526336163/d132953dex991.htm"
+      ],
+      [
+        "H1 2026 filing",
+        "https://www.sec.gov/Archives/edgar/data/1116942/000119312526335107/ttmi-20260629.htm"
+      ],
+      [
+        "Q3 2025 filing",
+        "https://www.sec.gov/Archives/edgar/data/1116942/000119312525260708/ttmi-20250929.htm"
+      ]
+    ],
+    "COCO": [
+      [
+        "Q3 2025 release",
+        "https://www.sec.gov/Archives/edgar/data/1482981/000162828025046919/coco-20250930xexx991pressr.htm"
+      ],
+      [
+        "Q2 2026 release",
+        "https://www.sec.gov/Archives/edgar/data/1482981/000162828026049279/coco-20260630xexx991pressr.htm"
+      ]
+    ],
+    "SDVKY": [
+      [
+        "Q3 2025 report",
+        "https://www.home.sandvik/siteassets/investors/reports--presentations/interim-reports/2025/interim-report-q3-2025.pdf"
+      ],
+      [
+        "Q2 2026 report",
+        "https://www.home.sandvik/siteassets/investors/reports--presentations/interim-reports/2026/interim-report-second-quarter-2026.pdf"
+      ]
+    ]
+  }
+}

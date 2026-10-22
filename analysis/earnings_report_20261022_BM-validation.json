@@ -1,0 +1,33 @@
+{
+  "report": "earnings_report_20261022_BM.html",
+  "original_sha256": "41b60813c62d92cff15d1f578b562ca5575a0a1c4ae3aa3dd0086e69fb59ce03",
+  "result_sha256": "190c8e4431ab7575102410700e8f504a99c66e995d407beb43e396ebadc0b436",
+  "filtered_rows": 10,
+  "calculated": 10,
+  "unavailable": 0,
+  "erqi_selected": [
+    "NOK",
+    "VLO",
+    "NDAQ",
+    "TTMI",
+    "COCO",
+    "SDVKY"
+  ],
+  "erqi_excluded": [
+    "AAL",
+    "HBAN",
+    "UNP",
+    "ARGX"
+  ],
+  "original_content_reverse_removal": "byte-identical",
+  "all_original_cells": "unchanged",
+  "columns_per_row": "exactly one IOMA then one strict comparison",
+  "anchors": "valid, unique IDs",
+  "scorecards": "three visible block cards per issuer; fixed order, no multi-column CSS",
+  "cash_gaps": [
+    "NDAQ current Q3 capex/investing detail",
+    "TTMI current gross capex/disposals and cash bridge",
+    "VLO current gross capex/refund and investing detail"
+  ],
+  "visual_QA": "structural and CSS checks only; not rendered browser QA"
+}
