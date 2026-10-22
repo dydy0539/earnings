@@ -1,0 +1,172 @@
+{
+  "date": "20261022",
+  "scraped_at": "2026-10-22T10:34:26.745196-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "NOK",
+      "name": "Nokia",
+      "revenue_millions": 5931.22,
+      "revenue_raw": "$5,931.22 Mil (reported)",
+      "growth_rate": 5.1,
+      "growth_raw": "5.1%",
+      "eps_estimate": 0.08,
+      "reported_eps": 0.1,
+      "eps_surprise_pct": 25,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "AAL",
+      "name": "American Airlines Group Inc.",
+      "revenue_millions": 16335,
+      "revenue_raw": "$16,335.00 Mil (reported)",
+      "growth_rate": 19.3,
+      "growth_raw": "19.3%",
+      "eps_estimate": -0.28,
+      "reported_eps": -0.28,
+      "eps_surprise_pct": 0,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy Corporation",
+      "revenue_millions": 46098,
+      "revenue_raw": "$46,098.00 Mil (reported)",
+      "growth_rate": 43.3,
+      "growth_raw": "43.3%",
+      "eps_estimate": 21.28,
+      "reported_eps": 23.9,
+      "eps_surprise_pct": 12.31,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NDAQ",
+      "name": "Nasdaq, Inc.",
+      "revenue_millions": 2393,
+      "revenue_raw": "$2,393.00 Mil (reported)",
+      "growth_rate": 22.2,
+      "growth_raw": "22.2%",
+      "eps_estimate": 1.02,
+      "reported_eps": 1.04,
+      "eps_surprise_pct": 1.96,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "HBAN",
+      "name": "Huntington Bancshares Incorporated",
+      "revenue_millions": 4111,
+      "revenue_raw": "$4,111.00 Mil (reported)",
+      "growth_rate": 27.4,
+      "growth_raw": "27.4%",
+      "eps_estimate": 0.38,
+      "reported_eps": 0.38,
+      "eps_surprise_pct": 0,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "revenue_millions": 7197,
+      "revenue_raw": "$7,197.00 Mil (reported)",
+      "growth_rate": 15.3,
+      "growth_raw": "15.3%",
+      "eps_estimate": 3.47,
+      "reported_eps": 3.53,
+      "eps_surprise_pct": 1.73,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "ARGX",
+      "name": "argenx SE",
+      "revenue_millions": 1751,
+      "revenue_raw": "$1,751.00 Mil (reported)",
+      "growth_rate": 52.1,
+      "growth_raw": "52.1%",
+      "eps_estimate": 7.44,
+      "reported_eps": 7.8,
+      "eps_surprise_pct": 4.84,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "TTMI",
+      "name": "TTM Technologies, Inc.",
+      "revenue_millions": 1203.86,
+      "revenue_raw": "$1,203.86 Mil (reported)",
+      "growth_rate": 59.9,
+      "growth_raw": "59.9%",
+      "eps_estimate": 1.25,
+      "reported_eps": 1.46,
+      "eps_surprise_pct": 31.53,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "COCO",
+      "name": "The Vita Coco Company, Inc.",
+      "revenue_millions": 243.82,
+      "revenue_raw": "$243.82 Mil (reported)",
+      "growth_rate": 33.7,
+      "growth_raw": "33.7%",
+      "eps_estimate": 0.51,
+      "reported_eps": 0.58,
+      "eps_surprise_pct": 13.73,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "SDVKY",
+      "name": "Sandvik AB",
+      "revenue_millions": 3911.19,
+      "revenue_raw": "$3,911.19 Mil (reported)",
+      "growth_rate": 27.3,
+      "growth_raw": "27.3%",
+      "eps_estimate": 0.46,
+      "reported_eps": 0.48,
+      "eps_surprise_pct": 4.35,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 10,
+  "total_original": 62
+}
