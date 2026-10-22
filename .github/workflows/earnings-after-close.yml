@@ -2,11 +2,14 @@ name: Earnings after close
 
 on:
   schedule:
-    # 19:00 US/Eastern during EDT (23:00 UTC) and during EST (00:00 UTC next day).
-    # Both slots stay at or after 16:00 ET, so the session is always after-close.
-    # The later run overwrites the same day's AM files.
-    - cron: "0 23 * * 1-5"
-    - cron: "0 0 * * 2-6"
+    # Off-minute retries. Minute 0 is when GitHub schedule delays pile up.
+    # 23:07–23:47 UTC Mon–Fri is 19:07–19:47 EDT (inside the window) and
+    # 18:07–18:47 EST (script skips until 19:00 ET).
+    - cron: "7,17,27,37,47 23 * * 1-5"
+    # 00:07–01:47 UTC Tue–Sat is 20:07–21:47 EDT the previous weekday, or
+    # 19:07–20:47 EST. Together with the 23:xx cron this covers the
+    # [19:00, 22:00) ET scrape window in both EDT and EST.
+    - cron: "7,17,27,37,47 0-1 * * 2-6"
   workflow_dispatch:
     inputs:
       mode:
@@ -36,6 +39,9 @@ jobs:
       - name: Install scraper dependencies
         run: python3 -m pip install 'requests>=2.31.0' tzdata
       - name: Scrape and commit the report
+        env:
+          # workflow_dispatch leaves this false and scrapes immediately.
+          ENFORCE_SCHEDULE_WINDOW: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
         run: bash .github/scripts/commit-earnings-report.sh amc
 
   analyze:
