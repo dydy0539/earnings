@@ -1,0 +1,14 @@
+Early check: intended report is not yet available in the authoritative GitHub branch. This is NOT a scheduled-time missing-file failure.
+Repository: https://github.com/dydy0539/earnings
+Branch: cursor/save-earnings-reports-2dbe
+Expected repository-root absolute path: /earnings_report_20261021_AM.html
+Expected URL: https://github.com/dydy0539/earnings/blob/cursor/save-earnings-reports-2dbe/earnings_report_20261021_AM.html
+Selection: fallback inferred from actual local run; heartbeat delivery is not intended-occurrence metadata. No older queued occurrence is claimed.
+Scheduled local: 2026-10-22T08:30:00+08:00
+Actual local start: 2026-10-22T08:26:18.028591+08:00
+Local IANA timezone: Asia/Shanghai
+Signed lateness: -221.971409 seconds (negative means early)
+Scheduled New York report timestamp: 2026-10-21T20:30:00-04:00
+Actual New York start: 2026-10-21T20:26:18.028591-04:00
+The exact AM report was absent at this early check. No prior report or local substitute was used. IOMA and ERQI were not run; company count is unknown, not zero.
+Verified branch head: 32863dbcdd623481ac9194779ba22e090dfd8f91
