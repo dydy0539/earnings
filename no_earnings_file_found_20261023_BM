@@ -1,0 +1,17 @@
+Missing authoritative online earnings report
+
+Repository: dydy0539/earnings
+Branch: main
+Expected repository-root path: /earnings_report_20261023_BM.html
+Expected URL: https://github.com/dydy0539/earnings/blob/main/earnings_report_20261023_BM.html
+Former local absolute report path (not authoritative for this scheduled run): /Users/yiding/Dropbox/My Mac (Yis-MacBook-Pro.local)/Documents/earnings/earnings_report_20261023_BM.html
+
+actual_local_start: 2026-10-23T21:34:30.510863+08:00
+timezone: Asia/Shanghai
+scheduled_local: 2026-10-23T21:30:00+08:00
+scheduled_new_york: 2026-10-23T09:30:00-04:00
+lateness_seconds: 270.510863
+selection: fallback from actual local run; heartbeat timestamp is not occurrence metadata
+report: earnings_report_20261023_BM.html
+
+The exact scheduled report is absent from the authoritative GitHub main root after the 21:30 scheduled time. The same-date local report exists and was enriched earlier, but the automation forbids substituting a local report for the missing authoritative online report. No prior date or alternative session was processed. IOMA/ERQI online coverage: not run because the online HTML is missing; this is not a financial-input failure.
