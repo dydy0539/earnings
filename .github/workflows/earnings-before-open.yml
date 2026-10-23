@@ -2,23 +2,25 @@ name: Earnings before open
 
 on:
   schedule:
-    # GitHub delays and sometimes drops minute-0 crons, so retry off :00.
-    # 12:07–14:47 UTC Mon–Fri is 08:07–10:47 EDT. During EST the same cron is
-    # 07:07–09:47 ET; the script skips anything before 08:00 ET, leaving
-    # 08:07–09:47 EST. The scrape window itself is [08:00, 11:00) ET.
-    - cron: "7,17,27,37,47 12-14 * * 1-5"
+    # GitHub delivers this repo's schedule events 2–4 hours late, and drops
+    # some. 08:07–20:37 UTC Mon–Fri is 04:07–16:37 EDT or 03:07–15:37 EST.
+    # Starts before 08:00 ET sleep until the open (at most 5 hours); later
+    # starts scrape until the 16:00 ET cutoff unless a fresh BM exists.
+    - cron: "7,37 8-20 * * 1-5"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: earnings-report-commit
+  # One scheduled run sleeps or scrapes at a time; manual runs never queue behind it.
+  group: earnings-before-open-${{ github.event_name }}
   cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 340
     steps:
       - uses: actions/checkout@v4
         with:
