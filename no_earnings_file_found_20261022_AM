@@ -1,0 +1,12 @@
+Exact scheduled report not yet available; this run started early, not a scheduled-time missing-file failure.
+Authoritative repository: https://github.com/dydy0539/earnings/tree/main
+Expected report: https://github.com/dydy0539/earnings/blob/main/earnings_report_20261022_AM.html
+Expected repository absolute path: /earnings_report_20261022_AM.html
+Legacy local path (not authoritative): /Users/yiding/Dropbox/My Mac (Yis-MacBook-Pro.local)/Documents/earnings/earnings_report_20261022_AM.html
+Actual local start: 2026-10-23T08:27:57.708123+08:00
+Local IANA timezone: Asia/Shanghai
+Scheduled local occurrence: 2026-10-23T08:30:00+08:00
+Scheduled New York report timestamp: 2026-10-22T20:30:00-04:00
+Signed lateness seconds: -122.291877
+Fallback inferred from actual local run; heartbeat delivery timestamp is not intended-occurrence metadata.
+No alternative date/session substituted. IOMA and ERQI not run because the exact report is absent.
