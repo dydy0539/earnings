@@ -1,0 +1,30 @@
+{
+  "original_sha256": "5b2500e9bef2829979375b0c34051acfb75fe7a9b73495ea80d79fb4664340a8",
+  "output_sha256": "505c65926f5cee36c20bd8d06040dc9d6661b64c31b14e0baa29742201d59c5d",
+  "filtered_count": 14,
+  "calculated": 14,
+  "unavailable": 0,
+  "selected": [
+    "BE",
+    "WDC",
+    "MXL",
+    "NEM",
+    "RNG",
+    "FIX",
+    "OMC",
+    "APPF",
+    "BWMX",
+    "SIGI",
+    "UVE"
+  ],
+  "excluded": [
+    "ENVA",
+    "VTMX",
+    "BHRB"
+  ],
+  "reverse_removal_equal": true,
+  "one_cell_per_row": true,
+  "local_anchors_valid": true,
+  "scorecards_single_column": true,
+  "visual_qa": "Not performed; structural and CSS validation only"
+}

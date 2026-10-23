@@ -1,0 +1,202 @@
+[
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465925101818/fix-20251023xex99d1.htm",
+    "status": 200,
+    "bytes": 428091
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926086255/fix-20260723xex99d1.htm",
+    "status": 200,
+    "bytes": 420589
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118156/fix-ex99d1.htm",
+    "status": 200,
+    "bytes": 419606
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1035983/000110465926118159/fix-20260930x10q.htm",
+    "status": 200,
+    "bytes": 2119788
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828025047539/a4ex991-pressreleaseq126.htm",
+    "status": 200,
+    "bytes": 339192
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026053305/a4ex991-pressreleaseq426.htm",
+    "status": 200,
+    "bytes": 455934
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/106040/000162828026066882/a4ex991-pressreleaseq127.htm",
+    "status": 200,
+    "bytes": 312268
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472725000044/newmontq32025earningsrelea.htm",
+    "status": 200,
+    "bytes": 2324460
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000034/newmontq22026earningsrelea.htm",
+    "status": 200,
+    "bytes": 2356575
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000041/newmontq32026earningsrelea.htm",
+    "status": 200,
+    "bytes": 2474421
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1164727/000116472726000043/nem-20260930.htm",
+    "status": 200,
+    "bytes": 4616757
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846925000095/a9302025exhibit991.htm",
+    "status": 200,
+    "bytes": 578222
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000050/a06302026exhibit991.htm",
+    "status": 200,
+    "bytes": 453031
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000060/a09302026exhibit991.htm",
+    "status": 200,
+    "bytes": 430307
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000061/mxl-20260930.htm",
+    "status": 200,
+    "bytes": 1667230
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490525000049/rng-20250930x8kxex991.htm",
+    "status": 200,
+    "bytes": 390749
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000043/rng-20260630x8kxex991.htm",
+    "status": 200,
+    "bytes": 395001
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1384905/000138490526000058/rng-20260930x8kxex991.htm",
+    "status": 200,
+    "bytes": 403106
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319525000140/appfq32025exhibit991.htm",
+    "status": 200,
+    "bytes": 362052
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000056/appfq22026exhibit991.htm",
+    "status": 200,
+    "bytes": 346755
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000062/appfq32026exhibit991.htm",
+    "status": 200,
+    "bytes": 349251
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1433195/000143319526000064/appf-20260930.htm",
+    "status": 200,
+    "bytes": 1176173
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1529864/000119312526428941/enva-ex99_1.htm",
+    "status": 200,
+    "bytes": 819867
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828025046745/ex991_q32025financialresul.htm",
+    "status": 200,
+    "bytes": 398298
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026050150/ex991_q226financialresults.htm",
+    "status": 200,
+    "bytes": 559744
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066890/ex991_q326financialresults.htm",
+    "status": 200,
+    "bytes": 528595
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/be-20260930.htm",
+    "status": 200,
+    "bytes": 2231495
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1788257/000121390026080912/ea029841201ex99-1.htm",
+    "status": 200,
+    "bytes": 245837
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1788257/000121390026111757/ea030869501ex99-1.htm",
+    "status": 200,
+    "bytes": 299228
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1964333/000196433326000102/a3q2026earningspressrelease.htm",
+    "status": 200,
+    "bytes": 679011
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1969373/000196937326000018/quarterlyreport3q2026ex-991.htm",
+    "status": 200,
+    "bytes": 625864
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055725000022/q32025pressreleaseexh991.htm",
+    "status": 200,
+    "bytes": 310942
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000018/q22026pressreleaseexh991.htm",
+    "status": 200,
+    "bytes": 313528
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/230557/000023055726000024/pressreleaseexh991q32026.htm",
+    "status": 200,
+    "bytes": 311625
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998925000035/a2025q3earningsrelease.htm",
+    "status": 200,
+    "bytes": 319216
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000018/a2026q2earningsrelease.htm",
+    "status": 200,
+    "bytes": 436419
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/29989/000002998926000024/a2026q3earningsrelease.htm",
+    "status": 200,
+    "bytes": 434371
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/891166/000089116625000170/a3q25uveex-991xearningspre.htm",
+    "status": 200,
+    "bytes": 434267
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/891166/000089116626000085/a2q26uveex-991xearningspre.htm",
+    "status": 200,
+    "bytes": 450290
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/891166/000089116626000092/a3q26uveex-991xearningspre.htm",
+    "status": 200,
+    "bytes": 448695
+  }
+]
