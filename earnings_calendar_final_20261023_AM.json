@@ -1,0 +1,23 @@
+{
+  "date": "20261023",
+  "scraped_at": "2026-10-23T21:28:26.755917-04:00",
+  "session": "amc",
+  "companies": [
+    {
+      "symbol": "RCBC",
+      "company_name": "River City Bank",
+      "time": "After Market Close",
+      "source": "api/caldata",
+      "quarter": "9/2026",
+      "eps_estimate": 1.29,
+      "revenue_estimate_millions": 79.7,
+      "prior_year_sales_millions": null,
+      "reported_eps": 1.29,
+      "reported_revenue_millions": 79.696,
+      "eps_surprise_pct": 0,
+      "revenue_millions": 79.7,
+      "revenue_raw": "$79.70 Mil (reported)"
+    }
+  ],
+  "status": "success"
+}
