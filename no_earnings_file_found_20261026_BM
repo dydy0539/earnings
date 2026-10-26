@@ -1,0 +1,18 @@
+Missing authoritative online earnings report
+
+Repository: dydy0539/earnings
+Branch: main
+Expected repository-root path: /earnings_report_20261026_BM.html
+Expected URL: https://github.com/dydy0539/earnings/blob/main/earnings_report_20261026_BM.html
+Former local absolute path (not authoritative for this scheduled run): /Users/yiding/Dropbox/My Mac (Yis-MacBook-Pro.local)/Documents/earnings/earnings_report_20261026_BM.html
+
+actual_local_start: 2026-10-26T21:34:36.385658+08:00
+timezone: Asia/Shanghai
+scheduled_local: 2026-10-26T21:30:00+08:00
+scheduled_new_york: 2026-10-26T09:30:00-04:00
+lateness_seconds: 276.385658
+selection: fallback from actual local run; delivery timestamp is not intended-occurrence metadata
+report: earnings_report_20261026_BM.html
+permitted: True
+
+The exact same-day BM report is absent from GitHub main after the scheduled time. Monday evening selects Monday BM; no Friday report, prior date, alternate session or local file was substituted. This is a missing online HTML report, not a missing financial input. IOMA and ERQI were not run; company counts and eligibility cannot be assessed.
