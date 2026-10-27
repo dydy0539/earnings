@@ -45,48 +45,55 @@ Weekday runs happen on GitHub-hosted runners and push the HTML report back to th
 branch the workflow ran from (normally `main`). The laptop does not need to be on.
 Schedules run only from the default branch `main`.
 
-GitHub Actions schedules are best-effort. They cannot hit an exact minute. Crons
-that fire at minute 0 (the top of every hour) are especially late, and GitHub
-sometimes drops the event entirely. The workflows therefore retry many times
-**off minute 0**, and the commit script skips a retry when it is outside the ET
-window or when that ET date and session already has a fresh report.
+GitHub Actions schedules are best-effort. For this repo, every schedule event
+in October 2026 arrived **2–4 hours late**, and some never arrived (for example,
+`0 23` ran at 01:07 UTC, `0 0` at 03:29 UTC, and the 14:47 UTC before-open slot
+at 18:47 UTC). GitHub also drops a delayed event if its cron line was removed
+from the workflow file before delivery. So the workflows do not rely on punctual
+delivery:
 
-| Workflow | ET window (Mon–Fri) | UTC cron (off minute 0) | Session |
+- Crons start up to 5 hours **before** the window opens. A run that starts
+  early sleeps until the open, pulls the branch, re-checks, then scrapes.
+- Crons keep firing until a late cutoff. A run that starts late still scrapes
+  if that ET date and session has no fresh report yet.
+
+| Workflow | ET open → cutoff (Mon–Fri) | UTC cron | Session |
 | --- | --- | --- | --- |
-| `.github/workflows/earnings-before-open.yml` | [08:00, 11:00) | `7,17,27,37,47 12-14 * * 1-5` | `bmo` → suffix `BM` |
-| `.github/workflows/earnings-after-close.yml` | [19:00, 22:00) | `7,17,27,37,47 23 * * 1-5` and `7,17,27,37,47 0-1 * * 2-6` | `amc` → suffix `AM` |
+| `.github/workflows/earnings-before-open.yml` | 08:00 → 16:00 | `7,37 8-20 * * 1-5` | `bmo` → suffix `BM` |
+| `.github/workflows/earnings-after-close.yml` | 19:00 → 24:00 | `7,37 19-23 * * 1-5` and `7,37 0-4 * * 2-6` | `amc` → suffix `AM` |
+
+The after-close cutoff is midnight ET because the scraper uses the current ET
+date. The before-open cutoff is the 16:00 ET close, where the after-close
+session begins. When delivery is on time, the first early run sleeps and
+scrapes right at 08:00 or 19:00 ET.
 
 America/New_York is EDT (UTC-4) through November 1, 2026, then EST (UTC-5).
 China (Asia/Shanghai, UTC+8) does not observe daylight saving time. The windows
 are wall-clock US/Eastern, so the open stays 08:00 and 19:00 ET after the change.
+In China time, the open is 20:00 (EDT) or 21:00 (EST) for before-open, and
+07:00 (EDT) or 08:00 (EST) the next morning for after-close.
 
-Before-open cron `7,17,27,37,47` at 12:00–14:00 UTC:
-
-- EDT: 08:07–10:47 ET (20:07–22:47 China time), inside the window
-- EST: 07:07–09:47 ET (20:07–22:47 China time). Starts before 08:00 ET are skipped,
-  so the same cron still covers 08:07–09:47 EST (21:07–22:47 China time)
-
-After-close:
-
-- `7,17,27,37,47` at 23:00 UTC Mon–Fri is 19:07–19:47 EDT (07:07–07:47 China time
-  the next calendar day) and 18:07–18:47 EST (07:07–07:47 China time). EST slots
-  before 19:00 ET are skipped.
-- `7,17,27,37,47` at 00:00–01:00 UTC Tue–Sat is 20:07–21:47 EDT the previous
-  weekday (08:07–09:47 China time) or 19:07–20:47 EST (08:07–09:47 China time).
-
-Scheduled jobs set `ENFORCE_SCHEDULE_WINDOW=true`. The script makes one decision
-in `America/New_York`: skip Saturday and Sunday, skip outside the window above,
-and skip when `earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json`,
+Scheduled jobs set `ENFORCE_SCHEDULE_WINDOW=true`. The script decides in
+`America/New_York`: skip Saturday and Sunday; wait if the open is at most 5 hours
+away; skip if it is further away or past the cutoff; and skip when
+`earnings_calendar_final_{YYYYMMDD}_{AM|BM}.json`,
 `earnings_filtered_{YYYYMMDD}_{AM|BM}.json`, or
 `earnings_report_{YYYYMMDD}_{AM|BM}.html` for that ET date and session already
 has `scraped_at` at or after the window open (08:00 ET or 19:00 ET). A manual
 `workflow_dispatch` or a local run does not set the variable, so those still
 scrape at any time. The after-close `analyze` job is unchanged.
 
-These retries only help when GitHub is minutes late, or drops some of the
-slots. If every schedule event is delayed by hours, a run can still land after
-the window closes and will be skipped. GitHub still cannot promise 08:00 or
-19:00 ET exactly.
+Each workflow serializes its scheduled runs (`concurrency` per workflow and
+event), so only one run sleeps at a time. Further schedule events that arrive
+meanwhile show as cancelled in the Actions tab; that is expected. Manual runs
+use their own group and never wait behind a sleeping run.
+
+To check a decision without scraping:
+
+```bash
+SCHEDULE_WINDOW_DRY_RUN=1 SCHEDULE_WINDOW_NOW=2026-10-23T01:07:00+00:00 \
+  bash .github/scripts/commit-earnings-report.sh amc
+```
 
 The runner commits `earnings_report_*.html` plus the calendar and filtered JSON, as
 `github-actions[bot]`. Either workflow can also be started by hand from the
