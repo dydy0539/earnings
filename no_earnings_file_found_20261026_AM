@@ -1,0 +1,18 @@
+Early check: report not yet available
+
+Repository: dydy0539/earnings
+Branch: main
+Expected repository-root path: /earnings_report_20261026_AM.html
+Expected URL: https://github.com/dydy0539/earnings/blob/main/earnings_report_20261026_AM.html
+Former local absolute path (not authoritative): /Users/yiding/Dropbox/My Mac (Yis-MacBook-Pro.local)/Documents/earnings/earnings_report_20261026_AM.html
+
+actual_local_start: 2026-10-27T08:28:39.413941+08:00
+timezone: Asia/Shanghai
+scheduled_local: 2026-10-27T08:30:00+08:00
+scheduled_new_york: 2026-10-26T20:30:00-04:00
+lateness_seconds: -80.586059
+selection: fallback from actual local run; delivery timestamp is not intended-occurrence metadata
+report: earnings_report_20261026_AM.html
+permitted: True
+
+This trigger started 80.586059 seconds before the same-day 08:30 local scheduled occurrence. The exact October 26 AM report is not yet available in the authoritative online root. This is an early unavailable-report observation, not a scheduled-time missing-file failure. No older report, other session or local substitute was processed. IOMA/ERQI have not run; company counts and eligibility are not assessable.
