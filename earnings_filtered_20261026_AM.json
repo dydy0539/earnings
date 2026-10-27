@@ -1,0 +1,172 @@
+{
+  "date": "20261026",
+  "scraped_at": "2026-10-26T21:58:13.368627-04:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "CLS",
+      "name": "Celestica Inc.",
+      "revenue_millions": 5829.7,
+      "revenue_raw": "$5,829.70 Mil (reported)",
+      "growth_rate": 82.5,
+      "growth_raw": "82.5%",
+      "eps_estimate": 3.02,
+      "reported_eps": 3.3,
+      "eps_surprise_pct": 14.1869,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CDNS",
+      "name": "Cadence Design Systems, Inc.",
+      "revenue_millions": 1633.31,
+      "revenue_raw": "$1,633.31 Mil (reported)",
+      "growth_rate": 22.0,
+      "growth_raw": "22.0%",
+      "eps_estimate": 2.05,
+      "reported_eps": 2.11,
+      "eps_surprise_pct": 31.0559,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "NUE",
+      "name": "Nucor Corp.",
+      "revenue_millions": 11249,
+      "revenue_raw": "$11,249.00 Mil (reported)",
+      "growth_rate": 32.0,
+      "growth_raw": "32.0%",
+      "eps_estimate": 5.71,
+      "reported_eps": 5.8,
+      "eps_surprise_pct": 1.58,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "WELL",
+      "name": "Welltower Inc.",
+      "revenue_millions": 3715.78,
+      "revenue_raw": "$3,715.78 Mil (reported)",
+      "growth_rate": 38.4,
+      "growth_raw": "38.4%",
+      "eps_estimate": 1.64,
+      "reported_eps": 1.67,
+      "eps_surprise_pct": 1.83,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "JBLU",
+      "name": "JetBlue Airways Corporation",
+      "revenue_millions": 2812,
+      "revenue_raw": "$2,812.00 Mil (reported)",
+      "growth_rate": 21.1,
+      "growth_raw": "21.1%",
+      "eps_estimate": -0.55,
+      "reported_eps": -0.6,
+      "eps_surprise_pct": -9.09,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "PFG",
+      "name": "Principal Financial Group, Inc.",
+      "revenue_millions": 4616.4,
+      "revenue_raw": "$4,616.40 Mil (reported)",
+      "growth_rate": 25.4,
+      "growth_raw": "25.4%",
+      "eps_estimate": 2.46,
+      "reported_eps": 2.22,
+      "eps_surprise_pct": -9.76,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "CINF",
+      "name": "Cincinnati Financial Corporation",
+      "revenue_millions": 3047,
+      "revenue_raw": "$3,047.00 Mil (reported)",
+      "growth_rate": -18.2,
+      "growth_raw": "-18.2%",
+      "eps_estimate": 1.99,
+      "reported_eps": 2.86,
+      "eps_surprise_pct": 43.72,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "AGYS",
+      "name": "Agilysys Inc",
+      "revenue_millions": 93.36,
+      "revenue_raw": "$93.36 Mil (reported)",
+      "growth_rate": 17.7,
+      "growth_raw": "17.7%",
+      "eps_estimate": 0.56,
+      "reported_eps": 0.67,
+      "eps_surprise_pct": 76.3158,
+      "source": "api/caldata",
+      "filter_reason": "eps_beat_criteria"
+    },
+    {
+      "ticker": "FSUN",
+      "name": "FirstSun Capital Bancorp",
+      "revenue_millions": 256.04,
+      "revenue_raw": "$256.04 Mil (reported)",
+      "growth_rate": 73.6,
+      "growth_raw": "73.6%",
+      "eps_estimate": 0.98,
+      "reported_eps": 1.03,
+      "eps_surprise_pct": 5.1,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    },
+    {
+      "ticker": "VLRS",
+      "name": "Controladora Vuela Compañía de Aviación, S.A.B. de C.V.",
+      "revenue_millions": 1038,
+      "revenue_raw": "$1,038.00 Mil (reported)",
+      "growth_rate": 32.4,
+      "growth_raw": "32.4%",
+      "eps_estimate": -0.63,
+      "reported_eps": -0.23,
+      "eps_surprise_pct": 64.06,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 10,
+  "total_original": 47
+}
