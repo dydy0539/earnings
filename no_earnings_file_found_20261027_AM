@@ -1,0 +1,19 @@
+Scheduled report missing
+
+Repository: dydy0539/earnings
+Branch: main
+Expected repository-root path: /earnings_report_20261027_AM.html
+Expected URL: https://github.com/dydy0539/earnings/blob/main/earnings_report_20261027_AM.html
+Former local absolute path (not authoritative): /Users/yiding/Dropbox/My Mac (Yis-MacBook-Pro.local)/Documents/earnings/earnings_report_20261027_AM.html
+
+timezone: Asia/Shanghai
+actual_local_start: 2026-10-28T08:30:14.463929+08:00
+scheduled_local: 2026-10-28T08:30:00+08:00
+scheduled_new_york: 2026-10-27T20:30:00-04:00
+lateness_seconds: 14.463929
+session: AM
+date: 20261027
+selection: Fallback inferred from actual local run; delivery timestamp is not intended-occurrence metadata
+permitted: True
+
+The exact report was absent from the authoritative online root at this run, which started 14.463929 seconds after the scheduled occurrence. The contents endpoint returned HTTP 404 and absence was confirmed in the current main tree. No older report, other session or local substitute was processed. IOMA and ERQI were not run; company counts and eligibility are not assessable.
