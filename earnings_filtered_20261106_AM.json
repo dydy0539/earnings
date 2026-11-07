@@ -1,0 +1,55 @@
+{
+  "date": "20261106",
+  "scraped_at": "2026-11-06T21:39:33.152536-05:00",
+  "filter_criteria": {
+    "revenue_growth_rules": [
+      ">10M revenue and >50% growth",
+      ">100M revenue and >30% growth",
+      ">500M revenue and >25% growth",
+      ">1000M revenue and >20% growth",
+      ">5000M revenue and >15% growth"
+    ],
+    "eps_beat_rules": [
+      ">10M revenue and >50% EPS beat",
+      ">100M revenue and >30% EPS beat",
+      ">500M revenue and >25% EPS beat",
+      ">1000M revenue and >20% EPS beat",
+      ">5000M revenue and >15% EPS beat"
+    ],
+    "tracking_list": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "BAC",
+      "BLK",
+      "C",
+      "GOOGL",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "NFLX",
+      "NVDA",
+      "TSLA",
+      "WFC"
+    ],
+    "tracking_list_count": 15
+  },
+  "companies": [
+    {
+      "ticker": "HE",
+      "name": "Hawaiian Electric Industries, Inc.",
+      "revenue_millions": 1008.71,
+      "revenue_raw": "$1,008.71 Mil (reported)",
+      "growth_rate": 27.6,
+      "growth_raw": "27.6%",
+      "eps_estimate": 999,
+      "reported_eps": 0.13,
+      "eps_surprise_pct": 999,
+      "source": "api/caldata",
+      "filter_reason": "revenue_growth_criteria"
+    }
+  ],
+  "total_filtered": 1,
+  "total_original": 22
+}
