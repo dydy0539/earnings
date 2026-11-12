@@ -5,8 +5,9 @@
 # Scheduled jobs set ENFORCE_SCHEDULE_WINDOW=true. The scrape then runs only
 # inside the America/New_York window for that session, on a weekday, and only
 # when that ET date+session does not already have a report scraped at or after
-# the window open. workflow_dispatch and local runs leave the variable unset
-# and scrape immediately.
+# the window open. A start up to 5 hours before the open sleeps until it.
+# workflow_dispatch and local runs leave the variable unset and scrape
+# immediately.
 set -euo pipefail
 
 session="${1:?usage: commit-earnings-report.sh bmo|amc}"
@@ -28,10 +29,8 @@ is_true() {
   esac
 }
 
-if is_true "${ENFORCE_SCHEDULE_WINDOW:-}" || is_true "${SCHEDULE_WINDOW_DRY_RUN:-}"; then
-  set +e
-  decision_output="$(
-    python3 - "$session" "$repo" <<'PY'
+decide() {
+  python3 - "$session" "$repo" <<'PY'
 import json
 import os
 import re
@@ -41,13 +40,17 @@ from zoneinfo import ZoneInfo
 
 ET = ZoneInfo("America/New_York")
 SHANGHAI = ZoneInfo("Asia/Shanghai")
-# Inclusive open, exclusive close. Wall clock in America/New_York, so the
-# same hours apply in EDT and EST. GitHub's off-minute retries sit inside
-# these windows; a start outside them is skipped.
+# Wall clock in America/New_York, so the same hours apply in EDT and EST.
+# GitHub delivers schedule events hours late, so a start before the open
+# waits for it and a late start still scrapes until the cutoff. The amc
+# cutoff is the end of the ET day because the scraper uses the current ET
+# date; bmo stops at the 16:00 ET close, where the after-close session begins.
 WINDOWS = {
-    "bmo": (time(8, 0), time(11, 0), "BM"),
-    "amc": (time(19, 0), time(22, 0), "AM"),
+    "bmo": (time(8, 0), time(16, 0), "BM"),
+    "amc": (time(19, 0), None, "AM"),
 }
+# GitHub-hosted jobs are killed after 6 hours.
+MAX_WAIT_SECONDS = 5 * 3600
 
 
 def parse_scraped_at(value):
@@ -135,19 +138,26 @@ def main():
     wall = now.time().replace(tzinfo=None)
     china = now.astimezone(SHANGHAI)
 
+    close_label = f"{close_t:%H:%M}" if close_t else "24:00"
     decision = "run"
     reason = "inside window and no fresh report"
     fresh_source = ""
     fresh_at = ""
+    wait_seconds = 0
     if now.weekday() >= 5:
         decision = "skip"
         reason = f"weekend in America/New_York ({now:%A})"
     elif wall < open_t:
+        wait_seconds = int((window_open - now).total_seconds()) + 1
+        if wait_seconds <= MAX_WAIT_SECONDS:
+            decision = "wait"
+            reason = f"before window open {open_t:%H:%M} ET; waiting {wait_seconds}s"
+        else:
+            decision = "skip"
+            reason = f"more than {MAX_WAIT_SECONDS // 3600}h before window open {open_t:%H:%M} ET"
+    elif close_t is not None and wall >= close_t:
         decision = "skip"
-        reason = f"before window open {open_t:%H:%M} ET"
-    elif wall >= close_t:
-        decision = "skip"
-        reason = f"at or after window close {close_t:%H:%M} ET"
+        reason = f"at or after cutoff {close_label} ET"
     else:
         found = collect_scraped_at(repo, date_str, session, suffix)
         fresh = [(stamp, path) for stamp, path in found if stamp >= window_open]
@@ -162,7 +172,7 @@ def main():
     print(f"session={session}")
     print(f"date={date_str}")
     print(f"suffix={suffix}")
-    print(f"window=[{open_t:%H:%M}, {close_t:%H:%M}) America/New_York")
+    print(f"window=[{open_t:%H:%M}, {close_label}) America/New_York")
     print(f"window_open={window_open.isoformat()}")
     print(f"now_et={now.strftime('%Y-%m-%d %H:%M:%S %Z')} ({now.isoformat()})")
     print(f"now_cn={china.strftime('%Y-%m-%d %H:%M:%S %Z')} ({china.isoformat()})")
@@ -170,24 +180,48 @@ def main():
     if fresh_at:
         print(f"fresh_scraped_at={fresh_at}")
         print(f"fresh_source={fresh_source}")
+    if decision == "wait":
+        print(f"wait_seconds={wait_seconds}")
     print(f"reason={reason}")
-    return 0 if decision == "run" else 10
+    return {"run": 0, "skip": 10, "wait": 11}[decision]
 
 
 sys.exit(main())
 PY
-  )"
-  decision_status=$?
-  set -e
-  printf '%s\n' "$decision_output"
-  if [[ "$decision_status" -eq 10 ]]; then
-    echo "Skipping scrape."
-    exit 0
-  fi
-  if [[ "$decision_status" -ne 0 ]]; then
-    echo "Schedule window check failed (status ${decision_status})." >&2
-    exit "$decision_status"
-  fi
+}
+
+if is_true "${ENFORCE_SCHEDULE_WINDOW:-}" || is_true "${SCHEDULE_WINDOW_DRY_RUN:-}"; then
+  while true; do
+    set +e
+    decision_output="$(decide)"
+    decision_status=$?
+    set -e
+    printf '%s\n' "$decision_output"
+    case "$decision_status" in
+      0) break ;;
+      10)
+        echo "Skipping scrape."
+        exit 0
+        ;;
+      11)
+        if is_true "${SCHEDULE_WINDOW_DRY_RUN:-}"; then
+          echo "Dry run: not waiting."
+          exit 0
+        fi
+        wait_seconds="$(sed -n 's/^wait_seconds=//p' <<<"$decision_output")"
+        echo "Waiting ${wait_seconds}s for the window to open."
+        sleep "$wait_seconds"
+        # Another run may have committed a fresh report while this one slept.
+        if [[ -n "${GITHUB_REF_NAME:-}" ]]; then
+          git -C "$repo" pull --ff-only origin "$GITHUB_REF_NAME"
+        fi
+        ;;
+      *)
+        echo "Schedule window check failed (status ${decision_status})." >&2
+        exit "$decision_status"
+        ;;
+    esac
+  done
   if is_true "${SCHEDULE_WINDOW_DRY_RUN:-}"; then
     echo "Dry run: not scraping."
     exit 0
@@ -214,5 +248,12 @@ report="$(git diff --cached --name-only -- 'earnings_report_*.html' | head -1)"
 stamp="$(TZ=America/New_York date +%Y-%m-%d)"
 git commit -m "Update earnings report ${report:-for ${stamp}} (${session})"
 
-git pull --rebase origin "$GITHUB_REF_NAME"
-git push origin "HEAD:${GITHUB_REF_NAME}"
+for attempt in 1 2 3 4; do
+  git pull --rebase origin "$GITHUB_REF_NAME"
+  if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+    exit 0
+  fi
+  sleep $((attempt * 5))
+done
+echo "Push failed after ${attempt} attempts." >&2
+exit 1
